@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-06 12:12:10
+Date: 2020-03-06 11:54:18
 Author: Benjamin Du
 Slug: subword-algorithms-for-nlp
 Title: Subword Algorithms for NLP
@@ -49,5 +49,7 @@ Kudo. introduced unigram language model as another algorithm for subword segment
 ## References
 
 [3 subword algorithms help to improve your NLP model performance](https://medium.com/@makcedward/how-subword-helps-on-your-nlp-model-83dd1b836f46)
+
+[SentencePiece](https://github.com/google/sentencepiece)
 
 [SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing](https://arxiv.org/pdf/1808.06226.pdf)

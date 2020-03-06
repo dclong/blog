@@ -21,17 +21,9 @@ https://www.google.com/publicdata/directory
 
 https://proxycrawl.com
 
-https://nlp.stanford.edu/sentiment/treebank.html
-
-## Data for Computer Vison
+## [Data for Computer Vison](http://www.legendu.net/misc/blog/data-for-computer-vision-research/)
 
 ## [Data for NLP](http://www.legendu.net/misc/blog/data-for-nlp-research/)
-
-### [Standford NLP - Sentiment Treebank](https://nlp.stanford.edu/sentiment/treebank.html)
-
-### [WordNet](https://wordnet.princeton.edu/)
-
-### [CoLA: The Corpus of Linguistic Acceptability](https://nyu-mll.github.io/CoLA/)
 
 ## Data Sources
 

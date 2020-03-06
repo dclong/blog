@@ -17,13 +17,19 @@ It is not meant to readers but rather for convenient reference of the author and
 
 ## [The Stanford Question Answering Dataset](https://rajpurkar.github.io/SQuAD-explorer/)
 
-[SWAG (Situations With Adversarial Generations)](https://rowanzellers.com/swag/)
+## [SWAG (Situations With Adversarial Generations)](https://rowanzellers.com/swag/)
 
-[Reading Comprehension Dataset (RACE)](http://www.qizhexie.com/data/RACE_leaderboard.html)
+## [Reading Comprehension Dataset (RACE)](http://www.qizhexie.com/data/RACE_leaderboard.html)
 
-[Heuristic Analysis for NLI Systems Data set (HANS)](https://github.com/tommccoy1/hans)
+## [Heuristic Analysis for NLI Systems Data set (HANS)](https://github.com/tommccoy1/hans)
 
-[The Cross-Lingual NLI Corpus (XNLI)](https://www.nyu.edu/projects/bowman/xnli/)
+## [The Cross-Lingual NLI Corpus (XNLI)](https://www.nyu.edu/projects/bowman/xnli/)
+
+## [Standford NLP - Sentiment Treebank](https://nlp.stanford.edu/sentiment/treebank.html)
+
+## [WordNet](https://wordnet.princeton.edu/)
+
+## [CoLA: The Corpus of Linguistic Acceptability](https://nyu-mll.github.io/CoLA/)
 
 ## References
 

@@ -122,4 +122,6 @@ https://github.com/google/seq2seq
 
 ## References
 
+https://medium.com/towards-artificial-intelligence/cross-lingual-language-model-56a65dba9358
+
 https://github.com/huggingface/transformers

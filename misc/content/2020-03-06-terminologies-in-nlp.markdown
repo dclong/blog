@@ -23,6 +23,11 @@ Natural Language Generation, as defined by Artificial Intelligence: Natural Lang
 
 Multi-Genre Natural Language Inference (MultiNLI)
 
+Named Entity Recognition (NER) 
+
+
+Heuristic Analysis for NLI Systems (HANS)
+
 ## Data Related
 
 The Stanford Question Answering Dataset (SQuAD)
@@ -30,6 +35,8 @@ The Stanford Question Answering Dataset (SQuAD)
 Situations With Adversarial Generations (SWAG)
 
 Reading Comprehension Dataset (RACE) 
+
+The Cross-Lingual NLI Corpus (XNLI)
 
 ## Model Related
 
