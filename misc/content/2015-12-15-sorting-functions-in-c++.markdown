@@ -4,7 +4,7 @@ Date: 2015-12-16 00:05:32
 Author: Ben Chuanlong Du
 Slug: sorting-functions-in-c++
 Title: Sorting Functions in C++
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, sort
 
 **

@@ -3,7 +3,7 @@ Date: 2019-12-03 10:14:14
 Author: Benjamin Du
 Slug: a-jni-error-has-occured
 Title: A JNI Error Has Occured
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, JNI error, dependency management
 
 **

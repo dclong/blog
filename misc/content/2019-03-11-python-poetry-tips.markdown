@@ -3,7 +3,7 @@ Date: 2019-12-17 11:26:15
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Python Poetry Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, poetry, build tool, dependency management
 
 **

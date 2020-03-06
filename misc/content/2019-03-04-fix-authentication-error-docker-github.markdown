@@ -3,7 +3,7 @@ Date: 2019-03-04 19:49:58
 Author: Benjamin Du
 Slug: fix-authentication-error-docker-github
 Title: Fix Authentication Error Docker Github
-Category: Programming
+Category: Computer Science
 Tags: Programming, GitHub, Docker, authentication, deployment keys
 
 **

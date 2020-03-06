@@ -4,7 +4,7 @@ Date: 2018-04-30 16:20:46
 Author: Ben Chuanlong Du
 Slug: set-up-external-dependencies-in-zeppelin
 Title: Set Up External Dependencies in Zeppelin
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

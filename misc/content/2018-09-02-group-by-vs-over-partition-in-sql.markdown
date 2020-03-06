@@ -3,7 +3,7 @@ Date: 2019-09-12 18:40:34
 Author: Ben Chuanlong Du
 Slug: group-by-vs-over-partition-in-sql
 Title: Group by vs Over Partition in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, group by, over partition
 
 **

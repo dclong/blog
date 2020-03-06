@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2019-05-09 23:40:44
 Title: Tips on Pig
 Slug: pig-tips
-Category: Programming
+Category: Computer Science
 Tags: programming, big data, Pig, Hadoop, tips
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**

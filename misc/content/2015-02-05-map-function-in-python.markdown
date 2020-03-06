@@ -3,7 +3,7 @@ Date: 2015-02-05 22:58:56
 Author: Ben Chuanlong Du
 Slug: map-function-in-python
 Title: Function Programming in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, map, functional programming, reduce, apply
 
 **

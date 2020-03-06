@@ -3,7 +3,7 @@ Date: 2020-02-18 16:46:42
 Author: Ben Chuanlong Du
 Slug: docker-images-for-programming-languages
 Title: Docker Images for Programming Languages
-Category: Programming
+Category: Computer Science
 Tags: programming, Docker, Python, Scala
 
 **

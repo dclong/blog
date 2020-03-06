@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-file-not-found-exception
 Title: Spark Issue File Not Found Exception
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

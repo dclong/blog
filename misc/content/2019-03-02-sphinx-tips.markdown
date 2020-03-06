@@ -3,7 +3,7 @@ Date: 2019-03-08 23:47:26
 Author: Benjamin Du
 Slug: sphinx-tips
 Title: Sphinx Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Sphinx, Python documentation generator
 
 **

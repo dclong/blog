@@ -4,7 +4,7 @@ Date: 2015-06-20 21:36:25
 Author: Ben Chuanlong Du
 Slug: ms-sql-server-tips
 Title: MS SQL Server Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, tips, MS SQL Server
 
 **

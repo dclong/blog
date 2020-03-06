@@ -4,7 +4,7 @@ Date: 2015-06-20 23:25:05
 Author: Ben Chuanlong Du
 Slug: add-sequential-id-for-observations-in-sas
 Title: Add Sequential ID for Observations in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, SQL, sequential, ID, observation
 
 **

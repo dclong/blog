@@ -3,7 +3,7 @@ Status: published
 Title: Useful Packages and Commands for LaTex
 Date: 2016-05-29 11:37:43
 Tags: color, programming, list, Latex, package, bibliography, enumerate, formula, math, graphics
-Category: Programming
+Category: Computer Science
 Slug: useful-packages-for-latex
 Author: Ben Chuanlong Du
 

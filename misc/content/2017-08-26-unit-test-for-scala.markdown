@@ -4,7 +4,7 @@ Date: 2017-10-22 12:59:02
 Author: Ben Chuanlong Du
 Slug: unit-test-for-scala
 Title: Unit Test for Scala
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

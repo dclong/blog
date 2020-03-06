@@ -4,7 +4,7 @@ Date: 2017-06-11 11:29:03
 Author: Ben Chuanlong Du
 Slug: PPT-skills
 Title: PPT Skills
-Category: Programming
+Category: Computer Science
 Tags: programming, PPT, skills, tips
 
 **

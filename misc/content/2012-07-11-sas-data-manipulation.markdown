@@ -4,7 +4,7 @@ Date: 2015-08-02 12:40:28
 Slug: sas-data-manipulation
 Author: Ben Chuanlong Du
 Title: Manipulate Data in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, SQL, data step, data manipulation
 
 <img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/>

@@ -4,7 +4,7 @@ Date: 2015-06-22 22:01:47
 Author: Ben Chuanlong Du
 Slug: profile-c++-code
 Title: Profile C++ Code
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, profile, profiling, speed, performance, Valgrind, kcachegrind
 
 **

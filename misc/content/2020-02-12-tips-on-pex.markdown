@@ -3,7 +3,7 @@ Date: 2020-02-21 10:37:43
 Author: Benjamin Du
 Slug: tips-on-pex
 Title: Tips on pex
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, pex, dependency, virtual environment
 
 **

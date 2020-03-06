@@ -3,7 +3,7 @@ Status: published
 Title: Java Packages
 Date: 2017-06-11 12:03:35
 Tags: programming, package, Java
-Category: Programming
+Category: Computer Science
 Slug: java-packages
 Author: Ben Chuanlong Du
 

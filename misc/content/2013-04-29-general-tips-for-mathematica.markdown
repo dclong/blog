@@ -3,7 +3,7 @@ Title: General Tips for Mathematica
 Date: 2019-02-18 19:53:47
 Slug: general-tips-for-mathematica
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: tips, Mathematica, programming
 
 **

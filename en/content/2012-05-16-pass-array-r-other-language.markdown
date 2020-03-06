@@ -4,7 +4,7 @@ Date: 2015-01-13 13:14:35
 Author: Ben Chuanlong Du
 Slug: pass-array-r-other-language
 Title: Compare R with Other Languages on Data Manipulation
-Category: Programming
+Category: Computer Science
 Tags: Python, C++, programming, statistics, Java, string, data frame, R, OOP, MATLAB, CRAN
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>

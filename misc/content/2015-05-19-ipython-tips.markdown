@@ -3,7 +3,7 @@ Date: 2019-11-20 11:06:39
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, tips, IPython
 
 **

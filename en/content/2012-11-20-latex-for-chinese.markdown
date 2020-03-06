@@ -4,7 +4,7 @@ Date: 2016-07-13 00:04:39
 Slug: latex-for-chinese
 Author: Ben Chuanlong Du
 Title: LaTeX for Chinese
-Category: Programming
+Category: Computer Science
 Tags: LaTeX, Chinese, programming, Tex Live, XeTex, Linux, fonts, markup
 
 

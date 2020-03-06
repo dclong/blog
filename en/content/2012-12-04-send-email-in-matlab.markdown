@@ -3,7 +3,7 @@ Status: published
 Title: Sending Email in MATLAB
 Date: 2012-12-04 00:00:00
 Tags: MATLAB, programming, email
-Category: Programming
+Category: Computer Science
 Slug: send-email-in-MATLAB
 Author: Ben Chuanlong Du
 

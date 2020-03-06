@@ -3,7 +3,7 @@ Date: 2020-01-03 17:21:11
 Author: Benjamin Du
 Slug: debug-code-in-jupyterlab-notebooks
 Title: Debug Code in JupyterLab Notebooks
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, debug, notebook, Jupyter, JupyterLab, debugger, debugging, %debug, ipdb, pdb
 
 **

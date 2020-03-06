@@ -3,7 +3,7 @@ Date: 2019-02-10 12:26:09
 Author: Benjamin Du
 Slug: check-whether-a-shell-command-exists
 Title: Check Whether a Shell Command Exists
-Category: Programming
+Category: Computer Science
 Tags: programming, Shell, command, exist, Python
 
 **

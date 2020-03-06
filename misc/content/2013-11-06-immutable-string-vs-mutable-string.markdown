@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2016-07-13 22:22:11
 Slug: immutable-string-vs-mutable-string
 Title: Immutable String vs Mutable String
-Category: Programming
+Category: Computer Science
 Tags: programming, string, mutable, immutable
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**

@@ -3,7 +3,7 @@ Date: 2019-08-26 23:40:57
 Author: Benjamin Du
 Slug: spark-issue-cannot-create-a-path-from-an-empty-string
 Title: Spark Issue Cannot Create a Path from An Empty String
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, empty string, path
 
 **

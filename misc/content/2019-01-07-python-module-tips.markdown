@@ -3,7 +3,7 @@ Date: 2019-03-09 13:31:07
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Python Module Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, module, tips, module access
 
 **

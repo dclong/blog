@@ -3,7 +3,7 @@ Status: published
 Title: R System and Configurations
 Date: 2012-11-21 00:00:00
 Tags: R, configuration, programming, system
-Category: Programming
+Category: Computer Science
 Slug: r-system-and-configurations
 Author: Ben Chuanlong Du
 

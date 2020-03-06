@@ -3,7 +3,7 @@ Date: 2019-06-26 21:56:32
 Author: Ben Chuanlong Du
 Slug: read-parquet-files-in-python
 Title: Read Parquet Files in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Parquet, pyarrow, fastparquet
 
 **

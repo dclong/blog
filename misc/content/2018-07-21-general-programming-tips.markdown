@@ -3,7 +3,7 @@ Date: 2019-12-17 09:56:10
 Author: Ben Chuanlong Du
 Slug: general-programming-tips
 Title: General Tips on Programming
-Category: Programming
+Category: Computer Science
 Tags: programming, tips, semantic versioning
 
 **

@@ -3,7 +3,7 @@ Date: 2019-12-28 18:29:29
 Author: Benjamin Du
 Slug: format-java-code
 Title: Format Java Code
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, formatting, code style, EditorConfig, IntelliJ IDEA
 
 **

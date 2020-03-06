@@ -3,7 +3,7 @@ Date: 2019-12-28 09:55:38
 Author: Ben Chuanlong Du
 Slug: python-modules-for-visualization
 Title: Python Modules for Visualization
-Category: Programming
+Category: Computer Science
 Tags: programming, visualization, Python, HoloViews, bokeh, plotly, matplotlib, pandas, library
 
 **

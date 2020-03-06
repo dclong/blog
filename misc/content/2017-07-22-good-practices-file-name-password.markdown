@@ -4,7 +4,7 @@ Date: 2017-07-22 11:02:51
 Author: Ben Chuanlong Du
 Slug: speical-characters-to-avoid-in-file-names-and-password
 Title: Speical Characters to Avoid in File Names and Password
-Category: Programming
+Category: Computer Science
 Tags: programming, speical characters, avoid, password, file name
 
 **

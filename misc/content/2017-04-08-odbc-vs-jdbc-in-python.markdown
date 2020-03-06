@@ -3,7 +3,7 @@ Date: 2019-10-19 01:50:58
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, ODBC, JDBC, database, SQL
 
 **

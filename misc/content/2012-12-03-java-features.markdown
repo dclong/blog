@@ -3,7 +3,7 @@ Status: published
 Title: Java Features
 Date: 2012-12-03 00:00:00
 Tags: switch, string, Java, programming, features
-Category: Programming
+Category: Computer Science
 Slug: java-features
 Author: Ben Chuanlong Du
 

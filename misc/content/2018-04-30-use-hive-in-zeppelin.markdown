@@ -4,7 +4,7 @@ Date: 2018-04-30 16:29:11
 Author: Ben Chuanlong Du
 Slug: use-hive-in-zeppelin
 Title: Use Hive in Zeppelin
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

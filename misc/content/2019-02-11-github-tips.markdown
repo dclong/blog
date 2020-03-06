@@ -3,7 +3,7 @@ Date: 2019-11-19 10:26:04
 Author: Benjamin Du
 Slug: github-tips
 Title: GitHub Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, GitHub, tips
 
 **

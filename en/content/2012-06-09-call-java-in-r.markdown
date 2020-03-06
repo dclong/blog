@@ -4,7 +4,7 @@ Date: 2016-10-23 22:53:22
 Slug: call-java-in-r
 Author: Ben Chuanlong Du
 Title: Call Java in R Using Package rJava
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, array, rJava, R, vector, package
 
 The package "rJava" offers a convenient way to call Java code from R. 

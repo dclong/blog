@@ -3,7 +3,7 @@ Date: 2019-12-23 12:05:25
 Author: Ben Chuanlong Du
 Slug: gradle-tips
 Title: General Tips for Gradle
-Category: Programming
+Category: Computer Science
 Tags: programming, JVM, Java, gradle, Groovy, compile, compiler, package management
 
 **

@@ -3,7 +3,7 @@ Date: 2019-04-10 22:33:13
 Author: Benjamin Du
 Slug: general-tips-for-logging
 Title: General Tips for Logging
-Category: Programming
+Category: Computer Science
 Tags: programming, logging, log
 
 **

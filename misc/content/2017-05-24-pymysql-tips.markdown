@@ -4,7 +4,7 @@ Date: 2017-10-22 13:21:25
 Author: Ben Chuanlong Du
 Slug: pymysql-tips
 Title: PyMySQL Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, PyMySQL, tips, Python
 
 **

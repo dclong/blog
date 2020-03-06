@@ -3,7 +3,7 @@ Date: 2020-03-04 10:46:18
 Author: Benjamin Du
 Slug: tips-on-lxd
 Title: Tips on LXD
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

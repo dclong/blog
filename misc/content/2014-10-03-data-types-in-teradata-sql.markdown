@@ -4,7 +4,7 @@ Date: 2016-10-23 13:01:10
 Author: Ben Chuanlong Du
 Slug: data-types-in-teradata-sql
 Title: Data Types in Teradata SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, Teradata SQL, data type, cast, date
 
 **

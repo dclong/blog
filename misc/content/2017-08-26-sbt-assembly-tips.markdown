@@ -4,7 +4,7 @@ Date: 2017-08-26 19:45:07
 Author: Ben Chuanlong Du
 Slug: sbt-assembly-tips
 Title: sbt Assembly Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, sbt, sbt-assembly
 
 **

@@ -3,7 +3,7 @@ Date: 2019-04-20 02:19:54
 Author: Ben Chuanlong Du
 Slug: apache-airflow-tips
 Title: Apache Airflow Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Apache AirFlow, workflow, scheduler, scheduling
 
 **

@@ -3,7 +3,7 @@ Status: published
 Title: R for Numerical Analysis
 Date: 2012-11-21 00:00:00
 Tags: optimization, programming, numerical analyis, R
-Category: Programming
+Category: Computer Science
 Slug: r-for-numerical-analysis
 Author: Ben Chuanlong Du
 

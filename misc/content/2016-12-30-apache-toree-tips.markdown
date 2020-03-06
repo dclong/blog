@@ -3,7 +3,7 @@ Date: 2019-12-12 20:32:58
 Author: Ben Chuanlong Du
 Slug: apache-toree-tips
 Title: Apache Toree Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Apache Toree, Jupyter Notebook, JupyterLab, Jupyter Lab, Spark
 
 **

@@ -4,7 +4,7 @@ Date: 2017-08-26 21:48:07
 Author: Ben Chuanlong Du
 Slug: pyodbc-tips
 Title: pyodbc Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, pyodbc, Python, tips, ODBC, database, SQL, Vertica, Teradata
 
 **

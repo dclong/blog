@@ -4,7 +4,7 @@ Date: 2015-08-28 12:54:45
 Author: Ben Chuanlong Du
 Slug: limiting-filtering-results-in-sas
 Title: Limiting/Filtering Results in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, limiting, filtering
 
 **

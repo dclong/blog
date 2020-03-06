@@ -3,7 +3,7 @@ Status: published
 Title: Load User-written Script into Ruby
 Date: 2012-08-25 00:00:00
 Tags: search path, require, programming, load, package, Ruby
-Category: Programming
+Category: Computer Science
 Slug: load-script-ruby
 Author: Ben Chuanlong Du
 

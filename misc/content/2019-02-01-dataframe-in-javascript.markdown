@@ -4,7 +4,7 @@ Date: 2019-02-01 19:42:16
 Author: Ben Chuanlong Du
 Slug: dataframe-in-javascript
 Title: Dataframe in Javascript
-Category: Programming
+Category: Computer Science
 Tags: programming, JavaScript, DataFrame, apache arrow
 
 **

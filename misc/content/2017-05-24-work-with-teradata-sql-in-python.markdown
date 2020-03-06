@@ -4,7 +4,7 @@ Date: 2017-12-31 15:57:09
 Author: Ben Chuanlong Du
 Slug: work-with-teradata-sql-in-python
 Title: Work With Teradata SQL in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Teradata SQL, Teradata
 
 **

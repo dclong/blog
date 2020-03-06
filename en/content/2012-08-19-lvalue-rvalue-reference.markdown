@@ -3,7 +3,7 @@ Status: published
 Title: Lvalue Reference and Rvalue Reference
 Date: 2015-01-15 02:17:12
 Tags: C/C++, reference, programming
-Category: Programming
+Category: Computer Science
 Slug: lvalue-rvalue-reference
 Author: Ben Chuanlong Du
 

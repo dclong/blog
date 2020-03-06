@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-executor-out-of-memory-when-running-large-table-join
 Title: Spark Issue: Executor Out of Memory When Running Large Table Join
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

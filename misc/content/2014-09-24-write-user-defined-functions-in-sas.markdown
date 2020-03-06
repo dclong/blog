@@ -4,7 +4,7 @@ Date: 2015-08-28 16:57:06
 Author: Ben Chuanlong Du
 Slug: write user-defined functions in sas
 Title: Write User-defined Functions in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, user-defined function, `FCMP`
 
 **

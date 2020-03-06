@@ -3,7 +3,7 @@ Date: 2020-02-14 14:15:02
 Author: Benjamin Du
 Slug: tips-on-selenium
 Title: Tips on Selenium
-Category: Programming
+Category: Computer Science
 Tags: programming, Selenium, web automation
 
 **

@@ -4,7 +4,7 @@ Date: 2016-10-16 11:22:18
 Author: Ben Chuanlong Du
 Slug: teradata-table-type
 Title: Teradata Table Type
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, table, type
 
 **

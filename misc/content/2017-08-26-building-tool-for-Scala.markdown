@@ -3,7 +3,7 @@ Date: 2017-08-26 20:26:44
 Author: Ben Chuanlong Du
 Slug: buidling-tool-for-Scala
 Title: Building Tool for Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, sbt, Maven, building tool
 
 **

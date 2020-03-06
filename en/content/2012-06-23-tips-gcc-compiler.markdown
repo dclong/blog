@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2020-03-03 11:00:37
 Slug: tips-gcc-compiler
 Title: Tips on C++ Compilers
-Category: Programming
+Category: Computer Science
 Tags: C++, programming, GCC, thread, compiler, link
 
 ## GCC

@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Some Links for C++
 Date: 2015-03-14 22:00:40
 Slug: cpp-links
-Category: Programming
+Category: Computer Science
 Tags: links, programming, C++, cpp
 
 **

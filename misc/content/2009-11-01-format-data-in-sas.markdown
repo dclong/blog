@@ -4,7 +4,7 @@ Date: 2015-05-17 18:52:19
 Slug: format-data-in-sas
 Author: Ben Chuanlong Du
 Title: Formatting Data in SAS
-Category: Programming
+Category: Computer Science
 Tags: SAS, formatting data, programming, label
 
 **

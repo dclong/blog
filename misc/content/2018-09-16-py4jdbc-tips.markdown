@@ -3,7 +3,7 @@ Date: 2019-12-12 20:33:56
 Author: Ben Chuanlong Du
 Slug: py4jdbc-tips
 Title: py4jdbc Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, py4jdbc, JDBC
 
 **

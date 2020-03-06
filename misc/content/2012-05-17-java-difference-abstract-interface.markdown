@@ -3,7 +3,7 @@ Status: published
 Title: Abstract Class and Interface in Java
 Date: 2014-09-23 11:15:19
 Tags: abstract class, Java, interface, programming
-Category: Programming
+Category: Computer Science
 Slug: java-difference-abstract-interface
 Author: Ben Chuanlong Du
 

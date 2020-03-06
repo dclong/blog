@@ -3,7 +3,7 @@ Status: published
 Title: Sweave
 Date: 2016-07-13 00:05:31
 Tags: LaTeX, programming, Sweave
-Category: Programming
+Category: Computer Science
 Slug: sweave
 Author: Ben Chuanlong Du
 

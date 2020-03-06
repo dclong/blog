@@ -3,7 +3,7 @@ Date: 2019-06-27 18:25:17
 Author: Benjamin Du
 Slug: tips-on-graph-database
 Title: Tips on Graph Database
-Category: Programming
+Category: Computer Science
 Tags: programming, database, graph database, nebula
 
 **

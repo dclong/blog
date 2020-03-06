@@ -4,7 +4,7 @@ Date: 2015-02-20 10:41:22
 Slug: tricky-problems-in-MATLAB
 Author: Ben Chuanlong Du
 Title: Tricky Problems in MATLAB
-Category: Programming
+Category: Computer Science
 Tags: trick, trap, programming, MATLAB
 
 

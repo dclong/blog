@@ -4,7 +4,7 @@ Date: 2014-10-02 10:50:55
 Slug: type-cast-in-java
 Author: Ben Chuanlong Du
 Title: Type Cast in Java
-Category: Programming
+Category: Computer Science
 Tags: type cast, programming, Java
 
 

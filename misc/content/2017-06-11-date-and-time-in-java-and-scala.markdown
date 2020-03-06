@@ -4,7 +4,7 @@ Date: 2017-10-22 13:33:27
 Author: Ben Chuanlong Du
 Slug: date-and-time-in-java-and-scala
 Title: Date and Time in Java and Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, Java, date, time, java.time, Joda time
 
 **

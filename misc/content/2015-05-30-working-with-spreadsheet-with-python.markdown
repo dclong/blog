@@ -4,7 +4,7 @@ Date: 2016-07-13 22:51:14
 Author: Ben Chuanlong Du
 Slug: working-with-spreadsheet-with-python
 Title: Working With Spreadsheet with Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Spreadsheet, Excel, pandas, xlsxwriter, xlrd, xlwt
 
 **

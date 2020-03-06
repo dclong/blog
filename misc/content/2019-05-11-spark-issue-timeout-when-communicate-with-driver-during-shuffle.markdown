@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-timeout-when-communicate-with-driver-during-shuffle
 Title: Spark Issue: Timeout When Communicate With Driver During Shuffle Caused by Driver OOM
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

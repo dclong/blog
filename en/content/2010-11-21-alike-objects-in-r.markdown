@@ -3,7 +3,7 @@ Status: published
 Title: Alike Objects/Functions in R
 Date: 2013-12-05 00:19:25
 Tags: programming, regex, data frame, matrix, R, warning
-Category: Programming
+Category: Computer Science
 Slug: alike-objects-in-r
 Author: Ben Chuanlong Du
 

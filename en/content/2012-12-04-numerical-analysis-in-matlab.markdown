@@ -3,7 +3,7 @@ Status: published
 Title: Numerical Analysis in MATLAB
 Date: 2012-12-04 00:00:00
 Tags: programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: numerical-analysis-in-MATLAB
 Author: Ben Chuanlong Du
 

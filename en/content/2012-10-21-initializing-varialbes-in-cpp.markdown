@@ -4,7 +4,7 @@ Date: 2015-02-19 13:45:33
 Slug: initializing-varialbes-in-cpp
 Author: Ben Chuanlong Du
 Title: Initializing Variables in C++
-Category: Programming
+Category: Computer Science
 Tags: initialization, C++, programming
 
 

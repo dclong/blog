@@ -4,7 +4,7 @@ Date: 2014-10-19 13:48:18
 Slug: copy-array-java
 Author: Ben Chuanlong Du
 Title: Copy Arrays in Java
-Category: Programming
+Category: Computer Science
 Tags: array, copy, Java, programming
 
 There are several different ways to copy arrays of object (primitive types) in Java. 

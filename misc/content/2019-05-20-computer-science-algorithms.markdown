@@ -3,7 +3,7 @@ Date: 2019-05-20 23:32:49
 Author: Benjamin Du
 Slug: computer-science-algorithms
 Title: Computer Science Algorithms
-Category: Programming
+Category: Computer Science
 Tags: programming, , computer science algorithms, leetcode
 
 **

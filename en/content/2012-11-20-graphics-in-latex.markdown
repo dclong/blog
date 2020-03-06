@@ -4,7 +4,7 @@ Date: 2016-07-13 00:02:34
 Slug: graphics-in-latex
 Author: Ben Chuanlong Du
 Title: Graphics in LaTeX
-Category: Programming
+Category: Computer Science
 Tags: image, vector, LaTeX, graphics, programming
 
 

@@ -3,7 +3,7 @@ Date: 2019-11-27 09:25:16
 Author: Benjamin Du
 Slug: use-kotlin-in-a-scala-project
 Title: Use Kotlin in a Scala Project
-Category: Programming
+Category: Computer Science
 Tags: programming, JVM, Kotlin, Scala
 
 **

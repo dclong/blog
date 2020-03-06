@@ -3,7 +3,7 @@ Date: 2020-02-22 18:38:53
 Author: Benjamin Du
 Slug: tips-on-darknet-and-yolo
 Title: Tips on Darknet and Yolo
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

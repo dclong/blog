@@ -3,7 +3,7 @@ Status: published
 Date: 2015-02-20 10:40:42
 Slug: string-in-MATLAB
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Title: String in MATLAB
 Tags: string, programming, MATLAB
 

@@ -4,7 +4,7 @@ Date: 2016-12-10 01:52:37
 Author: Ben Chuanlong Du
 Slug: install-jupyter-scala-for-jupyterlab
 Title: Install Jupyter-Scala for JupyterLab
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, Jupyter, JupyterLab, jupyter-scala, kernel
 
 Note: Apache Toree is a better alternative than Jupyter Scala.

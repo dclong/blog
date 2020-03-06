@@ -4,7 +4,7 @@ Date: 2015-02-20 10:58:20
 Slug: string-in-java
 Author: Ben Chuanlong Du
 Title: String in Java
-Category: Programming
+Category: Computer Science
 Tags: Java, programming, string, character
 
 ## String

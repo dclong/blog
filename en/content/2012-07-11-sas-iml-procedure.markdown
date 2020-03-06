@@ -3,7 +3,7 @@ Status: published
 Title: Tips for the IML Procedure in SAS
 Date: 2015-02-19 15:30:52
 Tags: SAS, matrix, programming, IML
-Category: Programming
+Category: Computer Science
 Slug: sas-iml-procedure
 Author: Ben Chuanlong Du
 

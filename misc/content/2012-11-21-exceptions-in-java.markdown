@@ -3,7 +3,7 @@ Date: 2019-12-04 09:54:41
 Slug: exceptions-in-java
 Author: Ben Chuanlong Du
 Title: Exceptions in Java
-Category: Programming
+Category: Computer Science
 Tags: exception, programming, Java
 
 **

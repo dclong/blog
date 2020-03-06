@@ -4,7 +4,7 @@ Date: 2017-10-22 13:37:40
 Author: Ben Chuanlong Du
 Slug: null,-none-and-alike-in-Scala
 Title: Null, None and Alike in Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, null, none, Scala
 
 **

@@ -3,7 +3,7 @@ Date: 2019-07-25 00:48:52
 Author: Benjamin Du
 Slug: exception-error-and-critical
 Title: Exception Error and Critical
-Category: Programming
+Category: Computer Science
 Tags: programming, exception, error, fatal, critical
 
 **

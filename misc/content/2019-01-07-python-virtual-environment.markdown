@@ -3,7 +3,7 @@ Date: 2019-12-14 11:04:58
 Author: Ben Chuanlong Du
 Slug: python-virtual-environment
 Title: Python Virtual Environment
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, virtual environment, venv
 
 **

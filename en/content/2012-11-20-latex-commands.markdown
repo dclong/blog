@@ -3,7 +3,7 @@ Status: published
 Title: LaTeX Commands for Compiling
 Date: 2016-07-13 00:03:31
 Tags: compile, LaTeX, programming
-Category: Programming
+Category: Computer Science
 Slug: latex-commands
 Author: Ben Chuanlong Du
 

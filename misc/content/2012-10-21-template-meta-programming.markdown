@@ -3,7 +3,7 @@ Status: published
 Title: Template Meta Programming
 Date: 2012-10-21 00:00:00
 Tags: overload, programming, TMP, specialization, C++, template
-Category: Programming
+Category: Computer Science
 Slug: template-meta-programming
 Author: Ben Chuanlong Du
 

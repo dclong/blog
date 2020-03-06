@@ -3,7 +3,7 @@ Status: published
 Title: Linear Algebra in MATLAB
 Date: 2012-12-04 00:00:00
 Tags: algebra, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: linear-algebra-in-MATLAB
 Author: Ben Chuanlong Du
 

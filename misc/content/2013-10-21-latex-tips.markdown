@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Tips About LaTeX
 Date: 2016-08-15 21:44:57
 Slug: latex-tips
-Category: Programming
+Category: Computer Science
 Tags: tips, LaTeX, programming
 
 **

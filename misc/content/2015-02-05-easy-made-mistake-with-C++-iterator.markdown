@@ -4,7 +4,7 @@ Date: 2016-07-13 22:47:56
 Author: Ben Chuanlong Du
 Slug: easy-made-mistake-with-cpp-iterator
 Title: Easy-Made Mistake with C++ Iterator
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, iterator, mistake, error
 
 **

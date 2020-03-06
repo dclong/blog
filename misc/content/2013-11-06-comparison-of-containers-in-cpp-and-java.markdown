@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2013-11-08 09:50:03
 Slug: comparison-of-containers-in-cpp-and-java
 Title: Comparison of Containers in C++ and Java
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, Java, tips, container
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**

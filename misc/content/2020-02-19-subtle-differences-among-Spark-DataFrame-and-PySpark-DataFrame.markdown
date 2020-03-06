@@ -3,7 +3,7 @@ Date: 2020-02-19 16:44:50
 Author: Benjamin Du
 Slug: subtle-differences-among-Spark-DataFrame-and-PySpark-DataFrame
 Title: Subtle Differences Among Spark DataFrame and PySpark Dataframe
-Category: Programming
+Category: Computer Science
 Tags: programming, big data, Spark, PySpark, DataFrame, difference
 
 **

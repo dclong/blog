@@ -3,7 +3,7 @@ Date: 2019-03-11 22:34:44
 Author: Ben Chuanlong Du
 Slug: pybuilder-tips
 Title: PyBuilder Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, PyBuilder, Python, project management
 
 **

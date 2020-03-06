@@ -4,7 +4,7 @@ Date: 2017-10-22 12:17:00
 Author: Ben Chuanlong Du
 Slug: run-jar-applications
 Title: Run JAR Applications
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, JAR, main
 
 If there is only 1 class with a main method

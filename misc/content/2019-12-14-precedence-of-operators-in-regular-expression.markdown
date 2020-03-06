@@ -3,7 +3,7 @@ Date: 2019-12-14 11:44:55
 Author: Benjamin Du
 Slug: precedence-of-operators-in-regular-expression
 Title: Precedence of Operators in Regular Expression
-Category: Programming
+Category: Computer Science
 Tags: programming, regex, regular expression, POSIX, precedence
 
 **

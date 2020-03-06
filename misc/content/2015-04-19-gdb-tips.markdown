@@ -4,7 +4,7 @@ Date: 2015-04-19 19:04:14
 Author: Ben Chuanlong Du
 Slug: gdb-tips
 Title: GDB Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, C, debug, GDB
 
 **

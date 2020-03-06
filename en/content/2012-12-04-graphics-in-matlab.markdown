@@ -4,7 +4,7 @@ Date: 2015-03-03 10:08:36
 Slug: graphics-in-MATLAB
 Author: Ben Chuanlong Du
 Title: MATLAB for Visualization
-Category: Programming
+Category: Computer Science
 Tags: image, visualization, programming, plot, graphics, MATLAB
 
 

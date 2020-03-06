@@ -4,7 +4,7 @@ Date: 2015-05-17 17:21:02
 Author: Ben Chuanlong Du
 Slug: lasso-in-sas
 Title: Lasso in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, LASSO, feature selection, variable selection, regularization
 
 **

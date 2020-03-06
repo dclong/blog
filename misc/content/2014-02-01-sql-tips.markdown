@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2020-01-27 20:34:47
 Title: SQL Tips
 Slug: sql-tips
-Category: Programming 
+Category: Computer Science
 Tags: programming, SQL, tips, IDE, sqldep, queryscope, queryViz, eralchemy, database
 
 **

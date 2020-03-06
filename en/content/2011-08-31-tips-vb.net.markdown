@@ -3,7 +3,7 @@ Status: published
 Title: Tips for VB/VB.net
 Date: 2011-08-31 00:00:00
 Tags: tips, VB/VB.net, programming, string
-Category: Programming
+Category: Computer Science
 Slug: tips-vb.net
 Author: Ben Chuanlong Du
 

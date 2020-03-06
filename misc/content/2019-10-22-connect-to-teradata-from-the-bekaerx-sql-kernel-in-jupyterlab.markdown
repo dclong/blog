@@ -3,7 +3,7 @@ Date: 2019-10-22 01:00:07
 Author: Benjamin Du
 Slug: connect-to-teradata-from-the-bekaerx-sql-kernel-in-jupyterlab
 Title: Connect to Teradata from the Bekaerx SQL Kernel in JupyterLab
-Category: Programming
+Category: Computer Science
 Tags: programming, Jupyter, JupyterLab, SQL, BeakerX
 
 **

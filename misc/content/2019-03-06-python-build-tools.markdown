@@ -3,7 +3,7 @@ Date: 2020-02-17 13:12:30
 Author: Benjamin Du
 Slug: python-build-tools
 Title: Python Build Tools
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, building tools, dependency managment, packaging
 
 **

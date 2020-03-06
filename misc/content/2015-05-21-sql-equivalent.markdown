@@ -3,7 +3,7 @@ Date: 2019-06-21 21:20:15
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, database, equivalent, querying
 
 **

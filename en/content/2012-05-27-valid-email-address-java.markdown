@@ -4,7 +4,7 @@ Title: Check Whether an Email Address Is Valid in Java
 Date: 2016-07-12 23:58:54
 Slug: valid-email-address-java
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: pattern, match, Java, programming, email address
 
 See the following code.

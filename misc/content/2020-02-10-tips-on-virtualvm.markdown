@@ -3,7 +3,7 @@ Date: 2020-02-10 09:59:52
 Author: Benjamin Du
 Slug: tips-on-virtualvm
 Title: Tips on VirtualVM
-Category: Programming
+Category: Computer Science
 Tags: programming, VirtualVM, Java, performace, profiling
 
 **

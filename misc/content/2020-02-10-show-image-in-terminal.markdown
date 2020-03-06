@@ -3,7 +3,7 @@ Date: 2020-02-10 23:20:08
 Author: Benjamin Du
 Slug: show-image-in-terminal
 Title: Show Image in Terminal
-Category: Programming
+Category: Computer Science
 Tags: programming, terminal, image, command-line
 
 **

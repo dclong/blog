@@ -3,7 +3,7 @@ Date: 2019-12-19 00:00:59
 Author: Benjamin Du
 Slug: gradle-kotlin-dsl
 Title: Gradle Kotlin DSL
-Category: Programming
+Category: Computer Science
 Tags: programming, Gradle, Kotlin DSL, shadowJar
 
 **

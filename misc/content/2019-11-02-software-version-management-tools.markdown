@@ -3,7 +3,7 @@ Date: 2019-11-03 12:43:57
 Author: Benjamin Du
 Slug: software-version-management-tools
 Title: Software Version Management Tools
-Category: Programming
+Category: Computer Science
 Tags: programming, software, version management, Git, pyenv, sdkman, rvm
 
 **

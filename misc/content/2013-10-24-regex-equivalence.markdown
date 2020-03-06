@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2017-11-07 22:34:00
 Slug: regex-equivalence
 Title: Regular Expression Equivalence
-Category: Programming
+Category: Computer Science
 Tags: tips, regex, equivalence, regular expression, regexp, Python, R, CRAN, Perl, SAS, grep, egrep
 
 **

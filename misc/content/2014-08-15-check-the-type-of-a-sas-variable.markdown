@@ -4,7 +4,7 @@ Date: 2014-10-22 16:59:20
 Author: Ben Chuanlong Du
 Slug: check-the-type-of-a-sas-variable
 Title: Check the Type of a SAS Variable
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, data type, variable, proc content, putn
 
 **

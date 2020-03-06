@@ -3,7 +3,7 @@ Date: 2019-09-08 21:46:50
 Author: Ben Chuanlong Du
 Slug: scala-tips
 Title: Scala Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, functional programming, big data, Spark
 
 **

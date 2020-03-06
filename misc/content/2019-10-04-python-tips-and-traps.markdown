@@ -3,7 +3,7 @@ Date: 2020-02-11 19:32:52
 Author: Benjamin Du
 Slug: python-tips-and-traps 
 Title: Python Tips and Traps
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, tricks, traps, tips
 
 **

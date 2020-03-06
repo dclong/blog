@@ -3,7 +3,7 @@ Date: 2020-01-03 09:22:43
 Author: Benjamin Du
 Slug: GPU-related-issues-and-solutions
 Title: GPU Related Issues and Solutions
-Category: Programming
+Category: Computer Science
 Tags: programming, GPU, issues, solutions
 
 **

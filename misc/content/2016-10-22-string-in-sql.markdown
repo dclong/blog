@@ -4,7 +4,7 @@ Date: 2016-11-20 18:55:31
 Author: Ben Chuanlong Du
 Slug: string-in-sql
 Title: String in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, string
 
 **

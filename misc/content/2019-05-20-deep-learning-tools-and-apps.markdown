@@ -3,7 +3,7 @@ Date: 2019-05-21 01:31:55
 Author: Benjamin Du
 Slug: deep-learning-tools-and-apps
 Title: Deep Learning Tools and Apps
-Category: Programming
+Category: Computer Science
 Tags: programming, deep learning, tools, applications
 
 **

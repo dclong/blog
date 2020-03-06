@@ -3,7 +3,7 @@ Date: 2019-04-18 18:02:38
 Slug: general-tips-for-latex
 Author: Ben Chuanlong Du
 Title: General Tips for LaTeX
-Category: Programming
+Category: Computer Science
 Tags: tips, LaTeX, programming, list
 
 **

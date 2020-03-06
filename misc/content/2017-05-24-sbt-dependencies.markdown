@@ -4,7 +4,7 @@ Date: 2017-10-22 12:38:10
 Author: Ben Chuanlong Du
 Slug: sbt-dependencies
 Title: Scala Dependencies for SBT
-Category: Programming
+Category: Computer Science
 Tags: programming, SBT, Scala, dependencies
 
 **

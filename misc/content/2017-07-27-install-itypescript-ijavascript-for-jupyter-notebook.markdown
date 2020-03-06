@@ -4,7 +4,7 @@ Date: 2017-10-22 12:33:12
 Author: Ben Chuanlong Du
 Slug: install-itypescript-ijavascript-for-jupyter-notebook
 Title: Install ITypescript/IJavascript for Jupyter Notebook
-Category: Programming
+Category: Computer Science
 Tags: programming, Jupyter Notebook, JavaScript, JS, TypeScript, IJavascript, ITypeScript
 
 **

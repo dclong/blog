@@ -3,7 +3,7 @@ Date: 2019-08-27 09:09:03
 Author: Ben Chuanlong Du
 Slug: pelican-tips
 Title: Pelican Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Pelican, blog, formula, dollar sign
 
 **

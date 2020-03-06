@@ -3,7 +3,7 @@ Date: 2020-02-20 16:25:13
 Author: Benjamin Du
 Slug: build-spark-from-source
 Title: Build Spark from Source
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, big data, build, source
 
 **

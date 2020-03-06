@@ -3,7 +3,7 @@ Status: published
 Date: 2017-04-03 18:54:28
 Slug: markdown-tips
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: Markdown, Jekyll, programming
 Title: Tips for Markdown
 

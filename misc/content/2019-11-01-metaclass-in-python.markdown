@@ -3,7 +3,7 @@ Date: 2019-11-01 15:34:05
 Author: Benjamin Du
 Slug: metaclass-in-python
 Title: Metaclass in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, metaclass, class, OOP, object
 
 **

@@ -4,7 +4,7 @@ Date: 2015-05-17 18:38:29
 Author: Ben Chuanlong Du
 Slug: combine-data-vertically-in-sas
 Title: Combine Data Vertically in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, combine, concatenate, vertically, rbind
 
 **

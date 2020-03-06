@@ -3,7 +3,7 @@ Date: 2020-01-28 11:41:11
 Author: Benjamin Du
 Slug: the-JAVA_HOME-environment-variable
 Title: The JAVA_HOME Environment Variable
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, JDK, JAVA_HOME
 
 **

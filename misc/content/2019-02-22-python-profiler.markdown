@@ -3,7 +3,7 @@ Date: 2019-02-22 22:40:54
 Author: Benjamin Du
 Slug: python-profiler
 Title: Python Profiler
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, JupyterLab, notebook
 
 **

@@ -3,7 +3,7 @@ Date: 2019-04-28 11:46:10
 Author: Benjamin Du
 Slug: parallel-computing-in-bash
 Title: Parallel Computing in Bash
-Category: Programming
+Category: Computer Science
 Tags: programming, Bash, parallel computing
 
 **

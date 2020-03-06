@@ -4,7 +4,7 @@ Date: 2015-05-22 01:05:04
 Author: Ben Chuanlong Du
 Slug: language-equivalents
 Title: Language Equivalents
-Category: Programming
+Category: Computer Science
 Tags: programming language, equivalent, C, C++, D, Java, R, Python, MATLAB, Julia
 
 **

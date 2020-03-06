@@ -4,7 +4,7 @@ Date: 2016-06-10 11:25:18
 Author: Benjamin Du
 Slug: understand-execuation-of-sql-statements
 Title: Understand Execuation of SQL Statements
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, join on, having, where, group by, null value
 
 

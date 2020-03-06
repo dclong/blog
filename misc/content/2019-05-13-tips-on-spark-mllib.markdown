@@ -3,7 +3,7 @@ Date: 2019-06-16 23:45:42
 Author: Benjamin Du
 Slug: tips-on-spark-mllib
 Title: Tips on Spark MLlib
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, big data, MLlib, machine learning, AI
 
 **

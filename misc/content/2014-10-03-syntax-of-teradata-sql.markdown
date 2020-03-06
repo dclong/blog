@@ -4,7 +4,7 @@ Date: 2017-05-08 21:12:08
 Author: Ben Chuanlong Du
 Slug: syntax-of-teradata-sql
 Title: Syntax of Teradata SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, Teradata SQL, syntax, style, error
 
 **

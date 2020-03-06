@@ -4,7 +4,7 @@ Date: 2017-01-07 15:46:24
 Author: Ben Chuanlong Du
 Slug: cloud9-tips
 Title: Cloud9 Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, cloud9, cloud IDE
 
 **

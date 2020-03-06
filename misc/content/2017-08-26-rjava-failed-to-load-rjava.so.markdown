@@ -4,7 +4,7 @@ Date: 2017-09-06 08:01:26
 Author: Ben Chuanlong Du
 Slug: rjava-failed-to-load-rjava.so
 Title: rJava Failed to Load rJava.So
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

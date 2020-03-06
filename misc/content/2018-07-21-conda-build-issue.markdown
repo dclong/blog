@@ -3,7 +3,7 @@ Date: 2020-02-18 11:55:27
 Author: Ben Chuanlong Du
 Slug: conda-build-issue
 Title: Conda Build Issue
-Category: Programming
+Category: Computer Science
 Tags: programming, Anaconda, Python, conda build, sqlalchemy-teradata, conda
 
 **

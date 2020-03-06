@@ -3,7 +3,7 @@ Date: 2020-02-10 23:08:38
 Author: Benjamin Du
 Slug: tips-on-pillow
 Title: Tips on Pillow
-Category: Programming
+Category: Computer Science
 Tags: programming, Pillow, image
 
 **

@@ -3,7 +3,7 @@ Status: published
 Title: Abuse of Vector in R
 Date: 2012-05-16 00:00:00
 Tags: programming, matrix, data sturcture, data, vector, R
-Category: Programming
+Category: Computer Science
 Slug: abuse-vector-r
 Author: Ben Chuanlong Du
 

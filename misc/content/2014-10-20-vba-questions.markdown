@@ -4,7 +4,7 @@ Date: 2014-10-20 16:50:32
 Author: Ben Chuanlong Du
 Slug: vba questions
 Title: VBA Questions
-Category: Programming
+Category: Computer Science
 Tags: programming, VBA, questions, Excel, MS Office
 
 **

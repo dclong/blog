@@ -3,7 +3,7 @@ Date: 2019-02-17 19:15:35
 Author: Ben Chuanlong Du
 Slug: preferred-python-version-in-shebang
 Title: Preferred Python Version in Shebang
-Category: Programming
+Category: Computer Science
 Tags: programming, shell, Python, shebang, version
 
 **

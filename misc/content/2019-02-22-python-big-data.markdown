@@ -3,7 +3,7 @@ Date: 2020-01-01 12:45:39
 Author: Benjamin Du
 Slug: python-big-data
 Title: Python Big Data
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, big data, Dask, PySpark
 
 **

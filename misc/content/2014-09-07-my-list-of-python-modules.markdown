@@ -3,7 +3,7 @@ Date: 2020-03-01 22:24:43
 Author: Ben Chuanlong Du
 Slug: my-list-of-python-modules
 Title: My List of Python Modules
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, module, package
 
 **

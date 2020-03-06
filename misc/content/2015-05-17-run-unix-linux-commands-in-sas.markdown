@@ -3,7 +3,7 @@ Date: 2015-05-17 16:36:48
 Author: Ben Chuanlong Du
 Slug: run-unix-linux-commands-in-sas
 Title: Run Unix/Linux Commands in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, Unix, Linux, command
 
 **

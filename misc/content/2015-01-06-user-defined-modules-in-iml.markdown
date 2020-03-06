@@ -4,7 +4,7 @@ Date: 2015-03-13 14:49:32
 Author: Ben Chuanlong Du
 Slug: user-defined-modules-in-iml
 Title: User-defined Modules in IML
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, IML, function, module, user-defined
 
 **

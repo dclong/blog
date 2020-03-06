@@ -3,7 +3,7 @@ Date: 2019-05-09 23:40:06
 Author: Benjamin Du
 Slug: python-hdfs
 Title: HDFS in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Hadoop, HDFS
 
 **

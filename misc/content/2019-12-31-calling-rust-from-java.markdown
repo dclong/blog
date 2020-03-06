@@ -3,7 +3,7 @@ Date: 2019-12-31 11:15:26
 Author: Benjamin Du
 Slug: calling-rust-from-java
 Title: Calling Rust from Java
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, Rust, JNI, JNA
 
 **

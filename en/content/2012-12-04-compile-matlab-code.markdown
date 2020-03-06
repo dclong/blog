@@ -3,7 +3,7 @@ Status: published
 Title: Compile MATLAB Code
 Date: 2015-06-07 23:48:09
 Tags: compile, compiler, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: compile-matlab-code
 Author: Ben Chuanlong Du
 

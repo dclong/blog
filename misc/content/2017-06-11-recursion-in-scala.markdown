@@ -4,7 +4,7 @@ Date: 2017-10-22 13:34:25
 Author: Ben Chuanlong Du
 Slug: recursion-in-scala
 Title: Recursion in Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, recursion, tail recursion, tail recursive call
 
 **

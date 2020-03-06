@@ -4,7 +4,7 @@ Date: 2015-05-17 18:49:20
 Author: Ben Chuanlong Du
 Slug: date utilities in sas
 Title: Date Utilities in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, date
 
 ### Convert a Date to a String of the Format "YYYYMMDD"

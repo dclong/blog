@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Some Links for D Programming Language
 Date: 2016-07-13 21:41:02
 Slug: d-links
-Category: Programming
+Category: Computer Science
 Tags: links, D, programming
 
 **

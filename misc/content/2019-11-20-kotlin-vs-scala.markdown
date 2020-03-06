@@ -3,7 +3,7 @@ Date: 2019-11-20 16:49:39
 Author: Benjamin Du
 Slug: kotlin-vs-scala
 Title: Kotlin vs Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, JVM, Kotlin, Scala
 
 **

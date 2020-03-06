@@ -3,7 +3,7 @@ Status: published
 Title: Tips for Multithreading/Concurrency Programming in C++11
 Date: 2012-06-24 00:00:00
 Tags: programming, C/C++, Java, HPC, async, mutex, future, concurrency, promise
-Category: Programming
+Category: Computer Science
 Slug: cpp11-concurrency-tips
 Author: Ben Chuanlong Du
 

@@ -4,7 +4,7 @@ Date: 2016-06-14 02:12:06
 Author: Ben Chuanlong Du
 Slug: set-operations-on-lines-of-files
 Title: Set Operations on Lines of Files
-Category: Programming
+Category: Computer Science
 Tags: programming, set operations, file, lines, sort, uniq, comm, shell
 
 **

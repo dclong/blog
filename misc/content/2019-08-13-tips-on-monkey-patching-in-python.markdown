@@ -3,7 +3,7 @@ Date: 2019-08-13 21:29:47
 Author: Benjamin Du
 Slug: tips-on-monkey-patching-in-python
 Title: Tips on Monkey Patching in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, monkey patching
 
 **

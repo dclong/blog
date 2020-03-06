@@ -4,7 +4,7 @@ Date: 2015-01-05 09:14:13
 Author: Ben Chuanlong Du
 Slug: program-termination-in-sas
 Title: Program Termination in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, termination, exit, quit, stop, error
 
 **

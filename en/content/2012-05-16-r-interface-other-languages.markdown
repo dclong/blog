@@ -4,7 +4,7 @@ Date: 2015-03-02 13:10:12
 Slug: r-interface-other-languages
 Author: Ben Chuanlong Du
 Title: Passing Arrays Between R and Other Programming Languages
-Category: Programming
+Category: Computer Science
 Tags: array, R, C/C++, programming, Java
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>

@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-too-large-table-for-auto-BroadcastHashJoin
 Title: Spark Issue Too Large Table for Auto Broadcasthashjoin
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

@@ -3,7 +3,7 @@ Date: 2019-12-16 15:06:38
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Visual Studio Code, vscode, IDE, Jupyter notebook
 
 **

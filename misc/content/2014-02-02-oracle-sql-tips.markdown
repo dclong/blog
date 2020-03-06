@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2017-04-22 14:56:23
 Slug: oracle-sql-tips
 Title: Oracle SQL Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Oracle SQL, tips
 
 **

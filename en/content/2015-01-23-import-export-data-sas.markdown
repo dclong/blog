@@ -4,7 +4,7 @@ Date: 2015-05-30 14:20:50
 Author: Ben Chuanlong Du
 Slug: import-export-data-sas
 Title: Import/Export Data to/from SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, import, procedure, Excel
 
 

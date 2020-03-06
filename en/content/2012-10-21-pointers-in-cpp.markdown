@@ -3,7 +3,7 @@ Status: published
 Title: Pointers in C++
 Date: 2012-10-21 00:00:00
 Tags: C++, programming, pointer
-Category: Programming
+Category: Computer Science
 Slug: pointers-in-cpp
 Author: Ben Chuanlong Du
 

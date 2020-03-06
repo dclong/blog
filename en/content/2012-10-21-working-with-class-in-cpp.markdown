@@ -4,7 +4,7 @@ Date: 2015-08-05 10:56:31
 Slug: working-with-class-in-cpp
 Author: Ben Chuanlong Du
 Title: Working with Class in C++
-Category: Programming
+Category: Computer Science
 Tags: C++, destructor, programming, inheritance, override, class, hidding, constructor
 
 

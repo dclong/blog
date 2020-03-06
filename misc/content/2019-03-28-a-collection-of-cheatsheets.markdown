@@ -3,7 +3,7 @@ Date: 2019-03-28 18:49:13
 Author: Benjamin Du
 Slug: a-collection-of-cheatsheets
 Title: a Collection of Cheatsheets
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

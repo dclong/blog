@@ -4,7 +4,7 @@ Date: 2014-10-23 15:52:51
 Author: Ben Chuanlong Du
 Slug: cartesian product in sas
 Title: Cartesian Product in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, Cartesian product
 
 Suppose we have 2 variables `x = ("a", "b", "c")` and `y = (1, 2, 3)`,

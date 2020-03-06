@@ -3,7 +3,7 @@ Status: published
 Title: Error when Launching MATLAB in Linux
 Date: 2012-12-04 00:00:00
 Tags: Linux, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: problem-when-launching-MATLAB
 Author: Ben Chuanlong Du
 

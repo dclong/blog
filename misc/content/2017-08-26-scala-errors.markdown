@@ -3,7 +3,7 @@ Date: 2019-12-20 10:05:49
 Author: Ben Chuanlong Du
 Slug: scala-errors
 Title: Scala Errors
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, error, issue, version
 
 **

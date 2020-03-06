@@ -3,7 +3,7 @@ Status: published
 Title: Define Operator in R
 Date: 2012-06-08 00:00:00
 Tags: R, operator, overloading, override, programming
-Category: Programming
+Category: Computer Science
 Slug: overload-operator-r
 Author: Ben Chuanlong Du
 

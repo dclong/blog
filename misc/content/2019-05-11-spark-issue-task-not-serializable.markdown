@@ -3,7 +3,7 @@ Date: 2019-05-11 01:34:21
 Author: Benjamin Du
 Slug: spark-issue-task-not-serializable
 Title: Spark Issue Task Not Serializable
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

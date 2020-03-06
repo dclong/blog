@@ -4,7 +4,7 @@ Title: An IO Bug in R
 Date: 2016-08-15 21:22:47
 Slug: input-bug-r
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: warning, IO, programming, R, bug
 
 <img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/>

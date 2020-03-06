@@ -3,7 +3,7 @@ Date: 2020-02-19 16:07:38
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
-Category: Programming
+Category: Computer Science
 Tags: programming, PySpark, Python, Spark, tips, HPC, high performance computing
 
 **

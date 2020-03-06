@@ -3,7 +3,7 @@ Date: 2019-05-09 19:43:10
 Author: Ben Chuanlong Du
 Slug: union-RDDs-in-spark
 Title: Union RDDs in Spark
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, Spark, RDD, union
 
 **

@@ -3,7 +3,7 @@ Title: Loops in Java
 Date: 2019-11-06 21:46:23
 Slug: loops-in-java
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: programming, loop, Java
 
 **

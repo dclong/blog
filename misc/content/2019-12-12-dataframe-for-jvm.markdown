@@ -3,7 +3,7 @@ Date: 2019-12-13 10:55:31
 Author: Benjamin Du
 Slug: dataframe-for-jvm
 Title: Dataframe for JVM
-Category: Programming
+Category: Computer Science
 Tags: programming, DataFrame, Spark, Tablesaw, krangl, JVM
 
 **

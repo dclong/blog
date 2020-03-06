@@ -3,7 +3,7 @@ Date: 2019-02-10 09:51:58
 Author: Benjamin Du
 Slug: insert-or-update-in-sqlite3
 Title: Insert Or Update in Sqlite3
-Category: Programming
+Category: Computer Science
 Tags: programming, SQLite3, upsert, insert or replace, insert or update
 
 **

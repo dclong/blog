@@ -3,7 +3,7 @@ Date: 2019-03-15 17:52:54
 Author: Benjamin Du
 Slug: typescript-tips
 Title: Typescript Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, TypeScript, tips
 
 **

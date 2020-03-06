@@ -3,7 +3,7 @@ Date: 2019-10-22 19:53:58
 Author: Benjamin Du
 Slug: tips-on-npm
 Title: Tips on npm
-Category: Programming
+Category: Computer Science
 Tags: programming, tips, npm, JavaScript, TypeScript
 
 **

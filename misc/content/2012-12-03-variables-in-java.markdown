@@ -3,7 +3,7 @@ Status: published
 Title: Variables in Java
 Date: 2016-07-13 22:04:15
 Tags: variable, programming, Java
-Category: Programming
+Category: Computer Science
 Slug: variables-in-java
 Author: Ben Chuanlong Du
 

@@ -3,7 +3,7 @@ Date: 2019-09-17 09:11:39
 Author: Benjamin Du
 Slug: jingjing-asian-market
 Title: Jingjing Asian Market
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

@@ -4,7 +4,7 @@ Date: 2018-09-16 12:41:20
 Author: Ben Chuanlong Du
 Slug: python-packages-for-caching
 Title: Python Packages for Caching
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, packages, caching, lru_cache, diskcache, memcached
 
 **

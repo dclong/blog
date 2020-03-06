@@ -4,7 +4,7 @@ Date: 2018-01-26 07:32:52
 Author: Ben Chuanlong Du
 Slug: ideavim-tips
 Title: Ideavim Tips
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

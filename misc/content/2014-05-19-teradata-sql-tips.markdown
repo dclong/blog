@@ -4,7 +4,7 @@ Title: Teradata SQL Tips
 Author: Ben Chuanlong Du
 Date: 2019-10-22 01:13:47
 Slug: teradata-sql-tips
-Category: Programming
+Category: Computer Science
 Tags: programming, tips, Teradata SQL
 
 **

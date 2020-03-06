@@ -3,7 +3,7 @@ Date: 2019-03-30 17:20:50
 Author: Benjamin Du
 Slug: make-a-business-card
 Title: Make a Business Card
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

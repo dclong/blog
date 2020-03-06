@@ -3,7 +3,7 @@ Date: 2019-05-09 22:30:29
 Author: Benjamin Du
 Slug: check-whether-a-file-exists-in-spark
 Title: Check Whether a File Exists in Spark
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, Hadoop, FileSystem, file system
 
 **

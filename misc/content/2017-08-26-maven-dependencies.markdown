@@ -4,7 +4,7 @@ Date: 2017-10-22 12:57:38
 Author: Ben Chuanlong Du
 Slug: maven-dependencies
 Title: Maven Dependencies
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, Maven, dependencies, dependency management
 
 **

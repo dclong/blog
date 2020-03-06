@@ -3,7 +3,7 @@ Date: 2020-02-10 23:34:13
 Author: Benjamin Du
 Slug: tips-on-matplotlib
 Title: Tips on Matplotlib
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, matplotlib, plot, image
 
 **

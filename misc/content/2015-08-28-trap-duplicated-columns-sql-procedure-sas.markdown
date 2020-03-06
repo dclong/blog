@@ -4,7 +4,7 @@ Date: 2015-08-28 13:02:17
 Author: Ben Chuanlong Du
 Slug: trap-duplicated-columns-sql-procedure-sas
 Title: The Trap of Duplicated Columns in the SQL Procedure of SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, SQL
 
 **

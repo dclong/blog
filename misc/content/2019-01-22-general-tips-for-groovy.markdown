@@ -4,7 +4,7 @@ Date: 2019-01-22 22:58:11
 Author: Ben Chuanlong Du
 Slug: general-tips-for-groovy
 Title: General Tips for Groovy
-Category: Programming
+Category: Computer Science
 Tags: programming, Groovy, tips
 
 **

@@ -4,7 +4,7 @@ Date: 2015-05-17 17:05:55
 Author: Ben Chuanlong Du
 Slug: generating-yyyymm-formatted-dates-using-python
 Title: Generating YYYYMM Formatted Dates Using Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, credit risk, risk capital, stress testing, YYYYMM, YYYYQQ
 
 ```Python

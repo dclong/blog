@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Some Questions About MongoDB
 Date: 2015-03-13 11:14:12
 Slug: mongodb-questions
-Category: Programming
+Category: Computer Science
 Tags: questions, programming, MongoDB, database, NoSQL
 
 **

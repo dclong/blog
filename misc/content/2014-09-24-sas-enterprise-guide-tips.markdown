@@ -4,7 +4,7 @@ Date: 2015-06-14 18:44:56
 Author: Ben Chuanlong Du
 Slug: sas enterprise guide tips
 Title: SAS Enterprise Guide Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, SAS Enterprise Guide, GUI, SEG
 
 **

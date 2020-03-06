@@ -4,7 +4,7 @@ Date: 2015-05-17 18:57:48
 Author: Ben Chuanlong Du
 Slug: number-of-observations-in-a-sas-dataset
 Title: Number of Observations in a SAS Dataset
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, observation, number, dataset
 
 **

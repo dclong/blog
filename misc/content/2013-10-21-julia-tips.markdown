@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Tips for Julia
 Date: 2016-07-13 21:45:58
 Slug: julia-tips
-Category: Programming
+Category: Computer Science
 Tags: tips, programming, Julia
 
 **

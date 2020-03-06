@@ -4,7 +4,7 @@ Date: 2015-05-17 18:24:11
 Author: Ben Chuanlong Du
 Slug: sas-IML-tips
 Title: SAS IML Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, IML, matrix
 
 **

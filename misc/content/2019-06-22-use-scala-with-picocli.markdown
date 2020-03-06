@@ -3,7 +3,7 @@ Date: 2019-06-22 03:41:22
 Author: Benjamin Du
 Slug: use-scala-with-picocli
 Title: Use Scala With Picocli
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, JVM, picocli, command-line interface, command-line parser
 
 **

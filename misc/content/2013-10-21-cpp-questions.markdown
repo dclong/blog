@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2019-12-24 11:04:24
 Slug: cpp-questions
 Title: Some Questions About C++
-Category: Programming
+Category: Computer Science
 Tags: questions, C++, programming
 
 **

@@ -3,7 +3,7 @@ Date: 2020-01-06 00:02:49
 Author: Benjamin Du
 Slug: managing-virtual-environments-in-poetry
 Title: Managing Virtual Environments in Poetry
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Poetry, virtual environment, shell
 
 ## Where to Create Virtual Environments

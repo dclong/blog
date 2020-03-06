@@ -3,7 +3,7 @@ Date: 2020-02-18 10:20:33
 Author: Benjamin Du
 Slug: computer-vision-tools
 Title: Computer Vision Tools
-Category: Programming
+Category: Computer Science
 Tags: programming, computer vision, CV, OpenCV, Pillow, tesseract DarkNet, YOLO
 
 **

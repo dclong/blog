@@ -3,7 +3,7 @@ Date: 2019-05-12 13:27:21
 Author: Benjamin Du
 Slug: tips-on-gitpython
 Title: Tips on GitPython
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Git, GitPython, tips
 
 **

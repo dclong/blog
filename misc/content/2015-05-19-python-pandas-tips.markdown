@@ -3,7 +3,7 @@ Date: 2020-02-27 14:34:31
 Author: Ben Chuanlong Du
 Slug: python-pandas-tips
 Title: Python pandas Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, pandas, DataFrame, data frame, tips
 
 **

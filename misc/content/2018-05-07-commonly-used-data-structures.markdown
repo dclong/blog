@@ -4,7 +4,7 @@ Date: 2018-05-07 22:30:29
 Author: Ben Chuanlong Du
 Slug: commonly-used-data-structures
 Title: Commonly Used Data Structures
-Category: Programming
+Category: Computer Science
 Tags: programming, data strucuture, deque, double-ended queue
 
 **

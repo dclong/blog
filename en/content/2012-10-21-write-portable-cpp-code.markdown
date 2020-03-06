@@ -3,7 +3,7 @@ Status: published
 Title: Write Portable C++ Code
 Date: 2012-10-21 00:00:00
 Tags: C++, programming, portable
-Category: Programming
+Category: Computer Science
 Slug: write-portable-cpp-code
 Author: Ben Chuanlong Du
 

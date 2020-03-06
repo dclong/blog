@@ -4,7 +4,7 @@ Date: 2015-03-13 10:53:45
 Slug: cpp-common-mistakes-and-debug
 Author: Ben Chuanlong Du
 Title: Common Mistakes in C++ Code and Ways to Debug
-Category: Programming
+Category: Computer Science
 Tags: debug, C++, mistake, programming, trap, bug, error
 
 

@@ -3,7 +3,7 @@ Date: 2019-12-16 14:45:18
 Author: Ben Chuanlong Du
 Slug: java-interfaces-for-python
 Title: Java Interfaces for Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Java, interface, pyjnius, jpype, py4j
 
 **

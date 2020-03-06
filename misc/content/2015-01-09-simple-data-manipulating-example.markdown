@@ -4,7 +4,7 @@ Date: 2015-01-09 15:47:17
 Author: Ben Chuanlong Du
 Slug: simple-data-manipulating-example
 Title: Simple Data Manipulating Example
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, IML, R, CRAN, example
 
 **

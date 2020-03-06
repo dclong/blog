@@ -3,7 +3,7 @@ Date: 2019-11-18 10:29:26
 Author: Benjamin Du
 Slug: pylint-tips
 Title: pylint Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, pylint, tips
 
 **

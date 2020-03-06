@@ -3,7 +3,7 @@ Date: 2019-03-12 17:31:44
 Author: Benjamin Du
 Slug: named-parameters-in-typescript
 Title: Named Parameters in Typescript
-Category: Programming
+Category: Computer Science
 Tags: programming, TypeScript, named parameters
 
 **

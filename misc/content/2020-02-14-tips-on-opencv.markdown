@@ -3,7 +3,7 @@ Date: 2020-02-24 23:29:43
 Author: Benjamin Du
 Slug: tips-on-opencv
 Title: Tips on OpenCV
-Category: Programming
+Category: Computer Science
 Tags: programming, OpenCV, tips, computer vision, CV
 
 **

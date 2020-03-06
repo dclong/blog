@@ -4,7 +4,7 @@ Date: 2017-10-22 13:32:43
 Author: Ben Chuanlong Du
 Slug: issues-in-scala
 Title: Issues in Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, issue
 
 **

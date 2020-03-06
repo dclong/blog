@@ -4,7 +4,7 @@ Date: 2015-08-28 12:50:40
 Author: Ben Chuanlong Du
 Slug: copy-data-in-sas
 Title: Copy Data in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, copy, dataset, datasets, data step
 
 **

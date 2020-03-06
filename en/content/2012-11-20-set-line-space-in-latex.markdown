@@ -4,7 +4,7 @@ Date: 2016-07-13 00:05:22
 Slug: set-line-space-in-latex
 Author: Ben Chuanlong Du
 Title: Set Line Space in LaTeX
-Category: Programming
+Category: Computer Science
 Tags: LaTeX, programming, line, spacing, space
 
 

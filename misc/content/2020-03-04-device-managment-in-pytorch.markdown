@@ -3,7 +3,7 @@ Date: 2020-03-04 14:41:23
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

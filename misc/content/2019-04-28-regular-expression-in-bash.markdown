@@ -3,7 +3,7 @@ Date: 2019-04-28 11:53:55
 Author: Benjamin Du
 Slug: regular-expression-in-bash
 Title: Regular Expression in Bash
-Category: Programming
+Category: Computer Science
 Tags: programming, Bash, regular expression, regex
 
 **

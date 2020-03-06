@@ -4,7 +4,7 @@ Date: 2016-10-16 09:03:52
 Author: Ben Chuanlong Du
 Slug: column-alias-in-sql
 Title: Column Alias in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, column alias, Teradata, Oracle
 
 **

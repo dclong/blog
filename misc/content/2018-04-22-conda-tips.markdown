@@ -3,7 +3,7 @@ Date: 2020-02-13 14:15:22
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, conda, tips
 
 **

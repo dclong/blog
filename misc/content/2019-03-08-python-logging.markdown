@@ -3,7 +3,7 @@ Date: 2019-09-24 23:05:01
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, logging, loguru
 
 **

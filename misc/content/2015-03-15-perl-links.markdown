@@ -4,7 +4,7 @@ Date: 2015-03-15 21:57:27
 Author: Ben Chuanlong Du
 Slug: perl-links
 Title: Perl Links
-Category: Programming
+Category: Computer Science
 Tags: programming, links, perl
 
 **

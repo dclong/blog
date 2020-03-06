@@ -3,7 +3,7 @@ Date: 2019-12-03 10:56:56
 Author: Benjamin Du
 Slug: get-resources-in-java
 Title: Get Resources in Java
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, getResource, resources, getClass, getClassLoader, getResourceAsStream
 
 **

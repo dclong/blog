@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Some Questions about HTML and CSS
 Date: 2016-11-20 19:20:04
 Slug: html_css-questions
-Category: Programming
+Category: Computer Science
 Tags: questions, programming, HTML, CSS, web
 
 **

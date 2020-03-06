@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Tips for Mathematica
 Date: 2019-03-29 09:27:31
 Slug: mathematica-tips
-Category: Programming
+Category: Computer Science
 Tags: tips, programming, Mathematica, Wolfram
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**

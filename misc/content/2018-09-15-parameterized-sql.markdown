@@ -4,7 +4,7 @@ Date: 2018-09-15 13:24:42
 Author: Ben Chuanlong Du
 Slug: parameterized-sql
 Title: Parameterized SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, DDL, parameterized SQL
 
 **

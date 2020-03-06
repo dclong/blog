@@ -3,7 +3,7 @@ Date: 2020-02-20 15:13:31
 Author: Ben Chuanlong Du
 Slug: spark-tips
 Title: Spark Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, big data, tips
 
 **

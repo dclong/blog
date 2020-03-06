@@ -3,7 +3,7 @@ Date: 2020-02-29 22:22:19
 Author: Benjamin Du
 Slug: run-commands-on-remote-machines
 Title: Run Commands on Remote Machines
-Category: Programming
+Category: Computer Science
 Tags: programming, Shell, Python, SSH, remote, Fabric, Ansible, ClusterSSH, parallel-ssh
 
 **

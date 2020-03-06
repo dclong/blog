@@ -4,7 +4,7 @@ Date: 2016-10-23 12:33:22
 Author: Ben Chuanlong Du
 Slug: auto-increment-in-sql
 Title: Auto Increment in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, auto increment
 
 **

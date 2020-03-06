@@ -3,7 +3,7 @@ Date: 2019-08-29 02:14:51
 Author: Benjamin Du
 Slug: spark-issue-duplicated-partitions
 Title: Spark Issue Duplicated Partitions
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, duplicate, overwrite
 
 **

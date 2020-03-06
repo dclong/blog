@@ -3,7 +3,7 @@ Date: 2019-11-21 18:43:25
 Author: Benjamin Du
 Slug: using-kotlin-with-gradle
 Title: Using Kotlin With Gradle
-Category: Programming
+Category: Computer Science
 Tags: programming, Kotlin, Gradle
 
 **

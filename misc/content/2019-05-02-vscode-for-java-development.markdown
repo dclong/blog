@@ -3,7 +3,7 @@ Date: 2020-02-21 11:35:32
 Author: Benjamin Du
 Slug: vscode-for-jvm-languages
 Title: Virtual Studio Code for Java Development
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, vscode, Visual Studio Code
 
 **

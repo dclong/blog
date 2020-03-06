@@ -4,7 +4,7 @@ Date: 2015-03-03 10:14:11
 Slug: input-bug-ruby
 Author: Ben Chuanlong Du
 Title: An Input Bug in Ruby
-Category: Programming
+Category: Computer Science
 Tags: programming, Bash, Ruby, bug, terminal, IO
 
 <img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/>

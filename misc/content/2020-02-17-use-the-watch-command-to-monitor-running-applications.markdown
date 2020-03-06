@@ -3,7 +3,7 @@ Date: 2020-02-17 13:13:30
 Author: Benjamin Du
 Slug: use-the-watch-command-to-monitor-running-applications
 Title: Use the Watch Command to Monitor Running Applications
-Category: Programming
+Category: Computer Science
 Tags: programming, Shell, Linux, watch, monitor
 
 **

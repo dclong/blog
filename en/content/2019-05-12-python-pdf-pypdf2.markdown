@@ -3,7 +3,7 @@ Date: 2020-01-07 10:00:53
 Author: Benjamin Du
 Title: Extracting PDF pages using the Python Package PyPDF2
 Slug: python-pdf-pypdf2
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, PyPDF2, PyPDF, example, PDF, extract pages
 
 

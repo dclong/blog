@@ -3,7 +3,7 @@ Date: 2019-11-07 02:56:13
 Slug: boolean-values-in-cpp
 Author: Ben Chuanlong Du
 Title: Boolean Values in C++
-Category: Programming
+Category: Computer Science
 Tags: boolean, C++, programming
 
 ## Boolean Values

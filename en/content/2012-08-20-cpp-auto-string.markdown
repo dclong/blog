@@ -3,7 +3,7 @@ Status: published
 Title: String in C++11
 Date: 2012-08-20 00:00:00
 Tags: auto, iteration, programming, C/C++, string, loop, char
-Category: Programming
+Category: Computer Science
 Slug: cpp-auto-string
 Author: Ben Chuanlong Du
 

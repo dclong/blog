@@ -3,7 +3,7 @@ Status: published
 Title: Parallel Computing in Java
 Date: 2012-06-11 00:00:00
 Tags: lock, programming, thread, race condition, Java, HPC, parallel, concurrency, mutex
-Category: Programming
+Category: Computer Science
 Slug: parallel-computing-java
 Author: Ben Chuanlong Du
 

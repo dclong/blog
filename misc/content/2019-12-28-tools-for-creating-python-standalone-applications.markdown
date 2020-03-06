@@ -3,7 +3,7 @@ Date: 2019-12-28 11:05:24
 Author: Benjamin Du
 Slug: tools-for-creating-python-standalone-applications
 Title: Tools for Creating Python Standalone Applications
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, standalone
 
 **

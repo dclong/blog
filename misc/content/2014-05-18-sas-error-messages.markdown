@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2015-05-17 17:26:53
 Title: SAS Error Messages
 Slug: sas-error-messages
-Category: Programming
+Category: Computer Science
 Tags: SAS, programming, error, tips
 
 **

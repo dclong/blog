@@ -3,7 +3,7 @@ Date: 2020-01-02 12:01:27
 Author: Benjamin Du
 Slug: memory-in-jvm
 Title: Memory in JVM
-Category: Programming
+Category: Computer Science
 Tags: programming, JVM, memory, stack, heap, off-heap
 
 **

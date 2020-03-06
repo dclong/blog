@@ -3,7 +3,7 @@ Date: 2019-07-25 01:15:11
 Author: Ben Chuanlong Du
 Slug: error-exception-handling-and-testing-in-scala
 Title: Error/Exception Handling and Testing in Scala
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

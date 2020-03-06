@@ -3,7 +3,7 @@ Title: Markdown Tips
 Author: Ben Chuanlong Du
 Date: 2020-03-03 15:50:04
 Slug: markdown-tips
-Category: Programming
+Category: Computer Science
 Tags: programming, markdown, LaTeX, equation, tips
 
 **

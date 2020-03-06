@@ -3,7 +3,7 @@ Status: published
 Title: Random Number Generating in R
 Date: 2013-12-05 00:21:35
 Tags: R, programming, RNG
-Category: Programming
+Category: Computer Science
 Slug: rng-in-r
 Author: Ben Chuanlong Du
 

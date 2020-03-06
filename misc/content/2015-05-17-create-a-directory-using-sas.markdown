@@ -4,7 +4,7 @@ Date: 2015-05-17 18:54:39
 Author: Ben Chuanlong Du
 Slug: create-a-directory-using-sas
 Title: Create a Directory Using SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, directory, file system, filesystem, create, dcreate
 
 **

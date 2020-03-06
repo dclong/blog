@@ -3,7 +3,7 @@ Date: 2019-12-31 11:51:55
 Author: Benjamin Du
 Slug: calling-rust-from-python
 Title: Calling Rust from Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Rust, PyO3
 
 **

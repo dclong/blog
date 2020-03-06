@@ -3,7 +3,7 @@ Date: 2019-03-10 02:23:34
 Author: Benjamin Du
 Slug: add-method-to-a-python-class
 Title: Add Method to a Python Class
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, reflection, method, class
 
 **

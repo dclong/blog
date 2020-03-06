@@ -3,7 +3,7 @@ Date: 2020-03-04 16:12:45
 Author: Benjamin Du
 Slug: gradient-clipping-in-pytorch
 Title: Gradient Clipping in PyTorch
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

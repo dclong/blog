@@ -4,7 +4,7 @@ Date: 2016-06-10 11:21:25
 Author: Ben Chuanlong Du
 Slug: frequently-used-time-format
 Title: Frequently Used Time Format
-Category: Programming
+Category: Computer Science
 Tags: programming, time, date, format
 
 **

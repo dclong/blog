@@ -4,7 +4,7 @@ Date: 2016-06-14 02:09:10
 Author: Ben Chuanlong Du
 Slug: advanced-data-structures-in-vba
 Title: Advanced Data Structures in VBA
-Category: Programming
+Category: Computer Science
 Tags: programming, VBA, data structure, dictionary
 
 Things on this page are 

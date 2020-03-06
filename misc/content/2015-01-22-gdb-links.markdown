@@ -4,7 +4,7 @@ Date: 2016-07-13 22:50:57
 Author: Ben Chuanlong Du
 Slug: gdb-links
 Title: GDB Links
-Category: Programming
+Category: Computer Science
 Tags: programming, GDB, C++, debug
 
 **

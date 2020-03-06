@@ -3,7 +3,7 @@ Status: published
 Title: String in Different Programming Languages
 Date: 2014-09-14 16:34:30
 Tags: Python, programming, Java, string, bash, Ruby, R
-Category: Programming
+Category: Computer Science
 Slug: summary-string-popular-programming-language
 Author: Ben Chuanlong Du
 

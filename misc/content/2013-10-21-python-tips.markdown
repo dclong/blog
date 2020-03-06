@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Date: 2019-10-23 06:40:27
 Slug: python-tips
 Title: Tips on Python
-Category: Programming
+Category: Computer Science
 Tags: tips, Python, programming
 
 **

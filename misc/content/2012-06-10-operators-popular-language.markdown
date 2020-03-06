@@ -4,7 +4,7 @@ Date: 2015-05-30 14:38:25
 Slug: operators-popular-language
 Author: Ben Chuanlong Du
 Title: Operators in Different Programming Languages
-Category: Programming
+Category: Computer Science
 Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, Ruby, R, VB/VB.net, MATLAB
 
 <table border="1" align="center">

@@ -3,7 +3,7 @@ Date: 2019-10-23 18:20:23
 Author: Benjamin Du
 Slug: tips-on-pyenv
 Title: Tips on pyenv
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, pyenv, versions
 
 **

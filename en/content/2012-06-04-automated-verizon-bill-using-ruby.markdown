@@ -3,7 +3,7 @@ Status: published
 Title: Automated Phone Bill Using Ruby Program
 Date: 2014-06-18 08:17:18
 Tags: Python, programming, Verizon, Ruby, email, phone
-Category: Programming
+Category: Computer Science
 Slug: automated-verizon-bill-using-ruby
 Author: Ben Chuanlong Du
 

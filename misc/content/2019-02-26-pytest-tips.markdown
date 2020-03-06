@@ -3,7 +3,7 @@ Date: 2019-11-23 15:02:34
 Author: Benjamin Du
 Slug: pytest-tips
 Title: PyTest Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, PyTest, fixtures, plugins
 
 **

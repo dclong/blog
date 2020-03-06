@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2015-08-28 12:58:18
 Title: SAS SQL Tips
 Slug: sas-sql-tips
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, tips, SQL
 
 **

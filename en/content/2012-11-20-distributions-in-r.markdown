@@ -3,7 +3,7 @@ Status: published
 Title: Distributions in R
 Date: 2013-12-05 00:22:23
 Tags: distribution, R, programming, statistics
-Category: Programming
+Category: Computer Science
 Slug: distributions-in-r
 Author: Ben Chuanlong Du
 

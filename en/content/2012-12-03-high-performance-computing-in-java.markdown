@@ -4,7 +4,7 @@ Date: 2015-02-20 10:52:13
 Slug: high-performance-computing-in-java
 Author: Ben Chuanlong Du
 Title: High Performance Computing in Java
-Category: Programming
+Category: Computer Science
 Tags: programming, thread, Java, HPC, parallel, concurrency, high performance computing
 
 ## Efficient Computing

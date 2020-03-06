@@ -3,7 +3,7 @@ Date: 2020-02-18 10:42:24
 Author: Benjamin Du
 Slug: tips-on-conda-pack
 Title: Tips on conda-pack
-Category: Programming
+Category: Computer Science
 Tags: programming, conda-pack, conda, dependency, virtual environment
 
 **

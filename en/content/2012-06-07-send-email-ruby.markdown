@@ -3,7 +3,7 @@ Status: published
 Title: Send Email in Ruby
 Date: 2012-06-07 00:00:00
 Tags: smtp, programming, Verizon, PDF, Ruby, email
-Category: Programming
+Category: Computer Science
 Slug: send-email-ruby
 Author: Ben Chuanlong Du
 

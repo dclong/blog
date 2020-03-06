@@ -4,7 +4,7 @@ Date: 2017-04-03 18:00:18
 Author: Ben Chuanlong Du
 Slug: java-ppa
 Title: Java PPA
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, Ubuntu, PPA
 
 **

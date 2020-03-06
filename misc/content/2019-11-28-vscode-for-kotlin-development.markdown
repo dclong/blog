@@ -3,7 +3,7 @@ Date: 2019-11-28 15:01:10
 Author: Benjamin Du
 Slug: vscode-for-kotlin-development
 Title: Vscode for Kotlin Development
-Category: Programming
+Category: Computer Science
 Tags: programming, Kotlin, vscode, Visual Studio Code
 
 **

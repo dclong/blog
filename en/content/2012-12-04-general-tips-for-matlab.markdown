@@ -3,7 +3,7 @@ Status: published
 Title: General Tips for MATLAB
 Date: 2014-09-08 10:35:47
 Tags: tips, skills, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: general-tips-for-MATLAB
 Author: Ben Chuanlong Du
 

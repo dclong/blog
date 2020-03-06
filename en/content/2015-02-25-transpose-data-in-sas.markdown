@@ -4,7 +4,7 @@ Date: 2015-08-26 22:09:17
 Author: Ben Chuanlong Du
 Slug: transpose-data-in-sas
 Title: Transpose Data in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, data manipulation, transpose
 
 You can use the transpose procedure to tranpose a fat/thin data to a thin/fat data in SAS.

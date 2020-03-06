@@ -4,7 +4,7 @@ Date: 2014-09-05 01:22:21
 Slug: environments-in-r
 Author: Ben Chuanlong Du
 Title: Environments in R
-Category: Programming
+Category: Computer Science
 Tags: R, programming, environment
 
 **

@@ -3,7 +3,7 @@ Date: 2019-10-30 18:53:06
 Author: Benjamin Du
 Slug: python-local-packages-directory
 Title: Python Local Packages Directory
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, PEP 582, Python local package directory
 
 **

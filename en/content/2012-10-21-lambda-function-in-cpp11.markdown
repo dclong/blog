@@ -4,7 +4,7 @@ Date: 2015-02-20 10:35:46
 Slug: lambda-function-in-cpp11
 Author: Ben Chuanlong Du
 Title: Lambda Function in C++11
-Category: Programming
+Category: Computer Science
 Tags: C++, lambda, programming
 
 ## Lambda Function

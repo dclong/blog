@@ -4,7 +4,7 @@ Date: 2015-02-20 10:36:42
 Slug: performance-tips-for-cpp
 Author: Ben Chuanlong Du
 Title: Performance Tips for C++
-Category: Programming
+Category: Computer Science
 Tags: tips, performance, C++, programming
 
 

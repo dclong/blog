@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2016-07-13 22:45:07
 Slug: algorithm-questions
 Title: Questions About Algorithms
-Category: Programming
+Category: Computer Science
 Tags: questions, programming, algorithm
 
 **

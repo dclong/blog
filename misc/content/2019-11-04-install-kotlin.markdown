@@ -3,7 +3,7 @@ Date: 2019-12-23 09:57:56
 Author: Benjamin Du
 Slug: general-tips-on-kotlin
 Title: Install Kotlin
-Category: Programming
+Category: Computer Science
 Tags: programming, Kotlin, install, installation
 
 **

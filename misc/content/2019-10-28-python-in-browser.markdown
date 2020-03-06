@@ -3,7 +3,7 @@ Date: 2019-10-28 22:20:51
 Author: Benjamin Du
 Slug: python-in-browser
 Title: Python in Browser
-Category: Programming
+Category: Computer Science
 Tags: programming, anvil.works, Python, JavaScript, web
 
 **

@@ -3,7 +3,7 @@ Date: 2019-02-18 20:15:42
 Author: Benjamin Du
 Slug: java-reflection
 Title: Java Reflection
-Category: Programming
+Category: Computer Science
 Tags: programming, Java, reflection
 
 **

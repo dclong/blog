@@ -3,7 +3,7 @@ Date: 2019-10-04 20:19:41
 Author: Benjamin Du
 Slug: understand-the-design-of-python
 Title: Understand the Design of Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, design
 
 **

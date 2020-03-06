@@ -3,7 +3,7 @@ Date: 2019-10-31 17:22:26
 Author: Benjamin Du
 Slug: copy-object-in-python
 Title: Copy Object in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, copy object
 
 **

@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Questions About Ruby
 Date: 2016-07-12 23:35:10
 Slug: ruby-questions
-Category: Programming
+Category: Computer Science
 Tags: questions, Ruby
 
 **

@@ -3,7 +3,7 @@ Date: 2019-10-31 11:28:19
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, big data, Spark, Spark SQL
 
 **

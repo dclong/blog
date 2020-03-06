@@ -3,7 +3,7 @@ Date: 2020-02-19 15:56:43
 Author: Benjamin Du
 Slug: Use-tablesample-in-sql
 Title: Use TableSample in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, Spark, Spark SQL, PostgreSQL, TableSample
 
 **

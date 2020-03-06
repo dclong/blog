@@ -3,7 +3,7 @@ Date: 2019-08-09 01:08:44
 Author: Benjamin Du
 Slug: commonly-used-file-formats-for-configuration
 Title: Commonly Used File Formats for Configuration
-Category: Programming
+Category: Computer Science
 Tags: programming, configuration, JSON, YAML, TOML, XML, file format
 
 **

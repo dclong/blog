@@ -3,7 +3,7 @@ Date: 2019-10-04 20:14:52
 Author: Benjamin Du
 Slug: popular-data-structures-in-python
 Title: Popular Data Structures in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, data structure, list, dict, tuple
 
 **

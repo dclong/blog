@@ -2,7 +2,7 @@ Status: published
 Date: 2020-02-17 11:39:43
 Title: Tips on FFmpeg
 Slug: ffmpeg-tips
-Category: Programming
+Category: Computer Science
 Tags: programming, multimedia, Linux, video, audio, image, FFmpeg
 Author: Ben Chuanlong Du
 

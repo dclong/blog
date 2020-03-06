@@ -3,7 +3,7 @@ Date: 2019-08-24 06:48:05
 Author: Benjamin Du
 Slug: calling-shell-from-python
 Title: Calling Shell from Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, shell, os.system, subprocess
 
 **

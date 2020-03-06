@@ -4,7 +4,7 @@ Title: A Bug in Mathematica
 Date: 2016-08-15 21:22:23
 Slug: bug-in-mathematica
 Author: Ben Chuanlong Du
-Category: Programming
+Category: Computer Science
 Tags: Mathematica, programming, bug
 
 <img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/>

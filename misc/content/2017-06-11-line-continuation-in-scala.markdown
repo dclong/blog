@@ -4,7 +4,7 @@ Date: 2017-10-22 13:35:34
 Author: Ben Chuanlong Du
 Slug: line-continuation-in-scala
 Title: Line Continuation in Scala
-Category: Programming
+Category: Computer Science
 Tags: programming, Scala, line continuation
 
 **

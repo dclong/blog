@@ -3,7 +3,7 @@ Status: published
 Title: MATLAB for Statisticians
 Date: 2012-12-04 00:00:00
 Tags: statistics, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: statistics-in-MATLAB
 Author: Ben Chuanlong Du
 

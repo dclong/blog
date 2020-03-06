@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2016-06-11 17:37:32
 Slug: rcpp-questions
 Title: Some Questions About R
-Category: Programming
+Category: Computer Science
 Tags: questions, Rcpp, programming, C++
 
 **

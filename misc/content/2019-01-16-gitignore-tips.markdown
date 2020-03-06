@@ -3,7 +3,7 @@ Date: 2019-12-14 12:32:51
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
-Category: Programming
+Category: Computer Science
 Tags: programming, Git, .gitignore
 
 **

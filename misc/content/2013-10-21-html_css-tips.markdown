@@ -3,7 +3,7 @@ Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
 Date: 2020-02-17 11:54:35
 Slug: html_css-tips
-Category: Programming
+Category: Computer Science
 Tags: tips, HTML, CSS, web, programming
 
 **

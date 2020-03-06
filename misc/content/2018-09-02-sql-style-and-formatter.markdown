@@ -3,7 +3,7 @@ Date: 2019-11-01 23:11:42
 Author: Ben Chuanlong Du
 Slug: sql-style-and-formatter
 Title: SQL Style and Formatter
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, SQL formatter, SQL style
 
 **

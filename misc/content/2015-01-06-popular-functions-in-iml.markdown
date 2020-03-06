@@ -4,7 +4,7 @@ Date: 2015-03-02 18:09:00
 Author: Ben Chuanlong Du
 Slug: popular-functions-in-iml
 Title: Popular Functions in IML
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, IML, function, module
 
 **

@@ -4,7 +4,7 @@ Date: 2017-11-18 10:28:59
 Author: Ben Chuanlong Du
 Slug: bokeh-tips
 Title: Bokeh Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, visualization, Bokeh, Bokeh server, tips
 
 **

@@ -4,7 +4,7 @@ Date: 2017-10-22 13:51:30
 Author: Ben Chuanlong Du
 Slug: scalajs-tips
 Title: ScalaJS Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, ScalaJS, Scala, JavaScript, JS
 
 **

@@ -3,7 +3,7 @@ Status: published
 Title: Combination and Permutation Related Functions in R
 Date: 2010-11-20 00:00:00
 Tags: R, statisitcs, combination, permutation, programming
-Category: Programming
+Category: Computer Science
 Slug: combination-and-permutation-in-r
 Author: Ben Chuanlong Du
 

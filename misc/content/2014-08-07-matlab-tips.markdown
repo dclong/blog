@@ -3,7 +3,7 @@ Date: 2019-12-24 10:43:54
 Author: Ben Chuanlong Du
 Slug: matlab-tips
 Title: MATLAB Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, tips, MATLAB 
 
 Things on this page are 

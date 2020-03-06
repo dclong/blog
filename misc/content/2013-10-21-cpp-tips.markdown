@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2016-07-09 18:26:47
 Slug: cpp-tips
 Title: Tips About C++
-Category: Programming
+Category: Computer Science
 Tags: tips, programming, C++, cpp
 
 **

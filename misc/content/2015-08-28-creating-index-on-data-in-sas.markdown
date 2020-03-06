@@ -4,7 +4,7 @@ Date: 2016-07-13 22:54:56
 Author: Ben Chuanlong Du
 Slug: creating-index-on-data-in-sas
 Title: Creating Index on Data in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, index, data, hash, 
 
 **

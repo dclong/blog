@@ -4,7 +4,7 @@ Date: 2015-08-02 12:05:07
 Author: Ben Chuanlong Du
 Slug: general-tips-for-sas
 Title: General Tips for SAS
-Category: Programming
+Category: Computer Science
 Tags: character, programming, SAS, procedure, data step, tip
 
 

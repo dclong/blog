@@ -4,7 +4,7 @@ Date: 2016-12-10 01:57:25
 Author: Ben Chuanlong Du
 Slug: install-r-packages-on-windows-behind-proxy
 Title: Install R Packages Behind Proxy on Windows 
-Category: Programming
+Category: Computer Science
 Tags: programming, R, Windows, install package, proxy
 
 

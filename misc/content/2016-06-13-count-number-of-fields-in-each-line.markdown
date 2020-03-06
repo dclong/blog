@@ -4,7 +4,7 @@ Date: 2016-06-13 23:08:03
 Author: Ben Chuanlong Du
 Slug: count-number-of-fields-in-each-line
 Title: Count Number of Fields in Each Line
-Category: Programming
+Category: Computer Science
 Tags: programming, data manipulation, R, awk, number, field, text file
 
 **

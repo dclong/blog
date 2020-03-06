@@ -4,7 +4,7 @@ Date: 2017-05-24 21:10:22
 Author: Ben Chuanlong Du
 Slug: python-flask-tips
 Title: Python Flask Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, Flask
 
 **

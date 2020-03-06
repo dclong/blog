@@ -4,7 +4,7 @@ Date: 2015-03-13 16:49:45
 Author: Ben Chuanlong Du
 Slug: calculating-quantiles-in-sas
 Title: Calculating Quantiles in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, quantile
 
 **

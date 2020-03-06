@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Tips for JavaScript
 Date: 2019-03-14 23:47:42
 Slug: javascript-tips
-Category: Programming
+Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
 
 **

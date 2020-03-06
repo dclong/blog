@@ -3,7 +3,7 @@ Date: 2020-03-04 16:44:20
 Author: Benjamin Du
 Slug: tips-on-pytorch
 Title: Tips on PyTorch
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, PyTorch, GPU, tips
 
 **

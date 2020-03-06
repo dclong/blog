@@ -4,7 +4,7 @@ Date: 2017-03-18 20:08:57
 Author: Ben Chuanlong Du
 Slug: plotly-tips
 Title: Plotly Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, visualization, plotly, graph
 
 **

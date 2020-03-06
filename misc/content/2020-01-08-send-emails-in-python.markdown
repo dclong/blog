@@ -3,7 +3,7 @@ Date: 2020-01-08 11:27:26
 Author: Benjamin Du
 Slug: send-emails-in-python
 Title: Send Emails in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, email, web
 
 **

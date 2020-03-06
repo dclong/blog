@@ -4,7 +4,7 @@ Date: 2017-06-17 10:22:57
 Author: Ben Chuanlong Du
 Slug: collection-of-jupyter-notebooks
 Title: Collection of Jupyter Notebooks
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

@@ -3,7 +3,7 @@ Date: 2020-02-17 13:12:30
 Author: Benjamin Du
 Slug: pyqt5-tips
 Title: Tips on PyQt5
-Category: Programming
+Category: Computer Science
 Tags: programming, PyQt5, GUI, Python, Qt5
 
 **

@@ -4,7 +4,7 @@ Date: 2015-03-24 22:22:41
 Slug: input-and-output-in-cpp
 Author: Ben Chuanlong Du
 Title: Input and Output in C++
-Category: Programming
+Category: Computer Science
 Tags: C/C++, IO, C++, programming
 
 

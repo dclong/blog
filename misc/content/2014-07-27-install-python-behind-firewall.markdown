@@ -3,7 +3,7 @@ Date: 2019-03-09 02:23:14
 Author: Ben Chuanlong Du
 Slug: install-python-behind-firewall
 Title: Install Python Packages Behind Firewall
-Category: Programming
+Category: Computer Science
 Tags: Python, programming, Windows, proxy, install package
 
 **

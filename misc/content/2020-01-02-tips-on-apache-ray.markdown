@@ -3,7 +3,7 @@ Date: 2020-02-28 14:54:08
 Author: Benjamin Du
 Slug: tips-on-apache-ray
 Title: Tips on Apache Ray
-Category: Programming
+Category: Computer Science
 Tags: programming, Apache Ray, distributed computing
 
 **

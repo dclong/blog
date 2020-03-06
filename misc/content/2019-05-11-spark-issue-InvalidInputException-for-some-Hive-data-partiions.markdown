@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-InvalidInputException-for-some-Hive-data-partiions
 Title: Spark Issue Invalidinputexception for Some Hive Data Partiions
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

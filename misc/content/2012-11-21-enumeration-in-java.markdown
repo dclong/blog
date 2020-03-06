@@ -4,7 +4,7 @@ Date: 2016-07-13 22:19:38
 Slug: enumeration-in-java
 Author: Ben Chuanlong Du
 Title: Enumeration in Java
-Category: Programming
+Category: Computer Science
 Tags: enumeration, programming, Java
 
 **

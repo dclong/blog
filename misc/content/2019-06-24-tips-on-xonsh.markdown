@@ -3,7 +3,7 @@ Date: 2019-10-15 20:52:22
 Author: Benjamin Du
 Slug: tips-on-xonsh
 Title: Tips on Xonsh
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, shell, xonsh, Python evaluation
 
 **

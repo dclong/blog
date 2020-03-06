@@ -4,7 +4,7 @@ Date: 2015-08-28 17:11:56
 Author: Ben Chuanlong Du
 Slug: the put and input functions in sas
 Title: The PUT/INPUT Functions in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, put, input, putn, putc, inputn, inputc
 
 **

@@ -3,7 +3,7 @@ Status: published
 Title: Macro in SAS
 Date: 2015-08-28 16:43:05
 Tags: dot, SAS, macro, branch, programming
-Category: Programming
+Category: Computer Science
 Slug: macro-in-sas
 Author: Ben Chuanlong Du
 

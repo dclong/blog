@@ -3,7 +3,7 @@ Date: 2019-09-16 22:12:27
 Author: Benjamin Du
 Slug: tips-on-yapf
 Title: Tips on yapf
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, yapf, code formatting
 
 **

@@ -4,7 +4,7 @@ Date: 2019-08-06 22:26:26
 Author: Ben Chuanlong Du
 Slug: use-jupyterlab-notebooks-in-pelican
 Title: Use JupyterLab Notebooks in Pelican
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

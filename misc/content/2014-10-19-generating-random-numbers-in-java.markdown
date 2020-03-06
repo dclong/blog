@@ -4,7 +4,7 @@ Date: 2014-10-19 19:40:40
 Author: Ben Chuanlong Du
 Slug: generating-random-numbers-in-java
 Title: Generating Random Numbers in Java
-Category: Programming
+Category: Computer Science
 Tags: programming, random number generating, Java
 
 **

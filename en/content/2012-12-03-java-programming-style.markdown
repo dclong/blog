@@ -3,7 +3,7 @@ Status: published
 Title: Java Programming Style
 Date: 2012-12-03 00:00:00
 Tags: style, Java, programming
-Category: Programming
+Category: Computer Science
 Slug: java-programming-style
 Author: Ben Chuanlong Du
 

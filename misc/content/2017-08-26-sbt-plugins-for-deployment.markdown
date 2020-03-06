@@ -4,7 +4,7 @@ Date: 2017-12-23 09:30:38
 Author: Ben Chuanlong Du
 Slug: sbt-plugins-for-deployment
 Title: sbt Plugins for Deployment
-Category: Programming
+Category: Computer Science
 Tags: programming, sbt, plugin, Scala
 
 **

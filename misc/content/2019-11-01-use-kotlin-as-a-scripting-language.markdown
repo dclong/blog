@@ -3,7 +3,7 @@ Date: 2019-11-03 13:10:42
 Author: Benjamin Du
 Slug: use-kotlin-as-a-scripting-language
 Title: Use Kotlin as a Scripting Language
-Category: Programming
+Category: Computer Science
 Tags: programming, Kotlin, scripting language, JVM
 
 **

@@ -3,7 +3,7 @@ Date: 2019-10-04 20:13:40
 Author: Benjamin Du
 Slug: python-distribution
 Title: Python Distribution
-Category: Programming
+Category: Computer Science
 Tags: programming, Python distribution
 
 **

@@ -4,7 +4,7 @@ Date: 2015-08-28 16:55:06
 Author: Ben Chuanlong Du
 Slug: the confusing string in sas
 Title: The Confusing String in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, String, data type
 
 **

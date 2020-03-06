@@ -4,7 +4,7 @@ Date: 2015-05-17 16:21:10
 Author: Ben Chuanlong Du
 Slug: sas-coding-style
 Title: SAS Coding Style
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, coding style
 
 **

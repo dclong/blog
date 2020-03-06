@@ -3,7 +3,7 @@ Date: 2019-05-11 02:50:52
 Author: Benjamin Du
 Slug: spark-issue-table-not-found
 Title: Spark Issue Table Not Found
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

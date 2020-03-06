@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Date: 2020-01-27 20:34:47
 Title: SQL Questions
 Slug: sql-questions
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, questions
 
 **

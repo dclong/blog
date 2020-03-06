@@ -3,7 +3,7 @@ Date: 2019-05-11 01:59:02
 Author: Benjamin Du
 Slug: spark-issue-native-memory-usage-exceed-memoryOverhead
 Title: Spark Issue: Native Memory Usage Exceed MemoryOverhead
-Category: Programming
+Category: Computer Science
 Tags: programming, Spark, issue, big data
 
 **

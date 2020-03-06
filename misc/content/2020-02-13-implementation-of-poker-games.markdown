@@ -3,7 +3,7 @@ Date: 2020-02-24 22:26:41
 Author: Benjamin Du
 Slug: implementation-of-poker-games
 Title: Implementation of Poker Games
-Category: Programming
+Category: Computer Science
 Tags: programming, game, poker
 
 **

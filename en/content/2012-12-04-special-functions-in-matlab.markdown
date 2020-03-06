@@ -3,7 +3,7 @@ Status: published
 Title: Special Functions in MATLAB
 Date: 2012-12-04 00:00:00
 Tags: function, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: special-functions-in-MATLAB
 Author: Ben Chuanlong Du
 

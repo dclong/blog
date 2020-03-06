@@ -3,7 +3,7 @@ Date: 2019-03-30 17:28:31
 Author: Benjamin Du
 Slug: economy-and-finance
 Title: Economy and Finance
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

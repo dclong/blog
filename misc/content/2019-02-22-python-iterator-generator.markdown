@@ -3,7 +3,7 @@ Date: 2019-12-28 11:49:09
 Author: Benjamin Du
 Slug: iterators-and-generators-in-python
 Title: Iterators and Generators in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, generator, iterator
 
 **

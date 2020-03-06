@@ -4,7 +4,7 @@ Date: 2016-06-14 02:09:22
 Author: Ben Chuanlong Du
 Slug: string-functions-in-vba
 Title: String Functions in VBA
-Category: Programming
+Category: Computer Science
 Tags: programming, VBA, string, character
 
 Things on this page are 

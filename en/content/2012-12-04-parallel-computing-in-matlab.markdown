@@ -3,7 +3,7 @@ Status: published
 Title: Parallel Computing in MATLAB
 Date: 2014-06-19 19:45:42
 Tags: HPC, parallel, concurrency, programming, MATLAB
-Category: Programming
+Category: Computer Science
 Slug: parallel-computing-in-MATLAB
 Author: Ben Chuanlong Du
 

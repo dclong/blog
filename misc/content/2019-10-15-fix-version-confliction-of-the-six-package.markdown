@@ -3,7 +3,7 @@ Date: 2019-10-15 08:31:38
 Author: Benjamin Du
 Slug: fix-version-confliction-of-the-six-package
 Title: Fix Version Confliction of the Six Package
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, six, version confliction
 
 **

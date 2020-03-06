@@ -3,7 +3,7 @@ Date: 2019-01-21 22:39:09
 Author: Ben Chuanlong Du
 Slug: qt5-tips
 Title: Qt5 Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Qt5, Ubuntu
 
 **

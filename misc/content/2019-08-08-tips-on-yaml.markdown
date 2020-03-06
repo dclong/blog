@@ -3,7 +3,7 @@ Date: 2019-12-22 18:49:52
 Author: Benjamin Du
 Slug: tips-on-yaml
 Title: Tips on YAML
-Category: Programming
+Category: Computer Science
 Tags: programming, YAML, tips
 
 **

@@ -4,7 +4,7 @@ Date: 2019-06-27 18:31:29
 Author: Ben Chuanlong Du
 Slug: sql-logic-visualization
 Title: SQL Logic Visualization
-Category: Programming
+Category: Computer Science
 Tags: programming, SQL, SQL Logic Visualization, sqldep, queryScope, queryViz, eralchemy
 
 **

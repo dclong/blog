@@ -4,7 +4,7 @@ Date: 2015-05-10 22:05:12
 Author: Ben Chuanlong Du
 Slug: generating-random-numbers-in-sas
 Title: Generating Random Numbers in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, random number generating, RANDGEN, rand
 
 **

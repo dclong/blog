@@ -4,7 +4,7 @@ Date: 2015-03-13 00:59:10
 Author: Ben Chuanlong Du
 Slug: set missing rows as missing data in sas
 Title: Insert Rows Missing as Missing Records in SAS
-Category: Programming
+Category: Computer Science
 Tags: programming, SAS, missing
 
 I recent come across a problem.

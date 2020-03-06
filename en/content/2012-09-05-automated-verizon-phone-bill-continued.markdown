@@ -3,7 +3,7 @@ Status: published
 Title: Automated Verizon Phone Bill (Continued)
 Date: 2012-09-05 00:00:00
 Tags: phone, verizon, Ruby, programming
-Category: Programming
+Category: Computer Science
 Slug: automated-verizon-phone-bill-continued
 Author: Ben Chuanlong Du
 

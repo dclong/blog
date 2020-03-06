@@ -3,7 +3,7 @@ Date: 2019-10-29 04:14:54
 Author: Benjamin Du
 Slug: spark-vs-readshift
 Title: Spark vs Readshift
-Category: Programming
+Category: Computer Science
 Tags: programming, big data, Spark, Snowflake, redshift, cloud database, SQL
 
 **

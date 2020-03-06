@@ -4,7 +4,7 @@ Date: 2016-10-23 12:35:49
 Author: Ben Chuanlong Du
 Slug: volatile-cte-and-subqueries-in-sql
 Title: Volatile Cte and Subqueries in SQL
-Category: Programming
+Category: Computer Science
 Tags: programming, CTE, SQL, volatile, with, subquery, sub query
 
 **

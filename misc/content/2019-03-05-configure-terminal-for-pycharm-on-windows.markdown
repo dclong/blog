@@ -3,7 +3,7 @@ Date: 2019-03-05 01:48:55
 Author: Benjamin Du
 Slug: configure-terminal-for-pycharm
 Title: Configure Terminal for PyCharm on Windows
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

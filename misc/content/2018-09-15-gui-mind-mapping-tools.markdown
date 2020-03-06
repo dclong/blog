@@ -4,7 +4,7 @@ Date: 2018-09-15 15:17:19
 Author: Ben Chuanlong Du
 Slug: gui-mind-mapping-tools
 Title: Gui Mind Mapping Tools
-Category: Programming
+Category: Computer Science
 Tags: programming
 
 **

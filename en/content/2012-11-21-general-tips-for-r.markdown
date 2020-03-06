@@ -3,7 +3,7 @@ Status: published
 Title: General Tips for R
 Date: 2013-12-05 00:29:52
 Tags: tips, R, generic, programming, argument
-Category: Programming
+Category: Computer Science
 Slug: general-tips-for-r
 Author: Ben Chuanlong Du
 

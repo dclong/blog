@@ -3,7 +3,7 @@ Date: 2019-10-10 21:00:55
 Author: Benjamin Du
 Slug: update-a-line-in-standard-output
 Title: Update a Line in Standard Output
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, sys.stdout, standard output, return, return and new line
 
 **

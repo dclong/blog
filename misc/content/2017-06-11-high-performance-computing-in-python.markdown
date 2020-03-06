@@ -3,7 +3,7 @@ Date: 2020-02-27 17:08:12
 Author: Ben Chuanlong Du
 Slug: high-performance-computing-in-python
 Title: High Performance Computing in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, Python, HPC, high performance computing, pybind11, numba, Cython, mars, Apache Ray
 
 **

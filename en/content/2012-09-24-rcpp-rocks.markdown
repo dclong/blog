@@ -4,7 +4,7 @@ Date: 2014-08-16 19:26:30
 Slug: rcpp-rocks
 Author: Ben Chuanlong Du
 Title: Rcpp Rocks
-Category: Programming
+Category: Computer Science
 Tags: C++, list, programming, HPC, Rcpp, R, RcppArmadillo, Armadillo, rock
 
 

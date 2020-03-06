@@ -3,7 +3,7 @@ Date: 2019-05-12 11:12:42
 Author: Ben Chuanlong Du
 Slug: qt-in-python
 Title: Use Qt in Python
-Category: Programming
+Category: Computer Science
 Tags: programming, GUI, Python, QT, PyQT5, PySide2
 
 **

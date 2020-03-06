@@ -4,7 +4,7 @@ Date: 2015-03-25 00:44:03
 Slug: const-and-static-variables-in-cpp
 Author: Ben Chuanlong Du
 Title: Const and Static Variables in C++
-Category: Programming
+Category: Computer Science
 Tags: programming, C++, static, const
 
 **

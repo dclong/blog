@@ -4,7 +4,7 @@ Date: 2017-10-22 12:41:04
 Author: Ben Chuanlong Du
 Slug: maven-tips
 Title: Maven Tips
-Category: Programming
+Category: Computer Science
 Tags: programming, Maven, tips, Java, Scala
 
 **

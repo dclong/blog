@@ -4,7 +4,7 @@ Date: 2015-02-20 10:34:29
 Slug: containers-and-iterators-in-cpp
 Author: Ben Chuanlong Du
 Title: Containers and Iterators in C++
-Category: Programming
+Category: Computer Science
 Tags: C++, programming, list, set, map, iterator, container, C/C++, vector
 
 
