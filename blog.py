@@ -343,7 +343,7 @@ class Post:
         meta = cell["source"]
         for line in meta:
             if not re.search("^- [a-zA-Z]+:", line):
-                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format "- MetaField: Value"!")
+                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!")
             if line.startswith("- Title:"):
                 return line[8:].strip()
         raise SyntaxError(f"No title in the post {self.path}!")
