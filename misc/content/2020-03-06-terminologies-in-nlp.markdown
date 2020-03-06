@@ -11,9 +11,8 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
 
-## Terminologies
+## Cross-lingual Language Models (XLM)
 
-cross-lingual language models (XLM)
 Cross-lingual Natural Language Inference (XNLI)
 
 ### Causal Language Modeling (CLM)
@@ -33,10 +32,19 @@ The differences between Devlin et al. (2018) are:
 - Subsample high-frequency subword
 
 ### Translation Language Modeling (TLM)
-out-of-vocabulary (OOV)
-byte pair encoding (BPE) subword algorithm
 
+CLM and MLM are designed for monolingual data while TLM targets on cross-lingual data. BERT use segment embeddings to represent different sentence in a single sequence of input while replace it by language embeddings to represent different language.
+Subwords are randomly picked in both language data. Both language subword can be leveraged to predict any MASK word.
+
+### Out-of-Vocabulary (OOV)
+
+### Byte Pair Encoding (BPE) Subword Algorithm
+
+## Take Away
+- BERT use segment embeddings (represent different sentence) while XLM use language embeddings (represent different language).
+- CLM does not scale to a cross-lingual scenario.
+- XLM may not fit for low resource language as if required parallel data (TML) to boost up the performance. Meanwhile, Multilingual Neural Language Models are designed to overcome this limitation.
 
 ## References 
 
-https://medium.com/towards-artificial-intelligence/cross-lingual-language-model-56a65dba9358
+[Cross-lingual Language Model](https://medium.com/towards-artificial-intelligence/cross-lingual-language-model-56a65dba9358)
