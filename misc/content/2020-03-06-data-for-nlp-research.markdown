@@ -13,4 +13,4 @@ It is not meant to readers but rather for convenient reference of the author and
 
 ## [The Multi-Genre NLI Corpus (MultiNLI)](https://www.nyu.edu/projects/bowman/multinli/)
 
-General Language Understanding Evaluation
+## [General Language Understanding Evaluation (GLUE)](https://gluebenchmark.com/)
