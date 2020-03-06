@@ -85,27 +85,27 @@ class Post:
         text = self.path.read_text().replace(DECLARATION, "")
         self.path.write_text(text)
 
-    def update_time(self) -> None:
+    def update_time(self) -> str:
         """Update the meta filed date in the post.
         """
         if self.path.suffix == MARKDOWN:
             return self._update_time_markdown()
         return self._update_time_ipynb()
 
-    def _update_time_markdown(self) -> None:
+    def _update_time_markdown(self) -> str:
         # TODO: put the time into the databse as well
         with self.path.open() as fin:
             lines = fin.readlines()
         self.update_meta_field(lines, "Date", NOW_DASH)
         with self.path.open("w") as fout:
             fout.writelines(lines)
+        return NOW_DASH
 
-    def _update_time_ipynb(self) -> None:
-        notebook = json.loads(self.path.read_text())
-        if notebook["cells"][0]["cell_type"] != "markdown":
-            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+    def _update_time_ipynb(self) -> str:
+        notebook = self._read_notebook()
         self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
         self.path.write_text(json.dumps(notebook, indent=1))
+        return NOW_DASH
 
     @staticmethod
     def format_title(title):
@@ -123,6 +123,15 @@ class Post:
         :param category: The category to change to.
         :return: The new category of the post.
         """
+        if self.path.suffix == MARKDOWN:
+            return self._update_category_markdown(category)
+        return self._update_category_ipynb(category)
+
+    def _update_category_markdown(self, category: str) -> str:
+        """Change the category of the specified post to the specified category.
+        :param category: The category to change to.
+        :return: The new category of the post.
+        """
         with self.path.open() as fin:
             lines = fin.readlines()
         for idx, line in enumerate(lines):
@@ -133,6 +142,18 @@ class Post:
             lines.insert(0, f"Category: {category}\n")
         with self.path.open("w") as fout:
             fout.writelines(lines)
+        return category
+
+    def _read_notebook(self) -> dict:
+        notebook = json.loads(self.path.read_text())
+        if notebook["cells"][0]["cell_type"] != "markdown":
+            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+        return notebook
+
+    def _update_category_ipynb(self, category: str) -> str:
+        notebook = self._read_notebook()
+        self.update_meta_field(notebook["cells"][0]["source"], "- Category", category)
+        self.path.write_text(json.dumps(notebook, indent=1))
         return category
 
     def update_tags(self, from_tag: str, to_tag: str) -> List[str]:
