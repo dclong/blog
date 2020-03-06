@@ -4,7 +4,7 @@ Date: 2018-01-26 07:30:03
 Author: Ben Chuanlong Du
 Slug: map-keys-in-mac
 Title: Map Keys in Mac
-Category: Apple
+Category: OS
 Tags: Mac, Apple, macOS, mapping, keys, Seil
 
 Update: As of MacOS Sierra 10.12.1,
