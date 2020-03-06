@@ -5,12 +5,6 @@ Slug: ultisnips-tips
 Title: UltiSnips Tips
 Category: Software
 Tags: snippet, UltiSnips, tips, software
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
-**
-
 1. Python3 is supported!
 
 2. Your auto completiion scripts requires `python-dateutil`.
