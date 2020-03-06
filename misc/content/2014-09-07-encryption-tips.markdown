@@ -4,7 +4,7 @@ Date: 2014-09-07 11:02:49
 Author: Ben Chuanlong Du
 Slug: encryption-tips
 Title: Encryption Tips
-Category: Encryption
+Category: Computer Science
 Tags: encryption, tips, AES, RSA
 
 **
