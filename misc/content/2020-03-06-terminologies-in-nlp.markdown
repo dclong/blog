@@ -11,7 +11,31 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
 
-## Cross-lingual Language Models (XLM)
+Word Embedding
+Character Embedding
+Subword Embeddling
+Tokenization
+
+General Language Understanding Evaluation (GLUE)
+
+Natural Language Generation (NLG)
+Natural Language Generation, as defined by Artificial Intelligence: Natural Language Processing Fundamentals, is the “process of producing meaningful phrases and sentences in the form of natural language.” In its essence, it automatically generates narratives that describe, summarize or explain input structured data in a human-like manner at the speed of thousands of pages per second.
+
+Multi-Genre Natural Language Inference (MultiNLI)
+
+## Data Related
+
+The Stanford Question Answering Dataset (SQuAD)
+
+Situations With Adversarial Generations (SWAG)
+
+Reading Comprehension Dataset (RACE) 
+
+## Model Related
+
+Generative Pre-Training (GPT)
+
+### Cross-lingual Language Models (XLM)
 
 Cross-lingual Natural Language Inference (XNLI)
 
@@ -48,3 +72,5 @@ Subwords are randomly picked in both language data. Both language subword can be
 ## References 
 
 [Cross-lingual Language Model](https://medium.com/towards-artificial-intelligence/cross-lingual-language-model-56a65dba9358)
+
+[A Comprehensive Guide to Natural Language Generation](https://medium.com/sciforce/a-comprehensive-guide-to-natural-language-generation-dd63a4b6e548)

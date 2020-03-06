@@ -1,8 +1,8 @@
 Status: published
 Date: 2020-03-06 12:14:22
 Author: Benjamin Du
-Slug: data-for-computer-vision
-Title: Data for Computer Vision
+Slug: data-for-computer-vision-research
+Title: Data for Computer Vision Research
 Category: AI
 Tags: AI, data science, machine learning, deep learning, Computer Vision, CV, data
 

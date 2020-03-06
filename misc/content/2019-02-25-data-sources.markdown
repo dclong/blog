@@ -23,13 +23,9 @@ https://proxycrawl.com
 
 https://nlp.stanford.edu/sentiment/treebank.html
 
-## Data for Deep Learning
+## Data for Computer Vison
 
-### [MNIST](http://yann.lecun.com/exdb/mnist/)
-
-https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
-
-https://www.nist.gov/
+## [Data for NLP](http://www.legendu.net/misc/blog/data-for-nlp-research/)
 
 ### [Standford NLP - Sentiment Treebank](https://nlp.stanford.edu/sentiment/treebank.html)
 
