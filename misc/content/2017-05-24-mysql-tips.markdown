@@ -4,7 +4,7 @@ Date: 2017-05-24 20:24:47
 Author: Ben Chuanlong Du
 Slug: mysql-tips
 Title: MySQL Tips
-Category: Database
+Category: Computer Science
 Tags: Database, programming, tips, MySQL, Python
 
 **

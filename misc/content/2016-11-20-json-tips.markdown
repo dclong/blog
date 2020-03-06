@@ -4,7 +4,7 @@ Date: 2019-05-02 22:41:41
 Author: Ben Chuanlong Du
 Slug: json-tips
 Title: JSON Tips
-Category: Database
+Category: Computer Science
 Tags: database, JSON, tips
 
 **

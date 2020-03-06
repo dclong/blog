@@ -3,7 +3,7 @@ Date: 2019-08-08 21:51:10
 Author: Benjamin Du
 Slug: data-quality
 Title: Data Quality
-Category: Database
+Category: Computer Science
 Tags: database, big data, data quality, data check, data profiling
 
 **
