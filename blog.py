@@ -13,24 +13,24 @@ import json
 import itertools
 import subprocess as sp
 
-EN = 'en'
-CN = 'cn'
-HOME = 'home'
-MISC = 'misc'
-OUTDATED = 'outdated'
-DECLARATION = '''
+EN = "en"
+CN = "cn"
+HOME = "home"
+MISC = "misc"
+OUTDATED = "outdated"
+DECLARATION = """
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
 
-'''
-MARKDOWN = '.markdown'
-IPYNB = '.ipynb'
-NOW_DASH = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+"""
+MARKDOWN = ".markdown"
+IPYNB = ".ipynb"
+NOW_DASH = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 TODAY_DASH = NOW_DASH[:10]
 BASE_DIR = Path(__file__).resolve().parent
-WORDS = json.loads((BASE_DIR / 'words.json').read_text())
+WORDS = json.loads((BASE_DIR / "words.json").read_text())
 
 
 def qmarks(n: Union[int, Sequence]) -> str:
@@ -38,7 +38,7 @@ def qmarks(n: Union[int, Sequence]) -> str:
     """
     if isinstance(n, List) or isinstance(n, tuple):
         n = len(n)
-    return ', '.join(['?'] * n)
+    return ", ".join(["?"] * n)
 
 
 class Post:
@@ -48,7 +48,7 @@ class Post:
     def __init__(self, path: Union[str, Path]):
         self.path = Path(path).resolve()
         if self.path.suffix not in (MARKDOWN, IPYNB):
-            raise ValueError(f'{self.path} is not a {MARKDOWN} or {IPYNB} file.')
+            raise ValueError(f"{self.path} is not a {MARKDOWN} or {IPYNB} file.")
 
     def __str__(self):
         return str(self.path)
@@ -76,13 +76,13 @@ class Post:
         if self.blog_dir() == MISC:
             with self.path.open() as fin:
                 lines = fin.readlines()
-            index = [line.strip() for line in lines].index('')
-            with self.path.open('w') as fout:
+            index = [line.strip() for line in lines].index("")
+            with self.path.open("w") as fout:
                 fout.writelines(lines[:index])
                 fout.writelines(DECLARATION)
                 fout.writelines(lines[index:])
             return 
-        text = self.path.read_text().replace(DECLARATION, '')
+        text = self.path.read_text().replace(DECLARATION, "")
         self.path.write_text(text)
 
     def update_time(self) -> None:
@@ -96,26 +96,26 @@ class Post:
         # TODO: put the time into the databse as well
         with self.path.open() as fin:
             lines = fin.readlines()
-        self.update_meta_field(lines, 'Date', NOW_DASH)
-        with self.path.open('w') as fout:
+        self.update_meta_field(lines, "Date", NOW_DASH)
+        with self.path.open("w") as fout:
             fout.writelines(lines)
 
     def _update_time_ipynb(self) -> None:
         notebook = json.loads(self.path.read_text())
-        if notebook['cells'][0]['cell_type'] != 'markdown':
-            raise SyntaxError(f'The first cell of the notebook {self.path} is not a markdown cell!')
-        self.update_meta_field(notebook['cells'][0]['source'], '- Date', NOW_DASH)
+        if notebook["cells"][0]["cell_type"] != "markdown":
+            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+        self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
         self.path.write_text(json.dumps(notebook, indent=1))
 
     @staticmethod
     def format_title(title):
         title = title.title()
         for origin, replace in WORDS:
-            title = title.replace(f' {origin} ', f' {replace} ')
-            if title.startswith(origin + ' '):
-                title = title.replace(origin + ' ', replace + ' ')
-            if title.endswith(' ' + origin):
-                title = title.replace(' ' + origin, ' ' + replace)
+            title = title.replace(f" {origin} ", f" {replace} ")
+            if title.startswith(origin + " "):
+                title = title.replace(origin + " ", replace + " ")
+            if title.endswith(" " + origin):
+                title = title.replace(" " + origin, " " + replace)
         return title
 
     def update_category(self, category: str) -> str:
@@ -126,12 +126,12 @@ class Post:
         with self.path.open() as fin:
             lines = fin.readlines()
         for idx, line in enumerate(lines):
-            if line.startswith('Category: '):
-                lines[idx] = f'Category: {category}\n'
+            if line.startswith("Category: "):
+                lines[idx] = f"Category: {category}\n"
                 break
         else:
-            lines.insert(0, f'Category: {category}\n')
-        with self.path.open('w') as fout:
+            lines.insert(0, f"Category: {category}\n")
+        with self.path.open("w") as fout:
             fout.writelines(lines)
         return category
 
@@ -144,14 +144,14 @@ class Post:
         with self.path.open() as fin:
             lines = fin.readlines()
         for idx, line in enumerate(lines):
-            if line.startswith('Tags: '):
-                tags = (tag.strip() for tag in line[5:].split(','))
+            if line.startswith("Tags: "):
+                tags = (tag.strip() for tag in line[5:].split(","))
                 tags = [to_tag if tag == from_tag else tag for tag in tags]
-                lines[idx] = f'Tags: {", ".join(tags)}'
+                lines[idx] = f"Tags: {', '.join(tags)}"
                 break
         else:
             tags = []
-        with self.path.open('w') as fout:
+        with self.path.open("w") as fout:
             fout.writelines(lines)
         return tags
 
@@ -165,35 +165,35 @@ class Post:
             lines = fin.readlines()
         index = 0
         for index, line in enumerate(lines):
-            if not re.match('[A-Za-z]+: ', line):
+            if not re.match("[A-Za-z]+: ", line):
                 break
         # parse meta data 0 - index (exclusive)
-        status = ''
-        date = ''
-        author = ''
-        slug = ''
-        title = ''
-        category = ''
-        tags = ''
+        status = ""
+        date = ""
+        author = ""
+        slug = ""
+        title = ""
+        category = ""
+        tags = ""
         for line in lines[:index]:
-            if line.startswith('Status: '):
+            if line.startswith("Status: "):
                 status = line[8:].strip()
-            elif line.startswith('Date: '):
+            elif line.startswith("Date: "):
                 date = line[6:].strip()
-            elif line.startswith('Author: '):
+            elif line.startswith("Author: "):
                 author = line[8:].strip()
-            elif line.startswith('Slug: '):
+            elif line.startswith("Slug: "):
                 slug = line[6:].strip()
-            elif line.startswith('Title: '):
+            elif line.startswith("Title: "):
                 title = line[7:].strip()
-            elif line.startswith('Category: '):
+            elif line.startswith("Category: "):
                 category = line[10:].strip()
-            elif line.startswith('Tags: '):
+            elif line.startswith("Tags: "):
                 tags = line[6:].strip()
-                if not tags.endswith(','):
-                    tags = tags + ','
+                if not tags.endswith(","):
+                    tags = tags + ","
         # parse content index to end
-        content = ''.join(lines)
+        content = "".join(lines)
         empty = self._is_ess_empty(lines[index:])
         name_title_mismatch = self.is_name_title_mismatch(title)
         return [
@@ -214,40 +214,40 @@ class Post:
 
     def _parse_ipynb(self) -> List[str]:
         content = self.path.read_text()
-        cells = json.loads(content)['cells']
+        cells = json.loads(content)["cells"]
         empty = 1 if len(cells) <= 1 else 0
-        if cells[0]['cell_type'] != 'markdown':
-            raise SyntaxError(f'The first cell of the notebook {self.path} is not a markdown cell!')
-        meta = cells[0]['source']
-        status = ''
-        date = ''
-        author = ''
-        slug = ''
-        title = ''
-        category = ''
-        tags = ''
+        if cells[0]["cell_type"] != "markdown":
+            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+        meta = cells[0]["source"]
+        status = ""
+        date = ""
+        author = ""
+        slug = ""
+        title = ""
+        category = ""
+        tags = ""
         for line in meta:
-            if not re.search('^- [a-zA-Z]+:', line):
-                raise SyntaxError(f'The meta line {line} of the notebook {self.path} does not confront to the format "- MetaField: Value"!')
-            if line.startswith('- Status:'):
+            if not re.search("^- [a-zA-Z]+:", line):
+                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!")
+            if line.startswith("- Status:"):
                 status = line[9:].strip()
                 continue
-            if line.startswith('- Date:'):
+            if line.startswith("- Date:"):
                 date = line[7:].strip()
                 continue
-            if line.startswith('- Author:'):
+            if line.startswith("- Author:"):
                 author = line[9:].strip()
                 continue
-            if line.startswith('- Slug:'):
+            if line.startswith("- Slug:"):
                 slug = line[7:].strip()
                 continue
-            if line.startswith('- Title:'):
+            if line.startswith("- Title:"):
                 title = line[8:].strip()
                 continue
-            if line.startswith('- Category:'):
+            if line.startswith("- Category:"):
                 category = line[11:].strip()
                 continue
-            if line.startswith('- Tags:'):
+            if line.startswith("- Tags:"):
                 tags = line[7:].strip()
                 continue
         name_title_mismatch = self.is_name_title_mismatch(title)
@@ -274,8 +274,8 @@ class Post:
         :return: 1 if mismatch and 0 otherwise.
         """
         # TODO: seems that title is not needed!!!
-        title_new = Post.format_title(self.stem_name().replace('-', ' '))
-        title_old = title.replace('-', ' ')
+        title_new = Post.format_title(self.stem_name().replace("-", " "))
+        title_old = title.replace("-", " ")
         return 1 if title_old != title_new else 0
 
     def stem_name(self) -> str:
@@ -285,27 +285,27 @@ class Post:
         """Check whether the lines are essentially empty.
         :param lines: A list of lines.
         """
-        content = ''.join(line.strip() for line in lines)
-        is_empty = re.sub(r'\*\*.+\*\*', '', content).replace('**', '') == ''
+        content = "".join(line.strip() for line in lines)
+        is_empty = re.sub(r"\*\*.+\*\*", "", content).replace("**", "") == ""
         return 1 if is_empty else 0
 
     @staticmethod
     def update_meta_field(lines: List[str], field: str, value: str) -> None:
         for idx, line in enumerate(lines):
-            if line.startswith(f'{field}:'):
-                lines[idx] = f'{field}: {value}\n'
+            if line.startswith(f"{field}:"):
+                lines[idx] = f"{field}: {value}\n"
                 break
         else:
-            lines.insert(0, f'{field}: {value}')
+            lines.insert(0, f"{field}: {value}")
 
     def match_name(self):
-        title = Post.format_title(self.stem_name().replace('-', ' '))
-        slug = title.lower().replace(' ', '-')
+        title = Post.format_title(self.stem_name().replace("-", " "))
+        slug = title.lower().replace(" ", "-")
         with self.path.open() as fin:
             lines = fin.readlines()
-        Post.update_meta_field(lines, 'Title', title)
-        Post.update_meta_field(lines, 'Slug', slug)
-        with self.path.open('w') as fout:
+        Post.update_meta_field(lines, "Title", title)
+        Post.update_meta_field(lines, "Slug", slug)
+        with self.path.open("w") as fout:
             fout.writelines(lines)
 
     def match_title(self) -> None:
@@ -314,7 +314,7 @@ class Post:
         # file name
         stem_name = self.stem_name()
         title = self.title()
-        slug = title.lower().replace(' ', '-')
+        slug = title.lower().replace(" ", "-")
         name = self.path.name.replace(stem_name, slug)
         path = self.path.with_name(name)
         os.rename(self.path, path)
@@ -322,8 +322,8 @@ class Post:
         # meta field Slug
         with self.path.open() as fin:
             lines = fin.readlines()
-        Post.update_meta_field(lines, 'Slug', slug)
-        with self.path.open('w') as fout:
+        Post.update_meta_field(lines, "Slug", slug)
+        with self.path.open("w") as fout:
             fout.writelines(lines)   
 
     def title(self) -> str:
@@ -337,23 +337,23 @@ class Post:
     def _title_ipynb(self):
         # TODO: dedup the code 
         content = self.path.read_text()
-        cell = json.loads(content)['cells'][0]
-        if cell['cell_type'] != 'markdown':
-            raise SyntaxError(f'The first cell of the notebook {self.path} is not a markdown cell!')
-        meta = cell['source']
+        cell = json.loads(content)["cells"][0]
+        if cell["cell_type"] != "markdown":
+            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+        meta = cell["source"]
         for line in meta:
-            if not re.search('^- [a-zA-Z]+:', line):
-                raise SyntaxError(f'The meta line {line} of the notebook {self.path} does not confront to the format "- MetaField: Value"!')
-            if line.startswith('- Title:'):
+            if not re.search("^- [a-zA-Z]+:", line):
+                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format "- MetaField: Value"!")
+            if line.startswith("- Title:"):
                 return line[8:].strip()
-        raise SyntaxError(f'No title in the post {self.path}!')
+        raise SyntaxError(f"No title in the post {self.path}!")
 
     def _title_markdown(self) -> str:
         with self.path.open() as fin:
             for line in fin:
-                if line.startswith('Title: '):
+                if line.startswith("Title: "):
                     return line[7:].strip()
-        raise SyntaxError(f'No title in the post {self.path}!')
+        raise SyntaxError(f"No title in the post {self.path}!")
 
     @staticmethod
     def slug(title: str) -> str:
@@ -361,17 +361,17 @@ class Post:
         :param title: The title to create the slug from.
         :return: A slug created from the title.
         """
-        return title.replace(' ', '-').replace('/', '-')
+        return title.replace(" ", "-").replace("/", "-")
 
     def create(self, title: str):
-        with self.path.open('w') as fout:
-            fout.writelines('Status: published\n')
-            fout.writelines(f'Date: {NOW_DASH}\n')
-            fout.writelines('Author: Benjamin Du\n')
-            fout.writelines(f'Slug: {Post.slug(title)}\n')
-            fout.writelines(f'Title: {Post.format_title(title)}\n')
-            fout.writelines('Category: Programming\n')
-            fout.writelines('Tags: programming\n')
+        with self.path.open("w") as fout:
+            fout.writelines("Status: published\n")
+            fout.writelines(f"Date: {NOW_DASH}\n")
+            fout.writelines("Author: Benjamin Du\n")
+            fout.writelines(f"Slug: {Post.slug(title)}\n")
+            fout.writelines(f"Title: {Post.format_title(title)}\n")
+            fout.writelines("Category: Programming\n")
+            fout.writelines("Tags: programming\n")
             if self.blog_dir() == MISC:
                 fout.writelines(DECLARATION)
 
@@ -380,44 +380,44 @@ class Blogger:
     """A class for managing blog.
     """
     POSTS_COLS = [ 
-        'path',
-        'dir',
-        'status',
-        'date',
-        'author',
-        'slug',
-        'title',
-        'category',
-        'tags',
-        'content',
-        'empty',
-        'updated',
-        'name_title_mismatch'
+        "path",
+        "dir",
+        "status",
+        "date",
+        "author",
+        "slug",
+        "title",
+        "category",
+        "tags",
+        "content",
+        "empty",
+        "updated",
+        "name_title_mismatch"
     ]
 
-    def __init__(self, db: str = ''):
+    def __init__(self, db: str = ""):
         """Create an instance of Blogger.
 
         :param dir_: the root directory of the blog.
         :param db: the path to the SQLite3 database file.
         """
-        self._db = db if db else str(BASE_DIR / '.blogger.sqlite3')
+        self._db = db if db else str(BASE_DIR / ".blogger.sqlite3")
         self._conn = sqlite3.connect(self._db)
-        options = self._conn.execute('pragma compile_options').fetchall()
-        self._fts = 'fts5' if ('ENABLE_FTS5', ) in options else 'fts4'
+        options = self._conn.execute("pragma compile_options").fetchall()
+        self._fts = "fts5" if ("ENABLE_FTS5", ) in options else "fts4"
         self._create_vtable_posts()
 
     def _create_vtable_posts(self):
-        sql = f'''
+        sql = f"""
             CREATE VIRTUAL TABLE IF NOT EXISTS posts USING {self._fts} (
-                {', '.join(Blogger.POSTS_COLS)},
+                {", ".join(Blogger.POSTS_COLS)},
                 tokenize = porter
             )
-            '''
+            """
         self.execute(sql)
 
     def _create_table_srps(self):
-        sql = 'CREATE TABLE IF NOT EXISTS srps (path)'
+        sql = "CREATE TABLE IF NOT EXISTS srps (path)"
         self.execute(sql)
 
     def clear(self):
@@ -434,13 +434,13 @@ class Blogger:
         if isinstance(post, (str, Path)):
             post = Post(post)
         post.update_category(category)
-        self.update_records(paths=[post.path], mapping={'category': category})
+        self.update_records(paths=[post.path], mapping={"category": category})
 
     def update_tags(self, post: Post, from_tag: str, to_tag: str):
         """Update the tag from_tag of the post to the tag to_tag.
         """
         tags = post.update_tags(from_tag, to_tag)
-        self.update_records(paths=[post.path], mapping={'tags': tags + ','})
+        self.update_records(paths=[post.path], mapping={"tags": tags + ","})
 
     def iter_content(self) -> Iterable[Path]:
         """Iterate all files and subdirectories under the content directory of cn, en and misc.
@@ -458,20 +458,20 @@ class Blogger:
         """Reload posts into the SQLite3 database.
         """
         self._create_vtable_posts()
-        self.execute('DELETE FROM posts')
+        self.execute("DELETE FROM posts")
         for path in self.iter_content():
             if path.suffix in (MARKDOWN, IPYNB):
                 self._load_post(Post(path))
         self.commit()
 
     def _load_post(self, post: Post):
-        sql = f'''
+        sql = f"""
             INSERT INTO posts (
-                {', '.join(Blogger.POSTS_COLS)}
+                {", ".join(Blogger.POSTS_COLS)}
             ) VALUES (
                 ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
             )
-            '''
+            """
         self.execute(sql, post.record())
 
     def trash(self, posts: Union[str, List[str]]):
@@ -480,15 +480,15 @@ class Blogger:
         """
         if isinstance(posts, str):
             posts = [posts]
-        path = BASE_DIR / 'trash'
+        path = BASE_DIR / "trash"
         if not path.is_dir():
             path.mkdir(0o700, True, True)
         for post in posts:
             shutil.move(post, path)
-        sql = f'''
+        sql = f"""
             DELETE FROM posts
             WHERE path in ({qmarks(posts)})
-            '''
+            """
         self.execute(sql, posts)
 
     def move(self, src: Union[str, Path], dst: str) -> None:
@@ -505,7 +505,7 @@ class Blogger:
         if isinstance(src, str):
             src = Path(src)
         if dst in (EN, CN, MISC, OUTDATED):
-            dst = BASE_DIR / dst / 'content' / src.name
+            dst = BASE_DIR / dst / "content" / src.name
         else:
             dst = Path(dst)
         if src == dst:
@@ -513,7 +513,7 @@ class Blogger:
         shutil.move(src, dst)
         post = Post(dst)
         post.update_after_move()
-        self.update_records(paths=[src], mapping={'path': dst, 'dir': post.blog_dir()})
+        self.update_records(paths=[src], mapping={"path": dst, "dir": post.blog_dir()})
 
     def _reg_param(self, param):
         if isinstance(param, (int, float, str)):
@@ -529,34 +529,34 @@ class Blogger:
         """
         if not isinstance(paths, list):
             paths = [paths]
-        self.update_records(paths=paths, mapping={'updated': 1})
-        paths = ' '.join(f"'{path}'" for path in paths)
-        os.system(f'{editor} {paths}')
+        self.update_records(paths=paths, mapping={"updated": 1})
+        paths = " ".join(f"'{path}'" for path in paths)
+        os.system(f"{editor} {paths}")
 
     def update_records(self, paths: List[str], mapping: dict) -> None:
         """Update records corresponding to the specified paths.
         :param mapping: A dictionary of the form dict[field, value].
         :param paths: Paths of records to be updated.
         """
-        sql = f'''
+        sql = f"""
             UPDATE posts 
-            SET {', '.join(f'{key} = ?' for key in mapping)} 
+            SET {", ".join(f"{key} = ?" for key in mapping)} 
             WHERE path in ({qmarks(paths)})
-            '''
+            """
         self.execute(sql, list(mapping.values()) + paths)
 
     def _delete_updated(self) -> None:
-        sql = 'DELETE FROM posts WHERE updated = 1'
+        sql = "DELETE FROM posts WHERE updated = 1"
         self.execute(sql)
 
     def update(self):
         """Update information of the changed posts.
         """
-        sql = 'SELECT path, content FROM posts WHERE updated = 1'
+        sql = "SELECT path, content FROM posts WHERE updated = 1"
         rows = self.execute(sql).fetchall()
         # posts that were not changed
         paths = [path for path, content in rows if not Post(path).diff(content)]
-        self.update_records(paths=paths, mapping={'updated': 0})
+        self.update_records(paths=paths, mapping={"updated": 0})
         # posts that were changed
         self._delete_updated()
         posts = [Post(path) for path, content in rows if Post(path).diff(content)]
@@ -569,11 +569,11 @@ class Blogger:
         """
         file = self.find_post(title, dir_)
         if not file:
-            file = BASE_DIR / dir_ / 'content' / f'{TODAY_DASH}-{Post.slug(title)}.markdown'
+            file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.markdown"
             post = Post(file)
             post.create(title)
             self._load_post(post)
-        print(f'\nThe following post is added.\n{file}\n')
+        print(f"\nThe following post is added.\n{file}\n")
         return file
 
     def find_post(self, title: str, dir_: str) -> str:
@@ -583,23 +583,23 @@ class Blogger:
         otherwise return empty string.
         """
         # find all posts and get rid of leading dates
-        sql = 'SELECT path FROM posts WHERE path LIKE ? AND dir = ?'
+        sql = "SELECT path FROM posts WHERE path LIKE ? AND dir = ?"
         row = self.execute(
-            sql, [f'%{Post.slug(title)}.markdown', dir_]).fetchone()
+            sql, [f"%{Post.slug(title)}.markdown", dir_]).fetchone()
         if row:
             return row[0]
-        return ''
+        return ""
 
     def empty_posts(self, dry_run=False) -> None:
         """Load all empty posts into the table srps.
         """
         self.clear_srps()
-        sql = f'''
+        sql = f"""
             INSERT INTO srps
             SELECT path
             FROM posts
             WHERE empty = 1
-            '''
+            """
         if dry_run:
             print(sql)
             return
@@ -608,19 +608,19 @@ class Blogger:
 
     def find_name_title_mismatch(self, dry_run=False):
         self.clear_srps()
-        sql = f'''
+        sql = f"""
             INSERT INTO srps
             SELECT path
             FROM posts
             WHERE name_title_mismatch = 1 AND dir <> 'cn'
-            '''
+            """
         if dry_run:
             print(sql)
             return
         self.execute(sql)
         self.commit()
 
-    def search(self, phrase: str, filter_: str = '', dry_run=False):
+    def search(self, phrase: str, filter_: str = "", dry_run=False):
         """Search for posts containing the phrase.
         :param phrase: The phrase to search for in posts.
         :param filter_: Extra filtering conditions.
@@ -631,16 +631,16 @@ class Blogger:
             conditions.append(f"posts MATCH '{phrase}'")
         if filter_:
             filter_ = conditions.append(filter_)
-        where = ' AND '.join(conditions)
+        where = " AND ".join(conditions)
         if where:
-            where = 'WHERE ' + where
-        sql = f'''
+            where = "WHERE " + where
+        sql = f"""
             INSERT INTO srps
             SELECT path
             FROM posts
             {where}
             ORDER BY rank
-            '''
+            """
         if dry_run:
             print(sql)
             return
@@ -651,26 +651,26 @@ class Blogger:
         """Clean contents of the table srps.
         """
         self._create_table_srps()
-        self.execute('DELETE FROM srps')
+        self.execute("DELETE FROM srps")
 
     def last(self, n: int):
         """Get last (according to modification time) n posts.
         :param n: The number of posts to get.
         """
         self.clear_srps()
-        sql = f'''
+        sql = f"""
             insert into srps
             select path
             from posts
             where 
-            '''
+            """
         self.execute(sql)
         self.commit()
 
     def path(self, idx: Union[int, List[int]]) -> List[str]:
         if isinstance(idx, int):
             idx = [idx]
-        sql = f'SELECT path FROM srps WHERE rowid in ({qmarks(idx)})'
+        sql = f"SELECT path FROM srps WHERE rowid in ({qmarks(idx)})"
         return [row[0] for row in self.execute(sql, idx).fetchall()]
 
     def fetch(self, n: int):
@@ -678,18 +678,18 @@ class Blogger:
 
         :param n: the number of results to fetch.
         """
-        sql = 'SELECT rowid, path FROM srps LIMIT {}'.format(n)
+        sql = "SELECT rowid, path FROM srps LIMIT {}".format(n)
         return self.execute(sql).fetchall()
 
     def query(self, sql: str, params: Sequence = ()):
         return self.execute(sql, params).fetchall()
 
-    def tags(self, dir_: str = '', where=''):
+    def tags(self, dir_: str = "", where=""):
         """Get all tags and their frequencies in all posts.
         :param dir_:
         :param where:
         """
-        sql = 'SELECT tags FROM posts {where}'
+        sql = "SELECT tags FROM posts {where}"
         if where:
             sql = sql.format(where=where)
         else:
@@ -699,9 +699,9 @@ class Blogger:
         tags = {}
         row = cursor.fetchone()
         while row is not None:
-            for tag in row[0].split(','):
+            for tag in row[0].split(","):
                 tag = tag.strip()
-                if tag == '':
+                if tag == "":
                     continue
                 if tag in tags:
                     tags[tag] += 1
@@ -710,18 +710,18 @@ class Blogger:
             row = cursor.fetchone()
         return sorted(tags.items(), key=lambda pair: pair[1], reverse=True)
 
-    def categories(self, dir_: str = '', where=''):
+    def categories(self, dir_: str = "", where=""):
         """Get all categories and their frequencies in posts.
         :param dir_: 
         :param where: 
         """
-        sql = '''
+        sql = """
             SELECT category, count(*) as n
             FROM posts
             {where}
             GROUP BY category
             ORDER BY n desc
-            '''
+            """
         if where:
             sql = sql.format(where=where)
         else:
