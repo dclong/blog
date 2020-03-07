@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-02-04 10:55:37
+Date: 2020-03-07 12:02:55
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
-Title: JupyterLab Tips
+Title: Tips on JupyterLab
 Category: Software
 Tags: software, JupyterLab, Jupyter, tips
 
@@ -26,7 +26,6 @@ http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
 [Jupyter Notebook Enhancements, Tips And Tricks](https://forums.fast.ai/t/jupyter-notebook-enhancements-tips-and-tricks/17064)
 
 ## General Tips
-
 
 1. You might lose data if you edit a notebook in multiple places 
     (e.g., in different browsers or on different machines)!
@@ -81,45 +80,27 @@ http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
     you can rerun everything in the notebook and save it. 
     This will usually resolve the trust issue.
 
-## JupyterLab Extenions
+## [JupyterLab Extenions](http://www.legendu.net/misc/blog/useful-tools-extensions-for-jupyterlab/)
+Please refer to
+[JupyterLab Extenions](http://www.legendu.net/misc/blog/useful-tools-extensions-for-jupyterlab/)
+for more details.
 
-https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
-
-https://github.com/topics/jupyterlab-extension
-
-https://medium.com/@subpath/jupyter-lab-extensions-for-data-scientist-e0d97d529fc1
-
-https://github.com/mauhai/awesome-jupyterlab
-
-
-
-## Links
-https://toree.incubator.apache.org/documentation/user/quick-start
-https://datascience.berkeley.edu/10-data-science-newsletters-subscribe/ 
-https://github.com/jupyter-incubator/declarativewidgets
-https://github.com/jupyter-incubator/dashboards
-http://people.duke.edu/~ccc14/sta-663-2016/Customizing_Jupyter.html
-https://wiki.vip.corp.ebay.com/display/krylov/Jupyterhub
-https://wiki.vip.corp.ebay.com/display/ShippingTeam/Using+our+Krylov+instances+with+JupyterHub
-http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
-https://groups.google.com/forum/#!topic/jupyter/iaaKOeRwyjs
-https://toree.incubator.apache.org/documentation/user/installation.html
-https://github.com/michhar/useR2016-tutorial-jupyter/blob/master/INSTALLATIONS.md
-http://stackoverflow.com/questions/31855794/whats-the-best-way-to-share-jupyter-notebooks-with-non-programmers
-https://www.polymer-project.org/1.0/
-https://github.com/jupyter-incubator/declarativewidgets
-http://nbgrader.readthedocs.io/en/stable/
-http://webcomponents.org/
-https://geomesa.atlassian.net/wiki/display/GEOMESA/How+to+install+the+Scala+Spark+(Apache+Toree)+Jupyter+kernel+with+GeoMesa+support
-
-
-## Questions
-2. How to use JupyterLab for blogging? 
-    For example, if you write a blog about R/Python, 
-    it's best to illustrate in JupyterLab, 
-    but how to easily integrate into Pelican?
-3. change behavior of default layout?
-4. font size of editor?
-5. use bash as a sub shell cell?
-6. use other installed kernel languages as sub shell cells?
-
+## References
+- [JupyterLab Change Log](https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html)
+- https://toree.incubator.apache.org/documentation/user/quick-start
+- https://datascience.berkeley.edu/10-data-science-newsletters-subscribe/ 
+- https://github.com/jupyter-incubator/declarativewidgets
+- https://github.com/jupyter-incubator/dashboards
+- http://people.duke.edu/~ccc14/sta-663-2016/Customizing_Jupyter.html
+- https://wiki.vip.corp.ebay.com/display/krylov/Jupyterhub
+- https://wiki.vip.corp.ebay.com/display/ShippingTeam/Using+our+Krylov+instances+with+JupyterHub
+- http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
+- https://groups.google.com/forum/#!topic/jupyter/iaaKOeRwyjs
+- https://toree.incubator.apache.org/documentation/user/installation.html
+- https://github.com/michhar/useR2016-tutorial-jupyter/blob/master/INSTALLATIONS.md
+- http://stackoverflow.com/questions/31855794/whats-the-best-way-to-share-jupyter-notebooks-with-non-programmers
+- https://www.polymer-project.org/1.0/
+- https://github.com/jupyter-incubator/declarativewidgets
+- http://nbgrader.readthedocs.io/en/stable/
+- http://webcomponents.org/
+- https://geomesa.atlassian.net/wiki/display/GEOMESA/How+to+install+the+Scala+Spark+(Apache+Toree)+Jupyter+kernel+with+GeoMesa+support

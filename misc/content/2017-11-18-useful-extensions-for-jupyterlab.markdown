@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-24 14:24:17
+Date: 2020-03-07 12:02:55
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -20,6 +20,18 @@ jupyter labextension install some_extension
 ```Bash
 jupyter labextension uninstall some_extension
 ```
+
+jupyter serverextension enable --py jupyterlab_code_formatter
+jupyter serverextension disable --py jupyterlab_code_formatter
+
+
+https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
+
+https://github.com/topics/jupyterlab-extension
+
+https://medium.com/@subpath/jupyter-lab-extensions-for-data-scientist-e0d97d529fc1
+
+https://github.com/mauhai/awesome-jupyterlab
 
 ## Useful Tools
 
@@ -89,7 +101,7 @@ Automatically scrolls scrollable output cells to bottom when content has changed
     - ipyleaflet a leaflet widget for Jupyter.
 
 
-## Not So Useful Extensions for JupyterLab
+## Some Other Extensions for JupyterLab
 
 ### [jupyterlab_geojson](https://github.com/jupyterlab/jupyterlab_geojson)
 ```bash
