@@ -1,9 +1,9 @@
 UUID: 9cb0b534-ad6d-4837-8f42-bf3245fe52f9
 Status: published
-Date: 2020-03-07 12:06:47
+Date: 2020-03-07 12:12:37
 Author: Ben Chuanlong Du
 Slug: nodejs-tips
-Title: NodeJS Tips
+Title: Tips on NodeJS
 Category: Computer Science
 Tags: programming, nodejs, tips, frontend, JavaScript, JS, n, nvm
 
@@ -13,6 +13,10 @@ fragmentary and immature notes/thoughts of the author.
 It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
+
+## Install NodeJs
+
+[Install NodeJS on Ubuntu](http://www.legendu.net/misc/blog/install-nodejs-on-ubuntu/)
 
 ## Upgrade NodeJS
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 12:02:55
+Date: 2020-03-07 12:13:01
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -21,8 +21,9 @@ jupyter labextension install some_extension
 jupyter labextension uninstall some_extension
 ```
 
-jupyter serverextension enable --py jupyterlab_code_formatter
-jupyter serverextension disable --py jupyterlab_code_formatter
+    :::bash
+    jupyter serverextension enable --py jupyterlab_code_formatter
+    jupyter serverextension disable --py jupyterlab_code_formatter
 
 
 https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
