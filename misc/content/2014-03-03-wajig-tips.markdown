@@ -1,10 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-01-30 18:36:28
+Date: 2020-03-07 22:54:45
 Slug: wajig-tips
-Title: Wajig Tips
-Category: Software
-Tags: software, wajig, Linux, package management, tips
+Title: Tips on Wajig
+Category: OS
+Tags: Wajig, Linux, package management, tips
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

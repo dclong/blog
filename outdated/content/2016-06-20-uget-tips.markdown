@@ -1,11 +1,10 @@
-UUID: aa8de314-c922-4664-846d-51e3987466a6
 Status: published
-Date: 2016-06-20 21:15:13
+Date: 2020-03-07 22:54:45
 Author: Ben Chuanlong Du
 Slug: uget-tips
-Title: uGet Tips
+Title: Tips on uGet
 Category: Software
-Tags: software, download, tips, Linux
+Tags: software, download, tips, Linux, uGet, aria2
 
 **
 Things on this page are
@@ -14,11 +13,13 @@ It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
 
+[Motrix](https://github.com/agalwood/Motrix)
+is better alternative than uGet!
 
-3. uGet is great GUI download manager.
-aria2c command line
-aria2c --dir /home/dclong/downloads ...
-Edit -> Settings ... -> Plugin -> Enable aria2
+1. uGet is great GUI download manager.
+    aria2c command line
+    aria2c --dir /home/dclong/downloads ...
+    Edit -> Settings ... -> Plugin -> Enable aria2
 
 4. To change default download directory:
     1. Right click "Home" on the left panel.

@@ -1,6 +1,5 @@
-UUID: 0db55e9b-553a-451b-889d-29bc0674424f
 Status: published
-Date: 2018-04-29 23:14:19
+Date: 2020-03-07 22:54:45
 Author: Ben Chuanlong Du
 Slug: downloading-tools
 Title: Downloading Tools
@@ -16,14 +15,12 @@ but rather for convenient reference of the author and future improvement.
 
 ## GUI Tools
 
+[Motrix](https://github.com/agalwood/Motrix)
+seems to be the best cross-platform downloading tool available currently.
+
 ## [EagleGet](http://www.eagleget.com/)
 
 A great tool!
-
-### uGet
-
-uGet is a great download manager for Linux.
-It can also be used as a GUI for `aria2`.
 
 ## Command-line Tools
 
