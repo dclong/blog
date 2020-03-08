@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-11-28 15:09:37
+Date: 2020-03-08 16:56:03
 Author: Benjamin Du
 Slug: vscode-for-scala-development
-Title: Vscode for Scala Development
+Title: Visual Studio Code for Scala Development
 Category: Computer Science
 Tags: programming, Scala, vscode, Visual Studio Code
 

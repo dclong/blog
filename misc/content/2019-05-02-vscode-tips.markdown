@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-03-03 17:27:11
+Date: 2020-03-08 16:56:03
 Author: Benjamin Du
 Slug: vscode-tips
-Title: Tips for Visual Studio Code
+Title: Tips on Visual Studio Code
 Category: Software
 Tags: software, vscode, Visual Studio Code, tips, IDE
 
@@ -36,11 +36,10 @@ https://github.com/Microsoft/vscode/wiki/Keybinding-Issues
 
 A simple fix is to add the following configuration into the user's setting.json file.
 
-```
-{
-    "keyboard.dispatch": "keyCode"
-}
-```
+    :::json
+    {
+        "keyboard.dispatch": "keyCode"
+    }
 
 ## Install Extensions from Command-line
 
