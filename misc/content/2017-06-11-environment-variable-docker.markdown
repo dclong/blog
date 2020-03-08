@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-07-08 21:14:19
+Date: 2020-03-07 21:47:47
 Author: Ben Chuanlong Du
-Slug: environment-variable-docker
-Title: Environment Variable in Docker
+Slug: environment-variables-docker
+Title: Environment Variables in Docker
 Category: Software
 Tags: software, docker, shell form, exec form, environment variable
 

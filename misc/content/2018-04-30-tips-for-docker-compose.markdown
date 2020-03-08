@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-02-11 15:32:01
+Date: 2020-03-07 21:43:30
 Author: Ben Chuanlong Du
-Slug: tips-for-docker-compose
-Title: Tips for Docker Compose
+Slug: tips-on-docker-compose
+Title: Tips on Docker Compose
 Category: Software
 Tags: software, Docker Compose, tips
 
@@ -14,15 +14,19 @@ but rather for convenient reference of the author and future improvement.
 **
 
 
-wajig install docker-compose
+## Installation
 
-brew install docker-compose
+`docker-compose` can be installed using the following command on Ubuntu.
 
-docker-compose sounds really interesting to me ...
+    :::bash
+    wajig install docker-compose
 
-https://github.com/docker/compose
+And docker -compose can be installed using brew on macOS.
 
-https://github.com/jupyter-incutbator/dashboards_setup/tree/master/docker_deploy
+    :::bash
+    brew install docker-compose
+
+## Examples
 
 ```
 version: '3'
@@ -62,3 +66,7 @@ https://stackoverflow.com/questions/45282608/how-to-directly-mount-nfs-share-vol
 https://docs.docker.com/compose/install/
 
 [Using Docker-Compose, how to execute multiple commands](https://stackoverflow.com/questions/30063907/using-docker-compose-how-to-execute-multiple-commands)
+
+https://github.com/docker/compose
+
+https://github.com/jupyter-incutbator/dashboards_setup/tree/master/docker_deploy
