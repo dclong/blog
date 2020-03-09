@@ -2,7 +2,7 @@ Status: published
 Date: 2020-02-07 11:28:45
 Author: Benjamin Du
 Slug: rust-tips
-Title: Rust Tips
+Title: Tips on Rust
 Category: Computer Science
 Tags: programming, Rust, tips
 
