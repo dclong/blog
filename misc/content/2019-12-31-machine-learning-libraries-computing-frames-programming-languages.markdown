@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 21:03:42
+Date: 2020-03-08 22:15:55
 Author: Benjamin Du
 Slug: machine-learning-libraries-computing-frames-programming-languages
 Title: Machine Learning Libraries, Computing Frames and Programming Languages
@@ -42,7 +42,7 @@ It is not meant to readers but rather for convenient reference of the author and
     while Python is a good choice for glue-language that is easy to use.
 
 
-## Machine Learning Frames
+## Machine Learning Frameworks
 
 scikit-learn
 

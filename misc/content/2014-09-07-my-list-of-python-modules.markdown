@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-01 22:24:43
+Date: 2020-03-08 22:15:29
 Author: Ben Chuanlong Du
 Slug: my-list-of-python-modules
 Title: My List of Python Modules
@@ -85,9 +85,9 @@ http://www.legendu.net/misc/blog/odbc-vs-jdbc-in-python/
 
 ## Machine Learning
 
-1. [scikit-learn](http://scikit-learn.org/stable/)
-
-2. [theano](https://github.com/Theano/Theano)
+Please refer to
+[Machine Learning Frameworks](http://www.legendu.net/misc/blog/machine-learning-libraries-computing-frames-programming-languages/#machine-learning-frames)
+for more details.
 
 ## GUI application
 
