@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 16:45:49
+Date: 2020-03-09 14:49:37
 Author: Benjamin Du
 Slug: tips-on-nlp
 Title: Tips on NLP
@@ -100,7 +100,9 @@ has a very detailed summary of development and applications of Attention in NLP.
 
 ## Libraries 
 
-[gensim](https://github.com/RaRe-Technologies/gensim)
+[SpaCy](https://github.com/explosion/spaCy)
+is an industrial-strength Natural Language Processing (NLP) library.
+
 
 [transformers](https://github.com/huggingface/transformers)
 (formerly known as pytorch-transformers and pytorch-pretrained-bert) 
@@ -115,6 +117,9 @@ https://github.com/jadore801120/attention-is-all-you-need-pytorch
 https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/transformer.py
 
 https://github.com/google/seq2seq
+
+[gensim](https://github.com/RaRe-Technologies/gensim)
+
 
 ## Data 
 
