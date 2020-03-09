@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-13 11:28:52
+Date: 2020-03-09 16:37:34
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -252,3 +252,5 @@ https://stackoverflow.com/questions/5226311/installing-specific-package-versions
 https://stackoverflow.com/questions/14149422/using-pip-behind-a-proxy
 
 https://stackoverflow.com/questions/9510474/removing-pips-cache
+
+https://stackoverflow.com/questions/36898474/how-to-install-a-module-for-all-users-with-pip-on-linux

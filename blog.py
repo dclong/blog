@@ -391,8 +391,8 @@ class Post:
             fout.writelines("Author: Benjamin Du\n")
             fout.writelines(f"Slug: {Post.slug(title)}\n")
             fout.writelines(f"Title: {Post.format_title(title)}\n")
-            fout.writelines("Category: Programming\n")
-            fout.writelines("Tags: programming\n")
+            fout.writelines("Category: Computer Science\n")
+            fout.writelines("Tags: Computer Science\n")
             if self.blog_dir() == MISC:
                 fout.writelines(DECLARATION)
 
