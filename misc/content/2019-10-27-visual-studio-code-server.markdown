@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 17:02:35
+Date: 2020-03-08 18:11:30
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -26,15 +26,17 @@ https://github.com/cdr/code-server/issues/148
 
 ## Install Extensions
 
-might require root to run docker though ...
+If you install extension in Dockerfile using `root`,
+the extensions are installed into `/root/.local/share/code-server/extensions`.
+You change the the permissions of `/root` and all its subcontents to 777 
+(using the command `chmod -R 777 /root`) 
+so that other users can use the installed extensions.
 
     :::bash
     code-server --install-extension ms-python.python
     code-server --install-extension njpwerner.autodocstring
 
 https://github.com/cdr/code-server/issues/171
-
-https://github.com/ThorbenJensen/code-server-blueprint/blob/master/Dockerfile
 
 ## JupyterLab Within VS Code 
 
