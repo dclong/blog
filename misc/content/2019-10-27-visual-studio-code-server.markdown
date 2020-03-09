@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-21 11:48:49
+Date: 2020-03-08 17:02:35
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -28,8 +28,9 @@ https://github.com/cdr/code-server/issues/148
 
 might require root to run docker though ...
 
-code-server --install-extension ms-python.python
-code-server --install-extension njpwerner.autodocstring
+    :::bash
+    code-server --install-extension ms-python.python
+    code-server --install-extension njpwerner.autodocstring
 
 https://github.com/cdr/code-server/issues/171
 
