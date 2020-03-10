@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-24 10:29:28
+Date: 2020-03-09 23:57:56
 Author: Benjamin Du
 Slug: python-for-desktop-applications
 Title: Python for Desktop Applications
@@ -37,3 +37,11 @@ creates custom layout GUI's simply.
 is a cross-platform GUI automation Python module for human beings. 
 Used to programmatically control the mouse & keyboard.
 
+
+[Kivy](https://github.com/kivy/kivy)
+
+## References
+
+https://docs.python-guide.org/scenarios/gui/
+
+https://techsore.com/best-python-gui/
