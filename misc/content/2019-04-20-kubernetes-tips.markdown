@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-03 22:38:00
+Date: 2020-03-09 18:13:01
 Author: Benjamin Du
 Slug: kubernetes-tips
 Title: Tips on Kubernetes
@@ -77,6 +77,9 @@ spec:
         - containerPort: 80
 
 ```
+Another good example is to 
+[Deploy Apache Ray on Kubernetes](https://ray.readthedocs.io/en/latest/deploy-on-kubernetes.html)
+.
 
 ## References
 
