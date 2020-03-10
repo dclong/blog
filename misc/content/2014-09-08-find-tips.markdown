@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-03-09 14:46:55
+Date: 2020-03-09 21:56:40
 Author: Ben Chuanlong Du
 Slug: find-tips
-Title: Tips on the `find` command in Linux
+Title: Tips on the find command in Linux
 Category: OS
 Tags: Linux, find, tips, search, locate
 
