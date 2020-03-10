@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-11-18 10:29:26
+Date: 2020-03-09 17:22:30
 Author: Benjamin Du
 Slug: pylint-tips
-Title: pylint Tips
+Title: Tips on pylint
 Category: Computer Science
 Tags: programming, Python, pylint, tips
 
