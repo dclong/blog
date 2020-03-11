@@ -1,11 +1,10 @@
-UUID: 6088bc93-2a13-4c3f-8f59-56a36fed8462
 Status: published
-Date: 2016-06-10 11:21:25
+Date: 2020-03-11 11:15:20
 Author: Ben Chuanlong Du
 Slug: frequently-used-time-format
 Title: Frequently Used Time Format
 Category: Computer Science
-Tags: programming, time, date, format
+Tags: programming, time, date, format, datetime
 
 **
 Things on this page are
