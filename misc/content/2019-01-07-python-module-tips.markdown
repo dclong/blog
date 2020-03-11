@@ -29,7 +29,7 @@ https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-s
 1. A module is cached in memory when it is loaded into Python.
     Changes to the module after loading of the module will not take effect
 	unless the module is reloaded.
-	A module can be reloaded using `imp.reload(module)` In Python3.
+	A module can be reloaded using `importlib.reload(module)` In Python3.
 
 ## Module Access
 
