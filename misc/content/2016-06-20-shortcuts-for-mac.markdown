@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-11 16:57:44
+Date: 2020-03-11 16:58:31
 Author: Ben Chuanlong Du
 Slug: shortcuts-for-mac
 Title: Shortcuts for Mac
@@ -36,7 +36,7 @@ lists comparisons of shortcuts on Windows, macOS and Linux.
   </tr>
   <tr>
     <td> Option + CMD + V </td>
-    <td> Cut the copied files/directories </td>
+    <td> Cut and paste the copied files/directories </td>
   </tr>
   <tr>
     <td> F11 or Fn + F11 (depends) </td>
