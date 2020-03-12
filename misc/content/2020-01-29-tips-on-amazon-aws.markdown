@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-30 13:37:20
+Date: 2020-03-11 20:47:40
 Author: Benjamin Du
 Slug: tips-on-amazon-aws
 Title: Tips on Amazon AWS
@@ -11,9 +11,30 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
 
+## Tips and Traps
+
+1. By default, 
+    AWS shows your resources (VMs, etc.) in one location (data center) only. 
+    This can be tricky if you have VMs in mutiple locations (data centers)
+    as you might forget that you have VMs in other locations 
+    (rather than the currently displayed one to you)
+    and forgot to stop them.
+    The invoices of AWS includes details of charges. 
+    It is suggested that you dig into details of your AWS invoice carefully 
+    if the bill looks abnormally high to you.
+
 1. To save cost, 
     it is suggested that you start a VM instance on demand
     and stop it when you finish using it.
+    You won't be charged for VM usage after stopping it,
+    however, 
+    you will still be charged for the corresponding S3 storages.
+    Microsoft Azure has a similar pricing strategy 
+    to not charge users for stopped VMs but still charge for storages.
+    This makes AWS and Azure great choices for flexible on-demand usages.
+    Some other cloud services (Vultr, Digital Ocean, etc.) claims to be cheaper (than AWS and Azure)
+    but they continue to charge users for stopped VMs. 
+    Those are good for long-term usages but not for flexible on-demand usages.
 
 2. You can change the VM instance type to scale up/down.
 
