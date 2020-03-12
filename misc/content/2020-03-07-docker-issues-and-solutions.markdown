@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 21:44:53
+Date: 2020-03-11 17:23:38
 Author: Benjamin Du
 Slug: docker-issues-and-solutions
 Title: Docker Issues and Solutions
@@ -25,3 +25,20 @@ It is not meant to readers but rather for convenient reference of the author and
 
         :::bash
         sudo service docker restart
+
+## Error saving credentials: error storing credentials in Ubuntu 18.04 LTS
+
+Installing `gnupg2` and `pass` fixes the issue.
+
+    :::bash
+    wajig install gnupg2 pass
+
+## Container exits with non-zero exit code 137
+
+Please refer to
+[The Non-Zero Exit Code 137 While Building a Docker Image](http://www.legendu.net/misc/blog/the-non-zero-exit-code-137-while-building-a-docker-image/)
+for more details.
+
+## References
+
+https://github.com/docker/cli/issues/1136
