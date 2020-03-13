@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-11 14:56:56
+Date: 2020-03-13 12:13:06
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -370,7 +370,8 @@ you need to install Spark and the Python package `pyspark` first,
 which can be achieved using the following command.
 
     :::bash
-    xinstall --sudo spark -ic && xinstall pyspark -ic
+    xinstall --sudo spark -ic  
+    xinstall pyspark -ic
 
 Follow the steps below to use PySpark after it is installed.
 
