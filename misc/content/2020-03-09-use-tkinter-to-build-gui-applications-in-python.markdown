@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-17 11:09:38
+Date: 2020-03-17 14:39:55
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -126,7 +126,25 @@ there are 2 ways you can change its image.
 Unlike the text of a Label object, 
 there is no `imagevariable` option for a Label.
 
+## Label 
 
+If you don’t specify a size, the label is made just large enough to hold its contents. You can also use the height and width options to explicitly set the size. If you display text in the label, these options define the size of the label in text units. If you display bitmaps or images instead, they define the size in pixels (or other screen units). See the Button description for an example how to specify the size in pixels also for text labels.
+
+### Size of Widgets
+
+https://stackoverflow.com/questions/17398926/how-to-set-a-widgets-size-in-tkinter/17399180
+
+## Grid
+
+Set minimum size of rows and columns of the grid.
+
+    col_count, row_count = root.grid_size()
+    for col in xrange(col_count):
+        root.grid_columnconfigure(col, minsize=20)
+    for row in xrange(row_count):
+        root.grid_rowconfigure(row, minsize=20)
+
+https://stackoverflow.com/questions/28019402/tkinter-grid-spacing-options
 
 ## Tutorials
 
@@ -135,5 +153,9 @@ https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
 ## References
 
 https://docs.python.org/3/library/tkinter.html
+
+https://docs.python.org/3/library/tk.html
+
+http://effbot.org/tkinterbook/
 
 https://docs.python.org/3/library/tkinter.ttk.html#label-options
