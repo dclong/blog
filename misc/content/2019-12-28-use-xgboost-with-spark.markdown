@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-28 23:42:45
+Date: 2020-03-17 11:37:33
 Author: Benjamin Du
 Slug: use-xgboost-with-spark
-Title: Use Xgboost With Spark
+Title: Use XGBoost With Spark
 Category: AI
 Tags: AI, data science, machine learning, XGBoost, Spark
 

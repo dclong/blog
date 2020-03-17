@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-26 13:49:59
+Date: 2020-03-17 11:37:02
 Author: Benjamin Du
 Slug: labeling-data-for-ai
 Title: Labeling Data for AI
@@ -10,6 +10,12 @@ Tags: AI, data science, machine learning, deep learning, data, labeling, crowd o
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
+
+When you label individual images,
+it is better to use numerical labels 
+(even though text labels are easier to understand)
+so that you can avoid mapping between numbers (use for training)
+and text labels (for human understanding) all the time.
 
 ## Free 
 

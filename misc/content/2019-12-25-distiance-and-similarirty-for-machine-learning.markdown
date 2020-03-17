@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-27 09:19:38
+Date: 2020-03-17 11:46:20
 Author: Benjamin Du
 Slug: distance-and-similarity-for-machine-learning
-Title: Distance and Similarrty for Machine Learning
+Title: Distance and Similarity for Machine Learning
 Category: AI
 Tags: AI, data science, machine learning, similarity, distance
 

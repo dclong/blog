@@ -2,7 +2,7 @@ Status: published
 Date: 2020-03-02 18:30:38
 Author: Benjamin Du
 Slug: tips-on-tvm
-Title: Tips on Tvm
+Title: Tips on TVM
 Category: AI
 Tags: AI, data science, machine learning, deep learning, TVM, tips
 
