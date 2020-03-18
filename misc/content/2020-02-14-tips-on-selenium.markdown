@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-14 14:15:02
+Date: 2020-03-17 21:22:04
 Author: Benjamin Du
 Slug: tips-on-selenium
 Title: Tips on Selenium
@@ -9,7 +9,22 @@ Tags: programming, Selenium, web automation
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
+
+
+https://stackoverflow.com/questions/30452395/selenium-pdf-automatic-download-not-working
 **
+https://stackoverflow.com/questions/31136581/automate-print-save-web-page-as-pdf-in-chrome-python-2-7
+
+DesiredCapabilities cap = DesiredCapabilities.chrome();
+cap.setCapability("download.default_directory","C:");
+cap.setCapability("download.prompt_for_download","false");
+cap.setCapability("directory_upgrade","true");
+cap.setCapability("plugins.plugins_disabled","Chrome PDF Viewer");
+
+WebDriver driver = new ChromeDriver(cap);
+Or you can add the options.AddArgument("---printing"); to automatically click the print button.
+
+https://stackoverflow.com/questions/30452395/selenium-pdf-automatic-download-not-working
 
 ## Docker Images
 
