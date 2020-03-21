@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-17 14:39:55
+Date: 2020-03-20 18:16:45
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -12,6 +12,15 @@ It is not meant to readers but rather for convenient reference of the author and
 **
 
 ## General Tips
+
+1. Tkinter is NOT a suitable tool for developing a responsive UI. 
+    The GUI application built using Tkinter is single process/thread,
+    and the main UI will be blocked by long-running tasks. 
+    Even if there are ways (callbacks and threads) to avoid this,
+    none of them is a good solution. 
+    It is suggested that you use PyQt5/PySide2 instead
+    if you need a responsive UI.
+
 
 1. When you develop a GUI application using Tkinter in Python, 
     `root = tk.Tk()` must be the first statement after imports.
@@ -151,6 +160,10 @@ https://stackoverflow.com/questions/28019402/tkinter-grid-spacing-options
 https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
 
 ## References
+
+http://stupidpythonideas.blogspot.com/2013/10/why-your-gui-app-freezes.html
+
+https://www.reddit.com/r/Python/comments/7rp4xj/threading_a_tkinter_gui_is_hell_my_least_favorite/
 
 https://docs.python.org/3/library/tkinter.html
 

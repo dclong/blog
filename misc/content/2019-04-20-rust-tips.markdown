@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-07 11:28:45
+Date: 2020-03-20 18:28:12
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -36,6 +36,17 @@ https://skipworth.io/posts/rust-wc-threads/
 
 https://crates.io/crates/scoped-threadpool
 
+## Rust GUI
+
+https://areweguiyet.com/newsfeed/2019-01-13_rust2019.html
+
+Overall, 
+[Azul](https://github.com/maps4print/azul)
+sounds like a good one.
+
+## Rust Frameworks
+
+https://blog.logrocket.com/the-best-rust-frameworks-to-check-out-in-2019/
 ## Cool Rust Projects
 
 https://github.com/rajasekarv/native_spark
