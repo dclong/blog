@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 11:35:33
+Date: 2020-03-21 11:43:05
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -23,7 +23,7 @@ The GIL is controversial because it prevents multithreaded CPython programs from
     Keep a few things in mind when you write multithreaded code in CPython.
 
     - In the same Python interpreter process, 
-        only 1 Python thread runs at a time while others sleep or await (I/O, networking, etc.).
+        **only 1 Python thread runs at a time** while others sleep or await (I/O, networking, etc.).
     - Things happening outside the GIL (I/O, network, properly handled 3rd-party code such as C, Fotran, C++, Java, Rust, etc.),
         do not suffer performance downgrade from the GIL.
     - Combining the above 2 facts, 
@@ -37,6 +37,11 @@ The GIL is controversial because it prevents multithreaded CPython programs from
         it is best to move long-runing tasks to 3rd party code
         and calling it from a separate Python thread (rather than the GUI thread)
         so that it won't freeze your GUI.
+    - If multiple CPython threads share data and at least one of them write the data,
+        **you still need to lock the data before writing** (no need to lock if the thread read data only)
+        even if CPython has GIL.
+        To avoid slowing down your program,
+        **limit locking to the minimum scope**.
 
 2. Multiprocessing has much higher overhead than multithreading.
     It is rather inconvenient to share data among different processes.

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-20 18:16:45
+Date: 2020-03-21 11:47:20
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -138,6 +138,13 @@ there is no `imagevariable` option for a Label.
 ## Label 
 
 If you don’t specify a size, the label is made just large enough to hold its contents. You can also use the height and width options to explicitly set the size. If you display text in the label, these options define the size of the label in text units. If you display bitmaps or images instead, they define the size in pixels (or other screen units). See the Button description for an example how to specify the size in pixels also for text labels.
+
+## Checkbutton (CheckBox)
+
+1. It seems to me that the `Checkbutton.bind` doesn't work.
+    However, 
+    specifying a callback function using the `command` option 
+    when creating a Checkbutton still work.
 
 ### Size of Widgets
 
