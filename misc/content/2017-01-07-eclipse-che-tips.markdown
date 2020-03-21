@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-28 17:46:46
+Date: 2020-03-21 10:54:21
 Author: Ben Chuanlong Du
 Slug: eclipse-che-tips
-Title: Eclipse Che Tips
+Title: Tips on Eclipse Che
 Category: Software
 Tags: software, cloud IDE, Eclipse Che, tips
 

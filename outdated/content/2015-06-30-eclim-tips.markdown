@@ -1,9 +1,9 @@
 UUID: da5c4954-306c-44aa-ac7a-e162389c440a
 Status: published
-Date: 2019-07-14 14:13:50
+Date: 2020-03-21 10:54:21
 Author: Ben Chuanlong Du
 Slug: eclim-tips
-Title: Eclim Tips
+Title: Tips on Eclim
 Category: Software
 Tags: software, Eclim, tips, Vim, Eclipse
 

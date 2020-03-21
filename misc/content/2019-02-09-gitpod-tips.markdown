@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-02-27 09:07:14
+Date: 2020-03-21 10:54:21
 Author: Benjamin Du
 Slug: gitpod-tips
-Title: Gitpod Tips
+Title: Tips on Gitpod
 Category: Software
 Tags: Software, programming, GitPod, GitHub, Theia IDE
 
