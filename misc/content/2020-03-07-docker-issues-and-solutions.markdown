@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-11 17:23:38
+Date: 2020-03-21 11:00:12
 Author: Benjamin Du
 Slug: docker-issues-and-solutions
 Title: Docker Issues and Solutions
@@ -10,6 +10,10 @@ Tags: Software, Docker, issue, solution
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
+
+## Issues with Python multiprocessing shared memory
+
+It seems that Python multiprocessing shared memory has issues in Docker ...
 
 ## Docker fail to register layer  ... no such file or directory
 
