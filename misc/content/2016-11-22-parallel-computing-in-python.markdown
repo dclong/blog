@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 11:43:05
+Date: 2020-03-21 13:13:26
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -37,6 +37,9 @@ The GIL is controversial because it prevents multithreaded CPython programs from
         it is best to move long-runing tasks to 3rd party code
         and calling it from a separate Python thread (rather than the GUI thread)
         so that it won't freeze your GUI.
+        (As a matter of fact, 
+        the strength of Python is to act a s glue-language 
+        which binds native code and provide easy to use APIs.)
     - If multiple CPython threads share data and at least one of them write the data,
         **you still need to lock the data before writing** (no need to lock if the thread read data only)
         even if CPython has GIL.
