@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 00:16:46
+Date: 2020-03-23 10:35:42
 Author: Benjamin Du
 Slug: the-installation-location-of-python-packages-using-pip
 Title: The Installation Location of Python Packages Using Pip
@@ -19,6 +19,24 @@ the package is installed into the user's local directory at
 if `sudo` or the `root` user is used with `pip`,
 then the package is installed to the system-wide location at 
 `/usr/local/lib/python3.7/site-packages` (using Python 3.7 as example).
+One potentially very tricky thing that 
+the above statement applies to direct shell commands only.
+Let's say that you run a Python program as a regular user `dclong` with out `sudo`,
+and you use the `subprocess` module to revoke a shell command like below.
+
+    :::python
+    import subprocess as sp
+    sp.run("sudo pip3 install pandas", shell=True)
+
+The Python package `pandas` will be installed to the local directory of the user `dclong`
+even if `sudo` is used in this case!!
+If you have used the `root` user to run the above Python script,
+the Python package `pandas` will be installed to the local directory 
+(`/root/.local/lib/python3.7/site-packages`) of the `root` user.
+Instead of invoking a `sudo pip3 install ...` in the Python script, 
+you can just invoking `pip3 install ...` in thee Python script 
+and run your Python script with sudo.
+This fixes the tricky issue.
 
 There are a few options to give users fine control on the destination directory 
 to install Python packages.
