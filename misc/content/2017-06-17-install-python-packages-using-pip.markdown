@@ -207,6 +207,11 @@ https://github.com/pypa/pip/pull/6391
 
 4. `export LC_ALL=C` resolved an issues of pip3
 
+## Installation Location
+
+Please refer to 
+[The Installation Location of Python Packages Using Pip](http://www.legendu.net/misc/blog/the-installation-location-of-python-packages-using-pip/)
+for more discussions.
 
 ## References
 

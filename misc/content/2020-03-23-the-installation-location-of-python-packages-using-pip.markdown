@@ -2,7 +2,7 @@ Status: published
 Date: 2020-03-23 00:16:46
 Author: Benjamin Du
 Slug: the-installation-location-of-python-packages-using-pip
-Title: the Installation Location of Python Packages Using Pip
+Title: The Installation Location of Python Packages Using Pip
 Category: Computer Science
 Tags: Computer Science, Python, pip, package, installation, location
 
@@ -54,10 +54,12 @@ Use --upgrade to replace existing packages in <dir> with new versions.
 
 ## References
 
-[Install a Python package into a different directory using pip?](https://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
+- [Install a Python package into a different directory using pip?](https://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
 
-[Where does pip install its packages?](https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages)
+- [Where does pip install its packages?](https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages)
 
-[pip installing in global site-packages instead of virtualenv](https://stackoverflow.com/questions/20952797/pip-installing-in-global-site-packages-instead-of-virtualenv)
+- [pip installing in global site-packages instead of virtualenv](https://stackoverflow.com/questions/20952797/pip-installing-in-global-site-packages-instead-of-virtualenv)
 
-[VirtualEnv/Pip trying to install packages globally](https://stackoverflow.com/questions/20942982/virtualenv-pip-trying-to-install-packages-globally)
+- [VirtualEnv/Pip trying to install packages globally](https://stackoverflow.com/questions/20942982/virtualenv-pip-trying-to-install-packages-globally)
+
+- [pip install](https://pip.pypa.io/en/stable/reference/pip_install/)
