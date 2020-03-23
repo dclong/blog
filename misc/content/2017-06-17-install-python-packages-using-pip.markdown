@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-09 16:37:34
+Date: 2020-03-22 17:33:26
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -227,13 +227,13 @@ https://github.com/pypa/pip/pull/6391
 
 ## Installation Location
 
-https://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip
+[Install a Python package into a different directory using pip?](https://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
 
-https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages
+[Where does pip install its packages?](https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages)
 
-https://stackoverflow.com/questions/20952797/pip-installing-in-global-site-packages-instead-of-virtualenv
+[pip installing in global site-packages instead of virtualenv](https://stackoverflow.com/questions/20952797/pip-installing-in-global-site-packages-instead-of-virtualenv)
 
-https://stackoverflow.com/questions/20942982/virtualenv-pip-trying-to-install-packages-globally
+[VirtualEnv/Pip trying to install packages globally](https://stackoverflow.com/questions/20942982/virtualenv-pip-trying-to-install-packages-globally)
 
 ## References
 

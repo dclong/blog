@@ -15,5 +15,5 @@ It is not meant to readers but rather for convenient reference of the author and
 ## shell vs python vs julia
 
 1. I think if there are existing functionalities in shell, just use them. 
-If you want to write general purpose script, use other scripting languages, I recommend julia
+    If you want to write general purpose script, use other scripting languages, I recommend julia
 
