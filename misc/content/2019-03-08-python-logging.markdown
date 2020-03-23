@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-09-24 23:05:01
+Date: 2020-03-23 10:59:04
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -43,6 +43,16 @@ The best logging package for Python!
         sys.exit()
 
 ## [logging](https://docs.python.org/3/library/logging.html)
+
+It is often desirable to control the logging level using a command-line option.
+Let's say that you use the option `--level` to accept names (warning, debug, info, etc) of logging levels,
+and the corresponding variable is `args.level`. 
+You can retrive the corresponding logging level using `getattr(logging, args.level.upper())`.
+And thus you can easily set the logging level with the following code.
+
+    :::python
+    level = getattr(logging, args.level.upper())
+    logging.setLevel(level)
 
 ### Format keywords
 
