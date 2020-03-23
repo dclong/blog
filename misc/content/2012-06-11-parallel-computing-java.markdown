@@ -6,6 +6,12 @@ Category: Computer Science
 Slug: parallel-computing-java
 Author: Ben Chuanlong Du
 
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
+
+
 <img src="http://dclong.github.io/media/java/multithreading.png" height="200" width="240" align="right"/>
 
 The following are a few tips for multithreading parallel computing in Java.
