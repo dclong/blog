@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 15:51:39
+Date: 2020-03-23 16:20:57
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -581,11 +581,12 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     docker.remove_images(tag="^2[0-9]{5}", choice="y")
     tag_build = "next"
     no_cache = False
-    docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build)
-    docker.build_images("dclong/vscode-server", tag_build=tag_build)
-    docker.build_images("dclong/gitpod", tag_build=tag_build)
-    docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build)
-    docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build)
+    push = True
+    docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build, push=push)
+    docker.build_images("dclong/vscode-server", tag_build=tag_build, push=push)
+    docker.build_images("dclong/gitpod", tag_build=tag_build, push=push)
+    docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build, push=push)
+    docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build, push=push)
     docker.remove(choice="y")
 
 ## Known Issues 
