@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-13 12:13:06
+Date: 2020-03-23 15:51:39
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -577,8 +577,8 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     #!/usr/bin/env python3
     from dsutil import docker
 
-    docker.remove()
-    docker.remove_images(tag="^2[0-9]{5}")
+    docker.remove(choice="y")
+    docker.remove_images(tag="^2[0-9]{5}", choice="y")
     tag_build = "next"
     no_cache = False
     docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build)
@@ -586,7 +586,7 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     docker.build_images("dclong/gitpod", tag_build=tag_build)
     docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build)
     docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build)
-    docker.remove()
+    docker.remove(choice="y")
 
 ## Known Issues 
 
