@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 13:13:26
+Date: 2020-03-23 13:35:04
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -50,6 +50,8 @@ The GIL is controversial because it prevents multithreaded CPython programs from
     It is rather inconvenient to share data among different processes.
     It is suggested that you only use multiprocessing for CPU intensive tasks 
     where communication among tasks is minimum.
+
+3. You can use `os.cpu_count()` in Python to get the number of CPU cores on the machine. 
 
 ## References
 
