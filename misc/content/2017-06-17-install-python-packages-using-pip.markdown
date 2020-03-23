@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-22 17:33:26
+Date: 2020-03-23 00:18:43
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -65,24 +65,6 @@ https://github.com/pypa/pip/issues/5599
 
 https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 
-
-## Install Python Packages Locally
-
-You can install Python packages to your local directory 
-by specifying the `--user` option to `pip`.
-This is extremely useful if you do not have permission 
-to install packages to system-wide locations.
-```Bash
-pip3 install --user mercurial
-```
-The same option `--user` can be used to install a package to local directory
-if you install using the `setup.py` file.
-```Bash
-python setup.py install --user
-```
-Notice that if your Python is installed by Homebrew or you are using Anaconda Python,
-the whole Python is installed to your local directory,
-so that you do not need to use the `--user` option when installing Python packages.
 
 ## Install Python Packages from Git Repositories
 
@@ -225,15 +207,6 @@ https://github.com/pypa/pip/pull/6391
 
 4. `export LC_ALL=C` resolved an issues of pip3
 
-## Installation Location
-
-[Install a Python package into a different directory using pip?](https://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
-
-[Where does pip install its packages?](https://stackoverflow.com/questions/29980798/where-does-pip-install-its-packages)
-
-[pip installing in global site-packages instead of virtualenv](https://stackoverflow.com/questions/20952797/pip-installing-in-global-site-packages-instead-of-virtualenv)
-
-[VirtualEnv/Pip trying to install packages globally](https://stackoverflow.com/questions/20942982/virtualenv-pip-trying-to-install-packages-globally)
 
 ## References
 
