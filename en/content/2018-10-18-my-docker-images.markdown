@@ -272,7 +272,8 @@ for more details.
 
 - [Use Spark With the BeakerX Scala Kernel](http://www.legendu.net/misc/blog/use-spark-with-the-beakerx-scala-kernel/)
 
-
+It is suggested that you use the Almond Scala kernel. 
+I will gradually drop support of the BeakerX Scala kernel and the Apache Toree Spark kernel in my Docker images. 
 
 ## PySpark - pyspark and findspark
 
