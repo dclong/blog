@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 17:58:19
+Date: 2020-03-23 17:59:33
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -266,7 +266,7 @@ Many other software/tools can be easily install by xinstall.
 Please refer to [dclong/xinstall](https://github.com/dclong/xinstall)
 for more details.
 
-## Use Spark in JupyterLab Notebook
+## Use Spark in JupyterLab Notebooks
 
 - [Use Spark with the Almond Scala Kernel in JupyterLab](http://www.legendu.net/misc/blog/spark-almond-jupyterlab/)
 
