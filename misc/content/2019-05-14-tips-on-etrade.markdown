@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-20 19:56:40
+Date: 2020-03-23 00:35:34
 Author: Benjamin Du
 Slug: tips-on-etrade
 Title: Tips on eTrade
@@ -44,6 +44,16 @@ coming tax season we will provide you a tax form. Where you can then work with a
 https://us.etrade.com/app/taxcenter#/taxdoc?ploc=c-newnav-acct-tax
 
 https://us.etrade.com/etx/sp/stockplan/#/myAccount/gainsLosses
+
+https://content.etrade.com/etrade/optionslink/espptax.pdf
+
+https://content.etrade.com/etrade/optionslink/oltaxexercise.pdf
+
+https://content.etrade.com/etrade/optionslink/isotax.pdf
+
+https://content.etrade.com/etrade/customer/invest/finalrestrictedstockfaqs.pdf
+
+https://content.etrade.com/etrade/optionslink/sartax.pdf
 
 ## Questionso
 

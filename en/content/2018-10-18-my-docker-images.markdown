@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-13 12:13:06
+Date: 2020-03-23 17:59:33
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -107,7 +107,7 @@ to `/workdir` and `/home_host` in the container respectively.
 
     :::bash
     docker run -d \
-        --name jupyterhub-ds \
+        --hostname jupyterhub-ds \
         --log-opt max-size=50m \
         -p 8000:8000 \
         -p 5006:5006 \
@@ -118,7 +118,7 @@ to `/workdir` and `/home_host` in the container respectively.
         -e DOCKER_ADMIN_USER=`id -un` \
         -v `pwd`:/workdir \
         -v `dirname $HOME`:/home_host \
-        dclong/jupyterhub-ds
+        dclong/jupyterhub-ds /scripts/sys/init.sh
 
 The following command (only works on Linux) does the same as the above one 
 except that it limits the use of CPU and memory.
@@ -138,7 +138,7 @@ except that it limits the use of CPU and memory.
         -e DOCKER_ADMIN_USER=`id -un` \
         -v `pwd`:/workdir \
         -v `dirname $HOME`:/home_host \
-        dclong/jupyterhub-ds
+        dclong/jupyterhub-ds /scripts/sys/init.sh
 
 ## Debug Docker Containers
 
@@ -213,7 +213,7 @@ So if you want to grant access to a new user,
 just create an account for him in the Docker container.
 You can of course use the well know commands `useradd`, `adduser`, etc. to achive it.
 To make things easier for you,
-there are some shell scripts in the directory `/scripts/` to create usres for you.
+there are some shell scripts in the directory `/scripts/sys/` to create usres for you.
 
 - `/scripts/sys/create_user.sh`: Create a new user. It's the base script for creating users.
 - `/scripts/sys/create_user_group.sh`: Create a new user with the given (existing) group.
@@ -266,100 +266,18 @@ Many other software/tools can be easily install by xinstall.
 Please refer to [dclong/xinstall](https://github.com/dclong/xinstall)
 for more details.
 
-## Use Spark in JupyterLab Notebook
+## Use Spark in JupyterLab Notebooks
 
-### Spark - The BeakerX Scala Kernel
+- [Use Spark with the Almond Scala Kernel in JupyterLab](http://www.legendu.net/misc/blog/spark-almond-jupyterlab/)
 
-Currently [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/) uses the BeakerX Scala kernel.
-Most of the Spark/Scala examples (unde the tag [Spark](http://www.legendu.net/misc/tag/spark.html)) 
-on this blog are based on the BeakerX Scala kernel.
+- [Use Spark With the BeakerX Scala Kernel](http://www.legendu.net/misc/blog/use-spark-with-the-beakerx-scala-kernel/)
 
-1. Open a JupyterLab notebook with the BeakerX Scala kernel from the launcher.
+- [Use Spark With Apache Toree Kernel in Juptyerlab](http://www.legendu.net/misc/blog/use-spark-with-apache-toree-kernel-in-juptyerlab/)
 
-2. Download Spark (say, 2.3.1) dependencies. 
+It is suggested that you use the Almond Scala kernel. 
+I will gradually drop support of the BeakerX Scala kernel and the Apache Toree Spark kernel in my Docker images. 
 
-        :::scala
-        %%classpath add mvn
-        org.apache.spark spark-core_2.11 2.3.1
-        org.apache.spark spark-sql_2.11 2.3.1
-
-3. Create a SparkSession object.
-
-        :::scala
-        import org.apache.spark.sql.SparkSession
-        import org.apache.spark.sql.functions._
-
-        val spark = SparkSession.builder()
-            .master("local[2]")
-            .appName("Spark Example")
-            .config("spark.some.config.option", "some-value")
-            .getOrCreate()
-
-        import spark.implicits._
-
-4. Use Spark as usual. 
-
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-### Spark - The Almond Scala Kernel
-
-Currently [dclong/jupyterhub-almond](https://hub.docker.com/r/dclong/jupyterhub-almond/) uses the Almond Scala kernel.
-
-1. Open a JupyterLab notebook with the Almond Scala kernel from the launcher.
-
-2. Download Spark (say, 2.3.1) dependencies. 
-
-        :::scala
-        interp.load.ivy("org.apache.spark" % "spark-core_2.11" % "2.3.1")
-
-3. Create a SparkSession object.
-
-        :::scala
-        import org.apache.spark.sql.SparkSession
-        import org.apache.spark.sql.functions._
-
-        val spark = SparkSession.builder()
-            .master("local[2]")
-            .appName("Spark Example")
-            .config("spark.some.config.option", "some-value")
-            .getOrCreate()
-
-        import spark.implicits._
-
-4. Use Spark as usual. 
-
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-Please refer to 
-[almond-sh/examples](https://github.com/almond-sh/examples/blob/master/notebooks/spark.ipynb)
-for more details.
-
-### Spark - Apache Toree
-
-Currently [dclong/jupyterhub-toree](https://hub.docker.com/r/dclong/jupyterhub-toree/) uses the Apache Toree Scala kernel.
-
-The Docker image 
-[dclong/jupyterhub-toree](https://github.com/dclong/docker-jupyterhub-toree)
-has Spark and Apache Toree installed and configured.
-Since Spark is already installed in it, 
-you don't need to download and install Spark by yourself.
-By default, 
-a Spark Session object named `spark` is created automatically just like spark-shell.
-So, you can use Spark/Scala out-of-box in a JupyterLab notebook with the `Scala - Apache Toree` kernel.
-
-1. Open a JupyterLab notebook with the `Scala - Apache Toree` kernel from the launcher.
-
-2. Use Spark as usual.
-        
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-### PySpark - pyspark and findspark
+## PySpark - pyspark and findspark
 
 The Docker image
 [dclong/jupyterhub-toree](https://github.com/dclong/docker-jupyterhub-toree)
@@ -577,16 +495,17 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     #!/usr/bin/env python3
     from dsutil import docker
 
-    docker.remove()
-    docker.remove_images(tag="^2[0-9]{5}")
+    docker.remove(choice="y")
+    docker.remove_images(tag="^2[0-9]{5}", choice="y")
     tag_build = "next"
     no_cache = False
-    docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build)
-    docker.build_images("dclong/vscode-server", tag_build=tag_build)
-    docker.build_images("dclong/gitpod", tag_build=tag_build)
-    docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build)
-    docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build)
-    docker.remove()
+    push = True
+    docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build, push=push)
+    docker.build_images("dclong/vscode-server", tag_build=tag_build, push=push)
+    docker.build_images("dclong/gitpod", tag_build=tag_build, push=push)
+    docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build, push=push)
+    docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build, push=push)
+    docker.remove(choice="y")
 
 ## Known Issues 
 
