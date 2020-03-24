@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 17:32:56
+Date: 2020-03-23 16:20:57
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -213,7 +213,7 @@ So if you want to grant access to a new user,
 just create an account for him in the Docker container.
 You can of course use the well know commands `useradd`, `adduser`, etc. to achive it.
 To make things easier for you,
-there are some shell scripts in the directory `/scripts/` to create usres for you.
+there are some shell scripts in the directory `/scripts/sys/` to create usres for you.
 
 - `/scripts/sys/create_user.sh`: Create a new user. It's the base script for creating users.
 - `/scripts/sys/create_user_group.sh`: Create a new user with the given (existing) group.
@@ -268,98 +268,13 @@ for more details.
 
 ## Use Spark in JupyterLab Notebook
 
-### Spark - The BeakerX Scala Kernel
+- [Use Spark with the Almond Scala Kernel in JupyterLab](http://www.legendu.net/misc/blog/spark-almond-jupyterlab/)
 
-Currently [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/) uses the BeakerX Scala kernel.
-Most of the Spark/Scala examples (unde the tag [Spark](http://www.legendu.net/misc/tag/spark.html)) 
-on this blog are based on the BeakerX Scala kernel.
+- [Use Spark With the BeakerX Scala Kernel](http://www.legendu.net/misc/blog/use-spark-with-the-beakerx-scala-kernel/)
 
-1. Open a JupyterLab notebook with the BeakerX Scala kernel from the launcher.
 
-2. Download Spark (say, 2.3.1) dependencies. 
 
-        :::scala
-        %%classpath add mvn
-        org.apache.spark spark-core_2.11 2.3.1
-        org.apache.spark spark-sql_2.11 2.3.1
-
-3. Create a SparkSession object.
-
-        :::scala
-        import org.apache.spark.sql.SparkSession
-        import org.apache.spark.sql.functions._
-
-        val spark = SparkSession.builder()
-            .master("local[2]")
-            .appName("Spark Example")
-            .config("spark.some.config.option", "some-value")
-            .getOrCreate()
-
-        import spark.implicits._
-
-4. Use Spark as usual. 
-
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-### Spark - The Almond Scala Kernel
-
-Currently [dclong/jupyterhub-almond](https://hub.docker.com/r/dclong/jupyterhub-almond/) uses the Almond Scala kernel.
-
-1. Open a JupyterLab notebook with the Almond Scala kernel from the launcher.
-
-2. Download Spark (say, 2.3.1) dependencies. 
-
-        :::scala
-        interp.load.ivy("org.apache.spark" % "spark-core_2.11" % "2.3.1")
-
-3. Create a SparkSession object.
-
-        :::scala
-        import org.apache.spark.sql.SparkSession
-        import org.apache.spark.sql.functions._
-
-        val spark = SparkSession.builder()
-            .master("local[2]")
-            .appName("Spark Example")
-            .config("spark.some.config.option", "some-value")
-            .getOrCreate()
-
-        import spark.implicits._
-
-4. Use Spark as usual. 
-
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-Please refer to 
-[almond-sh/examples](https://github.com/almond-sh/examples/blob/master/notebooks/spark.ipynb)
-for more details.
-
-### Spark - Apache Toree
-
-Currently [dclong/jupyterhub-toree](https://hub.docker.com/r/dclong/jupyterhub-toree/) uses the Apache Toree Scala kernel.
-
-The Docker image 
-[dclong/jupyterhub-toree](https://github.com/dclong/docker-jupyterhub-toree)
-has Spark and Apache Toree installed and configured.
-Since Spark is already installed in it, 
-you don't need to download and install Spark by yourself.
-By default, 
-a Spark Session object named `spark` is created automatically just like spark-shell.
-So, you can use Spark/Scala out-of-box in a JupyterLab notebook with the `Scala - Apache Toree` kernel.
-
-1. Open a JupyterLab notebook with the `Scala - Apache Toree` kernel from the launcher.
-
-2. Use Spark as usual.
-        
-        :::scala
-        val df = Range(0, 10).toDF
-        df.show
-
-### PySpark - pyspark and findspark
+## PySpark - pyspark and findspark
 
 The Docker image
 [dclong/jupyterhub-toree](https://github.com/dclong/docker-jupyterhub-toree)
