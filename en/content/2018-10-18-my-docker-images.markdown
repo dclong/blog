@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 16:20:57
+Date: 2020-03-23 17:58:19
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -271,6 +271,8 @@ for more details.
 - [Use Spark with the Almond Scala Kernel in JupyterLab](http://www.legendu.net/misc/blog/spark-almond-jupyterlab/)
 
 - [Use Spark With the BeakerX Scala Kernel](http://www.legendu.net/misc/blog/use-spark-with-the-beakerx-scala-kernel/)
+
+- [Use Spark With Apache Toree Kernel in Juptyerlab](http://www.legendu.net/misc/blog/use-spark-with-apache-toree-kernel-in-juptyerlab/)
 
 It is suggested that you use the Almond Scala kernel. 
 I will gradually drop support of the BeakerX Scala kernel and the Apache Toree Spark kernel in my Docker images. 
