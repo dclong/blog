@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 16:20:57
+Date: 2020-03-23 17:32:56
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -107,7 +107,7 @@ to `/workdir` and `/home_host` in the container respectively.
 
     :::bash
     docker run -d \
-        --name jupyterhub-ds \
+        --hostname jupyterhub-ds \
         --log-opt max-size=50m \
         -p 8000:8000 \
         -p 5006:5006 \
@@ -118,7 +118,7 @@ to `/workdir` and `/home_host` in the container respectively.
         -e DOCKER_ADMIN_USER=`id -un` \
         -v `pwd`:/workdir \
         -v `dirname $HOME`:/home_host \
-        dclong/jupyterhub-ds
+        dclong/jupyterhub-ds /scripts/sys/init.sh
 
 The following command (only works on Linux) does the same as the above one 
 except that it limits the use of CPU and memory.
@@ -138,7 +138,7 @@ except that it limits the use of CPU and memory.
         -e DOCKER_ADMIN_USER=`id -un` \
         -v `pwd`:/workdir \
         -v `dirname $HOME`:/home_host \
-        dclong/jupyterhub-ds
+        dclong/jupyterhub-ds /scripts/sys/init.sh
 
 ## Debug Docker Containers
 
