@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2017-01-02 23:15:22
+Date: 2020-03-24 19:09:23
 Author: Ben Chuanlong Du
 Slug: eclipse-tips
-Title: Eclipse Tips
+Title: Use Eclipse as Your IDE
 Category: Software
 Tags: software, tips, eclipse, IDE
 
@@ -23,6 +22,12 @@ Menu -> Windows -> Preference -> General -> Apprearance -> Colors and Fonts -> T
 3. Eclipse has an extensive amount of settings. 
 Sometimes it is hard to find the right settings you want. 
 A better way is to type in text in the search box to search for the settings you want.
+
+
+## Eclipse for Java
+
+1. You can use `format` button under `source` menu to tidy the code.
+
 
 ## Speed up Eclipse
 
