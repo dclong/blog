@@ -1,6 +1,6 @@
 UUID: 7caebdd0-8af6-4a5a-a338-eeb121c1f023
 Status: published
-Date: 2019-03-30 14:41:00
+Date: 2020-03-24 18:50:50
 Author: Ben Chuanlong Du
 Slug: command-line-tools-for-linux-file-system
 Title: Command Line Tools for Linux File System
@@ -15,14 +15,15 @@ but rather for convenient reference of the author and future improvement.
 **
 
 
+Please refer to
+[Command Line Tools for Mac File System](http://www.legendu.net/misc/blog/command-line-tools-for-mac-file-system/)
+for the macOS version.
+
+
 1. List disk information.
 
         df
         df /HOME
-
-2. Management disk partition tables.
-
-        fdisk
 
 3. Format disk partitions.
 
@@ -31,6 +32,10 @@ but rather for convenient reference of the author and future improvement.
         mkfs.ntfs /dev/sd3 /path_to_mount_in
 
         mkfs.exfat /dev/sd3 /path_to_mount_in
+
+2. Management disk partition tables.
+
+        fdisk
 
 4. Report disk usage.
 
