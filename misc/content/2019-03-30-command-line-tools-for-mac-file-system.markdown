@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-24 18:52:22
+Date: 2020-03-26 11:20:06
 Author: Benjamin Du
 Slug: command-line-tools-for-mac-file-system
 Title: Command Line Tools for Mac File System
@@ -20,18 +20,18 @@ for the Linux version.
 1. Notice that disks in macOS are often named as `/dev/diskXsY`
     where `X` and `Y` are numbers.
 
-1. It is suggested that you use the unified command `diskutil` 
+2. It is suggested that you use the unified command `diskutil` 
     (instead of scattered commands such as `df`, `newfs_*`, etc.)
     to manage (list, format, partition, etc.) disks in macOS.
 
-    diskutil partitionDisk /dev/diskX 2 MBR \
-        ExFAT NewVolumeA 100M \
-        ExFAT NewVolumeB R
+        :::bash
+        diskutil partitionDisk /dev/diskX 2 MBR \
+            ExFAT NewVolumeA 100M \
+            ExFAT NewVolumeB R
+        diskutil eraseVolume ExFat NewVolume /dev/diskXsY
 
-    diskutil eraseVolume ExFat NewVolume /dev/diskXsY
 
-
-1. List disk information.
+3. List disk information.
 
         diskutil list
 
