@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-24 23:29:43
+Date: 2020-03-25 17:31:43
 Author: Benjamin Du
 Slug: tips-on-opencv
 Title: Tips on OpenCV
@@ -13,9 +13,18 @@ It is not meant to readers but rather for convenient reference of the author and
 
 ## Installation
 
+You can install OpenCV for Python using the following commands.
+
     :::bash
     sudo apt-get install libsm6 libxrender-dev
     pip3 install opencv-python
+
+If you have 
+[xinstall](https://github.com/dclong/xinstall),
+you can install OpenCV for Python with the following single command.
+
+    :::bash
+    sudo xinstall cv2 -ic
 
 ## Examples
 
