@@ -6,6 +6,12 @@ Slug: cpp11-parallel-concurrency
 Category: Computer Science
 Tags: programming, C/C++, cpp, HPC, async, mutex, future, concurrency, promise, parallel, multithreading
 
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
+
+
 [GNU/GCC]: http://dclong.github.io/en/2012/06/tips-gcc-compiler/
 
 0. If you use g++ to compile your parallel program which uses the thread library,
