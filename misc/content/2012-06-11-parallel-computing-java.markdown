@@ -1,6 +1,6 @@
 Status: published
 Title: Parallel Computing in Java
-Date: 2020-03-25 18:32:44
+Date: 2020-03-25 18:35:06
 Tags: lock, programming, thread, race condition, Java, HPC, parallel, concurrency, mutex
 Category: Computer Science
 Slug: parallel-computing-java
@@ -246,3 +246,7 @@ The following are a few tips for multithreading parallel computing in Java.
 
 7. You should use thread pool to avoid the cost of creating new thread
     if there are many different parts in parallel computing.
+
+## ThreadLocal 
+
+https://www.youtube.com/watch?v=sjMe9aecW_A
