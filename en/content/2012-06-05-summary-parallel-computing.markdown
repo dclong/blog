@@ -1,6 +1,6 @@
 Status: published
 Title: Parallel Computing Using Multithreading
-Date: 2020-03-25 18:16:57
+Date: 2020-03-26 11:14:47
 Slug: parallel-computing-using-multithreading
 Author: Ben Chuanlong Du
 Category: Computer Science
@@ -17,11 +17,9 @@ Tags: Mathematica, lock, programming, C/C++, cpp, thread, Java, HPC, parallel, R
 
 ## Python
 
-Multithreading does not speed up computation in Python due to GIL. 
-An alternative way use multiprocessing (using the `multiprocessing` library) in Python.
-This is contrarary to most other programming languages which encourages multithreading rather than multiprocessing 
-as processes are much heavier than thread and communication among processes are harder than communications among threads.
-Despite this, `multiprocess.Pool.map` makes parallel computing real easy in Python.
+Please refer to 
+[Concurrency and Parallel Computing in Python](http://www.legendu.net/misc/blog/python-concurrency-parallel-computing/)
+for details.
 
 ## [Parallel Computing in Bash](http://www.legendu.net/misc/blog/parallel-computing-in-bash/)
 

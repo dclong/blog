@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-24 18:32:55
+Date: 2020-03-26 11:14:47
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -14,7 +14,12 @@ but rather for convenient reference of the author and future improvement.
 **
 
 
-The GIL is controversial because it prevents multithreaded CPython programs from taking full advantage of multiprocessor systems in certain situations. Note that potentially blocking or long-running operations, such as I/O, image processing, and NumPy number crunching, happen outside the GIL. Therefore it is only in multithreaded programs that spend a lot of time inside the GIL, interpreting CPython bytecode, that the GIL becomes a bottleneck.
+The GIL is controversial because it prevents multithreaded CPython programs 
+from taking full advantage of multiprocessor systems in certain situations. 
+Note that potentially blocking or long-running operations, 
+such as I/O, image processing, and NumPy number crunching, happen outside the GIL. 
+Therefore it is only in multithreaded programs that spend a lot of time inside the GIL, 
+interpreting CPython bytecode, that the GIL becomes a bottleneck.
 
 
 1. Due to the GIL, 
@@ -50,6 +55,12 @@ The GIL is controversial because it prevents multithreaded CPython programs from
     It is rather inconvenient to share data among different processes.
     It is suggested that you only use multiprocessing for CPU intensive tasks 
     where communication among tasks is minimum.
+    Python has a module named `multiprocessing`
+    which makes it easy to do computing using multiple processes 
+    and sharing data among process.
+    Please refer to 
+    [Hands on the Python module Multiprocessing](http://www.legendu.net/misc/blog/python-multiprocessing/)
+    for more details.
 
 3. You can use `os.cpu_count()` in Python to get the number of CPU cores on the machine. 
 
@@ -67,6 +78,8 @@ The GIL is controversial because it prevents multithreaded CPython programs from
                 sp.run("zip -r {path} {path.with_suffix('.zip')}", shell=True)
 
 ## References
+
+[Hands on the Python module Multiprocessing](http://www.legendu.net/misc/blog/python-multiprocessing/)
 
 [Python Global Interpreter Lock](https://wiki.python.org/moin/GlobalInterpreterLock)
 
