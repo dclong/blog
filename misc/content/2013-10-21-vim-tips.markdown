@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-06-21 22:15:00
+Date: 2020-03-25 18:28:38
 Author: Ben Chuanlong Du
 Slug: vim-tips
-Title: Tips for Vim
+Title: Tips on Vim
 Category: Software
 Tags: tips, Linux, software, Vim, surround, repeat
 

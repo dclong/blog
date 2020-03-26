@@ -125,6 +125,10 @@ It is usually faster than the `for` loop.
 
 ## Java & C++
 
+[Parallel and Concurrency Programming in C++11](http://www.legendu.net/misc/blog/cpp11-parallel-concurrency/)
+
+[Parallel Computing in Java](http://www.legendu.net/misc/blog/parallel-computing-java/)
+
 Both Java and C/C++ support multithreading directly. 
 The concept of multithreading computing in these two languages are similar. 
 You have to create multiple threads, 
