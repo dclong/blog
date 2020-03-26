@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-09-08 21:46:50
+Date: 2020-03-24 19:09:23
 Author: Ben Chuanlong Du
 Slug: scala-tips
-Title: Scala Tips
+Title: Tips on Scala
 Category: Computer Science
 Tags: programming, Scala, functional programming, big data, Spark
 

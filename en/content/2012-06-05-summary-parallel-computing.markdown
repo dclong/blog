@@ -1,18 +1,22 @@
 Status: published
-Title: Parallel Computing in Different Programming Languages
-Date: 2019-12-19 09:41:32
-Slug: summary-parallel-computing
+Title: Parallel Computing Using Multithreading
+Date: 2020-03-25 18:16:57
+Slug: parallel-computing-using-multithreading
 Author: Ben Chuanlong Du
 Category: Computer Science
-Tags: Mathematica, lock, programming, C/C++, thread, Java, HPC, parallel, R, concurrency, mutex, GPU Computing, high performance computing
+Tags: Mathematica, lock, programming, C/C++, cpp, thread, Java, HPC, parallel, R, concurrency, mutex, high performance computing
 
-There many different ways for parallel computing. 
-This article focus on multithreading computing.
-Generally speaking, commercial softwares have very good support for parallel computing. 
-For example, Mathematica, MATLAB and Revolution R all have solid support for parallel computing. 
-Mathematica and MATLAB also have good support for GPU computing. 
+
+1. Not all jobs are suitable for parallel computing. 
+    The more comminication that threads has to make, 
+    the more dependent the jobs are and the less efficient the parallel computing is. 
+
+2. Generally speaking, 
+    commercial softwares (Mathematica, MATLAB and Revolution R, etc.) 
+    have very good support on parallel computing. 
 
 ## Python
+
 Multithreading does not speed up computation in Python due to GIL. 
 An alternative way use multiprocessing (using the `multiprocessing` library) in Python.
 This is contrarary to most other programming languages which encourages multithreading rather than multiprocessing 
@@ -22,6 +26,7 @@ Despite this, `multiprocess.Pool.map` makes parallel computing real easy in Pyth
 ## [Parallel Computing in Bash](http://www.legendu.net/misc/blog/parallel-computing-in-bash/)
 
 ## Mathematica
+
 In Mathematica,  
 there are a bunch of functions starting with "Parallel" 
 (e.g., `ParallelTable`, `ParallelSubmit`, etc) for the purpose of parallel computing. 
@@ -45,6 +50,7 @@ to compile the code to C code or some other code that is more efficient to run.
 I will not go deeply into this since it is not the main purpose of this post.
 
 ## MATLAB
+
 There are several ways to do parallel computing in MATLAB. 
 The one I know (and is probably the easiest way) is to use `parfor` instead of `for` in loops. 
 If there is only 1 thread, 
@@ -81,6 +87,7 @@ There are some old version functions starting with `rand` for generating random 
 which are more robust and always works well in parallel computing.
 
 ## R
+
 R (not talking about Revolution R) has many packages for parallel computing.
 Actually there are too many and thus make people confused about where to get started. 
 Fortunately, the company of Revolution R contributed some packages to CRAN to make parallel computing in R unified. 
@@ -117,6 +124,11 @@ Even if you do serial computing, you can still use `foreach` with `%dopar%` repl
 It is usually faster than the `for` loop.
 
 ## Java & C++
+
+[Parallel and Concurrency Programming in C++11](http://www.legendu.net/misc/blog/cpp11-parallel-concurrency/)
+
+[Parallel Computing in Java](http://www.legendu.net/misc/blog/parallel-computing-java/)
+
 Both Java and C/C++ support multithreading directly. 
 The concept of multithreading computing in these two languages are similar. 
 You have to create multiple threads, 
@@ -142,13 +154,23 @@ For more information about multithreading in Java,
 you can refer to the book `Big Java` which is really easy to follow, 
 and "C++ Concurrency in Action" is a good book about multithreading for C++. 
 
+## Random Number Generators in Parallel Computing
 
-Finally, 
-I want to mention that not all computing job is suitable for parallel computing. 
-The more comminication threads has to make, 
-the more dependent the jobs are, the less efficient the parallel computing is. 
 In statistical simulations, 
-random numbers are usually generated in serial 
-(though there are parallel algorithm for random number generating, the popular RNGs are usually serial). 
-If a simulation is mostly about generating random numbers, 
-it is probably non-benefitial to do parallel computing.
+random numbers are usually generated in serial. 
+Even though there are parallel algorithm for random number generating, 
+the popular RNGs (used in Python, R, Java, etc.) are usually serial. 
+There are a few ways to overcome the issue. 
+
+1. Just use lock if RNG is not a bottleneck. 
+
+2. If you do not worry too much about using multiple RNGs with different seeds
+    (theoretically speaking, this might cause issues of overlaping sequences
+    but many people just use it and it works in most situations),
+    it is probably the easy way to go. 
+    You can easily use different RNGs in different threads (via `ThreadLocal`) or processes.
+
+3. [SFMT](http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/#dSFMT)
+    is able to jump forward a long distance quickly.
+    This trick can be used to instantiate multiple RNGs without overlapping sequences.
+

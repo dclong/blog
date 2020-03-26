@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 13:35:04
+Date: 2020-03-24 18:32:55
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -52,6 +52,19 @@ The GIL is controversial because it prevents multithreaded CPython programs from
     where communication among tasks is minimum.
 
 3. You can use `os.cpu_count()` in Python to get the number of CPU cores on the machine. 
+
+4. If you are invoking shell commands from Python,
+    there is a simple way to parallel them 
+    (or to put the shell jobs to background using shell terminology).
+    The trick is to use the Python module `subprocess` to call shell commands suffixed with `&`.
+
+        :::python
+        from pathlib import Path
+        import subprocess as sp
+
+        for path in Path(".").iterdir():
+            if path.is_dir():
+                sp.run("zip -r {path} {path.with_suffix('.zip')}", shell=True)
 
 ## References
 
