@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 17:59:33
+Date: 2020-03-28 10:24:13
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -503,6 +503,7 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build, push=push)
     docker.build_images("dclong/vscode-server", tag_build=tag_build, push=push)
     docker.build_images("dclong/gitpod", tag_build=tag_build, push=push)
+    docker.build_images("dclong/jupyterhub-julia", tag_build=tag_build, push=push)
     docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build, push=push)
     docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build, push=push)
     docker.remove(choice="y")
