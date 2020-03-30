@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Slug: downloading-tools
 Title: Downloading Tools
 Category: Software
-Tags: software, download, tools, uGet, aria2
+Tags: software, download, tools, Motrix, aria2, Tampermonkey, Greasy Fork
 
 **
 Things on this page are
@@ -17,6 +17,9 @@ but rather for convenient reference of the author and future improvement.
 
 [Motrix](https://github.com/agalwood/Motrix)
 seems to be the best cross-platform downloading tool available currently.
+
+## [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) + [Greasy Fork](https://greasyfork.org/en)
+
 
 ## [EagleGet](http://www.eagleget.com/)
 

@@ -4,7 +4,7 @@ Date: 2020-02-13 11:27:14
 Slug: baidu-cloud-tips
 Title: Baidu Yun Tips
 Category: Internet
-Tags: internet, web, Baidu Yun, cloud, tips
+Tags: internet, web, Baidu Yun, cloud, tips, Tampermonkey, Greasy Fork
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -26,6 +26,10 @@ It is not meant to readers but rather for convenient reference of the author and
 
 ## Alternatives
 
+### Tampermonkey + Greasy Fork
+
+## References
+
 https://github.com/Kyle-Kyle/baidudl
 
 https://github.com/iikira/BaiduPCS-Go
@@ -40,6 +44,5 @@ wine + baidu pan
 
 Use BaiduExporter (Chrome plugin) to get the link 
 
-Tampermonkey (Chrome plugin) + Greasy Fork (website)
 
 WinTPC VM

@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Slug: video-conference-tools
 Title: Video Conference Tools
 Category: Software
-Tags: software, video conference, Slack, meeting
+Tags: software, video conference, Slack, meeting, Skype, Zoom
 
 **
 Things on this page are
@@ -13,6 +13,10 @@ It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
 
+
+1. Zoom
+
+2. WeChat
 
 1. Slack
    
