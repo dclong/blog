@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-18 10:20:33
+Date: 2020-03-29 21:09:18
 Author: Benjamin Du
 Slug: computer-vision-tools
 Title: Computer Vision Tools
@@ -14,6 +14,13 @@ It is not meant to readers but rather for convenient reference of the author and
 ## [OpenCV](https://github.com/opencv/opencv)  | [OpenCV for Python](https://github.com/skvark/opencv-python)
 
 ## [Pillow](https://github.com/python-pillow/Pillow)
+
+## [moviepy](https://github.com/Zulko/moviepy)
+
+[moviepy](https://github.com/Zulko/moviepy)
+is a Python library for video editing: 
+cutting, concatenations, title insertions, video compositing (a.k.a. non-linear editing), 
+video processing, and creation of custom effects. 
 
 ## [scikit-image](https://scikit-image.org/)
 

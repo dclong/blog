@@ -412,6 +412,8 @@ wajig install libgoo-canvas-perl shutter shutter
 
 1. vlc
 
+2. [IINA](https://github.com/iina/iina)
+
 4. HandBrake
 
 5. exiftool (command line multimedia meta data editor)

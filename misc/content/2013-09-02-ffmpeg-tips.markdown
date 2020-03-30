@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-17 11:39:43
+Date: 2020-03-29 21:04:02
 Title: Tips on FFmpeg
 Slug: ffmpeg-tips
 Category: Computer Science
@@ -11,7 +11,10 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
 
-It is suggested that you use **OpenCV for Python** 
+It is suggested that you use 
+[OpenCV for Python](https://github.com/skvark/opencv-python)
+and 
+[moviepy](https://github.com/Zulko/moviepy)
 (instead of FFmpeg) 
 to manipulate multimedia.
  
