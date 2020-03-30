@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 21:04:02
+Date: 2020-03-29 21:41:52
 Title: Tips on FFmpeg
 Slug: ffmpeg-tips
 Category: Computer Science
@@ -15,27 +15,47 @@ It is suggested that you use
 [OpenCV for Python](https://github.com/skvark/opencv-python)
 and 
 [moviepy](https://github.com/Zulko/moviepy)
-(instead of FFmpeg) 
+(instead of [FFmpeg](https://ffmpeg.org/)) 
 to manipulate multimedia.
  
 1. extrac audio from video
 
 2. convert between different formats of audios
 
-3. capture screen 
+## Record Screen 
+
+The command below record screen into a MP4 video named `out.mp4` in Linux.
+
+    :::bash
+    ffmpeg -f x11grab -r 25 -s cif -i :0.0 $(date +%m%d%H%M%S).mp4
+
+The command below record screen into a MP4 video named `out.mp4` in macOS.
+
+    :::bash
+    ffmpeg -f avfoundation -i "1" -pix_fmt yuv420p -r 25 $(date +%m%d%H%M%S).mp4
+
 
 ## References
 
-[How to create a video from images with FFmpeg?](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg)
+- https://ffmpeg.org/
 
-[Convert video to images with FFmpeg in Linux](https://averagelinuxuser.com/convert-video-to-images-with-ffmpeg-in-linux/)
+- [Capturing your Desktop / Screen Recording](https://trac.ffmpeg.org/wiki/Capture/Desktop)
 
-https://www.labnol.org/internet/useful-ffmpeg-commands/28490/
+- [How to record the desktop with FFmpeg on Linux](https://www.internalpointers.com/post/record-desktop-ffmpeg-linux)
 
-https://catswhocode.com/ffmpeg-commands/
 
-https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats
+- [Capture Windows screen with ffmpeg](https://stackoverflow.com/questions/6766333/capture-windows-screen-with-ffmpeg)
 
-https://www.ostechnix.com/20-ffmpeg-commands-beginners/
+- [How to create a video from images with FFmpeg?](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg)
 
-https://averagelinuxuser.com/convert-video-to-images-with-ffmpeg-in-linux/
+- [Convert video to images with FFmpeg in Linux](https://averagelinuxuser.com/convert-video-to-images-with-ffmpeg-in-linux/)
+
+- https://www.labnol.org/internet/useful-ffmpeg-commands/28490/
+
+- https://catswhocode.com/ffmpeg-commands/
+
+- https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats
+
+- https://www.ostechnix.com/20-ffmpeg-commands-beginners/
+
+- https://averagelinuxuser.com/convert-video-to-images-with-ffmpeg-in-linux/

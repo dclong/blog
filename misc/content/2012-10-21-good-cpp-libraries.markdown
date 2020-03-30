@@ -1,4 +1,3 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Good C++ Libraries
 Date: 2015-10-18 11:46:12
@@ -16,6 +15,7 @@ but rather for convenient reference of the author and future improvement.
 
 
 ## Good C++ Libraries
+
 1. Armadillo: linear algebra
 2. it++: signal processing
 1. shogun: a large scale machine learning toolbox
@@ -32,6 +32,7 @@ but rather for convenient reference of the author and future improvement.
 1. ODB: an object-relational mapping (ORM) system for the C++ language.
 
 ## Database
+
 1. sqlpp11
 
 ## Scitific Computing
@@ -39,22 +40,22 @@ but rather for convenient reference of the author and future improvement.
 ### Armadillo
 
 1. The C++ standard library supports methods `at` and `operator[]` for accessing elements of containers. 
-Armadillo supports these two methods as no-bound-checking versions. 
-`operator()` is the bound-checking (and thus preferred) version for accessing elements of matrices and arrays.
+    Armadillo supports these two methods as no-bound-checking versions. 
+    `operator()` is the bound-checking (and thus preferred) version for accessing elements of matrices and arrays.
 
 2. Armadillo use `*` for matrix multiplication and `%` element-wise multiplication,
-which is different from R and MATLAB.
+    which is different from R and MATLAB.
 
 ### GSL
 
 1. The GSL library implements popular special functions many of which 
-are not implemented in other libraries 
-(e.g., the Lambert-W function is not implemented in Boost).
+    are not implemented in other libraries 
+    (e.g., the Lambert-W function is not implemented in Boost).
 
 2. The distribution related functions (quantile, cdf, PDF, etc) in 
-GSL is more convenient to use than the Boost library. 
-You can define macros to match the GSL version of distribution functions with 
-R version of distribution functions.
+    GSL is more convenient to use than the Boost library. 
+    You can define macros to match the GSL version of distribution functions with 
+    R version of distribution functions.
 
 ### R
 
@@ -78,15 +79,15 @@ Tring to compile C/C++ based on "Rcpp" and the binary code will result in segmen
 ## Other General Purpose Libraries
 
 ## Boost
+
 0. The boost random library (and thus the standard library of C++11) does not have a way to generate 
-random numbers from the beta distribution directly, 
-however, you use $X/(X+Y)$ where $X$ and $Y$ are independent 
-random variables from the gamma distribution.
+    random numbers from the beta distribution directly, 
+    however, you use $X/(X+Y)$ where $X$ and $Y$ are independent 
+    random variables from the gamma distribution.
 
-1. boost::accumulator is good for incremental calculations,
-especially when several quantities having dependent relationships need 
-be calculated. 
-
+1. `boost::accumulator` is good for incremental calculations,
+    especially when several quantities having dependent relationships need 
+    be calculated. 
 
 ## Debugging Tools
 

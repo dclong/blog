@@ -422,23 +422,11 @@ wajig install libgoo-canvas-perl shutter shutter
 
 ### [Software for Editing Videos](http://www.legendu.net/misc/blog/software-for-editing-videos/)
 
-### Audio
+### [Audio Tools](http://www.legendu.net/misc/blog/Audio-Tools/)
 
-1. puddletag (simple, powerful audio tag editor)
-
-1. beets (command line tool for managing music tagger and library)
-
-2. clementine (a modern music player)
-
-3. cmus (a very cool Command-line MUSic player)
-
-3. mutagen (a python library for handling audio meta data)
-
-4. festival (sound synthesis)
-
-1. Ardour (audio editing)
-
-2. Audacity (audo recording, editing)
+Please refer to
+[Audio Tools](http://www.legendu.net/misc/blog/Audio-Tools/)
+for more details.
 
 ### Screencast
 
