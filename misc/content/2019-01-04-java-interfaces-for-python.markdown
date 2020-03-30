@@ -1,10 +1,10 @@
 Status: published
-Date: 2019-12-16 14:45:18
+Date: 2020-03-29 23:59:05
 Author: Ben Chuanlong Du
 Slug: java-interfaces-for-python
 Title: Java Interfaces for Python
 Category: Computer Science
-Tags: programming, Python, Java, interface, pyjnius, jpype, py4j
+Tags: programming, Python, Java, interface, PyJNIus, jpype, py4j
 
 **
 Things on this page are
@@ -18,10 +18,10 @@ Please refer to
 [Call Java Code Using Jpype from Python](http://www.legendu.net/misc/blog/call-java-code-using-jpype-from-python/)
 for details.
 
-## pyjnius
+## PyJNIus
 
 Please refer to 
-[Call Java Using Pyjnius from Python](http://www.legendu.net/misc/blog/call-java-using-pyjnius-from-python/)
+[Call Java Using PyJNIus from Python](http://www.legendu.net/misc/blog/call-java-using-pyjnius-from-python/)
 for details.
 
 ## py4j 

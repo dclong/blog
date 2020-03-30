@@ -46,7 +46,7 @@
     ["Beakerx", "BeakerX"],
     ["Ipython", "IPython"],
     ["Scalajs", "ScalaJS"],
-    ["Py4Jdbc", "py4jdbc"], ["Pycharm", "PyCharm"], ["Pymysql", "PyMySQL"], ["Pyspark", "PySpark"], ["Pytorch", "PyTorch"],
+    ["Py4Jdbc", "py4jdbc"], ["Pycharm", "PyCharm"], ["Pymysql", "PyMySQL"], ["Pyspark", "PySpark"], ["Pytorch", "PyTorch"], ["Pyjnius", "PyJNIus"],
     ["Rstudio", "RStudio"],
     ["Stringi", "stringi"],
     ["Kdevelop", "KDevelop"],
