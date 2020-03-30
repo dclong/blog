@@ -64,10 +64,16 @@ The following are a few tips for multithreading parallel computing in Java.
         While this is supported in C/C++, it is not well supported in Java.
 
 4. The `join` method of threads and the `awaitTermination` method of thread pool (if return true)
-    guarantees happen-before relationship between threads. In other words, if you
-    call the join method of a thread, then the changed made by the threads is
-    seenable by the code after the `join` method. This is also true for the method 
-    `awaitTermination` given that it returns `true`. 
+    guarantees happen-before relationship between threads. 
+    In other words, 
+    if you call the join method of a thread, then the changed made by the threads 
+    is seenable by the code after the `join` method. 
+    This is also true for the method `awaitTermination` given that it returns `true`. 
+    A thread pool cannot be reused after shutdown. 
+    To reuse a thread pool, 
+    you need to use ExectorCompletionService. 
+    ExectorCompletionService handles synchronization for you automatically
+    to place future objects on to a (synchronized) queue for access.
 
 2. If no barrie (join of threads, termination of thread pool) is set, the order of execuation of thread is underterminant. 
 
@@ -250,3 +256,7 @@ The following are a few tips for multithreading parallel computing in Java.
 ## ThreadLocal 
 
 https://www.youtube.com/watch?v=sjMe9aecW_A
+
+https://stackoverflow.com/questions/7722546/how-can-a-threadpool-be-reused-after-shutdown
+
+https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html

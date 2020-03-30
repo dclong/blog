@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 23:55:16
+Date: 2020-03-30 12:29:24
 Author: Benjamin Du
 Slug: call-java-code-using-jpype-from-python
 Title: Call Java Code Using JPype from Python
@@ -21,7 +21,7 @@ It is the most popular Java interface for Python currently.
     import jpype.imports
     jpype.addClassPath("/path/to.jar")
     jpype.startJVM()
-    print(java.lang.System.getProperty('java.class.path'))
+    print(jpype.java.lang.System.getProperty('java.class.path'))
     import ...
     obj = SomeClass(...)
     obj.someMethod(...)

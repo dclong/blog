@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 23:59:05
+Date: 2020-03-30 12:29:24
 Author: Benjamin Du
 Slug: call-java-using-pyjnius-from-python
 Title: Call Java Using PyJNIus from Python
@@ -14,7 +14,8 @@ It is not meant to readers but rather for convenient reference of the author and
 
 PyJNIus is a simple-to-use Java interface for Python.
 However,
-JPype is more popular.
+[JPype](https://github.com/jpype-project/jpype)
+is a better alternative.
 
 ### Installation
 

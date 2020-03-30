@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-02-10 23:08:38
+Date: 2020-03-30 12:42:22
 Author: Benjamin Du
 Slug: tips-on-pillow
 Title: Tips on Pillow
 Category: Computer Science
-Tags: programming, Pillow, image
+Tags: programming, Pillow, image, mask
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -14,6 +14,10 @@ It is not meant to readers but rather for convenient reference of the author and
 ## PIL.Image.Image.crop
 
 Notice that the bounding box is inclusive/EXCLUSIVE like the `range` function.
+
+## Mask (Image) in Pillow
+
+1. A Mask (image) in Pillow must be a binary image.
 
 ## References
 
