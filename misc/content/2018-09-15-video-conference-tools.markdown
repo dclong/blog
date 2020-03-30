@@ -1,4 +1,3 @@
-UUID: 96b6c988-e5e3-4400-a2ee-4d2d635a503d
 Status: published
 Date: 2018-09-15 15:14:07
 Author: Ben Chuanlong Du
@@ -32,6 +31,11 @@ but rather for convenient reference of the author and future improvement.
 8. Breeze
 
 9.  MeetingBurner (free for 10 attendees)
+
+
+
+UberConference is a good (free for up to 10 callers) but for US only?
+
 
 
 10. GoToMeeting (free for up to 4 people)
@@ -83,3 +87,5 @@ but rather for convenient reference of the author and future improvement.
 http://en.wikipedia.org/wiki/Comparison_of_web_conferencing_software
 
 http://www.d.umn.edu/~hrallis/professional/presentations/cotfsp06/indiv_tools/videoaudio.htm
+
+http://blogs.skype.com/2013/06/18/conference-calling-with-skype-quick-easy-and-cost-effective/

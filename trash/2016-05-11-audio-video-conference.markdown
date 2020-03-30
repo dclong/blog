@@ -13,10 +13,3 @@ fragmentary and immature notes/thoughts of the author.
 It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
-
-You can hold audio/video conferences using Skypes
-<http://blogs.skype.com/2013/06/18/conference-calling-with-skype-quick-easy-and-cost-effective/>
-
-UberConference is a good (free for up to 10 callers) but for US only?
-
-

@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Date: 2015-10-18 15:05:35
 Author: Ben Chuanlong Du
 Slug: vimium-tips
-Title: Vimium Tips
+Title: Navigate Chrome Browser Like a Pro Using Vimium 
 Category: Software
 Tags: software, Chrome, Vimium, Vim, plugin, add-on, addon
 

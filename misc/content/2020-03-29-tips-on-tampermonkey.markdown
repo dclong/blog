@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: tips-on-tampermonkey
 Title: Tips on Tampermonkey
 Category: Computer Science
-Tags: Computer Science
+Tags: Computer Science, Tampermonkey, Greasy Fork, web
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -29,6 +29,8 @@ Accelerate download, support remote download, new upgrade of version 4.0.0.
 ## [JD_Tmall_Taobao_Amazon_Histroy_Price_Coupon](https://greasyfork.org/en/scripts/37901-jd-tmall-taobao-amazon-histroy-price-coupon)
 
 ## [Google select text translator](https://greasyfork.org/en/scripts/36842-google-select-text-translator)
+
+
 
 
 ## References
