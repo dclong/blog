@@ -13,6 +13,16 @@ It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
 
+## JPype
+Please refer to 
+[Call Java Code Using Jpype from Python](http://www.legendu.net/misc/blog/call-java-code-using-jpype-from-python/)
+for details.
+
+## pyjnius
+
+Please refer to 
+[Call Java Using Pyjnius from Python](http://www.legendu.net/misc/blog/call-java-using-pyjnius-from-python/)
+for details.
 
 ## py4j 
 
