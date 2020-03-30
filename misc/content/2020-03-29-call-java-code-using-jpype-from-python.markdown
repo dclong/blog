@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-03-29 23:32:05
+Date: 2020-03-29 23:55:16
 Author: Benjamin Du
 Slug: call-java-code-using-jpype-from-python
-Title: Call Java Code Using Jpype from Python
+Title: Call Java Code Using JPype from Python
 Category: Computer Science
 Tags: Computer Science, JPype1, JPype, Java, JVM, Python
 
@@ -34,3 +34,5 @@ It is the most popular Java interface for Python currently.
 - [jpype-project/jpype](https://github.com/jpype-project/jpype)
 
 - [StartJVM and other upgrading issues with 0.7.0](https://github.com/jpype-project/jpype/issues/498)
+
+- [JPype Quickstart Guide](https://jpype.readthedocs.io/en/latest/quickguide.html#quickstart-guide)
