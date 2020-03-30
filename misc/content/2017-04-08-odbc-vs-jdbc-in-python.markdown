@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-19 01:50:58
+Date: 2020-03-29 22:09:02
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -24,11 +24,14 @@ it is not an easy job to install and configure ODBC drivers for a non-open sourc
 
 ### JDBC Packages in Python
 
-1. `JayDeBeApi` is currently the first choice even thought it is not fully DB-API compliant.
-It works on both Python 2 and Python 3.
+1. `JayDeBeApi` (NOT `JayDeBeApi3`, just ignore it) is currently the first choice 
+    even thought it is not fully DB-API compliant
+    and not actively maintained any more.
 
-2. `py4jdbc` (based on Py4j) is another JDBC package which claims to be faster than `JayDeBeApi` (based on JPype)
-but it is relative young compared to JayDeBeApi.
+2. `py4jdbc` (based on Py4j) is another JDBC package 
+    which claims to be faster than `JayDeBeApi` (based on JPype)
+    but it is relative young compared to JayDeBeApi
+    and is not actively maintained any more.
 
 3. Just ignore the JayDeBeApi3 package (for Python3 only).
 
@@ -39,11 +42,10 @@ but it is relative young compared to JayDeBeApi.
 1. `pyodbc` and `SQLAlchemy` are general purpose packages relying on ODBC.
 
 2. There are lots of database specific packages relying on ODBC.
-For example,
-`teradata` is a Python package for Teradata SQL which relies on ODBC or RESTful.
+    For example,
+    `teradata` is a Python package for Teradata SQL which relies on ODBC or RESTful.
 
 ## Database Modules
-
 
 1. json: JSON parsing.
 
@@ -67,7 +69,6 @@ For example,
 
 
 ## Misc
-
 
 http://docs.python-guide.org/en/latest/scenarios/db/
 
