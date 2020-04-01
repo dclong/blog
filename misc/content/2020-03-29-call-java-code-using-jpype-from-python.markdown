@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-30 12:29:24
+Date: 2020-04-01 14:45:03
 Author: Benjamin Du
 Slug: call-java-code-using-jpype-from-python
 Title: Call Java Code Using JPype from Python
@@ -21,13 +21,18 @@ It is the most popular Java interface for Python currently.
     import jpype.imports
     jpype.addClassPath("/path/to.jar")
     jpype.startJVM()
-    print(jpype.java.lang.System.getProperty('java.class.path'))
+    print(jpype.java.lang.System.getProperty("java.class.path"))
     import ...
     obj = SomeClass(...)
     obj.someMethod(...)
     StaticClass.someMethod(...)
 
 1. `jpype.addClassPath` must be called before starting the JVM.
+    You can use the following statement to check that the correct dependency has been added.
+
+        :::python
+        print(jpype.java.lang.System.getProperty("java.class.path"))
+
 
 ## References
 

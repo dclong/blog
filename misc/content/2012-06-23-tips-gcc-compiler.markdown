@@ -1,10 +1,16 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-03-03 11:00:37
-Slug: tips-gcc-compiler
+Date: 2020-04-01 14:46:42
+Slug: cpp-compiler
 Title: Tips on C++ Compilers
 Category: Computer Science
-Tags: C++, programming, GCC, thread, compiler, link
+Tags: C++, programming, GCC, thread, compiler, link, cpp, clang
+
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
+
 
 ## GCC
 1. User option `-lpthread` to link the thread library when your code use the thread library. 
