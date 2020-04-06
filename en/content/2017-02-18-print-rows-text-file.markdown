@@ -1,11 +1,13 @@
 UUID: c2334373-2554-4d65-9911-5836efc6bd9d
 Status: published
-Date: 2017-11-01 23:51:11
+Date: 2020-04-06 14:36:40
 Author: Ben Chuanlong Du
 Slug: print-rows-from-a-text-file
 Title: Print Rows from a Text File
 Category: OS
 Tags: Linux, shell, command line, head, tail, sed, awk, rows, lines, text manipulation
+
+It is suggested that you **use Python instead of Shell** to manipulate text files!
 
 Please refer to 
 [Advanced Use of "head" and "tail"](http://www.legendu.net/en/blog/advanced-use-head-tail/)

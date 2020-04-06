@@ -18,7 +18,7 @@ Tags: Mathematica, lock, programming, C/C++, cpp, thread, Java, HPC, parallel, R
 ## Python
 
 Please refer to 
-[Concurrency and Parallel Computing in Python](http://www.legendu.net/misc/blog/python-concurrency-parallel-computing/)
+[Concurrency and Parallel Computing in Python](http://www.legendu.net/en/blog/python-concurrency-parallel-computing/)
 for details.
 
 ## [Parallel Computing in Bash](http://www.legendu.net/misc/blog/parallel-computing-in-bash/)
