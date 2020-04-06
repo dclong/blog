@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-05-02 01:07:43
+Date: 2020-04-06 11:26:19
 Author: Ben Chuanlong Du
 Slug: sikuli-tips
-Title: Sikuli Tips
+Title: Use SikuliX to Automate Anything 
 Category: Software
 Tags: software, tips, Sikuli, automation, web
 
@@ -13,14 +13,14 @@ It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
 
-1. Connect Teradata SQL.
-
-2. Print documents (to a specific printer).
-
-3. Navigate to a page in the browser, you can also try Selenium
+1. SikuliX is implemented in Java. 
+    A Python binding was developed but then was paused unfortunately.
+    So, 
+    it is best to work in a JVM language (e.g., Java or Kotlin)
+    if you want to use SikuliX.
 
 ## References
 
-https://github.com/RaiMan/SikuliX1
+[GitHub Repository of SikuliX](https://github.com/RaiMan/SikuliX1)
 
 https://raiman.github.io/SikuliX1/javadocs/index.html

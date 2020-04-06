@@ -1,6 +1,5 @@
-UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-03 10:14:11
+Date: 2020-04-06 11:28:52
 Slug: input-bug-ruby
 Author: Ben Chuanlong Du
 Title: An Input Bug in Ruby

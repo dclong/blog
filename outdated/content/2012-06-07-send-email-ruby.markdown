@@ -1,11 +1,10 @@
-UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Title: Send Email in Ruby
-Date: 2012-06-07 00:00:00
-Tags: smtp, programming, Verizon, PDF, Ruby, email
-Category: Computer Science
-Slug: send-email-ruby
+Date: 2020-04-06 11:28:52
 Author: Ben Chuanlong Du
+Title: Send Email in Ruby
+Slug: send-email-ruby
+Category: Computer Science
+Tags: smtp, programming, Verizon, PDF, Ruby, email
 
 <img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/>
 
