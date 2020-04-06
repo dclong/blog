@@ -11,7 +11,7 @@ Tags: boolean, C++, programming, cpp
     so it is totally OK to write code like 
 
     ```
-    if(a<x.size() && x[a]){
+    if(a < x.size() && x[a]){
         ...
     }
     ```

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 22:09:02
+Date: 2020-04-06 14:44:14
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -32,8 +32,6 @@ it is not an easy job to install and configure ODBC drivers for a non-open sourc
     which claims to be faster than `JayDeBeApi` (based on JPype)
     but it is relative young compared to JayDeBeApi
     and is not actively maintained any more.
-
-3. Just ignore the JayDeBeApi3 package (for Python3 only).
 
 4. PyAthenaJDBC is a JDBC package specifically for Amazon Athena.
 

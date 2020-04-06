@@ -39,7 +39,9 @@ but use it with caution and at your own risk.
 
 1. Remove images without names (with the help of `awk`).
 
-        docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
+    ```Bash
+    docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
+    ```
 
 
 2. Remove images without versions (with the help of `awk`).
