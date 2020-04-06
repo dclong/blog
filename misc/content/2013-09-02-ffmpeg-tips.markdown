@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 21:41:52
+Date: 2020-04-06 15:19:20
 Title: Tips on FFmpeg
 Slug: ffmpeg-tips
 Category: Computer Science
@@ -34,6 +34,11 @@ The command below record screen into a MP4 video named `out.mp4` in macOS.
     :::bash
     ffmpeg -f avfoundation -i "1" -pix_fmt yuv420p -r 25 $(date +%m%d%H%M%S).mp4
 
+## Convert Video Files
+
+Convert a MOV video file to a MP4 video file.
+
+    ffmpeg -i my-video.mov -vcodec h264 -acodec mp2 my-video.mp4
 
 ## References
 
