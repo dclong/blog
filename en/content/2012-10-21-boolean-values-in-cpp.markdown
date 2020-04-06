@@ -9,11 +9,13 @@ Tags: boolean, C++, programming, cpp
 
 1. Boolean expressions are evaluated from left to right (the same in Java),
     so it is totally OK to write code like 
+
     ```c++
     if(a<x.size() && x[a]){
         ...
     }
     ```
+
     where `x` is a vector.
 
 2. There is no `&&=` and `||=` operators in C++,

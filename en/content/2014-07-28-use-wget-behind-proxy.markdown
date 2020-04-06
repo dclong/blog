@@ -1,7 +1,7 @@
 Status: published
 Title: Use wget with Proxy
 Author: Chuanlong (Ben) Du
-Date: 2019-03-07 23:42:48
+Date: 2020-04-06 14:31:55
 Slug: use-wget-behind-proxy
 Category: Software
 Tags: software, download, wget, proxy
@@ -27,8 +27,3 @@ Tags: software, download, wget, proxy
     You have to use the `--no-check-certificate` option
     if you encounter "certificate verification" errors.
     Another way to do this is to set environment variables `http_proxy`, `https_proxy` and `ftp_proxy` etc.
-
-## Question
-
-A HTTP proxy can be used as HTTPS/FTP proxy for wget,
-but can a socks proxy be used as HTTP/HTTPS/FTP proxy for wget?
