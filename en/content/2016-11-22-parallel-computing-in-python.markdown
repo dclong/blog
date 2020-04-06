@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-26 11:14:47
+Date: 2020-04-06 11:41:52
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
@@ -43,10 +43,10 @@ interpreting CPython bytecode, that the GIL becomes a bottleneck.
         and calling it from a separate Python thread (rather than the GUI thread)
         so that it won't freeze your GUI.
         (As a matter of fact, 
-        the strength of Python is to act a s glue-language 
+        the strength of Python is to act a glue-language 
         which binds native code and provide easy to use APIs.)
-    - If multiple CPython threads share data and at least one of them write the data,
-        **you still need to lock the data before writing** (no need to lock if the thread read data only)
+    - If multiple CPython threads share data and at least one of them writes the data,
+        **you still need to lock the data before writing/reading** 
         even if CPython has GIL.
         To avoid slowing down your program,
         **limit locking to the minimum scope**.
