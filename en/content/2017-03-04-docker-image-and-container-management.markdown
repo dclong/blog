@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-06-23 02:38:23
+Date: 2020-04-06 14:53:34
 Author: Ben Chuanlong Du
 Slug: docker-image-and-container-management
 Title: Manage Docker Images and Containers 
@@ -39,14 +39,16 @@ but use it with caution and at your own risk.
 
 1. Remove images without names (with the help of `awk`).
 
-    ```Bash
-    docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
-    ```
+```bash
+docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
+```
 
 
 2. Remove images without versions (with the help of `awk`).
 
-        docker images | awk '{ if ($2 == "<none>") print $3 }' | xargs docker rmi
+    ```bash
+    docker images | awk '{ if ($2 == "<none>") print $3 }' | xargs docker rmi
+    ```
 
 
 3. Remove images without names or versions (with the help of `awk`).
