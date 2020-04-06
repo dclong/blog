@@ -43,7 +43,6 @@ but use it with caution and at your own risk.
 docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
 ```
 
-
 2. Remove images without versions (with the help of `awk`).
 
     ```bash
