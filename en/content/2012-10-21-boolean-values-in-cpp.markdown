@@ -1,12 +1,11 @@
 Status: published
-Date: 2019-11-07 02:56:13
+Date: 2020-04-06 11:46:58
 Slug: boolean-values-in-cpp
 Author: Ben Chuanlong Du
 Title: Boolean Values in C++
 Category: Computer Science
-Tags: boolean, C++, programming
+Tags: boolean, C++, programming, cpp
 
-## Boolean Values
 
 1. Boolean expressions are evaluated from left to right (the same in Java),
     so it is totally OK to write code like 

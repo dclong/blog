@@ -1,13 +1,13 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Use pdftk to Manipulating PDF Files
-Date: 2019-12-29 11:54:53
+Date: 2020-04-06 11:44:58
 Slug: pdftk-examples
 Category: Software
 Tags: pdftk, software, examples, PDF
 
 
-It is suggested that you use Python modules instead of `pdftk` to manipulating PDFs for several reasons.
+It is suggested that you **use Python modules instead of `pdftk`** to manipulating PDFs for several reasons.
 First, 
 even though `pdftk` is a great command-line tool,
 it is hard to remember its syntax.
