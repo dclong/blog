@@ -10,7 +10,7 @@ Tags: boolean, C++, programming, cpp
 1. Boolean expressions are evaluated from left to right (the same in Java),
     so it is totally OK to write code like 
 
-    ```cpp
+    ```
     if(a<x.size() && x[a]){
         ...
     }

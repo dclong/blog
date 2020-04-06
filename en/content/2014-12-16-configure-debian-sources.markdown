@@ -1,17 +1,11 @@
 Status: published
-Date: 2019-03-07 09:27:00
+Date: 2020-04-06 14:39:03
 Author: Ben Chuanlong Du
 Slug: configure-debian-sources
 Title: Configure Debian Apt Source List
 Category: OS
 Tags: operating system, OS, Linux, Debian, apt-get, apt, source list
 
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
-**
 
 [Debian Apt Sources List Generator](http://debgen.simplylinux.ch/)
 
