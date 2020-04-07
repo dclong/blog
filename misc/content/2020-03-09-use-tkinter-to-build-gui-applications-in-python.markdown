@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 20:09:15
+Date: 2020-04-06 17:04:57
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -27,6 +27,18 @@ It is not meant to readers but rather for convenient reference of the author and
         import ...
         root = tk.Tk()
         ...
+
+3. It is suggested that you use the `ttk` module (Tk Themed Widgets) when possible. 
+    It has more advanced and better looking widgets. 
+    However, the `Text` widget is only available in `tk`.
+
+4. It is suggested that you name a widget using the `name` option 
+    when creating it,
+    and use the name to refer to the widget later. 
+    Avoid keeping referencing to widgets by yourself!
+
+        :::python
+        root.nametowidget("name1.name2.name3")
 
 2. A Button object has the option `command` to set a callback function when clicked
     while a Label object does not have this option.

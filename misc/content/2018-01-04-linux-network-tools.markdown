@@ -1,6 +1,6 @@
 UUID: 20d79b02-800d-4c0f-8885-d01be3bb28f2
 Status: published
-Date: 2019-11-20 10:04:05
+Date: 2020-04-06 18:08:56
 Author: Ben Chuanlong Du
 Slug: linux-network-tools
 Title: Linux Network Tools
@@ -45,6 +45,8 @@ tcpdump
 7. LogMeIn (Windows and Mac only)
 
 ## VPN
+
+1. [WireGuard](https://www.wireguard.com/) is a better alternative to OpenVPN.
 0. ExpressVPN
 1. PrivateInternetAccess
 2. LogMeIn Hamachi

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-09 14:49:37
+Date: 2020-04-06 17:06:24
 Author: Benjamin Du
 Slug: tips-on-nlp
 Title: Tips on NLP
@@ -119,6 +119,8 @@ https://github.com/tensorflow/tensor2tensor/blob/master/tensor2tensor/models/tra
 https://github.com/google/seq2seq
 
 [gensim](https://github.com/RaRe-Technologies/gensim)
+
+[GloVe](https://github.com/stanfordnlp/GloVe)
 
 
 ## Data 
