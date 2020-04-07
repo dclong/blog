@@ -1,12 +1,12 @@
 Status: published
-Date: 2020-04-06 14:34:47
+Date: 2020-04-06 18:22:00
 Author: Ben Chuanlong Du
 Slug: advanced-use-head-tail
 Title: Advanced Use of "head" and "tail" 
 Category: OS
 Tags: Linux, shell, command line, head, tail, sed, awk, rows, lines, text manipulation
 
-It is suggested that you **use Python instead of shell** to manipulate text files!!
+It is suggested that you **use Python instead of Shell** to manipulate text files!!
 
 Besides passing an unsigned integer as parameter to the option `-n`, 
 you can also pass a signed integer to it.

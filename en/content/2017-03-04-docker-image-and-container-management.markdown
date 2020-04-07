@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 14:53:34
+Date: 2020-04-06 18:14:13
 Author: Ben Chuanlong Du
 Slug: docker-image-and-container-management
 Title: Manage Docker Images and Containers 
@@ -7,7 +7,8 @@ Category: Software
 Tags: software, Docker, Docker image, container, management, remove
 
 It is suggested that you use [osquery](https://osquery.io/)
-to query Docker images, containers, etc.
+or [dsutil.docker](https://github.com/dclong/dsutil/blob/dev/dsutil/docker.py)
+to manage Docker images, containers, etc.
 
 ## Remove Containers
 
@@ -45,10 +46,9 @@ docker images | awk '{ if ($1 == "<none>") print $3 }' | xargs docker rmi
 
 2. Remove images without versions (with the help of `awk`).
 
-    ```bash
-    docker images | awk '{ if ($2 == "<none>") print $3 }' | xargs docker rmi
-    ```
-
+```bash
+docker images | awk '{ if ($2 == "<none>") print $3 }' | xargs docker rmi
+```
 
 3. Remove images without names or versions (with the help of `awk`).
 
