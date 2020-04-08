@@ -1,5 +1,5 @@
 Status: published
-Date: 2017-12-19 23:34:17
+Date: 2020-04-08 12:00:14
 Author: Ben Chuanlong Du
 Slug: jupyter-notebook-support-in-bitbucket
 Title: Jupyter Notebook Support in Bitbucket
@@ -12,6 +12,8 @@ It works on both publick and private notebooks.
 Follow the steps below to install the addon.
 
 1. Click on your avatar in the lower left corner on your homepage of Bitbucket.
+
+    ![](https://user-images.githubusercontent.com/824507/78822713-64b42300-7990-11ea-9879-cd8cf97cdbbd.png)
 
 2. Select the option `App marketplace`. 
 
