@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-09 17:22:30
+Date: 2020-04-07 21:09:17
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -31,6 +31,24 @@ pylint --disable=R,C some_script.py
 [TYPECHECK]
 ignored-classes=Fysom,MyClass
 ```
+## Make pylint Work with cv2
+
+```
+[MASTER]
+unsafe-load-any-extension=no
+extension-pkg-whitelist=numpy,cv2
+```
+
+Add the following to `settings.json` for Visual Studio Code to work with `cv2`.
+
+    "python.linting.pylintArgs": ["--extension-pkg-whitelist=numpy,cv2"]
+
+https://github.com/PyCQA/pylint/issues/2426
+
+## Examples
+
+https://github.com/kubeflow/examples/blob/master/.pylintrc
+
 ## References
 
 https://stackoverflow.com/questions/31907762/pylint-to-show-only-warnings-and-errors

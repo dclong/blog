@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-09 13:31:07
+Date: 2020-04-07 21:15:50
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Python Module Tips
@@ -26,7 +26,19 @@ from module import pkg_mod_or_fun
 https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-source
 
 
-1. A module is cached in memory when it is loaded into Python.
+1. By default, 
+    the current path of the Python interpreter is in the module search path (i.e., `sys.path`).
+    If the current directory has a Python script 
+    with the same name as a built-in model, 
+    it might causes issues. 
+    A simple way to fix the issue is to remove the empty path 
+    (represent the current working directory)
+    from `sys.path`.
+
+        import sys
+        sys.path.remove("")
+
+2. A module is cached in memory when it is loaded into Python.
     Changes to the module after loading of the module will not take effect
 	unless the module is reloaded.
 	A module can be reloaded using `importlib.reload(module)` In Python3.
