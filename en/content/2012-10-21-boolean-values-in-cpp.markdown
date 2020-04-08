@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 14:26:52
+Date: 2020-04-07 21:56:02
 Slug: boolean-values-in-cpp
 Author: Ben Chuanlong Du
 Title: Boolean Values in C++
@@ -10,11 +10,9 @@ Tags: boolean, C++, programming, cpp
 1. Boolean expressions are evaluated from left to right (the same in Java),
     so it is totally OK to write code like 
 
-    ```
-    if(a < x.size() && x[a]){
-        ...
-    }
-    ```
+        if(a < x.size() && x[a]){
+            ...
+        }
 
     where `x` is a vector.
 
