@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 12:24:20
+Date: 2020-04-08 16:47:58
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -17,9 +17,35 @@ summarizes good/bad/ugly things about Rust.
 
 Cargo: package manager for Rust
 
+    cargo init
+    cargo new project_name
+    cargo run
+    cargo build
+    cargo build --release
+
 rustup: version manager for Rust
 
 rustc: compiler for Rust
+
+1. Rust uses the underscore name convention.
+
+2. A variable is immutable by default.
+    You can make it mutable using the keyword `mut`.
+
+    let mut x = 1;
+
+    There is also a keyword `cconst` in rust. 
+    The difference between `const` and `let` is that 
+    you must explicitly specify the type of the variable when defining it using `const`.
+    `const` is seldom used in Rust.
+
+3. Use `::` to access members in a module and enum object.
+
+4. Use the keyword `use` to import a library.
+    use the keyword `mod` to import local modules.
+
+5. '&' vs `&mut`
+
 **
 ## Rust IDE
 
