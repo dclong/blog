@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 16:47:58
+Date: 2020-04-08 16:54:02
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -45,6 +45,8 @@ rustc: compiler for Rust
     use the keyword `mod` to import local modules.
 
 5. '&' vs `&mut`
+
+6. `assert_eq!`
 
 **
 ## Rust IDE

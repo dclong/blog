@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-23 12:05:25
+Date: 2020-04-08 16:57:03
 Author: Ben Chuanlong Du
 Slug: gradle-tips
 Title: General Tips for Gradle
@@ -39,6 +39,11 @@ And gradle can be upgraded using the following command.
     brew upgrade gradle
 
 ## Tricks and Traps
+
+1. You can set the default logging level to debugging by adding the following line 
+    into the file `gradle.properties` under the root directory of the project.
+
+        org.gradle.logging.level=debug
 
 1. It is recommended that you use the gradle wrapper `gradlew` to compile the project.
     You don't have to use the `task` subcommand 
