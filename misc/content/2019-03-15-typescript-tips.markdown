@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-03-15 17:52:54
+Date: 2020-04-08 11:47:35
 Author: Benjamin Du
 Slug: typescript-tips
-Title: Typescript Tips
+Title: Tips on Typescript
 Category: Computer Science
 Tags: programming, TypeScript, tips
 
@@ -12,3 +12,5 @@ It is not meant to readers but rather for convenient reference of the author and
 **
 
 https://code.visualstudio.com/docs/languages/typescript
+
+[Forget NodeJS! Build native TypeScript applications with Deno](https://deepu.tech/deno-runtime-for-typescript/)

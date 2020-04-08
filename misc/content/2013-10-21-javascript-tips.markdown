@@ -1,8 +1,8 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Tips for JavaScript
-Date: 2019-03-14 23:47:42
+Title: Tips on JavaScript
+Date: 2020-04-08 11:47:35
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
