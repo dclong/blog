@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-24 18:54:14
+Date: 2020-04-07 17:07:38
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -16,6 +16,12 @@ but rather for convenient reference of the author and future improvement.
 
 ## Tricks & Traps 
 
+
+1. If you run a shell command, 
+    it is suggested that you always prefix it with `!` 
+    (even though it is not required sometimes),
+    the reason is that pipe will fail to work without the prefixing `!`.
+    
 1. Both shell commands prefixed with `!` (e.g., `!ls`) and line magics (e.g., `%ls`) 
     can be mixed with Python code in IPython!!
     This makes things very convenient sometimes.
