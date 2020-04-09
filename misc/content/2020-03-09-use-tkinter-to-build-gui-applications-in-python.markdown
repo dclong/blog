@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 17:04:57
+Date: 2020-04-09 10:49:57
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -170,6 +170,14 @@ Set minimum size of rows and columns of the grid.
         root.grid_rowconfigure(row, minsize=20)
 
 https://stackoverflow.com/questions/28019402/tkinter-grid-spacing-options
+
+## Bind Keys
+
+https://effbot.org/tkinterbook/tkinter-events-and-bindings.htm
+
+Keyboard events are sent to the focused widget.
+
+    widget.bind("<Key>", callback_func)
 
 ## Tutorials
 

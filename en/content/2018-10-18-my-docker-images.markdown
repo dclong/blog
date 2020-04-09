@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-28 10:24:13
+Date: 2020-04-09 10:56:22
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -245,7 +245,7 @@ the default password (same as the user name) is used.
 Install and configure PySpark for use with the Python kernel.
 
     :::bash
-    xinstall spark -ic && xinstall pyspark -ic
+    sudo xinstall spark -ic && xinstall pyspark -ic
 
 Install the evcxr Rust kernel.
 
@@ -288,7 +288,7 @@ you need to install Spark and the Python package `pyspark` first,
 which can be achieved using the following command.
 
     :::bash
-    xinstall --sudo spark -ic  
+    sudo xinstall spark -ic  
     xinstall pyspark -ic
 
 Follow the steps below to use PySpark after it is installed.
@@ -407,7 +407,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
         - [dclong/jupyter](https://hub.docker.com/r/dclong/jupyter/)  
 
-             > Jupyter Notebook: 6.0.2  
+             > Jupyter Notebook: 6.0.3  
 
             - [dclong/jupyter-nodejs](https://hub.docker.com/r/dclong/jupyter-nodejs/)  
 
@@ -419,11 +419,11 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
-                     > JupyterLab: 1.2.3
+                     > JupyterLab: 1.2.7
 
                     - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
 
-                         > JupyterHub: 1.0.0  
+                         > JupyterHub: 1.1.0  
 
                         - [dclong/jupyterhub-ts](https://hub.docker.com/r/dclong/jupyterhub-ts/)  
 
@@ -460,6 +460,12 @@ you can connect to the desktop environment in the Docker container using NoMachi
                                     > SQL (based on JDBC) via BeakerX 1.4.1  
                                     > Scala 2.11.12 via BeakerX 1.4.1  
                                     > Java 8, Clojure, Groovy, Kotlin via BeakerX 1.4.1  
+
+                                - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
+
+                                    > Almond 0.9.1 + Scala 2.12.10
+                                    > Kotlin
+                                    > Rust
 
                                     - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
 
