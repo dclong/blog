@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-09-19 03:14:06
+Date: 2020-04-08 17:44:37
 Author: Ben Chuanlong Du
 Slug: dashboard-solutions
 Title: Dashboard Solutions
@@ -17,6 +17,8 @@ but rather for convenient reference of the author and future improvement.
 
 A high-level app and dashboarding solution for Python. 
 Notice that panel does not support ipywidgets currently.
+
+## [StreamLit](https://github.com/streamlit/streamlit)
 
 ## [QuantStack/voila](https://github.com/QuantStack/voila)
 
