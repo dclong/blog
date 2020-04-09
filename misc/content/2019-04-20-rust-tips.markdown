@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 16:54:02
+Date: 2020-04-08 17:00:39
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -81,6 +81,7 @@ sounds like a good one.
 ## Rust Frameworks
 
 https://blog.logrocket.com/the-best-rust-frameworks-to-check-out-in-2019/
+
 ## Cool Rust Projects
 
 https://github.com/rajasekarv/native_spark
@@ -88,3 +89,7 @@ https://github.com/rajasekarv/native_spark
 https://github.com/andygrove/ballista
 
 https://github.com/weld-project/weld
+
+## Tutorials
+
+[Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
