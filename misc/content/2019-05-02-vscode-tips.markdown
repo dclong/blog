@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 16:56:03
+Date: 2020-04-08 17:32:53
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -29,6 +29,8 @@ is available.
 [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
 [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+[Extensions for VS Code Compatible Editors](https://open-vsx.org/)
 
 ## Fix the Caps Lock Mapping to Escape Issue
 
