@@ -75,11 +75,13 @@ It is not meant to readers but rather for convenient reference of the author and
 3. To make a label visible no matter there are text/image in it or not,
     you can set a border to it.
 
-    label = tk.Label(root, bd=1)
+        :::python
+        label = tk.Label(root, bd=1)
 
     You can ke it even more visible by giving a sunken effect.
 
-    label = tk.Label(root, bd=1, relief=tk.SUNKEN)
+        :::python
+        label = tk.Label(root, bd=1, relief=tk.SUNKEN)
 
 4. A Frame object has its own grid.
     This makes frames and grid the best combinations to manage the layout of your GUI application.
@@ -103,58 +105,6 @@ It is not meant to readers but rather for convenient reference of the author and
     and it seems to me that it does not accept `PIL.Image`.
 
 
-### Change the Text of a Label 
-
-After creating a Label (whose text has already been set),
-there are 3 different approaches that you can change its text.
-
-    label["text"] = "new text for the label"
-
-    label.config(text="new text for the label")
-
-The way is more complicated 
-and it requires that the a text variable is specified 
-when the label is created.
-
-    import tkinter as tk
-    var_text = tk.StringVar()
-    label = Label(root, textvariable=var_text)
-    label.pac()
-    var_text = "new text for the label"
-
-Notice that if you have set `textvariable`
-when creating a label,
-you cannot use the first 2 approaches to update its text.
-Instead,
-you must update the StringVar to update the text of the label.
-
-Generally speaking, 
-the 2nd way (using the method `Label.config`) is preferred.
-
-### Change the Image of a Label
-
-After creating a Label (whose image has already been set),
-there are 2 ways you can change its image.
-
-    label["image"] = some_photo_image_obj
-
-
-    label.config(image=some_photo_image_obj)
-
-Unlike the text of a Label object, 
-there is no `imagevariable` option for a Label.
-
-## Label 
-
-If you don’t specify a size, the label is made just large enough to hold its contents. You can also use the height and width options to explicitly set the size. If you display text in the label, these options define the size of the label in text units. If you display bitmaps or images instead, they define the size in pixels (or other screen units). See the Button description for an example how to specify the size in pixels also for text labels.
-
-## Checkbutton (CheckBox)
-
-1. It seems to me that the `Checkbutton.bind` doesn't work.
-    However, 
-    specifying a callback function using the `command` option 
-    when creating a Checkbutton still work.
-
 ### Size of Widgets
 
 https://stackoverflow.com/questions/17398926/how-to-set-a-widgets-size-in-tkinter/17399180
@@ -163,6 +113,7 @@ https://stackoverflow.com/questions/17398926/how-to-set-a-widgets-size-in-tkinte
 
 Set minimum size of rows and columns of the grid.
 
+    :::python
     col_count, row_count = root.grid_size()
     for col in xrange(col_count):
         root.grid_columnconfigure(col, minsize=20)
@@ -177,6 +128,7 @@ https://effbot.org/tkinterbook/tkinter-events-and-bindings.htm
 
 Keyboard events are sent to the focused widget.
 
+    :::python
     widget.bind("<Key>", callback_func)
 
 ## Tutorials
@@ -185,14 +137,12 @@ https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
 
 ## References
 
-http://stupidpythonideas.blogspot.com/2013/10/why-your-gui-app-freezes.html
-
-https://www.reddit.com/r/Python/comments/7rp4xj/threading_a_tkinter_gui_is_hell_my_least_favorite/
-
 https://docs.python.org/3/library/tkinter.html
 
 https://docs.python.org/3/library/tk.html
 
 http://effbot.org/tkinterbook/
 
-https://docs.python.org/3/library/tkinter.ttk.html#label-options
+http://stupidpythonideas.blogspot.com/2013/10/why-your-gui-app-freezes.html
+
+https://www.reddit.com/r/Python/comments/7rp4xj/threading_a_tkinter_gui_is_hell_my_least_favorite/

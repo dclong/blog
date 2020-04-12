@@ -1,0 +1,23 @@
+Status: published
+Date: 2020-04-12 09:48:16
+Author: Benjamin Du
+Slug: the-entry-widget-in-tkinter
+Title: the Entry Widget in Tkinter
+Category: Computer Science
+Tags: Computer Science, Python, programming, Tkinter, GUI, Entry
+
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
+
+
+1. `ttk.Entry` is preferred over `tk.Entry`.
+
+2. `ttk.Entry`/`tk.Entry` does not have a `set` method to set the text directly.
+    Instead,
+    you have to first delete the text and then insert text into it.
+
+        :::python
+        entry.delete(0, tk.END)
+        entry.insert(0, text)
