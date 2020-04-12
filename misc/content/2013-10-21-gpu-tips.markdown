@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips for GPU Computing
-Date: 2020-02-27 14:08:07
+Date: 2020-04-12 13:51:20
 Slug: gpu-tips
 Category: Computer Science
 Tags: tips, GPU, programming
@@ -114,6 +114,8 @@ https://www.laptopmag.com/articles/best-egpus
 
 
 ## References
+
+[Nvidia CUDA Linux Repositories](https://developer.download.nvidia.com/compute/cuda/repos/)
 
 https://bheisler.github.io/post/state-of-gpgpu-in-rust/
 

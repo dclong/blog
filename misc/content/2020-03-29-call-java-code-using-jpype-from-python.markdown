@@ -33,6 +33,11 @@ It is the most popular Java interface for Python currently.
         :::python
         print(jpype.java.lang.System.getProperty("java.class.path"))
 
+## Passing Arguments Between Java and Python
+
+https://stackoverflow.com/questions/13637614/jpype-passing-args-to-java
+
+https://jpype.readthedocs.io/en/latest/quickguide.html#primitives
 
 ## References
 
