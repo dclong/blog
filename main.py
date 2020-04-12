@@ -153,7 +153,7 @@ def reload(blogger, args):
 
 
 def add(blogger, args):
-    file = blogger.add_post(" ".join(args.title), args.sub_dir)
+    file = blogger.add_post(" ".join(args.title), args.sub_dir, notebook=args.notebook)
     args.indexes = None
     args.files = file
     edit(blogger, args)
@@ -689,6 +689,13 @@ def _subparse_add(subparsers):
         action="store_const",
         const=CN,
         help="Create a post in the cn sub blog directory.")
+    subparser_add.add_argument(
+        "-m",
+        "--markdown",
+        dest="notebook",
+        action="store_false",
+        default=True,
+        help="Create a MarkDown (default Notebook) post.")
     subparser_add.add_argument(
         "title", nargs="+", help="Title of the post to be created.")
     subparser_add.set_defaults(func=add)

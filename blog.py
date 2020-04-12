@@ -90,7 +90,7 @@ class Post:
         """
         if self.path.suffix == MARKDOWN:
             return self._update_time_markdown()
-        return self._update_time_ipynb()
+        return self._update_time_notebook()
 
     def _update_time_markdown(self) -> str:
         # TODO: put the time into the databse as well
@@ -101,7 +101,7 @@ class Post:
             fout.writelines(lines)
         return NOW_DASH
 
-    def _update_time_ipynb(self) -> str:
+    def _update_time_notebook(self) -> str:
         notebook = self._read_notebook()
         self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
         self.path.write_text(json.dumps(notebook, indent=1))
@@ -125,7 +125,7 @@ class Post:
         """
         if self.path.suffix == MARKDOWN:
             return self._update_category_markdown(category)
-        return self._update_category_ipynb(category)
+        return self._update_category_notebook(category)
 
     def _update_category_markdown(self, category: str) -> str:
         """Change the category of the specified post to the specified category.
@@ -150,7 +150,7 @@ class Post:
             raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
         return notebook
 
-    def _update_category_ipynb(self, category: str) -> str:
+    def _update_category_notebook(self, category: str) -> str:
         notebook = self._read_notebook()
         self.update_meta_field(notebook["cells"][0]["source"], "- Category", category)
         self.path.write_text(json.dumps(notebook, indent=1))
@@ -179,7 +179,7 @@ class Post:
     def record(self):
         if self.path.suffix == MARKDOWN:
             return self._parse_markdown()
-        return self._parse_ipynb()
+        return self._parse_notebook()
 
     def _parse_markdown(self) -> List[str]:
         with self.path.open() as fin:
@@ -233,7 +233,7 @@ class Post:
             name_title_mismatch,
         ]
 
-    def _parse_ipynb(self) -> List[str]:
+    def _parse_notebook(self) -> List[str]:
         content = self.path.read_text()
         cells = json.loads(content)["cells"]
         empty = 1 if len(cells) <= 1 else 0
@@ -353,9 +353,9 @@ class Post:
         """
         if self.path.suffix == MARKDOWN:
             return self._title_markdown()
-        return self._title_ipynb()
+        return self._title_notebook()
 
-    def _title_ipynb(self):
+    def _title_notebook(self):
         # TODO: dedup the code 
         content = self.path.read_text()
         cell = json.loads(content)["cells"][0]
@@ -385,6 +385,21 @@ class Post:
         return title.replace(" ", "-").replace("/", "-")
 
     def create(self, title: str):
+        if self.path.suffix == "MARKDOWN":
+            return self._create_markdown(title)
+        return self._create_notebook(title)
+
+    def _create_notebook(self, title: str):
+        text = (BASE_DIR / "themes/template.ipynb").read_text()
+        text = text.replace("${TITLE}", Post.format_title(title)) \
+            .replace("${SLUG}", Post.slug(title)) \
+            .replace("${DATE}", NOW_DASH)
+        with self.path.open("w") as fout:
+            fout.write(text)
+            if self.blog_dir() == MISC:
+                pass
+
+    def _create_markdown(self, title: str):
         with self.path.open("w") as fout:
             fout.writelines("Status: published\n")
             fout.writelines(f"Date: {NOW_DASH}\n")
@@ -585,9 +600,24 @@ class Blogger:
             post.update_time()
             self._load_post(post)
 
-    def add_post(self, title: str, dir_: str) -> str:
+    def add_post(self, title: str, dir_: str, notebook: bool = True) -> str:
         """Add a new post with the given title.
         """
+        if notebook:
+            return self._add_post_notebook(title, dir_)
+        return self._add_post_markdown(title, dir_)
+
+    def _add_post_notebook(self, title: str, dir_: str):
+        file = self.find_post(title, dir_)
+        if not file:
+            file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.ipynb"
+            post = Post(file)
+            post.create(title)
+            self._load_post(post)
+        print(f"\nThe following post is added.\n{file}\n")
+        return file
+
+    def _add_post_markdown(self, title: str, dir_: str):
         file = self.find_post(title, dir_)
         if not file:
             file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.markdown"
@@ -606,7 +636,7 @@ class Blogger:
         # find all posts and get rid of leading dates
         sql = "SELECT path FROM posts WHERE path LIKE ? AND dir = ?"
         row = self.execute(
-            sql, [f"%{Post.slug(title)}.markdown", dir_]).fetchone()
+            sql, [f"%{Post.slug(title)}.%", dir_]).fetchone()
         if row:
             return row[0]
         return ""
