@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-03-11 22:34:44
+Date: 2020-04-12 11:54:46
 Author: Ben Chuanlong Du
 Slug: pybuilder-tips
-Title: PyBuilder Tips
+Title: Tips on PyBuilder
 Category: Computer Science
 Tags: programming, PyBuilder, Python, project management
 
@@ -12,6 +12,9 @@ fragmentary and immature notes/thoughts of the author.
 It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
+
+[Poetry](https://github.com/python-poetry/poetry)
+is a better alternative than PyBuilder!
 
 ## Jump Start a Python 3 Project Using pybuilder
 

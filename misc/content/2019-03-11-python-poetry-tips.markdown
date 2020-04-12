@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-17 11:26:15
+Date: 2020-04-12 11:54:46
 Author: Benjamin Du
 Slug: python-poetry-tips
-Title: Python Poetry Tips
+Title: Manage Your Python Project USING Poetry
 Category: Computer Science
 Tags: programming, Python, poetry, build tool, dependency management
 

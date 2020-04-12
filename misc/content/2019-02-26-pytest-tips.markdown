@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-03-22 23:59:23
+Date: 2020-04-12 11:54:46
 Author: Benjamin Du
 Slug: pytest-tips
-Title: PyTest Tips
+Title: Write Unit Tests Using PyTest in Python
 Category: Computer Science
 Tags: programming, Python, PyTest, fixtures, plugins
 
@@ -16,6 +16,16 @@ You can run test cases in a specific test file (e.g., `test_file.py`)
 using the command `pytest test_file.py`.
 You can run a specific test (e.g., `test_func`) 
 in a test file (e.g., `test_func`) using `pytest test_file.py -k test_func`.
+
+## Tags
+
+[@pytest.mark.skipif](http://doc.pytest.org/en/latest/reference.html#pytest-mark-skipif)
+
+http://doc.pytest.org/en/latest/reference.html#pytest-mark-skip-ref
+
+http://doc.pytest.org/en/latest/skipping.html
+
+https://stackoverflow.com/questions/38442897/how-do-i-disable-a-test-using-py-test
 
 
 ## Plugins
