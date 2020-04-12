@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 14:41:23
+Date: 2020-04-12 12:06:29
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch
@@ -10,6 +10,14 @@ Tags: programming
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
+
+1. It is suggested that you use use method `.to` to move a model/tensor to a specific device.
+
+        :::python
+        model.to("cuda")
+        tensor.to("cpu")
+
+    Notice that the method `.to` is in-place.
 
 ## Function for Managing Device
 
