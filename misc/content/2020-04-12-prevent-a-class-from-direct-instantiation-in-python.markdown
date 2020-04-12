@@ -1,0 +1,22 @@
+Status: published
+Date: 2020-04-12 10:03:08
+Author: Benjamin Du
+Slug: prevent-a-class-from-direct-instantiation-in-python
+Title: Prevent a Class from Direct Instantiation in Python
+Category: Computer Science
+Tags: Computer Science, Python, class, instantiation, __new__, ABC, abstract base class
+
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
+
+
+## Inherit the class `abc.ABC`
+
+## Define a Customized `__new__` Method
+
+
+## Reference
+
+[Preventing a class from direct instantiation in Python](https://stackoverflow.com/questions/7989042/preventing-a-class-from-direct-instantiation-in-python)
