@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Title: Teradata SQL Tips
+Date: 2020-04-12 21:52:47
 Author: Ben Chuanlong Du
-Date: 2019-10-22 01:13:47
+Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
 Category: Computer Science
-Tags: programming, tips, Teradata SQL
+Tags: programming, tips, Teradata SQL, database
 
 **
 Things on this page are
@@ -21,14 +20,6 @@ but rather for convenient reference of the author and future improvement.
 
 ## Performance Tips
 
-1. if performance is an issue, avoid using sub queries, use temp tables instead ...
-
-2. When you create a table by selecting records from another table,
-    it is best to specify a primary index
-    even if the original table has primary indexes.
-    The reason is that the data you've selected might not have the same distribution as the original data.
-    Specifying a good primary index not only improve the performance of queries
-    but can also reduces the percentage of wasted spaces.
 
 ## Trick and Trap
 
