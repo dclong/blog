@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 00:18:43
+Date: 2020-04-13 12:03:38
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -87,6 +87,11 @@ https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 
         :::bash
         pip3 install 'pyarrow>=0.14.0'
+
+4. Install a Python package with a version in a range.
+
+        :::bash
+        pip3 install "jupyterlab>=1.2.7,<2.0.0"
 
 4. You can install the pre-release version of a package using the `--pre` option.
     For example, 
@@ -232,3 +237,5 @@ https://stackoverflow.com/questions/14149422/using-pip-behind-a-proxy
 https://stackoverflow.com/questions/9510474/removing-pips-cache
 
 https://stackoverflow.com/questions/36898474/how-to-install-a-module-for-all-users-with-pip-on-linux
+
+[How to pip install a package with min and max version range?](https://stackoverflow.com/questions/8795617/how-to-pip-install-a-package-with-min-and-max-version-range)
