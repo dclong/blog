@@ -1,25 +1,26 @@
 Status: published
-Date: 2020-04-12 11:54:46
+Date: 2020-04-12 21:56:27
 Author: Benjamin Du
 Slug: python-poetry-tips
-Title: Manage Your Python Project USING Poetry
+Title: Manage Your Python Project Using Poetry
 Category: Computer Science
 Tags: programming, Python, poetry, build tool, dependency management
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 It is not meant to readers but rather for convenient reference of the author and future improvement.
+**
 
 
 [Poetry Documentation](https://poetry.eustace.io/docs/)
 
 ## Usage
 
-:::bash
-poetry new proj
+    :::bash
+    poetry new proj
 
-:::bash
-poetry init
+    :::bash
+    poetry init
 
 ## Updating poetry
 

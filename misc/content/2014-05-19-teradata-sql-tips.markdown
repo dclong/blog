@@ -20,6 +20,7 @@ but rather for convenient reference of the author and future improvement.
 
 ## Performance Tips
 
+http://www.legendu.net/misc/blog/sql-tips/#performance
 
 ## Trick and Trap
 

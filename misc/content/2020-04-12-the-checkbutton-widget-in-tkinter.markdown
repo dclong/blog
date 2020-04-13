@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-04-12 09:46:15
+Date: 2020-04-12 21:57:28
 Author: Benjamin Du
 Slug: the-checkbutton-widget-in-tkinter
-Title: the Checkbutton Widget in Tkinter
+Title: The Checkbutton Widget in Tkinter
 Category: Computer Science
 Tags: Computer Science, Python, programming, Tkinter, GUI, Checkbutton
 

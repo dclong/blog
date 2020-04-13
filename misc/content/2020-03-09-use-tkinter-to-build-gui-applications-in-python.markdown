@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-09 10:49:57
+Date: 2020-04-12 22:00:12
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
@@ -136,6 +136,12 @@ Keyboard events are sent to the focused widget.
 https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
 
 ## References
+
+[The Checkbutton Widget in Tkinter](http://www.legendu.net/misc/blog/the-checkbutton-widget-in-tkinter/)
+
+[The Entry Widget in Tkinter](http://www.legendu.net/misc/blog/the-entry-widget-in-tkinter/)
+
+[The Label Widget in Tkinter](http://www.legendu.net/misc/blog/tkinter-label-tips/)
 
 https://docs.python.org/3/library/tkinter.html
 

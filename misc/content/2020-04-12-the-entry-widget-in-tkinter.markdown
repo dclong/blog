@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-04-12 09:48:16
+Date: 2020-04-12 21:56:51
 Author: Benjamin Du
 Slug: the-entry-widget-in-tkinter
-Title: the Entry Widget in Tkinter
+Title: The Entry Widget in Tkinter
 Category: Computer Science
 Tags: Computer Science, Python, programming, Tkinter, GUI, Entry
 
