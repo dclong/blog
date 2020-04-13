@@ -1,9 +1,8 @@
-UUID: b7fd5c97-ad5b-4da7-b972-eb3ed4c952df
 Status: published
-Date: 2018-05-27 15:52:15
+Date: 2020-04-12 22:02:34
 Author: Ben Chuanlong Du
 Slug: tips-for-teradata-sql-assistant
-Title: Tips for Teradata SQL Assistant
+Title: Tips on Teradata SQL Assistant
 Category: Software
 Tags: software, Teradata SQL Assistant, Teradata SQL, IDE
 

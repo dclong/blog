@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-04-12 21:52:47
-Title: Geneeral Tips on SQL
+Date: 2020-04-12 22:02:34
+Title: General Tips on SQL
 Slug: sql-tips
 Category: Computer Science
 Tags: programming, SQL, tips, IDE, sqldep, queryscope, queryViz, eralchemy, database

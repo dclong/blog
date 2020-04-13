@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-24 09:24:52
+Date: 2020-04-12 22:02:34
 Author: Ben Chuanlong Du
 Slug: beakerx-tips
-Title: BeakerX Tips
+Title: The BeakerX JupyterLab Kernel
 Category: Software
 Tags: software, BeakerX, JupyterLab, Maven
 
