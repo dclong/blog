@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-21 11:35:32
+Date: 2020-04-13 10:11:33
 Author: Benjamin Du
 Slug: vscode-for-jvm-languages
 Title: Virtual Studio Code for Java Development
@@ -29,8 +29,6 @@ https://github.com/redhat-developer/vscode-java/wiki/Lombok-support
 ### Extensions 
 
 - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-
-- [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
 
 - [Lombok Annotations Support for VS Code](https://marketplace.visualstudio.com/items?itemName=GabrielBB.vscode-lombok)
 
