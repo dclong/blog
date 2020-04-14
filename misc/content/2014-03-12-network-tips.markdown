@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-02-29 17:10:27
+Date: 2020-04-13 22:14:36
 Slug: network-tips
 Title: Tips on Network
 Category: Internet
@@ -10,7 +10,21 @@ Tags: internet, web, network, tips
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 It is not meant to readers but rather for convenient reference of the author and future improvement.
 **
- 
+
+
+## Improve Network Speed
+
+[软路由让你的翻墙速度快十倍！LEDE软路由v2ray对比梅林固件(v2ray/LEDE/谷歌云)](https://www.youtube.com/watch?v=WqSCkr8DuRI)
+
+https://zhuanlan.zhihu.com/p/129139369
+
+https://www.zhihu.com/question/332524152
+
+[一个U盘优盘就翻墙 免费拥有VPN翻墙路由器的两种方法 Openwrt/LEDE软路由U盘优盘的制作 ButterflyVPN评测](https://www.youtube.com/watch?v=FeRgNwa0eOA)
+
+## VPN/Proxy
+
+https://www.youtube.com/watch?v=F6yh4b7ML5g
 
 ## General Tips
 

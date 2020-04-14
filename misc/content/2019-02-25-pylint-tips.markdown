@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-07 21:09:17
+Date: 2020-04-13 22:34:03
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -41,7 +41,7 @@ extension-pkg-whitelist=numpy,cv2
 
 Add the following to `settings.json` for Visual Studio Code to work with `cv2`.
 
-    "python.linting.pylintArgs": ["--extension-pkg-whitelist=numpy,cv2"]
+    "python.linting.pylintArgs": ["--extension-pkg-whitelist=numpy,cv2", "--generated-members=cv2.*"]
 
 https://github.com/PyCQA/pylint/issues/2426
 
