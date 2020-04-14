@@ -32,7 +32,7 @@
     ["Pyqt", "PyQt"], ["Tmux", "tmux"], ["Uuid", "UUID"], ["Wget", "wget"], 
     ["Yapf", "yapf"], ["Yaml", "YAML"],
     ["Anbox", "AnBox"], ["Gnome", "GNOME"], 
-    ["Latex", "LaTeX"], ["Mllib", "MLlib"], ["Mysql", "MySQL"],
+    ["Latex", "LaTeX"], ["Mllib", "MLlib"], ["Mysql", "MySQL"], ["Macos", "macOS"],
     ["Pyenv", "pyenv"], ["Pyqt5", "PyQt5"], ["Rjava", "rJava"], ["Xmind", "XMind"], 
     ["Aerofs", "AeroFS"], ["Btsync", "BTSync"], ["Centos", "CentOS"], 
     ["Etrade", "eTrade"], ["Ffmpeg", "FFmpeg"], ["Github", "GitHub"],
