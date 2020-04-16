@@ -1,17 +1,10 @@
 Status: published
-Date: 2020-04-06 11:41:52
+Date: 2020-04-16 12:09:38
 Author: Ben Chuanlong Du
 Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
 Category: Computer Science
 Tags: programming, Python, parallel computing, multithreading, multiprocess, HPC, high performance computing
-
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
-**
 
 
 The GIL is controversial because it prevents multithreaded CPython programs 

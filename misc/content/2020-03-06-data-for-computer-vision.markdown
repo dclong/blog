@@ -20,7 +20,7 @@ https://www.nist.gov/
 
 ## [ImageNet](http://www.image-net.org/)
 
-https://gist.github.com/dclong/8537ea044cb5b44a33582927ddfc4c73
+[Mapping Between Class and Ids](https://gist.github.com/dclong/8537ea044cb5b44a33582927ddfc4c73)
 
 ## References
 
