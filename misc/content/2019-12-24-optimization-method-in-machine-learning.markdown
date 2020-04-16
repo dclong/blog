@@ -8,7 +8,7 @@ Tags: AI, machine learning, data science, optimization algorithms, ADAM, SGD, mo
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 L-BFGS converges faster and with better solutions on small datasets. 

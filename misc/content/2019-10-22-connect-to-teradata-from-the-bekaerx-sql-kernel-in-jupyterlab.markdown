@@ -8,7 +8,7 @@ Tags: programming, Jupyter, JupyterLab, SQL, BeakerX
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 You can run the following magics in a cell to connect to Teradata from a BeakerX SQL kernel.

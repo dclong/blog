@@ -8,7 +8,7 @@ Tags: AI, data science, machine learning, deep learning, number precision, float
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 https://www.mathworks.com/company/newsletters/articles/what-is-int8-quantization-and-why-is-it-popular-for-deep-neural-networks.html

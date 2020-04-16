@@ -8,7 +8,7 @@ Tags: programming, PySpark, Python, conda, conda-pack, dependency
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 [Usage with Apache Spark on YARN](https://conda.github.io/conda-pack/spark.html)

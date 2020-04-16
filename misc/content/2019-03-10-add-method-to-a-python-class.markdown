@@ -8,7 +8,7 @@ Tags: programming, Python, reflection, method, class
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 https://www.ianlewis.org/en/dynamically-adding-method-classes-or-class-instanc

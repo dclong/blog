@@ -8,7 +8,7 @@ Tags: programming, Spark, issue, duplicate, overwrite
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 There seems to be an issue in Spark that it might fail to overwrite files even if mode of `spark.write` is set to be "overwrite".

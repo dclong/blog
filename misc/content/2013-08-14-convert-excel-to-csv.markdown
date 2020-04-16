@@ -7,7 +7,7 @@ Category: Software
 Slug: convert-excel-to-csv
 Author: Ben Chuanlong Du
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 1. xls2csv
 -f allow to parse also the lines with empty cell in first column xls2csv

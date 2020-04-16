@@ -7,7 +7,7 @@ Category: AI
 Slug: regression-classification-anova
 Author: Ben Chuanlong Du
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 Regression refers to problems where the response (output) variable is continous
 while classfication refers to problems where the response (output) variable is discrete.

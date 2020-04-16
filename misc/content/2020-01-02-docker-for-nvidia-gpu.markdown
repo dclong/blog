@@ -8,7 +8,7 @@ Tags: software, Docker, GPU, Nvidia
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. You can use the command `watch nvidia-smi` or `nvtop` to check the usage of GPU.

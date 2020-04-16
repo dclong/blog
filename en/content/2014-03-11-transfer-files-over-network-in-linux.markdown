@@ -1,16 +1,12 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-07-13 22:42:20
+Date: 2020-04-16 14:12:32
 Slug: transfer-files-over-network-in-linux
 Title: Transfer Files over Network in Linux
 Category: Internet
 Tags: internet, Linux, network, web, transfer, file system, nfs, SSH
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
-**
- 
+
 ## Comparison of Network Drives (Remote File System)
 
 1. NFS is very fast but not secure and it is for Unix/Linux only. 

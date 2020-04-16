@@ -8,7 +8,7 @@ Tags: programming, Java, formatting, code style, EditorConfig, IntelliJ IDEA
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 [Google Java Format](https://github.com/google/google-java-format)

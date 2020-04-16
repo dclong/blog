@@ -8,7 +8,7 @@ Tags: internet, web, Baidu Yun, cloud, tips, Tampermonkey, Greasy Fork
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
  
 1. Baidu cloud is a good backup solution but not a good synchronization solution.

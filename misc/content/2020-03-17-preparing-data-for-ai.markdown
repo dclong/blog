@@ -4,14 +4,15 @@ Author: Benjamin Du
 Slug: preparing-data-for-ai
 Title: Preparing Data for AI
 Category: Computer Science
-Tags: Computer Science
+Tags: Computer Science, data science, AI, machine learning, deep learning, data labeling, crowdsourcing
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 
+## General Tips
 
 1. When you label individual images,
     it is better to use numerical labels 
@@ -21,15 +22,30 @@ It is not meant to readers but rather for convenient reference of the author and
 
 2. If you have no labeled data to start at all,
     do NOT hurry to jumping into labeling yet. 
-    Develop a simple rule based algorithm to help you label your data first if feasible.
-    After you have some lable data, 
-    you can then start to build a model and then leverage it for labeling new data. 
-    Iterate this process a few times, 
-    you will then collect enough data for modeling.
-    If the an intermediate model is not that accurate at labeling new data,
-    leverage the prediction of probabilities to divide labeling of new data into high/mid/low confidence groups. 
-    This might help you reduce some human judgement time.
+    Check the article
+    [Label Image Data Quickly Without Crowdsourcing](http://www.legendu.net/misc/blog/label-image-data-quickly-without-crowdsourcing/)
+    to see whether you can use any of the tips to ease the work of human labeling.
 
 
+## Free Labeling Tools 
+
+[LabelMe](http://labelme2.csail.mit.edu/Release3.0/index.php?message=1)
+provides an online annotation tool to build image databases for computer vision research. 
+
+
+
+## Commercial Labeling Tools/Platforms
+
+Appen
+
+CrowdFlower
+
+https://www.alegion.com/
+
+[Baidu Crowd Outsourcing](https://zhongbao.baidu.com/mark/home/index)
+
+
+
+## References
 
 [Labeling Data for AI](http://www.legendu.net/misc/blog/labeling-data-for-ai/)

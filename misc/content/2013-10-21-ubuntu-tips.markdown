@@ -9,7 +9,7 @@ Tags: tips, Ubuntu, Linux, OS
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
  
 [How to solve boot problems with Ubuntu after kernel upgrade](http://www.dedoimedo.com/computers/ubuntu-initrd-bug.html)

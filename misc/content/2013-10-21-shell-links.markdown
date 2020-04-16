@@ -7,7 +7,7 @@ Slug: shell-links
 Category: Software
 Tags: links
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 - [你可能不知道的Shell](http://coolshell.cn/articles/8619.html)
 - [28个Unix/Linux的命令行神器](http://coolshell.cn/articles/7829.html)

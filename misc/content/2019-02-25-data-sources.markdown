@@ -8,7 +8,7 @@ Tags: AI, machine learning, data, resource
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 ## Data Platforms
@@ -52,7 +52,8 @@ Labelled Faces in the Wild 13,000 collated and labeled images of human faces, fo
 Microsoft Marco Microsoft’s open machine learning datasets for training systems in reading comprehension and question answering.
 Machine Learning Dataset Repository Collection of open datasets contributed by data scientists involved in machine learning projects.
 eBay Market Data Insights Data on millions of online sales and auctions from eBay
-Natural History Museum Data Portal Information on nearly 4 million historical specimens in the London museum’s collection, as well as scientific sound recordings of the natural world.
+Natural History Museum Data Portal Information on nearly 4 million historical specimens in the London museum’s collection, 
+as well as scientific sound recordings of the natural world.
 CERN Open Data More than one petabyte of data from particle physics experiments carried out by CERN.
 One Million Audio Cover Images Dataset hosted at archive.org covering music released around the world, for use in image processing research
 Complete Public Reddit Comments Corpus Over one billion public comments posted to Reddit between 2007 and 2015, for training language algorithms

@@ -8,7 +8,7 @@ Tags: database, big data, data quality, data check, data profiling
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 - Upper and lower bounds tests and Inter Quartile Range Checks(IQR) and standard deviations

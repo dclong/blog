@@ -8,7 +8,7 @@ Tags: programming, Spark, issue, big data
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 15/12/29 17:22:27 ERROR yarn.ApplicationMaster: User class threw exception: org.apache.hadoop.mapred.InvalidInputException: Input path does not exist.

@@ -8,28 +8,7 @@ Tags: AI, data science, machine learning, deep learning, data, labeling, crowd o
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
-When you label individual images,
-it is better to use numerical labels 
-(even though text labels are easier to understand)
-so that you can avoid mapping between numbers (use for training)
-and text labels (for human understanding) all the time.
 
-## Free 
-
-[LabelMe](http://labelme2.csail.mit.edu/Release3.0/index.php?message=1)
-provides an online annotation tool to build image databases for computer vision research. 
-
-
-
-## Commercial 
-
-Appen
-
-CrowdFlower
-
-https://www.alegion.com/
-
-[Baidu Crowd Outsourcing](https://zhongbao.baidu.com/mark/home/index)
