@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-05 17:11:01
+Date: 2020-04-16 14:34:57
 Author: Benjamin Du
 Slug: make-your-model-training-reproducible-in-pytorch
 Title: Make Your Model Training Reproducible in PyTorch
@@ -22,10 +22,13 @@ you need the following code.
     np.random.seed(args.seed)
     random.seed(args.seed)
 
-Notice that `torch.manual_seed` set seeds of RNGs on all devices.
-There is no need to make additional calls of `torch.cuda.manual_seed`.
+Notice that `torch.manual_seed` set seeds of RNGs on all devices (both CPU and GPUs).
+There is no need to make additional calls of `torch.cuda.manual_seed`
+or `torch.manual_seed_all`.
 
 ## References
+
+[REPRODUCIBILITY](https://pytorch.org/docs/stable/notes/randomness.html)
 
 [torch.manual_seed](https://pytorch.org/docs/stable/torch.html#torch.manual_seed)
 
