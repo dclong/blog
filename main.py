@@ -11,10 +11,9 @@ try:
 except ImportError:
     sp.run("python3 -m pip install --user pelican", shell=True, check=True)
     import pelican
+import utils
 from blog import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
-EDITOR = "code"
-VIM = "nvim" if shutil.which("nvim") else "vim"
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
 
@@ -82,9 +81,6 @@ def edit(blogger, args):
     if args.indexes:
         args.files = blogger.path(args.indexes)
     if args.files:
-        # todo: best to unify the it or make a feature request to shutil.which
-        if args.editor != "gp open" and not shutil.which(args.editor):
-            args.editor = VIM
         blogger.edit(args.files, args.editor)
     else:
         print("No post is specified for editing!\n")
@@ -659,21 +655,27 @@ def _subparse_add(subparsers):
     subparser_add = subparsers.add_parser(
         "add", aliases=["a"], help="Add a new post.")
     subparser_add.add_argument(
+        "-v",
+        "--vim",
+        dest="editor",
+        action="store_const",
+        const=utils.VIM,
+        default=utils.get_editor(),
+        help="Edit the post using Vim.")
+    subparser_add.add_argument(
         "-g",
         "--gp-open",
         dest="editor",
         action="store_const",
         const="gp open",
-        default=EDITOR,
-        help="Edit the post using Vim.")
+        help="Edit the post using the GitPod editor.")
     subparser_add.add_argument(
-        "-v",
-        "--vim",
+        "--code",
+        "--vscode",
         dest="editor",
         action="store_const",
-        const=VIM,
-        default=EDITOR,
-        help="Edit the post using Vim.")
+        const="code",
+        help="Edit the post using VSCode.")
     subparser_add.add_argument(
         "-e",
         "--en",
