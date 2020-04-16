@@ -8,7 +8,7 @@ Tags: Software, Kubernetes, k8s, minikube, kubectl
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 https://www.youtube.com/watch?v=ZpbXSdzp_vo

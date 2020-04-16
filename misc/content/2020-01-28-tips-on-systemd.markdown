@@ -8,7 +8,7 @@ Tags: OS, Linux, systemd, service
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. run systemctl to list services managed by systemd.

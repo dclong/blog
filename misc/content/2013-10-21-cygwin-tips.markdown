@@ -9,7 +9,7 @@ Tags: tips, software, Cygwin
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 http://x.cygwin.com/docs/faq/cygwin-x-faq.html

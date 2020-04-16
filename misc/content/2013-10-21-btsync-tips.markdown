@@ -9,7 +9,7 @@ Tags: tips, BitTorrent Sync, BTSync, cloud, synchronization
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
  
 1. BitTorrent Sync does not synchronize files that you do not have the right permissions.

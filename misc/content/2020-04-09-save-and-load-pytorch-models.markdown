@@ -8,7 +8,7 @@ Tags: Computer Science, deep learning, data science, machine learning, PyTorch, 
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. PyTorch uses pickle to serialize and deserialize objects.

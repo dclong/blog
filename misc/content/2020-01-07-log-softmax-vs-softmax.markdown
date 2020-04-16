@@ -8,7 +8,7 @@ Tags: AI, data science, machine learning, Softmax, Log Softmax
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 The difference betwen Log Softmax and Softmax should be understood together with the loss function.

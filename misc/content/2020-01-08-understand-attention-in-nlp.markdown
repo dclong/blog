@@ -8,7 +8,7 @@ Tags: AI, data science, machine learning, NLP, attention
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 http://www.wildml.com/2016/01/attention-and-memory-in-deep-learning-and-nlp/

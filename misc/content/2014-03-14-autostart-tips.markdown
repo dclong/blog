@@ -7,7 +7,7 @@ Slug: autostart-tips
 Category: OS
 Tags: Linux, autostart, desktop environment, KDE, Xfce
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 
 1. Autostart files create by Xfce4 might not be recognized by KDE.

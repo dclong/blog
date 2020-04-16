@@ -6,7 +6,7 @@ Title: English Writing
 Category: Life
 Tags: English, writing, language
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 [Wikipedia:Manual of Style/Text formatting](http://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Text_formatting)
 

@@ -8,7 +8,7 @@ Tags: programming, SQL, Spark, Spark SQL, PostgreSQL, TableSample
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 The limit clause (or the method `DataFrame.limit` if you are using Spark)

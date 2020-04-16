@@ -7,7 +7,7 @@ Title: Quick Application Search in Linux Desktop
 Category: OS
 Tags: os, operating system, Linux, desktop, tips    
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 
 

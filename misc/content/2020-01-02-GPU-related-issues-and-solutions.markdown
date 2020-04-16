@@ -8,7 +8,7 @@ Tags: programming, GPU, issues, solutions
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 ## ptxas application ptx input, line 9; fatal   : Unsupported .version 6.5; current version is '6.4'

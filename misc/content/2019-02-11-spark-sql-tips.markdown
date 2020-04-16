@@ -8,7 +8,7 @@ Tags: programming, big data, Spark, Spark SQL
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 [Spark SQL Guide](https://docs.databricks.com/spark/latest/spark-sql/index.html)

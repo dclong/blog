@@ -7,7 +7,7 @@ Title: Touchpad Tips
 Category: Software
 Tags: Linux, software, touchpad, hardware
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 1. touchpad.ntwt together with the disable tap while typing checkbox make things not work
 use only 1 of them, 

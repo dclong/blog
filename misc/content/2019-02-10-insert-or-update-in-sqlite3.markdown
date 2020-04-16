@@ -8,7 +8,7 @@ Tags: programming, SQLite3, upsert, insert or replace, insert or update
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 **Note: UPSERT does not with virtual table in SQLite3 currently!**

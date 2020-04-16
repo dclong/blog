@@ -7,7 +7,7 @@ Tags: QQ, 软件, 虚拟机, QQ旋风
 Slug: qq-xuanfeng
 Author: Ben Chuanlong Du
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 1. QQ和QQ旋风在Virtualbox虚拟机下都能正常工作。
 

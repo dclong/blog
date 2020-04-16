@@ -9,7 +9,7 @@ Tags: questions, Firefox, web browser, internet
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
  
 1. firefox-bin uses too much cpu, why? which plugin causes the problem? 

@@ -8,7 +8,7 @@ Tags: OS, macOS, mount, NTFS, external drive, ExFAT
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 First use `diskutil list` to list all avaiable disks and identifiy the external hard drive to mount.

@@ -9,7 +9,7 @@ Tags: tips, wicd, network, Linux
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
-It is not meant to readers but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
  
 1. By defualt wicd doesn't know the name of wireless card, wicd preference, wireless name, and then wicd is able to find wireless networks ...

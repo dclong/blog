@@ -7,7 +7,7 @@ Slug: mathematica-tips
 Category: Computer Science
 Tags: tips, programming, Mathematica, Wolfram
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. It is not meant to readers but rather for convenient reference of the author and future improvement.**
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
 1. Drawing tools, 
     under a plot, click more, click drawing tools ...
