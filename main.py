@@ -717,15 +717,13 @@ def _subparse_edit(subparsers):
         dest="editor",
         action="store_const",
         const="gp open",
-        default=EDITOR,
         help="Edit the post using Theia's built-in editor.")
     subparser_edit.add_argument(
         "-v",
         "--vim",
         dest="editor",
         action="store_const",
-        const=VIM,
-        default=EDITOR,
+        const=utils.VIM,
         help="Edit the post using Vim.")
     subparser_edit.add_argument(
         "-f", "--files", dest="files", help="Path of the post to be edited.")
