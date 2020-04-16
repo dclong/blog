@@ -14,6 +14,7 @@ except ImportError:
 import utils
 from blog import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
+EDITOR = utils.get_editor()
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
 
@@ -660,7 +661,7 @@ def _subparse_add(subparsers):
         dest="editor",
         action="store_const",
         const=utils.VIM,
-        default=utils.get_editor(),
+        default=EDITOR,
         help="Edit the post using Vim.")
     subparser_add.add_argument(
         "-g",
@@ -712,18 +713,28 @@ def _subparse_edit(subparsers):
         type=int,
         help="Row IDs in the search results.")
     subparser_edit.add_argument(
+        "--code",
+        "--vscode",
+        dest="editor",
+        action="store_const",
+        const="code",
+        default=EDITOR,
+        help="Edit the post using VSCode.")
+    subparser_edit.add_argument(
         "-g",
         "--gp-open",
         dest="editor",
         action="store_const",
         const="gp open",
-        help="Edit the post using Theia's built-in editor.")
+        default=EDITOR,
+        help="Edit the post using the GitPod editor.")
     subparser_edit.add_argument(
         "-v",
         "--vim",
         dest="editor",
         action="store_const",
         const=utils.VIM,
+        default=EDITOR,
         help="Edit the post using Vim.")
     subparser_edit.add_argument(
         "-f", "--files", dest="files", help="Path of the post to be edited.")
