@@ -21,6 +21,10 @@ It is not meant to readers but rather for convenient reference of the author and
 
 2. If you have no labeled data to start at all,
     do NOT hurry to jumping into labeling yet. 
+    There are a few approaches can help save you time on labeling.
+        - Get a pretrained model and run it on your unlabled data. Pick
+
+        
     Develop a simple rule based algorithm to help you label your data first if feasible.
     After you have some lable data, 
     you can then start to build a model and then leverage it for labeling new data. 
@@ -29,6 +33,7 @@ It is not meant to readers but rather for convenient reference of the author and
     If the an intermediate model is not that accurate at labeling new data,
     leverage the prediction of probabilities to divide labeling of new data into high/mid/low confidence groups. 
     This might help you reduce some human judgement time.
+    
 
 
 
