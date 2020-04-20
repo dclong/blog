@@ -1,15 +1,26 @@
 Status: published
-Date: 2020-04-12 12:06:29
+Date: 2020-04-20 08:52:01
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch
 Category: Computer Science
-Tags: programming
+Tags: programming, AI, machine learning, data science, deep learning, PyTorch, device, CUDA, CPU
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+0. Modules can hold parameters of different types on different devices, 
+    so it's not always possible to unambiguously determine the device.
+    The recommended workflow in PyTorch is to create the device object separately and use that everywhere. 
+    However,
+    if you know that all the parameters in a model are on the same device, 
+    you can use `next(model.parameters()).device` to get the device.
+    In that situation,
+    you can also use `next(model.parameters()).is_cuda` 
+    to check if the model is on CUDA.
+
 
 1. It is suggested that you use use method `.to` to move a model/tensor to a specific device.
 
@@ -18,6 +29,8 @@ Please read with your own judgement!
         tensor.to("cpu")
 
     Notice that the method `.to` is in-place.
+
+
 
 ## Function for Managing Device
 
@@ -93,3 +106,14 @@ https://pytorch.org/docs/stable/distributed.html
 ## References
 
 [torch.cuda](https://pytorch.org/docs/stable/cuda.html#module-torch.cuda)
+
+
+[Which device is model / tensor stored on?](https://discuss.pytorch.org/t/which-device-is-model-tensor-stored-on/4908)
+
+[How to get the device type of a pytorch module conveniently?](https://stackoverflow.com/questions/58926054/how-to-get-the-device-type-of-a-pytorch-module-conveniently)
+
+[[Feature Request] nn.Module should also get a `device` attribute #7460](https://github.com/pytorch/pytorch/issues/7460)
+
+[.device property on layers #12135](https://github.com/pytorch/pytorch/issues/12135)
+
+[Which device is model / tensor stored on?](https://discuss.pytorch.org/t/which-device-is-model-tensor-stored-on/4908)

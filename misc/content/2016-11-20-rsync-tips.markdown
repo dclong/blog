@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-07-08 23:21:31
+Date: 2020-04-20 08:17:02
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
@@ -13,17 +13,15 @@ It is not meant to readers
 but rather for convenient reference of the author and future improvement.
 **
 
-## Tricks & Traps
+## Tips and Traps
 
-The command `rsync -avh src_dir des_dir` synchronizes the whole directory `src_dir` 
-into the destination directory `des_dir`
-while `rsync -avh src_dir/ des_dir` synchronizes the contents 
-(sub-files and sub-directories) of `src_dir`
-into the destination directory `des_dir`.
+The command `rsync -avh src_dir des_dir` (`src_dir` has no trailing slash) 
+synchronizes the whole directory `src_dir` into the destination directory `des_dir`
+while `rsync -avh src_dir/ des_dir` (`src_dir/` has trailing slash) 
+synchronizes the contents (sub-files and sub-directories) of `src_dir` into the destination directory `des_dir`.
 However, 
 one thing tricky is that `rsync -avh . des_dir` synchronizes the content 
-(sub-files and sub-directories) of the current directory 
-into the destination directory `des_dir`.
+(sub-files and sub-directories) of the current directory into the destination directory `des_dir`.
 This is especially tricky if you programmally get the source directory that you want to synchronize.
 Here are a few good practices to follow.
 
@@ -47,7 +45,7 @@ Here are a few good practices to follow.
 
 4. Sync one directory to another one. 
     ```Bash
-    rsync -avh --progress --exclude=‘*.pyc’ --exclude=‘.Trash-*’ --exclude=‘lost+found’ --delete $tiger:/workdir/ /workdir/
+    rsync -avh --info=progress2 --exclude=‘*.pyc’ --exclude=‘.Trash-*’ --exclude=‘lost+found’ --delete $tiger:/workdir/ /workdir/
     ```
 
 5. An example script for synchronizing a Java project directory.
@@ -57,7 +55,7 @@ Here are a few good practices to follow.
         dir=$(dirname $(dirname "$0"))
 
         rsync -avh \
-            --progress \
+            --info=progress2 \
             --delete \
             --exclude=.git/ \
             --exclude=target/ \
@@ -86,7 +84,7 @@ Here are a few good practices to follow.
 - v: increase verbosity
 - --numeric-ds: don't map uid/gid values by user/group name
 - --delete: delete extraneous files from dest dirs (differential clean-up during sync)
-- --progress: show progress during transfer
+- --info=progress2: show progress during transfer
 
 ## Some Options of `ssh`
 
@@ -97,11 +95,11 @@ Here are a few good practices to follow.
 
 Example of copying files from local to a remote server using rsync and ssh with optimal speed.
 ```sh
-rsync -aHAXxv --numeric-ids --delete --progress -e "ssh -T -c arcfour -o Compression=no -x" user@remote_host:source_dir dest_dir
+rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" user@remote_host:source_dir dest_dir
 ```
 Example of copying files from a remote server to local using rsync and ssh with optimal speed.
 ```sh
-rsync -aHAXxv --numeric-ids --delete --progress -e "ssh -T -c arcfour -o Compression=no -x" source_dir user@remote_host:dest_dir]
+rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" source_dir user@remote_host:dest_dir]
 ```
 
 
