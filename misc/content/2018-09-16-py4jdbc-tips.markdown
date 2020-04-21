@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-12 20:33:56
+Date: 2020-04-21 12:51:38
 Author: Ben Chuanlong Du
 Slug: py4jdbc-tips
 Title: py4jdbc Tips
