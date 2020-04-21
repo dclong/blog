@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-20 08:17:02
+Date: 2020-04-21 13:19:02
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
