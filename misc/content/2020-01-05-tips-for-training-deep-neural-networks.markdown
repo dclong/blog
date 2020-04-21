@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-03 11:02:27
+Date: 2020-04-21 13:44:37
 Author: Benjamin Du
 Slug: training-deep-neural-networks
 Title: Training Deep Neural Networks
@@ -20,6 +20,14 @@ https://towardsdatascience.com/17-rules-of-thumb-for-building-a-neural-network-9
 https://hackernoon.com/rules-of-thumb-for-deep-learning-5a3b6d4b0138
 
 https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
+
+Batch size affects both the training/test speed and accuracy. 
+A large batch size can speed up training but might reduce the accuracy. 
+Generally speaking, 
+try 64, 128, 256.
+A too large batch size might also causes CPU/CUDA memory issues. 
+For testing, 
+you can use as large a batch size as possible as long as it does not run into memory issues. 
 
 ## Terminology
 

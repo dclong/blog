@@ -47,3 +47,12 @@ so the stack trace does not show where it was requested.)
 ## Make Sure that PyTorch is Using GPU
 
 https://discuss.pytorch.org/t/solved-make-sure-that-pytorch-using-gpu-to-compute/4870
+
+## GPU vs CPU Performance 
+
+My personal experience sees a speed up of 3 - 30 using a single GeForce GTX 1080 GPU vs CPU. 
+Generally speaking,
+the more complicated your neural network is, 
+the more speed up you get. 
+Also be careful about IO bound when you train simple neural networks in Docker (which is what most people do)
+as Docker seems to have issues with a multiprocessing (`num_workers > 0`) DataLoader. 
