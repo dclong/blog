@@ -10,8 +10,7 @@ Tags: programming, Scala, Java, date, time, java.time, Joda time
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 Use Joda time if you are using JDK <= 7

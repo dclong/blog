@@ -10,8 +10,7 @@ Tags: fun problems, expected time, hitting time, discrete uniform distribution
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 Let DU(0, n) be the discrete uniform distribution on 0, 1, ..., n-1.

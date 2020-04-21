@@ -9,8 +9,7 @@ Tags: software, Docker, image, build, create
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. The `COPY` command copies a file or directory to the Docker image to be built.

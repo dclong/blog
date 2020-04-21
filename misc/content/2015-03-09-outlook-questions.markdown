@@ -10,8 +10,7 @@ Tags: software, questions, Outlook, email, client
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. how to search in all emails? It seems pretty straight forward in old versions of outlook, 

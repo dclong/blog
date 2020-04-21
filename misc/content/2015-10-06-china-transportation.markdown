@@ -9,8 +9,7 @@ Tags: commute, 中国, 交通, 公共, 生活, transportation, China, public, li
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. 能乘坐火车就尽量乘坐火车, 公路客运相比缺点实在是太多了.

@@ -10,8 +10,7 @@ Tags: life, airline, China Eastern Airlines, 中国东方航空
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 [中国东方航空(China Eastern Airlines)座位预定系统] (http://www.ceair.com/server/asr.html)

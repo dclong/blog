@@ -9,8 +9,7 @@ Tags: life, sports, tennis, racket braiding, tip
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 DICK'S Sporting Goods Store  (can do tennis racket braiding)

@@ -10,8 +10,7 @@ Tags: software, Outlook, distribution list, contact, email client
 **
 Things on this page are
 fragmentary and immature notes and thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 You can follow the steps below to create a distribution list in Outlook 2010.

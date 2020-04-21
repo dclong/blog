@@ -10,8 +10,7 @@ Tags: Life, tips, Shanghai, city, China, traffic, commute, bus, train, metro, su
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 - [浦东新区人力资源和社会保障局](http://www.pudong.gov.cn/website/html/pdrbj/portal/index/index.htm)

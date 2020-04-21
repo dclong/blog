@@ -9,8 +9,7 @@ Tags: macOS, Apple, shortcuts, GUI
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 [Table of keyboard shortcuts](https://en.wikipedia.org/wiki/Windows_shortcuts)

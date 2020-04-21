@@ -10,8 +10,7 @@ Tags: software, Zim, notes taking
 **
 Things on this page are
 fragmentary and immature notes and thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. is it possible to set font color in Zim?

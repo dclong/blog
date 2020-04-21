@@ -10,8 +10,7 @@ Tags: Linux, package management, issue, apt, dpkg
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 Error message: The package hl1440lpr needs to be reinstalled, but I can't find an archive for it.

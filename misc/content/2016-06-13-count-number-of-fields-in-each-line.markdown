@@ -10,8 +10,7 @@ Tags: programming, data manipulation, R, awk, number, field, text file
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 Do not assume that structured text file are always in correct format.

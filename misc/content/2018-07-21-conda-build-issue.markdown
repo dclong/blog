@@ -9,8 +9,7 @@ Tags: programming, Anaconda, Python, conda build, sqlalchemy-teradata, conda
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 I encountered an issue building the package

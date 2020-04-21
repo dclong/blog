@@ -10,8 +10,7 @@ Tags: software, unison, sync, two-way, synchronization, backup, 2-way, tips
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 https://incumbent.org/post/unison-sync-and-launchd/
