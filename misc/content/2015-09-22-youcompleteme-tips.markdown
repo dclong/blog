@@ -10,8 +10,7 @@ Tags: software, YouCompleteMe, YCM, Vim, plugin, addon, editor, tips
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. You might need the package `python-dev` (in Debian Series) 

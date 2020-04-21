@@ -10,8 +10,7 @@ Tags: software, visualization, Docker, Docker image, brunelvis, Kibana
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 ## [brunelvis/notebook-minimal](https://hub.docker.com/r/brunelvis/notebook-minimal/)

@@ -10,8 +10,7 @@ Tags: software, PDF, document, viewer, Okular
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. you must hold the ctrl key in order to click and drag pop-up notes

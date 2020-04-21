@@ -10,8 +10,7 @@ Tags: Linux, scp, rsync, pictures, image, photo, media, Android
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 You have to have a SSH server installed on the Android phone.

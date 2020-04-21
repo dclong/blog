@@ -9,8 +9,7 @@ Tags: Linux, SAMBA, remote file system, file sharing
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 SAMBA File System is a great way to share files among computers in local network (e.g., office or home).

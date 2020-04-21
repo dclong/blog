@@ -10,8 +10,7 @@ Tags: statistics, Bayesian, frequentist, large sample-based, likelihood, asympto
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. 很多frequentist的inference是基于大样本（近似）理论的，这种情况下样本小的时候Bayesian结论可能会更好。

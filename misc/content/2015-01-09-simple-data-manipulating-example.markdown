@@ -10,8 +10,7 @@ Tags: programming, SAS, IML, R, CRAN, example
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 Suppose there is a data `s` in SAS containing a variable `x`.

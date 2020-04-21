@@ -9,8 +9,7 @@ Tags: programming, visualization, Python, HoloViews, bokeh, plotly, matplotlib, 
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 The website [The Python Graph Gallery](https://python-graph-gallery.com/)

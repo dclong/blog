@@ -10,8 +10,7 @@ Tags: software, mobile, apps
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 https://techwiser.com/5-apps-to-remote-control-android-phone-from-pc-usb-and-wifi/

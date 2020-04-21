@@ -9,8 +9,7 @@ Tags: Linux, KDE, desktop environment, shortcuts
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 1. KDE supports the Win/Super key to bring up the application launcher now.

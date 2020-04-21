@@ -9,8 +9,7 @@ Tags: Java, macOS, Homebrew, JDK, mac
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Please read with your own judgement!
 **
 
 OpenJDK 8 can be installed on Mac using the following commands.
