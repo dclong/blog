@@ -33,23 +33,27 @@ Here are a few good practices to follow.
 
 1. Disable strickt host key checking. 
 
+        :::bash
         rsync -e "ssh -o StrictHostKeyChecking=no" ...
 
 2. Use a different port (rather than 22).
 
+        :::bash
         rsync -e "ssh -p 323" ...
 
 3. Copy specified patterns (e.g., JupyterLab notebooks) only.
 
+        :::bash
         rsync -avh --include='*.ipynb' --include='*/' --exclude='*' --delete src_dir/ des_dir/
 
 4. Sync one directory to another one. 
-    ```Bash
-    rsync -avh --info=progress2 --exclude=‘*.pyc’ --exclude=‘.Trash-*’ --exclude=‘lost+found’ --delete $tiger:/workdir/ /workdir/
-    ```
+
+        :::bash
+        rsync -avh --info=progress2 --exclude=‘*.pyc’ --exclude=‘.Trash-*’ --exclude=‘lost+found’ --delete $tiger:/workdir/ /workdir/
 
 5. An example script for synchronizing a Java project directory.
 
+        :::bash
         #!/usr/bin/env bash
 
         dir=$(dirname $(dirname "$0"))
@@ -94,13 +98,14 @@ Here are a few good practices to follow.
 - x: turn off X forwarding if it is on by default.
 
 Example of copying files from local to a remote server using rsync and ssh with optimal speed.
-```sh
-rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" user@remote_host:source_dir dest_dir
-```
+
+    :::bash
+    rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" user@remote_host:source_dir dest_dir
+
 Example of copying files from a remote server to local using rsync and ssh with optimal speed.
-```sh
-rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" source_dir user@remote_host:dest_dir]
-```
+
+    :::bash
+    rsync -aHAXxv --numeric-ids --delete --info=progress2 -e "ssh -T -c arcfour -o Compression=no -x" source_dir user@remote_host:dest_dir]
 
 
 
