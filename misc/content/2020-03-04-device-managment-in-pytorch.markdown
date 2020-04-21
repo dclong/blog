@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-20 08:52:01
+Date: 2020-04-21 11:51:30
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch
@@ -26,11 +26,9 @@ Please read with your own judgement!
 
         :::python
         model.to("cuda")
-        tensor.to("cpu")
+        tensor = tensor.to("cpu")
 
-    Notice that the method `.to` is in-place.
-
-
+    Notice that **`Module.to` is in-place while `Tensor.to` returns a copy**!
 
 ## Function for Managing Device
 
