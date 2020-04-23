@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-21 10:42:19
+Date: 2020-04-23 08:20:54
 Author: Benjamin Du
 Slug: packaging-python-dependencies-for-pyspark-using-pex
 Title: Packaging Python Dependencies for PySpark Using Pex
@@ -9,6 +9,7 @@ Tags: programming, PySpark, Python, dependency, packaging, pex
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
+**
 
 
 ## General Tips on Using pex with PySpark
