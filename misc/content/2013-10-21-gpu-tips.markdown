@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips for GPU Computing
-Date: 2020-04-12 13:51:20
+Date: 2020-04-24 14:05:21
 Slug: gpu-tips
 Category: Computer Science
 Tags: tips, GPU, programming
@@ -77,14 +77,11 @@ Please read with your own judgement!
 
     OpenCL for Rust.
 
-### Python
-- [pyculib](https://github.com/numba/pyculib)
+### GPU Computing in Python
 
-- [cupy](https://github.com/cupy/cupy)
-
-- [jax](https://github.com/google/jax)
-
-- [cuml](https://github.com/rapidsai/cuml)
+Please refer to 
+[GPU Computing in Python](http://www.legendu.net/misc/gpu-computing-in-python)
+for more details.
 
 https://weeraman.com/put-that-gpu-to-good-use-with-python-e5a437168c01
 
