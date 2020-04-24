@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 13:51:20
+Date: 2020-04-23 23:55:01
 Author: Benjamin Du
 Slug: docker-for-nvidia-gpu
 Title: Docker for Nvidia GPU
@@ -96,6 +96,8 @@ https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/
 ## References
 
 [Nvidia CUDA Linux Repositories](https://developer.download.nvidia.com/compute/cuda/repos/)
+
+[How to install CUDA on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/how-to-install-cuda-on-ubuntu-20-04-focal-fossa-linux)
 
 https://github.com/NVIDIA/nvidia-docker
 

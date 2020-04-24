@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 10:46:18
+Date: 2020-04-24 00:53:24
 Author: Benjamin Du
 Slug: tips-on-lxd
 Title: Tips on LXD
@@ -52,3 +52,5 @@ https://github.com/lxc/lxd
 https://github.com/lxc/lxd/issues/4015
 
 https://lxdhub.xyz/remote/images/images
+
+[NVidia CUDA inside a LXD container](https://ubuntu.com/blog/nvidia-cuda-inside-a-lxd-container)
