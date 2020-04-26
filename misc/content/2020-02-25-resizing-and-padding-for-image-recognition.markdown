@@ -11,7 +11,8 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-1. The best way to deal with different sized images is to downscale them to match dimensions from the smallest image available.
+1. The best way to deal with different sized images 
+    is to downscale them to match dimensions from the smallest image available.
 
 ## References
 

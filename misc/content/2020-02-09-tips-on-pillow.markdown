@@ -19,6 +19,11 @@ Notice that the bounding box is inclusive/EXCLUSIVE like the `range` function.
 
 1. `img.resize(img.size)` returns a new copy and the new copy is not necessarily the same as the original one.
 
+2. `Image.resize` might return different results in different versions of Pillow.
+    To ensure that you get the same result,
+    make sure to have the same version of Pillow,
+    and best to use a Docker environment to ensure identical environment.
+
 ## Mask (Image) in Pillow
 
 1. A Mask (image) in Pillow must be a binary image.

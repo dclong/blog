@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-25 17:31:43
+Date: 2020-04-26 12:35:53
 Author: Benjamin Du
 Slug: tips-on-opencv
 Title: Tips on OpenCV
@@ -29,6 +29,13 @@ you can install OpenCV for Python with the following single command.
 ## Examples
 
 [Extract Images from Video Using OpenCV in Python](http://www.legendu.net/misc/blog/python-opencv-video-to-image/)
+
+## General Tips
+
+1. `cv2.imread` returns a numpy ndarray in Python.
+    This is different from `PIL.Image.Image.open` which returns a Pillow Image.
+    `cv2.imread` can be more efficient if you want to manipulate the underlying data of image
+    as you do not have to convert between the underlying data and image objects.
 
 ## References
 
