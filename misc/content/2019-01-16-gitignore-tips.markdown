@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-14 12:32:51
+Date: 2020-04-26 12:48:04
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
@@ -36,6 +36,7 @@ venv/
 target/
 dist/
 *.egg-info/
+*.prof
 ```
 
 ## Gitignore Example for Java
