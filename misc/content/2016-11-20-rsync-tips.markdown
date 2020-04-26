@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-21 13:19:02
+Date: 2020-04-26 15:36:44
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
@@ -14,19 +14,24 @@ Please read with your own judgement!
 
 ## Tips and Traps
 
-The command `rsync -avh src_dir des_dir` (`src_dir` has no trailing slash) 
-synchronizes the whole directory `src_dir` into the destination directory `des_dir`
-while `rsync -avh src_dir/ des_dir` (`src_dir/` has trailing slash) 
-synchronizes the contents (sub-files and sub-directories) of `src_dir` into the destination directory `des_dir`.
-However, 
-one thing tricky is that `rsync -avh . des_dir` synchronizes the content 
-(sub-files and sub-directories) of the current directory into the destination directory `des_dir`.
-This is especially tricky if you programmally get the source directory that you want to synchronize.
-Here are a few good practices to follow.
+1. The command `rsync -avh src_dir des_dir` (`src_dir` has no trailing slash) 
+    synchronizes the whole directory `src_dir` into the destination directory `des_dir`
+    while `rsync -avh src_dir/ des_dir` (`src_dir/` has trailing slash) 
+    synchronizes the contents (sub-files and sub-directories) of `src_dir` into the destination directory `des_dir`.
+    However, 
+    one thing tricky is that `rsync -avh . des_dir` synchronizes the content 
+    (sub-files and sub-directories) of the current directory into the destination directory `des_dir`.
+    This is especially tricky if you programmally get the source directory that you want to synchronize.
+    Here are a few good practices to follow.
 
-1. Convert programmally generated path (for use in `rsync`) into its absolute form.
+    - Convert programmally generated path (for use in `rsync`) into its absolute form.
 
-2. Always use the form `rsync -avh src_dir/ des_dir/` instead of the form `rsync -avh src_dir des_dir`.
+    - Always use the form `rsync -avh src_dir/ des_dir/` instead of the form `rsync -avh src_dir des_dir`.
+
+2. Use the option `--partial` to keep partially transfered files 
+    so that you can resume from break-point if rsync is interrupted.
+    This is **really useful** 
+    if you use rsync to transfer large files over unstable network.
 
 ## Examples
 
