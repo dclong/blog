@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-30 12:42:22
+Date: 2020-04-26 12:07:50
 Author: Benjamin Du
 Slug: tips-on-pillow
 Title: Tips on Pillow
@@ -14,6 +14,10 @@ Please read with your own judgement!
 ## PIL.Image.Image.crop
 
 Notice that the bounding box is inclusive/EXCLUSIVE like the `range` function.
+
+## PIL.Image.Image.resize
+
+1. `img.resize(img.size)` returns a new copy and the new copy is not necessarily the same as the original one.
 
 ## Mask (Image) in Pillow
 
