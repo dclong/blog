@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-26 15:36:44
+Date: 2020-04-26 18:02:21
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
@@ -22,7 +22,7 @@ Please read with your own judgement!
     one thing tricky is that `rsync -avh . des_dir` synchronizes the content 
     (sub-files and sub-directories) of the current directory into the destination directory `des_dir`.
     This is especially tricky if you programmally get the source directory that you want to synchronize.
-    Here are a few good practices to follow.
+    Here are a few **good practices to follow**.
 
     - Convert programmally generated path (for use in `rsync`) into its absolute form.
 
