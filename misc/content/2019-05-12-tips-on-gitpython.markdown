@@ -11,6 +11,23 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+import git
+repo = git.Repo.clone_from(self._small_repo_url(), os.path.join(rw_dir, 'repo'), branch='master')
+
+heads = repo.heads
+master = heads.master       # lists can be accessed by name for convenience
+master.commit               # the commit pointed to by head called master
+master.rename('new_name')   # rename heads
+master.rename('master')
+
+import git
+git.Git("/your/directory/to/clone").clone("git://gitorious.org/git-python/mainline.git")
+
+https://gitpython.readthedocs.io/en/stable/tutorial.html#tutorial-label
+
+repo = Repo(self.rorepo.working_tree_dir)
+cloned_repo = repo.clone(os.path.join(rw_dir, 'to/this/path'))
+
 
 ## Changes Files
 
