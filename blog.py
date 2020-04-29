@@ -385,7 +385,7 @@ class Post:
         return title.replace(" ", "-").replace("/", "-")
 
     def create(self, title: str):
-        if self.path.suffix == "MARKDOWN":
+        if self.path.suffix == MARKDOWN:
             return self._create_markdown(title)
         return self._create_notebook(title)
 
