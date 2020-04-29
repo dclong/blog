@@ -1,9 +1,8 @@
-UUID: 20279c67-89ef-4810-9c5b-11532f22e3a6
 Status: published
-Date: 2018-05-27 15:55:08
+Date: 2020-04-28 21:36:04
 Author: Ben Chuanlong Du
 Slug: tips-for-dbeaver
-Title: Tips for dbeaver
+Title: Tips on dbeaver
 Category: Software
 Tags: software, dbeaver, IDE, SQL
 
