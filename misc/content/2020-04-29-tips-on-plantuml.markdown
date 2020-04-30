@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 09:08:33
+Date: 2020-04-30 09:09:21
 Author: Benjamin Du
 Slug: tips-on-plantuml
 Title: Tips on PlantUML
@@ -34,6 +34,8 @@ for details.
 https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
 
 https://marketplace.visualstudio.com/items?itemName=Mebrahtom.plantumlpreviewer
+
+https://www.freecodecamp.org/news/inserting-uml-in-markdown-using-vscode/
 
 ## References
 
