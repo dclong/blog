@@ -1,6 +1,5 @@
-UUID: 9b176e64-3537-41b8-b332-b9ba03544d2b
 Status: published
-Date: 2016-06-20 00:28:55
+Date: 2020-04-30 00:41:30
 Author: Ben Chuanlong Du
 Slug: quant-trading
 Title: Quant Trading
@@ -18,6 +17,8 @@ Please read with your own judgement!
 quantos, kungfu, vnpy, RQAlpha2
 
 https://zhuanlan.zhihu.com/p/34822731
+
+[Quantopian](https://github.com/quantopian)
 
 ## Misc
 
