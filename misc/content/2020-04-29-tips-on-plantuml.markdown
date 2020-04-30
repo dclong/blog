@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-04-29 23:43:50
+Date: 2020-04-30 09:08:33
 Author: Benjamin Du
 Slug: tips-on-plantuml
-Title: Tips on Plantuml
+Title: Tips on PlantUML
 Category: Computer Science
 Tags: Computer Science, PlantUML, UML
 
@@ -28,6 +28,12 @@ You can run your own PlantUML server with Docker.
 Please refer to
 [How to Run the PlantUML Server with Docker](https://github.com/plantuml/plantuml-server#how-to-run-the-server-with-docker)
 for details.
+
+## PlantUML for Visual Studio Code
+
+https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+
+https://marketplace.visualstudio.com/items?itemName=Mebrahtom.plantumlpreviewer
 
 ## References
 

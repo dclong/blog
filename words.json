@@ -53,6 +53,7 @@
     ["Lightgbm", "LightGBM"],
     ["Macports", "MacPorts"], ["Noscript", "NoScript"],
     ["Openfaas", "OpenFaaS"],
+    ["Plantuml", "PlantUML"],
     ["Spacevim", "SpaceVim"],
     ["Autogluon", "AutoGluon"], 
     ["Java-Home", "JAVA-HOME"],

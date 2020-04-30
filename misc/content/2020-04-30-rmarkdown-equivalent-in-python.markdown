@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 07:57:51
+Date: 2020-04-30 09:05:34
 Author: Benjamin Du
 Slug: rmarkdown-equivalent-in-python
 Title: RMarkdown Equivalent in Python
@@ -15,6 +15,14 @@ Please read with your own judgement!
 
 ## RMarkdown Equivalent in Python 
 
-[Pweave](https://github.com/mpastell/Pweave)
-
+Both [CodeBraid](https://github.com/gpoore/codebraid)
+and
 [jupyter-book](https://github.com/executablebooks/jupyter-book)
+are good alternative to RMarkdown.
+
+### [CodeBraid](https://github.com/gpoore/codebraid)
+
+### [jupyter-book](https://github.com/executablebooks/jupyter-book)
+
+### [Pweave](https://github.com/mpastell/Pweave)
+
