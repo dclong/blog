@@ -1,5 +1,5 @@
 Status: published
-Date: 2016-07-13 22:56:29
+Date: 2020-04-30 00:25:15
 Author: Ben Chuanlong Du
 Slug: text-based-flowchart-tools
 Title: Text-based Diagram Tools
@@ -40,10 +40,6 @@ http://brettterpstra.com/2013/08/18/markdown-to-mind-map/
 
 Mappio is an online text to flowchart tool.
 It is better than Text2MindMap
-
-## [Text2MindMap](https://www.text2mindmap.com/)
-
-Text2MindMap is an online text to flowchart tool.
 
 ## [ditaa](http://ditaa.sourceforge.net/)
 
