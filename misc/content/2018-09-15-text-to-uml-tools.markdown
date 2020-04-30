@@ -1,6 +1,5 @@
-UUID: 0086a548-fb20-42e9-9c1f-319d3e84ffeb
 Status: published
-Date: 2020-02-14 14:12:02
+Date: 2020-04-30 00:20:36
 Author: Ben Chuanlong Du
 Slug: text-to-uml-tools
 Title: Text to UML Tools
@@ -15,15 +14,9 @@ Please read with your own judgement!
 
 ## [PlantUML](http://plantuml.com/)
 
-PlantUML is a great and the most popular text to UML tool.
-You can try it online at
-[PlantText](https://www.planttext.com)
-.
-You can download the the reference guide at
-[PlantUML Language Reference Guide](http://plantuml.com/PlantUML_Language_Reference_Guide.pdf) 
-.
-
-1. A PlantUML plugin is available for Eclipse.
+Please refer to
+[Tips on PlantUML](http://www.legendu.net/misc/blog/tips-on-plantuml/)
+for more details.
 
 ## Other Text to UML Tools
 
