@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 00:41:30
+Date: 2020-04-30 08:33:10
 Author: Ben Chuanlong Du
 Slug: quant-trading
 Title: Quant Trading
@@ -19,6 +19,8 @@ quantos, kungfu, vnpy, RQAlpha2
 https://zhuanlan.zhihu.com/p/34822731
 
 [Quantopian](https://github.com/quantopian)
+
+[Quantitative Economics](https://python.quantecon.org/)
 
 ## Misc
 
