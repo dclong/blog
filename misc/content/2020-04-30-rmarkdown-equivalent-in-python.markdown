@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 09:05:34
+Date: 2020-04-30 09:13:23
 Author: Benjamin Du
 Slug: rmarkdown-equivalent-in-python
 Title: RMarkdown Equivalent in Python
@@ -25,4 +25,9 @@ are good alternative to RMarkdown.
 ### [jupyter-book](https://github.com/executablebooks/jupyter-book)
 
 ### [Pweave](https://github.com/mpastell/Pweave)
+
+## References
+
+[Writing an Interactive Book over the Threat Hunter Playbook with the Help of the Jupyter Book Project](https://medium.com/threat-hunters-forge/writing-an-interactive-book-over-the-threat-hunter-playbook-with-the-help-of-the-jupyter-book-3ff37a3123c7)
+
 
