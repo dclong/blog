@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 00:20:36
+Date: 2020-04-30 00:30:22
 Author: Ben Chuanlong Du
 Slug: text-to-uml-tools
 Title: Text to UML Tools
@@ -17,6 +17,12 @@ Please read with your own judgement!
 Please refer to
 [Tips on PlantUML](http://www.legendu.net/misc/blog/tips-on-plantuml/)
 for more details.
+
+## [Chart Mage](http://chartmage.com/intro.html)
+
+Chart Mage is similar to PlantUML. 
+It is text-to-UML tool but also supports flowchart. 
+Chart Mage is less popular compared to PlantUML.
 
 ## Other Text to UML Tools
 

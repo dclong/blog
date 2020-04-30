@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 00:25:15
+Date: 2020-04-30 00:30:00
 Author: Ben Chuanlong Du
 Slug: text-based-flowchart-tools
 Title: Text-based Diagram Tools
@@ -43,4 +43,8 @@ It is better than Text2MindMap
 
 ## [ditaa](http://ditaa.sourceforge.net/)
 
-## LaTex PGF/TikZ/Graphviz
+## [Chart Mage](http://chartmage.com/intro.html)
+
+Chart Mage is similar to PlantUML. 
+It is text-to-UML tool but also supports flowchart. 
+Chart Mage is less popular compared to PlantUML.
