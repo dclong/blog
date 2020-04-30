@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 00:18:57
+Date: 2016-07-13 22:56:29
 Author: Ben Chuanlong Du
 Slug: text-based-flowchart-tools
 Title: Text-based Diagram Tools
@@ -16,15 +16,9 @@ http://blog.ynema.com/?p=192
 
 ## [PlantUML](http://plantuml.com/)
 
-PlantUML is a great text to UML tool.
-It can be used to create flowcharts too.
-
-You can try it online at
-[PlantText](https://www.planttext.com)
-.
-You can download the the reference guide at
-[PlantUML Language Reference Guide](http://plantuml.com/PlantUML_Language_Reference_Guide.pdf) 
-.
+Please refer to
+[Tips on PlantUML](http://www.legendu.net/misc/blog/tips-on-plantuml/)
+for more details.
 
 ## [Code2Flow](https://code2flow.com/)
 
