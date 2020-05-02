@@ -1,6 +1,5 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-01-03 21:07:54
+Date: 2020-05-02 14:57:03
 Author: Ben Chuanlong Du
 Slug: cp-tips
 Title: Copying Files in Linux
