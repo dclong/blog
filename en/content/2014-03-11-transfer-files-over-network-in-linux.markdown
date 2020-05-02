@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-02 14:57:03
+Date: 2020-05-02 15:18:04
 Slug: transfer-files-over-network-in-linux
 Title: Transfer Files over Network in Linux
 Category: Internet
@@ -31,11 +31,20 @@ go with NFS.
     It is definitely preferred over `scp` 
     unless in situations when `rsync` is not available (e.g., on Andrioid).
 
-2. There are some other file-copying tools such as `mbuffer`, `netcat`/`nc`, etc. 
-    if you want to squeeze the most out of network speed.
+2. There are some other file-copying tools such as `mbuffer` and `netcat`/`nc`
+    to help you squeeze the most out of network speed.
+    The example below is how you can copy files suing `mbuffer`.
 
         :::bash
         tar zcf - bigfile.m4p | mbuffer -s 1K -m 512 | ssh otherhost "tar zxf -"
+
+    The example below uses `tar` and `netcat` to copy files.
+
+        :::bash
+        # run this command on the machine with the source files
+        tar --numeric-owner -cvf - | netcat -w3 box1 2020
+        # run this command on the machine to copy files to
+        netcat -l -p 2020 | tar --numeric-owner -xvf -
 
 ## References
 
