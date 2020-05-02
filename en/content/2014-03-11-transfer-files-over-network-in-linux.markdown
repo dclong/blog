@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-02 15:18:04
+Date: 2020-05-02 15:19:31
 Slug: transfer-files-over-network-in-linux
 Title: Transfer Files over Network in Linux
 Category: Internet
@@ -47,6 +47,10 @@ go with NFS.
         netcat -l -p 2020 | tar --numeric-owner -xvf -
 
 ## References
+
+[The best way to move data](https://linuxaria.com/article/tar-rsync-netcat-scp)
+
+[tar + netcat = very fast copy](http://blog.alanporter.com/2015-04-13/fast-copy/)
 
 https://linuxaria.com/article/tar-rsync-netcat-scp
 
