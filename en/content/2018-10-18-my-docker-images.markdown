@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-27 09:29:34
+Date: 2020-05-02 15:28:21
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -336,7 +336,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
 - [dclong/ubuntu_b](https://hub.docker.com/r/dclong/ubuntu_b/)  
 
-    > OS: Ubuntu 19.04  
+    > OS: Ubuntu 19.10  
     > Time Zone: US Pacific Time  
     > Desktop Environment: None  
     > Remote Desktop: None  
@@ -419,7 +419,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
-                     > JupyterLab: 1.2.7
+                     > JupyterLab: 1.2
 
                     - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
 
