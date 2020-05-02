@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-23 23:55:01
+Date: 2020-05-02 11:49:58
 Author: Benjamin Du
 Slug: docker-for-nvidia-gpu
 Title: Docker for Nvidia GPU
@@ -10,6 +10,11 @@ Tags: software, Docker, GPU, Nvidia
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+0. You can list all GPU devices using the following command in Linux.
+
+        :::bash
+        lspci -v | grep VGA
 
 1. You can use the command `watch nvidia-smi` or `nvtop` to check the usage of GPU.
     `nvtop` is recommended 
