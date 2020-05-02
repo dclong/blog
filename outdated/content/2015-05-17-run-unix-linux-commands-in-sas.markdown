@@ -7,10 +7,9 @@ Category: Computer Science
 Tags: programming, SAS, Unix, Linux, command
 
 **
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-It is not meant to readers
-but rather for convenient reference of the author and future improvement.
+Things under legendu.net/outdated are outdated technologies 
+that the author does not plan to update any more. 
+Please look for better alternatives.
 **
 
 SAS can run Unix/Linux commands everywhere using
