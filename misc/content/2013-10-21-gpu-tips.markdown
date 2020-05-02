@@ -1,16 +1,24 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips for GPU Computing
-Date: 2020-04-24 14:05:21
+Date: 2020-05-02 11:49:58
 Slug: gpu-tips
 Category: Computer Science
-Tags: tips, GPU, programming
+Tags: tips, GPU, programming, Nvidia
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!
 **
  
+## List GPU Devices on Linux
+
+You can list GPU devices using the following command on linux.
+
+    :::bash
+    lspci -v | grep VGA
+
+
 ## Frameworks Supporting Managing GPU Resources
 
 - [Horovod](https://github.com/horovod/horovod)
