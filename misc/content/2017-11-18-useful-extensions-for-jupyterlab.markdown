@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 12:13:01
+Date: 2020-05-03 07:40:00
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -12,58 +12,37 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-```Bash
-jupyter labextension install some_extension
-```
+## Install/Uninstall Jupyter/Lab Extensions
 
-```Bash
-jupyter labextension uninstall some_extension
-```
+Install a Jupyter/Lab extension.
+
+    :::bash
+    jupyter labextension install some_extension
+
+Unnstall a Jupyter/Lab extension.
+
+    :::bash
+    jupyter labextension uninstall some_extension
+
+Enable an installed Jupyter/Lab extension.
 
     :::bash
     jupyter serverextension enable --py jupyterlab_code_formatter
+
+Disable an istallledd Jupyter/Lab extension.
+
+    :::bash
     jupyter serverextension disable --py jupyterlab_code_formatter
-
-
-https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
-
-https://github.com/topics/jupyterlab-extension
-
-https://medium.com/@subpath/jupyter-lab-extensions-for-data-scientist-e0d97d529fc1
-
-https://github.com/mauhai/awesome-jupyterlab
 
 ## Useful Tools
 
 ### [jupyter/nbdime](https://github.com/jupyter/nbdime)
 
-Tools for diffing and merging of Jupyter notebooks.
-Notice that nbdime integrates with git well.
 
-You can use the following command to configure nbdime for Git.
+### [JupyterHub](https://github.com/jupyterhub/jupyterhub)
 
-    nbdime config-git (--enable | --disable) [--global | --system]
-
-Register nbdime with Git for the current project/repository.
-
-    nbdime config-git --enable
-
-Deregister nbdime with Git for the current project/repository.
-
-    nbdime config-git --disable
-
-
-Register nbdime with Git for global users.
-
-    nbdime config-git --enable --global
-
-Deregister nbdime with Git for global users.
-
-    nbdime config-git --disable --global
-
-### JupyterHub
-
-### sudospawner
+[JupyterHub](https://github.com/jupyterhub/jupyterhub)
+is a multi-user server for Jupyter notebooks.
 
 
 ## Useful Extensions for JupyterLab
@@ -86,29 +65,30 @@ Automatically scrolls scrollable output cells to bottom when content has changed
 ### [jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
 
 ### [ipywidgets](https://github.com/ipython/ipywidgets/tree/master/jupyterlab_widgets)
-    Interactive HTML widgets (slider, button, textbox, etc.) for Python Notebook.
 
-        pip install jupyterlab_widgets
-        jupyter labextension install --sys-prefix --py jupyterlab_widgets
-        jupyter labextension enable --sys-prefix --py jupyterlab_widgets
+Interactive HTML widgets (slider, button, textbox, etc.) for Python Notebook.
 
-    Examples of custom widget libraries built upon ipywidgets are
+    :::bash
+    pip install jupyterlab_widgets
+    jupyter labextension install --sys-prefix --py jupyterlab_widgets
+    jupyter labextension enable --sys-prefix --py jupyterlab_widgets
 
-    - bqplot a 2d data visualization library enabling custom user interactions.
+Examples of custom widget libraries built upon ipywidgets are
 
-    - pythreejs a Jupyter - Three.js wrapper, bringing Three.js to the notebook.
+- bqplot a 2d data visualization library enabling custom user interactions.
 
-    - ipyleaflet a leaflet widget for Jupyter.
+- pythreejs a Jupyter - Three.js wrapper, bringing Three.js to the notebook.
 
+- ipyleaflet a leaflet widget for Jupyter.
 
 ## Some Other Extensions for JupyterLab
 
 ### [jupyterlab_geojson](https://github.com/jupyterlab/jupyterlab_geojson)
-```bash
-pip3 install jupyterlab_geojson
-jupyter labextension install --py --sys-prefix jupyterlab_geojson
-jupyter labextension enable --py --sys-prefix jupyterlab_geojson
-```
+
+    :::bash
+    pip3 install jupyterlab_geojson
+    jupyter labextension install --py --sys-prefix jupyterlab_geojson
+    jupyter labextension enable --py --sys-prefix jupyterlab_geojson
 
 ### [jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen)
 
@@ -131,6 +111,7 @@ Not sure whether this is useful.
 
 ### [widget-cookiecutter](https://github.com/jupyter/widget-cookiecutter)
 
+    :::bash
     pip3 install cookiecutter
 
 ### jupyter_declarativewidgets
@@ -138,3 +119,13 @@ Not sure whether this is useful.
 ### jupyter-wysiwyg
 
 not available for jupyterlab yet ...
+
+## References
+
+https://jupyterlab.readthedocs.io/en/stable/user/extensions.html
+
+https://github.com/topics/jupyterlab-extension
+
+https://medium.com/@subpath/jupyter-lab-extensions-for-data-scientist-e0d97d529fc1
+
+https://github.com/mauhai/awesome-jupyterlab
