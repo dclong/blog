@@ -1,6 +1,5 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-03-13 16:02:22
+Date: 2020-05-03 08:06:28
 Author: Ben Chuanlong Du
 Slug: mind-map-links
 Title: Mind Map Links

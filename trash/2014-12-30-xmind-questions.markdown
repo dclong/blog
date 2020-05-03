@@ -1,6 +1,5 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-12 23:20:37
+Date: 2020-05-03 08:06:28
 Author: Ben Chuanlong Du
 Slug: xmind-questions
 Title: XMind Questions

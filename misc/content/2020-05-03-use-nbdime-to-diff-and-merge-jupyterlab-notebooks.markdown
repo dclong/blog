@@ -39,3 +39,6 @@ Deregister nbdime with Git for global users.
     :::bash
     nbdime config-git --disable --global
 
+## References
+
+[nbdime](https://github.com/jupyter/nbdime)

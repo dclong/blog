@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-02-04 14:36:23
+Date: 2020-05-03 08:03:29
 Author: Benjamin Du
 Slug: jupyterhub-tips
-Title: Jupyterhub Tips
+Title: Tips on Jupyterhub
 Category: Software
 Tags: software, JupyterHub, tips
 

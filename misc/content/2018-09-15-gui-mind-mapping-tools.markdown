@@ -1,17 +1,23 @@
-UUID: b786ea8b-865c-4e71-9d76-7a7f8f2e70cd
 Status: published
-Date: 2018-09-15 15:17:19
+Date: 2020-05-03 08:18:27
 Author: Ben Chuanlong Du
 Slug: gui-mind-mapping-tools
-Title: Gui Mind Mapping Tools
+Title: GUI-based Mind Mapping Tools
 Category: Computer Science
-Tags: programming
+Tags: Computer Science, mind map, GUI, XMind, flowchart
 
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## Built-in Flowchart in Office Tools
+
+Most office tools (MS, Google, etc.) has built-in Flowchart support.
+**It is suggested that you use the built-in flowchart** 
+if you a such an office tool
+as it is much esier to update the flowchart later.
 
 ## XMind
 

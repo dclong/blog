@@ -36,23 +36,20 @@ Disable an istallledd Jupyter/Lab extension.
 
 ## Useful Tools
 
-### [jupyter/nbdime](https://github.com/jupyter/nbdime)
+### [nbdime](http://www.legendu.net/misc/blog/use-nbdime-to-diff-and-merge-jupyterlab-notebooks/)
 
+[nbdime](http://www.legendu.net/misc/blog/use-nbdime-to-diff-and-merge-jupyterlab-notebooks/)
+is a tool for diffing and merging Jupyter/Lab notebooks.
+It works well with Git.
 
-### [JupyterHub](https://github.com/jupyterhub/jupyterhub)
+### [JupyterHub](http://www.legendu.net/misc/blog/jupyterhub-tips/)
 
-[JupyterHub](https://github.com/jupyterhub/jupyterhub)
+[JupyterHub](http://www.legendu.net/misc/blog/jupyterhub-tips/)
 is a multi-user server for Jupyter notebooks.
-
 
 ## Useful Extensions for JupyterLab
 
-
 ### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
-
-### [jupyterlab-drawio](https://github.com/QuantStack/jupyterlab-drawio)
-
-www.draw.io is also interesting,
 
 ### [wallneradam/jupyterlab-output-auto-scroll](https://github.com/wallneradam/jupyterlab-output-auto-scroll)
 
@@ -90,9 +87,39 @@ Examples of custom widget libraries built upon ipywidgets are
     jupyter labextension install --py --sys-prefix jupyterlab_geojson
     jupyter labextension enable --py --sys-prefix jupyterlab_geojson
 
+### [jupyterlab-drawio](https://github.com/QuantStack/jupyterlab-drawio)
+
+[jupyterlab-drawio](https://github.com/QuantStack/jupyterlab-drawio)
+is a standalone embedding of the FOSS drawio/mxgraph package into JupyterLab.
+If you using a office tool (MS/Google PPT/Slides/Doc),
+it is suggested that you use the built-in flowchart support instead.
+Please refer to
+[Text-based Diagram Tools](http://www.legendu.net/misc/blog/text-based-flowchart-tools/)
+and
+[GUI Mind Mapping Tools](http://www.legendu.net/misc/blog/gui-mind-mapping-tools/)
+for more discussions on flowchart and UML tools.
+
 ### [jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen)
 
-Very slow when there are lots of files.
+[jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen)
+aims to quickly open a file in JupyterLab by typing part of its name.
+However,
+it does not work well if the working directory of Jupyter/Lab contains a large number of files.
+[jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen)
+eithers hangs or crashes when building indexes for a large number of files.
+Unfortunately, 
+users use [jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen)
+mostly when the working directory of Jupyter/Lab get complicated 
+and contains lots of files.
+So, 
+overall I think [jupyterlab-quickopen](https://github.com/parente/jupyterlab-quickopen) 
+failed its mission.
+
+
+As an alternative,
+it is must faster and more reliable to use the `find` command to help locate files in a terminal.
+You can also use the `Open Path` command to help you open a file 
+without changing directory in the navigation panel in JupyterLab.
 
 ### [jupyterlab-monaco](https://github.com/jupyterlab/jupyterlab-monaco)
 

@@ -1,7 +1,7 @@
 Status: published
 Title: Markdown Tips
 Author: Ben Chuanlong Du
-Date: 2020-03-03 15:50:04
+Date: 2020-05-03 08:06:28
 Slug: markdown-tips
 Category: Computer Science
 Tags: programming, markdown, LaTeX, equation, tips
@@ -23,12 +23,12 @@ helps generating Markdown tables easily.
 
 
 ## Markdown Related Tools
+
 grip
 markdown-include
 pandoc
 python-markdown ..
 knitr (R package)
-
 
 ## Editors
 
@@ -40,13 +40,17 @@ knitr (R package)
 
 1. how to define a link variable in jekyll or in markdown?
 
-2. does markdown support include and so on? if there are mutiple md file in a folder, several of them are use by a main file. what happens? can we tell jekyll not to compile some of the markdown files?	
+2. does markdown support include and so on? if there are mutiple md file in a folder, 
+    several of them are use by a main file. what happens? 
+    can we tell jekyll not to compile some of the markdown files?	
 
 3. markdown small size? right aliganment?	
 
-4. categories, hierarchical? ...? it seems that jekyll support both	
+4. categories, hierarchical? ...? 
+    it seems that jekyll support both	
 
-5. can we include a pdf in jekyll? I guess the problem is that whether html can do that
+5. can we include a pdf in jekyll? 
+    I guess the problem is that whether html can do that
 
 6. how to add a title for a figure?
 
