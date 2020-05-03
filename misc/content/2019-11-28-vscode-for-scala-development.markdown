@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 16:56:03
+Date: 2020-05-03 08:47:25
 Author: Benjamin Du
 Slug: vscode-for-scala-development
 Title: Visual Studio Code for Scala Development
@@ -21,4 +21,6 @@ https://github.com/scalameta/metals-vscode
 
 [Scala Syntax](https://marketplace.visualstudio.com/items?itemName=scala-lang.scala)
 
+[Scala (Metals)](https://marketplace.visualstudio.com/items?itemName=scalameta.metals#overview)
 
+["Good Enough" Scala Language Server](https://marketplace.visualstudio.com/items?itemName=mrdziuban.good-enough-scala-lsp)
