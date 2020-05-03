@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-07-26 18:55:03
+Date: 2020-05-03 14:02:13
 Author: Ben Chuanlong Du
 Slug: command-line-tools-for-python-developing
 Title: Command-line Tools for Python Developing
@@ -7,16 +7,22 @@ Category: Computer Science
 Tags: programming, Python development, command-line, pylint, yapf, pdb, linter, formatting, debugging
 
 
-## Check Python Scripts
+## Lint Python Scripts
+
+### [isort](https://github.com/timothycrosley/isort)
+[isort](https://github.com/timothycrosley/isort)
+is a Python utility/library to sort imports.
 
 ### [pylint](https://github.com/PyCQA/pylint)
 
+    :::bash
     pylint your_script.py
 
 ### mypy
 
+    :::bash
     mypy your_script.py
-
+    :::bash
     mypy --ignore-missing-imports roas.py
 
 ## Type Annotation
@@ -25,17 +31,20 @@ Tags: programming, Python development, command-line, pylint, yapf, pdb, linter, 
 
 1. Run the following command to annotate your Python script.
 
+        :::bash
         monkeytype run yourscript.py
 
 
 2. MonkeyType supports pytest.
 
+        :::bash
         monkeytype run `which pytest`
 
 ## Formatting
 
 1. [yapf](https://github.com/google/yapf)
 
+        :::bash
         yapf -d yourscript.py
 
 2. [black](https://github.com/ambv/black)
@@ -51,10 +60,9 @@ for detailed comparison between yapf and black.
 
 ## Installation of the Tools
 
-```
-pip3 install yapf, pylint, monkeytype, mypy
-```
-```
-conda install -c conda-forge MonkeyType
-conda install mypy
-```
+    :::bash
+    pip3 install yapf, pylint, monkeytype, mypy
+
+    :::bash
+    conda install -c conda-forge MonkeyType
+    conda install mypy
