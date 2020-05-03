@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-02 15:19:31
+Date: 2020-05-02 17:16:03
 Slug: transfer-files-over-network-in-linux
 Title: Transfer Files over Network in Linux
 Category: Internet
@@ -33,6 +33,10 @@ go with NFS.
 
 2. There are some other file-copying tools such as `mbuffer` and `netcat`/`nc`
     to help you squeeze the most out of network speed.
+    However,
+    unless you want to transfer huge files over high speed LAN
+    and security is not a concern,
+    you still want to stick with `rsync`.
     The example below is how you can copy files suing `mbuffer`.
 
         :::bash
@@ -42,9 +46,9 @@ go with NFS.
 
         :::bash
         # run this command on the machine with the source files
-        tar --numeric-owner -cvf - | netcat -w3 box1 2020
+        tar --numeric-owner -cvf - ./ | netcat -l -p 2020
         # run this command on the machine to copy files to
-        netcat -l -p 2020 | tar --numeric-owner -xvf -
+        netcat source_machine_ip 2020 | tar -zxf -
 
 ## References
 
