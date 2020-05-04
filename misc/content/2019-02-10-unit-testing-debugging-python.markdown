@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-07-16 23:41:33
+Date: 2020-05-03 21:42:55
 Author: Benjamin Du
 Slug: unit-testing-debugging-python
 Title: Unit Testing and Debugging Tools for Python
@@ -29,7 +29,9 @@ A poor man's tool for debugging which is much better than print.
 1. `unitest` is the official unit testing tool in Python
     and thus has better support and integration with other tools generally speaking. 
     However, 
-    `pytest` is more concise than unittest and makes unit testing more efficiency.
+    `pytest` is more concise than `unittest` and makes unit testing more efficiency.
+    `pytest` is also widely adopted.
+
 
 ## Doctest 
 

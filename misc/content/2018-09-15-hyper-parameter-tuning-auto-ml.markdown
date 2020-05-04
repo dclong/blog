@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-27 16:35:20
+Date: 2020-05-03 21:36:21
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -31,19 +31,37 @@ k-fold
 
 ## Libraries
 
-auto-sklearn
+### auto-sklearn
 
+### [autogluon](https://github.com/awslabs/autogluon)
 
-Apache Ray Tune
+AutoGluon automates machine learning tasks enabling you 
+to easily achieve strong predictive performance in your applications. 
+With just a few lines of code, 
+you can train and deploy high-accuracy deep learning models on tabular, image, and text data.
 
-H2O AutoML
+### [turicreate](https://github.com/apple/turicreate)
+
+Turi Create simplifies the development of custom machine learning models. 
+You don't have to be a machine learning expert 
+to add recommendations, object detection, image classification, image similarity or activity classification to your app.
+
+- Easy-to-use: Focus on tasks instead of algorithms
+- Visual: Built-in, streaming visualizations to explore your data
+- Flexible: Supports text, images, audio, video and sensor data
+- Fast and Scalable: Work with large datasets on a single machine
+- Ready To Deploy: Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
+
+### Apache Ray Tune
+
+### H2O AutoML
 
 Python: H2OAutoML(...)
 
-Driverless AI
+### Driverless AI
 
 
-tpot looks like a good one
+### tpot looks like a good one
 
 ## Platforms
 

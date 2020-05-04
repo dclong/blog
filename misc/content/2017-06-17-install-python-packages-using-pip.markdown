@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-13 12:03:38
+Date: 2020-05-03 21:39:39
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -69,6 +69,11 @@ https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 ## Install Python Packages from Git Repositories
 
 ['pip install' From a Git Repository](https://adamj.eu/tech/2019/03/11/pip-install-from-a-git-repository/)
+
+## Install Python Packages from Requirements.txt
+
+    :::bash
+    pip3 install -r requirements.txt
 
 ## Install a Specific Version of a Python Package
 
