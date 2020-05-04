@@ -31,7 +31,11 @@ A poor man's tool for debugging which is much better than print.
     However, 
     `pytest` is more concise than `unittest` and makes unit testing more efficiency.
     `pytest` is also widely adopted.
-
+    Please refer to
+    [Write Unit Tests Using unittest in Python](http://www.legendu.net/misc/blog/write-unit-tests-using-unittest-in-Python/)
+    and
+    [Write Unit Tests Using PyTest in Python](http://www.legendu.net/misc/blog/pytest-tips/)
+    for more details on how to use unittest and pytest.
 
 ## Doctest 
 
