@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-08-30 02:13:49
+Date: 2020-05-03 20:02:57
 Author: Benjamin Du
 Slug: spacevim-tips
-Title: SpaceVim Tips
+Title: SpaceVim - A Modern Vim Distribution
 Category: Software
 Tags: software, SpaceVim, Vim, tips
 
@@ -140,6 +140,13 @@ https://github.com/SpaceVim/SpaceVim/issues/78
 ## Lanugage Server Protocol
 
 https://spacevim.org/layers/language-server-protocol/
+
+## Language Layers
+
+[Available Layers >> lang#python](https://spacevim.org/layers/lang/python/)
+
+I'm not sure whether this layer is really helpful 
+given that you always uses the LSP layer.
 
 ## References
 
