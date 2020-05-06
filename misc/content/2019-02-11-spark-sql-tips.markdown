@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-31 11:28:19
+Date: 2020-05-05 18:26:14
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL Tips
@@ -49,26 +49,26 @@ Please read with your own judgement!
 3. Position alias is supported in Spark SQL!
 
 4. Spark SQL supports bool expressions/columns. 
-  However, you cannot sum a bool expression/column directly.
-  You have to either cast it to Int/BigInt or use the old-school case clause.
+    However, you cannot sum a bool expression/column directly.
+    You have to either cast it to Int/BigInt or use the old-school case clause.
 
 5. `select * from some_table limit 5` runs slow if the table `some_table` is large.
-  you can limit the selection to a specific partition (if the table is partitioned) to speed it up.
+    you can limit the selection to a specific partition (if the table is partitioned) to speed it up.
 
 
 6. You can use the following code to show the creation code of a Hive table in Spark.
-```
-println(spark.sql("show create table some_table").collect()(0)(0))
-```
+
+    :::scala
+    println(spark.sql("show create table some_table").collect()(0)(0))
 
 ## Spark SQL Create Table
 
 1. The `CREATE TABLE` clause is equivalent to the method `DataFrame.saveAsTable`,
-  which write the DataFrame into a Hive table (format of the Hive table can be specified).
-  You can also create (or replace) a global/temporary view, 
-  which is lazily computed.
-  Notice that a view can be cached too once computed if you explicitly do so
-  (by calling `spark.cacheTable` or use Spark SQL hint).
+    which write the DataFrame into a Hive table (format of the Hive table can be specified).
+    You can also create (or replace) a global/temporary view, 
+    which is lazily computed.
+    Notice that a view can be cached too once computed if you explicitly do so
+    (by calling `spark.cacheTable` or use Spark SQL hint).
 
 ## Union
 
@@ -101,20 +101,20 @@ It is suggested that you always enclose subqueries in parentheses!
 ## Spark SQL Hint
 
 1. You can use 
-  [Spark SQL hint](https://docs.databricks.com/spark/latest/spark-sql/language-manual/select.html#hints)
-  to fine control the behavior of Spark application.
-  Specially, 
-  a hint for skew join is supported in Spark Spark!
-  You can use it to help Spark optimizing the joining when the involved columns are skewed.
+    [Spark SQL hint](https://docs.databricks.com/spark/latest/spark-sql/language-manual/select.html#hints)
+    to fine control the behavior of Spark application.
+    Specially, 
+    a hint for skew join is supported in Spark Spark!
+    You can use it to help Spark optimizing the joining when the involved columns are skewed.
 
 ### COALESCE and REPARTITION Hints
 
-```
-SELECT /*+ COALESCE(5) */ ...
+    :::sql
+    SELECT /*+ COALESCE(5) */ ...
+    SELECT /*+ REPARTITION(3) */ ...
 
-SELECT /*+ REPARTITION(3) */ ...
-```
 ### Join Hints
+
 ```
 SELECT /*+ MAPJOIN(b) */ ...
 
@@ -134,7 +134,9 @@ FROM a
   JOIN b ON (a.b_key = b.id)
   JOIN c ON (a.ts BETWEEN c.start_time AND c.end_time)
 ```
+
 ### Skew Hint
+
 ```
 SELECT /*+ SKEW('orders') */ * FROM customers, orders WHERE o_custId = c_custId
 SELECT /*+ SKEW('orders'), BROADCAST(demographic) */ * FROM orders, customers, demographic WHERE o_custId = c_custId AND c_demoId = d_demoId
