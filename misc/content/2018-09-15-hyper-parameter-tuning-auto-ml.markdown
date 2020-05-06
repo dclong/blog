@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-04 23:13:37
+Date: 2020-05-06 14:28:01
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -56,7 +56,7 @@ Python: H2OAutoML(...)
 
 ### tpot looks like a good one
 
-## Platforms
+## Platforms/Framework
 
 [Google Cloud AutoML](https://cloud.google.com/automl/)
 
@@ -70,6 +70,10 @@ Python: H2OAutoML(...)
 [DAGsHub](https://dagshub.com/)
 DAGsHub is a web platform for data version control and collaboration for data scientists and machine learning engineers.
 It is like GitHub for data science and machine learning.
+
+[ml-metadata](https://github.com/google/ml-metadata)
+
+[mlflow](https://github.com/mlflow/mlflow)
 
 Kaggle
 
