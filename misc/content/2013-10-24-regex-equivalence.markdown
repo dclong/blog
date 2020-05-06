@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-06 00:10:50
+Date: 2020-05-06 00:33:17
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -41,6 +41,8 @@ Please read with your own judgement!
     <tr>
         <td> Regular expression modifiers </td>
         <td> Fully suppoted via Perl style regular (the `-P` option) expressions. </td>
+        <td> 
+        </td>
         <td> 
         </td>
         <td> 
