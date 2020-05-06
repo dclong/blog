@@ -1,10 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-05 23:50:13
+Date: 2020-05-06 00:10:50
 Slug: regex-equivalence
-Title: Regular Expression Equivalence
+Title: Regular Expression Equivalent
 Category: Computer Science
-Tags: tips, regex, equivalence, regular expression, regexp, Python, R, CRAN, Perl, SAS, grep, egrep
+Tags: tips, regex, equivalent, regular expression, regexp, Python, R, CRAN, Perl, SAS, grep, egrep
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -26,7 +26,7 @@ Please read with your own judgement!
     than remembering different options in different programming languages or tools. 
     It is suggested that you use regular expression modifiers when possible.
 
-
+<div style="overflow-x:auto;">
 <table style="width:100%">
     <tr>
         <th> </th>
@@ -557,6 +557,7 @@ Please read with your own judgement!
         </td>
     </tr>
 </table>
+</div>
 
 
 ## Grouping
