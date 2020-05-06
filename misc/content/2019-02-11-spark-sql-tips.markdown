@@ -60,6 +60,15 @@ Please read with your own judgement!
 
     :::scala
     println(spark.sql("show create table some_table").collect()(0)(0))
+    
+    
+## List Databases
+
+show databases;
+
+hdfs dfs -ls /path/to/hive/warehouse
+
+Or you can query the Hive Metastore DB if you have access.
 
 ## Spark SQL Create Table
 
