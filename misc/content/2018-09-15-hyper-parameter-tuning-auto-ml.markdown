@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 21:36:21
+Date: 2020-05-04 23:13:37
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -8,13 +8,6 @@ Tags: AI, machine learning, framework, AutoML, mlflow
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 

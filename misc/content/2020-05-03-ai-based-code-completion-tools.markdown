@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-05-03 08:43:26
+Date: 2020-05-04 23:17:12
 Author: Benjamin Du
 Slug: ai-based-code-completion-tools
-Title: Ai-Based Code Completion Tools
+Title: AI-based Code Completion Tools
 Category: Computer Science
 Tags: Computer Science, AI, code completion, IDE
 
