@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 00:06:36
+Date: 2020-05-06 14:02:57
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -78,6 +78,8 @@ Or you can query the Hive Metastore DB if you have access.
     which is lazily computed.
     Notice that a view can be cached too once computed if you explicitly do so
     (by calling `spark.cacheTable` or use Spark SQL hint).
+
+https://www.youtube.com/watch?v=RipzhSw2z70
 
 ## Union
 

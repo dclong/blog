@@ -1,9 +1,8 @@
-UUID: 83782723-69bf-48bf-9929-955ba457a4f7
 Status: published
-Date: 2017-01-02 23:18:24
+Date: 2020-05-06 14:20:40
 Author: Ben Chuanlong Du
 Slug: atom-tips
-Title: Atom Tips
+Title: Tips on Atom
 Category: Software
 Tags: software, Atom, IDE, editor, plugin, addon, add-on
 
@@ -12,6 +11,9 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+Visual Studio Code is a better alternative than Atom.
+It is suggested that you use Visual Studio Code instead.
 
 ## Installation on Ubuntu
 

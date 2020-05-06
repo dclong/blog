@@ -1,6 +1,6 @@
 Status: published
-Title: General Tips for Mathematica
-Date: 2019-02-18 19:53:47
+Title: General Tips on Mathematica
+Date: 2020-05-06 14:20:40
 Slug: general-tips-for-mathematica
 Author: Ben Chuanlong Du
 Category: Computer Science
