@@ -692,12 +692,19 @@ def _subparse_add(subparsers):
         action="store_const",
         const=CN,
         help="Create a post in the cn sub blog directory.")
-    subparser_add.add_argument(
+    group = subparser_add.add_mutually_exclusive_group(required=True)
+    group.add_argument(
         "-m",
         "--markdown",
         dest="notebook",
         action="store_false",
-        default=True,
+        help="Create a MarkDown (default Notebook) post.")
+    group.add_argument(
+        "-n",
+        "--notebook",
+        "--ipynb",
+        dest="notebook",
+        action="store_true",
         help="Create a MarkDown (default Notebook) post.")
     subparser_add.add_argument(
         "title", nargs="+", help="Title of the post to be created.")
