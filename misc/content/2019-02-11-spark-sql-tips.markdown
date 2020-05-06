@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-06 14:02:57
+Date: 2020-05-06 14:46:29
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
 Category: Computer Science
-Tags: programming, big data, Spark, Spark SQL
+Tags: programming, big data, Spark, Spark SQL, Hive
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -70,6 +70,10 @@ hdfs dfs -ls /path/to/hive/warehouse
 
 Or you can query the Hive Metastore DB if you have access.
 
+## Data Types
+
+https://acadgild.com/blog/hive-complex-data-types-with-examples
+
 ## Spark SQL Create Table
 
 1. The `CREATE TABLE` clause is equivalent to the method `DataFrame.saveAsTable`,
@@ -80,6 +84,10 @@ Or you can query the Hive Metastore DB if you have access.
     (by calling `spark.cacheTable` or use Spark SQL hint).
 
 https://www.youtube.com/watch?v=RipzhSw2z70
+
+https://www.revisitclass.com/hadoop/how-to-create-a-table-with-partitions-in-hive/
+
+https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_create_table.html
 
 ## Union
 
