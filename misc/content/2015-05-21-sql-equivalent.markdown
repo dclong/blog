@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 00:08:25
+Date: 2020-05-06 00:45:31
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -34,6 +34,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         show databases
     </td>
     <td>  
+        show databases;
+
+        hdfs dfs -ls /path/to/hive/warehouse
+
+        /*Or you can query the Hive Metastore DB if you have access*/
+
     </td>
     <td>  </td>
     <td>  </td>
