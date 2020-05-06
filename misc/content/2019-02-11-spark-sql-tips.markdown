@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-05-05 18:26:14
+Date: 2020-05-06 00:06:36
 Author: Benjamin Du
 Slug: spark-sql-tips
-Title: Spark SQL Tips
+Title: Spark SQL
 Category: Computer Science
 Tags: programming, big data, Spark, Spark SQL
 

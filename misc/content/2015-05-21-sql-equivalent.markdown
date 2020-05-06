@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-05 23:50:13
+Date: 2020-05-06 00:08:25
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -11,19 +11,11 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 
-<style> 
- .table_wrapper{
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-</style>
-**
 
 [SQL translation](https://www.jooq.org/translate/)
 is a great tool that transalte any SQL statement(s) to a different dialetc using the JOOQ Parser.
 
-
+<div style="overflow-x:auto;">
 <table style="width:100%">
   <tr>
     <th> </th>
@@ -275,4 +267,5 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </td>
   </tr>
 </table>
+</div>
 
