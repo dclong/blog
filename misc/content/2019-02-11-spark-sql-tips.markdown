@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-07 12:30:46
+Date: 2020-05-07 12:53:58
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -107,6 +107,60 @@ insert complicated data types
 1. use a dummry table
 2. use with to create a dummy table
 3. put it into insert ... select
+
+    :::sql
+    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) 
+    select 
+        2,
+        "2020-01-01",
+        "0.0.1",
+        "2020-05-01",
+        0.1,
+        0.2,
+        0.3,
+        Array(0.1, 0.2, 0.3),
+        Array(0.2, 0.2, 0.3),
+        Array(0.3, 0.4, 0.4),
+        10,
+        "2020-03-01"
+    ;
+
+    :::sql
+    with dummy as (
+    select 
+        20,
+        "2020-01-01",
+        "0.0.1",
+        "2020-05-01",
+        0.1,
+        0.2,
+        0.3,
+        Array(0.1, 0.2, 0.3),
+        Array(0.2, 0.2, 0.3),
+        Array(0.3, 0.4, 0.4),
+        10,
+        "2020-03-01"
+    )
+    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) 
+    select * from dummy
+    ;
+
+    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) values (
+        110,
+        "2020-01-01",
+        "0.0.1",
+        "2020-05-01",
+        0.1,
+        0.2,
+        0.3,
+        Array(0.1, 0.2, 0.3),
+        Array(0.2, 0.2, 0.3),
+        Array(0.3, 0.3, 0.4),
+        10,
+        "2020-03-01"
+    );
+
+    seems to me that it is not an issue any more ...
 
 https://stackoverflow.com/questions/30446601/hive-inserting-values-to-an-array-complex-type-column
 
