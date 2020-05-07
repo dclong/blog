@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 00:45:31
+Date: 2020-05-06 23:50:31
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -14,13 +14,6 @@ Please read with your own judgement!
 
 [SQL translation](https://www.jooq.org/translate/)
 is a great tool that transalte any SQL statement(s) to a different dialetc using the JOOQ Parser.
-
-    <th> SQLite 3 </th>
-    <th> MySQL </th>
-    <th> Spark/Hive SQL </th>
-    <th> Teradata SQL </th>
-    <th> Oracle SQL </th>
-    <th> MS SQL Server </th>
 
 <div style="overflow-x:auto;">
 <table style="width:100%">
@@ -60,7 +53,10 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> <code> 
-        /*You can query the Hive Metastore DB if you have access.*/
+        /*
+        You can query the Hive Metastore DB 
+        if you have access.
+        */
     </code> </td>
   </tr>
   <tr>
@@ -95,7 +91,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -132,7 +128,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
         show tables
     </code> </td>
@@ -146,11 +142,11 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        select 
-            * 
-        from 
-            dba_tables
-        where 
+        SELECT <br>
+            * <br>
+        FROM <br>
+            dba_tables <br>
+        WHERE <br>
             table_schema = 'current database name'
     </code> </td>
   </tr>
@@ -172,7 +168,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="7"> Describe a table </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        .schema table_name
+        .SCHEMA table_name
     </code> </td>
   </tr>
   <tr>
@@ -182,7 +178,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
         DESCRIBE table_name
     </code> </td>
@@ -223,7 +219,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -274,7 +270,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -308,7 +304,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -341,7 +337,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -368,42 +364,53 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="7"> Limit number of returned rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        select * from table limit 5;
+        SELECT * 
+        FROM table 
+        LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> MySQL </td>
     <td> <code> 
-        SELECT * FROM table_name LIMIT 5;
+        SELECT * 
+        FROM table_name 
+        LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> Spark/Hive SQL </td>
     <td> <code> 
-        SELECT * FROM table_name LIMIT 5;
+        SELECT * 
+        FROM table_name 
+        LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        SELECT TOP 5 * FROM table;
+        SELECT TOP 5 * 
+        FROM table;
     </code> </td>
   </tr>
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        select * from table limit 5;
+        SELECT * 
+        FROM table 
+        LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td rowspan="2"> MS SQL Server </td>
     <td> <code> 
-        select top 5 * from table;
+        SELECT top 5 * 
+        FROM table;
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        select top 50 percent * from table;
+        SELECT top 50 percent * 
+        FROM table;
     </code> </td>
   </tr>
     
@@ -411,13 +418,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="6"> Randomly sample 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        select 
+        SELECT 
             * 
-        from 
+        FROM 
             table 
-        order by 
+        ORDER BY 
             random() 
-        limit 100;
+        LIMIT 100;
     </code> </td>
   </tr>
   <tr>
@@ -426,7 +433,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -435,7 +442,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         <a href="https://docs.teradata.com/reader/2_MC9vCtAJRlKle2Rpb0mA/XTSw8n_~xbTDRIHwHyUiWA"> Teradata SQL </a>
       </td>
     <td> <code> 
-        select * from table sample 100;
+        select * 
+        from table 
+        sample 100;
     </code> </td>
   </tr>
   <tr>
@@ -471,14 +480,16 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        select * from table sample 0.1;
+        select * 
+        from table 
+        sample 0.1;
     </code> </td>
   </tr>
   <tr>
@@ -504,7 +515,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -556,7 +567,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spar/Hive SQL </td>
+    <td> Spark/Hive SQL </td>
     <td> <code> 
     </code> </td>
   </tr>
