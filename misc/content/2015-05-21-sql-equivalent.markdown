@@ -10,6 +10,7 @@ Tags: programming, SQL, database, equivalent, querying
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
+**
 
 
 [SQL translation](https://www.jooq.org/translate/)
@@ -26,24 +27,24 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="9"> List databases/schemas/namespaces </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        .databases
+        .DATABASES
     </code> </td>
   </tr>
   <tr>
     <td> MySQL </td>
     <td> <code> 
-        show databases
+        SHOW DATABASES
     </code> </td>
   </tr>
   <tr>
     <td rowspan="4"> Spark/Hive SQL </td>
     <td> <code> 
-        show databases
+        SHOW DATABASES
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        show databases like "*user*"
+        SHOW DATABASES LIKE "*user*"
     </code> </td>
   </tr>
   <tr>
@@ -53,28 +54,28 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> <code> 
-        /*
-        You can query the Hive Metastore DB 
-        if you have access.
+        /* <br>
+        You can query the Hive Metastore DB <br>
+        if you have access. <br>
         */
     </code> </td>
   </tr>
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        show databases
+        SHOW DATABASES
     </code> </td>
   </tr>
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        show databases
+        SHOW DATABASES
     </code> </td>
   </tr>
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
-        show databases
+        SHOW DATABASES
     </code> </td>
   </tr>
   
@@ -87,7 +88,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> MySQL </td>
     <td> <code> 
-        use database_name
+        USE database_name
     </code> </td>
   </tr>
   <tr>
@@ -98,19 +99,19 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata SQL </td>
     <td rowspan="1"> <code> 
-        use database_name
+        USE database_name
     </code> </td>
   </tr>
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        use database_name
+        USE database_name
     </code> </td>
   </tr>
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
-        use database_name
+        USE database_name
     </code> </td>
   </tr>
     
@@ -118,25 +119,25 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="6"> List all tables in the current/default database/schema/namespace </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        .tables
+        .TABLES
     </code> </td>
   </tr>
   <tr>
     <td> MySQL </td>
     <td> <code> 
-        show tables
+        SHOW TABLES
     </code> </td>
   </tr>
   <tr>
     <td> Spark/Hive SQL </td>
     <td> <code> 
-        show tables
+        SHOW TABLES
     </code> </td>
   </tr>
   <tr>
     <td> Teradata SQL </td>
     <td rowspan="1"> <code> 
-        show tables
+        SHOW TABLES
     </code> </td>
   </tr>
   <tr>
@@ -153,13 +154,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
-        SELECT 
-            table_name 
-        FROM 
-            information_schema.tables 
-        WHERE 
-            table_type = 'BASE TABLE' 
-        AND 
+        SELECT <br> 
+            table_name <br> 
+        FROM <br>
+            information_schema.tables <br>
+        WHERE <br>
+            table_type = 'BASE TABLE' <br>
+        AND <br>
             table_catalog = 'current database name' 
     </code> </td>
   </tr>
@@ -231,24 +232,24 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td rowspan="3"> Oracle SQL </td>
     <td> <code> 
-        /* there is no "owner" column in user_tables,
-           since all tables in user_tables are owned by the current user
-         */
-        SELECT * 
+        /* there is no "owner" column in user_tables, <br>
+           since all tables in user_tables are owned by the current user <br>
+         */ <br>
+        SELECT * <br>
         FROM user_tables;
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        SELECT * 
-        FROM all_tables 
+        SELECT * <br>
+        FROM all_tables <br> 
         WHERE owner = "current_user_name";
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        SELECT * 
-        FROM dba_tables 
+        SELECT * <br>
+        FROM dba_tables <br> 
         WHERE owner = "curent_user_name";
     </code> </td>
   </tr>
@@ -282,7 +283,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        SELECT * 
+        SELECT * <br>
         FROM all_tables;
     </code> </td>
   </tr>
@@ -315,8 +316,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> Oracle SQL </td>
-        select * from dba_tables;
     <td> <code> 
+        SELECT * FROM dba_tables;
     </code> </td>
   </tr>
   <tr>
@@ -350,7 +351,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        IF object_id(table_name) IS NOT NULL THEN 
+        IF object_id(table_name) IS NOT NULL THEN <br>
             DROP TABLE table_name
     </code> </td>
   </tr>
@@ -364,52 +365,52 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="7"> Limit number of returned rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        SELECT * 
-        FROM table 
+        SELECT * <br>
+        FROM table <br>
         LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> MySQL </td>
     <td> <code> 
-        SELECT * 
-        FROM table_name 
+        SELECT * <br>
+        FROM table_name <br> 
         LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> Spark/Hive SQL </td>
     <td> <code> 
-        SELECT * 
-        FROM table_name 
+        SELECT * <br>
+        FROM table_name <br> 
         LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        SELECT TOP 5 * 
+        SELECT TOP 5 * <br>
         FROM table;
     </code> </td>
   </tr>
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        SELECT * 
-        FROM table 
+        SELECT * <br>
+        FROM table <br>
         LIMIT 5;
     </code> </td>
   </tr>
   <tr>
     <td rowspan="2"> MS SQL Server </td>
     <td> <code> 
-        SELECT top 5 * 
+        SELECT TOP 5 * <br> 
         FROM table;
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        SELECT top 50 percent * 
+        SELECT TOP 50 PERCENT * <br> 
         FROM table;
     </code> </td>
   </tr>
@@ -418,12 +419,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="6"> Randomly sample 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        SELECT 
-            * 
-        FROM 
-            table 
-        ORDER BY 
-            random() 
+        SELECT <br>
+            * <br>
+        FROM <br>
+            table <br> 
+        ORDER BY <br>
+            random() <br> 
         LIMIT 100;
     </code> </td>
   </tr>
@@ -442,9 +443,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         <a href="https://docs.teradata.com/reader/2_MC9vCtAJRlKle2Rpb0mA/XTSw8n_~xbTDRIHwHyUiWA"> Teradata SQL </a>
       </td>
     <td> <code> 
-        select * 
-        from table 
-        sample 100;
+        SELECT * <br>
+        FROM table <br>
+        SAMPLE 100;
     </code> </td>
   </tr>
   <tr>
@@ -462,15 +463,15 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="6"> Randomly sample rows with acceptance ratio 0.1 </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        /*
-        Note that `random()` generates a pseudo-random integer 
-        between -9223372036854775808 and +9223372036854775807. 
-        */
-        SELECT 
-            * 
-        FROM 
-            table 
-        WHERE
+        /* <br>
+        Note that `random()` generates a pseudo-random integer <br>
+        between -9223372036854775808 and +9223372036854775807. <br>
+        */ <br>
+        SELECT <br> 
+            * <br>
+        FROM <br>
+            table <br> 
+        WHERE <br>
             random() % 10 = 0;
     </code> </td>
   </tr>
@@ -487,9 +488,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        select * 
-        from table 
-        sample 0.1;
+        SELECT * <br>
+        FROM table <br>
+        SAMPLE 0.1;
     </code> </td>
   </tr>
   <tr>
@@ -522,29 +523,29 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata SQL </td>
     <td> <code> 
-        INSERT INTO table_name (
-            first_name,
-            last_name
-        ) VALUES 
-            ('Fred', 'Smith'),
-            ('John', 'Smith'),
-            ('Michael', 'Smith'),
-            ('Robert', 'Smith')
+        INSERT INTO table_name ( <br>
+            first_name, <br>
+            last_name <br>
+        ) VALUES  <br>
+            ('Fred', 'Smith'), <br>
+            ('John', 'Smith'), <br>
+            ('Michael', 'Smith'), <br>
+            ('Robert', 'Smith') <br>
         ;
     </code> </td>
   </tr>
   <tr>
     <td> Oracle SQL </td>
     <td> <code> 
-        insert into pager (PAG_ID,PAG_PARENT,PAG_NAME,PAG_ACTIVE)
-        select 8000, 0, 'Multi 8000', 1 from dual
-        union all 
-        select 8001, 0, 'Multi 8001', 1 from dual
-        ;
-        -- or
-        INSERT ALL
-        INTO t (col1, col2, col3) VALUES ('val1_1', 'val1_2', 'val1_3')
-        INTO t (col1, col2, col3) VALUES ('val2_1', 'val2_2', 'val2_3')
+        INSERT INTO pager (pag_id, pag_parent, pag_name, pag_active) <br>
+        SELECT 8000, 0, 'Multi 8000', 1 FROM dual <br>
+        UNION ALL  <br>
+        SELECT 8001, 0, 'Multi 8001', 1 FROM dual <br>
+        ; <br>
+        -- or <br>
+        INSERT ALL <br>
+        INTO t (col1, col2, col3) VALUES ('val1_1', 'val1_2', 'val1_3') <br>
+        INTO t (col1, col2, col3) VALUES ('val2_1', 'val2_2', 'val2_3') <br>
         INTO t (col1, col2, col3) VALUES ('val3_1', 'val3_2', 'val3_3')
         ;
     </code> </td>
