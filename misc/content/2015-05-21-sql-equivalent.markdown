@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 00:45:31
+Date: 2020-05-06 22:02:41
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -15,36 +15,80 @@ Please read with your own judgement!
 [SQL translation](https://www.jooq.org/translate/)
 is a great tool that transalte any SQL statement(s) to a different dialetc using the JOOQ Parser.
 
-<div style="overflow-x:auto;">
-<table style="width:100%">
-  <tr>
-    <th> </th>
     <th> SQLite 3 </th>
     <th> MySQL </th>
     <th> Spark/Hive SQL </th>
     <th> Teradata SQL </th>
     <th> Oracle SQL </th>
     <th> MS SQL Server </th>
+
+<div style="overflow-x:auto;">
+<table style="width:100%">
+  <tr>
+    <th> </th>
+    <th> SQL Variant </th>
+    <th> Code </th>
   </tr>
   <tr>
     <td> List databases/schemas/namespaces </td>
-    <td>  
-    </td>
-    <td>  
-        show databases
-    </td>
-    <td>  
-        show databases;
-
-        hdfs dfs -ls /path/to/hive/warehouse
-
-        /*Or you can query the Hive Metastore DB if you have access*/
-
-    </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+        .databases
+    </code> </td>
   </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> MySQL </td>
+    <td> <code> 
+        show databases
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> Spark/Hive SQL </td>
+    <td> <code> 
+        show databases
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> Spark/Hive SQL </td>
+    <td> <code> 
+        hdfs dfs -ls /path/to/hive/warehouse
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> Spark/Hive SQL </td>
+    <td> <code> 
+        /*You can query the Hive Metastore DB if you have access.*/
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> Teradata SQL </td>
+    <td> <code> 
+        show databases
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> Oracle SQL </td>
+    <td> <code> 
+        show databases
+    </code> </td>
+  </tr>
+  <tr>
+    <td> List databases/schemas/namespaces </td>
+    <td> MS SQL Server </td>
+    <td> <code> 
+        show databases
+    </code> </td>
+  </tr>
+</table>
+</div>
+<div style="overflow-x:auto;">
+<table style="width:100%">
   <tr>
     <td> Choose/use a databases/schemas/namespaces </td>
     <td>  

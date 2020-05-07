@@ -1,9 +1,8 @@
-UUID: 7a8e975c-5e12-4204-add5-433e3fb73551
 Status: published
-Date: 2019-03-11 17:55:36
+Date: 2020-05-06 22:08:19
 Author: Ben Chuanlong Du
 Slug: elasticsearch-tips
-Title: Elasticsearch Tips
+Title: Tips on Elasticsearch
 Category: Software
 Tags: software, Elasticsearch, tips, search engine, database
 
