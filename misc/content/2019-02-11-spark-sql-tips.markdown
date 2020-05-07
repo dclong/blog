@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 14:46:29
+Date: 2020-05-07 12:30:46
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -88,6 +88,46 @@ https://www.youtube.com/watch?v=RipzhSw2z70
 https://www.revisitclass.com/hadoop/how-to-create-a-table-with-partitions-in-hive/
 
 https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_create_table.html
+
+## Insert 
+
+https://mapr.com/docs/61/Hive/INSERTINTOnestedMapr-DB-JSONwithHive.html
+
+[Writing Into Dynamic Partitions Using Spark](https://medium.com/a-muggles-pensieve/writing-into-dynamic-partitions-using-spark-2e2b818a007a)
+
+https://dwgeek.com/hive-insert-from-select-statement-and-examples.html/
+
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DML#LanguageManualDML-InsertingvaluesintotablesfromSQL
+
+https://docs.cloudera.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-access/content/new-feature-insert-values-update-delete.html
+
+https://docs.databricks.com/spark/latest/spark-sql/language-manual/insert.html
+
+insert complicated data types
+1. use a dummry table
+2. use with to create a dummy table
+3. put it into insert ... select
+
+https://stackoverflow.com/questions/30446601/hive-inserting-values-to-an-array-complex-type-column
+
+https://community.cloudera.com/t5/Support-Questions/Insert-values-in-Array-data-type-Hive/td-p/120459
+
+
+SET hive.exec.dynamic.partition=true;
+hive> SET hive.exec.dynamic.partition.mode=non-strict;
+hive> SET hive.enforce.bucketing =true;​
+
+## Hive Table Partition
+
+https://www.youtube.com/watch?v=KjJJKgeyXVE
+
+https://bigdataprogrammers.com/partition-in-hive/
+
+https://www.youtube.com/watch?v=biH_l14KGqU
+
+https://www.qubole.com/blog/5-tips-for-efficient-hive-queries/
+
+https://www.javatpoint.com/dynamic-partitioning-in-hive
 
 ## Union
 
