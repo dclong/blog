@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-07 12:53:58
+Date: 2020-05-07 12:54:27
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -145,6 +145,7 @@ insert complicated data types
     select * from dummy
     ;
 
+    :::sql
     insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) values (
         110,
         "2020-01-01",
