@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-07 12:54:27
+Date: 2020-05-08 09:58:54
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -88,6 +88,22 @@ https://www.youtube.com/watch?v=RipzhSw2z70
 https://www.revisitclass.com/hadoop/how-to-create-a-table-with-partitions-in-hive/
 
 https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_create_table.html
+
+    :::sql
+    CREATE TABLE default.cs_itm_text_featr (
+        item_id BigInt,
+        vrsn_id String,
+        prcs_dt String,
+        score_bert Double,
+        score_ebert Double,
+        score_xlnet Double,
+        embd_bert Array<Double>,
+        embd_ebert Array<Double>,
+        embd_xlnet Array<Double>
+    ) PARTITIONED BY (
+        site_id Int,
+        auc_end_dt String
+    );
 
 ## Insert 
 
