@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-08 09:38:46
+Date: 2020-05-08 09:43:11
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -24,7 +24,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <th> Code </th>
   </tr>
   <tr>
-    <td rowspan="9"> List databases/schemas/namespaces </td>
+    <td rowspan="9"> List <br> databases/schemas/namespaces </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .DATABASES
@@ -209,7 +209,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="8"> List all tables owned by the current user </td>
+    <td rowspan="8"> List all tables owned <br> by the current user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -260,7 +260,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables accisble by the current user </td>
+    <td rowspan="6"> List all tables accessible <br> by the current user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -460,7 +460,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly sample rows with acceptance ratio 0.1 </td>
+    <td rowspan="6"> Randomly sample rows <br> with acceptance ratio 0.1 </td>
     <td> SQLite 3 </td>
     <td> <code> 
         /* <br>
