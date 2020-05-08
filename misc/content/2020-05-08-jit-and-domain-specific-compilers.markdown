@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-05-08 01:26:47
+Date: 2020-05-08 09:32:59
 Author: Benjamin Du
 Slug: jit-and-domain-specific-compilers
-Title: Jit and Domain Specific Compilers
+Title: JIT and Domain Specific Compilers
 Category: Computer Science
 Tags: Computer Science, compiler, JIT, domain specific
 
