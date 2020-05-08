@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 23:50:31
+Date: 2020-05-08 09:38:46
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -37,7 +37,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="4"> Spark/Hive SQL </td>
+    <td rowspan="4"> Spark/Hive </td>
     <td> <code> 
         SHOW DATABASES
     </code> </td>
@@ -61,13 +61,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td> <code> 
         SHOW DATABASES
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         SHOW DATABASES
     </code> </td>
@@ -92,18 +92,18 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
         USE database_name
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         USE database_name
     </code> </td>
@@ -129,19 +129,19 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
         SHOW TABLES
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
         SHOW TABLES
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         SELECT <br>
             * <br>
@@ -179,13 +179,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
         DESCRIBE table_name
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Teradata SQL </td>
+    <td rowspan="2"> Teradata </td>
     <td> <code> 
         HELP TABLE table_name;
     </code> </td>
@@ -196,7 +196,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         DESCRIBE table_name
     </code> </td>
@@ -220,17 +220,17 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="3"> Oracle SQL </td>
+    <td rowspan="3"> Oracle </td>
     <td> <code> 
         /* there is no "owner" column in user_tables, <br>
            since all tables in user_tables are owned by the current user <br>
@@ -271,17 +271,17 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         SELECT * <br>
         FROM all_tables;
@@ -305,17 +305,17 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         SELECT * FROM dba_tables;
     </code> </td>
@@ -338,18 +338,18 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td rowspan="1"> <code> 
         DROP TABEL IF EXISTS table_name
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         IF object_id(table_name) IS NOT NULL THEN <br>
             DROP TABLE table_name
@@ -379,7 +379,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
         SELECT * <br>
         FROM table_name <br> 
@@ -387,14 +387,14 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td> <code> 
         SELECT TOP 5 * <br>
         FROM table;
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         SELECT * <br>
         FROM table <br>
@@ -434,13 +434,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
     <td rowspan="1"> 
-        <a href="https://docs.teradata.com/reader/2_MC9vCtAJRlKle2Rpb0mA/XTSw8n_~xbTDRIHwHyUiWA"> Teradata SQL </a>
+        <a href="https://docs.teradata.com/reader/2_MC9vCtAJRlKle2Rpb0mA/XTSw8n_~xbTDRIHwHyUiWA"> Teradata </a>
       </td>
     <td> <code> 
         SELECT * <br>
@@ -449,7 +449,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -481,12 +481,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td> <code> 
         SELECT * <br>
         FROM table <br>
@@ -494,7 +494,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -516,12 +516,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td> <code> 
         INSERT INTO table_name ( <br>
             first_name, <br>
@@ -535,7 +535,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
         INSERT INTO pager (pag_id, pag_parent, pag_name, pag_active) <br>
         SELECT 8000, 0, 'Multi 8000', 1 FROM dual <br>
@@ -568,17 +568,17 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive SQL </td>
+    <td> Spark/Hive </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata SQL </td>
+    <td> Teradata </td>
     <td> <code> 
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle SQL </td>
+    <td> Oracle </td>
     <td> <code> 
     </code> </td>
   </tr>
