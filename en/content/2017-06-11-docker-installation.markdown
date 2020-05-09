@@ -29,9 +29,9 @@ using the commands below.
 
 ## Install Docker in Other Operating Systems
 
-Please refer to the official doc 
-[Docker Engine overview](https://docs.docker.com/install/)
-on how to install Docker in other operating systems.
+Please refer to
+[Install Docker](http://www.legendu.net/en/blog/docker-installation/)
+for instructions on how to install and configure Docker.
 
 ## Configure Docker 
 
