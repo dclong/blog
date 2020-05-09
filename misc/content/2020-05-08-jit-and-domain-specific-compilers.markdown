@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-08 09:32:59
+Date: 2020-05-08 19:48:10
 Author: Benjamin Du
 Slug: jit-and-domain-specific-compilers
 Title: JIT and Domain Specific Compilers
 Category: Computer Science
-Tags: Computer Science, compiler, JIT, domain specific
+Tags: Computer Science, compiler, JIT, domain specific, AI, data science, machine learning, deep learning
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -17,8 +17,13 @@ numba
 Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
 
 
-XLA
+## XLA
 
-TVM
+## TVM
 
-LLVM
+## LLVM
+
+## [MLIR](https://github.com/llvm/llvm-project/tree/master/mlir/)
+
+Multi-Level Intermediate Representation
+
