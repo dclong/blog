@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-28 17:27:21
+Date: 2020-05-09 10:54:46
 Author: Ben Chuanlong Du
 Slug: docker-installation
 Title: Install Docker
@@ -27,9 +27,18 @@ using the commands below.
     sudo apt-get update
     sudo apt-get install docker-ce
 
+## Install Docker in Other Operating Systems
+
+Please refer to the official doc 
+[Docker Engine overview](https://docs.docker.com/install/)
+on how to install Docker in other operating systems.
+
+## Configure Docker 
+
 By default,
 the `docker` command requires `sudo` previlage to run
-which is a little hassle since you have to type `sudo` every time and type your password for `sudo`.
+which is a little hassle since you have to type `sudo` every time 
+and type your password for `sudo`.
 It is suggested that you add yourself into the `docker` group
 so that you can run the `docker` command without `sudo`.
 
@@ -41,9 +50,3 @@ The command `newgrp docker` makes the group `docker` take effect.
 You can confirm by issuing the `id` command.
 If for whatever reason the group `docker` does not take effect,
 logout and then login again to make the group `docker` in effect.
-
-## Install Docker in Other Operating Systems
-
-Please refer to the official doc 
-[Docker Engine overview](https://docs.docker.com/install/)
-on how to install Docker in other operating systems.

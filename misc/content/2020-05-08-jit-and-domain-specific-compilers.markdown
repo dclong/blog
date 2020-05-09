@@ -17,11 +17,11 @@ Please read with your own judgement!
 Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
 
 
-## XLA
+## [XLA](https://www.tensorflow.org/xla)
 
-## TVM
+## [TVM](https://github.com/apache/incubator-tvm)
 
-## LLVM
+## [LLVM](https://github.com/llvm/llvm-project)
 
 ## [MLIR](https://github.com/llvm/llvm-project/tree/master/mlir/)
 
