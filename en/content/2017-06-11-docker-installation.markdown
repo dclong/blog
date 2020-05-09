@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 10:54:46
+Date: 2020-05-09 13:02:13
 Author: Ben Chuanlong Du
 Slug: docker-installation
 Title: Install Docker
@@ -16,6 +16,11 @@ using the following commands.
     sudo apt-get update
     sudo apt-get install docker.io
 
+Configure your docker following instructions in the section 
+[Configure Docker](http://www.legendu.net/en/blog/docker-installation/#configure-docker)
+.
+
+
 ## Install the Latest Version of Docker on Debian Series of Linux Distributions
 
 You can install the latest version of Docker CE 
@@ -26,6 +31,10 @@ using the commands below.
     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
     sudo apt-get update
     sudo apt-get install docker-ce
+
+Configure your docker following instructions in the section 
+[Configure Docker](http://www.legendu.net/en/blog/docker-installation/#configure-docker)
+.
 
 ## Install Docker in Other Operating Systems
 
