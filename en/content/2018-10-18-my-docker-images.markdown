@@ -21,16 +21,9 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
 
 ### Install Docker
 
-You must have Docker installed.
-If you are on Ubuntu,
-the just use the command below to install the community edition of Docker.
-
-    :::bash
-    sudo apt-get install docker.io
-
-If you'd rather install the enterprise edition
-or if you are on other platforms,
-please refer to the offical Docker doc [Install Docker](https://docs.docker.com/install/).
+Please refer to
+[Install Docker](http://www.legendu.net/en/blog/docker-installation/)
+for instructions on how to install and configure Docker.
 
 ### Pull the Docker Image
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 13:08:22
+Date: 2020-05-09 13:13:36
 Author: Ben Chuanlong Du
 Slug: docker-installation
 Title: Install Docker
@@ -20,7 +20,6 @@ Configure your docker following instructions in the section
 [Configure Docker](http://www.legendu.net/en/blog/docker-installation/#configure-docker)
 .
 
-
 ## Install the Latest Version of Docker on Debian Series of Linux Distributions
 
 You can install the latest version of Docker CE 
@@ -38,9 +37,8 @@ Configure your docker following instructions in the section
 
 ## Install Docker in Other Operating Systems
 
-Please refer to
-[Install Docker](http://www.legendu.net/en/blog/docker-installation/)
-for instructions on how to install and configure Docker.
+Please refer to the offical Docker doc [Install Docker](https://docs.docker.com/install/)
+on instruction to install Docker in other operating systems.
 
 Configure your docker following instructions in the section 
 [Configure Docker](http://www.legendu.net/en/blog/docker-installation/#configure-docker)
