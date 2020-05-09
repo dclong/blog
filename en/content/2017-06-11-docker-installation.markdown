@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 13:02:13
+Date: 2020-05-09 13:08:22
 Author: Ben Chuanlong Du
 Slug: docker-installation
 Title: Install Docker
@@ -41,6 +41,10 @@ Configure your docker following instructions in the section
 Please refer to
 [Install Docker](http://www.legendu.net/en/blog/docker-installation/)
 for instructions on how to install and configure Docker.
+
+Configure your docker following instructions in the section 
+[Configure Docker](http://www.legendu.net/en/blog/docker-installation/#configure-docker)
+.
 
 ## Configure Docker 
 
