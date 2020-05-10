@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 14:28:01
+Date: 2020-05-09 19:38:35
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -44,6 +44,18 @@ to add recommendations, object detection, image classification, image similarity
 - Flexible: Supports text, images, audio, video and sensor data
 - Fast and Scalable: Work with large datasets on a single machine
 - Ready To Deploy: Export models to Core ML for use in iOS, macOS, watchOS, and tvOS apps
+
+### [PyCaret](https://github.com/pycaret/pycaret)
+
+PyCaret is an open source `low-code` machine learning library in Python 
+that aims to reduce the hypothesis to insights cycle time in a ML experiment. 
+It enables data scientists to perform end-to-end experiments quickly and efficiently. 
+In comparison with the other open source machine learning libraries, 
+PyCaret is an alternate low-code library 
+that can be used to perform complex machine learning tasks with only few lines of code. 
+PyCaret is essentially a Python wrapper 
+around several machine learning libraries and frameworks 
+such as `scikit-learn`, `XGBoost`, `Microsoft LightGBM`, `spaCy` and many more. 
 
 ### Apache Ray Tune
 

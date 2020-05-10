@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 16:44:20
+Date: 2020-05-09 19:35:29
 Author: Benjamin Du
 Slug: tips-on-pytorch
 Title: Tips on PyTorch
@@ -124,6 +124,12 @@ is a geometric deep learning extension library for PyTorch.
 [PyTorch Hub](https://pytorch.org/hub/) has pretrained deep learning models 
 that anyone can download.
 
+[PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning)
+The lightweight PyTorch wrapper for ML researchers. 
+Scale your models. 
+Write less boilerplate 
+
+Note: PyTorch Lightning is very close to what I've done ...
 
 ## References
 
