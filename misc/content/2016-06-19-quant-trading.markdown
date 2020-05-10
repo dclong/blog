@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 08:33:10
+Date: 2020-05-09 19:32:27
 Author: Ben Chuanlong Du
 Slug: quant-trading
 Title: Quant Trading
@@ -13,6 +13,8 @@ Please read with your own judgement!
 **
 
 ## Open Source Trading Platforms/Projects
+
+[MIT Open Course Ware - Trading](https://ocw.mit.edu/search/ocwsearch.htm?q=trading)
 
 quantos, kungfu, vnpy, RQAlpha2
 

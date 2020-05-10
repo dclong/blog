@@ -1,6 +1,6 @@
 UUID: 07d7f72f-1892-45cf-a97d-34e292608d3a
 Status: published
-Date: 2019-11-23 15:00:46
+Date: 2020-05-09 17:38:45
 Author: Ben Chuanlong Du
 Slug: learning-resources
 Title: Learning Resources
@@ -25,3 +25,6 @@ Please read with your own judgement!
 - [Cheat Sheet](http://www.cheatography.com/)
 - [Cheat Sheet](http://www.addedbytes.com/cheat-sheets/)
 - [LeetCode](http://leetcode.com/)
+
+
+[MIT Open Courses Ware](https://ocw.mit.edu/index.htm)

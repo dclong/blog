@@ -1,9 +1,9 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2015-10-07 20:25:05
+Date: 2020-05-09 19:32:27
 Slug: charlotte-tips
-Title: Charlotte Tips
+Title: Living in Charlotte
 Category: Life
 Tags: Charlotte, tips, life, city, shopping, food, scenic spots
 
