@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 21:52:47
+Date: 2020-05-10 10:04:08
 Author: Ben Chuanlong Du
 Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
@@ -211,7 +211,7 @@ select * from dbc.dbcinfo;
 http://info.teradata.com/htmlpubs/DB_TTU_16_00/index.html#page/Query_Management_Tools/B035-2414-086K/BTEQReturnCodes_USE_2414.html#wwID0EKJNM
 [TeraJDBC 15.10.00.14] [Error 9804] [SQLState HY000] Response Row size or Constant Row size overflow: might be because too large column definition
 using distinct (the result has only about 1,000 rows) causes the following error, how can I avoid the issue? 
-[Teradata Database] [TeraJDBC 15.10.00.22] [Error 2646] [SQLState HY000] No more spool space in chdu.
+[Teradata Database] [TeraJDBC 15.10.00.22] [Error 2646] [SQLState HY000] No more spool space in dclong.
 No More Spool Space http://kedar.nitty-witty.com/blog/no-more-spool-space-teradata-query-solution
 Instead of distinct (which might cause "no more spool space" issue), you can try group by.
 

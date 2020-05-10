@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-12-19 18:43:44
+Date: 2020-05-10 10:04:08
 Slug: hadoop-fs-tips
 Title: Hadoop Filesystem Tips
 Category: Software
@@ -111,7 +111,7 @@ if you intend to overwrite the whole directory.
     is too big to place into the trash directory.
 
         :::bash
-        hdfs dfs -rm -r -skipTrash /tmp/chdu_item_desc
+        hdfs dfs -rm -r -skipTrash /tmp/item_desc
 
 ## Parquet Format
 

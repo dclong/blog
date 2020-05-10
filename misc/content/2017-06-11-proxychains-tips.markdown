@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 22:08:11
+Date: 2020-05-10 10:04:08
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -136,7 +136,7 @@ socks5     127.0.0.1 1080
 
 2. Shell Alias
 
-    > [proxychains] config file found: /home/chdu/.proxychains/proxychains.conf
+    > [proxychains] config file found: /home/dclong/.proxychains/proxychains.conf
     > [proxychains] preloading /usr/local/lib/libproxychains4.so
     > proxychains can't load process....: No such file or directory
 
