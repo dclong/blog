@@ -1,6 +1,5 @@
-UUID: 09f15666-6165-484f-996c-db6110b840b1
 Status: published
-Date: 2017-10-22 12:57:38
+Date: 2020-05-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: maven-dependencies
 Title: Maven Dependencies
@@ -75,14 +74,6 @@ Please read with your own judgement!
     <groupId>org.scalaz</groupId>
     <artifactId>scalaz-core_2.11</artifactId>
     <version>7.2.12</version>
-</dependency>
-```
-
-```XML
-<dependency>
-  <groupId>com.ebay.scalaplatform</groupId>
-  <artifactId>platform-spark_2.11</artifactId>
-  <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 12:02:55
+Date: 2020-05-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
 Title: Tips on JupyterLab
@@ -91,8 +91,6 @@ for more details.
 - https://github.com/jupyter-incubator/declarativewidgets
 - https://github.com/jupyter-incubator/dashboards
 - http://people.duke.edu/~ccc14/sta-663-2016/Customizing_Jupyter.html
-- https://wiki.vip.corp.ebay.com/display/krylov/Jupyterhub
-- https://wiki.vip.corp.ebay.com/display/ShippingTeam/Using+our+Krylov+instances+with+JupyterHub
 - http://ramhiser.com/2015/02/01/configuring-ipython-notebook-support-for-pyspark/
 - https://groups.google.com/forum/#!topic/jupyter/iaaKOeRwyjs
 - https://toree.incubator.apache.org/documentation/user/installation.html

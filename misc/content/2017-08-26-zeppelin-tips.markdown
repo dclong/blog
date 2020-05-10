@@ -1,6 +1,5 @@
-UUID: d17b677f-1974-4936-b77f-d3bc12b6e03d
 Status: published
-Date: 2017-08-26 21:28:53
+Date: 2020-05-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: zeppelin-tips
 Title: Zeppelin Tips
@@ -51,11 +50,6 @@ http://fedulov.website/2015/10/16/export-apache-zeppelin-notebooks/
 1. need to set queue in properties.
 
 2. apply for access to spades!!!
-
-https://wiki.vip.corp.ebay.com/display/HADOOP/Zeppelin
-
-https://wiki.vip.corp.ebay.com/display/HADOOP/Getting+Started+with+Zeppelin
-
 
 1. I verify that clone/rename won't override existing notebook with the same name.
 

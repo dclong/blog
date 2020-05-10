@@ -1,6 +1,5 @@
-UUID: 1582da29-75ae-4fc4-8007-a2768222782f
 Status: published
-Date: 2018-04-30 18:00:03
+Date: 2020-05-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: use-teradata-via-jdbc-in-zeppelin
 Title: Use Teradata via JDBC in Zeppelin
@@ -19,7 +18,7 @@ In order to connect Teradata via jdbc, a few things are needed to config the jdb
 
 1. Set default.user, default.password
 
-2. Set default.url to jdbc:teradata://vivaldi.vip.ebay.com
+2. Set default.url to `jdbc:teradata://server_ip`
 
 3. Import Teradata JDBC driver into Dependencies (the .jar package is attached)
 
@@ -32,7 +31,3 @@ https://www.progress.com/blogs/using-a-jdbc-driver-with-apache-zeppelin
 https://community.mapr.com/docs/DOC-2028-how-to-query-drill-using-zeppelin-on-mapr-cdp-draft
 
 https://zeppelin.apache.org/docs/0.6.2/interpreter/jdbc.html
-
-https://wiki.vip.corp.ebay.com/display/TNSRA/Teradata+and+JDBC
-
-https://wiki.vip.corp.ebay.com/display/~magardner/Python+JDBC+connection+to+Teradata

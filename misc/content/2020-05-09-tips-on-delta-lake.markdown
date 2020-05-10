@@ -14,8 +14,11 @@ Please read with your own judgement!
 ![](https://miro.medium.com/max/1400/1*EQsNOZqNPsx5eelVJRh9jQ.png)
 
 
+[Delta Lake在eBay的实践：Spark SQL增删改查](https://www.slidestalk.com/w/137)
+
 [Table Deletes, Updates, and Merges](https://docs.delta.io/0.4.0/delta-update.html)
 
 [Delta lake , ACID transactions for Apache Spark](https://medium.com/@achilleus/delta-lake-acid-transactions-for-apache-spark-2bf3d919cda)
 
 [Delta Lake quickstart](https://docs.databricks.com/delta/quick-start.html)
+

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 14:44:14
+Date: 2020-05-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -90,10 +90,6 @@ http://stackoverflow.com/questions/34948453/read-teradata-query-into-pandas
 
 
 http://stackoverflow.com/questions/10797794/multiple-queries-executed-in-java-in-single-statement
-
-https://wiki.vip.corp.ebay.com/pages/viewpage.action?pageId=327124647
-
-
 
 http://stackoverflow.com/questions/4493614/sqlalchemy-equivalent-of-pyodbc-connect-string-using-freetds
 

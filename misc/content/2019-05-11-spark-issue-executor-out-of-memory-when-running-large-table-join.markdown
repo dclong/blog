@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-11 02:50:52
+Date: 2020-05-10 10:00:59
 Author: Benjamin Du
 Slug: spark-issue-executor-out-of-memory-when-running-large-table-join
 Title: Spark Issue: Executor Out of Memory When Running Large Table Join
@@ -29,8 +29,8 @@ Dump of the process-tree for container_1459803563374_223497_02_000067 :
 --driver-url spark://CoarseGrainedScheduler@10.115.16.50:35848 --executor-id 33 
 --cores 3 --app-id application_1459803563374_223497 
 --user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/__app__.jar 
---user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/hbase-client-0.98.0-EBAY-21.jar 
---user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/hbase-server-0.98.0-EBAY-21.jar 
+--user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/hbase-client-0.98.0-21.jar 
+--user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/hbase-server-0.98.0-21.jar 
 --user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/datanucleus-api-jdo-3.2.6.jar 
 --user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/datanucleus-core-3.2.10.jar 
 --user-class-path file:/hadoop/6/scratch/local/usercache/dclong/appcache/application_1459803563374_223497/container_1459803563374_223497_02_000067/datanucleus-rdbms-3.2.9.jar 
