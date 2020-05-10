@@ -6,6 +6,12 @@ Title: Tips on Excel
 Category: Software
 Tags: statistics, MS Office, software, Excel, bug, tips
 
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+Please read with your own judgement!
+**
+
+
 ## About Statistics Functions
 
 1. Excel is not a reliable software for statistical analysis. 
