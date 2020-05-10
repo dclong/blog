@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-08 09:58:54
+Date: 2020-05-09 20:27:30
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -13,6 +13,14 @@ Please read with your own judgement!
 
 [Spark SQL Guide](https://docs.databricks.com/spark/latest/spark-sql/index.html)
 
+
+1. Since a Spark DataFrame is immutable,
+    you cannot update or delete records from a physical table (e.g., a Hive table) directly
+    using Spark DataFrame/SQL API.
+    However, 
+    updating/deleting records from a data lake table becomes feasible in Spark
+    with the help of Delta Lake.
+    There are lots of other cool features introduced in Delta Lake too!
 
 0. It is suggested that you use Spark SQL syntax as much as possible 
   instead of the the Spark DataFrame syntax (even though DataFrame provides more static syntax check)
