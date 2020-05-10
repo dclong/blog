@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-08 09:43:11
+Date: 2020-05-10 10:20:11
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -548,6 +548,86 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         INTO t (col1, col2, col3) VALUES ('val2_1', 'val2_2', 'val2_3') <br>
         INTO t (col1, col2, col3) VALUES ('val3_1', 'val3_2', 'val3_3')
         ;
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Update </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark </td>
+    <td> <code> 
+    - not supported as of Spark 2.4.5 <br>
+    - Spark SQL 3.0.0 has update/delete APIs but not implemented <br>
+    - Update/delete is feasible using Detal Lake
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Delete </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark </td>
+    <td> <code> 
+    - not supported as of Spark 2.4.5 <br>
+    - Spark SQL 3.0.0 has update/delete APIs but not implemented <br>
+    - Update/delete is feasible using Detal Lake
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
     </code> </td>
   </tr>
   <tr>
