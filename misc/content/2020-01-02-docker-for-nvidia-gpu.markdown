@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-02 11:49:58
+Date: 2020-05-10 18:53:45
 Author: Benjamin Du
 Slug: docker-for-nvidia-gpu
 Title: Docker for Nvidia GPU
@@ -11,17 +11,8 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-0. You can list all GPU devices using the following command in Linux.
 
-        :::bash
-        lspci -v | grep VGA
-
-1. You can use the command `watch nvidia-smi` or `nvtop` to check the usage of GPU.
-    `nvtop` is recommended 
-    as it presents simple visualizations in addition to the current usage statistics.
-
-        :::bash
-        apt-get install nvtop
+## Instruction on Using Nvidia GPU (CUDA) for Computing in Docker
 
 1. Install Nvidia `cuda-drivers` (or equivalent) on your Linux machine
     following instructions at 
@@ -44,6 +35,16 @@ Please read with your own judgement!
     starting from Docker 19.03.
     Of course, 
     it doesn't hurt to install the package `cuda` which has a whole lot other packages included.
+
+2. Confirm that the CUDA drivers have been installed correctly. 
+
+        :::bash
+        nvidia-smi 
+
+    Notice that if the command `nvidia-smi` is available but raises the error message 
+    "NVIDAI-SMI has failed because it couldn't communicate with the NVIDIA driver. 
+    Make sure that the latest NVIDIA driver is installed and running.",
+    reboot your Ubuntu server and try again.
 
 2. Make sure that you have Docker 19.03+ installed on your Linux machine.
 
@@ -87,6 +88,20 @@ Please read with your own judgement!
     Please refer to 
     [nvidia-docker#usage](https://github.com/NVIDIA/nvidia-docker#usage) 
     for examples.
+
+## General Tips on GPU
+
+0. You can list all GPU devices using the following command in Linux.
+
+        :::bash
+        lspci -v | grep VGA
+
+1. You can use the command `watch nvidia-smi` or `nvtop` to check the usage of GPU.
+    `nvtop` is recommended 
+    as it presents simple visualizations in addition to the current usage statistics.
+
+        :::bash
+        apt-get install nvtop
 
 ## Docker & Ubuntu Repositories
 
