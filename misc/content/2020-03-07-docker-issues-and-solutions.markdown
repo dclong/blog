@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 11:00:12
+Date: 2020-05-17 16:25:12
 Author: Benjamin Du
 Slug: docker-issues-and-solutions
 Title: Docker Issues and Solutions
@@ -29,6 +29,13 @@ It seems that Python multiprocessing shared memory has issues in Docker ...
 
         :::bash
         sudo service docker restart
+
+## Error response from daemon: failed to start shim: exec: "docker-containerd-shim": executable file not found in $PATH: unknown.
+
+Restart docker resolves the issue.
+
+    :::bash
+    sudo service docker restart
 
 ## Error saving credentials: error storing credentials in Ubuntu 18.04 LTS
 
