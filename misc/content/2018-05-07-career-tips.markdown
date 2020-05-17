@@ -1,9 +1,8 @@
-UUID: ae073f18-c8bd-4a20-a1ff-839fb7d3586c
 Status: published
-Date: 2018-05-07 22:32:13
+Date: 2020-05-17 16:52:16
 Author: Ben Chuanlong Du
 Slug: career-tips
-Title: Career Tips
+Title: Tips on Career
 Category: Career
 Tags: career, work, office, tips, salary
 
@@ -14,3 +13,12 @@ Please read with your own judgement!
 **
 
 https://stackoverflow.com/company/salary/calculator
+
+
+https://en.wikipedia.org/wiki/Behavioral_economics
+
+## Bias
+
+http://humanhow.com/en/list-of-cognitive-biases-with-examples/
+
+https://www.cultureamp.com/blog/10-performance-review-biases-and-how-to-avoid-them/

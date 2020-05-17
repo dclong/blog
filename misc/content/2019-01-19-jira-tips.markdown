@@ -1,9 +1,8 @@
-UUID: 1fcc352f-d122-4183-8392-1d887aff9245
 Status: published
-Date: 2019-01-19 10:13:29
+Date: 2020-05-17 16:52:16
 Author: Ben Chuanlong Du
 Slug: jira-tips
-Title: Jira Tips
+Title: Tips on JIRA
 Category: Career
 Tags: Work, JIRA, spider plot
 

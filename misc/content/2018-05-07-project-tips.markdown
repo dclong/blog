@@ -1,9 +1,8 @@
-UUID: 4233953d-2385-4992-958b-83a3d6374627
 Status: published
-Date: 2018-05-07 22:37:28
+Date: 2020-05-17 16:52:16
 Author: Ben Chuanlong Du
 Slug: project-tips
-Title: Project Tips
+Title: Tips on Project Management
 Category: Career
 Tags: career, project, tips, acronym, project management
 
@@ -22,6 +21,8 @@ Please read with your own judgement!
 
 3. [trello](https://trello.com)
 <http://lifehacker.com/how-to-use-trello-to-organize-your-entire-life-1683821040?utm_source=pocket&utm_medium=email&utm_campaign=pockethits>
+
+4. Miro
 
 ## Acronyms
 
