@@ -1,6 +1,5 @@
-UUID: 00f6124a-aa41-4987-8f93-2b2164a28042
 Status: published
-Date: 2017-12-31 15:57:09
+Date: 2020-05-17 11:47:48
 Author: Ben Chuanlong Du
 Slug: work-with-teradata-sql-in-python
 Title: Work With Teradata SQL in Python

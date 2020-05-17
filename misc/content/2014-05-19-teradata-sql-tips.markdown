@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:04:08
+Date: 2020-05-17 11:47:48
 Author: Ben Chuanlong Du
 Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
@@ -169,42 +169,46 @@ identity, auto increment]:
 ### Create an Empty Table
 
 You can manually specify the structure of the table.
-```SQL
-create table A /*no as here*/(
-    a integer,
-    b char(20),
-    c decimal(12,3),
-    d date
-)
-;
-```
 
-Or you if there is an table (e.g., B) of the same structure,
-you can
-```SQL
-create table A as B
-with no data;
-```
+    :::sql
+    CREATE TABLE t1 /*no as here*/ (
+        a Integer,
+        b Char(20),
+        c Decimal(12,3),
+        d Date
+    )
+    ;
+
+If there is an existing table `t1` 
+and you want to create another table `t2` with the same schema,
+you can use
+
+    :::sql
+    CREATE TABLE t2 AS t1
+    WITH NO DATA;
+
 or
-```SQL
-create table A as /*as cannot be omitted here*/(
-    select * from B
-)
-with no data
-primary index (id)
-;
-```
+
+    :::sql
+    CREATE TABLE t2 as /*as cannot be omitted here*/ (
+        SELECT * FROM t1
+    )
+    WITH NO DATA
+    PRIMARY INDEX (id)
+    ;
+
 Notice that the syntax of Teradata SQL is different from other SQL languages
 when creating a table using a select clause.
-You have to end the statement with `with data;` or `with no data;`.
-`with data` means that you want to append the selected records into the created table
-while `with no data` creates an empty table.
+You have to specify either `WITH DATA` or `WITH NO DATA`.
+`WITH DATA` means that you want to append the selected records into the created table
+while `WITH NO DATA` creates an empty table.
 
 ## Database Information
+
 1. Get version of Teradata SQL.
-```SQL
-select * from dbc.dbcinfo;
-```
+
+    :::sql
+    SELECT * FROM dbc.dbcinfo;
 
 ## Error Code
 
@@ -216,6 +220,7 @@ No More Spool Space http://kedar.nitty-witty.com/blog/no-more-spool-space-terada
 Instead of distinct (which might cause "no more spool space" issue), you can try group by.
 
 ## Error Message
+
 1. unknown error, probably network issue
 
 2. Error code 3754: precision error, character, numeric, .. -> float ...
@@ -225,15 +230,13 @@ Instead of distinct (which might cause "no more spool space" issue), you can try
 Be careful when you work with date in SQL.
 A non-exist date can result in tricky errors.
 For example (note that `2016-09-31` does not exist)
-```SQL
-where dt between '2016-09-01' and '2016-09-31'  
-```
+
+    :::sql
+    WHERE dt BETWEEN '2016-09-01' AND '2016-09-31'  
+
 in Teradata throws the error message "a character string failed to convert to a numeric value".
 
-
-
 ## References
-
 
 http://www.dwhpro.com/teradata-golden-tuning-tipps-2017/
 
