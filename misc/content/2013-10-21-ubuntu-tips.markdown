@@ -54,4 +54,11 @@ Please read with your own judgement!
 
 1. openvpn
 
+## Check Whether a Ubuntu Server Has a Desktop Installed
 
+Look at 
+Check the directory `/usr/share/xsessions/` to see 
+if there are any X sessions available on the Ubuntu server.
+
+    :::bash
+    ls /usr/share/xsessions/
