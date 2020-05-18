@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:20:11
+Date: 2020-05-17 17:15:36
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -623,6 +623,40 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata </td>
     <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Insert </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    INSERT INTO some_table <br>
+    SELECT * FROM another_table
     </code> </td>
   </tr>
   <tr>
