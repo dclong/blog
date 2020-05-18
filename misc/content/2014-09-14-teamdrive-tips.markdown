@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2017-06-11 09:57:48
+Date: 2020-05-18 08:12:57
 Author: Ben Chuanlong Du
 Slug: teamdrive-tips
-Title: TeamDrive Tips
+Title: Tips on TeamDrive
 Category: Software
 Tags: software, teamdrive, tips, synchronization, cloud, backup
 
@@ -15,6 +14,7 @@ Please read with your own judgement!
 
 0. fix a startup issue
 
+        :::bash
         LIBGL_DRI3_DISABLE=1 /usr/bin/synqion
 
 1. TeamDrive 4 asking users to buy a commerical license frequently,
@@ -22,11 +22,11 @@ Please read with your own judgement!
     It is suggested that you stay with TeamDrive 3 as long as it is supported. 
  
 0. teamdrive on phone, if you use "available offline", update might not take effect ...
-if you encounter a problem, just uncheck available offline ...
+    if you encounter a problem, just uncheck available offline ...
 
 1. TeamDrive clients might show more space usage than the web dashboard. 
-It's because the clients counts everything watched locally including old versions
-while the web only shows the true space usage. 
+    It's because the clients counts everything watched locally including old versions
+    while the web only shows the true space usage. 
 
 2. TeamDrive does not sync symbolic links currently!!
 
@@ -57,13 +57,13 @@ also restore space ...
 
 
 1. It seems that TeamDrive ignores symbolic links ...
-Is possible to keep symbolic links? Just keep these files, don't copy content ...
-Similarly, to Dropbox? At least should give options ...
+    Is possible to keep symbolic links? Just keep these files, don't copy content ...
+    Similarly, to Dropbox? At least should give options ...
 
 3. How to let TeamDrive show up in the notification aera in Ubuntu?
 
 5. You can check in virtual machine to see whether a local config file works.
-Contact support first.
+    Contact support first.
 
 16. you should sync the filter files, let ... point to local ...
 
