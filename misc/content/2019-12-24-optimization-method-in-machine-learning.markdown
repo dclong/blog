@@ -30,7 +30,8 @@ Instead of adapting the parameter learning rates based on the average first mome
 
 Specifically, the algorithm calculates an exponential moving average of the gradient and the squared gradient, and the parameters beta1 and beta2 control the decay rates of these moving averages.
 
-The initial value of the moving averages and beta1 and beta2 values close to 1.0 (recommended) result in a bias of moment estimates towards zero. This bias is overcome by first calculating the biased estimates before then calculating bias-corrected estimates.
+The initial value of the moving averages and beta1 and beta2 values close to 1.0 (recommended) result in a bias of moment estimates towards zero. 
+This bias is overcome by first calculating the biased estimates before then calculating bias-corrected estimates.
 
 ### SGD + Nestrov Momentum
 
