@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-08 20:07:36
+Date: 2020-05-17 18:28:43
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -33,6 +33,8 @@ is available.
 [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 [Extensions for VS Code Compatible Editors](https://open-vsx.org/)
+
+[SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
 
 
 

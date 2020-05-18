@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 18:11:30
+Date: 2020-05-17 18:29:37
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -53,6 +53,8 @@ https://github.com/cdr/code-server/issues/924
 https://github.com/cdr/sshcode
 
 ## References
+
+[VSCode Server Guidance](https://github.com/cdr/code-server/blob/master/doc/guide.md)
 
 https://dev.to/babak/how-to-run-vs-code-on-the-server-3c7h
 
