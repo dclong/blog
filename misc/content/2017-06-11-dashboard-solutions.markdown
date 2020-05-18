@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 17:44:37
+Date: 2020-05-17 18:33:06
 Author: Ben Chuanlong Du
 Slug: dashboard-solutions
 Title: Dashboard Solutions
@@ -26,6 +26,8 @@ Notice that voila works with ipywidgets only currently.
 It does not work with Bokeh/HoloViews currently.
 
 https://github.com/QuantStack/voila/issues/244
+
+[MavenWorks](https://github.com/Mavenomics/MavenWorks)
 
 ## [Redash](https://github.com/getredash/redash)
 
