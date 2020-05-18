@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 11:47:48
+Date: 2020-05-17 17:12:17
 Author: Ben Chuanlong Du
 Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
@@ -218,6 +218,8 @@ using distinct (the result has only about 1,000 rows) causes the following error
 [Teradata Database] [TeraJDBC 15.10.00.22] [Error 2646] [SQLState HY000] No more spool space in dclong.
 No More Spool Space http://kedar.nitty-witty.com/blog/no-more-spool-space-teradata-query-solution
 Instead of distinct (which might cause "no more spool space" issue), you can try group by.
+
+[Teradata Database Messages](https://docs.teradata.com/reader/bBJcqMYyoxECDlJRAz9Dgw/KE7j~J_ETi90ztaPV959YA)
 
 ## Error Message
 
