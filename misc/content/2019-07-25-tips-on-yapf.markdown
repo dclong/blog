@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-09-16 22:12:27
+Date: 2020-05-17 17:29:44
 Author: Benjamin Du
 Slug: tips-on-yapf
 Title: Tips on yapf
@@ -22,6 +22,7 @@ Please read with your own judgement!
         [style]
         # YAPF uses the feacebook style
         based_on_style = facebook
+        column_limit = 88
 
     YAPF searches for the formatting style in the following manner:
     1. Specified on the command line
