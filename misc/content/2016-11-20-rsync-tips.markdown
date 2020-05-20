@@ -145,3 +145,5 @@ It is probably because the remote diretory does not exist.
 https://askubuntu.com/questions/625085/rsync-over-ssh-error-in-protocol-data-stream-code-12-ssh-works
 
 https://gist.github.com/KartikTalwar/4393116
+
+[rsync: how can I configure it to create target directory on server?](https://stackoverflow.com/questions/1636889/rsync-how-can-i-configure-it-to-create-target-directory-on-server)
