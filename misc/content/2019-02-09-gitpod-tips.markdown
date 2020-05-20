@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 10:54:21
+Date: 2020-05-20 09:49:30
 Author: Benjamin Du
 Slug: gitpod-tips
 Title: Tips on Gitpod
@@ -18,6 +18,9 @@ Please read with your own judgement!
 2. customized layers are supported
 
 3. browser plugins are available for Chrome, Firefox, etc.
+
+4. support installling VS Code extensions (*.vsix) by drag and drop.
+    Installing from VS Code Marketplace is not supported at this time.
 
 ## References
 

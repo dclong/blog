@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-28 22:25:49
+Date: 2020-05-20 09:49:30
 Author: Ben Chuanlong Du
 Slug: cloud-ide
 Title: Cloud IDE
@@ -11,6 +11,7 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
 ## [VS Code Server](https://github.com/cdr/code-server)
 
 ## [GitPod](https://gitpod.io/)
@@ -39,6 +40,9 @@ https://github.com/theia-ide/theia
 2. Debugging is not supported currently but under active development.
 
 3. best to mount a directory that has mode 777
+
+4. support installling VS Code extensions (*.vsix) by drag and drop.
+    Installing from VS Code Marketplace is not supported at this time.
 
 [Enable username/password for Theia](https://github.com/theia-ide/theia-apps/issues/167)
 
