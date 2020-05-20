@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 19:38:35
+Date: 2020-05-20 09:46:33
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -90,6 +90,11 @@ It is like GitHub for data science and machine learning.
 Kaggle
 
 transformers
+
+## Experiment Tracking
+[neptune-client](https://github.com/neptune-ai/neptune-client)
+
+wandb, fitlog, runx
 
 ## References
 
