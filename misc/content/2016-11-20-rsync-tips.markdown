@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-26 18:02:21
+Date: 2020-05-20 14:04:56
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
@@ -32,6 +32,25 @@ Please read with your own judgement!
     so that you can resume from break-point if rsync is interrupted.
     This is **really useful** 
     if you use rsync to transfer large files over unstable network.
+
+3. You can specify the option `--relative` to ask `rsync` to create missing directories
+    in order to keep the same directory structure.
+    For example,
+    suppose you want to copy the content of the directory `/new/x/y/z/` (of a machine) 
+    to `/pre_existing/dir/` (on another machine)
+    and you want keep the directory structure 
+    (that is you want the content to be copied to `/pre_existing/dir/new/x/y/z/` instead of `/pre_existing/dir/`),
+    you can use the following comamnd.
+
+        :::bash
+        rsync -a --relative /new/x/y/z/ user@remote:/pre_existing/dir/
+
+    And if you want to have `y/z/` created but not inside `new/x/`
+    (i.e., copy the content to `/pre_existing/dir/y/z/`), 
+    you can add `./` where you want `--relative` to begin.
+
+        :::bash
+        rsync -a --relative /new/x/./y/z/ user@remote:/pre_existing/dir/
 
 ## Examples
 
