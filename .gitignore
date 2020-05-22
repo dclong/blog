@@ -14,3 +14,5 @@ misc/cache
 outdated/output
 outdated/cache
 dask-worker-space/
+derby.log
+metastore_db/
