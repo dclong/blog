@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-05-10 10:00:59
+Date: 2020-05-22 16:07:50
 Author: Ben Chuanlong Du
 Slug: zeppelin-tips
-Title: Zeppelin Tips
+Title: Tips on Zeppelin
 Category: Software
 Tags: software, zeppelin, notebook
 
@@ -13,9 +13,8 @@ Please read with your own judgement!
 **
 
 1. Zepplin notebook directory,
-if you want to move notebooks to another machine,
-must place them into the notebook directory.
-
+    if you want to move notebooks to another machine,
+    must place them into the notebook directory.
 
 2. %sh interpreter is useful!!!
 
@@ -61,7 +60,7 @@ Questions
 
 3. how to design a dashboard? check Zeppelin doc ...
 4. Does Zeppelin support a separate dashboard server? Ask question in the slack channel
-zeppelin, local repository?
+    zeppelin, local repository?
 
 
 3. what is Helium?

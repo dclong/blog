@@ -1,7 +1,7 @@
 Status: published
-Title: Markdown Tips
 Author: Ben Chuanlong Du
-Date: 2020-05-03 08:06:28
+Date: 2020-05-22 16:07:12
+Title: Writing Docs Using Markdown
 Slug: markdown-tips
 Category: Computer Science
 Tags: programming, markdown, LaTeX, equation, tips

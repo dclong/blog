@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-04-21 12:51:38
+Date: 2020-05-22 16:09:08
 Author: Ben Chuanlong Du
 Slug: py4jdbc-tips
-Title: py4jdbc Tips
+Title: Connecting to Databases Using py4jdbc in Python
 Category: Computer Science
 Tags: programming, Python, py4jdbc, JDBC
 
