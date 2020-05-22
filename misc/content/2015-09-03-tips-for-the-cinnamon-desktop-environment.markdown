@@ -1,9 +1,8 @@
-UUID: 9571686c-a2a1-43b2-8131-5d42376839ad
 Status: published
-Date: 2015-09-03 09:47:35
+Date: 2020-05-22 14:11:28
 Author: Ben Chuanlong Du
+Title: The Cinnamon Desktop Environment for Linux
 Slug: tips-for-the-cinnamon-desktop-environment
-Title: Tips for the Cinnamon Desktop Environment
 Category: Software
 Tags: software, tips, Cinnamon, desktop environment
 

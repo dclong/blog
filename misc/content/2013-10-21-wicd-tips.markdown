@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Wicd Tips
-Date: 2016-07-13 21:54:44
+Date: 2020-05-22 14:40:58
+Title: Managing Wireeless Network Using Wicd
 Slug: wicd-tips
 Category: Software
 Tags: tips, wicd, network, Linux
@@ -12,4 +11,5 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
  
-1. By defualt wicd doesn't know the name of wireless card, wicd preference, wireless name, and then wicd is able to find wireless networks ...
+1. By defualt wicd doesn't know the name of wireless card, 
+    wicd preference, wireless name, and then wicd is able to find wireless networks ...

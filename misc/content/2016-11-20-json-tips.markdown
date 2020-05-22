@@ -1,9 +1,8 @@
-UUID: c11d50ac-adf3-45df-8e2d-6fd16fe8ea01
 Status: published
-Date: 2019-05-02 22:41:41
+Date: 2020-05-22 15:40:20
 Author: Ben Chuanlong Du
+Title: Tips on JSON
 Slug: json-tips
-Title: JSON Tips
 Category: Computer Science
 Tags: database, JSON, tips
 
@@ -17,7 +16,7 @@ Please read with your own judgement!
 
 ## References
 
-- [Jason](http://www.jquery4u.com/json/10-online-json-tools/)
+- [10 Online JSON Tools](http://www.jquery4u.com/json/10-online-json-tools/)
 
 http://json-schema.org/implementations.html
 

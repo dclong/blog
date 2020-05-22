@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-09-23 22:22:48
+Date: 2020-05-22 15:45:00
 Author: Benjamin Du
+Title: Static Type Checking of Python Using Mypy
 Slug: mypy-tips
-Title: Mypy Tips
 Category: Computer Science
 Tags: programming, Python, mypy, tips
 
@@ -10,8 +10,6 @@ Tags: programming, Python, mypy, tips
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-
 
 
 --check-untyped-defs

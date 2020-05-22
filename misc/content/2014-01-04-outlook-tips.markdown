@@ -1,50 +1,48 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2017-01-02 22:18:56
+Date: 2020-05-22 13:57:10
+Title: Tips on Outlook
 Slug: outlook-tips
-Title: Outlook Tips
 Category: Software
 Tags: software, outlook, tips, email client
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**
  
-
-
 ## Tips
 
 1. Use the "Schedule Assistant" to check other people's schedules.
 
 2. Message rules are very helpful for managing your emails. 
-It is like "message filters" in Thunderbird. 
-To create a message rule in Outlook 2007,
-		1. Click the "Tools" menu.
-		2. Click "Rules and Alerts...". 
-		3. Select the "Email Rules" Tab.
-		4. Click "New Rule...".
-		5. Choose a message rule template and follow the instructions.
-		6. Do not forget to click "Apply" or "OK" after you are done! 
+    It is like "message filters" in Thunderbird. 
+    To create a message rule in Outlook 2007,
+
+    1. Click the "Tools" menu.
+    2. Click "Rules and Alerts...". 
+    3. Select the "Email Rules" Tab.
+    4. Click "New Rule...".
+    5. Choose a message rule template and follow the instructions.
+    6. Do not forget to click "Apply" or "OK" after you are done! 
         Otherwise, the message rule won't be saved.
 
 3. To create a signature in Outlook 2007,
-		1. Click the "Tools" menu.
-		2. Click "Options".
-		3. Select the "Mail Format" tab.
-		4. Click "Signatures..." in the Signature group and follow the intructions.
+    1. Click the "Tools" menu.
+    2. Click "Options".
+    3. Select the "Mail Format" tab.
+    4. Click "Signatures..." in the Signature group and follow the intructions.
 
 4. You can use `Ctrl` + `Scroll` to zoom in/out an email message.
 
 5. If you send an email to someone and like to send another follow-up before he/seh replies you,
-you cannot use the "Reply" functionality directly as Outlook will send the follow-up to yourself.
-One way to work around this is to "Reply to All". 
-However, this will include yourself in the recipient list. 
-You can manually remove yourself from the recipient list or simply ignore the email.
+    you cannot use the "Reply" functionality directly as Outlook will send the follow-up to yourself.
+    One way to work around this is to "Reply to All". 
+    However, this will include yourself in the recipient list. 
+    You can manually remove yourself from the recipient list or simply ignore the email.
 
 3. outlook, need password problem
-switching network caused the problem
-it is suggested that you use the wireless network because it's available everywhere in the office. 
-If you use the wired network, you might encouter problems if you take your laptop to a meeting (using wireless network) and then take it back to use wired network.
+    switching network caused the problem
+    it is suggested that you use the wireless network because it's available everywhere in the office. 
+    If you use the wired network, you might encouter problems if you take your laptop to a meeting (using wireless network) and then take it back to use wired network.
 
 ## Categories
 
@@ -75,7 +73,7 @@ support gmail-style search : from: tu, chuanyu has:attachments
 
 ## Mac
 1. even though I don't know how to create sub folders under Inbox in outlook in Mac, 
-you can do this in Windows, and those folders will be synced
+    you can do this in Windows, and those folders will be synced
 
 ## Shortcuts
 

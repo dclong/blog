@@ -1,8 +1,8 @@
 Status: published
-Date: 2014-12-26 11:05:43
+Date: 2020-05-22 13:13:55
 Author: Ben Chuanlong Du
+Title: Tips on Goldendict
 Slug: goldendict-tips
-Title: Goldendict Tips
 Category: Software
 Tags: software, Goldendict, dictionary, tips
 

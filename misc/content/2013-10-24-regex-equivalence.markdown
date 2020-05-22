@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-06 00:33:17
+Date: 2020-05-22 15:34:56
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -765,3 +765,7 @@ word boundry is a super set of white spaces.
 while `\w` contains not only letters and numbers but also some special character such as `_`. 
 So in short `\w` is a super set of `[[:alnum:]]`.
 
+
+## References
+
+[Regular Expression in Bash](http://www.legendu.net/misc/blog/regular-expression-in-bash/)

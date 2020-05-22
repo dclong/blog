@@ -1,0 +1,12 @@
+Status: published
+Author: Ben Chuanlong Du
+Title: Tips on Xfce
+Date: 2019-08-27 09:01:08
+Slug: xfce-tips
+Category: Software
+Tags: tips
+
+**
+Things on this page are fragmentary and immature notes/thoughts of the author. 
+Please read with your own judgement!
+**

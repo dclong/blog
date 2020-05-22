@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-02-22 20:04:59
+Date: 2020-05-22 15:25:07
 Author: Benjamin Du
+Title: Tips on GetPocket
 Slug: getpocket-tips
-Title: Getpocket Tips
 Category: Software
 Tags: software, getpocket, pocket, tips
 

@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-04-12 21:52:47
-Title: SQL Questions
+Date: 2020-05-22 14:48:00
+Title: Questions on SQL
 Slug: sql-questions
 Category: Computer Science
 Tags: programming, SQL, questions

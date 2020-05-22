@@ -1,8 +1,8 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-05-01 00:39:51
+Date: 2020-05-22 15:40:46
+Title: Tips on MobaXterm
 Slug: MobaXterm-tips
-Title: MobaXterm Tips
 Category: Software
 Tags: software, MobaXterm, tips, Linux, virtualization
 

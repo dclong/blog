@@ -1,11 +1,10 @@
-UUID: ad4c460d-c4f5-4857-8517-e9450238d8ad
 Status: published
-Date: 2015-04-19 19:04:14
+Date: 2020-05-22 13:58:39
 Author: Ben Chuanlong Du
+Title: Debug C/C++ Code Using GDB
 Slug: gdb-tips
-Title: GDB Tips
 Category: Computer Science
-Tags: programming, C++, C, debug, GDB
+Tags: programming, C++, C, debug, GDB, cpp
 
 **
 Things on this page are
@@ -16,8 +15,13 @@ Please read with your own judgement!
 1. lines use : while functions use ::
 
 2. use relative path from the executable to implementation files!!!
-```GDB
-b ../../tree.cpp:31 if knot->name()=="GO:0006139"
-```
+
+        :::gdb
+        b ../../tree.cpp:31 if knot->name()=="GO:0006139"
+
 3. it seems that there is a bug in GDB? 
-Sometimes the results of running an executable directly and within GDB are different!
+    Sometimes the results of running an executable directly and within GDB are different!
+
+## References
+
+<http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html>

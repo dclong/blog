@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-03-28 18:49:13
+Date: 2020-05-22 15:28:37
 Author: Benjamin Du
 Slug: a-collection-of-cheatsheets
-Title: a Collection of Cheatsheets
+Title: A Collection of Cheatsheets
 Category: Computer Science
 Tags: programming
 

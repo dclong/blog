@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-04-10 22:33:13
+Date: 2020-05-22 15:38:33
 Author: Benjamin Du
 Slug: general-tips-for-logging
-Title: General Tips for Logging
+Title: General Tips on Logging
 Category: Computer Science
 Tags: programming, logging, log
 

@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-09-17 00:39:53
+Date: 2020-05-22 15:46:05
 Author: Ben Chuanlong Du
 Slug: sports-tips
-Title: Sports Tips
+Title: Tips on Sports
 Category: Life
 Tags: life, sports, tennis, racket braiding, tip
 

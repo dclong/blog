@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-08-27 09:09:03
+Date: 2020-05-22 15:43:18
 Author: Ben Chuanlong Du
 Slug: pelican-tips
-Title: Pelican Tips
+Title: Generate Static Site Using Pelican
 Category: Computer Science
 Tags: programming, Pelican, blog, formula, dollar sign
 

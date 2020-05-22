@@ -1,9 +1,8 @@
-UUID: 5fa2d601-2522-4542-9f35-1a3216cfcdcb
 Status: published
-Date: 2016-03-05 22:17:35
+Date: 2020-05-22 14:19:47
 Author: Ben Chuanlong Du
 Slug: airline-tips
-Title: Airline Tips
+Title: Tips on Airlines
 Category: Life
 Tags: life, airline, China Eastern Airlines, 中国东方航空
 

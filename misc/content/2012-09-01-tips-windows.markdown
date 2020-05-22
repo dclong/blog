@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2014-12-16 20:04:38
-Slug: tips-windows
+Date: 2020-05-22 13:24:45
 Author: Ben Chuanlong Du
-Title: Tips for Windows Operating System
+Title: Windows Operating System
+Slug: tips-windows
 Category: OS
 Tags: tips, anti-virus, Windows, Dropbox, OS
 

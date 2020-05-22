@@ -1,9 +1,8 @@
-UUID: e5321142-cc73-4331-8a08-2e9a2f2db4ca
 Status: published
-Date: 2017-10-22 13:21:25
+Date: 2020-05-22 15:06:10
 Author: Ben Chuanlong Du
+Title: Connect to MySQL Using PyMySQL
 Slug: pymysql-tips
-Title: PyMySQL Tips
 Category: Computer Science
 Tags: programming, PyMySQL, tips, Python
 
@@ -22,8 +21,9 @@ sudo pip3 install PyMySQL
 ## Tricks
 
 1. Connection in PyMySQL is not autocommit by default. 
-You must commit to save your changes.
+    You must commit to save your changes.
 
+        :::python
         # suppose conn is the connection object
         conn.commit()
 

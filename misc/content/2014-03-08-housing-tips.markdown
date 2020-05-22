@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-06-04 16:26:14
+Date: 2020-05-22 14:23:43
+Title: Tips on Housing
 Slug: housing-tips
-Title: Housing Tips
 Category: Life
 Tags: life, housing, tips, rent, apartment
 

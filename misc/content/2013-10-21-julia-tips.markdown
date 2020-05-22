@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Title: Tips on the Julia Programming Language
-Date: 2016-07-13 21:45:58
+Title: Rising of the Julia Programming Language
+Date: 2020-05-22 14:42:49
 Slug: julia-tips
 Category: Computer Science
 Tags: tips, programming, Julia

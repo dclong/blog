@@ -1,9 +1,8 @@
-UUID: 7aa272ee-5add-40ba-9303-ae782352a1c9
 Status: published
-Date: 2017-05-24 21:10:22
+Date: 2020-05-22 15:01:09
 Author: Ben Chuanlong Du
+Title: Tips on Python Flask
 Slug: python-flask-tips
-Title: Python Flask Tips
 Category: Computer Science
 Tags: programming, Python, Flask
 

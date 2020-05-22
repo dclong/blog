@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-09-17 09:09:12
+Date: 2020-05-22 13:31:43
 Author: Ben Chuanlong Du
 Slug: traveling-tips
-Title: Traveling Tips
+Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage
 

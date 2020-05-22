@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-06-06 18:30:24
+Date: 2020-05-22 13:23:44
 Slug: smart-phone-tips
-Title: Smart Phone Tips
+Title: Tips on Smart Phone
 Category: Life
 Tags: life, smart phone, tips
 

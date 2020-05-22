@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2014-02-28 09:33:44
+Date: 2020-05-22 12:34:42
+Title: Tips on Basket in KDE 
 Slug: basket-tips
-Title: Basket Tips
 Category: Software
-Tags: software, basket, tips, notes
+Tags: software, basket, tips, notes, KDE
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

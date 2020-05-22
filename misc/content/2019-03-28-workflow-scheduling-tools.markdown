@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-03-28 18:42:55
+Date: 2020-05-22 15:29:14
 Author: Benjamin Du
 Slug: workflow-managing-tools
-Title: Workflow managing Tools
+Title: Workflow Managing Tools
 Category: Computer Science
 Tags: programming, workflow manager, scheduling, scheduler, Apache Airflow, mara, Azkaban, StackStorm
 

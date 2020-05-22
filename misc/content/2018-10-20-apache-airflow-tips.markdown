@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-04-20 02:19:54
+Date: 2020-05-22 15:36:39
 Author: Ben Chuanlong Du
+Title: Job Scheduling and Management Using Apache Airflow
 Slug: apache-airflow-tips
-Title: Apache Airflow Tips
 Category: Computer Science
 Tags: programming, Apache AirFlow, workflow, scheduler, scheduling
 

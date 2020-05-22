@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-02-08 11:36:33
 Author: Ben Chuanlong Du
+Date: 2020-05-22 13:45:17
+Title: Record Computer Screen using RecordMyDesktop
 Slug: recordmydesktop-tips
-Title: RecordMyDesktop Tips
 Category: Software
 Tags: software, RecordMyDesktop, tips
 

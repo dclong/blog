@@ -1,20 +1,13 @@
 Status: published
-Date: 2019-03-11 22:33:57
+Date: 2020-05-22 15:30:47
 Author: Ben Chuanlong Du
 Slug: pycharm-tip
-Title: Pycharm Tip
+Title: Python Developing in PyCharm
 Category: Software
 Tags: software, PyCharm, Python, IDE
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 

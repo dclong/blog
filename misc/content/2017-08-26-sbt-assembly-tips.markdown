@@ -1,9 +1,8 @@
-UUID: 88e17654-41cf-4b29-9b9d-9e3ad8de3299
 Status: published
-Date: 2017-08-26 19:45:07
+Date: 2020-05-22 15:03:24
 Author: Ben Chuanlong Du
+Title: Tips on sbt Assembly
 Slug: sbt-assembly-tips
-Title: sbt Assembly Tips
 Category: Computer Science
 Tags: programming, Scala, sbt, sbt-assembly
 

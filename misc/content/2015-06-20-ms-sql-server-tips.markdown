@@ -1,9 +1,8 @@
-UUID: 52be5744-872f-4398-a7a0-12f68bad37a8
 Status: published
-Date: 2015-06-20 21:36:25
+Date: 2020-05-22 14:05:53
 Author: Ben Chuanlong Du
+Title: Tips on MS SQL Server
 Slug: ms-sql-server-tips
-Title: MS SQL Server Tips
 Category: Computer Science
 Tags: programming, SQL, tips, MS SQL Server
 

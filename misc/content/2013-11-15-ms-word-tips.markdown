@@ -1,7 +1,7 @@
 Status: published
-Title: MS Word Tips
 Author: Ben Chuanlong Du
-Date: 2019-05-10 19:13:40
+Date: 2020-05-22 13:50:34
+Title: Writing Doc Using Microsoft Word
 Slug: ms-word-tips
 Category: software
 Tags: tips, Microsoft, software, Word

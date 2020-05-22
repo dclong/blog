@@ -1,9 +1,8 @@
-UUID: cf288c29-7ecc-4df7-9851-badf139fd9ca
 Status: published
-Date: 2015-05-25 14:21:56
+Date: 2020-05-22 14:01:57
 Author: Ben Chuanlong Du
+Title: View and Edit PDF Documents Using Okular
 Slug: okular-tips
-Title: Okular Tips
 Category: Software
 Tags: software, PDF, document, viewer, Okular
 

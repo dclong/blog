@@ -1,9 +1,8 @@
-UUID: cb80d995-fff5-43f8-830a-158adf81811c
 Status: published
-Date: 2017-04-22 21:55:58
+Date: 2020-05-22 14:56:44
 Author: Ben Chuanlong Du
+Title: Snappy Apps
 Slug: snappy-tips
-Title: Snappy Tips
 Category: OS
 Tags: Linux, snappy, snap, tips
 

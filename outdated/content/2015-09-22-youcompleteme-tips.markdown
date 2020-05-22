@@ -1,9 +1,8 @@
-UUID: 1a1f4a84-139b-49c8-a7c7-79c2e44123cd
 Status: published
-Date: 2017-03-18 19:23:42
+Date: 2020-05-22 14:00:13
 Author: Ben Chuanlong Du
+Title: Auto Completion Using YouCompleteMe in Vim
 Slug: YouCompleteMe-tips
-Title: YouCompleteMe Tips
 Category: Software
 Tags: software, YouCompleteMe, YCM, Vim, plugin, addon, editor, tips  
 

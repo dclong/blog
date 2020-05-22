@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2018-04-29 15:30:37
+Date: 2020-05-22 15:15:09
 Author: Ben Chuanlong Du
 Slug: transmssion-tips
-Title: Transmission Tips
+Title: Download Files Using Transmission
 Category: Software
 Tags: software, tips, transmission, BitTorrent client, downloading tool
 

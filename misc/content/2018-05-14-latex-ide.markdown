@@ -1,9 +1,8 @@
-UUID: f983c057-077e-4f6e-8207-cdd709c0b1a2
 Status: published
-Date: 2018-05-14 08:54:51
+Date: 2020-05-22 15:18:59
 Author: Ben Chuanlong Du
 Slug: latex-ide
-Title: LaTeX IDE
+Title: IDEs for LaTeX
 Category: Software
 Tags: software, LaTex, IDE, ShareLatex, Bakoma, TexStudio
 

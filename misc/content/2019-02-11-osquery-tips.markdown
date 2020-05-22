@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-02-11 20:55:07
+Date: 2020-05-22 15:27:24
 Author: Benjamin Du
 Slug: osquery-tips
-Title: Osquery Tips
+Title: Query and Monitor OS Information using osquery
 Category: Software
 Tags: software, osquery, tips
 
@@ -13,9 +13,11 @@ Please read with your own judgement!
 
 
 ## Information About Network Cards
+
 ```
 osqueryi 'select * from interface_details'
 ```
+
 `friendly_name`, `description` and `manufacturer` information are not populated yet.
 ```
 osqueryi 'select interface, friendly_name, description, manufacturer from interface_details'

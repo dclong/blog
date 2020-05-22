@@ -1,11 +1,9 @@
-UUID: 24a48d83-6ab5-485a-af22-ec87755156e2
 Status: published
-Date: 2018-01-26 07:32:52
+Date: 2020-05-22 15:09:49
 Author: Ben Chuanlong Du
 Slug: ideavim-tips
-Title: Ideavim Tips
-Category: Computer Science
-Tags: programming
+Title: Vim Keybindings Using IdeaVim in IntelliJ IDEA
+Category: Computer Science, IntelliJ IDEA, IdeaVim, Vim
 
 **
 Things on this page are

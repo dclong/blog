@@ -1,9 +1,8 @@
-UUID: f112de65-cdbc-4cc5-aa90-ab958d217bd5
 Status: published
-Date: 2017-10-22 12:41:04
+Date: 2020-05-22 15:06:34
 Author: Ben Chuanlong Du
+Title: Tips on Maven
 Slug: maven-tips
-Title: Maven Tips
 Category: Computer Science
 Tags: programming, Maven, tips, Java, Scala
 

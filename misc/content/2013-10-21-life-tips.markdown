@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Title: Life Tips
-Date: 2019-09-17 09:10:25
+Title: Misc Tips in Daily Life
+Date: 2020-05-22 13:31:43
 Slug: life-tips
 Category: Life
 Tags: tips, life, printing, insurance, internet
@@ -14,19 +14,16 @@ Please read with your own judgement!
 ## Insurance
 
 1. Geigo is good choice for people who do not have good driving history
-but a bad choice for people with good driving history.
-
-Geigo charges about 18% for cancelling policy,
-which is terrible!!!
-
-
+    but a bad choice for people with good driving history.
+    Geigo charges about 18% for cancelling policy,
+    which is terrible!!!
 
 ## Internet Service
 
 1. Century Link is a very bad one!
-The speed is slow.
-Service people are irresponsible.
-I have problem to use SSH and NX services.
+    The speed is slow.
+    Service people are irresponsible.
+    I have problem to use SSH and NX services.
 
 2. Time Warner is not good either but is OK.
 

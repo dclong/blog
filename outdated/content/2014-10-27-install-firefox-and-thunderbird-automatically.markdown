@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2014-12-22 18:23:12
+Date: 2020-05-22 13:20:50
 Author: Ben Chuanlong Du
+Title: Install Firefox and Thunderbird Automatically on Debian
 Slug: install-firefox-and-thunderbird-automatically
-Title: Install Firefox and Thunderbird Automatically
 Category: Software
-Tags: software, installation, Thunderbird, Firefox, todo
+Tags: software, installation, Thunderbird, Firefox, todo, Debian
 
 **
 Things on this page are

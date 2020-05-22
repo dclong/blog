@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2014-12-16 23:05:28
+Date: 2020-05-22 13:23:44
 Author: Ben Chuanlong Du
+Title: Tips on Android
 Slug: android-tips
-Title: Android Tips
 Category: OS
 Tags: Android, OS
 

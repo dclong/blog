@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-10-07 20:12:51
 Author: Ben Chuanlong Du
+Date: 2020-05-22 13:31:43
+Title: Living in Chicago
 Slug: chicago-tips
-Title: Chicago Tips
 Category: Life
 Tags: life, Chicago, tips
 
@@ -15,7 +14,7 @@ Please read with your own judgement!
 
 
 - [Northwestern University CSSA BBS](http://bbs.nwucssa.org/)
-lots of spam posts, be careful!
+    lots of spam posts, be careful!
 
 - [IIT CSSA Forum](http://cssa-iit.s60-28.myverydz.com/portal.php)
 
@@ -23,9 +22,9 @@ lots of spam posts, be careful!
 ## Restaurants
 
 1. Lao Sze Chuan 
-4832 N Broadway
-Chicago, IL 60640
-(773) 293-4653
+    4832 N Broadway
+    Chicago, IL 60640
+    (773) 293-4653
 
 619. Crispy Shrimp with Lemon Sauce $16.45
 620. Stir-Fried Lamb with Green Onion $14.45
@@ -45,20 +44,20 @@ Barbecue King Rest
 接受信用卡: Major Card
 
 2. Michoacanito Restauran
-4315 N Kedzie AVE,
-Chicago, IL 60618
-773-267-2820
+    4315 N Kedzie AVE,
+    Chicago, IL 60618
+    773-267-2820
 
 3. P.F. Chang's
-Address: 530 N Wabash Ave, Chicago, IL 60611
-Phone:(312) 828-9977
-Prices:
-$$$$
-Hours:
+    Address: 530 N Wabash Ave, Chicago, IL 60611
+    Phone:(312) 828-9977
+    Prices:
+    $$$$
+    Hours:
 
 4. Grand Duke's Restaurant & Deli
-6312 Harlem Ave
-Summit, IL 60501
+    6312 Harlem Ave
+    Summit, IL 60501
  
 ## Dilivery
 
@@ -81,8 +80,7 @@ http://cssa-iit.s60-28.myverydz.com/forum.php?mod=viewthread&tid=66938&extra=pag
 1. 孖镜
 
 2. 阿锋个人车库修车: 312-730-3469
-
-靠近唐人街和26街, 免费咨询(晚上6点到10点)),  学生优惠. 
+    靠近唐人街和26街, 免费咨询(晚上6点到10点)),  学生优惠. 
 
 ## Furniture
 
@@ -92,8 +90,8 @@ http://cssa-iit.s60-28.myverydz.com/forum.php?mod=viewthread&tid=66938&extra=pag
 ## Food Market & Grocery
 
 1. Aldi
-6221 N Broadway
-Chicago, IL 60660
+    6221 N Broadway
+    Chicago, IL 60660
 
 
 ## Dental
@@ -142,49 +140,42 @@ Chicago, IL
 ## Restaurants in Downtown
 
 0.  Wow Bao
-Liberty Travel
-175 W Jackson Blvd
-Chicago, IL 60604
+    Liberty Travel
+    175 W Jackson Blvd
+    Chicago, IL 60604
 
 1. Saucy Porka
-Michael: the old man (who is the boss)
-Johnston: the Korean guy
-Jackie: the girl
+    Michael: the old man (who is the boss)
+    Johnston: the Korean guy
+    Jackie: the girl
 
 2. Sbarro (Italian food, pizza is very good)
-333 S State St #1
-Chicago, IL 60604
-United States
+    333 S State St #1
+    Chicago, IL 60604
+    United States
 
 4. Greek Kitchen
-Downstairs in the building
+    Downstairs in the building
 
 5. Chi Cafe (Wangjiao Xiaochu)
-http://www.chicafeonline.com/
+    http://www.chicafeonline.com/
 
 7. Hot Woks Cool Sushi
-312 West Adams Street
-Chicago, IL 60606
+    312 West Adams Street
+    Chicago, IL 60606
 
 8. Asian-French fusion cuisine & sushi bar (a little bit expensive)
-160 West Adams Street
-Chicago, IL 60603
+    160 West Adams Street
+    Chicago, IL 60603
 
 9. Green Apple Grill & More
-North Loop Terrace
-201 North Clark Street #2F
-Chicago, IL 60601
+    North Loop Terrace
+    201 North Clark Street #2F
+    Chicago, IL 60601
 
 10. Underground
 
 11. Portbelly Sandwich Shop
-
-Wow Bao, 
-175 West Jackson Boulevard, 
-Chicago, Illinois 60604
-
-
-
 
 ## Edgewater
 

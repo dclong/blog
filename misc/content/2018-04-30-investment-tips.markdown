@@ -1,8 +1,8 @@
 Status: published
-Date: 2018-04-30 16:35:53
+Date: 2020-05-22 15:12:18
 Author: Ben Chuanlong Du
 Slug: investment-tips
-Title: Investment Tips
+Title: Investment
 Category: Finance
 Tags: finance, investment, WeChat official account, money, tips
 

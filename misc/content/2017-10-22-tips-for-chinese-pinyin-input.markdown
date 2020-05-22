@@ -1,9 +1,8 @@
-UUID: 9fa8c203-9433-411d-adec-7bbf32359391
 Status: published
-Date: 2017-11-12 15:06:22
+Date: 2020-05-22 15:07:56
 Author: Ben Chuanlong Du
+Title: Chinese Pinyin Input Method
 Slug: tips-for-chinese-pinyin-input
-Title: Tips for Chinese Pinyin Input
 Category: Software
 Tags: software, Chinese, Pinyin, input method, sogou
 
@@ -21,3 +20,7 @@ http://toshuo.com/chinese-tools/pinyin-input-firefox-extension/
 ## Ref
 
 http://www.pinyinput.com/?lang=en
+
+[Tips on Fcitx](http://www.legendu.net/misc/blog/fcitx-tips/)
+
+[Use Sogou Pinyin to Type Chinese](http://www.legendu.net/misc/blog/sogou-pinyin-tips/)

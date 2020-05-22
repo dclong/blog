@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-03-08 23:47:26
+Date: 2020-05-22 15:32:09
 Author: Benjamin Du
+Title: Genator Documentation Using Sphinx
 Slug: sphinx-tips
-Title: Sphinx Tips
 Category: Computer Science
 Tags: programming, Python, Sphinx, Python documentation generator
 

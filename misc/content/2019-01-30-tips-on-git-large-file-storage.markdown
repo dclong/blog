@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-10-25 02:42:50
+Date: 2020-05-22 15:46:25
 Author: Ben Chuanlong Du
 Slug: tips-for-git-large-file-storage
-Title: Tips for Git Large File Storage
+Title: Git Large File Storage
 Category: Software
 Tags: Software, Git, version control, large file storage, LFS
 

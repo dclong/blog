@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Tips for Vimperator
-Date: 2017-03-04 16:49:54
+Date: 2020-05-22 14:55:48
+Title: Tips on Vimperator
 Slug: vimperator-tips
 Category: Software
 Tags: tips, software, Vimperator, Firefox, Vim
@@ -45,8 +44,8 @@ Press it again or press `insert` to enable Vimperator.
 1. `ctrl + l`: focus on the search/url bar
 
 8. when using f/F for navigation, 
-you can also use words in the link that you want to navigate to instead of numbers. 
-This make things very convenient.
+    you can also use words in the link that you want to navigate to instead of numbers. 
+    This make things very convenient.
 
 9. use :hardcopy to print a web page
 

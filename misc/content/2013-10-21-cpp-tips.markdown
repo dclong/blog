@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-03-25 18:28:38
+Date: 2020-05-22 13:49:14
 Slug: cpp-tips
 Title: Tips on C++
 Category: Computer Science
@@ -344,3 +344,107 @@ Please read with your own judgement!
 30. `T&&` in template means universal reference or perfect forwarding, it binds everything
     but how about `T&&` where `T` is not a template parameter? 
     My question is that is it necessary to overload `const T &`?
+ 
+## Questions
+
+1. in C++, vector is the fastest, is the same for Java and other programming languages, 
+    I think the concept of cache applies, but what about deep copy, etc.?
+
+2. what's the difference between a vector of pointers and a vector of objects?
+    if class object, how does it store them in memory ...? 
+    does it save address or reference? and all objects (all contents) continus? 
+
+1. when does one have to provide copy/move constructors and operator=?
+
+3. different ways to pass a function/functor as argument? 
+    It seems that to me that there are many diffrent ways. 
+    For example, one can use function pointers,
+    functional argument, or use template ...
+
+    in the standard library, the template way is used a lot.
+    which of them is recommended? 
+
+    My opinion:
+    function pointer is more C style,
+    functon object is C++ style and cleaner. 
+    Both of them requires you to specify the signature of the function.
+    However, template is more flexible which doesn't require you to specify the signature. 
+
+5. about "{}" initializing list? what's wrong? Do I misunderstand it?
+    Just avoid using "auto" together with "{}".
+
+6. multiple std::tolower function, how to resolve overload problem when using it as a function in algorithm functions?
+
+7. what's the difference between std::min and std::fmin? 
+    std::min is more general
+    std::fmin is specifically for floating point numbers
+
+8. the static_cast from integer/double to unsigned integer is very tricky. 
+    be sure you understand how it works. -2 will be casted to a large number. 
+    I think some bits are discarded ...
+
+9. it seems to me that when using integers, 
+    it's easy to get an overflow bug, especially when you use unsigned integers ...
+    see whether there's a good practice to avoid this.
+
+10. what happens if you use a reference to a reference? do we get a rvalue reference or what?
+
+11. a question about boost::graph, vertex iterator and other iterator, sorted or not?
+
+12. what happens if the arguments of make_pair is rvalues and a value 
+    also does it get ...
+
+13. when is recursive definition possible? in your HMM case, it seems that the components must be separated ...
+    because it relies on defintion of ... and thus cannot be put into the definition ...
+
+14. can we use g++ with libc++?
+    g++ -nostdlib -lc++ -lc++abi -std=c++11 -o plop /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o foo.cpp /usr/lib/x86_64-linux-gnu/crtn.o -isystem/usr/include/c++/v1 -lc -lgcc_s
+
+15. why C/C++ library offeres only shared memory model?
+
+## Template Meta Programming
+
+16. can a template class be defined in a non-template class?
+
+1. how to define a hash function for a user defined class?
+
+## File System
+
+1. how to get the current working directory?
+
+
+## References
+
+- [Google C++ Style Guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml#Header_Files)  
+- [C++ Reference](http://en.cppreference.com/w/)  
+- [C++11 Concurrency](http://www.justsoftwaresolutions.co.uk/threading/multithreading-in-c++0x-part-1-starting-threads.html)
+- [Bjarne Stroustrup](http://www.stroustrup.com/)
+- [ISO C++](http://isocpp.org/)
+- [Meeting C++](http://www.meetingcpp.com/index.php/start.html)
+- [Herb Sutter](http://herbsutter.com/)
+- [Regular Expression](http://cpprocks.com/regex-cheatsheet/)
+- [GCC Status](http://gcc.gnu.org/onlinedocs/libstdc++/manual/status.html#status.iso.tr1)
+- [GNC C++ Library Manual](http://gcc.gnu.org/onlinedocs/libstdc++/manual/index.html)
+
+
+
+- [Day 1 Keynote - Bjarne Stroustrup: C++11 Style](http://channel9.msdn.com/Events/GoingNative/GoingNative-2012/Keynote-Bjarne-Stroustrup-Cpp11-Style)
+- [C++ and Beyond 2012: Andrei Alexandrescu - Systematic Error Handling in C++](http://channel9.msdn.com/Shows/Going+Deep/C-and-Beyond-2012-Andrei-Alexandrescu-Systematic-Error-Handling-in-C)
+- [C++ and Beyond 2012: Herb Sutter - You don't know [blank] and [blank]](C++ and Beyond 2012: Herb Sutter - You don't know [blank] and [blank])
+- [C++ and Beyond 2012: Herb Sutter - C++ Concurrency](http://channel9.msdn.com/Shows/Going+Deep/C-and-Beyond-2012-Herb-Sutter-Concurrency-and-Parallelism)
+
+
+
+- [Learn STL: Vector vs. Deque - part I](http://www.youtube.com/watch?v=Ct8ykaKrKOA)
+- [Learn STL: Vector vs. Deque - part II](http://www.youtube.com/watch?v=pW2jDTf82IM)
+
+
+- [Writing a Daemon in C](http://www.danielhall.me/2010/01/writing-a-daemon-in-c/)
+
+
+
+http://blogs.msdn.com/b/vcblog/archive/2015/02/13/find-your-favorite-library-for-c-in-nuget.aspx
+
+http://tgockel.github.io/json-voorhees/index.html
+
+https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms

@@ -1,8 +1,8 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-10-22 22:04:35
+Date: 2020-05-22 15:47:51
+Title: Tips on "sed"
 Slug: sed-tips
-Title: Tips for "sed"
 Category: Software
 Tags: tips, software, text manipulation, shell, Linux, sed
 

@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-07-13 22:42:03
+Date: 2020-05-22 14:29:05
 Slug: nfs-tips
-Title: NFS Tips
+Title: Tips on NFS
 Category: Internet
 Tags: Linux, internet, web, NFS, file system, tips
 
@@ -14,37 +13,47 @@ Please read with your own judgement!
  
 
 1. Make sure nfs service is not blocked. 
-Check iptables and "/etc/hosts.allow".
+    Check iptables and "/etc/hosts.allow".
 
 2. Make sure nfs service is running on the server.
 
     sudo service nfs-kernel-server start
 
 2. You can choose the version of nfs using the option `-o nfsvers=n`
-while mounting directories.
-It seems to me on Debian you have to use `-o nfsvers=3` (based on a previous experience).
-    mount -t nfs -o nfsvers=3 192.168.0.8:/home/dclong/downloads mnt/nfsshare
-Generally speaking, you do not have to choose a specific version manually.
-I tried on Ubuntu (server) and Linux Mint (client) and it works well with the default version (4). 
+    while mounting directories.
+    It seems to me on Debian you have to use `-o nfsvers=3` (based on a previous experience).
+        mount -t nfs -o nfsvers=3 192.168.0.8:/home/dclong/downloads mnt/nfsshare
+    Generally speaking, you do not have to choose a specific version manually.
+    I tried on Ubuntu (server) and Linux Mint (client) and it works well with the default version (4). 
 
 3. You can choose to change the ownership of a shared file/directory to `nobody/nogroup`
-to make it easier to access files,
-but this is not required 
-and you will probably only have read access unless the option `no_root_squash`
-is specified in the server settings 
-or your user name is the name on the client as on the server.
+    to make it easier to access files,
+    but this is not required 
+    and you will probably only have read access unless the option `no_root_squash`
+    is specified in the server settings 
+    or your user name is the name on the client as on the server.
 
 4. You can use wildcard in the `/etc/exports` settings. 
-For example,
-    /nfs 192.168.*.*(ro,sync)
-shares /nfs with all local network devices with ready-only access.
-more examples
-    *(ro,sync) all ips
-    *.iastate.edu(ro,sync) all iastate.edu ips
+    For example,
+
+        :::bash
+        /nfs 192.168.*.*(ro,sync)
+
+    shares /nfs with all local network devices with ready-only access.
+    more examples
+
+        :::bash
+        *(ro,sync) all ips
+        *.iastate.edu(ro,sync) all iastate.edu ips
 
 5. You can use net mask in the `/etc/exports` settings.
-for example,
-    /nfs 192.168.1.0/24(ro,sync)
-shares /nfs with local ip address 192.168.1.1 to 192.168.1.254. 
-It is equivalent to 
-    /nfs 192.168.1.*(ro,sync)
+    for example,
+
+        :::bash
+        /nfs 192.168.1.0/24(ro,sync)
+
+    shares `/nfs` with local ip address 192.168.1.1 to 192.168.1.254. 
+    It is equivalent to 
+
+        :::bash
+        /nfs 192.168.1.*(ro,sync)

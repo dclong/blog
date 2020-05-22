@@ -1,9 +1,8 @@
-UUID: 26c6634a-bbcc-4dda-9cb0-592c25156525
 Status: published
-Date: 2017-05-24 20:24:47
+Date: 2020-05-22 14:45:18
 Author: Ben Chuanlong Du
+Title: Tips on MySQL
 Slug: mysql-tips
-Title: MySQL Tips
 Category: Computer Science
 Tags: Database, programming, tips, MySQL, Python
 
@@ -34,3 +33,9 @@ mysqladmin --help
 2. PyMySQL
 
 3. MySQLdb
+
+## References 
+
+- [MySQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
+- [MySQL Tutorial](http://zetcode.com/databases/mysqltutorial/)  
+- [MySQL Tutorial on ClockWatch](http://www.clockwatchers.com/mysql_databases.html)

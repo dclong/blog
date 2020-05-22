@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-04-28 12:41:40
+Date: 2020-05-22 15:34:07
 Author: Benjamin Du
 Slug: the-absolutely-best-app-for-taking-notes
-Title: the Absolutely Best App for Taking Notes
+Title: The Absolutely Best App for Taking Notes
 Category: Software
 Tags: Software, application, notes taking
 

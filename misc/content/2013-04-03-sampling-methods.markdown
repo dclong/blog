@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
-Status: published
-Title: Sampling Methods
-Date: 2013-04-03 00:00:00
-Tags: statistics, sampling, survey
-Category: AI
-Slug: sampling-methods
 Author: Ben Chuanlong Du
+Status: published
+Date: 2020-05-22 12:23:20
+Title: Sampling Methods
+Slug: sampling-methods
+Category: AI
+Tags: statistics, sampling, survey, AI
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

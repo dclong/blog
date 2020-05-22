@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Some Questions about HTML and CSS
-Date: 2016-11-20 19:20:04
+Date: 2020-05-22 14:49:58
+Title: Questions on HTML and CSS
 Slug: html_css-questions
 Category: Computer Science
 Tags: questions, programming, HTML, CSS, web

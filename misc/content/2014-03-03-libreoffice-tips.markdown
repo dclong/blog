@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2014-03-03 17:19:14
-Title: Libreoffice Tips
+Date: 2020-05-22 12:38:17
+Title: Tips on Libreoffice
 Slug: libreoffice-tips
 Category: Software
-Tags: software, office
+Tags: software, office, LibreOffice, PDF
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

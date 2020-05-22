@@ -1,9 +1,8 @@
-UUID: a1aa59dd-c335-4260-ae38-a013125a6099
 Status: published
-Date: 2020-02-12 11:18:18
+Date: 2020-05-22 13:23:44
 Author: Ben Chuanlong Du
-Slug: anbox-tips
 Title: Tips on AnBox
+Slug: anbox-tips
 Category: Software
 Tags: software, AnBox, Andriod, Linux, emulation, tips
 

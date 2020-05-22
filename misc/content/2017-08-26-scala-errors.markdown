@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-12-20 10:05:49
+Date: 2020-05-22 12:58:10
 Author: Ben Chuanlong Du
 Slug: scala-errors
-Title: Scala Errors
+Title: Common Errors Encountered in Scala and Solutions
 Category: Computer Science
 Tags: programming, Scala, error, issue, version
 
@@ -14,9 +14,9 @@ Please read with your own judgement!
 
 1. Java Version Issue
 
-Unsupported major minor version 
+    Unsupported major minor version 
 
-https://stackoverflow.com/questions/22489398/unsupported-major-minor-version-52-0
+    https://stackoverflow.com/questions/22489398/unsupported-major-minor-version-52-0
 
 
 

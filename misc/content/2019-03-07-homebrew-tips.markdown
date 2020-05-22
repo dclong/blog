@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-10-25 00:44:53
+Date: 2020-05-22 15:47:17
 Author: Benjamin Du
+Title: Install Packages Using Homebrew on macOS
 Slug: homebrew-tips
-Title: Tips on Homebrew
 Category: Software
 Tags: software, Homebrew, macOS, Linuxbrew
 
@@ -22,7 +22,7 @@ brew search python@3.6
 ```
 
 1. Linuxbrew/brew has been merged into Homebrew/brew.
-  For more please refer to [this issue](https://github.com/Linuxbrew/brew/issues/1).
+    For more please refer to [this issue](https://github.com/Linuxbrew/brew/issues/1).
 
 ## Install gcc/g++
 
@@ -51,7 +51,7 @@ Follow the instructions below if you have to install Linuxbrew using a proxy.
     export https_proxy=http://your.proxy.server:port
     ```
 2. Configure proxy for Git (as Linuxbrew rely on Git to work) following instructions in
-  [Use Git Behind a Proxy](http://www.legendu.net/en/blog/use-git-behind-a-proxy/).
+    [Use Git Behind a Proxy](http://www.legendu.net/en/blog/use-git-behind-a-proxy/).
 
 
 You can export environment variables for Linuxbrew using the following command

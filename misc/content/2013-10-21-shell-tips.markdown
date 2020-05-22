@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Title: Some Tips for Shell Commands
-Date: 2019-12-04 19:06:58
+Title: Tips on Shell Commands
+Date: 2020-05-22 14:15:33
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal
@@ -13,6 +13,24 @@ Please read with your own judgement!
 
 [explainshell.com](http://www.explainshell.com/)
 
+
+0. command-not-found - Suggest installation of packages in interactive bash sessions
+
+1. [Hyper](https://hyper.is/), terminator, terra, terminology, TermKit, XiKi (inactive)
+
+3. screen, tmux
+
+4. nohup, disown
+
+5. nautilus-open-terminal
+
+6. script (logging terminal activities)
+
+## References
+
+http://www.legendu.net/misc/blog/terminator-tips/
+
+http://www.legendu.net/misc/blog/terminology-tips/
 
 ## Tips & Traps
 
@@ -495,3 +513,12 @@ cat /etc/timezone
 ```
 Mac
 <https://slaptijack.com/system-administration/set-mac-os-x-time-zone-from-the-command-line/>
+
+## References
+
+- [你可能不知道的Shell](http://coolshell.cn/articles/8619.html)
+- [28个Unix/Linux的命令行神器](http://coolshell.cn/articles/7829.html)
+- [35 Terminal ( text ) based application for Linux](http://www.linuxnov.com/35-terminal-text-based-application-for-linux/)
+- [Rolo](http://rolo.sourceforge.net/)
+- [http://abook.sourceforge.net/](http://abook.sourceforge.net/)
+- [Five Really Handy Google Command Line Tricks](http://lifehacker.com/5568817/five-really-handy-google-command-line-tricks)

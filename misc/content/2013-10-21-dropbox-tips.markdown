@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2015-02-24 13:55:51
+Date: 2020-05-22 13:36:17
+Title: Synchronize Files Using Dropbox
 Slug: dropbox-tips
-Title: Dropbox Tips
 Category: Software
 Tags: tips, Dropbox, Synchronizaion, backup, cloud
 

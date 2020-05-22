@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2017-11-18 09:51:49
+Date: 2020-05-22 14:39:09
 Author: Ben Chuanlong Du
 Slug: portable-apps
 Category: Software
@@ -45,3 +45,20 @@ It comes with many popular Python packages
 such as NumPy, SciPy, Matplotlib, PIL, PyQt, etc.
 and also code editors such as PyCharm, PyScripter and IDLE.
 
+
+## PortableApps 
+
+1. The PortableApps launcher might causes desktop icon not to show up. 
+    Closing the PortableApps launcher solves the problem.
+
+2. You can actually run PortableApps programs directly (without using the PortableApps launcher). 
+    If you'd like to do so, 
+    you can make shortcuts of PortableApps programs on the desktop and/or in the start menu 
+    to make things easier.
+
+
+1. A terminal for searching and installing apps sounds like fun and useful
+    and use cache and so on ... 
+    list, search, install, uninstall, etc ...
+
+2. Learn how to create portable apps using the platform by yourself 

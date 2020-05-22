@@ -1,9 +1,8 @@
-UUID: b3b8904b-ef78-478a-89f2-c32e1be21d67
 Status: published
-Date: 2018-05-27 16:26:01
+Date: 2020-05-22 15:16:47
 Author: Ben Chuanlong Du
+Title: Application Tracking Using OpenCats
 Slug: opencats-tips
-Title: OpenCats Tips
 Category: Software
 Tags: software, OpenCats, tips, applicant tracking system
 

@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Random Tips About MongoDB
-Date: 2017-04-17 10:28:31
+Date: 2020-05-22 13:52:51
+Title: Tips on MongoDB
 Slug: mongodb-tips
 Category: Software
 Tags: tips, software, MongoDB, database, NoSQL

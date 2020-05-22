@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-02-26 23:47:44
+Date: 2020-05-22 15:23:18
 Author: Ben Chuanlong Du
 Slug: wine-qq-tips
-Title: Wine QQ Tips
+Title: QQ on Linux via Wine QQ
 Category: Software
 Tags: software, QQ, tips, Linux, Wine, CrossOver
 

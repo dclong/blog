@@ -1,11 +1,10 @@
-UUID: e8fd3318-0321-44be-8627-ba8b7d94e12b
 Status: published
-Date: 2018-06-24 21:51:21
+Date: 2020-05-22 15:18:11
 Author: Ben Chuanlong Du
+Title: The H2O Machine Learning Framework
 Slug: h2o-tips
-Title: H2O Tips
 Category: AI
-Tags: machine learning, H2O, software, framework
+Tags: machine learning, H2O, software, framework, data science, AI
 
 **
 Things on this page are

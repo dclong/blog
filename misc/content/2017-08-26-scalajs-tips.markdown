@@ -1,9 +1,8 @@
-UUID: 17d19cd8-0daa-4a52-a403-5d7e49341c9e
 Status: published
-Date: 2017-10-22 13:51:30
+Date: 2020-05-22 15:05:15
 Author: Ben Chuanlong Du
 Slug: scalajs-tips
-Title: ScalaJS Tips
+Title: Tips on ScalaJS
 Category: Computer Science
 Tags: programming, ScalaJS, Scala, JavaScript, JS
 

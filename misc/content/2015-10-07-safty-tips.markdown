@@ -1,9 +1,8 @@
-UUID: 5bf1588b-fd62-4cdc-9cd0-e2d155551bec
 Status: published
-Date: 2015-10-07 20:47:11
+Date: 2020-05-22 14:16:22
 Author: Ben Chuanlong Du
+Title: Living in Safty
 Slug: safty-tips
-Title: Safty Tips
 Category: Life
 Tags: life, tips, safety
 

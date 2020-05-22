@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2014-03-14 22:19:40
-Title: Autostart Tips
+Date: 2020-05-22 12:35:14
+Title: Tips on Autostart
 Slug: autostart-tips
 Category: OS
 Tags: Linux, autostart, desktop environment, KDE, Xfce

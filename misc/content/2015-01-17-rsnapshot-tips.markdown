@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-07-13 22:49:24
+Date: 2020-05-22 14:25:22
 Author: Ben Chuanlong Du
+Title: Backup Files Using "rsnapshot" 
 Slug: rsnapshot-tips
-Title: Tips About "rsnapshot" 
 Category: Software
 Tags: software, rsnapshot, backup, synchronization, rsync
 

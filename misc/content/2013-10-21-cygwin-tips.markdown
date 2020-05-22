@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Some Tips for Cygwin
-Date: 2019-03-04 23:56:02
+Date: 2020-05-22 15:33:38
+Title: Some Tips on Cygwin
 Slug: cygwin-tips
 Category: Software
 Tags: tips, software, Cygwin

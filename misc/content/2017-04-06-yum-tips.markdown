@@ -1,9 +1,8 @@
-UUID: dd5e55e6-0bbb-46b0-bd39-d292fd0ffa6b
 Status: published
-Date: 2019-06-23 01:27:02
+Date: 2020-05-22 15:41:55
 Author: Ben Chuanlong Du
+Title: Maning Packages Using Yum in CentOS
 Slug: yum-tips
-Title: Yum Tips
 Category: OS
 Tags: Linux, yum, rpm, RedHat, CentOS, package management
 

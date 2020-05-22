@@ -1,9 +1,8 @@
-UUID: 7547d043-80f3-454b-bfa0-f7f0f16a6f2d
 Status: published
-Date: 2015-06-14 13:37:11
+Date: 2020-05-22 14:08:28
 Author: Ben Chuanlong Du
+Title: Block JavaScript in Browsers Using NoScript
 Slug: noscript-tips
-Title: NoScript Tips
 Category: Software
 Tags: software, tips, Firefox, synchronization, NoScript
 

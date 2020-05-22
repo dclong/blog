@@ -1,9 +1,8 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-07 23:08:47
+Date: 2020-05-22 14:03:34
 Author: Ben Chuanlong Du
+Title: Auto Typing Using AutoKey
 Slug: autokey-tips
-Title: AutoKey Tips
 Category: Software
 Tags: AutoKey, tips
 

@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-10-13 10:51:51
+Date: 2020-05-22 12:28:52
 Author: Ben Chuanlong Du
 Slug: bash-tips
-Title: Bash Tips
+Title: Tips on Bash
 Category: Computer Science
 Tags: programming, bash, shell, tips, parallel, xargs, wait
 

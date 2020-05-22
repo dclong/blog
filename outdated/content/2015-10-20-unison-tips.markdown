@@ -1,9 +1,8 @@
-UUID: 4e6ec7c3-91a9-492b-8b2e-f6e616ffc851
 Status: published
-Date: 2015-11-03 00:48:57
+Date: 2020-05-22 14:18:56
 Author: Ben Chuanlong Du
+Title: Synchronize Files Using Unison
 Slug: unison-tips
-Title: Unison Tips
 Category: Software
 Tags: software, unison, sync, two-way, synchronization, backup, 2-way, tips
 
@@ -16,13 +15,17 @@ Please read with your own judgement!
 https://incumbent.org/post/unison-sync-and-launchd/
 
 1. Unison对版本要求很高，进行同步的两台主机需要相同版本的unison，
-所以这里使用和windows一致的版本2.13.16，unison-2.13.16.tar.gz
+    所以这里使用和windows一致的版本2.13.16，unison-2.13.16.tar.gz
 
-默认的配置文件夹位于~currentuser/.unison，即当前用户的home目录下，windows则位于C:Documents and Settingscurrentuser.unison，默认的配置文件名是default.prf.
+## Configuration
+
+默认的配置文件夹位于~currentuser/.unison，即当前用户的home目录下，
+windows则位于C:Documents and Settingscurrentuser.unison，默认的配置文件名是default.prf.
 
 运行这样的命令：
 
-# unison config
+    :::bash
+    unison config
 
 Unison将读取~currentuser/.unison/config.prf文件里的配置。
 

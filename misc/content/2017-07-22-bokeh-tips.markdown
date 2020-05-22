@@ -1,9 +1,8 @@
-UUID: b67401b6-5ce8-455d-883f-ac02e2f678b1
 Status: published
-Date: 2017-11-18 10:28:59
+Date: 2020-05-22 15:07:28
 Author: Ben Chuanlong Du
+Title: Visualization Using Bokeh in Python
 Slug: bokeh-tips
-Title: Bokeh Tips
 Category: Computer Science
 Tags: programming, Python, visualization, Bokeh, Bokeh server, tips
 
@@ -30,15 +29,10 @@ bokeh serve --allow-websocket-origin=*:5006 dash.ipynb
 it seems that only 5006 works ...
 might be because ...
 
-
-
-
-
 ## Questions
 
 Can u combine bokeh and Jupyter Notebook to quickly prototype and then deploy? 
 This requires support of Bokeh server in Jupyter Notebook.
-
 
 bokeh, not numeric values, no corresponding warnings due to HTML ...
 be careful ...

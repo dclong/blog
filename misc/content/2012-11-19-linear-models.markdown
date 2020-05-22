@@ -1,11 +1,10 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Title: Linear Models
-Date: 2013-10-24 23:15:05
-Tags: model, statistics, regression
-Category: AI
-Slug: linear-models
 Author: Ben Chuanlong Du
+Date: 2020-05-22 12:24:54
+Title: Experiment Design
+Slug: linear-models
+Category: AI
+Tags: model, statistics, regression, AI, experiement design
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

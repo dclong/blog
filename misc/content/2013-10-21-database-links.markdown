@@ -11,7 +11,3 @@ Tags: links
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!
 **
- 
-- [MySQL Cheat Sheet](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html)
-- [MySQL Tutorial](http://zetcode.com/databases/mysqltutorial/)  
-- [MySQL Tutorial on ClockWatch](http://www.clockwatchers.com/mysql_databases.html)

@@ -1,9 +1,8 @@
-UUID: b67585fd-af3c-449b-9750-7e65daaea567
 Status: published
-Date: 2018-04-29 16:25:56
+Date: 2020-05-22 15:14:06
 Author: Ben Chuanlong Du
-Slug: projectlibre-tips
-Title: Projectlibre Tips
+Title: Managing Projects Using Projectlibre
+Slug: projectLibre-tips
 Category: Software
 Tags: Software, Project Management, ProjectLibre
 

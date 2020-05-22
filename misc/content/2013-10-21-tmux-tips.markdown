@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Title: Some Tips About tmux
-Date: 2017-09-06 07:57:29
+Date: 2020-05-22 15:04:34
+Title: Tips on tmux
 Slug: tmux-tips
 Category: Software
 Tags: tips, tmux, software, remote, screen, terminal
