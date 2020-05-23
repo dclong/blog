@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 09:24:19
+Date: 2020-05-23 09:26:25
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
@@ -107,3 +107,5 @@ https://conda.io/docs/user-guide/tutorials/build-pkgs-skeleton.html
 https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-anaconda-environment
 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
+
+[Conda Cheatshees](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
