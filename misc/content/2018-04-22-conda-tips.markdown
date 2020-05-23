@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-13 14:15:22
+Date: 2020-05-23 09:24:19
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
@@ -18,6 +18,7 @@ Please read with your own judgement!
     use the full path of the executable
     or add the option `-E "PATH=$PATH"` to sudo.
     
+        :::bash
         sudo -E env "PATH=$PATH" <command> [arguments]
 
 2. By defaut, conda installs things into /opt/conda.

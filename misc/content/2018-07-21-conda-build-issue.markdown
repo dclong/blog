@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-18 11:55:27
+Date: 2020-05-23 09:24:19
 Author: Ben Chuanlong Du
 Slug: conda-build-issue
 Title: Conda Build Issue
@@ -24,7 +24,7 @@ resolves the issue.
 
 
 
-## Build A Conda Package
+## Build a Conda Package
 
 [Building conda packages from scratch](https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html)
 has detailed instructions on how to build a conda package from scratch.
