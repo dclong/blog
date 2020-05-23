@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-18 10:42:24
+Date: 2020-05-22 12:05:32
 Author: Benjamin Du
 Slug: tips-on-conda-pack
 Title: Tips on conda-pack
@@ -26,9 +26,9 @@ Please read with your own judgement!
 
 ## References
 
+[Pack a Conda Virtual Environment](http://www.legendu.net/misc/blog/conda-tips/#pack-a-conda-virtual-environment)
+
 https://conda.github.io/conda-pack/
 
 https://conda.github.io/conda-pack/cli.html
-
-https://github.com/conda/conda-pack/
 
