@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-11 01:05:59
+Date: 2020-05-23 22:14:55
 Author: Ben Chuanlong Du
 Slug: mac-tips
 Title: Tips on macOS
@@ -14,8 +14,8 @@ Please read with your own judgement!
 
 1. Print Mac OS X operating system version information.
 
+        :::bash
         sw_vers -productName
-
 
 2. `iTerm2` is the best termimal application in Mac. 
 
@@ -29,10 +29,12 @@ Please read with your own judgement!
 
 1. Run the following command in terminal and then **restart your Mac** to enable key repeating by pressing and holding.
 
+        :::bash
         defaults write -g ApplePressAndHoldEnabled -bool false
 
 2. Run the following command in terminal and then **restart your Mac** to disable key repeating by presing and holding.
 
+        :::bash
         defaults write -g ApplePressAndHoldEnabled -bool true
 
 For more details please refer to
@@ -45,6 +47,7 @@ For more details please refer to
 
 ## IP Address
 
+    :::bash
     ifconfig | grep inet
 
 [How to find internal and external IP addresses on Mac OS X and macOS?](https://blog.pcrisk.com/mac/12377-how-to-find-out-your-ip-address-on-mac)
@@ -59,6 +62,35 @@ For more details please refer to
     in `System preference...` > `Trackpad` > `Point & Click`.
 
 3. Tapping is automatically disable while typing on Mac.
+
+## Useful Applications
+
+### [CheatShee](https://mediaatelier.com/CheatSheet/)
+
+Just hold the ⌘-Key a bit longer to get a list of all active short cuts of the current application. It's as simple as that.
+
+### [LICEcap](https://www.cockos.com/licecap/)
+
+LICEcap can capture an area of your desktop and save it directly to .GIF (for viewing in web browsers, etc) or .LCF.
+
+### [KeyCastr](https://github.com/keycastr/keycastr)
+
+KeyCastr, an open-source keystroke visualizer.
+
+### [Anks](https://apps.ankiweb.net/)
+
+Anki is a program which makes remembering things easy. 
+Because it's a lot more efficient than traditional study methods, 
+you can either greatly decrease your time spent studying, or greatly increase the amount you learn.
+
+### [Magnet](https://magnet.crowdcafe.com/)
+
+Magnet keeps your workspace organized.
+
+### [Alfred](https://www.alfredapp.com/)
+
+Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. 
+Search your Mac and the web, and be more productive with custom actions to control your Mac.
 
 ## Move and Resize Windows
 

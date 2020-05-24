@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 18:28:43
+Date: 2020-05-23 22:03:35
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -36,7 +36,7 @@ is available.
 
 [SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
 
-
+[Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 ## Fix the Caps Lock Mapping to Escape Issue
 

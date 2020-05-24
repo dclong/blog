@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-16 15:06:38
+Date: 2020-05-23 22:03:35
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -41,6 +41,8 @@ Ctrl + Command + F: Enter/Exit full screen mode.
 [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
 [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+
+[Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
 
 ## Python Project with poetry and VS Code
 
