@@ -1,4 +1,2 @@
-<ul class="tags">
-     {%- for tag, articles in tags|sort %}
-        <li style="font-size: {{ articles|count|count_to_font_size }};">
-            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+{% extends 'index.html' %}
+{% block title %}{{ SITENAME }} - {{ tag }}{% endblock %}
