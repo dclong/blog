@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 09:26:25
+Date: 2020-05-24 11:27:11
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
@@ -70,7 +70,7 @@ you can always manually specify the installation location for `pip`.
 
 ### Pack a Conda Virtual Environment
 
-The virtual environment can be packed 
+A conda virtual environment can be packed 
 ([conda-pack](https://conda.github.io/conda-pack/index.html) required) 
 into a `tar.gz` file 
 and be used on other machines with the same type of OS.
@@ -79,8 +79,7 @@ must be managed by conda (rather than pip)
 so that it can be packed by conda-pack.
 
     :::bash
-    conda activate myenv
-    conda pack -o myenv.tar.gz
+    conda pack -n myenv -o myenv.tar.gz
 
 ### Deactivate a Conda Environment
 
