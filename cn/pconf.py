@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
+import math
 
 #-------------------------------------------------------------------------
 # http:// is necessary!
@@ -48,6 +49,9 @@ NEWEST_FIRST_ARCHIVES = True
 # tag cloud
 TAG_CLOUD_STEPS = 10
 TAG_CLOUD_MAX_ITEMS = 100
+JINJA_FILTERS = {
+    'count_to_font_size': lambda c: '{p:.1f}%'.format(p=100 + 25 * math.log(c, 2)),
+}
 
 #Github include settings
 GITHUB_USER = 'dclong'
