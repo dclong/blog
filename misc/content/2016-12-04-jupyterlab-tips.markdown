@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:00:59
+Date: 2020-05-23 20:17:32
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
 Title: Tips on JupyterLab
@@ -12,17 +12,6 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Resources
-
-[28 Jupyter Notebook tips, tricks and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-
-https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
-
-http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
-
-[Running a notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html)
-
-[Jupyter Notebook Enhancements, Tips And Tricks](https://forums.fast.ai/t/jupyter-notebook-enhancements-tips-and-tricks/17064)
 
 ## General Tips
 
@@ -79,13 +68,34 @@ http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
     you can rerun everything in the notebook and save it. 
     This will usually resolve the trust issue.
 
+## More Tips on IPython and Jupyter/Lab
+
+- [Tips on IPython](http://www.legendu.net/misc/blog/ipython-tips/)
+
+- [28 Jupyter Notebook tips, tricks and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+
+- [Wait, IPython Can Do That?!](https://ep2019.europython.eu/media/conference/slides/cBeHNyZ-wait-ipython-can-do-that.pdf)
+
 ## [JupyterLab Extenions](http://www.legendu.net/misc/blog/useful-tools-extensions-for-jupyterlab/)
 Please refer to
 [JupyterLab Extenions](http://www.legendu.net/misc/blog/useful-tools-extensions-for-jupyterlab/)
 for more details.
 
 ## References
+
 - [JupyterLab Change Log](https://jupyterlab.readthedocs.io/en/stable/getting_started/changelog.html)
+
+- [IPython and Jupyter in Depth: High productivity, interactive Python - PyCon 2017](https://www.youtube.com/watch?v=VQBZ2MqWBZI)
+
+https://blog.dominodatalab.com/lesser-known-ways-of-using-notebooks/
+
+http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
+
+[Running a notebook server](http://jupyter-notebook.readthedocs.io/en/latest/public_server.html)
+
+[Jupyter Notebook Enhancements, Tips And Tricks](https://forums.fast.ai/t/jupyter-notebook-enhancements-tips-and-tricks/17064)
+
+
 - https://toree.incubator.apache.org/documentation/user/quick-start
 - https://datascience.berkeley.edu/10-data-science-newsletters-subscribe/ 
 - https://github.com/jupyter-incubator/declarativewidgets
