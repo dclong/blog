@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 19:43:33
+Date: 2020-05-23 22:00:32
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -131,6 +131,10 @@ Please read with your own judgement!
     most system commands can be used directly.
 
 3. `%edit` is really useful ...
+
+4. `%autoreload` always reload modules before running a function.
+    This is extremely helpful if you update your own modules/scripts 
+    while using them in IPython or Jupyter/Lab notebook.
 
 4. `%notebook`
 
