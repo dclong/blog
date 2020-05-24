@@ -23,13 +23,11 @@
 
   <section>
   <h1>Tags</h1>
-  <p class="tagcloud">
-      {% for tag in tag_cloud %}
-          <span class="tag-{{ tag.1}}">
-              <a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a>
-          </span>
-      {% endfor %}
-  </p>
+  <ul class="tagcloud">
+    {% for tag in tag_cloud %}
+        <li class="tag-{{ tag.1 }}"><a href="{{ SITEURL }}/{{ tag.0.url }}">{{ tag.0 }}</a></li>
+    {% endfor %}
+  </ul>
   </section>
 
   {% include '_includes/github.html' %}
