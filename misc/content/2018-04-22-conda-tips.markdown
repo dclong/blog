@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 11:27:11
+Date: 2020-05-24 11:43:44
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
@@ -107,4 +107,6 @@ https://stackoverflow.com/questions/41060382/using-pip-to-install-packages-to-an
 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
-[Conda Cheatshees](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+[Conda Cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+
+[Conda Cheatsheet](https://kapeli.com/cheat_sheets/Conda.docset/Contents/Resources/Documents/index)
