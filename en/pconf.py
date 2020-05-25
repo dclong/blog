@@ -9,7 +9,7 @@ AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
-DEFAULT_LANG = u"en"
+DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
 
 # pages
