@@ -34,8 +34,8 @@ MARKDOWN = {
 MENUITEMS = [
         ("Home", HOME_URL),
         ("Blog", SITEURL), 
-        ("Archives", "{SITEURL}/archives.html"), 
-        ("About", "{HOME_URL}/pages/about"), 
+        ("Archives", f"{SITEURL}/archives.html"), 
+        ("About", f"{HOME_URL}/pages/about"), 
     ]
 NEWEST_FIRST_ARCHIVES = True
 

@@ -34,8 +34,8 @@ MARKDOWN = {
 MENUITEMS = [
     ("Home", HOME_URL),
     ("Blog", SITEURL), 
-    ("Archives", "{SITEURL}/archives.html"),
-    ("Links", "{SITEURL}/pages/links.html"),
+    ("Archives", f"{SITEURL}/archives.html"),
+    ("Links", f"{SITEURL}/pages/links.html"),
 ]
 NEWEST_FIRST_ARCHIVES = True
 
@@ -90,7 +90,7 @@ IGNORE_FILES = [".ipynb_checkpoints"]
 # disqus comment
 DISQUS_SITENAME = "dclong"
 
-# Sharing
+# sharing
 TWITTER_USER = "longendu"
 GOOGLE_PLUS_USER = "duchuanlong"
 GOOGLE_PLUS_ONE = True
@@ -103,27 +103,11 @@ TWITTER_TWEET_COUNT = 3
 TWITTER_SHOW_REPLIES = "false"
 TWITTER_SHOW_FOLLOWER_COUNT = "true"
 
-# RSS/Atom feeds
+# rss/atom feeds
 FEED_DOMAIN = SITEURL
 FEED_ATOM = "atom.xml"
-# FEED_RSS = 
 
-
-# Search
-# SEARCH_BOX = True
-# SITESEARCH = "http://www.google.com/search"
-# SITESEARCH = "https://search.yahoo.com"
 SITESEARCH = "https://www.bing.com/search"
 
 # google analytics
 GOOGLE_ANALYTICS = "UA-30259661-1"
-
-# Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = None
-#CATEGORY_FEED_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-
-
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
