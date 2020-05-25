@@ -96,8 +96,9 @@ THEME = os.path.join(BLOG_DIR, "themes/octopress_2")
 # plugins
 IPYNB_USE_METACELL = True
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins'), BLOG_DIR / "plugins/ipynb", "/workspace/blog/plugins/ipynb/"]
-from pelican_jupyter import markup as nb_markup
+#PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins'), BLOG_DIR / "plugins/ipynb", "/workspace/blog/plugins/ipynb/"]
+PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins')]
+from ipynb.pelican_jupyter import markup as nb_markup
 PLUGINS = [
         'latex',
         'nb_markup',
