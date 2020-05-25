@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from pathlib import Path
+from pelican_jupyter import markup as nb_markup
+from loguru import logger
 HOME_URL = "http://www.legendu.net"
 SITEURL = f"{HOME_URL}/outdated" 
 SITESUBTITLE = "Change is eternal."

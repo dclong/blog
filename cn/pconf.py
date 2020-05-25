@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from pathlib import Path
+from pelican_jupyter import markup as nb_markup
 import math
+from loguru import logger
 HOME_URL = "http://www.legendu.net"
 SITEURL = f"{HOME_URL}/cn" 
 SITESUBTITLE = u"山不在高，有仙则名；水不在深，有龙则灵。"

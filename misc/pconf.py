@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from pathlib import Path
 from pelican_jupyter import markup as nb_markup
+from loguru import logger
 HOME_URL = "http://www.legendu.net"
 SITEURL = f"{HOME_URL}/misc"
 SITESUBTITLE = "It is never too late to learn."
