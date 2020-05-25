@@ -1,16 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+from pathlib import Path
 SITEURL = "http://www.legendu.net"
-#-------------------------------------------------------------------------
 SITESUBTITLE = "And let it direct your passion with reason."
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = u"en"
-#-------------------------------------------------------------------------
 DELETE_OUTPUT_DIRECTORY = True
-# pages
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
 
