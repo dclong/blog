@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 22:00:32
+Date: 2020-05-24 17:22:17
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -13,6 +13,18 @@ Please read with your own judgement!
 **
 
 ## Tricks & Traps 
+
+### Start IPython
+
+1. It is suggested that you run IPython using the comamnd `/path/to/python -m IPython`
+    unless you are sure that `ipython` pointing to the right Python version.
+    Even if `ipython` points to the right Python version,
+    you might encounter ModuleNotFouneError (saying "cannot import IPython")
+    due to library path (`~/.local/lib/python3.7/site-packages`) confliction. 
+    If this every happens
+    and assuming that IPython is installed with the right permission 
+    (you cannot import it if you do not have read permission), 
+    run IPython `/path/to/python -m IPython` might resolve the issue.
 
 ### Help Doc
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-02 15:28:21
+Date: 2020-05-24 17:05:42
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -472,12 +472,9 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/lubuntu-pyside2](https://hub.docker.com/r/dclong/lubuntu-pyside2/)  
 
-            - [dclong/lubuntu-nodejs](https://hub.docker.com/r/dclong/lubuntu-nodejs/)  
-
             - [dclong/lubuntu-jdk](https://hub.docker.com/r/dclong/lubuntu-jdk/)  
 
-                - [dclong/lubuntu-scala](https://hub.docker.com/r/dclong/lubuntu-scala/)  
-                    - [dclong/lubuntu-intellij](https://hub.docker.com/r/dclong/lubuntu-intellij/)  
+                - [dclong/lubuntu-intellij](https://hub.docker.com/r/dclong/lubuntu-intellij/)  
 
         - [dclong/xubuntu](https://hub.docker.com/r/dclong/xubuntu/)  
             - [dclong/xubuntu-nodejs](https://hub.docker.com/r/dclong/xubuntu-nodejs/)  
@@ -487,7 +484,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
 ## Build my Docker Images
 
-Run the Python code below to build my Docker images.
+Run the Python code (`build_docker.py`) below to build my Docker images.
 The python package [dsutil](https://github.com/dclong/dsutil) is required.
 
     :::python
@@ -508,6 +505,18 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
     docker.remove(choice="y")
     docker.remove_images(tag="[a-z]*_?[0-9]{4}", choice="y")
 
+A practical tips on making it fast is 
+to first run a process without pushing 
+and then run a separate processing with pushing. 
+This effectively makes the first processing building only
+and the 2nd process pushing (mainly) at the same time.
+
+    :::bash
+    # run this first in one shell
+    ./build_docker.py 
+
+    # and then run this in another one shell
+    ./build_docker.py 
 
 ## Known Issues 
 
