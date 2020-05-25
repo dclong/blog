@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
-from ipynb.pelican_jupyter import markup as nb_markup
+from pelican_jupyter import markup as nb_markup
 #-------------------------------------------------------------------------
 # !!! http:// is necessary
 HOME_URL = "http://www.legendu.net"
@@ -15,8 +15,8 @@ DEFAULT_DATE_FORMAT = '%b %d, %Y'
 TIMEZONE = 'US/Pacific'
 DEFAULT_LANG = u'en'
 #-------------------------------------------------------------------------
-PATH = os.path.dirname(os.path.abspath(os.path.realpath(__file__)))
-BLOG_DIR = os.path.dirname(PATH)
+PATH = Path(__file__).resolve().parent
+BLOG_DIR = PATH.parent
 DELETE_OUTPUT_DIRECTORY = True
 
 # pages
@@ -96,7 +96,7 @@ THEME = os.path.join(BLOG_DIR, "themes/octopress_2")
 # plugins
 IPYNB_USE_METACELL = True
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins')]
+PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins'), BLOG_DIR / "plugins/ipynb"]
 PLUGINS = [
         'latex',
         'nb_markup',
