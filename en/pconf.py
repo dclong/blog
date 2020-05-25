@@ -72,7 +72,7 @@ NOTEBOOK_DIR = "downloads/notebooks"
 
 
 # theme and plugins
-BLOG_DIR = PATH(__file__).resolve().parent.parent
+BLOG_DIR = Path(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
