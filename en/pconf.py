@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 from pathlib import Path
 from pelican_jupyter import markup as nb_markup
+from loguru import logger
 HOME_URL = "http://www.legendu.net"
 SITEURL = f"{HOME_URL}/en"
 SITESUBTITLE = "And let it direct your passion with reason."
@@ -77,7 +78,8 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-#PLUGIN_PATHS = [BLOG_DIR / "plugins"]
+logger.debug("Blog root directory: %s", BLOG_DIR)
+PLUGIN_PATHS = [BLOG_DIR / "plugins"]
 PLUGINS = ["render_math"]
 ## jupyter
 MARKUP = ("md", "ipynb")
