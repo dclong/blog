@@ -5,8 +5,8 @@ from pathlib import Path
 from pelican_jupyter import markup as nb_markup
 #-------------------------------------------------------------------------
 # !!! http:// is necessary
-HOME_URL = Path("http://www.legendu.net")
-SITEURL = HOME_URL / "misc"
+HOME_URL = "http://www.legendu.net"
+SITEURL = f"{HOME_URL}/misc"
 #-------------------------------------------------------------------------
 SITESUBTITLE = "It is never too late to learn."
 AUTHOR = "Ben Chuanlong Du"
@@ -42,8 +42,8 @@ MARKDOWN = {
 MENUITEMS = [
     ("Home", HOME_URL),
     ("Blog", SITEURL), 
-    ("Archives", SITEURL / "archives.html"),
-    ("Links", SITEURL / "pages/links.html"),
+    ("Archives", "{SITEURL}/archives.html"),
+    ("Links", "{SITEURL}/pages/links.html"),
 ]
 NEWEST_FIRST_ARCHIVES = True
 
