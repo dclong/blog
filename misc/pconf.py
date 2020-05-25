@@ -1,23 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-import os
 from pathlib import Path
 from pelican_jupyter import markup as nb_markup
-#-------------------------------------------------------------------------
-# !!! http:// is necessary
 HOME_URL = "http://www.legendu.net"
 SITEURL = f"{HOME_URL}/misc"
-#-------------------------------------------------------------------------
 SITESUBTITLE = "It is never too late to learn."
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
-# Times and dates
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = u"en"
-#-------------------------------------------------------------------------
-PATH = Path(__file__).resolve().parent
-BLOG_DIR = PATH.parent
 DELETE_OUTPUT_DIRECTORY = True
 
 # pages
@@ -51,19 +43,13 @@ NEWEST_FIRST_ARCHIVES = True
 TAG_CLOUD_STEPS = 10
 TAG_CLOUD_MAX_ITEMS = 100
 
-#Github include settings
+# github include settings
 GITHUB_USER = "dclong"
 GITHUB_REPO_COUNT = 3
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
-# Blogroll
-#LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-#          ('Python.org', 'http://python.org'),
-#          ('Jinja2', 'http://jinja.pocoo.org'),
-#          ('You can modify those links in your config file', '#'),)
-
-# Social widget
+# social widget
 SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/ben-chuanlong-du-1239b221/"),
     ("Twitter", "https://twitter.com/longendu"),
@@ -91,6 +77,7 @@ CODE_DIR = "downloads/code"
 NOTEBOOK_DIR = "downloads/notebooks"
 
 # theme
+BLOG_DIR = PATH(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 # plugins

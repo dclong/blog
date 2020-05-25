@@ -1,29 +1,21 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-import os
-
-#-------------------------------------------------------------------------
-# !!! http:// is necessary
+from pathlib import Path
 HOME_URL = "http://www.legendu.net"
-SITEURL = os.path.join(HOME_URL, "outdated") 
-#-------------------------------------------------------------------------
+SITEURL = "{HOME_URL}/outdated" 
 SITESUBTITLE = "Change is eternal."
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
-# Times and dates
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = u"en"
-#-------------------------------------------------------------------------
-PATH = os.path.dirname(os.path.abspath(os.path.realpath(__file__)))
-BLOG_DIR = os.path.dirname(PATH)
 DELETE_OUTPUT_DIRECTORY = True
 
 # pages
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
 
-# Set the article URL
+# set the article URL
 ARTICLE_URL = "blog/{slug}/"
 ARTICLE_SAVE_AS = "blog/{slug}/index.html"
 
@@ -37,12 +29,12 @@ MARKDOWN = {
     "output_format": "html5",
 }
 
-# Title menu options
+# title menu options
 MENUITEMS = [
     ("Home", HOME_URL),
     ("Blog", SITEURL), 
-    ("Archives", os.path.join(SITEURL, "archives.html")), 
-    ("Links", os.path.join(SITEURL, "pages/links.html")), 
+    ("Archives", "{SITEURL}/archives.html"),
+    ("Links", "{SITEURL}/pages/links.html"),
 ]
 NEWEST_FIRST_ARCHIVES = True
 
@@ -50,19 +42,13 @@ NEWEST_FIRST_ARCHIVES = True
 TAG_CLOUD_STEPS = 10
 TAG_CLOUD_MAX_ITEMS = 100
 
-#Github include settings
+# github include settings
 GITHUB_USER = "dclong"
 GITHUB_REPO_COUNT = 3
 GITHUB_SKIP_FORK = True
 GITHUB_SHOW_USER_LINK = True
 
-# Blogroll
-#LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-#          ('Python.org', 'http://python.org'),
-#          ('Jinja2', 'http://jinja.pocoo.org'),
-#          ('You can modify those links in your config file', '#'),)
-
-# Social widget
+# social widget
 SOCIAL = (
     ("LinkedIn", "https://www.linkedin.com/in/ben-chuanlong-du-1239b221/"),
     ("Twitter", "https://twitter.com/longendu"),
@@ -71,11 +57,6 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 6
 
-# STATIC_OUT_DIR requires https://github.com/jakevdp/pelican/tree/specify-static
-#STATIC_OUT_DIR = ''
-#FILES_TO_COPY = [('favicon.png', 'favicon.png')]
-
-# This requires Pelican 3.3+
 STATIC_PATHS = [
             "images", 
             "figures", 
@@ -85,28 +66,28 @@ STATIC_PATHS = [
             "CNAME",
             "readme.md",
         ]
-
 CODE_DIR = "downloads/code"
 NOTEBOOK_DIR = "downloads/notebooks"
 
 
 # theme and plugins
+BLOG_DIR = Path(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
-THEME = os.path.join(BLOG_DIR, "themes/octopress_2")
+THEME = BLOG_DIR / "themes/octopress_2"
+
 # plugins
-IPYNB_USE_METACELL = True
 MARKUP = ("md", "ipynb")
-PLUGIN_PATHS = [os.path.join(BLOG_DIR, "plugins")]
+PLUGIN_PATHS = [BLOG_DIR / "plugins"]
 PLUGINS = [
         "latex",
-        "ipynb.markup",
     ]
+IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
 
 # disqus comment
 DISQUS_SITENAME = "dclong"
 
-# Sharing
+# sharing
 TWITTER_USER = "longendu"
 GOOGLE_PLUS_USER = "duchuanlong"
 GOOGLE_PLUS_ONE = True
@@ -120,27 +101,11 @@ TWITTER_SHOW_REPLIES = "false"
 TWITTER_SHOW_FOLLOWER_COUNT = "true"
 
 
-# RSS/Atom feeds
+# rss/atom feeds
 FEED_DOMAIN = SITEURL
 FEED_ATOM = "atom.xml"
-# FEED_RSS = 
 
-
-# Search
-# SEARCH_BOX = True
-# SITESEARCH = "http://www.google.com/search"
-# SITESEARCH = "https://search.yahoo.com"
 SITESEARCH = "https://www.bing.com/search"
 
 # google analytics
 GOOGLE_ANALYTICS = "UA-30259661-1"
-
-# Feed generation is usually not desired when developing
-#FEED_ALL_ATOM = None
-#CATEGORY_FEED_ATOM = None
-#TRANSLATION_FEED_ATOM = None
-
-
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
