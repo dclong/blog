@@ -23,6 +23,10 @@ DELETE_OUTPUT_DIRECTORY = True
 # pages
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
+PAGINATION_PATTERNS = (
+    (1, '{name}{extension}', '{name}{extension}'),
+    (2, '{name}{number}{extension}', '{name}{number}{extension}'),
+)
 
 # Set the article URL
 ARTICLE_URL = 'blog/{slug}/'
