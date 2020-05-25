@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
-from pelican_jupyter import markup as nb_markup
+from ipynb.pelican_jupyter import markup as nb_markup
 #-------------------------------------------------------------------------
 # !!! http:// is necessary
 HOME_URL = "http://www.legendu.net"
