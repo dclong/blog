@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 21:39:39
+Date: 2020-05-25 12:51:31
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -223,6 +223,19 @@ Please refer to
 [The Installation Location of Python Packages Using Pip](http://www.legendu.net/misc/blog/the-installation-location-of-python-packages-using-pip/)
 for more discussions.
 
+## Check for Existence of a Python Package
+
+https://stackoverflow.com/questions/14050281/how-to-check-if-a-python-module-exists-without-importing-it
+
+The most robust way turns out to be `pip3 list`,
+because some packages are namespace sub packagess
+which are not exposed (visible to importlib) by default.
+However,
+all installed packages (via pip) are visible to pip.
+
+    :::bash
+    pip3 list | grep -i pelican-render-math
+
 ## References
 
 https://stackoverflow.com/questions/38613316/how-to-upgrade-pip3
@@ -244,3 +257,4 @@ https://stackoverflow.com/questions/9510474/removing-pips-cache
 https://stackoverflow.com/questions/36898474/how-to-install-a-module-for-all-users-with-pip-on-linux
 
 [How to pip install a package with min and max version range?](https://stackoverflow.com/questions/8795617/how-to-pip-install-a-package-with-min-and-max-version-range)
+
