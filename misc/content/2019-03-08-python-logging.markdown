@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:26:42
+Date: 2020-05-25 10:33:47
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -19,7 +19,11 @@ Please read with your own judgement!
     passing parameters to logging methods so that lazy string evaluation can be leveraged.
 
         :::python
+        # for the logging module
         logger.info("%s is copied to %s", src_file, des_file)
+
+        # for the loguru module
+        logger.info("{} is copied to {}", src_file, des_file)
 
 ## [loguru](https://github.com/Delgan/loguru)
 
