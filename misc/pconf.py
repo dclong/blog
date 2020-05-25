@@ -82,7 +82,7 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 # plugins
 MARKUP = ("md", "ipynb")
-PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
+#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  

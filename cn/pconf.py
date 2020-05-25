@@ -78,7 +78,7 @@ BLOG_DIR = Path(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 # plugins
-PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
+#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
 
 # disqus comment
