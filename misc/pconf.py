@@ -23,10 +23,6 @@ DELETE_OUTPUT_DIRECTORY = True
 # pages
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
-PAGINATION_PATTERNS = (
-    (1, '{url}', '{save_as}'),
-    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
-)
 
 # Set the article URL
 ARTICLE_URL = 'blog/{slug}/'
