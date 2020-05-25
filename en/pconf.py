@@ -79,6 +79,7 @@ THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
 logger.debug("Blog root directory: %s", BLOG_DIR)
+print(BLOG_DIR)
 PLUGIN_PATHS = [BLOG_DIR / "plugins"]
 PLUGINS = ["render_math"]
 ## jupyter
