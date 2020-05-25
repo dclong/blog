@@ -6,15 +6,12 @@ from pathlib import Path
 from argparse import ArgumentParser
 import subprocess as sp
 import getpass
-try:
-    import pelican
-except ImportError:
-    sp.run("python3 -m pip install --user pelican", shell=True, check=True)
-    import pelican
-import utils
+from utils import VIM, get_editor, install_if_not_exist
+install_if_not_exist(["pelican", "pelican-render-math", "pelican-jupyter"])
+import pelican
 from blog import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
-EDITOR = utils.get_editor()
+EDITOR = get_editor()
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
 
@@ -660,7 +657,7 @@ def _subparse_add(subparsers):
         "--vim",
         dest="editor",
         action="store_const",
-        const=utils.VIM,
+        const=VIM,
         default=EDITOR,
         help="Edit the post using Vim.")
     subparser_add.add_argument(
@@ -740,7 +737,7 @@ def _subparse_edit(subparsers):
         "--vim",
         dest="editor",
         action="store_const",
-        const=utils.VIM,
+        const=VIM,
         default=EDITOR,
         help="Edit the post using Vim.")
     subparser_edit.add_argument(

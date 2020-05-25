@@ -1,5 +1,0 @@
-pelican
-pelican-render-math
-pelican-jupyter
-beautifulsoup4
-typogrify
