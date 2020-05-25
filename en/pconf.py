@@ -77,11 +77,15 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-MARKUP = ("md", "ipynb")
 PLUGIN_PATHS = [BLOG_DIR / "plugins"]
 PLUGINS = []
+## jupyter
+MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
+## mathjax
+MATH_JAX = {'tex_extensions': ['color.js','mhchem.js']}
+
 
 # disqus comment
 DISQUS_SITENAME = "dclong"
