@@ -1,0 +1,3 @@
+pelican
+pelican-render-math
+pelican-jupyter
