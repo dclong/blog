@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 import os
-
+from pelican_jupyter import markup as nb_markup
 #-------------------------------------------------------------------------
 # !!! http:// is necessary
 HOME_URL = "http://www.legendu.net"
@@ -99,7 +99,7 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins')]
 PLUGINS = [
         'latex',
-        'ipynb.markup',
+        'nb_markup',
     ]
 IGNORE_FILES = [".ipynb_checkpoints"]  
 
