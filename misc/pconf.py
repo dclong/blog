@@ -77,14 +77,14 @@ CODE_DIR = "downloads/code"
 NOTEBOOK_DIR = "downloads/notebooks"
 
 # theme
-BLOG_DIR = PATH(__file__).resolve().parent.parent
+BLOG_DIR = Path(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 # plugins
 MARKUP = ("md", "ipynb")
 PLUGIN_PATHS = [BLOG_DIR / "plugins"]
 PLUGINS = [
-        "latex",
+        "render_math",
     ]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
