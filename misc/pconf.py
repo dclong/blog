@@ -96,7 +96,7 @@ THEME = os.path.join(BLOG_DIR, "themes/octopress_2")
 # plugins
 IPYNB_USE_METACELL = True
 MARKUP = ('md', 'ipynb')
-PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins'), BLOG_DIR / "plugins/ipynb"]
+PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins'), BLOG_DIR / "plugins/ipynb", "/workspace/blog/plugins/ipynb/"]
 PLUGINS = [
         'latex',
         'nb_markup',
