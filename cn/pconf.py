@@ -1,21 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+from pathlib import Path
 import math
-
-#-------------------------------------------------------------------------
-# http:// is necessary!
 HOME_URL = "http://www.legendu.net"
 SITEURL = "HOME_URL/cn" 
-#-------------------------------------------------------------------------
 SITESUBTITLE = u"山不在高，有仙则名；水不在深，有龙则灵。"
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
-# Times and dates
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
-#-------------------------------------------------------------------------
 DELETE_OUTPUT_DIRECTORY = True
+
 # pages
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
