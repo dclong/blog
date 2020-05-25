@@ -78,7 +78,7 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-logger.debug("Blog root directory: %s", BLOG_DIR)
+logger.debug("Blog root directory: {}", BLOG_DIR)
 print(BLOG_DIR)
 PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
