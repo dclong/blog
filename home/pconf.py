@@ -11,6 +11,7 @@ DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
+logger.debug("Site URL: {}", SITEURL)
 
 # Set the article URL
 ARTICLE_URL = "blog/{slug}/"
@@ -73,8 +74,11 @@ CSS_FILE = "main.css"
 THEME = BLOG_DIR / "themes/octopress_0"
 
 # plugins
-#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
+## mathjax
+MATH_JAX = {"auto_insert": True,
+        "tex_extensions": ["color.js", "mhchem.js"]
+    }
 
 # disqus comment
 DISQUS_SITENAME = "dclong"

@@ -12,6 +12,7 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
+logger.debug("Site URL: {}", SITEURL)
 
 # pages
 PAGE_PATHS = ["pages"]
@@ -78,8 +79,6 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-logger.debug("Blog root directory: {}", BLOG_DIR)
-#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
 ## jupyter
 MARKUP = ("md", "ipynb")

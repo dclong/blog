@@ -10,6 +10,7 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
+logger.debug("Site URL: {}", SITEURL)
 
 # pages
 PAGE_PATHS = ["pages"]
@@ -76,11 +77,15 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-MARKUP = ("md", "ipynb")
-#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
+## jupyter
+MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
+## mathjax
+MATH_JAX = {"auto_insert": True,
+        "tex_extensions": ["color.js", "mhchem.js"]
+    }
 
 # disqus comment
 DISQUS_SITENAME = "dclong"

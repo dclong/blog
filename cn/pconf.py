@@ -11,6 +11,7 @@ DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
+logger.debug("Site URL: {}", SITEURL)
 
 # pages
 PAGE_PATHS = ["pages"]
@@ -73,13 +74,17 @@ STATIC_PATHS = [
 CODE_DIR = "downloads/code"
 NOTEBOOK_DIR = "downloads/notebooks"
 
-# theme and plugins
+# theme
 BLOG_DIR = Path(__file__).resolve().parent.parent
 CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
+
 # plugins
-#PLUGIN_PATHS = [str(BLOG_DIR / "plugins")]
 PLUGINS = ["render_math"]
+## mathjax
+MATH_JAX = {"auto_insert": True,
+        "tex_extensions": ["color.js", "mhchem.js"]
+    }
 
 # disqus comment
 DISQUS_SITENAME = "dclong"
