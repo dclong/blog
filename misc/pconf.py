@@ -24,8 +24,8 @@ DELETE_OUTPUT_DIRECTORY = True
 PAGE_PATHS = ["pages"]
 DISPLAY_PAGES_ON_MENU = False
 PAGINATION_PATTERNS = (
-    (1, '{name}{extension}', '{name}{extension}'),
-    (2, '{name}{number}{extension}', '{name}{number}{extension}'),
+    (1, '{url}', '{save_as}',
+    (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
 )
 
 # Set the article URL
