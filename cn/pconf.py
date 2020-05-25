@@ -3,7 +3,7 @@
 from pathlib import Path
 import math
 HOME_URL = "http://www.legendu.net"
-SITEURL = "HOME_URL/cn" 
+SITEURL = f"{HOME_URL}/cn" 
 SITESUBTITLE = u"山不在高，有仙则名；水不在深，有龙则灵。"
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"

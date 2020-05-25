@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from pathlib import Path
 HOME_URL = "http://www.legendu.net"
-SITEURL = "{HOME_URL}/outdated" 
+SITEURL = f"{HOME_URL}/outdated" 
 SITESUBTITLE = "Change is eternal."
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"

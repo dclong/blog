@@ -3,7 +3,7 @@
 from pathlib import Path
 from pelican_jupyter import markup as nb_markup
 HOME_URL = "http://www.legendu.net"
-SITEURL = "{HOME_URL}/en"
+SITEURL = f"{HOME_URL}/en"
 SITESUBTITLE = "And let it direct your passion with reason."
 AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
