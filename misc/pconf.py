@@ -101,7 +101,7 @@ MARKUP = ('md', 'ipynb')
 PLUGIN_PATHS = [os.path.join(BLOG_DIR, 'plugins')]
 PLUGINS = [
         'latex',
-        'nb_markup',
+        #'nb_markup',
     ]
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
