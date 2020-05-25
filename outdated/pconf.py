@@ -8,7 +8,7 @@ AUTHOR = "Ben Chuanlong Du"
 SITENAME = "Ben Chuanlong Du's Blog"
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
-DEFAULT_LANG = u"en"
+DEFAULT_LANG = "en"
 DELETE_OUTPUT_DIRECTORY = True
 
 # pages
@@ -78,9 +78,7 @@ THEME = BLOG_DIR / "themes/octopress_2"
 # plugins
 MARKUP = ("md", "ipynb")
 PLUGIN_PATHS = [BLOG_DIR / "plugins"]
-PLUGINS = [
-        "latex",
-    ]
+PLUGINS = []
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
 
