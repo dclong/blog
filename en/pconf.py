@@ -77,8 +77,8 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/octopress_2"
 
 # plugins
-PLUGIN_PATHS = [BLOG_DIR / "plugins"]
-PLUGINS = []
+#PLUGIN_PATHS = [BLOG_DIR / "plugins"]
+PLUGINS = ["render_math"]
 ## jupyter
 MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True
