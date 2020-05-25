@@ -90,7 +90,9 @@ MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True
 IGNORE_FILES = [".ipynb_checkpoints"]  
 ## mathjax
-MATH_JAX = {"auto_insert": True,
+MATH_JAX = {
+        "auto_insert": True,
+        "process_summary": False,
         "tex_extensions": ["color.js", "mhchem.js"]
     }
 
