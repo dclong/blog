@@ -7,7 +7,7 @@ from argparse import ArgumentParser
 import subprocess as sp
 import getpass
 from utils import VIM, get_editor, install_if_not_exist
-install_if_not_exist(["pelican", "pelican-render-math", "pelican-jupyter"])
+# install_if_not_exist(["pelican", "pelican-render-math", "pelican-jupyter"])
 import pelican
 from blog import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
