@@ -56,7 +56,8 @@ but rather for convenient reference of the author and future improvement.
 2. These alternative symbols for functions have a higher computing
     priority than `//`, e.g. `f/@expr//Length` is equivalent to
 
-        `Length[Map[f,expr]]`.
+        :::mathematica
+        Length[Map[f,expr]]
 
 ## Configuration
 
@@ -88,11 +89,14 @@ but rather for convenient reference of the author and future improvement.
     to replace symbols with values or other expressions. For example, to
     calculate $sin 5 + cos 5$, you can use command
 
+        :::mathematica
         Sin[x] + Cos[x] /. x -> 5
 
     instead of using
+
+        :::mathematica
         x = 5;
-	Sin[x] + Cos[x]
+        Sin[x] + Cos[x]
 
 2. The results of many functions in Mathematica are rules, but many
     times you want numerical values instead. To change a rule to
@@ -136,8 +140,8 @@ but rather for convenient reference of the author and future improvement.
     these two functions. Different file extensions might get different
     result when you use these two functions.
 
-	dataOm2030=Import["D:\\Dropbox\\Research\\thesis\\simulation\\MathOptim\\mcmc_20_30\\rms_20_30_1.bin", "real64"];
-            
+        :::bash
+        data_Om_2030 = Import["/path/to/rms_20_30_1.bin", "real64"];
 
 10. `Splice["file"]` splices Mathematica output into an external file.
     It takes text enclosed between `<*` and `*>` in the file, evaluates
@@ -343,13 +347,14 @@ but rather for convenient reference of the author and future improvement.
 1. You can use the built-in `SendMail` to send email in Mathematica.
     The following command gives a simple example[^4]. 
     
+        :::mathematica
         SendMail[
-	    "From" -> "firedragon.du@gmail.com",
-	    "To" -> "dclong@iastate.edu",
-	    "Subject" -> "Sending Email from Mathematica",
-	    "Body" -> "Just have a try",
-	    "Server" -> "mailhub.iastate.edu"
-	]
+            "From" -> "firedragon.du@gmail.com",
+            "To" -> "dclong@iastate.edu",
+            "Subject" -> "Sending Email from Mathematica",
+            "Body" -> "Just have a try",
+            "Server" -> "mailhub.iastate.edu"
+        ]
 
 2. The options that `SendMail` can use include: "To", "Cc", "Bcc",
     "Subject", "Body", "Attachments", "From",
@@ -365,21 +370,21 @@ but rather for convenient reference of the author and future improvement.
 1. 前面提到过Mathematica在进行操作时总是从复数范围出发， 从而在进行一些积分或者是化简操作时，
 	给出限定条件就显得特别重要，而这个方面我不是很清楚。
 
-[^1]: The first partition combine m elements into a sublist which act as
+The first partition combine m elements into a sublist which act as
 a new element for the resulting list, and then the second partition
 go further to combine n sublists together to form a matrix of
 $m\times n$ which acts the a new element of the final resulting
 list.
 
-[^2]: By default, a matrix in R is filled by columns and is stretched to
+By default, a matrix in R is filled by columns and is stretched to
 a vector by columns, while when you use function `Partition`, the
 matrices which are elements of the final resulting list/3-D array
 are filled by row
 
-[^3]: Similar to function `apply` in R, but you cannot pass extra
+Similar to function `apply` in R, but you cannot pass extra
 parameters to the function which is to be applied over the list.
 
-[^4]: I'm not very sure how to send Gmail in Mathematica. I've tried
+I'm not very sure how to send Gmail in Mathematica. I've tried
 many different ways, but none of them worked.
 
 
@@ -387,23 +392,29 @@ many different ways, but none of them worked.
 1. `<>` joins two strings together, StringJoin, + in python, Java, etc. 
 	A missing <> not necesarry cause error but of course give you wrong answer, so be careful!!!
 
-2. You can write program in plain text (and save it as .m file). You can import the functions in the file using Import[file_path]. This is the suggested way for you to manager your own Mathematica code.
+2. You can write program in plain text (and save it as .m file). 
+    You can import the functions in the file using Import[file_path]. 
+    This is the suggested way for you to manager your own Mathematica code.
 
 3. You can specify scope of notebook "Evaluation -> Notebook's Default Context" and then select one of the options.
 
-4. Be careful when you save your notebook as .m file. The stupid software comments out every line!!! You can just save it as plain text or copy and paste it into a .m file. 
+4. Be careful when you save your notebook as .m file. 
+    The stupid software comments out every line!!! 
+    You can just save it as plain text or copy and paste it into a .m file. 
 
-5. The stupid Mathematica 9 screws up scopes. Even if you have run the definition of a function in a notebook that is set as global, it's not seen in other notebooks!!!
+5. The stupid Mathematica 9 screws up scopes. 
+    Even if you have run the definition of a function in a notebook that is set as global, it's not seen in other notebooks!!!
 
 6. check whether a plain text file can also be imported!!!!
 
 	a. mathematics 	Mathematics 	MATHEMATICS
 
-7. just use ?FunName to get help of a function. If you are not sure whether a function is defined or not, this also helps.
+7. just use ?FunName to get help of a function. 
+    If you are not sure whether a function is defined or not, this also helps.
 
 8. the result of ParallelTable is the same as Table except for side effect of computation.
 
-9. parallize[table[]]
+9. `parallize[table[]]`
 
 10. use "" for string instead of ‘’
 
@@ -411,34 +422,37 @@ many different ways, but none of them worked.
 
 12. cannot use _ in variable names, cause error message: Set::write: Tag Times in 1 x_ is Protected. >>
 
-13. f[x_Real]:=x^2; pass integer to it won't work!!!
+13. `f[x_Real] := x^2`; pass integer to it won't work!!!
 
-14. f[x_Real:3.]=x^2 default parameter
+14. `f[x_Real:3.] = x^2` default parameter
 
 15. nohup math -run "<<../mle_2_10.m" & do not quote  
 in Mathematica you use <<"../mle_2_10.m", 
 but here quote <<../mle_2_10.m instead of the file name.
 
-16. Get[file_path] <<file_path Import[file_path]
+16. `Get[file_path] << file_path`
+     `Import[file_path]`
 
 17. nohup matlab -nodesktop -nosplash file.m (don't put & as it cause matlab not to start)
 
-18. SetDirectory["/home/dclong/simulation"] Directory[] FileNames[]
+18. `SetDirectory["/home/dclong/simulation"]` 
+    `Directory[]`
+    `FileNames[]`
 
 19. it is suggested that you use java camelCase style to name variables in 	Mathematica which can distinguish them from functions
 
 20. integer cannot be use in string concatenation directly, must use ToString to convert it to a String first.
 
-21. mle /. Rule -> (#2 &) 
+21. `mle /. Rule -> (#2 &)` 
 
-22. Export[output, result, "Table"];
+22. `Export[output, result, "Table"];`
 
 ## common mistakes
 
-1. forget {}, in Module
+1. forget `{}`, in Module
 
 ## IO
 
 1. put and PutAppends 
 
-2. >> and >>> similar to Linux bash > and >>
+2. `>>` and `>>>` similar to Linux bash > and >>
