@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-26 00:11:11
+Date: 2020-05-26 00:13:22
 Author: Ben Chuanlong Du
 Slug: git-errors-solutions
 Title: Git Errors and Solutions
@@ -13,9 +13,9 @@ Please read with your own judgement!
 
 ## `git clone` throws the error message "fatal: unable to fork"
 
-The reason is due to missing package `openssh`.
+The reason is due to missing SSH.
 
-The solution is simply to install `openssh`.
+The solution is simply to install `openssh-client`.
 
     sudo apt-get install openssh
 
