@@ -1,18 +1,26 @@
 Status: published
-Date: 2019-05-12 13:15:21
+Date: 2020-05-26 00:11:11
 Author: Ben Chuanlong Du
 Slug: git-errors-solutions
 Title: Git Errors and Solutions
 Category: Software
-Tags: programming, Git, version control, error, solutions
+Tags: programming, Git, version control, error, solutions, issues
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## `git clone` throws the error message "fatal: unable to fork"
 
-Sometimes `git pull` throw the error of `fatal: early EOF fatal: index-pack failed`.
+The reason is due to missing package `openssh`.
+
+The solution is simply to install `openssh`.
+
+    sudo apt-get install openssh
+
+## `git pull` throw the error message "fatal: early EOF fatal: index-pack failed"
+
 There are a few possible reasons that caused this error.
 
 1. Compression runs out of memory.
