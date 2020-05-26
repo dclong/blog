@@ -24,8 +24,6 @@ def install_if_not_exist(pkgs: Union[str, List[str]], pip: str = "python3 -m pip
     :param pip: The pip command to use (to install packages).
     """
     frame = dsutil.shell.to_frame(f"{pip} list", split="\s+", header=0, skip=1)
-    print(frame)
-    print(frame.query("'pelican' in package"))
     if isinstance(pkgs, str):
         pkgs = [pkgs]
     for pkg in pkgs:
