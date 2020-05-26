@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:05:42
+Date: 2020-05-25 20:07:37
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -489,21 +489,96 @@ The python package [dsutil](https://github.com/dclong/dsutil) is required.
 
     :::python
     #!/usr/bin/env python3
+    from argparse import ArgumentParser, Namespace
     from dsutil import docker
+    from loguru import logger
+    IMAGES = [
+        "dclong/conda-build",
+        "dclong/vscode-server",
+        "dclong/gitpod",
+        "dclong/jupyterhub-julia",
+        "dclong/jupyterhub-pytorch",
+        "dclong/jupyterhub-ai",
+        "dclong/rustpython",
+    ]
 
-    docker.remove(choice="y")
-    docker.remove_images(tag="[a-z]*_?[0-9]{4}", choice="y")
-    tag_build = "latest"
-    no_cache = False
-    push = True
-    docker.build_images("dclong/conda-build", no_cache=no_cache, tag_build=tag_build, push=push)
-    docker.build_images("dclong/vscode-server", tag_build=tag_build, push=push)
-    docker.build_images("dclong/gitpod", tag_build=tag_build, push=push)
-    docker.build_images("dclong/jupyterhub-julia", tag_build=tag_build, push=push)
-    docker.build_images("dclong/jupyterhub-pytorch", tag_build=tag_build, push=push)
-    docker.build_images("dclong/jupyterhub-ai", tag_build=tag_build, push=push)
-    docker.remove(choice="y")
-    docker.remove_images(tag="[a-z]*_?[0-9]{4}", choice="y")
+
+    def build(**kwargs):
+        args = Namespace(**kwargs)
+        for idx, image in enumerate(IMAGES):
+            if idx == 0:
+                docker.build_images(image, cache=args.cache, tag_build="next", pull=args.pull)
+                docker.build_images(image, cache=True, tag_build="latest", pull=args.pull)
+                continue
+            docker.build_images(image, cache=True, tag_build="next", pull=args.pull)
+            docker.build_images(image, cache=True, tag_build="latest", pull=args.pull)
+
+
+    def push(**kwargs):
+        args = Namespace(**kwargs)
+        for idx, image in enumerate(IMAGES):
+            docker.push_images(image, tag="next")
+            docker.push_images(image, tag="latest")
+        docker.remove(choice="y")
+        docker.remove_images(tag="[a-z]*_?[0-9]{4}", choice="y")
+
+
+    def _subparse_push(subparsers):
+        subparser_push = subparsers.add_parser(
+            "push", 
+            aliases=["p"], 
+            help="Push built Docker images."
+        )
+        subparser_push.set_defaults(func=push)
+
+
+    def _subparse_build(subparsers):
+        subparser_build = subparsers.add_parser(
+            "build", 
+            aliases=["b"], 
+            help="Build Docker images."
+        )
+        subparser_build.add_argument(
+            "--no-cache",
+            dest="cache",
+            action="store_false",
+            default=True,
+            help="Disable caching when building Docker images."
+        )
+        subparser_build.add_argument(
+            "--no-cache-from",
+            dest="no_cache_from",
+            default="",
+            help="Disable caching from the specified repo/image when building Docker images."
+        )
+        subparser_build.add_argument(
+            "-p",
+            "--pull",
+            dest="pull",
+            action="store_true",
+            help="Pull the base image when building Docker images."
+        )
+        subparser_build.set_defaults(func=build)
+
+
+    def parse_args(args=None, namespace=None):
+        """Parse command-line arguments.
+        """
+        parser = ArgumentParser(description="Build and push Docker images.")
+        subparsers = parser.add_subparsers(dest="sub_cmd", help="Sub commands.")
+        _subparse_build(subparsers)
+        _subparse_push(subparsers)
+        return parser.parse_args(args=args, namespace=namespace)
+
+
+    def main():
+        args = parse_args()
+        logger.debug("args: {}", args)
+        args.func(**vars(args))
+
+
+    if __name__ == "__main__":
+        main()
 
 A practical tips on making it fast is 
 to first run a process without pushing 
@@ -513,10 +588,10 @@ and the 2nd process pushing (mainly) at the same time.
 
     :::bash
     # run this first in one shell
-    ./build_docker.py 
+    ./docker.py b
 
     # and then run this in another one shell
-    ./build_docker.py 
+    ./d_docker.py p
 
 ## Known Issues 
 
