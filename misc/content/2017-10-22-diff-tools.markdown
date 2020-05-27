@@ -1,8 +1,8 @@
 Status: published
-Date: 2019-05-10 19:15:40
+Date: 2020-05-27 15:04:30
 Author: Ben Chuanlong Du
 Slug: diff-tools
-Title: Diff Tools
+Title: Tools for Differencing Text Files
 Category: Software
 Tags: diff, tools, Linux, cli, command line, colordiff, vimdiff
 
