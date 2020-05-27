@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-06-26 21:56:32
+Date: 2020-05-27 15:08:38
 Author: Ben Chuanlong Du
 Slug: read-parquet-files-in-python
 Title: Read Parquet Files in Python
@@ -32,6 +32,14 @@ pip3 install fastparquet
 ## Write a DataFrame into Parquet Files
 
 https://github.com/pandas-dev/pandas/issues/21228
+
+## Output Type of Columns
+
+null object -> null int when read into PySpark!!
+
+https://stackoverflow.com/questions/49172428/how-to-specify-logical-types-when-writing-parquet-files-from-pyarrow
+
+https://stackoverflow.com/questions/50110044/how-to-force-parquet-dtypes-when-saving-pd-dataframe
 
 ## References 
 

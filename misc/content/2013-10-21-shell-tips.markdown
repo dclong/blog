@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Shell Commands
-Date: 2020-05-22 14:15:33
+Date: 2020-05-27 15:14:02
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal
@@ -25,6 +25,13 @@ Please read with your own judgement!
 5. nautilus-open-terminal
 
 6. script (logging terminal activities)
+
+
+## export
+
+A new child process forked from a parent process does not inherit parent's variables by default.
+The export command marks an environment variable to be exported with any newly forked child processes 
+and thus it allows a child process to inherit all marked variables. 
 
 ## References
 
