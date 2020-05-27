@@ -4,4 +4,4 @@ ports:
 tasks:
   - command: ln -s /workspace/blog/main.py /home/gitpod/.local/bin/blog
   - command: nvim --headless +"call dein#install()" +qall
-  - command: export EDITOR=vim
+  - command: export EDITOR=vim && export PIP_USER=no
