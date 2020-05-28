@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-22 18:49:52
+Date: 2020-05-27 21:35:35
 Author: Benjamin Du
 Slug: tips-on-yaml
 Title: Tips on YAML
@@ -44,3 +44,5 @@ https://medium.com/@deepak7093/dynamic-code-generator-using-yaml-config-and-jinj
 ## References
 
 https://www.baeldung.com/java-snake-yaml
+
+[Strings in YAML - To Quote or not to Quote](http://blogs.perl.org/users/tinita/2018/03/strings-in-yaml---to-quote-or-not-to-quote.html)
