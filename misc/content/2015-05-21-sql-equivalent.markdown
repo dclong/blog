@@ -739,7 +739,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> sth </td>
+    <td rowspan="6"> Substring </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -752,6 +752,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    select <br> &nbsp; &nbsp; &nbsp; &nbsp;
+        substr('Spark SQL', 5, 1) -- resulting 'k' <br>
+    from ...
     </code> </td>
   </tr>
   <tr>
