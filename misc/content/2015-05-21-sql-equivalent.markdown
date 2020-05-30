@@ -752,6 +752,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    /* substr and substring are equivalent in Spark/Hive SQL */
     select <br> &nbsp; &nbsp; &nbsp; &nbsp;
         substr('Spark SQL', 5, 1) -- resulting 'k' <br>
     from ...
