@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-29 10:33:45
+Date: 2020-05-29 21:21:44
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -684,6 +684,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    select <br> &nbsp; &nbsp; &nbsp; &nbsp;
+        concat('Spark', 'SQL') <br>
+    from ...
     </code> </td>
   </tr>
   <tr>
@@ -703,7 +706,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> sth </td>
+    <td rowspan="6"> Refresh Table Cache </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -716,9 +719,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    select <br> 
-        concat('Spark', 'SQL') <br>
-    ...
+    REFRESH TABLE table_name
     </code> </td>
   </tr>
   <tr>
