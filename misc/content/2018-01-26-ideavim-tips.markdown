@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-31 11:48:10
+Date: 2020-05-31 11:53:55
 Author: Ben Chuanlong Du
 Slug: ideavim-tips
 Title: Vim Keybindings Using IdeaVim in IntelliJ IDEA
 Category: Computer Science
-Tag: Computer Science, IntelliJ IDEA, IdeaVim, Vim
+Tags: Computer Science, IntelliJ IDEA, IdeaVim, Vim
 
 **
 Things on this page are
