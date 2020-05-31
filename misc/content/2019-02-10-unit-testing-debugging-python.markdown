@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 21:42:55
+Date: 2020-05-30 20:38:30
 Author: Benjamin Du
 Slug: unit-testing-debugging-python
 Title: Unit Testing and Debugging Tools for Python
@@ -17,7 +17,11 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-- [TDDA](https://github.com/tdda/tdda)
+## General Tips on Testing
+
+1. When separate teams/people are developing different components in a big project 
+    and unit testing has to be written before other dependent components are ready,
+    make sure that unit tests cover agreed interfaces.
 
 
 ## [PySnooper](https://github.com/cool-RR/PySnooper)

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:24:45
+Date: 2020-05-30 19:30:05
 Author: Ben Chuanlong Du
 Title: Windows Operating System
 Slug: tips-windows
@@ -8,7 +8,11 @@ Tags: tips, anti-virus, Windows, Dropbox, OS
 
 <img src="http://dclong.github.io/media/windows/windows.png" height="200" width="240" align="right"/>
 
-[Chocolatey](https://chocolatey.org/) is a cool software management tool for Windows.
+[winget](https://github.com/microsoft/winget-cli)
+is the official Windows Package Manager CLI.
+
+[Chocolatey](https://chocolatey.org/) 
+is a cool community-driven software management tool for Windows.
 
 ## Tricky Problem
 

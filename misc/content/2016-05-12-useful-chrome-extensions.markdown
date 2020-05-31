@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 17:12:32
+Date: 2020-05-30 20:26:25
 Author: Ben Chuanlong Du
 Slug: useful-chrome-extensions
 Title: Useful Chrome Extensions
@@ -48,3 +48,10 @@ Copy all URLs of open tabs.
 ## feedly (RSS feed)
 ## TV Clicker
 ## Secure SSH (SSH client in Google)
+
+
+## Voice Control Related
+
+handfree
+
+lipsurf

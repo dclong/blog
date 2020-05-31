@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-30 10:54:34
+Date: 2020-05-30 13:20:46
 Author: Benjamin Du
 Slug: shopping-on-costco
 Title: Shopping on Costco
@@ -13,3 +13,6 @@ Please read with your own judgement!
 
 
 https://sameday.costco.com/store/costco/storefront
+
+
+https://www.costco.com/costco-shop-card

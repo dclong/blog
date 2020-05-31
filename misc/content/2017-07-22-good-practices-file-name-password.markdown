@@ -1,9 +1,8 @@
-UUID: 36d829fc-773b-4a47-80a4-42459d1500c1
 Status: published
-Date: 2017-07-22 11:02:51
+Date: 2020-05-30 20:24:17
 Author: Ben Chuanlong Du
-Slug: speical-characters-to-avoid-in-file-names-and-password
-Title: Speical Characters to Avoid in File Names and Password
+Slug: speical-characters-to-avoid
+Title: Speical Characters to Avoid in Strings
 Category: Computer Science
 Tags: programming, speical characters, avoid, password, file name
 
@@ -12,6 +11,12 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+1. When you pass parameters from one program to another one,
+    do not make any assumption on how shell is handled.
+    For this reasons,
+    you want to avoid `` `...` `` and `$(...)` in parameters 
+    passed to another program which might be part of a shell command.
 
 ## File Names
 
@@ -22,6 +27,8 @@ Please read with your own judgement!
     - single quotes (`'`)
     - tilde (`~`)
     - dash/minus (`-`) 
+    - backtick (`` ` ``) 
+    - shell command (`$()`) 
 
 2. When you programmally get the path of a file, 
     it is best to convert it to its absolute form.
@@ -33,3 +40,5 @@ Please read with your own judgement!
     - dollar signs (`$`) 
     - double quotes (`"`) 
     - single quotes (`'`) 
+    - backtick (`` ` ``) 
+    - shell command (`$()`) 
