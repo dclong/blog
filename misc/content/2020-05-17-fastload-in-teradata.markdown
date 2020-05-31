@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 11:48:27
+Date: 2020-05-31 11:36:44
 Author: Benjamin Du
 Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata
@@ -136,3 +136,5 @@ it seems that you must write code yourself.
 - [Teradata JDBC Driver Sample Programs](https://teradata-docs.s3.amazonaws.com/doc/connectivity/jdbc/reference/current/samplePrograms.html)
 
 - [Teradata FASTLOAD - Overview , Syntax and Execution](https://www.youtube.com/watch?v=sq5x__EkCJc)
+
+- [Teradata FastLoad Example](https://docs.teradata.com/reader/r_6Z4JwVMhANtZFCIKEx7Q/cE9QwHgBRSq8CvD61SaycQ)
