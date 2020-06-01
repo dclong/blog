@@ -247,7 +247,7 @@ def _pelican_generate(dir_: str, fatal: str):
         "-s", str(blog_dir / "pconf.py")
     ]
     if fatal:
-        args.append(["--fatal", fatal])
+        args.extend(["--fatal", fatal])
     pelican.main(args)
 
 
