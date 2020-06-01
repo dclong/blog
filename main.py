@@ -234,7 +234,7 @@ def _push_github(dir_: str, https: bool):
     sp.run(cmd, shell=True, check=True)
 
 
-def _pelican_generate(dir_: str):
+def _pelican_generate(dir_: str, fatal: str):
     """Generate the (sub) blog/site using Pelican.
     :param dir_: the sub blog directory to generate.
     """
@@ -243,10 +243,12 @@ def _pelican_generate(dir_: str):
     #config = blog_dir / "pconf.py"
     #settings = pelican.settings.read_settings(path=str(config))
     #pelican.Pelican(settings).run()
-    pelican.main([
-        "-s", str(blog_dir / "pconf.py"),
-        "--fatal", "errors",
-    ])
+    args = [
+        "-s", str(blog_dir / "pconf.py")
+    ]
+    if fatal:
+        args.append(["--fatal", fatal])
+    pelican.main(args)
 
 
 def publish(blogger, args):
@@ -255,7 +257,7 @@ def publish(blogger, args):
     auto_git_push(blogger, args)
     print(DASHES)
     for dir_ in args.sub_dirs:
-        _pelican_generate(dir_)
+        _pelican_generate(dir_, args.fatal)
         if not args.no_push_github:
             _push_github(dir_, args.https)
         print(DASHES)
@@ -845,6 +847,17 @@ def _subparse_publish(subparsers):
         dest="no_push_github",
         action="store_true",
         help="Do not push the generated (sub) blog/site to GitHub.")
+    subparser_publish.add_argument(
+        "--fatal",
+        dest="fatal",
+        default="errors",
+        help="The --fatal argument for pelican.")
+    subparser_publish.add_argument(
+        "--no-fatal",
+        dest="fatal",
+        action="store_const",
+        const=None,
+        help="Disable the --fatal argument for pelican.")
     subparser_publish.set_defaults(func=publish)
 
 
