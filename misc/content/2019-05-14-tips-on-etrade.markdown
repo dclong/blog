@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-23 00:35:34
+Date: 2020-06-06 12:38:55
 Author: Benjamin Du
 Slug: tips-on-etrade
 Title: Tips on eTrade
@@ -11,7 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-[Add External Funnding Account](https://us.etrade.com/etx/mm/movemoney/link-account)
+[Add External Funding Account](https://us.etrade.com/etx/mm/movemoney/link-account)
 
 
 [Upload Documents](https://us.etrade.com/etx/hw/customerservice/uploaddoc#!/upload)
