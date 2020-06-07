@@ -13,11 +13,14 @@ Please read with your own judgement!
 
 [itable](https://github.com/mwouts/itables)
 
-https://mwouts.github.io/itables/
 
 [ipysheet](https://github.com/QuantStack/ipysheet/)
 
-[ipyaggrid](https://gitlab.com/DGothrek/ipyaggrid/0
+[ipyaggrid](https://gitlab.com/DGothrek/ipyaggrid/)
+
+[qgrid](https://github.com/quantopian/qgrid)
+
+[jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
 
 ## Underlying JavaScript Libraries
 
@@ -26,5 +29,7 @@ https://mwouts.github.io/itables/
 [ag-grid](https://www.ag-grid.com/)
 
 ## References
+
+[itables Notebook Examples](https://mwouts.github.io/itables/)
 
 https://towardsdatascience.com/interactive-spreadsheets-in-jupyter-32ab6ec0f4ff

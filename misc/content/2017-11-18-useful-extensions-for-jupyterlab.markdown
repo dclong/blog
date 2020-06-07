@@ -51,6 +51,8 @@ is a multi-user server for Jupyter notebooks.
 
 ### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
 
+### [Jupyter/Lab Extensions for Spreadsheet](http://www.legendu.net/misc/blog/jupyterlab-extensions-for-spreadsheet/)
+
 ### [wallneradam/jupyterlab-output-auto-scroll](https://github.com/wallneradam/jupyterlab-output-auto-scroll)
 
 Automatically scrolls scrollable output cells to bottom when content has changed
@@ -58,8 +60,6 @@ Automatically scrolls scrollable output cells to bottom when content has changed
 ### [jupyterlab-latex](https://github.com/jupyterlab/jupyterlab-latex)
 
 ### [Voila](https://github.com/QuantStack/voila)
-
-### [jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
 
 ### [ipywidgets](https://github.com/ipython/ipywidgets/tree/master/jupyterlab_widgets)
 
@@ -130,8 +130,6 @@ without changing directory in the navigation panel in JupyterLab.
 A non polished product. Too much messages.
 
 ### [jupyterlab_code_formatter](https://github.com/ryantam626/jupyterlab_code_formatter)
-
-### [qgrid](https://github.com/quantopian/qgrid)
 
 ### [jupyterlab-google-drive](https://github.com/jupyterlab/jupyterlab-google-drive)
 Not sure whether this is useful.
