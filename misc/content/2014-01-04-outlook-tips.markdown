@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:57:10
+Date: 2020-06-06 20:28:42
 Title: Tips on Outlook
 Slug: outlook-tips
 Category: Software
@@ -9,7 +9,13 @@ Tags: software, outlook, tips, email client
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**
  
-## Tips
+## Tip and Traps
+
+1. Always be careful when yu use "Reply All". 
+    Make sure that the recipients are the right ones.
+    Avoid forward a large group meeting to people 
+    and have a small group discussion at the same time in the thread.
+    This can easily trick people to reply to all people in the large group.
 
 1. Use the "Schedule Assistant" to check other people's schedules.
 
