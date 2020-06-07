@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:22:17
+Date: 2020-06-07 15:31:55
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -25,6 +25,17 @@ Please read with your own judgement!
     and assuming that IPython is installed with the right permission 
     (you cannot import it if you do not have read permission), 
     run IPython `/path/to/python -m IPython` might resolve the issue.
+
+2. The option `--ipython-dir` can be used to specify the directory of configuration files for IPython.
+    If not specified, 
+    the directory return by `IPython.paths.get_ipython_dir()` is used.
+    Depending on your system and setup,
+    `IPython.paths.get_ipython_dir()` might return different locations.
+    The option `--ipython-dir` can be very help 
+    if `IPython.paths.get_ipython_dir()` does not return the directory you want to use.
+    
+        :::bash
+        ipython --ipython-dir ~/.ipython/
 
 ### Help Doc
 
