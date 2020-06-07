@@ -37,6 +37,12 @@ Please read with your own judgement!
         :::bash
         ipython --ipython-dir ~/.ipython/
 
+### Create a Profile for IPython
+
+    ipython profile create [profilename]
+
+    ipython profile create [profilename] --profile-dir ~/.ipython
+
 ### Help Doc
 
 1. A prefixing/suffixing question mark (`?`) shows the help doc of an object in IPython.
