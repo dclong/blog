@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-23 08:20:54
+Date: 2020-06-07 14:44:03
 Author: Benjamin Du
 Slug: packaging-python-dependencies-for-pyspark-using-pex
 Title: Packaging Python Dependencies for PySpark Using Pex
@@ -146,3 +146,4 @@ https://medium.com/criteo-labs/packaging-code-with-pex-a-pyspark-example-9057f9f
 
 [Run pyspark scripts with python3 instead of pyspark](https://hang-hu.github.io/spark/2018/10/31/Run-pyspark-scripts-with-python3-instead-of-pyspark.html)
 
+https://github.com/pantsbuild/pex/issues/746

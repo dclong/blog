@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-21 10:37:43
+Date: 2020-06-07 14:44:03
 Author: Benjamin Du
 Slug: tips-on-pex
 Title: Tips on pex
@@ -120,3 +120,5 @@ Please read with your own judgement!
 https://github.com/pantsbuild/pex
 
 https://punchplatform.com/2019/10/08/packaging-python/
+
+https://github.com/pantsbuild/pex/issues/746
