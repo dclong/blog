@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-07 15:31:55
+Date: 2020-06-07 15:37:10
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -197,6 +197,8 @@ Please read with your own judgement!
 [IPython Documentation](https://ipython.readthedocs.io/en/stable/index.html)
 
 [IPython Magics](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
+
+[Introduction to IPython configuration](https://ipython.readthedocs.io/en/stable/config/intro.html)
 
 https://stackoverflow.com/questions/19579546/can-i-access-python-variables-within-a-bash-or-script-ipython-notebook-c
 
