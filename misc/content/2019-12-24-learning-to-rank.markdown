@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-11 11:28:33
+Date: 2020-06-10 14:27:43
 Author: Benjamin Du
 Slug: learning-to-rank
 Title: Learning to Rank
@@ -11,7 +11,11 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+https://www.kaggle.com/c/home-credit-default-risk/discussion/61613
 
+https://studylib.net/doc/18339870/yetirank--everybody-lies
+
+http://proceedings.mlr.press/v14/gulin11a/gulin11a.pdf
 
 
 ## Learning to Rank in LightGBM
