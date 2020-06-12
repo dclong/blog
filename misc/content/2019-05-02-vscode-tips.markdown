@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:36:14
+Date: 2020-06-12 10:35:12
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -65,6 +65,13 @@ https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line
 ## Shortcuts
 
 Shift + CMD + V: Switch between view mode of Markdown. You can use it to open Markdown preview in VS Code.
+
+Command + J: Show/Hide the terminal panel.
+
+Ctrl + Command + F: Enter/Exit full screen mode.
+
+Ctrl + Click: Togger menu on a variable (which contains Peek definition)
+Ctrl + Alt + Click: variable definition
 
 ## References
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:36:14
+Date: 2020-06-12 10:35:12
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -10,13 +10,6 @@ Tags: programming, Python, Visual Studio Code, vscode, IDE, Jupyter notebook
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-## Shortcuts 
-
-Command + J: Show/Hide the terminal panel.
-
-Ctrl + Command + F: Enter/Exit full screen mode.
-
 
 ## Set Python Environment for Visual Studio Code Server
 
@@ -64,6 +57,8 @@ https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-par
 https://code.visualstudio.com/docs/python/jupyter-support
 
 ## References
+
+[VSCode Shortcuts](http://www.legendu.net/misc/blog/vscode-tips/#shortcuts)
 
 [Getting Started with Python in VS Code](https://code.visualstudio.com/docs/python/python-tutorial)
 

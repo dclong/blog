@@ -18,7 +18,7 @@ is a Python utility/library to sort imports.
     :::bash
     pylint your_script.py
 
-### mypy
+### [mypy](https://github.com/python/mypy)
 
     :::bash
     mypy your_script.py
