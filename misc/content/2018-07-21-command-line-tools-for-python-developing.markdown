@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 14:02:13
+Date: 2020-06-12 08:42:27
 Author: Ben Chuanlong Du
 Slug: command-line-tools-for-python-developing
 Title: Command-line Tools for Python Developing
@@ -24,6 +24,10 @@ is a Python utility/library to sort imports.
     mypy your_script.py
     :::bash
     mypy --ignore-missing-imports roas.py
+
+### [darglint](https://github.com/terrencepreilly/darglint)
+
+A python documentation linter which checks that the docstring description matches the definition.
 
 ## Type Annotation
 
