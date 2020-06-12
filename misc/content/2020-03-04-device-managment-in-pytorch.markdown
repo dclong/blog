@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-21 11:51:30
+Date: 2020-06-11 18:17:52
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch
@@ -102,6 +102,8 @@ https://pytorch.org/docs/stable/distributed.html
 
 
 ## References
+
+[[Feature Request] nn.Module should also get a `device` attribute](https://github.com/pytorch/pytorch/issues/7460)
 
 [torch.cuda](https://pytorch.org/docs/stable/cuda.html#module-torch.cuda)
 
