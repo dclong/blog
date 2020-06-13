@@ -13,3 +13,11 @@ Please read with your own judgement!
 
 
 [MLOps: Continuous delivery and automation pipelines in machine learning](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
+
+## Travis CI 
+
+## Jenkins
+
+## [act](https://github.com/nektos/act)
+
+Run your GitHub Actions locally.
