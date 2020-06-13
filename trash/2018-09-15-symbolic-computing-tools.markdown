@@ -12,11 +12,3 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-1. Methematica
-
-2. Walfram Alpha
-
-3. sage
-
-3. Maxima
