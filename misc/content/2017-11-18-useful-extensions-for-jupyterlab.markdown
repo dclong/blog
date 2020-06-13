@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 07:40:00
+Date: 2020-06-12 23:20:45
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -33,6 +33,18 @@ Disable an istallledd Jupyter/Lab extension.
 
     :::bash
     jupyter serverextension disable --py jupyterlab_code_formatter
+
+## Extensions/Tools to Avoid 
+
+### Variable Inspaction in Notebook 
+
+1. makes notebook run slow
+2. why do you want such a tool if you can check any vairable in notebook already?
+
+### jupyter-lsp 
+
+1. slow and might crash on pandas DataFrame
+
 
 ## Useful Tools
 
