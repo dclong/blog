@@ -853,6 +853,7 @@ def _subparse_publish(subparsers):
         default="errors",
         help="The --fatal argument for pelican.")
     subparser_publish.add_argument(
+        "-F",
         "--no-fatal",
         dest="fatal",
         action="store_const",
