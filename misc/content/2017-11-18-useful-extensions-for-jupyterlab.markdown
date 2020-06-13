@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-12 23:20:45
+Date: 2020-06-13 10:50:07
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -132,6 +132,8 @@ As an alternative,
 it is must faster and more reliable to use the `find` command to help locate files in a terminal.
 You can also use the `Open Path` command to help you open a file 
 without changing directory in the navigation panel in JupyterLab.
+
+### [jupyterlab-email](https://github.com/timkpaine/jupyterlab_email)
 
 ### [jupyterlab-monaco](https://github.com/jupyterlab/jupyterlab-monaco)
 
