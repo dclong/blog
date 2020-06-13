@@ -41,7 +41,7 @@ Disable an istallledd Jupyter/Lab extension.
 1. makes notebook run slow
 2. why do you want such a tool if you can check any vairable in notebook already?
 
-### jupyter-lsp 
+### jupyterlab-lsp 
 
 1. slow and might crash on pandas DataFrame
 
