@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:47:17
+Date: 2020-06-13 10:18:43
 Author: Benjamin Du
 Title: Install Packages Using Homebrew on macOS
 Slug: homebrew-tips
@@ -23,6 +23,8 @@ brew search python@3.6
 
 1. Linuxbrew/brew has been merged into Homebrew/brew.
     For more please refer to [this issue](https://github.com/Linuxbrew/brew/issues/1).
+    **Linuxbrew is a good tool to install Linux packages 
+    in environments which you do not have sudo permission**.
 
 ## Install gcc/g++
 
