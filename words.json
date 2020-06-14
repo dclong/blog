@@ -83,5 +83,6 @@
     ["Youcompleteme", "YouCompleteMe"],
     ["Intellij Idea", "IntelliJ IDEA"],
     ["Torch.Nn.Module", "torch.nn.Module"],
+    ["Restructuretext", "RestructureText"],
     ["Torch.Nn.Functional", "torch.nn.functional"]
 ]
