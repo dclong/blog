@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-25 10:33:47
+Date: 2020-06-13 11:01:20
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -75,6 +75,10 @@ process
 levelname
 
 message
+
+## [rich](https://github.com/willmcgugan/rich)
+
+Rich is a Python library for rich text and beautiful formatting in the terminal.
 
 ## References
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-14 14:14:35
+Date: 2020-06-13 10:58:31
 Author: Benjamin Du
 Slug: web-automation
 Title: Web Automation
@@ -18,6 +18,10 @@ Selenium is a great web automation tool!
 
 [Here](https://hub.docker.com/u/selenium)
 are official Docker images for selenium.
+
+## [playwright](https://github.com/microsoft/playwright)
+
+Node library to automate Chromium, Firefox and WebKit with a single API https://playwright.dev
 
 ## [Puppeteer](https://github.com/GoogleChrome/puppeteer)
 

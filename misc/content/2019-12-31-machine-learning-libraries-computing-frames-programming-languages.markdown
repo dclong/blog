@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 22:15:55
+Date: 2020-06-13 22:56:40
 Author: Benjamin Du
 Slug: machine-learning-libraries-computing-frames-programming-languages
 Title: Machine Learning Libraries, Computing Frames and Programming Languages
@@ -80,6 +80,17 @@ Apache Ray
 ### Python Distributed Computing Frameworks (Ray, Celery, Dask, Modin, etc.)
 ### Spark
 ### TPU
+
+## Model Serving 
+
+### https://github.com/cortexlabs/cortex
+
+Multi-framework machine learning model serving infrastructure.
+
+
+### TFX
+
+### Torch Serve
 
 ## Programming Languages
 Python
