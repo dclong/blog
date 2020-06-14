@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-30 09:13:23
+Date: 2020-06-14 10:10:39
 Author: Benjamin Du
 Slug: rmarkdown-equivalent-in-python
 Title: RMarkdown Equivalent in Python
@@ -17,8 +17,8 @@ Please read with your own judgement!
 
 Both [CodeBraid](https://github.com/gpoore/codebraid)
 and
-[jupyter-book](https://github.com/executablebooks/jupyter-book)
-are good alternative to RMarkdown.
+[jupyter-book](https://github.com/executablebooks/jupyter-book) (preferred)
+are good alternatives to RMarkdown.
 
 ### [CodeBraid](https://github.com/gpoore/codebraid)
 
