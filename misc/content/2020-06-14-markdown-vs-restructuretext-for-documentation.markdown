@@ -1,31 +1,34 @@
 Status: published
-Date: 2020-06-14 09:53:37
+Date: 2020-06-14 11:11:27
 Author: Benjamin Du
-Slug: markdown-vs-restructuretext-for-documentation
-Title: Markdown vs RestructureText for Documentation
+Slug: markdown-vs-restructuretext-vs-myst-for-documentation
+Title: Markdown vs RestructureText vs MyST for Documentation
 Category: Computer Science
-Tags: Computer Science, Markdown, RestructureText, documentation, markup
+Tags: Computer Science, Markdown, RestructureText, documentation, markup, rst, MyST
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Choose One Against the Other 
+## Comparison
 
-Use RestructureText as much as possible unless for really simple situations
-or in situations when Markdown is support while RestructureText is not.
-
-## Main Advantage of RestructureText over Markdown
-
-- more fully-featured
-- much more standardized and uniform
-- built-in support for extensions
+1. Compared to Markdown, 
+    RestructuredText is more fully-featured, much more standardized and uniform,
+    and has built-in support for extensions.
+    However, 
+    ReStructuredText is also criticized for its complex and confusing syntax.
+    The toolchains for ReStructuredText (Sphinx) is also more complicated to use 
+    than Markdown equivalent tools.
 
 ## References
+
+https://myst-parser.readthedocs.io/en/latest/
 
 https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/
 
 https://www.jungledisk.com/blog/2017/01/20/restructuredtext-vs-markdown/
 
 https://www.zverovich.net/2016/06/16/rst-vs-markdown.html
+
+https://predictablynoisy.com/2020-01-22-rst-thoughts

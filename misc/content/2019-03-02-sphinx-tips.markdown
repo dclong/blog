@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-13 23:58:38
+Date: 2020-06-14 10:54:14
 Author: Benjamin Du
 Title: Genator Documentation Using Sphinx
 Slug: sphinx-tips
@@ -31,3 +31,19 @@ https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/
 ## Public Host 
 
 https://readthedocs.org/
+
+## Sphinx Extensions
+
+### Jupyter/Lab Notebooks
+
+https://github.com/spatialaudio/nbsphinx/
+
+https://github.com/jupyter/jupyter-sphinx
+
+### Markdown 
+
+https://www.sphinx-doc.org/en/master/usage/markdown.html
+
+## References
+
+https://stackoverflow.com/questions/2471804/using-sphinx-with-markdown-instead-of-rst

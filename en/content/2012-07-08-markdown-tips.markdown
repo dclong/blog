@@ -1,6 +1,5 @@
-UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2017-04-03 18:54:28
+Date: 2020-06-14 11:44:25
 Slug: markdown-tips
 Author: Ben Chuanlong Du
 Category: Computer Science
@@ -8,6 +7,17 @@ Tags: Markdown, Jekyll, programming
 Title: Tips for Markdown
 
 <img src="http://dclong.github.io/media/markdown/markdown.gif" height="200" width="240" align="right"/>
+
+## Markdown Standard
+
+1. [CommonMark](https://commonmark.org/)
+    is the Markdown standard.
+    Its specs can be found at [commonmark-spec](https://github.com/commonmark/commonmark-spec).
+    https://talk.commonmark.org/
+    is the community forum for CommonMark.
+    Note that CommonMark is supported by GitHub.
+
+## Misc 
 
 1. Jekyll interprete contents in two nested curly brackets as a variable 
 (white spaces around the vairable are trimmed).
