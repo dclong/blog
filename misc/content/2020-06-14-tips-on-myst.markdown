@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-14 11:27:12
+Date: 2020-06-14 18:47:56
 Author: Benjamin Du
 Slug: tips-on-myst
 Title: Markedly Structured Text
@@ -10,6 +10,11 @@ Tags: Computer Science, MyST, Markedly Structured Text, markup
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+
+MySt is an extension of [CommonMarkdown](https://commonmark.org/) with some goodies introduced from RestructuredText.
+
+## References
 
 https://github.com/executablebooks/MyST-Parser
 
