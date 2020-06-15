@@ -53,6 +53,7 @@
     ["Py4Jdbc", "py4jdbc"], ["Pycharm", "PyCharm"], ["Pymysql", "PyMySQL"], ["Pyspark", "PySpark"], ["Pytorch", "PyTorch"], ["Pyjnius", "PyJNIus"],
     ["Rstudio", "RStudio"],
     ["Stringi", "stringi"],
+    ["Xfinity", "XFinity"],
     ["Ai-Based", "AI-based"],
     ["Kdevelop", "KDevelop"],
     ["Lightgbm", "LightGBM"],
