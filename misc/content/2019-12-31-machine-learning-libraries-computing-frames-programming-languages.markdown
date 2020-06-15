@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-13 22:56:40
+Date: 2020-06-15 14:44:45
 Author: Benjamin Du
 Slug: machine-learning-libraries-computing-frames-programming-languages
 Title: Machine Learning Libraries, Computing Frames and Programming Languages
@@ -87,15 +87,20 @@ Apache Ray
 
 Multi-framework machine learning model serving infrastructure.
 
+### [Ray Serve](https://github.com/ray-project/ray)
 
-### TFX
+### [TFX](https://www.tensorflow.org/tfx)
 
-### Torch Serve
+### [Torch Serve](https://github.com/pytorch/pytorch)
 
 ## Programming Languages
+
 Python
+
 Rust
+
 JVM (Java, Scala, Kotlin)
+
 C/C++
 
 ## References
