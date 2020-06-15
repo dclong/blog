@@ -52,4 +52,6 @@ https://github.com/agronholm/sphinx-autodoc-typehints
 
 ## References
 
+http://www.legendu.net/misc/blog/write-documentation-for-python-packages-using-sphinx/
+
 https://stackoverflow.com/questions/2471804/using-sphinx-with-markdown-instead-of-rst

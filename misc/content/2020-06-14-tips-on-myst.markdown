@@ -12,7 +12,10 @@ Please read with your own judgement!
 **
 
 
-MySt is an extension of [CommonMarkdown](https://commonmark.org/) with some goodies introduced from RestructuredText.
+MySt is an extension of [CommonMarkdown](https://commonmark.org/) 
+with some goodies introduced from RestructuredText.
+The [jupyter-book](https://github.com/executablebooks/jupyter-book)
+project supports MySt syntax.
 
 ## References
 

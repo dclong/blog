@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-14 11:11:27
+Date: 2020-06-14 18:56:54
 Author: Benjamin Du
 Slug: markdown-vs-restructuretext-vs-myst-for-documentation
 Title: Markdown vs RestructureText vs MyST for Documentation
@@ -20,6 +20,10 @@ Please read with your own judgement!
     ReStructuredText is also criticized for its complex and confusing syntax.
     The toolchains for ReStructuredText (Sphinx) is also more complicated to use 
     than Markdown equivalent tools.
+    MySt is an extension from [CommonMarkdown](https://commonmark.org/) 
+    with goodies introduced from RestructuredText.
+    The [jupyter-book](https://github.com/executablebooks/jupyter-book)
+    project supports MySt syntax.
 
 ## References
 
