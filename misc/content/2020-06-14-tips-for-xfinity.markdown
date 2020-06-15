@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-06-14 18:57:10
+Date: 2020-06-14 22:45:40
 Author: Benjamin Du
 Slug: tips-for-xfinity
-Title: Tips for Xfinity
+Title: Tips for XFinity
 Category: Computer Science
-Tags: Computer Science, network, internet, XFinity, wifi
+Tags: Computer Science, network, internet, XFinity, WiFi
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
