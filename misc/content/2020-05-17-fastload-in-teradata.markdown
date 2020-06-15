@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-31 11:36:44
+Date: 2020-06-15 11:48:24
 Author: Benjamin Du
 Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata
@@ -114,10 +114,15 @@ Teradata SQL does not support `VALUES` with multiple rows in a `INSERT` statemen
 
 ## FastLoad
 
-If you have the Teradata ODBC driver installed,
-you can access the `fastload` commaand by installing Teradata Tools & Utils.
-If you use JDBC, 
-it seems that you must write code yourself.
+1. If you have the Teradata ODBC driver installed,
+    you can access the `fastload` commaand by installing Teradata Tools & Utils.
+    If you use JDBC, 
+    it seems that you must write code yourself.
+
+2. **Use temporary tables when you use `fastload` to load data**,
+    as the tables involved might get blocked if issues happen in the middle.
+
+
 
 ## References
 
