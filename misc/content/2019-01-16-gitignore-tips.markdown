@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-26 12:48:04
+Date: 2020-06-14 18:01:30
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
@@ -36,6 +36,7 @@ venv/
 target/
 dist/
 *.egg-info/
+doc*/_build/
 *.prof
 ```
 
