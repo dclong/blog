@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-13 11:01:20
+Date: 2020-06-15 11:31:01
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -24,6 +24,13 @@ Please read with your own judgement!
 
         # for the loguru module
         logger.info("{} is copied to {}", src_file, des_file)
+
+2. `loguru` is preferred to `logging` for multiple reasons.
+
+    - loguru is easy and fun to use 
+    - Good out-of-box experience. They default settings work well for most situations. 
+        For example,
+        loguru works with Spark by default while logging needs additional configurations.
 
 ## [loguru](https://github.com/Delgan/loguru)
 
