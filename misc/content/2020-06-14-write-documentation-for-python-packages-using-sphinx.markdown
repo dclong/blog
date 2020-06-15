@@ -12,21 +12,57 @@ Please read with your own judgement!
 **
 
 
-https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/
+1. Create a directory named `docs` (other names are OK too) in the root directory of your Python project.
+    It is strongly NOT recommended to use the Python project root directory 
+    as the root directory for the docs
+    as it will make your Python project root directory messy. 
 
-https://docs-python2readthedocs.readthedocs.io/en/master/code-doc.html
+        :::bash 
+        mkdir docs
 
-1. It is strongly suggested that you create a separate directory `docs` (or use another name you like)
-    and use it as the root directory for documentation.
+2. Go to the directory `docs` and run the command `sphinx-quickstart`.
 
-2. You have to enable the sphinx extension `sphinx.ext.autodoc`.
-    Please refer to https://github.com/dclong/xinstall/blob/dev/docs/conf.py#L36 for an example.
+        :::bash 
+        cd docs 
+        sphinx-quickstart 
 
-3. Generate docs from docstrings.
-    Takeing [xinstall](https://github.com/dclong/xinstall) as an example,
-    run the following command in the root directory of xinstall.
+3. Update the generated configuration script `conf.py`. 
+    Below are a few important ones.
+
+    - Configure the `sys.path`
+        to [tell autodoc where to find your code](https://docs-python2readthedocs.readthedocs.io/en/master/code-doc.html#tell-autodoc-how-to-find-your-code).
+        Taking [xinstall](https://github.com/dclong/xinstall) as an example,
+ 
+            import os 
+            import sys
+            sys.path.insert(0, "../xinstall")            
+
+    - Enable sphinx extensions.
+
+            extensions = [
+                "sphinx.ext.todo",
+                "sphinx.ext.viewcode",
+                "sphinx.ext.autodoc",
+                "sphinx_autodoc_typehints",
+                "sphinx.ext.doctest",
+            ]
+
+3. Run the following command in the root directory of your Python project 
+    (taking [xinstall](https://github.com/dclong/xinstall) as an example) 
+    to generate docs from docstrings 
+    (you only have to do this once).
 
         :::bash
         sphinx-apidoc -f -o docs/ xinstall
 
-4. 
+4. Run the following command in the `docs` directory to generate HTML documentation. 
+
+        :::bash 
+        make clean && make html 
+
+## References 
+
+https://docs-python2readthedocs.readthedocs.io/en/master/code-doc.html
+
+https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/
+
