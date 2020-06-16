@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-15 22:58:39
+Date: 2020-06-15 23:36:53
 Author: Benjamin Du
 Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata
@@ -122,7 +122,8 @@ Teradata SQL does not support `VALUES` with multiple rows in a `INSERT` statemen
 2. **Use temporary tables when you use `fastload` to load data**,
     as the tables involved might get blocked if issues happen in the middle.
 
-3. Frequent checkpointing option reduces the speed of your FastLoad job.
+3. Make sure to set a large enough checkpoint for good performance.
+    Frequent checkpointing option reduces the speed of your FastLoad job.
     But it substantially enhances FastLoad restart operations.
 
     - Each checkpoint temporarily halts the multiple session data transfer feature of FastLoad,
