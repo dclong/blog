@@ -86,5 +86,6 @@
     ["Intellij Idea", "IntelliJ IDEA"],
     ["Torch.Nn.Module", "torch.nn.Module"],
     ["Restructuretext", "RestructureText"],
+    ["Broadcasthashjoin", "BroadcastHashJoin"],
     ["Torch.Nn.Functional", "torch.nn.functional"]
 ]

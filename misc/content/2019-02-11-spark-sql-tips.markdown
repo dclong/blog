@@ -42,17 +42,17 @@ Please read with your own judgement!
 2. JSON, ORC, Parquet and CSV files can be queried using Spark SQL without creating a table on the Spark DataFrame.
 
         :::sql
-        select
+        SELECT
             *
-        from
+        FROM
             csv.`hdfs://cluster_name/path_to_csv`
-        where
+        WHERE
             rand() <= 0.01
-        distribute by
+        DISTRIBUTE BY
             rand()
-        sort by
+        SORT BY
             rand()
-        limit 10000
+        LIMIT 10000
 
 3. Position alias is supported in Spark SQL!
 
@@ -66,8 +66,8 @@ Please read with your own judgement!
 
 6. You can use the following code to show the creation code of a Hive table in Spark.
 
-    :::scala
-    println(spark.sql("show create table some_table").collect()(0)(0))
+        :::scala
+        println(spark.sql("show create table some_table").collect()(0)(0))
     
     
 ## List Databases
@@ -128,62 +128,62 @@ https://docs.cloudera.com/HDPDocuments/HDP2/HDP-2.6.5/bk_data-access/content/new
 https://docs.databricks.com/spark/latest/spark-sql/language-manual/insert.html
 
 insert complicated data types
-1. use a dummry table
+1. use a dummy table
 2. use with to create a dummy table
 3. put it into insert ... select
 
-    :::sql
-    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) 
-    select 
-        2,
-        "2020-01-01",
-        "0.0.1",
-        "2020-05-01",
-        0.1,
-        0.2,
-        0.3,
-        Array(0.1, 0.2, 0.3),
-        Array(0.2, 0.2, 0.3),
-        Array(0.3, 0.4, 0.4),
-        10,
-        "2020-03-01"
-    ;
+        :::sql
+        INSERT INTO cs_itm_text_featr PARTITION (site_id=1, meta_categ_id, auc_start_dt) 
+        SELECT 
+            2,
+            "2020-01-01",
+            "0.0.1",
+            "2020-05-01",
+            0.1,
+            0.2,
+            0.3,
+            Array(0.1, 0.2, 0.3),
+            Array(0.2, 0.2, 0.3),
+            Array(0.3, 0.4, 0.4),
+            10,
+            "2020-03-01"
+        ;
 
-    :::sql
-    with dummy as (
-    select 
-        20,
-        "2020-01-01",
-        "0.0.1",
-        "2020-05-01",
-        0.1,
-        0.2,
-        0.3,
-        Array(0.1, 0.2, 0.3),
-        Array(0.2, 0.2, 0.3),
-        Array(0.3, 0.4, 0.4),
-        10,
-        "2020-03-01"
-    )
-    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) 
-    select * from dummy
-    ;
+        :::sql
+        WITH DUMMY AS (
+        SELECT 
+            20,
+            "2020-01-01",
+            "0.0.1",
+            "2020-05-01",
+            0.1,
+            0.2,
+            0.3,
+            Array(0.1, 0.2, 0.3),
+            Array(0.2, 0.2, 0.3),
+            Array(0.3, 0.4, 0.4),
+            10,
+            "2020-03-01"
+        )
+        INSERT INTO cs_itm_text_featr PARTITION (site_id=1, meta_categ_id, auc_start_dt) 
+        SELECT * FROM DUMMY
+        ;
 
-    :::sql
-    insert into cs_itm_text_featr partition (site_id=1, meta_categ_id, auc_start_dt) values (
-        110,
-        "2020-01-01",
-        "0.0.1",
-        "2020-05-01",
-        0.1,
-        0.2,
-        0.3,
-        Array(0.1, 0.2, 0.3),
-        Array(0.2, 0.2, 0.3),
-        Array(0.3, 0.3, 0.4),
-        10,
-        "2020-03-01"
-    );
+        :::sql
+        INSERT INTO cs_itm_text_featr PARTITION (site_id=1, meta_categ_id, auc_start_dt) values (
+            110,
+            "2020-01-01",
+            "0.0.1",
+            "2020-05-01",
+            0.1,
+            0.2,
+            0.3,
+            Array(0.1, 0.2, 0.3),
+            Array(0.2, 0.2, 0.3),
+            Array(0.3, 0.3, 0.4),
+            10,
+            "2020-03-01"
+        );
 
     seems to me that it is not an issue any more ...
 
