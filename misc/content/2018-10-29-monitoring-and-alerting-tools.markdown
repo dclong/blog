@@ -1,11 +1,10 @@
-UUID: 17999c28-f53b-4ca5-aa91-5512a68055c2
 Status: published
-Date: 2018-10-29 08:31:00
+Date: 2020-06-19 18:22:24
 Author: Ben Chuanlong Du
 Slug: monitoring-and-alerting-tools
 Title: Monitoring and Alerting Tools
 Category: Software
-Tags: software, machine learning, anomaly detection
+Tags: software, machine learning, anomaly detection, data science, AI, monitor, alerting
 
 **
 Things on this page are
