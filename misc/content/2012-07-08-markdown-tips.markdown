@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-06-14 11:44:25
-Slug: markdown-tips
 Author: Ben Chuanlong Du
+Date: 2020-06-22 09:25:23
+Title: Writing Docs Using Markdown
+Slug: markdown-tips
 Category: Computer Science
 Tags: Markdown, Jekyll, programming
-Title: Tips for Markdown
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
