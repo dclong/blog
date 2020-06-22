@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 16:25:12
+Date: 2020-06-21 23:17:26
 Author: Benjamin Du
 Slug: docker-issues-and-solutions
 Title: Docker Issues and Solutions
@@ -14,6 +14,10 @@ Please read with your own judgement!
 ## Issues with Python multiprocessing shared memory
 
 It seems that Python multiprocessing shared memory has issues in Docker ...
+
+## Docker Out of Disk Space
+
+[What to Do When Docker on the Mac Runs Out of Space](https://rmoff.net/post/what-to-do-when-docker-runs-out-of-space/)
 
 ## Docker fail to register layer  ... no such file or directory
 
