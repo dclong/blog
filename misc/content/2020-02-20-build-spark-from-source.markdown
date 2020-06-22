@@ -11,6 +11,13 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+You can download prebuilt binary Spark at 
+https://spark.apache.org/downloads.html.
+This is where you should get started 
+and it will likely satisfy your need most of the time.
+However,
+below are instructions on how to build Spark from source if you have to.
+
 https://spark.apache.org/docs/latest/building-spark.html
 
 1. Clone Spark 2.4.5.
