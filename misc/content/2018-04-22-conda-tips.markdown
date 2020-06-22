@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-24 11:43:44
+Date: 2020-06-22 09:36:27
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda
 Category: Computer Science
-Tags: programming, Python, conda, tips
+Tags: programming, Python, conda, tips, Anaconda Python
 
 **
 Things on this page are
@@ -22,6 +22,12 @@ Please read with your own judgement!
         sudo -E env "PATH=$PATH" <command> [arguments]
 
 2. By defaut, conda installs things into /opt/conda.
+
+## Download Archives
+
+https://repo.anaconda.com/miniconda/
+
+https://repo.anaconda.com/archive/
 
 ## Conda Environment
 

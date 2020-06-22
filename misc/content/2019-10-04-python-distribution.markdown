@@ -1,11 +1,11 @@
 Status: published
-Date: 2019-10-04 20:13:40
+Date: 2020-06-22 09:36:27
 Author: Benjamin Du
 Slug: python-distribution
 Title: Python Distribution
 Category: Computer Science
 Tags: programming, Python distribution
-
+nohtyP 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
