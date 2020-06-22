@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-15 23:46:30
+Date: 2020-06-22 09:06:28
 Author: Benjamin Du
 Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata
@@ -134,9 +134,16 @@ Teradata SQL does not support `VALUES` with multiple rows in a `INSERT` statemen
     - Every 100,000 records if each record is less than 4 KB
         On a larger Teradata Database, specify higher (less frequent) checkpoint values.
 
+http://teradatatrainingbysatish.blogspot.com/2016/01/teradata-sample-scripts-bteq-fastload.html
+
+https://www.tutorialspoint.com/teradata/teradata_fastload.htm
+
+https://docs.teradata.com/reader/r_6Z4JwVMhANtZFCIKEx7Q/NygMHUT8ewJO_7cXjYx8Ug
 
 
 ## References
+
+- [FASTLOAD Utility in Teradata ---Step by Step Explanation](https://www.youtube.com/watch?v=eeHaRzoYLL4)
 
 - [JDBC FastLoad](https://teradata-docs.s3.amazonaws.com/doc/connectivity/jdbc/reference/current/jdbcug_chapter_2.html#BABFGFAF)
 
