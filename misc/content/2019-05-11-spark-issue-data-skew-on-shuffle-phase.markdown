@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: spark-issue-data-skew-on-shuffle-phase
 Title: Spark Issue Data Skew on Shuffle Phase
 Category: Computer Science
-Tags: programming
+Tags: Computer Science, Spark, issue, data skew, shuffle
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -37,3 +37,11 @@ There is data skew in some column(s).
     append random num to the join columns.
     joinCols: the joinCols to be join on
     duplicationNum: duplication nums of df2
+
+## References
+
+https://docs.databricks.com/delta/join-performance/skew-join.html
+
+https://dataengi.com/2019/02/06/spark-data-skew-problem/
+
+https://itnext.io/handling-data-skew-in-apache-spark-9f56343e58e8
