@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 12:28:52
+Date: 2020-06-23 00:28:24
 Author: Ben Chuanlong Du
 Slug: bash-tips
 Title: Tips on Bash
@@ -11,64 +11,3 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-## Tips and Traps 
-
-1. [explainshell.com](http://www.explainshell.com/) 
-    is a great place for learning shell. 
-
-2. [Bash-it/bash-it](https://github.com/Bash-it/bash-it)
-    is a great community driven Bash framework.
-
-3. It is suggested that you avoid writing complicated Bash scripts. 
-    [IPython](https://ipython.readthedocs.io/en/stable/)
-    is a much better alternative.
-
-4. Do NOT use `;` to delimit paths passed to a shell command because `;` terminates shell commands.
-  Use `,` to delimit paths if needed.
-
-5. `$(some_command)` is preferred over ```some_command```.
-    For more details, 
-    please refer to http://mywiki.wooledge.org/BashFAQ/082.
-    
-## Redirect Output
-
-1. Redirect `stdout` to the file `output` and `stderr` to another file `error`.
-    ```
-    command > output 2> error
-    ```
-
-2. Redirect `stderr` to `stdout` (`&1`), and then redirect `stdout` to the file `output`.
-
-        command > output 2>&1
-
-3. Redirect both `stdout` and `stderr` to the file `output`.
-
-        command &> output
-
-4. It seems to me that `tee` does not work well sometimes. 
-    Basically, 
-    I have a Python script calling shell comamnds using `subprocess.call`.
-    The output of the shell commands cannot be captured by `tee`.
-    However, 
-    redirection using `>` partially works.
-    Output of `git` commands (invoked by `subprocess.call`) cannot be redirected correctly.
-    Actually, 
-    it turned out to be that both `>` and `tee` only works on a file in the current directly. 
-    And even so, 
-    some output of the `git` command invoked by `subprocess.call` is not captured.
-    I have no idea why that happens.
-    Not sure whether this is a bug in Mac, the Bash shell
-    or due to the fact that I mixed shell commands and the print function in Python.
-
-5. If there are logging from difference resources 
-    (e.g., both shell comamnd via `subprocess.call` and the print function in Python) 
-    to the standard output,
-    make sure you flush the console so that output/error redirection works as expected. 
-
-
-## References
-
-https://askubuntu.com/questions/625224/how-to-redirect-stderr-to-a-file
-
-https://askubuntu.com/questions/639877/tee-doesnt-get-whole-output-from-the-pipe
