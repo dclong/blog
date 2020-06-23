@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-13 22:34:03
+Date: 2020-06-23 14:48:35
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -48,6 +48,16 @@ https://github.com/PyCQA/pylint/issues/2426
 ## Examples
 
 https://github.com/kubeflow/examples/blob/master/.pylintrc
+
+My copy of `.pylintrc`.
+
+    [MASTER]
+    unsafe-load-any-extension=no
+    extension-pkg-whitelist=numpy,cv2
+    generated-members=cv2.*
+
+    [TYPECHECK]
+    ignored-classes=Namespace
 
 ## References
 
