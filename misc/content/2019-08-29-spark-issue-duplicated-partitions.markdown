@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-08-29 02:14:51
+Date: 2020-06-24 13:25:39
 Author: Benjamin Du
 Slug: spark-issue-duplicated-partitions
 Title: Spark Issue Duplicated Partitions
@@ -11,4 +11,5 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-There seems to be an issue in Spark that it might fail to overwrite files even if mode of `spark.write` is set to be "overwrite".
+There seems to be an issue in Spark that it might fail to overwrite files 
+even if mode of `spark.write` is set to be "overwrite".
