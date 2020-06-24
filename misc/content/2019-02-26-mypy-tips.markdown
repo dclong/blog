@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:45:00
+Date: 2020-06-24 13:07:02
 Author: Benjamin Du
 Title: Static Type Checking of Python Using Mypy
 Slug: mypy-tips
@@ -22,6 +22,12 @@ Please see the [issue](https://github.com/python/mypy/issues/500) for more detai
 
 import foo # type: ignore
 foo.f()  # okay
+
+## Third-party Stubs
+
+[data-science-types](https://github.com/predictive-analytics-lab/data-science-types)
+
+[pyspark-stubs](https://github.com/zero323/pyspark-stubs)
 
 ## References
 

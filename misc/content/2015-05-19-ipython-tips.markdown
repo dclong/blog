@@ -188,6 +188,12 @@ Please read with your own judgement!
 
 ## References
 
+http://www.legendu.net/misc/blog/set-environment-varibles-in-ipython/
+
+http://www.legendu.net/misc/blog/disable-jedi-in-ipython/
+
+http://www.legendu.net/en/blog/shell-alternatives/
+
 [Wait, IPython Can Do That?!](https://ep2019.europython.eu/media/conference/slides/cBeHNyZ-wait-ipython-can-do-that.pdf)
 
 [​​​​28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
