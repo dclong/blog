@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-07 15:37:10
+Date: 2020-06-24 13:46:55
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -26,16 +26,18 @@ Please read with your own judgement!
     (you cannot import it if you do not have read permission), 
     run IPython `/path/to/python -m IPython` might resolve the issue.
 
-2. The option `--ipython-dir` can be used to specify the directory of configuration files for IPython.
-    If not specified, 
-    the directory return by `IPython.paths.get_ipython_dir()` is used.
-    Depending on your system and setup,
-    `IPython.paths.get_ipython_dir()` might return different locations.
-    The option `--ipython-dir` can be very help 
-    if `IPython.paths.get_ipython_dir()` does not return the directory you want to use.
-    
-        :::bash
-        ipython --ipython-dir ~/.ipython/
+2. According to [Configuration file location](https://ipython.readthedocs.io/en/stable/development/config.html#configuration-file-location),
+    the configuration directory of a IPython session is determined in the following order.
+
+    - Use the directory specified by the option `--ipython-dir` if any.
+
+            :::bash
+            ipython --ipython-dir /path/to/ipython/profile/directory
+
+    - Use the directory return by `IPython.paths.get_ipython_dir()`,
+        which is determined in the order below. 
+        - Use the directory specified by the environment variable `IPYTHONDIR`.
+        - Default to `~/.ipython`.
 
 ### Create a Profile for IPython
 
