@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-06-17 00:10:10
+Date: 2020-06-24 22:56:32
 Author: Benjamin Du
 Slug: tips-on-improving-spark-performance
 Title: Tips on Improving Spark Performance
@@ -12,7 +12,24 @@ Please read with your own judgement!
 **
 
 
-1. Prefer the method `reduceByKey` over the method `groupByKey` when aggregating a RDD object in Spark.
+1. Server smaller queries (achieving the same functionality) is preferred to 
+    a big query (using complex features and/or subqueries).
+    For example,
+    `window_function(...) over (partition by ... order by ...)` 
+    can be achieved using a `group by` followed with a inner join.
+    The latter approach (using `group by` + `inner join`) runs faster in Spark SQL generally speaking.
+
+2. Spark DataFrame is lazily computed but computed again if needed.
+    It can greatly boost the perfromance of your Spark application
+    if you cache/persist the intermediate Spark DataFrame 
+    which is used in mutliple places.
+    Notably,
+    if a Spark DataFrame containing randomly generately values
+    and is used in multiple places,
+    you must cache/persist it to ensure the correct logic
+    (otherwise the DataFrame will have different values each time it is used).
+
+2. Prefer the method `reduceByKey` over the method `groupByKey` when aggregating a RDD object in Spark.
 
 2. Be cautious about the method `RDD.collect` as it retrieves all data in an RDD/DataFrame to the driver.
     This will likely cause an out-of-memory issue if the RDD/DataFrame is big.
