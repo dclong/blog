@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-06-24 22:56:32
+Date: 2020-06-27 13:01:28
 Author: Benjamin Du
-Slug: tips-on-improving-spark-performance
-Title: Tips on Improving Spark Performance
+Slug: improve-spark-performance
+Title: Improve the Performance of Spark
 Category: Computer Science
 Tags: programming, Spark, performance, tuning
 
@@ -10,7 +10,6 @@ Tags: programming, Spark, performance, tuning
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
 
 1. Server smaller queries (achieving the same functionality) is preferred to 
     a big query (using complex features and/or subqueries).
@@ -28,6 +27,21 @@ Please read with your own judgement!
     and is used in multiple places,
     you must cache/persist it to ensure the correct logic
     (otherwise the DataFrame will have different values each time it is used).
+
+3. Enable dynamic allocation but with a limit on the max number of executors.
+
+        :::bash
+        ...
+        --conf spark.dynamicAllocation.enabled=true \
+        --conf spark.dynamicAllocation.maxExecutors=1000 \
+        ...
+
+4. Enable adaptive query execution in Spark 3.0+.
+
+        :::bash
+        ...
+        --conf spark.adaptive.query.execution=true \
+        ...
 
 2. Prefer the method `reduceByKey` over the method `groupByKey` when aggregating a RDD object in Spark.
 
