@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-26 23:27:07
+Date: 2020-06-26 23:28:28
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -225,3 +225,5 @@ https://ipython.readthedocs.io/en/stable/interactive/magics.html
 https://github.com/ipython/ipython/wiki/Cookbook:-Storing-aliases
 
 [Can I access python variables within a `%%bash` or `%%script` ipython notebook cell?](https://stackoverflow.com/questions/19579546/can-i-access-python-variables-within-a-bash-or-script-ipython-notebook-c)
+
+[system commands: python variables don't get evaluated when environment variables are also used](https://github.com/ipython/ipython/issues/6527)
