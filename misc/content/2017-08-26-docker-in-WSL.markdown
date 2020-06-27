@@ -1,6 +1,5 @@
-UUID: 045df550-e675-4a90-a9f2-0081631b165d
 Status: published
-Date: 2017-10-22 12:28:14
+Date: 2020-06-26 23:23:44
 Author: Ben Chuanlong Du
 Slug: docker-in-WSL
 Title: Docker in WSL
@@ -42,3 +41,6 @@ Just add these two lines to your .bashrc and you are done!
 
 [Running Docker containers on Bash on Windows](https://blog.jayway.com/2017/04/19/running-docker-on-bash-on-windows/)
 
+## References
+
+https://towardsdatascience.com/dual-boot-is-dead-windows-and-linux-are-now-one-27555902a128

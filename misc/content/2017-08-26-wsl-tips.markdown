@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 17:10:27
+Date: 2020-06-26 23:23:44
 Author: Ben Chuanlong Du
 Slug: wsl-tips
 Title: Tips on WSL
@@ -68,3 +68,5 @@ samba requires kernelspace while WSL only implements a userspace.
 ## References
 
 [简明的WSL教程](https://zhuanlan.zhihu.com/p/24537874)
+
+https://towardsdatascience.com/dual-boot-is-dead-windows-and-linux-are-now-one-27555902a128
