@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-24 13:46:55
+Date: 2020-06-26 23:27:07
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -125,6 +125,14 @@ Please read with your own judgement!
         Pool(4).map(job, [v1, v2, v3])
 
     The last (not recommend) way is to use the cell magic `%%script` with the option `--bg`.
+
+4. You can use both Shell environment variables and Python variables in a shell command.
+    However, 
+    you must use double dollar signs for shell variables.
+
+        :::ipython
+        x = 1
+        echo $$HOME {x}
 
 ### Magics
 
