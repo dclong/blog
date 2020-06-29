@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-23 14:48:35
+Date: 2020-06-29 09:15:20
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -53,8 +53,9 @@ My copy of `.pylintrc`.
 
     [MASTER]
     unsafe-load-any-extension=no
-    extension-pkg-whitelist=numpy,cv2
-    generated-members=cv2.*
+    extension-pkg-whitelist=numpy,cv2,pyspark
+    generated-members=cv2.*,pyspark.*
+    ignored-modules=pyspark.sql.functions
 
     [TYPECHECK]
     ignored-classes=Namespace
