@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-19 18:22:24
+Date: 2020-07-04 11:10:00
 Author: Ben Chuanlong Du
 Slug: monitoring-and-alerting-tools
 Title: Monitoring and Alerting Tools
@@ -25,7 +25,14 @@ sounds like a possible tool for monitoring & alerting
 [Argus](https://github.com/salesforce/Argus)
 another one but doesn't seem as popular as prometheus
 
+## Outlier Detection
 
+### [pyod](https://github.com/yzhao062/pyod)
+
+A Python Toolbox for Scalable Outlier Detection (Anomaly Detection)
+
+
+## References
 
 [Awesome Timeseries Anomaly Detection](https://github.com/rob-med/awesome-TS-anomaly-detection)
 
