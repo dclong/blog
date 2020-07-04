@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-11-01 23:11:42
+Date: 2020-07-04 10:59:35
 Author: Ben Chuanlong Du
 Slug: sql-style-and-formatter
 Title: SQL Style and Formatter
@@ -20,6 +20,8 @@ Please read with your own judgement!
 You can use online SQL formatters to help you format SQL queries.
 
 1. [SQL-Formatter](https://www.freeformatter.com/sql-formatter.html) seems to be a good one.
+
+2. [SQL formatter from ExtendsClass](https://extendsclass.com/sql-formatter.html)
 
 2. [EverSQL Query Formatter](https://www.eversql.com/sql-query-formatter/)
 
@@ -53,6 +55,21 @@ sql_fmt = sp.format(sql,
 )
 print(sql_fmt)
 ```
+
+## JavaScipt/TypeScript Libraries
+
+https://github.com/zeroturnaround/sql-formatter
+
+## Java Libraries
+
+[vertical-blank/sql-formatter](https://github.com/vertical-blank/sql-formatter)
+is Java port of the great JS-based SQL formatter 
+[zeroturnaround/sql-formatter](https://github.com/zeroturnaround/sql-formatter)
+(which is itself a JS port of the PHP-based SQL formatter.)
+
+## PHP Libraries
+
+[jdorn/sql-formatter](https://github.com/jdorn/sql-formatter)
 
 ## SQL Style and Formatting
 
