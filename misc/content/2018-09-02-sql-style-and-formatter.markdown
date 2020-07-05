@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-04 10:59:35
+Date: 2020-07-05 15:07:17
 Author: Ben Chuanlong Du
 Slug: sql-style-and-formatter
 Title: SQL Style and Formatter
@@ -31,9 +31,11 @@ You can use online SQL formatters to help you format SQL queries.
 
 3. [SQL Formatter](http://www.sql-format.com/)
 
-https://codebeautify.org/sqlformatter
+4. [SQL Formatter - Code Beautify](https://codebeautify.org/sqlformatter)
 
-[Poor SQL](https://poorsql.com/)
+5. [Poor SQL](https://poorsql.com/)
+
+## Python Libraries
 
 You can also use the Python library 
 [andialbrecht/sqlparse](https://github.com/andialbrecht/sqlparse)
