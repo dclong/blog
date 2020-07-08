@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-08 10:39:32
+Date: 2020-07-08 10:50:18
 Author: Benjamin Du
 Slug: comparison-of-embedded-databases
 Title: Comparison of Embedded Databases
@@ -13,7 +13,7 @@ Please read with your own judgement!
 
 ## SQLite
 
-## Apache Derby
+## [Apache Derby](https://db.apache.org/derby/)
 
 ## [H2](http://www.h2database.com/html/main.html)
 
