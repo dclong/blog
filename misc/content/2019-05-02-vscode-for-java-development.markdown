@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-04-13 10:11:33
+Date: 2020-07-09 09:31:40
 Author: Benjamin Du
 Slug: vscode-for-jvm-languages
-Title: Virtual Studio Code for Java Development
+Title: Visual Studio Code for Java Development
 Category: Computer Science
 Tags: programming, Java, vscode, Visual Studio Code
 
