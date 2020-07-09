@@ -114,6 +114,8 @@ http://docs.python-guide.org/en/latest/scenarios/db/
 
 [DB-API V2.0](https://www.python.org/dev/peps/pep-0249/)
 
+https://www.fullstackpython.com/object-relational-mappers-orms.html
+
 https://docs.python-guide.org/scenarios/db/
 
 https://www.python.org/dev/peps/pep-0249/
