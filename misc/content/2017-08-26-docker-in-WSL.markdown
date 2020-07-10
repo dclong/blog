@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-26 23:23:44
+Date: 2020-07-10 09:05:45
 Author: Ben Chuanlong Du
 Slug: docker-in-WSL
 Title: Docker in WSL
@@ -13,8 +13,11 @@ Please read with your own judgement!
 **
 
 1. Docker can be installed in WSL starting from the Win 10 Creator update,
-however, 
-there are still all kinds of issues running Docker in WSL.
+    however, 
+    there are still all kinds of issues running Docker in WSL.
+
+2. The most important part is dockerd will only run on an elevated console (run as Admin) 
+    and cgroup should be always mounted before running the docker daemon.
 
 
 ## Use Docker on Windows in WSL
