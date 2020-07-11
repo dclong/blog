@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-29 09:53:26
+Date: 2020-07-11 14:54:58
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -53,6 +53,10 @@ My copy of `.pylintrc`.
 
     [TYPECHECK]
     ignored-classes=Namespace
+
+    [MESSAGES CONTROL]
+    disable=C0330
+
 
 Please refer to 
 [settings.json](https://github.com/dclong/xinstall/blob/dev/xinstall/data/vscode/settings.json)
