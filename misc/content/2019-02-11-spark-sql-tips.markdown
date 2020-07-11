@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 20:27:30
+Date: 2020-07-10 18:21:25
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -69,15 +69,6 @@ Please read with your own judgement!
         :::scala
         println(spark.sql("show create table some_table").collect()(0)(0))
     
-    
-## List Databases
-
-show databases;
-
-hdfs dfs -ls /path/to/hive/warehouse
-
-Or you can query the Hive Metastore DB if you have access.
-
 ## Data Types
 
 https://acadgild.com/blog/hive-complex-data-types-with-examples
