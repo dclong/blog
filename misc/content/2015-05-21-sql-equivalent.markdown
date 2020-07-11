@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-29 21:21:44
+Date: 2020-07-10 18:27:48
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -116,7 +116,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables in the current/default database/schema/namespace </td>
+    <td rowspan="7"> List all tables in the current/default database/schema/namespace </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
@@ -129,9 +129,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td rowspan="2"> Spark/Hive </td>
     <td> <code> 
         SHOW TABLES
+    </code> </td>
+    <td> <code> 
+        SHOW TABLES in db_name
     </code> </td>
   </tr>
   <tr>
