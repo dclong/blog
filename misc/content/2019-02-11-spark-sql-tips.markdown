@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-10 18:21:25
+Date: 2020-07-10 19:00:30
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -99,7 +99,8 @@ https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_create_ta
         embd_bert Array<Double>,
         embd_ebert Array<Double>,
         embd_xlnet Array<Double>
-    ) PARTITIONED BY (
+    ) USING PARQUET 
+    PARTITIONED BY (
         site_id Int,
         auc_end_dt String
     );
