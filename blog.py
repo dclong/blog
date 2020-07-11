@@ -483,7 +483,7 @@ class Blogger:
         :return: An iterator of Path object.
         """
         return itertools.chain.from_iterable(
-            (BASE_DIR / dir_ / "content").iterdir() for dir_ in (CN, EN, MISC))
+            (BASE_DIR / dir_ / "content").iterdir() for dir_ in (CN, EN, MISC, OUTDATED))
 
     def trust_notebooks(self):
         for dir_ in (EN, CN, MISC):
