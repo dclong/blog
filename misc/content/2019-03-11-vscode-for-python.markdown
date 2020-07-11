@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-12 10:35:12
+Date: 2020-07-11 14:48:32
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -25,15 +25,15 @@ Please read with your own judgement!
 
 ## Useful Extensions
 
-[Python (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Python (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-[Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
+- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
 
-[Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-[vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
 
-[Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
+- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     Thhe sphinx style is recommended.
