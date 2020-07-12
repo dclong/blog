@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-10 19:00:30
+Date: 2020-07-12 15:31:07
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -68,6 +68,15 @@ Please read with your own judgement!
 
         :::scala
         println(spark.sql("show create table some_table").collect()(0)(0))
+
+7. Check if a table exists.
+
+        :::scala
+        spark.catalog.tableExists(table)
+
+    https://stackoverflow.com/questions/46477270/spark-scala-how-can-i-check-if-a-table-exists-in-hive
+
+    https://spark.apache.org/docs/2.1.0/api/java/org/apache/spark/sql/catalog/Catalog.html
     
 ## Data Types
 
