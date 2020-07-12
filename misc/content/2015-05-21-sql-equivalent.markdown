@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-10 18:27:48
+Date: 2020-07-12 11:30:00
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -24,7 +24,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <th> Code </th>
   </tr>
   <tr>
-    <td rowspan="9"> List <br> databases/schemas/namespaces </td>
+    <td rowspan="9"> List databases [^1] </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .DATABASES
@@ -80,7 +80,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   
   <tr>
-    <td rowspan="6"> Choose/use a databases/schemas/namespaces </td>
+    <td rowspan="6"> Choose/use a databases [^1] </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -116,7 +116,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all tables in the current/default database/schema/namespace </td>
+    <td rowspan="7"> List all tables <br> in the current/default database [^1]</td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
@@ -146,24 +146,24 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle </td>
     <td> <code> 
-        SELECT <br>
+        SELECT <br> &nbsp; &nbsp; &nbsp; &nbsp;
             * <br>
-        FROM <br>
+        FROM <br> &nbsp; &nbsp; &nbsp; &nbsp;
             dba_tables <br>
-        WHERE <br>
+        WHERE <br> &nbsp; &nbsp; &nbsp; &nbsp;
             table_schema = 'current database name'
     </code> </td>
   </tr>
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
-        SELECT <br> 
+        SELECT <br> &nbsp; &nbsp; &nbsp; &nbsp;
             table_name <br> 
-        FROM <br>
+        FROM <br> &nbsp; &nbsp; &nbsp; &nbsp;
             information_schema.tables <br>
-        WHERE <br>
+        WHERE <br> &nbsp; &nbsp; &nbsp; &nbsp;
             table_type = 'BASE TABLE' <br>
-        AND <br>
+        AND <br> &nbsp; &nbsp; &nbsp; &nbsp;
             table_catalog = 'current database name' 
     </code> </td>
   </tr>
@@ -844,4 +844,5 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 </table>
 </div>
 
+[^1]: The terminology (database, schema or namespace) might be different for differennt databases.
 
