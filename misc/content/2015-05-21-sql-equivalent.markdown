@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:33:20
+Date: 2020-07-12 15:39:20
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -417,12 +417,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="6"> Randomly sample <br> 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        SELECT <br>
-            * <br>
-        FROM <br>
-            table <br> 
-        ORDER BY <br>
-            random() <br> 
+        SELECT * <br>
+        FROM table <br> 
+        ORDER BY random() <br> 
         LIMIT 100;
     </code> </td>
   </tr>
@@ -465,12 +462,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         Note that `random()` generates a pseudo-random integer <br>
         between -9223372036854775808 and +9223372036854775807. <br>
         */ <br>
-        SELECT <br> 
-            * <br>
-        FROM <br>
-            table <br> 
-        WHERE <br>
-            random() % 10 = 0;
+        SELECT * <br>
+        FROM table <br> 
+        WHERE random() % 10 = 0;
     </code> </td>
   </tr>
   <tr>
@@ -521,13 +515,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata </td>
     <td> <code> 
-        INSERT INTO table_name ( <br>
-            first_name, <br>
+        INSERT INTO table_name ( <br> &nbsp; &nbsp;
+            first_name, <br> &nbsp; &nbsp;
             last_name <br>
-        ) VALUES  <br>
-            ('Fred', 'Smith'), <br>
-            ('John', 'Smith'), <br>
-            ('Michael', 'Smith'), <br>
+        ) VALUES  <br> &nbsp; &nbsp;
+            ('Fred', 'Smith'), <br> &nbsp; &nbsp;
+            ('John', 'Smith'), <br> &nbsp; &nbsp;
+            ('Michael', 'Smith'), <br> &nbsp; &nbsp;
             ('Robert', 'Smith') <br>
         ;
     </code> </td>
@@ -682,8 +676,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    select <br> &nbsp; &nbsp; &nbsp; &nbsp;
-        concat('Spark', 'SQL') <br>
+    select concat('Spark', 'SQL') <br>
     from ...
     </code> </td>
   </tr>
@@ -751,7 +744,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     /* substr and substring are equivalent in Spark/Hive SQL */
-    select <br> &nbsp; &nbsp; &nbsp; &nbsp;
+    select <br> &nbsp; &nbsp; 
         substr('Spark SQL', 5, 1) -- resulting 'k' <br>
     from ...
     </code> </td>
