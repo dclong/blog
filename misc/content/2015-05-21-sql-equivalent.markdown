@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:21:15
+Date: 2020-07-12 15:33:20
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -80,7 +80,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   
   <tr>
-    <td rowspan="6"> Choose/use a databases <a href="#section1">[1]</a> </td>
+    <td rowspan="6"> Choose/use a databases <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -116,7 +116,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all tables in the <br> current/default database <a href="#section1">[1]</a> </td>
+    <td rowspan="7"> List all tables in the <br> current/default database <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
