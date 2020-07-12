@@ -7,9 +7,9 @@ Category: Computer Science
 Tags: R, programming, environment
 
 **
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
+Things under legendu.net/outdated are outdated technologies 
+that the author does not plan to update any more. 
+Please look for better alternatives.
 **
 
 1. The option `pos=1` of the function `assign` refers to the global environment, 
