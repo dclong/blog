@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 11:30:00
+Date: 2020-07-12 15:21:15
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -24,7 +24,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <th> Code </th>
   </tr>
   <tr>
-    <td rowspan="9"> List databases [^1] </td>
+    <td rowspan="9"> List databases <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .DATABASES
@@ -80,7 +80,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   
   <tr>
-    <td rowspan="6"> Choose/use a databases [^1] </td>
+    <td rowspan="6"> Choose/use a databases <a href="#section1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -116,7 +116,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all tables <br> in the current/default database [^1]</td>
+    <td rowspan="7"> List all tables in the <br> current/default database <a href="#section1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
@@ -133,6 +133,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SHOW TABLES
     </code> </td>
+  </tr>
+  <tr>
     <td> <code> 
         SHOW TABLES in db_name
     </code> </td>
@@ -146,25 +148,18 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle </td>
     <td> <code> 
-        SELECT <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            * <br>
-        FROM <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            dba_tables <br>
-        WHERE <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            table_schema = 'current database name'
+        SELECT * <br>
+        FROM dba_tables <br>
+        WHERE table_schema = 'current database name'
     </code> </td>
   </tr>
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
-        SELECT <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            table_name <br> 
-        FROM <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            information_schema.tables <br>
-        WHERE <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            table_type = 'BASE TABLE' <br>
-        AND <br> &nbsp; &nbsp; &nbsp; &nbsp;
-            table_catalog = 'current database name' 
+        SELECT table_name <br> 
+        FROM information_schema.tables <br>
+        WHERE table_type = 'BASE TABLE' <br>
+        AND table_catalog = 'current database name' 
     </code> </td>
   </tr>
     
@@ -297,7 +292,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables in the system </td>
+    <td rowspan="6"> List all tables <br> in the system </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -330,7 +325,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Drop a table conditionally </td>
+    <td rowspan="6"> Drop a table <br> conditionally </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -365,7 +360,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> Limit number of returned rows </td>
+    <td rowspan="7"> Limit number <br> of returned rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT * <br>
@@ -419,7 +414,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly sample 100 rows </td>
+    <td rowspan="6"> Randomly sample <br> 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT <br>
@@ -508,7 +503,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Insert multiple rows in one statement </td>
+    <td rowspan="6"> Insert multiple rows <br> in one statement </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -844,5 +839,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 </table>
 </div>
 
-[^1]: The terminology (database, schema or namespace) might be different for differennt databases.
+<p id="footnote1">
+[1] The terminology (database, schema or namespace) might be different for differennt databases.
+</p>
+
 

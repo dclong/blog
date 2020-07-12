@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-12 10:35:12
+Date: 2020-07-12 15:10:15
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -22,22 +22,26 @@ is available.
 
 ## Useful Extensions
 
-[Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
+- [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
 
-[Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
 
-[Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-[vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+- [Extensions for VS Code Compatible Editors](https://open-vsx.org/)
 
-[Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-[Extensions for VS Code Compatible Editors](https://open-vsx.org/)
-
-[SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
+- [SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
 
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     The sphinx style is recommended.
+
+## Other Potentially Useful Extensions
+
+- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+
+- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ## Fix the Caps Lock Mapping to Escape Issue
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-11-28 15:01:10
+Date: 2020-07-12 15:10:15
 Author: Benjamin Du
 Slug: vscode-for-kotlin-development
 Title: Vscode for Kotlin Development
@@ -21,3 +21,15 @@ https://medium.com/@agavatar/programming-with-kotlin-in-visual-studio-code-1d745
 ## Extensions
 
 https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
+
+- [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
+
+- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
+
+- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+## Other Potentially Useful Extensions
+
+- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-11 14:48:32
+Date: 2020-07-12 15:10:15
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -31,12 +31,20 @@ Please read with your own judgement!
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-
 - [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     Thhe sphinx style is recommended.
+
+## Other Potentially Useful Extensions
+
+- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+
+- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+
+- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
+
+
 
 ## Python Project with poetry and VS Code
 
