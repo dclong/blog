@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-13 13:17:23
+Date: 2020-07-13 13:21:50
 Author: Benjamin Du
 Slug: python-for-desktop-applications
 Title: Python for Desktop Applications
@@ -13,22 +13,22 @@ Please read with your own judgement!
 
 ## Simple Python Packages for GUI Applications
 
-Tkinter
+### [Tkinter](http://www.legendu.net/misc/blog/use-tkinter-to-build-gui-applications-in-python/)
 
-[Gooey](https://github.com/chriskiehl/Gooey)
+### [Gooey](https://github.com/chriskiehl/Gooey)
 turns (almost) any Python command line program 
 into a full GUI application with one line.
 
-[PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
+### [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI)
 creates custom layout GUI's simply.
 
 ## Solutions based on Qt
 
-PyQt5
+### PyQt5
 
-PySide2
+### PySide2
 
-fbs
+### [fbs](https://github.com/mherrmann/fbs)
 
 ## Solutions Based on Chromium/Electron
 
