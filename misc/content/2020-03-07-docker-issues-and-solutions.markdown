@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-21 23:17:26
+Date: 2020-07-14 09:56:34
 Author: Benjamin Du
 Slug: docker-issues-and-solutions
 Title: Docker Issues and Solutions
@@ -11,9 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Issues with Python multiprocessing shared memory
-
-It seems that Python multiprocessing shared memory has issues in Docker ...
+## [Multiprocessing Issues in Docker](http://www.legendu.net/misc/blog/multiprocessing-issues-in-docker/)
 
 ## Docker Out of Disk Space
 
