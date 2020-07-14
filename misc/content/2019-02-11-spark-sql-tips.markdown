@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:31:07
+Date: 2020-07-14 13:41:51
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -70,9 +70,15 @@ Please read with your own judgement!
         println(spark.sql("show create table some_table").collect()(0)(0))
 
 7. Check if a table exists.
+    If you are using Scala.
 
         :::scala
         spark.catalog.tableExists(table)
+
+    Or if you are using PySpark.
+
+        :::scala
+        spark.catalog._jcatalog.tableExists("schema.table")
 
     https://stackoverflow.com/questions/46477270/spark-scala-how-can-i-check-if-a-table-exists-in-hive
 
