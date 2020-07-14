@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-26 00:13:22
+Date: 2020-07-14 14:02:46
 Author: Ben Chuanlong Du
 Slug: git-errors-solutions
 Title: Git Errors and Solutions
@@ -44,6 +44,14 @@ Below are some possible solutions to this issue.
 4. Repack remote.
 
 5. Use Git submodules.
+
+## Force push lead to "bad object" message from git rev-list
+
+Run the command `git fetch` first and then try force push again.
+
+https://github.com/git-lfs/git-lfs/issues/3977
+
+https://ar.al/2019/10/19/scary-git-lfs-bad-object-error-not-so-scary-after-all/
 
 ## References
 
