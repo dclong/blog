@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-14 13:43:03
+Date: 2020-07-14 14:05:22
 Author: Ben Chuanlong Du
 Slug: tips-for-git-large-file-storage
 Title: Git Large File Storage
@@ -19,6 +19,11 @@ for instructions on how to install git-lfs.
 
 
 ## Tips and Traps
+
+1. Track a large file.
+
+        :::bash
+        git lfs track "*.pickle"
 
 1. It seems to be that git-lfs automatically tracks large files now if it is installed and enabled,
     which makes things more convenient.
