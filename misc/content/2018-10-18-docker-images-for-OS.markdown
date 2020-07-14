@@ -28,8 +28,12 @@ https://hub.docker.com/r/x11docker/deepin
 
 ## [Android](https://github.com/budtmo/docker-android)
 
+- [budtmo/docker-android](https://github.com/budtmo/docker-android)
+
 https://hub.docker.com/r/circleci/android
 
 https://hub.docker.com/r/bitriseio/docker-android/
+
+thshaw/arc-welder 
 
 ## [wine](https://hub.docker.com/r/bestwu/wine)

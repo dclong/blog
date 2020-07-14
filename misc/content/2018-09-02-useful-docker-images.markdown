@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-27 23:09:45
+Date: 2020-07-14 09:54:21
 Author: Ben Chuanlong Du
 Slug: useful-docker-images
 Title: Useful Docker Images
@@ -48,7 +48,4 @@ https://store.docker.com/community/images/kdelfour/cloud9-docker
 
 2. [haugene/transmission-openvpn](https://hub.docker.com/r/haugene/transmission-openvpn/)
 
-
-### Android 
-
-thshaw/arc-welder 
+## [Docker Images for OS](http://www.legendu.net/misc/blog/docker-images-for-OS/)
