@@ -1,16 +1,12 @@
-UUID: 069ecb73-0fdb-49c0-bc65-4e1bbd3e356b
 Status: published
-Date: 2019-10-22 00:41:05
+Date: 2020-07-14 09:43:04
 Author: Ben Chuanlong Du
 Slug: docker-on-windows
 Title: Docker on Windows
 Category: Software
 Tags: Software, Docker, Widnows, Windows 10, Hyper-V, Virtualization
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
+It is suggested that you use Docker in WSL 
+rather than using Docker for Windows.
 
 
 While Docker can be used on Windows (10 and later) now, 

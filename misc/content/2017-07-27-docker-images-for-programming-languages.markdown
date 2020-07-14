@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-18 16:46:42
+Date: 2020-07-14 09:41:49
 Author: Ben Chuanlong Du
 Slug: docker-images-for-programming-languages
 Title: Docker Images for Programming Languages
@@ -31,7 +31,7 @@ Please read with your own judgement!
 
 ### [dclong/python](https://hub.docker.com/r/dclong/python)
 
-- Python 3.7 with Ubuntu 19.04 in Docker.
+- Python 3.8 with Ubuntu 20.04 in Docker.
 
 - Extra useful Python packages 
     (e.g., [xinstall](https://github.com/dclong/xinstall),
