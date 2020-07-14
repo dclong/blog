@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:46:25
+Date: 2020-07-14 13:43:03
 Author: Ben Chuanlong Du
 Slug: tips-for-git-large-file-storage
 Title: Git Large File Storage
@@ -33,4 +33,6 @@ https://help.github.com/articles/installing-git-large-file-storage/
 https://help.github.com/articles/configuring-git-large-file-storage/
 
 https://help.github.com/articles/removing-files-from-git-large-file-storage/
+
+https://stackoverflow.com/questions/42597408/git-lfs-what-is-locking-support-and-should-i-enable-it
 
