@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-19 15:47:42
+Date: 2020-07-19 15:58:03
 Author: Benjamin Du
 Slug: send-emails-in-python
 Title: Send Emails in Python
@@ -20,16 +20,18 @@ Below is a function for sending email leveraging standard libraries smtplib and 
     from email.mime.text import MIMEText
 
 
-    def send_email(recipient,
-                subject,
-                body="",
-                sender="_sender_no_reply@domain.com",
-                server="smtp.server.domain.com"):
+    def send_email(recipient: Union[str, List[str]],
+                subject: str,
+                body: str = "",
+                sender: str = "_sender_no_reply@domain.com",
+                server: str = "smtp.server.domain.com"):
         """Send email.
         """
         mail = MIMEText(body, "html", "utf-8")
         mail["Subject"] = subject
-        mail["To"] = join(recipient, sep=";")
+        if isinstance(recipient, list):
+            recipient = ";".join(recipient)
+        mail["To"] = recipient
         mail["From"] = sender
         smtp = smtplib.SMTP()
         try:
