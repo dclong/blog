@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-19 15:58:03
+Date: 2020-07-19 23:18:31
 Author: Benjamin Du
 Slug: send-emails-in-python
 Title: Send Emails in Python
@@ -59,8 +59,8 @@ The function below is an example of sending email using the Python library notif
         to: Union[str, List[str]],
         subject: str,
         msg: str,
-        from_: str = "_dsm_no_reply@ebay.com",
-        host: str = "mx.vip.ebay.com"
+        from_: str = "_sender_no_reply@domain.com",
+        host: str = "smtp.server.domain.com"
     ) -> None:
         """Send email in eBay's production environment.
 
