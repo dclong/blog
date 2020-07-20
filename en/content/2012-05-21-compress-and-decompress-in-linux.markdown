@@ -1,6 +1,6 @@
 Status: published
 Title: Compress and Decompressing Archives in Linux
-Date: 2016-06-19 12:17:21
+Date: 2020-07-19 23:12:07
 Slug: compress-and-decompress-in-linux
 Author: Ben Chuanlong Du
 Category: OS
@@ -73,6 +73,13 @@ tar -jxvf archive_name.tar.bz2
 # extract the archive contents to a directory named "exdir"
 tar -jxvf archive_name.tar.bz2 -C exdir
 ```
+
+## tar.zst
+
+1. Extract archive.
+
+        :::bash
+        tar -I zstd -xvf archive.tar.zst
 
 ## zip
 
