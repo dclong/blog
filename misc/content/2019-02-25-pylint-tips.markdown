@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-11 14:54:58
+Date: 2020-07-22 09:52:52
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -41,22 +41,9 @@ extension-pkg-whitelist=numpy,cv2
 
 ## Examples
 
+https://github.com/dclong/xinstall/blob/dev/xinstall/data/pylint/pylintrc
+
 https://github.com/kubeflow/examples/blob/master/.pylintrc
-
-My copy of `.pylintrc`.
-
-    [MASTER]
-    unsafe-load-any-extension=no
-    extension-pkg-whitelist=numpy,cv2,pyspark
-    generated-members=cv2.*,pyspark.*
-    ignored-modules=pyspark.sql.functions
-
-    [TYPECHECK]
-    ignored-classes=Namespace
-
-    [MESSAGES CONTROL]
-    disable=C0330
-
 
 Please refer to 
 [settings.json](https://github.com/dclong/xinstall/blob/dev/xinstall/data/vscode/settings.json)
