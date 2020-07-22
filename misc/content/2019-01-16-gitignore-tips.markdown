@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-14 18:01:30
+Date: 2020-07-21 17:29:56
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
@@ -23,6 +23,7 @@ Please read with your own judgement!
 .DS_Store
 .idea/
 .theia/
+.vscode/
 *.ipr
 *.iws
 .ipynb_checkpoints/
