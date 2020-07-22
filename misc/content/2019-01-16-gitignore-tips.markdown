@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-21 17:29:56
+Date: 2020-07-21 17:35:03
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
@@ -80,6 +80,7 @@ hs_err_pid*
 # IDE
 .theia/
 .idea/
+.vscode/
 *.ipr
 *.iws
 
