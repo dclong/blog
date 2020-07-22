@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 21:56:27
+Date: 2020-07-22 10:40:23
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -67,6 +67,10 @@ under the root directory of the project.
 https://python-poetry.org/docs/cli/#config
 
 https://python-poetry.org/docs/configuration/
+
+## pyproject.toml Examples
+
+https://github.com/dclong/pyproject.toml
 
 ## References
 
