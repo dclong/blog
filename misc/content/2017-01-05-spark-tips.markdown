@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:15:33
+Date: 2020-07-22 11:05:57
 Author: Ben Chuanlong Du
 Slug: spark-tips
 Title: Processing Big Data Using Spark
@@ -30,6 +30,12 @@ Please read with your own judgement!
     shall any of the smaller jobs fail, 
     you run rerun that specific job (this is why reproducible is important) instead of rerunning the whole large simulation.
 
+2. It is suggested that you always call `spark.stop()` 
+    when the SparkContext object is no longer needed (typically at the end of your Spark/PySpark application).
+    This helps reduce the weird issue that all your output is written to the cluster successfully 
+    but your Spark applications fails.
+    For more discussions, 
+    please refer to http://apache-spark-user-list.1001560.n3.nabble.com/SparkContext-stop-td17826.html.
 
 ## Sharing Variables
 
@@ -131,4 +137,6 @@ https://bzhangusc.wordpress.com/2015/11/20/use-sbt-console-as-spark-shell/
 https://spark-summit.org/2015/events/interactive-graph-analytics-with-spark/
 
 https://www.slideshare.net/SparkSummit/understanding-memory-management-in-spark-for-fun-and-profit
+
+http://apache-spark-user-list.1001560.n3.nabble.com/SparkContext-stop-td17826.html
 
