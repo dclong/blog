@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-08-08 21:51:10
+Date: 2020-07-23 00:13:32
 Author: Benjamin Du
 Slug: data-quality
 Title: Data Quality
@@ -40,15 +40,9 @@ Apache Griffin supports data profiling but seems to be heavy and limited.
 
 A GUI tool for data cleaning, profiling ,etc.
 
-3. [osdq-spark](https://github.com/arrahtech/osdq-spark)
-
 4. [Open Stduio for Data Quality](https://www.talend.com/products/data-quality/data-quality-open-studio/)
 
 1. athena 
-
-2. [pydqc](https://github.com/SauceCat/pydqc)
-
-3. [DataGristle](https://github.com/kenfar/DataGristle)
 
 ## Commercial Solutions
 
