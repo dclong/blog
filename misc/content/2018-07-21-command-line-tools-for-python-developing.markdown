@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-12 08:42:27
+Date: 2020-07-23 14:27:55
 Author: Ben Chuanlong Du
 Slug: command-line-tools-for-python-developing
 Title: Command-line Tools for Python Developing
@@ -29,20 +29,7 @@ is a Python utility/library to sort imports.
 
 A python documentation linter which checks that the docstring description matches the definition.
 
-## Type Annotation
-
-### [MonkeyType](https://github.com/Instagram/MonkeyType)
-
-1. Run the following command to annotate your Python script.
-
-        :::bash
-        monkeytype run yourscript.py
-
-
-2. MonkeyType supports pytest.
-
-        :::bash
-        monkeytype run `which pytest`
+## [Type Annotation](http://www.legendu.net/misc/blog/type-annotation-in-python/)
 
 ## Formatting
 
@@ -57,10 +44,27 @@ Please refer to
 [Auto formatters for Python](https://medium.com/3yourmind/auto-formatters-for-python-8925065f9505)
 for detailed comparison between yapf and black.
 
+## [coala](https://github.com/coala/coala/)
+coala provides a unified command-line interface for linting and fixing all your code, regardless of the programming languages you use.
+
+## coverage 
+
+converage
+
+https://coveralls.io/
+
+https://github.com/codecov/codecov-python
+
 ## Debugging
 
 1. [pdb](https://docs.python.org/3/library/pdb.html)
 
+## CICD
+
+1. [nox](http://www.legendu.net/misc/blog/tips-on-nox/)
+
+2. [pre-commit](https://github.com/pre-commit/pre-commit]
+    A framework for managing and maintaining multi-language pre-commit hooks.
 
 ## Installation of the Tools
 
@@ -70,3 +74,13 @@ for detailed comparison between yapf and black.
     :::bash
     conda install -c conda-forge MonkeyType
     conda install mypy
+
+## References
+
+https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+
+https://cjolowicz.github.io/posts/hypermodern-python-02-testing/
+
+https://cjolowicz.github.io/posts/hypermodern-python-03-linting/#managing-dependencies-in-nox-sessions-with-poetry
+
+https://cjolowicz.github.io/posts/hypermodern-python-02-testing/#code-coverage-with-coveragepy
