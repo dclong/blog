@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-25 20:07:37
+Date: 2020-07-26 12:57:29
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -376,7 +376,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
     - [dclong/python](https://hub.docker.com/r/dclong/python/)  
 
-        > Python 3.7  
+        > Python 3.8  
 
         - [dclong/python-jdk](https://hub.docker.com/r/dclong/python-jdk/)  
 
@@ -456,7 +456,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                                 - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
 
-                                    > Almond 0.9.1 + Scala 2.12.10
+                                    > Almond (latest stable)
                                     > Kotlin
                                     > Rust
 
