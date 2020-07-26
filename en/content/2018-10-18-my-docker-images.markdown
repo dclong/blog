@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-26 12:57:29
+Date: 2020-07-26 13:16:22
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -408,7 +408,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyter-jdk](https://hub.docker.com/r/dclong/jupyter-jdk/)  
 
-                    - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
+                - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
@@ -464,6 +464,10 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                                         - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
+    - [dclong/rust](https://hub.docker.com/r/dclong/rust/)  
+
+        - [dclong/rustpython](https://hub.docker.com/r/dclong/rustpython/)  
+
     - [dclong/ubuntu_cn](https://hub.docker.com/r/dclong/ubuntu_cn/)  
 
         - [dclong/lubuntu](https://hub.docker.com/r/dclong/lubuntu/)  
@@ -490,13 +494,12 @@ in the Python package [dsutil](https://github.com/dclong/dsutil).
     :::python
     import dsutil
     images = [
-        "dclong/conda-build",
-        "dclong/vscode-server",
-        "dclong/gitpod",
-        "dclong/jupyterhub-julia",
-        "dclong/jupyterhub-pytorch",
-        "dclong/jupyterhub-ai",
-        "dclong/rustpython",
+        "https://github.com/dclong/docker-vscode-server.git",
+        "https://github.com/dclong/docker-gitpod.git",
+        "https://github.com/dclong/docker-jupyterhub-julia.git",
+        "https://github.com/dclong/docker-jupyterhub-pytorch.git",
+        "https://github.com/dclong/docker-jupyterhub-ai.git",
+        "https://github.com/dclong/docker-rustpython.git"
     ]
     builder = dsutil.docker.DockerImageBuilder(images)
     builder.build()
