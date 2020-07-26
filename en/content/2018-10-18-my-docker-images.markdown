@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-26 13:16:22
+Date: 2020-07-26 15:30:49
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -494,12 +494,12 @@ in the Python package [dsutil](https://github.com/dclong/dsutil).
     :::python
     import dsutil
     images = [
+        "https://github.com/dclong/docker-python-portable.git",
         "https://github.com/dclong/docker-vscode-server.git",
         "https://github.com/dclong/docker-gitpod.git",
         "https://github.com/dclong/docker-jupyterhub-julia.git",
         "https://github.com/dclong/docker-jupyterhub-pytorch.git",
         "https://github.com/dclong/docker-jupyterhub-ai.git",
-        "https://github.com/dclong/docker-rustpython.git"
     ]
     builder = dsutil.docker.DockerImageBuilder(images)
     builder.build()
