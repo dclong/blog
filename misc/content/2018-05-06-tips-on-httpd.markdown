@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-24 13:33:50
+Date: 2020-07-27 01:25:32
 Author: Ben Chuanlong Du
 Slug: httpd-tips
 Title: Tips on httpd
@@ -10,6 +10,7 @@ Tags: software, httpd, HTTP, tips, web, internet
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
 1. A directory must be executable by others in order to show up.
     Even if a directory show up,
     it does NOT mean that you can access it.
