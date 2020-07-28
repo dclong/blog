@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-21 17:35:03
+Date: 2020-07-28 11:14:43
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples
@@ -28,8 +28,9 @@ Please read with your own judgement!
 *.iws
 .ipynb_checkpoints/
 .coverage
-.mypy
-.mypy_cache
+.mypy/
+.mypy_cache/
+.pytype/
 *.crc
 __pycache__/
 venv/
