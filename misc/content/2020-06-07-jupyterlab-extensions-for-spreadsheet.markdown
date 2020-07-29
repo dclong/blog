@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-29 00:46:44
+Date: 2020-07-29 01:06:27
 Author: Benjamin Du
 Slug: jupyterlab-extensions-for-spreadsheet
 Title: JupyterLab Extensions for Spreadsheet
@@ -12,6 +12,13 @@ Please read with your own judgement!
 **
 
 ## JupyterLab Extensions 
+
+## Google Spreadsheet 
+
+One way is to manipulate Google Spreadsheet using Python. 
+Please refer to 
+[Use Python With Google Spreadsheet](http://www.legendu.net/misc/blog/use-python-with-google-spreadsheet/)
+for more details.
 
 ### [jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
 
