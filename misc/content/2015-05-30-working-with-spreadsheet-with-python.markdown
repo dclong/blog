@@ -1,11 +1,10 @@
-UUID: 09c31726-3f42-4038-96ee-e271fd533476
 Status: published
-Date: 2020-07-29 00:15:48
+Date: 2020-07-29 00:38:50
 Author: Ben Chuanlong Du
 Slug: working-with-spreadsheet-with-python
 Title: Working With Spreadsheet with Python
 Category: Computer Science
-Tags: programming, Python, Spreadsheet, Excel, pandas, xlsxwriter, openpyxl
+Tags: programming, Python, Spreadsheet, Excel, pandas, xlsxwriter
 
 **
 Things on this page are
@@ -13,12 +12,19 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-xlsxwriter for writing an new excel file only, cannot read or modify existing excel files
-
-[openpyxl](https://github.com/chronossc/openpyxl) allows you manipulate an Excel file.
+[xlsxwriter](https://github.com/jmcnamara/XlsxWriter)
+is a Python module for writing files in the Excel 2007+ XLSX file format.
+XlsxWriter is designed only as a file writer. 
+It cannot read or modify an existing Excel file.
+However,
+if an Excel file is created from data (understandable by Python),
+you can create a new Excel file from the same data to overwrite the existing one. 
+This sort of gives you a flavor of updating an existing Excel file.
 
 ## References 
 
-https://www.datacamp.com/community/tutorials/python-excel-tutorial
+https://xlsxwriter.readthedocs.io/
 
-https://automatetheboringstuff.com/chapter12/
+https://xlsxwriter.readthedocs.io/faq.html
+
+https://xlsxwriter.readthedocs.io/examples.html

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-07 10:18:26
+Date: 2020-07-29 00:46:44
 Author: Benjamin Du
 Slug: jupyterlab-extensions-for-spreadsheet
 Title: JupyterLab Extensions for Spreadsheet
@@ -11,22 +11,33 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-[itable](https://github.com/mwouts/itables)
+## JupyterLab Extensions 
 
+### [jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
 
-[ipysheet](https://github.com/QuantStack/ipysheet/)
+The extension [jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
+provides a way to view Excel files. 
+This makes it possible to work with simple Excel file in JupyterLab 
+with the help of the Python library 
+[XlsxWriter](https://github.com/jmcnamara/XlsxWriter).
+Basically,
+you can create rich-format Excel files using the Python library XlsxWriter
+and view it using jupyterlab-spreadsheet. 
 
-[ipyaggrid](https://gitlab.com/DGothrek/ipyaggrid/)
+### [itable](https://github.com/mwouts/itables)
 
-[qgrid](https://github.com/quantopian/qgrid)
+### [ipysheet](https://github.com/QuantStack/ipysheet/)
 
-[jupyterlab-spreadsheet](https://github.com/quigleyj97/jupyterlab-spreadsheet)
+### [ipyaggrid](https://gitlab.com/DGothrek/ipyaggrid/)
+
+### [qgrid](https://github.com/quantopian/qgrid)
+
 
 ## Underlying JavaScript Libraries
 
-[DataTables](https://datatables.net/)
+### [DataTables](https://datatables.net/)
 
-[ag-grid](https://www.ag-grid.com/)
+### [ag-grid](https://www.ag-grid.com/)
 
 ## References
 
