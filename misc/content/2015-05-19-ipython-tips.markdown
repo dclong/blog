@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-26 23:28:28
+Date: 2020-08-05 15:05:17
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -38,6 +38,10 @@ Please read with your own judgement!
         which is determined in the order below. 
         - Use the directory specified by the environment variable `IPYTHONDIR`.
         - Default to `~/.ipython`.
+
+    If you want to define the environment variable `IPYTHONDIR` manually,
+    it is better to export it as `$HOME/.ipython/` rather than leave it blank
+    (which causes IPython to use the current directory as the configuration directory in rare buggy situations).
 
 ### Create a Profile for IPython
 
