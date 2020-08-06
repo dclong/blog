@@ -1,9 +1,8 @@
-UUID: f55bef07-79d0-4572-8c01-2472bd164680
 Status: published
-Date: 2018-09-16 12:41:20
+Date: 2020-08-06 00:59:06
 Author: Ben Chuanlong Du
 Slug: python-packages-for-caching
-Title: Python Packages for Caching
+Title: Serialization and Caching in Python
 Category: Computer Science
 Tags: programming, Python, packages, caching, lru_cache, diskcache, memcached
 
@@ -12,6 +11,18 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## Serialization
+
+1. Pickle is preferred to marshall.
+
+2. Use Parquet for pandas DataFrame.
+
+pickle: geneal purpose serialization/deserialization which supports almost all Python objects. 
+
+Parquet (via PyArrow): specific for DataFrame objects. 
+
+JSON: safe, human readable but limited to simple data types in Python.
 
 ## functools.lru_cache
 
@@ -51,3 +62,7 @@ http://memcached.org/
 
 Free & open source, high-performance, distributed memory object caching system, generic in nature, 
 but intended for use in speeding up dynamic web applications by alleviating database load.
+
+## References 
+
+https://docs.python-guide.org/scenarios/serialization/
