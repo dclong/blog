@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:39:20
+Date: 2020-08-06 01:33:45
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -431,6 +431,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    SELECT * FROM table <br>
+    TABLESAMPLE (100 ROWS)
     </code> </td>
   </tr>
   <tr>
@@ -475,6 +477,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    SELECT * FROM table <br>
+    TABLESAMPLE (10 PERCENT)
     </code> </td>
   </tr>
   <tr>
@@ -495,6 +499,45 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
     </code> </td>
   </tr>
+
+
+ <tr>
+    <td rowspan="6"> Randomly sample buckets/partitions </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="http://spark.apache.org/docs/latest/sql-ref-syntax-qry-select-sampling.html"> Spark/Hive </a>
+     </td>
+    <td> <code> 
+    SELECT * FROM table <br>
+    TABLESAMPLE (BUCKET 4 out of 10)
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+ 
+
     
   <tr>
     <td rowspan="6"> Insert multiple rows <br> in one statement </td>
