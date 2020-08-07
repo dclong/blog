@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 09:11:27
+Date: 2020-08-07 09:26:50
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -83,7 +83,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   
   <tr>
-    <td rowspan="6"> Choose/use a databases <a href="#footnote1">[1]</a> </td>
+    <td rowspan="6"> Choose/use a <br> databases <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -119,7 +119,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all tables in the <br> current/default database <a href="#footnote1">[1]</a> </td>
+    <td rowspan="7"> List all tables <br>in the <br> current/default <br> database <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
@@ -167,7 +167,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> Describe a table </td>
+    <td rowspan="7"> Describe <br> a table </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .SCHEMA table_name
@@ -210,7 +210,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="8"> List all tables owned <br> by the current user </td>
+    <td rowspan="8"> List all tables <br> owned by the <br> current user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -261,7 +261,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables accessible <br> by the current user </td>
+    <td rowspan="6"> List all tables accessible by <br> the current user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -460,7 +460,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly sample rows <br> with acceptance ratio 0.1 </td>
+    <td rowspan="6"> Randomly sample <br> rows with <br> acceptance ratio 0.1 </td>
     <td> SQLite 3 </td>
     <td> <code> 
         /* <br>
@@ -505,7 +505,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
 
  <tr>
-    <td rowspan="6"> Randomly sample buckets/partitions </td>
+    <td rowspan="6"> Randomly sample <br> buckets/partitions </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -543,7 +543,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
     
   <tr>
-    <td rowspan="6"> Insert multiple rows <br> in one statement </td>
+    <td rowspan="6"> Insert multiple <br> rows in <br> one statement </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -709,7 +709,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Concatenate Strings </td>
+    <td rowspan="6"> Concatenate <br> Strings </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -743,7 +743,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Refresh Table Cache </td>
+    <td rowspan="6"> Refresh <br> Table Cache </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
