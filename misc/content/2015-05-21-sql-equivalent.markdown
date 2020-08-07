@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 09:47:27
+Date: 2020-08-07 10:04:15
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -326,7 +326,69 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
     </code> </td>
   </tr>
-    
+
+  <tr>
+    <td rowspan="6"> Create <br> a <br> table </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query Text NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Real NOT NULL, <br> &nbsp; &nbsp;
+        data Blob NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query VarChar NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Decimal(18, 3) NOT NULL, <br> &nbsp; &nbsp;
+        data Blob NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query String NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Double NOT NULL, <br> &nbsp; &nbsp;
+        data Binary NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query VarChar NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Number NOT NULL, <br> &nbsp; &nbsp;
+        data Blob NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query Text NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Decimal(18, 3) NOT NULL, <br> &nbsp; &nbsp;
+        data Blob NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
+        query VarChar NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        timestamp Decimal(18, 3) NOT NULL, <br> &nbsp; &nbsp;
+        data Blob NOT NULL <br> 
+    )
+    </code> </td>
+  </tr>
+
   <tr>
     <td rowspan="6"> Drop a table <br> conditionally </td>
     <td> SQLite 3 </td>
