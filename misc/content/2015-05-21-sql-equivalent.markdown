@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 09:44:19
+Date: 2020-08-07 09:47:27
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -722,8 +722,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    select concat('Spark', 'SQL') <br>
-    from ...
+    SELECT concat('Spark', 'SQL') <br>
+    FROM table
     </code> </td>
   </tr>
   <tr>
@@ -790,9 +790,10 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     /* substr and substring are equivalent in Spark/Hive SQL */
-    select <br> &nbsp; &nbsp; 
+    SELECT <br> &nbsp; &nbsp; 
         substr('Spark SQL', 5, 1) -- resulting 'k' <br>
-    from ...
+    FROM <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
