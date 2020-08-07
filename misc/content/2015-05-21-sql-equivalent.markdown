@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 10:04:15
+Date: 2020-08-07 10:13:18
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -352,7 +352,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
-        query String NOT NULL PRIMARY KEY, <br> &nbsp; &nbsp;
+        query String NOT NULL, <br> &nbsp; &nbsp;
         timestamp Double NOT NULL, <br> &nbsp; &nbsp;
         data Binary NOT NULL <br> 
     )
