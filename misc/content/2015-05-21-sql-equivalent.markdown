@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 09:26:50
+Date: 2020-08-07 09:41:16
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -261,7 +261,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables accessible by <br> the current user </td>
+    <td rowspan="6"> List all tables <br> accessible by <br> the current user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
