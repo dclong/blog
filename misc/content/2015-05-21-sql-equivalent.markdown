@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 09:41:16
+Date: 2020-08-07 09:44:19
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -363,7 +363,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> Limit number <br> of returned rows </td>
+    <td rowspan="7"> Limit <br> number of <br> returned rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT * <br>
@@ -417,7 +417,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly sample <br> 100 rows </td>
+    <td rowspan="6"> Randomly <br> sample <br> 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT * <br>
@@ -460,7 +460,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly sample <br> rows with <br> acceptance ratio 0.1 </td>
+    <td rowspan="6"> Randomly sample <br> rows with <br> acceptance <br> ratio 0.1 </td>
     <td> SQLite 3 </td>
     <td> <code> 
         /* <br>
@@ -505,7 +505,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
 
  <tr>
-    <td rowspan="6"> Randomly sample <br> buckets/partitions </td>
+    <td rowspan="6"> Randomly <br> sample <br> buckets </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -543,7 +543,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
     
   <tr>
-    <td rowspan="6"> Insert multiple <br> rows in <br> one statement </td>
+    <td rowspan="6"> Insert <br> multiple <br> rows in <br> one <br> statement </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -743,7 +743,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Refresh <br> Table Cache </td>
+    <td rowspan="6"> Refresh <br> Table <br> Cache </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
