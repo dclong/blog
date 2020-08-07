@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-06 01:33:45
+Date: 2020-08-07 09:11:27
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -17,6 +17,9 @@ Please read with your own judgement!
 is a great tool that transalte any SQL statement(s) to a different dialetc using the JOOQ Parser.
 
 <div style="overflow-x:auto;">
+<style>
+    tr:nth-child(even) {background-color: #f2f2f2}
+</style>
 <table style="width:100%">
   <tr>
     <th> </th>
