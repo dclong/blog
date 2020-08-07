@@ -84,3 +84,5 @@ https://cjolowicz.github.io/posts/hypermodern-python-02-testing/
 https://cjolowicz.github.io/posts/hypermodern-python-03-linting/#managing-dependencies-in-nox-sessions-with-poetry
 
 https://cjolowicz.github.io/posts/hypermodern-python-02-testing/#code-coverage-with-coveragepy
+
+https://github.com/life4/awesome-python-code-formatters

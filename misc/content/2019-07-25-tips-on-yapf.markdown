@@ -49,3 +49,5 @@ ALLOW_SPLIT_BEFORE_DICT_VALUE = False
 https://github.com/google/styleguide
 
 https://github.com/google/yapf
+
+https://github.com/life4/awesome-python-code-formatters
