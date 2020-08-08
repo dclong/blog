@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 22:48:41
+Date: 2020-08-07 23:07:07
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -701,12 +701,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> 
     <a href="https://www.sqlitetutorial.net/sqlite-replace-statement/"> SQLite 3 </a> 
     </td>
-    REPLACE INTO phonebook ( <br> &nbsp; &nbsp;
-        name, phonenumber, validDate
-    ) VALUES ( <br> &nbsp; &nbsp;
-        'Alice', '704-555-1212', '2018-05-08'
-    )
     <td> <code> 
+    REPLACE INTO phonebook ( <br> &nbsp; &nbsp;
+        name, phonenumber, validDate <br>
+    ) VALUES ( <br> &nbsp; &nbsp;
+        'Alice', '704-555-1212', '2018-05-08' <br>
+    )
     </code> </td>
   </tr>
   <tr>
@@ -748,17 +748,17 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> 
     <a href="https://sqlite.org/lang_UPSERT.html"> SQLite 3 </a> 
     </td>
+    <td> <code> 
     INSERT INTO phonebook ( <br> &nbsp; &nbsp;
-        name, phonenumber, validDate
+        name, phonenumber, validDate <br>
     ) VALUES ( <br> &nbsp; &nbsp;
-        'Alice', '704-555-1212', '2018-05-08'
+        'Alice', '704-555-1212', '2018-05-08' <br>
     ) ON CONFLICT (name) DO UPDATE <br>
     SET <br> &nbsp; &nbsp;
         phonenumber=excluded.phonenumber, <br> &nbsp; &nbsp;
         validDate=excluded.validDate <br>
     WHERE <br> &nbsp; &nbsp;
-        excluded.validDate > phonebook2.validDate
-    <td> <code> 
+        excluded.validDate > phonebook.validDate
     </code> </td>
   </tr>
   <tr>
