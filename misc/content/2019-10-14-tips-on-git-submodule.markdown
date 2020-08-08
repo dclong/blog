@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 23:41:54
+Date: 2020-08-08 13:33:50
 Author: Benjamin Du
 Slug: tips-on-git-submodule
 Title: Tips on Git Submodule
@@ -17,6 +17,16 @@ Please read with your own judgement!
     git submodule init
     git submodule update --recursive --remote
 
+## Module Already Exists in Index.
+
+in file .gitmodules - delete links to submodule (whole section with submodule name)
+
+in file .git\config - delete links to submodule, as in previous step
+
+in folder .git\modules - delete folder with relative path similar to relative path of "problem" module
+
 ## References 
 
 https://www.vogella.com/tutorials/GitSubmodules/article.html
+
+https://stackoverflow.com/questions/12218420/add-a-submodule-which-cant-be-removed-from-the-index/39189599
