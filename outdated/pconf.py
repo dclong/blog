@@ -110,7 +110,7 @@ TWITTER_SHOW_FOLLOWER_COUNT = "true"
 FEED_DOMAIN = SITEURL
 FEED_ATOM = "atom.xml"
 
-SITESEARCH = "https://www.bing.com/search"
+SEARCH_URL = "https://www.bing.com/search"
 
 # google analytics
 GOOGLE_ANALYTICS = "UA-30259661-1"
