@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 10:13:18
+Date: 2020-08-07 22:47:54
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -659,6 +659,105 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td rowspan="7"> Update </td>
     <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark </td>
+    <td> <code> 
+    - not supported as of Spark 2.4.5 <br>
+    - Spark SQL 3.0.0 has update/delete APIs but not implemented <br>
+    - Update/delete is feasible using Detal Lake
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Insert <br> or <br> Replace </td>
+    <td> 
+    <a href="https://sqlite.org/lang_UPSERT.html"> SQLite 3 </a> 
+    </td>
+    REPLACE INTO phonebook ( <br> &nbsp; &nbsp;
+        name, phonenumber, validDate
+    ) VALUES ( <br> &nbsp; &nbsp;
+        'Alice', '704-555-1212', '2018-05-08'
+    )
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark </td>
+    <td> <code> 
+    - not supported as of Spark 2.4.5 <br>
+    - Spark SQL 3.0.0 has update/delete APIs but not implemented <br>
+    - Update/delete is feasible using Detal Lake
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+   <tr>
+    <td rowspan="7"> Upsert </td>
+    <td> 
+    <a href="https://sqlite.org/lang_UPSERT.html"> SQLite 3 </a> 
+    </td>
+    INSERT INTO phonebook ( <br> &nbsp; &nbsp;
+        name, phonenumber, validDate
+    ) VALUES ( <br> &nbsp; &nbsp;
+        'Alice', '704-555-1212', '2018-05-08'
+    ) ON CONFLICT (name) DO UPDATE <br>
+    SET <br> &nbsp; &nbsp;
+        phonenumber=excluded.phonenumber, <br> &nbsp; &nbsp;
+        validDate=excluded.validDate <br>
+    WHERE <br> &nbsp; &nbsp;
+        excluded.validDate > phonebook2.validDate
     <td> <code> 
     </code> </td>
   </tr>
