@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 22:47:54
+Date: 2020-08-07 22:48:41
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -699,7 +699,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td rowspan="7"> Insert <br> or <br> Replace </td>
     <td> 
-    <a href="https://sqlite.org/lang_UPSERT.html"> SQLite 3 </a> 
+    <a href="https://www.sqlitetutorial.net/sqlite-replace-statement/"> SQLite 3 </a> 
     </td>
     REPLACE INTO phonebook ( <br> &nbsp; &nbsp;
         name, phonenumber, validDate
