@@ -703,7 +703,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </td>
     <td> <code> 
     REPLACE INTO phonebook ( <br> &nbsp; &nbsp;
-        name, phonenumber, validDate <br>
+        name, phonenumber, validdate <br>
     ) VALUES ( <br> &nbsp; &nbsp;
         'Alice', '704-555-1212', '2018-05-08' <br>
     )
