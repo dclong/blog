@@ -352,7 +352,6 @@ def exec_notebook(bloger, args):
     if args.indexes:
         args.notebooks = blogger.path(args.indexes)
     if args.notebooks:
-        print(os.getcwd())
         cmd = ["jupyter", "nbconvert", "--to", "notebook", "--inplace", "--execute"] + args.notebooks
         sp.run(cmd, check=True)
 
