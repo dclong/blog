@@ -61,3 +61,9 @@ https://github.com/codecov/codecov-python
 
 2. [pre-commit](https://github.com/pre-commit/pre-commit]
     A framework for managing and maintaining multi-language pre-commit hooks.
+
+## Reference
+
+http://www.legendu.net/misc/blog/summary-of-python-linting-tools/
+
+http://www.legendu.net/misc/blog/type-annotation-in-python/

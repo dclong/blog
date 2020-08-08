@@ -7,12 +7,6 @@ Category: Computer Science
 Tags: programming, Python, module, package
 
 **
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-
-**
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
@@ -42,17 +36,7 @@ Please read with your own judgement!
 
 5. loguru: logging made (stupidly) easy for Python. It is a much better alternative than the built-in logging module.
 
-## Python Developing Tools
-
-1. [venv](https://docs.python.org/3/library/venv.html): create virtual environment.
-
-2. pytest
-
-3. yapf
-
-4. mypy
-
-5. flake8, pylint
+## [Python Developing Tools](http://www.legendu.net/misc/blog/useful-tools-for-python-developing/)
 
 ## [Visualization](http://www.legendu.net/misc/blog/python-modules-for-visualization/)
 
@@ -62,9 +46,7 @@ Please read with your own judgement!
 
 2. [Pweave](https://github.com/mpastell/Pweave): R knitr equivalence in Python.
 
-## Database
-
-http://www.legendu.net/misc/blog/odbc-vs-jdbc-in-python/
+## [Database](http://www.legendu.net/misc/blog/odbc-vs-jdbc-in-python/)
 
 ## Date/Time
 
@@ -126,7 +108,9 @@ for more details.
 
 1. inspect: check class, function definition and so on.
 
-2. tqdm: A Fast, Extensible Progress Bar for Python and CLI
+2. [tqdm](http://www.legendu.net/misc/blog/python-tqdm/) A Fast, Extensible Progress Bar for Python and CLI
+
+3. [osquery-python](https://github.com/osquery/osquery-python)
 
 ## References
 

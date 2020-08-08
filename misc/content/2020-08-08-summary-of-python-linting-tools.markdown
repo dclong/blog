@@ -11,15 +11,18 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Flake8 vs MyPy vs pylint 
+[pylint](http://www.legendu.net/misc/blog/pylint-tips/)
 
-1. Flake8 focus on logical errors rather than stylistic errors.
+[flake8](https://github.com/PyCQA/flake8)
+
+
+## Flake8 vs pylint 
+
+1. `Flake8` focus on logical errors rather than stylistic errors.
     It strives to reduce false positives.
 
-2. `mypy` does the best on type hint.
+2. `pylint` performs deeper analysis and thus is slower.
 
-3. `pylint` performs deeper analysis and thus is slower.
+## Reference
 
-To sum up,
-I'd try the tools in the following order
-`Flake8 > mypy > pylint`.
+http://www.legendu.net/misc/blog/type-annotation-in-python/
