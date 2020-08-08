@@ -1,35 +1,24 @@
 Status: published
-Date: 2020-07-23 14:27:55
+Date: 2020-08-08 10:46:18
 Author: Ben Chuanlong Du
-Slug: command-line-tools-for-python-developing
-Title: Command-line Tools for Python Developing
+Slug: useful-tools-for-python-developing
+Title: Useful Tools for Python Developing
 Category: Computer Science
 Tags: programming, Python development, command-line, pylint, yapf, pdb, linter, formatting, debugging
 
 
 ## Lint Python Scripts
 
-### [isort](https://github.com/timothycrosley/isort)
-[isort](https://github.com/timothycrosley/isort)
-is a Python utility/library to sort imports.
+- [isort](http://www.legendu.net/misc/blog/sort-python-imports-using-isort/)
 
-### [pylint](https://github.com/PyCQA/pylint)
+- [pylint](http://www.legendu.net/misc/blog/pylint-tips/)
 
-    :::bash
-    pylint your_script.py
+- [darglint](https://github.com/terrencepreilly/darglint) checks that the docstring description matches the definition.
 
-### [mypy](https://github.com/python/mypy)
+- [coala](https://github.com/coala/coala/) provides a unified command-line interface 
+    for linting and fixing all your code, regardless of the programming languages you use.
 
-    :::bash
-    mypy your_script.py
-    :::bash
-    mypy --ignore-missing-imports roas.py
-
-### [darglint](https://github.com/terrencepreilly/darglint)
-
-A python documentation linter which checks that the docstring description matches the definition.
-
-## [Type Annotation](http://www.legendu.net/misc/blog/type-annotation-in-python/)
+- [Type Annotation](http://www.legendu.net/misc/blog/type-annotation-in-python/)
 
 ## Formatting
 
@@ -44,38 +33,10 @@ Please refer to
 [Auto formatters for Python](https://medium.com/3yourmind/auto-formatters-for-python-8925065f9505)
 for detailed comparison between yapf and black.
 
-## [coala](https://github.com/coala/coala/)
-coala provides a unified command-line interface for linting and fixing all your code, regardless of the programming languages you use.
-
-## coverage 
-
-converage
-
-https://coveralls.io/
-
-https://github.com/codecov/codecov-python
-
-## Debugging
-
-1. [pdb](https://docs.python.org/3/library/pdb.html)
-
-## CICD
-
-1. [nox](http://www.legendu.net/misc/blog/tips-on-nox/)
-
-2. [pre-commit](https://github.com/pre-commit/pre-commit]
-    A framework for managing and maintaining multi-language pre-commit hooks.
-
-## Installation of the Tools
-
-    :::bash
-    pip3 install yapf, pylint, monkeytype, mypy
-
-    :::bash
-    conda install -c conda-forge MonkeyType
-    conda install mypy
+## [Debugging, Unit Testing and CICD](http://www.legendu.net/misc/blog/unit-testing-debugging-python/)
 
 ## References
+
 
 https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
 

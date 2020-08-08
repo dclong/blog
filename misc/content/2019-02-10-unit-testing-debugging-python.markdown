@@ -1,8 +1,8 @@
 Status: published
 Date: 2020-05-30 20:38:30
 Author: Benjamin Du
-Slug: unit-testing-debugging-python
-Title: Unit Testing and Debugging Tools for Python
+Slug: debugging-unit-testing-cicd-python
+Title: Debugging, Unit Testing and CICD in Python
 Category: Computer Science
 Tags: programming, Python, unit testing, debugging, command-line tools, development, dev
 
@@ -11,26 +11,23 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Debugging
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
+1. [pdb](https://docs.python.org/3/library/pdb.html)
 
-## General Tips on Testing
+## Unit Testing
 
 1. When separate teams/people are developing different components in a big project 
     and unit testing has to be written before other dependent components are ready,
     make sure that unit tests cover agreed interfaces.
 
+2. Printing intermediate variables is the universal way (even inefficienty many times) for debugging.
+    [PySnooper](https://github.com/cool-RR/PySnooper) is debugging tool 
+    based on the idea of printing intermediate varibles 
+    but is great improved over the plain `print` function 
+    and is both easy and fun to use.
 
-## [PySnooper](https://github.com/cool-RR/PySnooper)
-
-A poor man's tool for debugging which is much better than print.
-
-## unittest vs pytest
-
-1. `unitest` is the official unit testing tool in Python
+3. `unitest` is the official unit testing tool in Python
     and thus has better support and integration with other tools generally speaking. 
     However, 
     `pytest` is more concise than `unittest` and makes unit testing more efficiency.
@@ -45,19 +42,22 @@ A poor man's tool for debugging which is much better than print.
 
 ## hypothesis
 
-## Coverage
+## coverage 
+
+converage
+
+https://coveralls.io/
+
+https://github.com/codecov/codecov-python
+
+
 
 ## Mock and pytest Fixtures
 
-## Flake8 vs MyPy vs pylint 
 
-1. Flake8 focus on logical errors rather than stylistic errors.
-    It strives to reduce false positives.
+## CICD
 
-2. `mypy` does the best on type hint.
+1. [nox](http://www.legendu.net/misc/blog/tips-on-nox/)
 
-3. `pylint` performs deeper analysis and thus is slower.
-
-To sum up,
-I'd try the tools in the following order
-`Flake8 > mypy > pylint`.
+2. [pre-commit](https://github.com/pre-commit/pre-commit]
+    A framework for managing and maintaining multi-language pre-commit hooks.

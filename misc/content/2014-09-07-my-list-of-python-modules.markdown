@@ -38,9 +38,7 @@ Please read with your own judgement!
 
 2. tempfile: create temporary files and directories.
 
-3. os: misc operating system interfaces.
-
-4. os.path: file path manipulations.
+3. pathlib
 
 5. loguru: logging made (stupidly) easy for Python. It is a much better alternative than the built-in logging module.
 
