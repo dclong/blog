@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-30 20:38:30
+Date: 2020-08-09 12:36:01
 Author: Benjamin Du
 Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
@@ -61,6 +61,23 @@ https://github.com/codecov/codecov-python
 
 2. [pre-commit](https://github.com/pre-commit/pre-commit]
     A framework for managing and maintaining multi-language pre-commit hooks.
+
+1. Travis CI seems to be a good one to use for free open source project on GitHub
+
+To setup Travis-CI on a github project, all you have to do is:
+
+add a .travis.yml file at the root of your project
+create an account at travis-ci.com and activate your project
+The features you get are:
+
+Travis will run your tests for every push made on your repo
+Travis will run your tests on every pull request contributors will make
+
+
+4. Jenkins is another popular one.
+    https://stackoverflow.com/questions/32422264/jenkins-vs-travis-ci-which-one-would-you-use-for-a-open-source-project
+
+5. [GoCD](https://www.gocd.org/)
 
 ## Reference
 

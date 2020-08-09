@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-14 12:47:46
+Date: 2020-08-09 12:37:45
 Author: Benjamin Du
 Slug: software-for-editing-videos
 Title: Software for Editing Videos
@@ -29,3 +29,6 @@ however, it is only available for Windows and Linux at this time.
 
 For Windows and macOS only.
 
+## References 
+
+https://www.doodly.com/
