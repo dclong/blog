@@ -19,6 +19,8 @@ https://github.com/nuxt/nuxt.js
 
 https://github.com/facebook/docusaurus
 
+[Pelican](http://www.legendu.net/misc/blog/pelican-tips/)
+
 ## Copy the Content of Code Block 
 
 https://tiborsimon.io/articles/tools/code-copy/
