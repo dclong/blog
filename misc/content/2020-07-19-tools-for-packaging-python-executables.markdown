@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-07-19 20:33:58
+Date: 2020-08-09 11:10:55
 Author: Benjamin Du
 Slug: tools-for-packaging-python-executables
 Title: Tools for Packaging Python Executables
 Category: Computer Science
-Tags: Computer Science, Python, executable, PEX, conda-pack, PyInstaller, XAR, python-build-standalone
+Tags: Computer Science, Python, executable, PEX, conda-pack, PyInstaller, XAR, python-build-standalone, Nuitka, briefcase
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -23,6 +23,10 @@ Please read with your own judgement!
 ### [PyOxidizer](https://github.com/indygreg/PyOxidizer)
 
 ### [PyInstaller](https://github.com/pyinstaller/pyinstaller)
+
+### [Nuitka](https://github.com/Nuitka/Nuitka)
+
+### [briefcase](https://github.com/beeware/briefcase)
 
 ## Without a Python Interpreter
 

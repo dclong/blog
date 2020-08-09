@@ -12,4 +12,3 @@ Please read with your own judgement!
 **
 
 
-[briefcase](https://github.com/beeware/briefcase)
