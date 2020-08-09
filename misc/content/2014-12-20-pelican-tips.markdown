@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-22 15:43:18
+Date: 2020-08-08 23:06:23
 Author: Ben Chuanlong Du
 Slug: pelican-tips
 Title: Generate Static Site Using Pelican
 Category: Computer Science
-Tags: programming, Pelican, blog, formula, dollar sign
+Tags: programming, Pelican, blog, formula, dollar sign, themes
 
 **
 Things on this page are
@@ -14,12 +14,20 @@ Please read with your own judgement!
 
 1. `\$` need to be escaped
 
-2. Ror the latex plugin, 
+2. For the latex plugin, 
     equation align environment works but need to use `\newline` in stead of `\\`.
 
-## Themes
+## Some Good Themes
+
+https://github.com/Pelican-Elegant/elegant
+
+https://github.com/ivanhercaz/buruma
+
+https://github.com/getpelican/pelican-themes/tree/master/Peli-Kiera
 
 https://github.com/alexandrevicenzi/Flex
+
+https://github.com/gfidente/pelican-svbhack
 
 
 ## Anchor Links for Titles
