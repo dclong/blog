@@ -79,7 +79,7 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/elegant"
 
 # plugins
-PLUGINS = ["render_math"]
+PLUGINS = ["render_math", "tipue_search"]
 ## jupyter
 MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True
@@ -110,7 +110,8 @@ TWITTER_SHOW_FOLLOWER_COUNT = "true"
 FEED_DOMAIN = SITEURL
 FEED_ATOM = "atom.xml"
 
-SEARCH_URL = "search"
+DIRECT_TEMPLATE = ["search"]
+#SEARCH_URL = "search"
 
 # google analytics
 GOOGLE_ANALYTICS = "UA-30259661-1"
