@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-08 23:46:52
+Date: 2020-08-08 23:50:22
 Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators
@@ -18,3 +18,7 @@ https://github.com/vercel/next.js/
 https://github.com/nuxt/nuxt.js
 
 https://github.com/facebook/docusaurus
+
+## Copy the Content of Code Block 
+
+https://tiborsimon.io/articles/tools/code-copy/
