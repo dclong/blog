@@ -12,7 +12,7 @@ Please read with your own judgement!
 **
 
 
-python3 -m flake8 --ignore E501,W291 dbay 
+python3 -m flake8 --ignore E127,E501,F401,W291 dbay
 
 ## References 
 
