@@ -79,6 +79,7 @@ CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/elegant"
 
 # plugins
+PLUGIN_PATHS = ["plugins"]
 PLUGINS = ["render_math", "tipue_search"]
 ## jupyter
 MARKUP = ("md", "ipynb")
