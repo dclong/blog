@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-07 23:07:07
+Date: 2020-08-09 23:02:42
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -27,7 +27,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <th> Code </th>
   </tr>
   <tr>
-    <td rowspan="9"> List databases <a href="#footnote1">[1]</a> </td>
+    <td rowspan="9"> List <br> databases <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .DATABASES
@@ -83,7 +83,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   
   <tr>
-    <td rowspan="6"> Choose/use a <br> databases <a href="#footnote1">[1]</a> </td>
+    <td rowspan="6"> Use a <br> databases <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -119,7 +119,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all tables <br>in the <br> current/default <br> database <a href="#footnote1">[1]</a> </td>
+    <td rowspan="7"> List all <br> tables <br>in the <br> current <br> database <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES
@@ -210,7 +210,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="8"> List all tables <br> owned by the <br> current user </td>
+    <td rowspan="8"> List all <br> tables <br> owned <br> by the <br> current <br> user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -261,7 +261,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables <br> accessible by <br> the current user </td>
+    <td rowspan="6"> List all <br> tables <br> accessible <br> by the <br> current <br> user </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -295,7 +295,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> List all tables <br> in the system </td>
+    <td rowspan="6"> List all <br> tables <br> in the <br> system </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -390,7 +390,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Drop a table <br> conditionally </td>
+    <td rowspan="6"> Drop a <br> table <br> if exists </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -425,7 +425,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> Limit <br> number of <br> returned rows </td>
+    <td rowspan="7"> Limit <br> number <br> of <br> returned <br> rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT * <br>
