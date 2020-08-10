@@ -27,6 +27,16 @@ Please read with your own judgement!
 
 ## Useful Libraries
 
+
+1. [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
+
+    pandas-profiling is tool for profiling pandas DataFrames.
+    One possible way to work with large data is to do simple profiling on the large DataFrame 
+    and then sample a relative small data and use pandas-profiling to profile it.
+
+2. [great_expectations](https://github.com/great-expectations/great_expectations)
+    helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.
+
 1. [Optimus](https://github.com/ironmussa/Optimus)
 
 Optimus is the one that is closest to what I want to achieve so far. 
