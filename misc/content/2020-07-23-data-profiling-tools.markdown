@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-23 00:08:22
+Date: 2020-08-10 15:59:42
 Author: Benjamin Du
 Slug: data-profiling-tools
 Title: Data Profiling Tools
@@ -12,6 +12,16 @@ Please read with your own judgement!
 **
 
 
+1. [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
+
+    pandas-profiling is tool for profiling pandas DataFrames.
+    One possible way to work with large data is to do simple profiling on the large DataFrame 
+    and then sample a relative small data and use pandas-profiling to profile it.
+
+2. [great_expectations](https://github.com/great-expectations/great_expectations)
+    helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.
+
+2. [deequ](https://github.com/awslabs/deequ)
 
 1. [Optimus](https://github.com/ironmussa/Optimus)
 
@@ -21,14 +31,6 @@ Please read with your own judgement!
 2. [Apache Griffin](https://github.com/apache/griffin)
 
     Apache Griffin supports data profiling but seems to be heavy and limited.
-
-3. [deequ](https://github.com/awslabs/deequ)
-
-4. [pandas-profiling](https://github.com/pandas-profiling/pandas-profiling)
-
-    pandas-profiling is tool for profiling pandas DataFrames.
-    One possible way to work with large data is to do simple profiling on the large DataFrame 
-    and then sample a relative small data and use pandas-profiling to profile it.
 
 ## Other Adhoc Examples 
 
