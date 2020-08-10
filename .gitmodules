@@ -4,3 +4,6 @@
 [submodule "pelican-plugins"]
 	path = plugins
 	url = https://github.com/getpelican/pelican-plugins.git
+[submodule "plugins/pelican-jupyter"]
+	path = plugins/pelican-jupyter
+	url = https://github.com/danielfrg/pelican-jupyter.git

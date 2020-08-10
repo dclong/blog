@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-08 10:46:38
+Date: 2020-08-09 23:41:30
 Author: Benjamin Du
 Slug: summary-of-python-linting-tools
 Title: Summary of Python Linting Tools
@@ -13,7 +13,7 @@ Please read with your own judgement!
 
 [pylint](http://www.legendu.net/misc/blog/pylint-tips/)
 
-[flake8](https://github.com/PyCQA/flake8)
+[flake8](http://www.legendu.net/misc/blog/use-flake8-to-lint-python-scripts/)
 
 
 ## Flake8 vs pylint 
