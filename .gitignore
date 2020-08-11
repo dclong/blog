@@ -1,3 +1,4 @@
+core.*
 .blogger.sqlite3
 .blogger.sqlite3-journal
 *.pyc
