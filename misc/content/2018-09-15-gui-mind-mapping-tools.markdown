@@ -23,6 +23,9 @@ as it is much esier to update the flowchart later.
 
 1. free and cross-platform
 
+## [Whimsical](https://whimsical.com/)
+Looks like a great one!
+
 ## [LucidChart](https://www.lucidchart.com/)
 
 ## [draw.io](https://www.draw.io/)
