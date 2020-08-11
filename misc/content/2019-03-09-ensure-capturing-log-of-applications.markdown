@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-09 23:49:57
+Date: 2020-08-11 08:26:52
 Author: Benjamin Du
 Slug: a-trick-to-ensure-capturing-log
 Title: Ensure Capturing Log of Applications
@@ -10,7 +10,7 @@ Tags: programming, logging, rediction, exception
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-**
+
 Logging is critical for debugging applications.
 For production applications,
 it is best to send log information into a file instead of the standard output

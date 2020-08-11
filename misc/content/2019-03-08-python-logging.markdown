@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-15 11:31:01
+Date: 2020-08-11 08:26:52
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -34,17 +34,8 @@ Please read with your own judgement!
 
 ## [loguru](http://www.legendu.net/misc/blog/python-logging-made-stupidly-simple-with-loguru/)
 
-## [logging](https://docs.python.org/3/library/logging.html)
+## [logging](http://www.legendu.net/misc/blog/python-logging-module/)
 
-It is often desirable to control the logging level using a command-line option.
-Let's say that you use the option `--level` to accept names (warning, debug, info, etc) of logging levels,
-and the corresponding variable is `args.level`. 
-You can retrive the corresponding logging level using `getattr(logging, args.level.upper())`.
-And thus you can easily set the logging level with the following code.
-
-    :::python
-    level = getattr(logging, args.level.upper())
-    logging.setLevel(level)
 
 ### Format keywords
 

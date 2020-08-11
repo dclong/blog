@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:38:33
+Date: 2020-08-11 08:26:52
 Author: Benjamin Du
 Slug: general-tips-for-logging
 Title: General Tips on Logging
@@ -12,7 +12,9 @@ Please read with your own judgement!
 **
 
 1. Many logging libraries support sending logs as emails or as attachments of emails. 
-    It is suggested that you send warnings and more critical information to yourself via email. 
+    As a poor man's way of subscribing to errors and warnings 
+    (if there's no engineering teams support parsing logs and subscription), 
+    you can send a copy of warnings and errors to yourself via email.
 
 ## References
 
