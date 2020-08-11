@@ -14,10 +14,8 @@ Please read with your own judgement!
 1. Excessive logging is better than no logging!
     This is generally true in distributed big data applications.
     
-1. loguru works well by default while logging does not (seems that additional configuration is needed)
-
-2. print works well too
-
-3. Use loguru is if is available,
-    otherwise, 
-    use `print` or `pprint` for logging in simple PySpark scripts.
+2. Use `loguru` if it is available.
+    If you have to use the `logging` module,
+    be aware of traps in using it.
+    For more details, 
+    please refer to [Hands on the logging Module in Python](http://www.legendu.net/misc/blog/python-logging-module/).

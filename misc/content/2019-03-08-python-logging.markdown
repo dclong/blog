@@ -36,15 +36,6 @@ Please read with your own judgement!
 
 ## [logging](http://www.legendu.net/misc/blog/python-logging-module/)
 
-
-### Format keywords
-
-process
-
-levelname
-
-message
-
 ## [rich](https://github.com/willmcgugan/rich)
 
 Rich is a Python library for rich text and beautiful formatting in the terminal.
