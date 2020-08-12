@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-11 21:37:27
+Date: 2020-08-11 22:31:52
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -617,19 +617,19 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> 
-    <a href="https://docs.databricks.com/spark/latest/spark-sql/language-manual/insert.html"> 
-    Spark/Hive 
-    </a>
+        <a href="https://docs.databricks.com/spark/latest/spark-sql/language-manual/insert.html"> 
+        Spark/Hive 
+        </a>
     </td>
-    INSERT INTO tablel_name PARTITION (
-        par_col_1 = pv1, 
-        par_col_2 = pv2
-    ) VALUES (
-        v11, v12, ...
-    ), (
-        v21, v22, ...
-    )
     <td> <code> 
+    INSERT INTO tablel_name PARTITION ( <br> &nbsp; &nbsp;
+        par_col_1 = pv1, <br> &nbsp; &nbsp;
+        par_col_2 = pv2 <br>
+    ) VALUES ( <br> &nbsp; &nbsp;
+        v11, v12, ... <br>
+    ), ( <br> &nbsp; &nbsp;
+        v21, v22, ... <br>
+    )
     </code> </td>
   </tr>
   <tr>
