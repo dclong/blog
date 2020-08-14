@@ -89,5 +89,6 @@
     ["Torch.Nn.Module", "torch.nn.Module"],
     ["Restructuretext", "RestructureText"],
     ["Broadcasthashjoin", "BroadcastHashJoin"],
-    ["Torch.Nn.Functional", "torch.nn.functional"]
+    ["Torch.Nn.Functional", "torch.nn.functional"],
+    ["Modulenotfounderror", "ModuleNotFoundRrror"]
 ]
