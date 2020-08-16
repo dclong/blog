@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-16 10:38:20
+Date: 2020-08-16 12:27:31
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -11,12 +11,15 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-1. Use the `Pooling=True;` option in the connection string.
-    For example, `/path/to/database;Version=3;Pooling=True;Max Pool Size=100;`.
+1. Using pooling if possible. 
+    For example, 
+    SQLAlchemy supports pool of connections if you use SQLite3 with SQLAlchemy.
+    Another way is to manually use SQLite3 with a resource pool manager
+    e.g., CuttlePool.
 
 2. Commit changes as soon as possible. 
 
-## Third-party Libraries to Allievate the Issue 
+## Third-party Libraries to Alleviate the Issue 
 
 https://github.com/smitchell556/cuttlepool
 
