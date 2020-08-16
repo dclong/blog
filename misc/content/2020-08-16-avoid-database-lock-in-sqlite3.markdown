@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-16 10:38:20
+Date: 2020-08-16 13:10:17
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -14,7 +14,9 @@ Please read with your own judgement!
 1. Use the `Pooling=True;` option in the connection string.
     For example, `/path/to/database;Version=3;Pooling=True;Max Pool Size=100;`.
 
-2. Commit changes as soon as possible. 
+2. Use autocommit mode by using the option `isolation_level=None`.
+    Notice that even if SQLite3 uses autocommit by default,
+    the Python module SQLite3 does not have autocommit turned on by default.
 
 ## Third-party Libraries to Allievate the Issue 
 
