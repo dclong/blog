@@ -11,14 +11,17 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-1. Use the `Pooling=True;` option in the connection string.
-    For example, `/path/to/database;Version=3;Pooling=True;Max Pool Size=100;`.
+1. Using pooling if possible. 
+    For example, 
+    SQLAlchemy supports pool of connections if you use SQLite3 with SQLAlchemy.
+    Another way is to manually use SQLite3 with a resource pool manager
+    e.g., CuttlePool.
 
 2. Use autocommit mode by using the option `isolation_level=None`.
     Notice that even if SQLite3 uses autocommit by default,
     the Python module SQLite3 does not have autocommit turned on by default.
 
-## Third-party Libraries to Allievate the Issue 
+## Third-party Libraries to Alleviate the Issue 
 
 https://github.com/smitchell556/cuttlepool
 
