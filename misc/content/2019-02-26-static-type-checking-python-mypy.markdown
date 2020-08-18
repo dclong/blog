@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-06-24 13:07:02
+Date: 2020-08-18 09:05:13
 Author: Benjamin Du
-Title: Static Type Checking of Python Using Mypy
-Slug: mypy-tips
+Title: Static Type Checking of Python Scripts Using Mypy
+Slug: static-type-checking-python-mypy
 Category: Computer Science
 Tags: programming, Python, mypy, tips
 
@@ -29,6 +29,12 @@ foo.f()  # okay
 
 [pyspark-stubs](https://github.com/zero323/pyspark-stubs)
 
+## Ingore Files and/or Directories
+
+https://github.com/python/mypy/issues/4675
+
+https://github.com/python/mypy/issues/626
+
 ## References
 
 https://realpython.com/python-type-checking/#pros-and-cons
@@ -43,5 +49,6 @@ https://mypy.readthedocs.io/en/latest/kinds_of_types.html#kinds-of-types
 
 https://realpython.com/python-type-checking/
 
-
 https://github.com/python/mypy/issues/3905
+
+https://mypy.readthedocs.io/en/latest/config_file.html
