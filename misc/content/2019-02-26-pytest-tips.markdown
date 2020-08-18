@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 11:54:46
+Date: 2020-08-17 22:34:01
 Author: Benjamin Du
 Slug: pytest-tips
 Title: Write Unit Tests Using PyTest in Python
@@ -16,6 +16,10 @@ You can run test cases in a specific test file (e.g., `test_file.py`)
 using the command `pytest test_file.py`.
 You can run a specific test (e.g., `test_func`) 
 in a test file (e.g., `test_func`) using `pytest test_file.py -k test_func`.
+
+[pytest import mechanisms and sys.path/PYTHONPATH¶](https://docs.pytest.org/en/stable/pythonpath.html#import-modes)
+
+
 
 ## Tags
 
@@ -47,5 +51,9 @@ https://github.com/ClearcodeHQ/pytest-mongo
 
 
 ## References
+
+[Good Integration Practices](https://docs.pytest.org/en/stable/goodpractices.html#test-package-name)
+
+[Changing standard (Python) test discovery¶](https://docs.pytest.org/en/stable/example/pythoncollection.html)
 
 [Is there a way to specify which pytest tests to run from a file?](https://stackoverflow.com/questions/36456920/is-there-a-way-to-specify-which-pytest-tests-to-run-from-a-file)
