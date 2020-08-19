@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-18 08:14:26
+Date: 2020-08-18 18:27:32
 Author: Benjamin Du
 Slug: tips-on-pyenv
 Title: Tips on pyenv
@@ -38,8 +38,11 @@ It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools
 
 ## Tips & Traps
 
-Precedence of versions of Python are defined in `$HOME/.pyenv/version`.
-Place the version of Python that you want to use in the first line of the file.
+1. Precedence of versions of Python are defined in `$HOME/.pyenv/version`.
+    Place the version of Python that you want to use in the first line of the file.
+
+2. The root directory of pyenv is controled by the environment variable `$PYENV_ROOT`. 
+    You can report the root directory of pyenv by running the command `pyenv root`.
 
 ## References 
 
@@ -52,3 +55,5 @@ https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-en
 https://medium.com/faun/pyenv-multi-version-python-development-on-mac-578736fb91aa#:~:text=pyenv%20makes%20it%20easy%20to,a%20tool%20like%20tox%20handy.
 
 https://realpython.com/intro-to-pyenv/
+
+https://github.com/pyenv/pyenv#locating-the-python-installation
