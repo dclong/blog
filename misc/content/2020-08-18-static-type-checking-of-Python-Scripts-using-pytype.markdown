@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-18 16:45:30
+Date: 2020-08-18 21:29:34
 Author: Benjamin Du
 Slug: static-type-checking-of-Python-Scripts-using-pytype
 Title: Static Type Checking of Python Scripts Using Pytype
@@ -26,6 +26,9 @@ Please read with your own judgement!
 ## Exclude Files and/or Directories
 
 1. Use the `--exclude` option. 
+
+        :::bash
+        PATH=.venv/bin:$PATH pytype xinstall --exclude xinstall/data
 
 2. Specify files and/or directories to exclude in the configuration file. 
 
