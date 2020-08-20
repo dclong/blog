@@ -12,7 +12,6 @@ from pathlib import Path
 import json
 import itertools
 import subprocess as sp
-
 EN = "en"
 CN = "cn"
 HOME = "home"

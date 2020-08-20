@@ -6,9 +6,10 @@ from pathlib import Path
 from argparse import ArgumentParser
 import subprocess as sp
 import getpass
-from utils import VIM, get_editor, install_if_not_exist
 # install_if_not_exist(["pelican", "pelican-render-math", "pelican-jupyter"])
 import pelican
+import dsutil
+from utils import VIM, get_editor, install_if_not_exist
 from blog import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
 EDITOR = get_editor()
@@ -328,6 +329,7 @@ def parse_args(args=None, namespace=None):
     _subparse_find_name_title_mismatch(subparsers)
     _subparse_match_post(subparsers)
     _subparse_exec_notebook(subparsers)
+    _subparse_format_notebook(subparsers)
     _subparse_trust_notebooks(subparsers)
     _subparse_link(subparsers)
     return parser.parse_args(args=args, namespace=namespace)
@@ -354,6 +356,34 @@ def exec_notebook(bloger, args):
     if args.notebooks:
         cmd = ["jupyter", "nbconvert", "--to", "notebook", "--inplace", "--execute"] + args.notebooks
         sp.run(cmd, check=True)
+
+
+def format_notebook(bloger, args):
+    if args.indexes:
+        args.notebooks = blogger.path(args.indexes)
+    if args.notebooks:
+        dsutil.filesystem.format_notebook(args.notebooks)
+
+
+def _subparse_format_notebook(subparsers):
+    subparser_format_notebook = subparsers.add_parser(
+        "format_notebook", aliases=["format", "fmt", "f"], help="Format notebooks.")
+    subparser_format_notebook.add_argument(
+        "-i",
+        "--indexes",
+        nargs="+",
+        dest="indexes",
+        type=int,
+        default=(),
+        help="Row IDs in the search results.")
+    subparser_format_notebook.add_argument(
+        "-n",
+        "--notebooks",
+        nargs="+",
+        dest="notebooks",
+        default=(),
+        help="Notebooks to format.")
+    subparser_format_notebook.set_defaults(func=format_notebook)
 
 
 def _subparse_trust_notebooks(subparsers):
