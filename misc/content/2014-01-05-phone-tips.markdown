@@ -1,10 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:23:44
+Date: 2020-08-22 12:34:03
 Slug: smart-phone-tips
 Title: Tips on Smart Phone
 Category: Life
-Tags: life, smart phone, tips
+Tags: life, smart phone, tips, Android, iOS, SmartPhone
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -32,6 +32,8 @@ Please read with your own judgement!
     you must have the Google Calendar App installed and setup. 
     You have to go to settings of Google Calendar App, 
     choose an account, and select the calendars that you want to sync.
+
+2. [Termux](https://termux.com/) seems to be a great terminal emulator for Android.
 
 ## Smart Phone Tips
 

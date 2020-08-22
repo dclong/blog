@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-13 10:50:07
+Date: 2020-08-22 12:15:10
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -45,6 +45,9 @@ Disable an istallledd Jupyter/Lab extension.
 
 1. slow and might crash on pandas DataFrame
 
+### [jupyterLab/debugger](https://github.com/jupyterlab/debugger)
+
+I'm not really convinced that it is useful at this time ...
 
 ## Useful Tools
 

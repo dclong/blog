@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 20:17:32
+Date: 2020-08-22 12:13:37
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
 Title: Tips on JupyterLab
@@ -67,6 +67,13 @@ Please read with your own judgement!
 5. If a JupyerLab notebook doesn't render well due to trust issues, 
     you can rerun everything in the notebook and save it. 
     This will usually resolve the trust issue.
+
+## Format a Jupyter/Lab Notebook 
+
+https://github.com/krassowski/jupyterlab-lsp/blob/master/scripts/nblint.py
+
+https://github.com/dclong/dsutil/blob/dev/dsutil/filesystem.py#L266
+
 
 ## More Tips on IPython and Jupyter/Lab
 

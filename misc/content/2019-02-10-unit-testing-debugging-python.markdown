@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-09 12:36:01
+Date: 2020-08-22 12:15:54
 Author: Benjamin Du
 Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
@@ -49,6 +49,7 @@ converage
 https://coveralls.io/
 
 https://github.com/codecov/codecov-python
+Python report uploader for Codecov
 
 
 
