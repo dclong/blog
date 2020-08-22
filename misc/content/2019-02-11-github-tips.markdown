@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-21 21:45:27
+Date: 2020-08-21 22:03:07
 Author: Benjamin Du
 Slug: github-tips
 Title: Tips on GitHub
@@ -21,6 +21,8 @@ https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
 ## [Creating a personal access token for the command line](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
 
 ## [Creating a PR Template for Your Repository](https://docs.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository)
+
+## [Connect JIRA Cloud to GitHub](https://confluence.atlassian.com/adminjiracloud/connect-jira-cloud-to-github-814188429.html)
 
 ## References
 
