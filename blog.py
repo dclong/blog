@@ -72,6 +72,10 @@ class Post:
         3. The title should be updated to match the file name.
             Both 2 and 3 will prompt to user for confirmation.
         """
+        if self.path.suffix == MARKDOWN:
+            self._update_after_move_markdown()
+
+    def _update_after_move_markdown(self) -> None:
         if self.blog_dir() == MISC:
             with self.path.open() as fin:
                 lines = fin.readlines()
