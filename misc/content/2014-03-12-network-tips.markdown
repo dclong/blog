@@ -32,6 +32,8 @@ https://www.youtube.com/watch?v=F6yh4b7ML5g
 
 [caddy](https://github.com/caddyserver/caddy)
 
+https://engineering.hashnode.com/after-4-years-with-nginx-we-switched-to-caddy-here-is-why-cjxbv8eb2001ke8s1yl7ndroz
+
 ## General Tips
 
 1. Use the same wireless network name and password 

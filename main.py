@@ -584,84 +584,84 @@ def _subparse_search(subparsers):
         "--title",
         nargs="+",
         dest="title",
-        default="",
+        default=(),
         help="Search for posts with the sepcified title.")
     subparser_search.add_argument(
         "-I",
         "--neg-title",
         nargs="+",
         dest="neg_title",
-        default="",
+        default=(),
         help="Search for posts without the sepcified title.")
     subparser_search.add_argument(
         "-a",
         "--author",
         nargs="+",
         dest="author",
-        default="",
+        default=(),
         help="Search for posts with the sepcified author.")
     subparser_search.add_argument(
         "-A",
         "--neg-author",
         nargs="+",
         dest="neg_author",
-        default="",
+        default=(),
         help="Search for posts without the sepcified author.")
     subparser_search.add_argument(
         "-s",
         "--status",
         nargs="+",
         dest="status",
-        default="",
+        default=(),
         help="Search for posts with the sepcified status.")
     subparser_search.add_argument(
         "-S",
         "--neg-status",
         nargs="+",
         dest="neg_status",
-        default="",
+        default=(),
         help="Search for posts without the sepcified status.")
     subparser_search.add_argument(
         "-t",
         "--tags",
         nargs="+",
         dest="tags",
-        default="",
+        default=(),
         help="Search for posts with the sepcified tags.")
     subparser_search.add_argument(
         "-T",
         "--neg-tags",
         nargs="+",
         dest="neg_tags",
-        default="",
+        default=(),
         help="Search for posts without the sepcified tags.")
     subparser_search.add_argument(
         "-c",
         "--categories",
         nargs="+",
         dest="categories",
-        default="",
+        default=(),
         help="Search for posts with the sepcified categories.")
     subparser_search.add_argument(
         "-C",
         "--neg-categories",
         nargs="+",
         dest="neg_categories",
-        default="",
+        default=(),
         help="Search for posts without the sepcified categories.")
     subparser_search.add_argument(
         "-d",
         "--sub-dir",
         dest="sub_dir",
         nargs="+",
-        default="",
+        default=(),
         help="Search for posts in the specified sub blog directory.")
     subparser_search.add_argument(
         "-D",
         "--neg-sub-dir",
         dest="neg_sub_dir",
         nargs="+",
-        default="",
+        default=["outdated"],
         help="Search for posts not in the specified sub blog directory.")
     subparser_search.add_argument(
         "-f",
