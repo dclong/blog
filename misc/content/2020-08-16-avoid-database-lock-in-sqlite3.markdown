@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-16 13:10:17
+Date: 2020-08-23 11:41:16
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -21,9 +21,29 @@ Please read with your own judgement!
     Notice that even if SQLite3 uses autocommit by default,
     the Python module SQLite3 does not have autocommit turned on by default.
 
+3. According to https://www.sqlite.org/lockingv3.html,
+    POSIX advisory locking is known to be buggy or even unimplemented on many NFS implementations 
+    (including recent versions of Mac OS X) 
+    and that there are reports of locking problems for network filesystems under Windows. 
+    Your best defense is to not use SQLite for files on a network filesystem.
+
 ## Third-party Libraries to Alleviate the Issue 
 
 https://github.com/smitchell556/cuttlepool
+
+## Fix "OperationError: Database is locked" 
+
+The best practice is to create a backup of the datase
+which has no locks on it. 
+After that, replace the database with its backup copy.
+```
+Sqlite> .backup main backup.Sqlite
+Sqlite> .exit
+$mv .x.Sqlite old.Sqlite
+$mv backup.Sqlite .x.Sqlite
+```
+
+You can also directly make a copy of the original SQLite3 file to backup it.
 
 ## References 
 
