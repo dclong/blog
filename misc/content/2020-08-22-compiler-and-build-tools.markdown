@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-22 12:36:02
+Date: 2020-08-24 10:19:10
 Author: Benjamin Du
 Slug: compiler-and-build-tools
 Title: Compiler and Build Tools
@@ -21,9 +21,9 @@ llvm
 
 gradle
 
-https://github.com/dockcross/dockcross
-Cross compiling toolchains in Docker images
+[dockcross](https://github.com/dockcross/dockcross)
+is a compiling toolchains in Docker images
 
-https://github.com/ninja-build/ninja
-a small build system with a focus on speed
+[ninja](https://github.com/ninja-build/ninja)
+is a small build system with a focus on speed
 
