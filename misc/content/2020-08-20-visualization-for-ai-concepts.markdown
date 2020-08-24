@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-20 17:01:43
+Date: 2020-08-24 12:29:58
 Author: Benjamin Du
 Slug: visualization-for-ai-concepts
 Title: Visualization for AI Concepts
@@ -10,6 +10,8 @@ Tags: Computer Science, AI, concept, visualization, data science, machine learni
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+[Exploring Neural Networks with Activation Atlases](https://distill.pub/2019/activation-atlas/)
 
 ## Web Sites 
 
