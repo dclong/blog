@@ -1,10 +1,10 @@
 Status: published
-Date: 2019-05-11 02:50:52
+Date: 2020-08-29 21:57:34
 Author: Benjamin Du
 Slug: spark-issue-java.lang.OutOfMemoryError
-Title: Spark Issue Java.Lang.Outofmemoryerror
+Title: Spark Issue Java.Lang.OutOfMemoryerror
 Category: Computer Science
-Tags: programming, Spark, issue, big data
+Tags: programming, Spark, issue, big data, OutOfMemoryError, OOM
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
