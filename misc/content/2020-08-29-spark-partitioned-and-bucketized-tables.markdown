@@ -20,3 +20,7 @@ will the partition/bucketizing issue still exists?
 ## References 
 
 https://issues.apache.org/jira/browse/SPARK-19256
+
+https://stackoverflow.com/questions/44808415/spark-parquet-partitioning-large-number-of-files
+
+https://stackoverflow.com/questions/48585744/why-is-spark-saveastable-with-bucketby-creating-thousands-of-files
