@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-19 23:18:31
+Date: 2020-08-29 22:18:53
 Author: Benjamin Du
 Slug: send-emails-in-python
 Title: Send Emails in Python
@@ -55,35 +55,25 @@ The function below is an example of sending email using the Python library notif
 
     :::python
     import notifiers
-    def send_email(
-        to: Union[str, List[str]],
-        subject: str,
-        msg: str,
-        from_: str = "_sender_no_reply@domain.com",
-        host: str = "smtp.server.domain.com"
-    ) -> None:
-        """Send email in eBay's production environment.
+    notifiers.get_notifier("email").notify(
+        from_="sender@domain.com",
+        to=["recipient1@domain.com", "recipient2@domain.com"],
+        subject="Example of Sending Email Using notifiers",
+        message="This is a testing email.",
+        host="smtp.domain.com",
+        username="user_name_if_needed",
+        password="password_if_needed",
+        attachements=["/path/to/file1", "/path/to/file2"]
+    )
 
-        :param recipient: A (list of) email address(es) to send the email to.
-        :param subject: The subject of the meail.
-        :param msg: The body message of the meail.
-        :param sender: The sender email address.
-        :param host: The address of the STMP server.
-        :return: A boolean value indicating whether the email is sent successfully.
-        """
-        if not to:
-            return
-        notifiers.get_notifier("email").notify(
-            from_=from_,
-            to=to,
-            subject=subject,
-            message=msg,
-            host=host,
-            username="",
-            password="",
-        )
+Notice that notifiers supports email attachements via the `attachments` option
+which accepts an iterable of valid file paths.
 
 
 ## [yagmail](https://github.com/kootenpv/yagmail)
 
 https://blog.mailtrap.io/yagmail-tutorial/
+
+## References 
+
+https://notifiers.readthedocs.io/en/latest/_modules/notifiers/providers/email.html?highlight=attachments
