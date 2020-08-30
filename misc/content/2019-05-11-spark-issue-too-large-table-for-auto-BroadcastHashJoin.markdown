@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:05:22
+Date: 2020-08-29 22:09:28
 Author: Benjamin Du
 Slug: spark-issue-too-large-table-for-auto-BroadcastHashJoin
 Title: Spark Issue: Too Large Table for Auto BroadcastHashJoin
@@ -45,3 +45,7 @@ Do not use BroadcastHashJoin
 2. For SparkSQL (SQLContext): do not call functions.broadcast()
 
 3. For RDD: do not use broadcast variable
+
+## References 
+
+https://issues.apache.org/jira/browse/SPARK-17556

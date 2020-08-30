@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:05:22
+Date: 2020-08-29 22:10:24
 Author: Benjamin Du
 Slug: spark-issues-and-solutions
 Title: Spark Issue: Total Size of Serialized Results Is Bigger than spark.driver.maxResultSize
@@ -29,6 +29,10 @@ Total size of serialized results is bigger than spark.driver.maxResultSize
 
 
 ## References
+
+https://issues.apache.org/jira/browse/SPARK-17556
+
+https://stackoverflow.com/questions/47996396/total-size-of-serialized-results-of-16-tasks-1048-5-mb-is-bigger-than-spark-dr
 
 https://spark.apache.org/docs/latest/configuration.html
 
