@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:19:27
+Date: 2020-08-29 22:38:46
 Author: Benjamin Du
 Slug: handons-the-python-library-notifiers
 Title: Handons the Python Library Notifiers
@@ -11,6 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Email
 
 The function below is an example of sending email using the Python library notifiers.
 
