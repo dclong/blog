@@ -1,10 +1,10 @@
 Status: published
-Date: 2019-12-19 18:02:19
+Date: 2020-08-29 22:05:22
 Author: Benjamin Du
 Slug: spark-issue-a-master-url-must-be-set-in-your-configuration
-Title: Spark Issue a Master URL Must Be Set in Your Configuration
+Title: Spark Issue: a Master URL Must Be Set in Your Configuration
 Category: Computer Science
-Tags: programming, Spark, issue, error, master, yarn
+Tags: programming, Spark, issue, error, master, yarn, master URL
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-21 18:50:45
+Date: 2020-08-29 22:05:22
 Author: Benjamin Du
 Slug: spark-issues-and-solutions
-Title: Total Size of Serialized Results Is Bigger than spark.driver.maxResultSize
+Title: Spark Issue: Total Size of Serialized Results Is Bigger than spark.driver.maxResultSize
 Category: Computer Science
-Tags: programming, Spark, issues, solutions, big data
+Tags: programming, Spark, issues, solutions, big data, error
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

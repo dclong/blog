@@ -1,10 +1,10 @@
 Status: published
-Date: 2019-12-03 21:42:16
+Date: 2020-08-29 22:05:22
 Author: Benjamin Du
 Slug: spark-issue-too-many-containers-asked
-Title: Spark Issue Too Many Containers Asked
+Title: Spark Issue: Too Many Containers Asked
 Category: Computer Science
-Tags: programming, Spark, issue, big data, dynamic allocation
+Tags: programming, Spark, issue, big data, dynamic allocation, error, container, resource
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

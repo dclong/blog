@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-06-24 13:25:39
+Date: 2020-08-29 22:05:22
 Author: Benjamin Du
 Slug: spark-issue-duplicated-partitions
-Title: Spark Issue Duplicated Partitions
+Title: Spark Issue: Duplicated Partitions
 Category: Computer Science
-Tags: programming, Spark, issue, duplicate, overwrite
+Tags: programming, Spark, issue, duplicate, overwrite, big data
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
