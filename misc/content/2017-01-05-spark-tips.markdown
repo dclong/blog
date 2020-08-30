@@ -47,6 +47,9 @@ which are variables that are only “added” to, such as counters and sums.
 
 ## Spark Submit
 
+1. All the options `--files`, `--jars` and `--archives` 
+    support both local files and remote files on HDFS. 
+    
 1. After submitting a Spark application, 
     if the network connection get lots, 
     the Spark application submitted will be killed.
