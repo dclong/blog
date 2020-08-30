@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-08-29 21:39:27
+Date: 2020-08-29 22:33:29
 Author: Benjamin Du
 Slug: A-comprehensive-list-of-issues-in-spark-applications
-Title: a Comprehensive List of Issues in Spark Applications
+Title: A Comprehensive List of Issues in Spark Applications
 Category: Computer Science
 Tags: Computer Science, Spark, issue, big data, error
 
