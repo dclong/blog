@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:28:19
+Date: 2020-08-29 23:44:33
 Author: Benjamin Du
 Slug: improve-spark-performance
 Title: Improve the Performance of Spark
@@ -58,6 +58,12 @@ Please read with your own judgement!
         ON 
             A.id = B.id 
 
+5. BroadcastJoin, i.e., map-side join is fast. 
+    Use BroadcastJoin if possible. 
+    Notice that BroadcastJoin only works for inner joins. 
+    If you have a outer join,
+    BroadcastJoin won't happend even if you explicitly Broadcast a DataFrame.
+
 1. Several smaller queries (achieving the same functionality) is preferred to 
     a big query (using complex features and/or subqueries).
     For example,
@@ -112,8 +118,12 @@ you might want to consider using the Kryo serializer.
 ## Joins
 
 1. Spark automatically decides which kind of joins (Broadcast Join, Sort Merge Join, Bucket Join) to perform. 
-  Generally speaking,
-  you should not change the default threshold for deciding which join to use.
+    Generally speaking,
+    you should not change the default threshold for deciding which join to use.
+
+2. Notice that BroadcastJoin only works for inner joins. 
+    If you have a outer join,
+    BroadcastJoin won't happend even if you explicitly Broadcast a DataFrame.
 
 2. Do NOT split a medium sized table and boradcast each splitted part. 
   Just let Spark pick the right join (which will be the Sort Merge Join) in this case.
