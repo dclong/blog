@@ -1,7 +1,7 @@
 Status: published
-Date: 2020-08-29 22:10:24
+Date: 2020-08-30 20:05:34
 Author: Benjamin Du
-Slug: spark-issues-and-solutions
+Slug: spark-issues-total-size-bigger-than-maxresultsize
 Title: Spark Issue: Total Size of Serialized Results Is Bigger than spark.driver.maxResultSize
 Category: Computer Science
 Tags: programming, Spark, issues, solutions, big data, error
@@ -19,6 +19,10 @@ Total size of serialized results is bigger than spark.driver.maxResultSize
 
 1. Eliminate unnecessary `broadcast` or `collect`.
 
+2. If one of the tables for joining contains too large number of partitions
+    (which results in too many jobs),
+    repartition it to reduce the number of partitions before joining.
+    
 2. Make `spark.driver.maxResultSize` larger.
 
     - set by SparkConf: `conf.set("spark.driver.maxResultSize", "3g")`
