@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:49:49
+Date: 2020-09-01 17:39:16
 Author: Benjamin Du
 Slug: A-comprehensive-list-of-issues-in-spark-applications
 Title: A Comprehensive List of Common Issues in Spark Applications
@@ -32,7 +32,7 @@ Below a few things to check while you debug your Spark applications.
 
 1. Make sure the number of jobs is as expected. 
 
-2. Make sure the job type is as expected. 
+2. Make sure the join type is as expected. 
     This is critical for improve the performance of your Spark application.
     For example, 
     you might expect Spark to use BroadcastHashJoin but it actually used SortMergeJoin.
