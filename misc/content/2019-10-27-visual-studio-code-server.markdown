@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-05 15:29:26
+Date: 2020-09-04 09:13:11
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -35,6 +35,11 @@ so that other users can use the installed extensions.
     :::bash
     code-server --install-extension ms-python.python
     code-server --install-extension njpwerner.autodocstring
+
+You can install a specific version of an extension using `@`.
+
+    :::bash
+    code-server --install-extension ms-python.python@2020.5.86806 \
 
 https://github.com/cdr/code-server/issues/171
 
