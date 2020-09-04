@@ -5,6 +5,7 @@ from typing import Union, Sequence, List, Iterable
 import os
 import os.path
 import re
+import sys
 import sqlite3
 import datetime
 import shutil
@@ -35,7 +36,7 @@ WORDS = json.loads((BASE_DIR / "words.json").read_text())
 def qmarks(n: Union[int, Sequence]) -> str:
     """Generate n question marks delimited by comma.
     """
-    if isinstance(n, List) or isinstance(n, tuple):
+    if isinstance(n, (list, tuple)):
         n = len(n)
     return ", ".join(["?"] * n)
 
@@ -84,7 +85,7 @@ class Post:
                 fout.writelines(lines[:index])
                 fout.writelines(DECLARATION)
                 fout.writelines(lines[index:])
-            return 
+            return
         text = self.path.read_text().replace(DECLARATION, "")
         self.path.write_text(text)
 
