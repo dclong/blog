@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-19 16:07:38
+Date: 2020-09-04 09:53:31
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -10,6 +10,9 @@ Tags: programming, PySpark, Python, Spark, tips, HPC, high performance computing
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+1. PySpark 2.4 and older does not support Python 3.8.
+    You have to use Python 3.7 with PySpark 2.4 or older.
 
 1. You can run PySpark interactively using the `pyspark` command
   and submit a PySpark job to the cluster using the `spark-submit` command.
