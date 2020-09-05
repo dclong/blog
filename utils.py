@@ -14,7 +14,7 @@ def get_editor() -> str:
         "code": "code",
         "gp": "gp open",
     }
-    for editor, cmd in editors:
+    for editor, cmd in editors.items():
         if shutil.which(editor):
             return cmd
     return VIM
