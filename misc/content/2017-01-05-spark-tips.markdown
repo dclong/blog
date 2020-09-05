@@ -1,7 +1,7 @@
 Status: published
-Date: 2020-08-29 23:44:33
+Date: 2020-09-05 13:05:28
 Author: Ben Chuanlong Du
-Slug: spark-tips
+Slug: processing-big-data-using-spark
 Title: Processing Big Data Using Spark
 Category: Computer Science
 Tags: programming, Spark, big data, tips
@@ -11,7 +11,36 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
 ## General Tips
+
+1. Please refer to 
+    [Spark SQL](http://www.legendu.net/misc/blog/spark-sql-tips/)
+    for tips specific to Spark SQL.
+
+2. It is always a good idea to check the execution plan of your Spark job 
+    to make sure that things are as expected
+    before you actually run it.
+
+2. Before you use a HDFS table, 
+    have a rough estimation of the tables size 
+    and check the number of underlying files of the talbe.
+    This helps you
+        - have a rough idea of the complexity of the Spark job
+        - get a idea of the rough number of tasks in the Spark job
+        - decide the best number of shuffle partitions to use
+    Notice that due to bad design,
+    some HDFS table might have a huge number (more than 100k) of underlying files.
+    This will causes your Spark job to have too many (small) tasks,
+    which not only makes your Spark application run slow 
+    but also might causes vairous issues such as 
+    [Spark Issue: Total Size of Serialized Results Is Bigger than spark.driver.maxResultSize](http://www.legendu.net/misc/blog/spark-issues-total-size-bigger-than-maxresultsize/)
+    and
+    [Spark Issue: Too Large Table for Auto BroadcastHashJoin](http://www.legendu.net/misc/blog/spark-issue-too-large-table-for-auto-BroadcastHashJoin/)
+    .
+
+2. When you select columns from a table (or from joining of multiple tables),
+    it is always a good idea to include partition/bucket columns in the final output.
 
 1. If you have a really large Spark job which fails with high chance due too large complexity,
     you can check whether there are independent sub jobs in the big job.

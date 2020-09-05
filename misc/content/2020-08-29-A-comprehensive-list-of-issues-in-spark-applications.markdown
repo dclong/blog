@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-01 17:39:16
+Date: 2020-09-05 13:07:11
 Author: Benjamin Du
 Slug: A-comprehensive-list-of-issues-in-spark-applications
 Title: A Comprehensive List of Common Issues in Spark Applications
@@ -16,6 +16,7 @@ Please read with your own judgement!
 ### Spark/Hadoop Applications UI
 
 1. The `Jobs` tab (default) to check jobs stages, number of jobs, etc. 
+
 2. The `SQL` tab contains all Spark SQLs in your Spark application.
     you can click on each SQL to see visualization of its execuation plans.
     This visualiation of execuation plan has more information than the one in the `Jobs` tab.
@@ -30,9 +31,9 @@ Please read with your own judgement!
 
 Below a few things to check while you debug your Spark applications.
 
-1. Make sure the number of jobs is as expected. 
+1. Make sure the number of tasks is as expected. 
 
-2. Make sure the join type is as expected. 
+2. Check the execution plan of your Spark job to make sure the join type is as expected. 
     This is critical for improve the performance of your Spark application.
     For example, 
     you might expect Spark to use BroadcastHashJoin but it actually used SortMergeJoin.
