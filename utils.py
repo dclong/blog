@@ -1,7 +1,6 @@
 from typing import Union, List
 import shutil
 import subprocess as sp
-from loguru import logger
 import dsutil
 VIM = "nvim" if shutil.which("nvim") else "vim"
 
@@ -10,10 +9,14 @@ def get_editor() -> str:
     """Get the path of a valid editor.
         Vim is used as the default (fallback) editor.
     """
-    if shutil.which("code"):
-        return "code"
-    if shutil.which("gp"):
-        return "gp open"
+    editors = {
+        "code-server": "code-server",
+        "code": "code",
+        "gp": "gp open",
+    }
+    for editor, cmd in editors:
+        if shutil.which(editor):
+            return cmd
     return VIM
 
 
