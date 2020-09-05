@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-11 22:31:52
+Date: 2020-09-05 15:38:05
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -1057,3 +1057,6 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 </p>
 
 
+## References 
+
+https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-05 23:50:13
+Date: 2020-09-05 15:38:48
 Title: General Tips on SQL
 Slug: sql-tips
 Category: Computer Science
@@ -179,5 +179,7 @@ Please read with your own judgement!
     MySQL also support `#` as single-line comment.
 
 ## References
+
+https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html
 
 [Ten SQL Tricks that You Didn’t Think Were Possible (Lukas Eder)](https://www.youtube.com/watch?v=mgipNdAgQ3o)
