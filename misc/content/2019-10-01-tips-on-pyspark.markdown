@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-04 09:53:31
+Date: 2020-09-05 13:57:03
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -14,7 +14,7 @@ Please read with your own judgement!
 1. PySpark 2.4 and older does not support Python 3.8.
     You have to use Python 3.7 with PySpark 2.4 or older.
 
-1. You can run PySpark interactively using the `pyspark` command
+2. You can run PySpark interactively using the `pyspark` command
   and submit a PySpark job to the cluster using the `spark-submit` command.
 	For more details, 
 	please refer to
@@ -91,12 +91,90 @@ Please read with your own judgement!
     It is suggestion that adopt the trick of "prefixing an underscore to file names"
     when submitting a PySpark job.
 
+3. If you have multiple versions of Spark installed,
+    the exported Spark environment variables might intervent with each other 
+    and cause some of them fail to work.
+    For example, 
+    if you have both a cluster version of Spark and a local version of Spark installed,
+    you might failed to submit Spark applications using `spark-submit`.
+    One simple fix to this problem is 
+    to manually configure a right version of the `PATH` environemnt varible 
+    before you invoke the command `spark-submit` of the local version of Spark.
+
+        :::bash
+        PATH=/bin:/sbin:/usr/bin:/usr/sbin /path/to/spark-submit ...
+
+    As a matter of fact,
+    this is the way to fix most PATH related issues in Linux/Unix.
+
 2. PySpark does not support converting `$"col"` to a Column implicitly. 
     However, 
     the function `pyspark.sql.functions.col` works the same as in Spark.
 
 3. [Pandas UDFs](https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html#pandas-udfs-aka-vectorized-udfs)
     sounds interesting!
+
+## Use PySpark in Jupyter/Lab Notebooks
+
+1. The trick is to use the Python library `findspark` to find and initiate Spark for use in notebook. 
+
+    :::bash
+    import findspark
+    findspark.init("/opt/spark")
+    from pyspark.sql import SparkSession, DataFrame
+    spark = SparkSession.builder.appName("PySpark_Notebook") \
+        .enableHiveSupport().getOrCreate()
+
+2. When working with relatively large data in a local version of Spark in Jupyter/Lab notebook,
+    you might easily encounter OOM errors. 
+    The trick to increase the driver memory using the option `.config("spark.driver.memory", "50g")`.
+
+        :::python
+        import findspark
+        findspark.init("/opt/spark")
+        from pyspark.sql import SparkSession, DataFrame
+        spark = SparkSession.builder.appName("PySpark_Notebook") \
+            .config("spark.driver.memory", "50g") \
+            .enableHiveSupport().getOrCreate()
+        
+3. The command-line option `--jars` is equivalent to `spark.jars` when you use `--conf`.
+    This means that you can use `.config("spark.jars", "/path/to/file.jar")` 
+    to add JARs to a Spark/PySpark application in Jupyter/Lab notebook.
+
+        :::python
+        import findspark
+        findspark.init("/opt/spark")
+        from pyspark.sql import SparkSession, DataFrame
+        spark = SparkSession.builder.appName("PySpark_Notebook") \
+            .config("spark.jars", "/path/to/file.jar") \
+            .config("spark.driver.memory", "50g") \
+            .enableHiveSupport().getOrCreate()
+
+3. If you want to leverage a Spark cluster in a Jupyter/Lab notebook,
+    there are a few things (Hadoop queue, driver IP and driver port) you need to configure.
+    Below is an illustration.
+    
+        :::python
+        import socket
+        import findspark
+        findspark.init("/apache/spark2.3")
+        from pyspark.sql import SparkSession, DataFrame
+        spark = SparkSession.builder.master("yarn").appName("PySpark_Cluster") \
+            .config("spark.yarn.queue", "your-hadoop-queue>") \
+            .config("spark.driver.host", socket.gethostbyname(socket.gethostname())) \
+            .config("spark.driver.port", "30202") \
+            .enableHiveSupport().getOrCreate()
+
+    Notice that the SparkContext object will be expired after inactive for a while.
+    It won't help if you run the above code again in notebook
+    because a SparkSession (even if it is invalid any more due to expiration of the underlying SparkContext) has already been created.
+    You can of course restart the Python kernel and then create a new SparkSession.
+    However, 
+    you will lose all Python objects in the notebook by doing this.
+    A better alternative is to manually stop the SparkSession by calling `spark.stop()` 
+    and then run the above code in notebook again.
+    This way, the Python objects (e.g., pandas DataFrame you have created)
+    will still be alive for you to use.
 
 ## Dependencies
 
