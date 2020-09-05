@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-05 13:05:28
+Date: 2020-09-05 15:37:06
 Author: Ben Chuanlong Du
 Slug: processing-big-data-using-spark
 Title: Processing Big Data Using Spark
@@ -17,6 +17,24 @@ Please read with your own judgement!
 1. Please refer to 
     [Spark SQL](http://www.legendu.net/misc/blog/spark-sql-tips/)
     for tips specific to Spark SQL.
+
+2. It is almost always a good idea to filter out null value in the joinining columns before joining
+    no matter it is an inner join or an outer join 
+    (of course if the rows containing null matters in your use case, you have to do a union of those records).
+    Spark (at least in Spark 2.3 and older) is stupid enough not to filter out joining keys/columns with null values before even INNER join.
+    This means that if a joining key/column has lots of null values, 
+    it get shuffle into the same node in SortMergeJoin.
+    This can cause a serious data skew issue.
+
+3. When you join 2 tables and apply filtering conditions on those 2 tables, 
+    it is suggested that you explictly use subqueries to filtering first and then do the join.
+    (This is generally true for other SQL databases too.)
+
+    - Explict is always better than implicit. 
+        This makes sure that SQL do the filtering first before join
+        rather than relying on the SQL engine optimization.
+
+    - This makes things easier if you need to leverage Spark SQL hints.
 
 2. It is always a good idea to check the execution plan of your Spark job 
     to make sure that things are as expected

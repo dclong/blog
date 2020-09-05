@@ -36,7 +36,7 @@ Please read with your own judgement!
 
 1. Spark SQL follows hive sql syntax.
     For example,
-    `spark.sql("show tables in some_schema like '*perf*'")`
+    `spark.sql("SHOW tables IN some_schema LIKE '*perf*'")`
     returns a DataFrame with tables in the Hive database.
 
 2. JSON, ORC, Parquet and CSV files can be queried using Spark SQL without creating a table on the Spark DataFrame.
@@ -60,14 +60,14 @@ Please read with your own judgement!
     However, you cannot sum a bool expression/column directly.
     You have to either cast it to Int/BigInt or use the old-school case clause.
 
-5. `select * from some_table limit 5` runs slow if the table `some_table` is large.
+5. `SELECT * FROM some_table LIMIT 5` runs slow if the table `some_table` is large.
     you can limit the selection to a specific partition (if the table is partitioned) to speed it up.
 
 
 6. You can use the following code to show the creation code of a Hive table in Spark.
 
         :::scala
-        println(spark.sql("show create table some_table").collect()(0)(0))
+        println(spark.sql("SHOW CREATE TABLE some_table").collect()(0)(0))
 
 7. Check if a table exists.
     If you are using Scala.
