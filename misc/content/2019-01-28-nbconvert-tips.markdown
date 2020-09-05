@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-11-20 17:11:16
+Date: 2020-09-05 12:07:40
 Author: Ben Chuanlong Du
 Slug: nbconvert-tips
 Title: Converting JupyterLab Notebooks
@@ -26,6 +26,12 @@ Please read with your own judgement!
 
         :::bash
         jupyter nbconvert --to notebook --inplace --execute mynotebook.ipynb
+
+3. There is no way to control the work directory of `jupyter nbconvert` at this time.
+    A recommended alternative is to manually change the directory in the notebook. 
+    It is possible to specify the output directory where things will be deployed.
+    For more discussions,
+    pleas refer to [this issue](https://github.com/jupyter/nbconvert/issues/1343).
 
 ## References
 
