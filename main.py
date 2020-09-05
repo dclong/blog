@@ -15,6 +15,7 @@ USER = getpass.getuser()
 EDITOR = get_editor()
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
+SITE = "http://www.legendu.net"
 
 
 def query(blogger, args):
@@ -138,8 +139,11 @@ def show(blogger, args) -> None:
     sql = "SELECT count(*) FROM srps"
     total = blogger.query(sql)[0][0]
     print(f"\nNumber of matched posts: {total}")
-    for rowid, path in blogger.fetch(args.n):
-        print(f"\n{rowid}: {Post(path).title()}    |    {path}")
+    for rowid, title, dir_, slug in blogger.query(f"""
+        SELECT rowid, title, dir, slug FROM srps LIMIT {args.n}
+        """):
+        url = f"{SITE}/{dir_}/blog/{slug}"
+        print(f"\n{rowid}: {title}    |    {url}")
     print("")
 
 

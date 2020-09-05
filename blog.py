@@ -457,7 +457,7 @@ class Blogger:
         self.execute(sql)
 
     def _create_table_srps(self):
-        sql = "CREATE TABLE IF NOT EXISTS srps (path)"
+        sql = "CREATE TABLE IF NOT EXISTS srps (path, title, dir, slug)"
         self.execute(sql)
 
     def clear(self):
@@ -691,7 +691,7 @@ class Blogger:
             where = "WHERE " + where
         sql = f"""
             INSERT INTO srps
-            SELECT path
+            SELECT path, title, dir, slug
             FROM posts
             {where}
             ORDER BY rank
