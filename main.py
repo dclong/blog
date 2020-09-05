@@ -139,11 +139,11 @@ def show(blogger, args) -> None:
     sql = "SELECT count(*) FROM srps"
     total = blogger.query(sql)[0][0]
     print(f"\nNumber of matched posts: {total}")
-    for rowid, title, dir_, slug in blogger.query(f"""
-        SELECT rowid, title, dir, slug FROM srps LIMIT {args.n}
+    for rowid, path, title, dir_, slug in blogger.query(f"""
+        SELECT rowid, path, title, dir, slug FROM srps LIMIT {args.n}
         """):
         url = f"{SITE}/{dir_}/blog/{slug}"
-        print(f"\n{rowid}: {title}    |    {url}")
+        print(f"\n{rowid}: {title}  |  {path}  |  {url}")
     print("")
 
 
