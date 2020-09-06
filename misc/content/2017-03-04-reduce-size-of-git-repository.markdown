@@ -17,6 +17,13 @@ Please read with your own judgement!
 Git Large File Storage (Git-LFS) is the recommended way to work with large files.
 Please read the following if have already committed large files into your repository.
 
+## Run `git gc --aggressive` Manually 
+    
+    :::bash
+    git gc --aggressive
+
+https://stackoverflow.com/questions/3313908/git-is-really-slow-for-100-000-objects-any-fixes
+
 ## [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
 
 ```
