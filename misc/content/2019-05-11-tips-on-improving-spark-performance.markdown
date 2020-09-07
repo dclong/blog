@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 23:44:33
+Date: 2020-09-07 13:49:02
 Author: Benjamin Du
 Slug: improve-spark-performance
 Title: Improve the Performance of Spark
@@ -58,11 +58,11 @@ Please read with your own judgement!
         ON 
             A.id = B.id 
 
-5. BroadcastJoin, i.e., map-side join is fast. 
-    Use BroadcastJoin if possible. 
-    Notice that BroadcastJoin only works for inner joins. 
+5. BroadcastHashJoin, i.e., map-side join is fast. 
+    Use BroadcastHashJoin if possible. 
+    Notice that BroadcastHashJoin only works for inner joins. 
     If you have a outer join,
-    BroadcastJoin won't happend even if you explicitly Broadcast a DataFrame.
+    BroadcastHashJoin won't happend even if you explicitly Broadcast a DataFrame.
 
 1. Several smaller queries (achieving the same functionality) is preferred to 
     a big query (using complex features and/or subqueries).
