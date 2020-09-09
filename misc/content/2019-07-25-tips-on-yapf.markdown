@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-11 20:21:55
+Date: 2020-09-08 19:37:50
 Author: Benjamin Du
 Slug: tips-on-yapf
 Title: Tips on yapf
@@ -43,6 +43,13 @@ ALLOW_SPLIT_BEFORE_DICT_VALUE = False
 1. When `--diff/-d` is supplied, YAPF returns zero when no changes were necessary, 
   non-zero otherwise (including program error).
   You can use this in a CI workflow to test that code has been YAPF-formatted.
+
+## Ignore Files 
+
+Put patterns of files to ignore into the file `.yapfignore`.
+
+    */.ipynb_checkpoints/
+
 
 ## References
 
