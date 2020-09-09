@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-09 11:37:42
+Date: 2020-09-09 13:38:03
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -16,10 +16,17 @@ Please read with your own judgement!
 
 ## Tips and Traps 
 
-1. If you poetry to manage your Python project,
-    it is recommended that you restrict the Python version to minor (i.e., only allow different patch versions).
-    This helps avoid some tricky issues ...
+1. Python Poetry supports Python package dependencies on GitHub.
+    For example,
+    if a Python package depends on https://github.com/chdu/dsutil,
+    then you can add it using the following.
 
+        :::bash
+        poetry add git+https://git@github.com/chdu/dsutil
+
+    Or
+        :::bash
+        poetry add git+ssh://git@github.com/chdu/dsutil
 
 ## Usage
 
