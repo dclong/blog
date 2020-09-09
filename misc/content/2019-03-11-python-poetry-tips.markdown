@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-22 10:40:23
+Date: 2020-09-09 11:37:42
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -13,6 +13,13 @@ Please read with your own judgement!
 
 
 [Poetry Documentation](https://poetry.eustace.io/docs/)
+
+## Tips and Traps 
+
+1. If you poetry to manage your Python project,
+    it is recommended that you restrict the Python version to minor (i.e., only allow different patch versions).
+    This helps avoid some tricky issues ...
+
 
 ## Usage
 
