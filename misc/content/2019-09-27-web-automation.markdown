@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-13 10:58:31
+Date: 2020-09-10 16:12:08
 Author: Benjamin Du
 Slug: web-automation
 Title: Web Automation
@@ -21,7 +21,7 @@ are official Docker images for selenium.
 
 ## [playwright](https://github.com/microsoft/playwright)
 
-Node library to automate Chromium, Firefox and WebKit with a single API https://playwright.dev
+Node.js library to automate Chromium, Firefox and WebKit with a single API https://playwright.dev
 
 ## [Puppeteer](https://github.com/GoogleChrome/puppeteer)
 
