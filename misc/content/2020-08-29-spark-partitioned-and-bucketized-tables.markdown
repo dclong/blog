@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:25:53
+Date: 2020-09-11 09:50:20
 Author: Benjamin Du
 Slug: spark-partitioned-and-bucketized-tables
 Title: Spark Partitioned and Bucketized Tables
@@ -10,17 +10,3 @@ Tags: Computer Science, Spark, big data, partition, bucket, bucketize, Hive
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-df.partitionBy(col) has issues ...
-
-If I call Hive SQL from Spark, 
-will the partition/bucketizing issue still exists? 
-
-
-## References 
-
-https://issues.apache.org/jira/browse/SPARK-19256
-
-https://stackoverflow.com/questions/44808415/spark-parquet-partitioning-large-number-of-files
-
-https://stackoverflow.com/questions/48585744/why-is-spark-saveastable-with-bucketby-creating-thousands-of-files
