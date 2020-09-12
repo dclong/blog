@@ -14,3 +14,11 @@ Please read with your own judgement!
 
 It is suggested that you leverage CICD tools (e.g., GitHub Actions) more
 instead of Git Hooks which happens locally.
+
+## References
+
+https://github.com/pre-commit/pre-commit
+
+misc/content/2020-09-11-tips-on-pre-commit.markdown
+
+https://about.gitlab.com/blog/2019/01/31/pre-commit-post-deploy-is-dead/
