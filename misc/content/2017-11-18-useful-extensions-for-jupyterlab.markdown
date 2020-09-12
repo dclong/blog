@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-22 12:15:10
+Date: 2020-09-11 11:47:18
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -47,7 +47,7 @@ Disable an istallledd Jupyter/Lab extension.
 
 ### [jupyterLab/debugger](https://github.com/jupyterlab/debugger)
 
-I'm not really convinced that it is useful at this time ...
+Need the [xeus-python](https://github.com/jupyter-xeus/xeus-python) kernel to work.
 
 ## Useful Tools
 

@@ -1,10 +1,10 @@
 Status: published
-Date: 2019-03-25 00:53:40
+Date: 2020-09-11 10:24:51
 Author: Benjamin Du
 Slug: best-filesystem-format-for-cross-platform-data-exchanging
 Title: Best Filesystem Format for Cross-Platform Data Exchanging
 Category: OS
-Tags: OS, macOS, external drive, filesystem
+Tags: OS, macOS, Linux, Windows, external drive, filesystem, exFAT, ext4
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -40,13 +40,10 @@ Please refer to the [ntfs-3g manual](http://manpages.ubuntu.com/manpages/bionic/
 ## ext4
 
 `ext4` is the current default filesystem for Linux operating systems.
-It worth mentioning that the Windows Subsystem Linux (WSL) sees what the Windows system sees,
-so it supports mounting Windows fileystems (FAT32, exFAT and NTFS) into WSL but not the ext4 filesystem at this time.
-However, 
-this might be changed in future. 
-And if mouting ext4 is supported in WSL, 
-ext4 will be even a better way for sharing data between Windows and Linux.
-
+It can be accessed in Windows via WSL 2
+(refer to
+[Access Linux filesystems in Windows and WSL 2](https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/)
+for more details).
 Reading ext4 on Mac can be supported by installing `ext4fuse`,
 however, 
 reading/writing ext4 on Mac is experimental and it is strongly suggested that you don't try it at this time.

@@ -12,6 +12,12 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## jupyter-book
+
+## [fastpages](https://github.com/fastai/fastpages)
+
+## nbconvert
+
 1. Converting too many notebooks at the same (multiprocessing) causes `zmq.error.ZMQError: Address already in use`.
     The simple way to fix this issue is to limit the number of processes converting notebooks.
     It is suggested that you keep in within 3.

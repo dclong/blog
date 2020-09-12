@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-22 12:15:54
+Date: 2020-09-11 22:20:50
 Author: Benjamin Du
 Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
@@ -62,6 +62,7 @@ Python report uploader for Codecov
 
 2. [pre-commit](https://github.com/pre-commit/pre-commit]
     A framework for managing and maintaining multi-language pre-commit hooks.
+    It is suggested that you rely on more on CICD rather Git hooks!!!
 
 1. Travis CI seems to be a good one to use for free open source project on GitHub
 

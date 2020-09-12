@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-22 09:36:05
+Date: 2020-09-11 10:39:11
 Author: Ben Chuanlong Du
 Slug: jupyter-notebook-kernels
 Title: Jupyter Notebook Kernels
@@ -17,6 +17,22 @@ Please read with your own judgement!
 By default, 
 Python kernels are installed to `/usr/local/share/jupyter/kernels`
 and BeakerX kernels are installed to `/usr/share/jupyter/kernels`.
+
+
+## Python
+
+### [ipykernel](https://github.com/ipython/ipykernel)
+
+IPython Kernel for Jupyter/Lab,
+which is the default Python kernel for Jupyter/Lab currently.
+
+### [xeus-python](https://github.com/jupyter-xeus/xeus-python)
+
+`xeus-python` is a Jupyter kernel for Python 
+based on the native implementation of the Jupyter protocol [xeus](https://github.com/jupyter-xeus/xeus).
+
+[A new Python kernel for Jupyter](https://blog.jupyter.org/a-new-python-kernel-for-jupyter-fcdf211e30a8)
+
 
 ## SQL Kernels
 
