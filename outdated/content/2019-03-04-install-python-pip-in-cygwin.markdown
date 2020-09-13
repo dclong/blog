@@ -5,12 +5,6 @@ Slug: install-python-pip-in-cygwin
 Title: Install Python Pip in Cygwin
 Category: Software
 Tags: software, Python, Cygwin, pip
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 ```bash
 python3 -m ensurepip
 ```
