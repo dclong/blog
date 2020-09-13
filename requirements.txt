@@ -1,4 +1,4 @@
+dsutil
 pelican
 pelican_jupyter
-
-
+git+https://github.com/dclong/dsutil@master
