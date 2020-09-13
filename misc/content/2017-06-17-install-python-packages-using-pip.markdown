@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-25 12:51:31
+Date: 2020-09-13 12:51:51
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -263,3 +263,4 @@ https://stackoverflow.com/questions/36898474/how-to-install-a-module-for-all-use
 
 [How to pip install a package with min and max version range?](https://stackoverflow.com/questions/8795617/how-to-pip-install-a-package-with-min-and-max-version-range)
 
+[How to state in requirements.txt a direct github source](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
