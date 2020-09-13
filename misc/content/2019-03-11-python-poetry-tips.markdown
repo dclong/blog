@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-09 13:38:03
+Date: 2020-09-13 12:32:17
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -65,16 +65,30 @@ https://github.com/sdispater/poetry/pull/591
 
 https://github.com/sdispater/poetry/issues/241
 
-## Run Test Suits Using Pytest
+## poetry run 
+
+`peotry run cmd` is a quick to run `cmd` using the virtual environment managed by `poetry.
+Another way is to manually set `PATH` before you invoke `cmd`. 
+For example,
 
     :::bash
-    poetry run pytest
+    PATH=.venv/bin:$PATH cmd
 
-Or if you want to make it specific to collect test suits from the `test` directory 
-under the root directory of the project.
+1. Run test suits using pytest.
 
-    :::bash
-    poetry run pytest test
+        :::bash
+        poetry run pytest
+
+    Or if you want to make it specific to collect test suits from the `test` directory 
+    under the root directory of the project.
+
+        :::bash
+        poetry run pytest test
+
+2. Run pytype.
+
+        :::bash
+        poetry run pytype .
 
 ## Configuration
 

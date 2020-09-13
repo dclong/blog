@@ -72,8 +72,13 @@ https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 
 ## Install Python Packages from Requirements.txt
 
+
     :::bash
     pip3 install -r requirements.txt
+
+Notice that all formats accepted by `pip3 install` is valid in `requirements.txt`.
+For example,
+`git+https://github.com/dclong/dsutil@master` is valid to use in `requirements.txt`.
 
 ## Install a Specific Version of a Python Package
 
