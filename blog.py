@@ -435,6 +435,10 @@ class Blogger:
         "name_title_mismatch"
     ]
 
+    SRPS_COLS = [
+        "path", "title", "dir", "slug"
+    ]
+
     def __init__(self, db: str = ""):
         """Create an instance of Blogger.
 
@@ -457,7 +461,7 @@ class Blogger:
         self.execute(sql)
 
     def _create_table_srps(self):
-        sql = "CREATE TABLE IF NOT EXISTS srps (path, title, dir, slug)"
+        sql = f"CREATE TABLE IF NOT EXISTS srps ({', '.join(Blogger.SRPS_COLS)})"
         self.execute(sql)
 
     def clear(self):
@@ -651,7 +655,7 @@ class Blogger:
         self.clear_srps()
         sql = f"""
             INSERT INTO srps
-            SELECT path
+            SELECT {", ".join(Blogger.SRPS_COLS)}
             FROM posts
             WHERE empty = 1
             """
