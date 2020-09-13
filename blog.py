@@ -3,7 +3,6 @@
 
 from typing import Union, Sequence, List, Iterable
 import os
-import os.path
 import re
 import sys
 import sqlite3
@@ -652,6 +651,7 @@ class Blogger:
     def empty_posts(self, dry_run=False) -> None:
         """Load all empty posts into the table srps.
         """
+        self.reload_posts()
         self.clear_srps()
         sql = f"""
             INSERT INTO srps
