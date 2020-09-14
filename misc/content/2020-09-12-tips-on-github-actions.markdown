@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-12 20:48:33
+Date: 2020-09-13 17:41:24
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -14,6 +14,8 @@ Please read with your own judgement!
 ## Tips and Traps
 
 1. You can use `sudo` without password in Linux and macOS when running GitHub Actions.
+
+2. OS: ubuntu-latest, windows-latest, macOS-latest
 
 ## References
 

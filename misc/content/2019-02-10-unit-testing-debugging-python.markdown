@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-11 22:20:50
+Date: 2020-09-13 17:41:24
 Author: Benjamin Du
 Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
@@ -58,13 +58,18 @@ Python report uploader for Codecov
 
 ## CICD
 
-1. [nox](http://www.legendu.net/misc/blog/tips-on-nox/)
+1. It is suggested that you leverage professional CICD tools such as GitHub Actions 
+    instead of 
+    [nox](http://www.legendu.net/misc/blog/tips-on-nox/)
+    or
+    [pre-commit](https://github.com/pre-commit/pre-commit] (Git hooks)
+    for CICD. 
+    However, 
+    Git hooks can be useful for simple and fast local code formatting.
 
-2. [pre-commit](https://github.com/pre-commit/pre-commit]
-    A framework for managing and maintaining multi-language pre-commit hooks.
-    It is suggested that you rely on more on CICD rather Git hooks!!!
+2. GitHub Actions seems to the best CICD (and more) tool for projects on GitHub.
 
-1. Travis CI seems to be a good one to use for free open source project on GitHub
+## Travis CI
 
 To setup Travis-CI on a github project, all you have to do is:
 
@@ -76,10 +81,11 @@ Travis will run your tests for every push made on your repo
 Travis will run your tests on every pull request contributors will make
 
 
-4. Jenkins is another popular one.
-    https://stackoverflow.com/questions/32422264/jenkins-vs-travis-ci-which-one-would-you-use-for-a-open-source-project
+## Jenkins 
+Jenkins is another popular one.
+https://stackoverflow.com/questions/32422264/jenkins-vs-travis-ci-which-one-would-you-use-for-a-open-source-project
 
-5. [GoCD](https://www.gocd.org/)
+## [GoCD](https://www.gocd.org/)
 
 ## Reference
 
