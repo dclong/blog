@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-05 13:57:03
+Date: 2020-09-14 09:43:47
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -113,6 +113,9 @@ Please read with your own judgement!
 
 3. [Pandas UDFs](https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html#pandas-udfs-aka-vectorized-udfs)
     sounds interesting!
+
+5. [pyspark-stubs](https://github.com/zero323/pyspark-stubs)
+    can be leveraged for static type checking for PySpark project.
 
 ## Use PySpark in Jupyter/Lab Notebooks
 
