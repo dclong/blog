@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-13 17:41:24
+Date: 2020-09-13 20:40:53
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -16,6 +16,13 @@ Please read with your own judgement!
 1. You can use `sudo` without password in Linux and macOS when running GitHub Actions.
 
 2. OS: ubuntu-latest, windows-latest, macOS-latest
+
+3. Docker container is available in Ubuntu and Windows but not macOS in GitHub Actions due to license issues.
+    To use Docker in macOS in GitHub Actions,
+    you have to install it manually.
+    Please refer to 
+    [Is it possible to install and configure Docker on MacOS runner?](https://github.community/t/is-it-possible-to-install-and-configure-docker-on-macos-runner/16981)
+    for more details.
 
 ## References
 
