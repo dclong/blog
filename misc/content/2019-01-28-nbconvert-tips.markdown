@@ -12,7 +12,7 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## jupyter-book
+## [jupyter-book](http://www.legendu.net/misc/blog/tips-on-jupyter-book/)
 
 ## [fastpages](https://github.com/fastai/fastpages)
 

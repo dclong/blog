@@ -22,7 +22,7 @@ are good alternatives to RMarkdown.
 
 ### [CodeBraid](https://github.com/gpoore/codebraid)
 
-### [jupyter-book](https://github.com/executablebooks/jupyter-book)
+### [jupyter-book](http://www.legendu.net/misc/blog/tips-on-jupyter-book/)
 
 ### [Pweave](https://github.com/mpastell/Pweave)
 
