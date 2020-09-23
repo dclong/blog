@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-14 09:43:47
+Date: 2020-09-23 13:49:09
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -121,12 +121,12 @@ Please read with your own judgement!
 
 1. The trick is to use the Python library `findspark` to find and initiate Spark for use in notebook. 
 
-    :::bash
-    import findspark
-    findspark.init("/opt/spark")
-    from pyspark.sql import SparkSession, DataFrame
-    spark = SparkSession.builder.appName("PySpark_Notebook") \
-        .enableHiveSupport().getOrCreate()
+        :::bash
+        import findspark
+        findspark.init("/opt/spark")
+        from pyspark.sql import SparkSession, DataFrame
+        spark = SparkSession.builder.appName("PySpark_Notebook") \
+            .enableHiveSupport().getOrCreate()
 
 2. When working with relatively large data in a local version of Spark in Jupyter/Lab notebook,
     you might easily encounter OOM errors. 
