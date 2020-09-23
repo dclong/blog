@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-08 19:38:08
+Date: 2020-09-23 14:49:35
 Author: Benjamin Du
 Slug: tips-on-Facebook-Ads
 Title: Tips on Facebook Ads
@@ -14,3 +14,5 @@ Please read with your own judgement!
 Facebook Audience Network Newsletter
 
 https://www.facebook.com/audiencenetwork/thank-you
+
+[Data Feed Specifications for Catalogs](https://www.facebook.com/business/help/120325381656392?id=725943027795860)
