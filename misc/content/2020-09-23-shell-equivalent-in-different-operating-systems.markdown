@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-23 23:18:37
+Date: 2020-09-23 23:27:31
 Author: Benjamin Du
 Slug: shell-equivalent-in-different-operating-systems
 Title: Shell Equivalent in Different Operating Systems
@@ -27,17 +27,19 @@ Please read with your own judgement!
     <td rowspan="3"> Add user <br> to group </td>
     <td> Linux </td>
     <td> <code> 
-        gpasswd -a user_name group_name
+    sudo gpasswd -a user_name group_name
     </code> </td>
   </tr>
   <tr>
     <td> macOS </td>
     <td> <code> 
+    sudo dseditgroup -o edit -a $username_to_add -t user admin
     </code> </td>
   </tr>
   <tr>
     <td> Windows </td>
     <td> <code> 
+    NA
     </code> </td>
   </tr>
     
