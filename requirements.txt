@@ -1,4 +1,7 @@
 dsutil
-pelican
-pelican_jupyter
+pelican 
+pelican-jupyter
+pelican-render-math
+beautifulsoup4 
+typogrify
 git+https://github.com/dclong/dsutil@master
