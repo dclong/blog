@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-13 12:34:21
+Date: 2020-09-27 22:55:07
 Author: Benjamin Du
 Title: Install Packages Using Homebrew on macOS
 Slug: homebrew-tips
@@ -12,6 +12,9 @@ Please read with your own judgement!
 **
 
 ## Tips and Traps
+
+1. All Homebrew formulas are listed at https://formulae.brew.sh/formula/.
+    You can search on the site for available formulas.
 
 1. Linuxbrew/brew has been merged into Homebrew/brew.
     For more please refer to [this issue](https://github.com/Linuxbrew/brew/issues/1).
