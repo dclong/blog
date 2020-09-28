@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 17:00:39
+Date: 2020-09-27 20:29:50
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -9,7 +9,7 @@ Tags: programming, Rust, tips
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
-
+**
 
 
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
@@ -48,7 +48,7 @@ rustc: compiler for Rust
 
 6. `assert_eq!`
 
-**
+
 ## Rust IDE
 
 VSCode plus the Rust extenstion seems to be a good option.
@@ -77,6 +77,9 @@ https://areweguiyet.com/newsfeed/2019-01-13_rust2019.html
 Overall, 
 [Azul](https://github.com/maps4print/azul)
 sounds like a good one.
+
+[gate](https://github.com/SergiusIW/gate)
+is a specialized 2D game library.
 
 ## Rust Frameworks
 
