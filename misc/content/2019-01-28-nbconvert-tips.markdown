@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-05 12:07:40
+Date: 2020-10-01 19:24:15
 Author: Ben Chuanlong Du
 Slug: nbconvert-tips
 Title: Converting JupyterLab Notebooks
@@ -38,6 +38,12 @@ Please read with your own judgement!
     It is possible to specify the output directory where things will be deployed.
     For more discussions,
     pleas refer to [this issue](https://github.com/jupyter/nbconvert/issues/1343).
+
+## [jupyter/nbclient](https://github.com/jupyter/nbclient)
+
+## [PaperMill](https://github.com/nteract/papermill)
+
+PaperMill is a tool for parameterizing, executing, and analyzing Jupyter Notebooks.
 
 ## References
 
