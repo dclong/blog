@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-13 20:40:53
+Date: 2020-10-02 09:26:40
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -23,6 +23,24 @@ Please read with your own judgement!
     Please refer to 
     [Is it possible to install and configure Docker on MacOS runner?](https://github.community/t/is-it-possible-to-install-and-configure-docker-on-macos-runner/16981)
     for more details.
+
+## PowerShell on Windows
+
+### Set PATH 
+
+echo "::add-path::./swigwin-4.0.1"
+
+echo %programfiles%
+echo ::set-env name=ProgramFilesPath::%programfiles%
+
+https://stackoverflow.com/questions/60169752/how-to-update-the-path-in-a-github-action-workflow-file-for-a-windows-latest-hos
+
+https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions#adding-a-system-path
+
+Prepends a directory to the system PATH variable for all subsequent actions in the current job. The currently running action cannot access the new path variable.
+
+
+
 
 ## References
 

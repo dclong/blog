@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-23 23:27:31
+Date: 2020-10-02 09:22:34
 Author: Benjamin Du
 Slug: shell-equivalent-in-different-operating-systems
 Title: Shell Equivalent in Different Operating Systems
@@ -11,6 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+PowerShell examples are used for Windows in the table below.
 
 <div style="overflow-x:auto;">
 <style>
@@ -40,6 +41,53 @@ Please read with your own judgement!
     <td> Windows </td>
     <td> <code> 
     NA
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="3"> Download a file </td>
+    <td rowspan="2"> Linux/Unix </td>
+    <td> <code> 
+    curl -sSL http://file.example.com -o output
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    wget http://file.example.com -O output
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Windows </td>
+    <td> <code> 
+    (New-Object System.Net.WebClient).DownloadFile("http://prdownloads.sourceforge.net/swig/swigwin-4.0.1.zip","swigwin-4.0.1.zip");
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"> Compress/Decompress Archives </td>
+    <td> Linux/Unix </td>
+    <td> <code> 
+    [Compress and Decompressing Archives in Linux](http://www.legendu.net/en/blog/compress-and-decompress-in-linux/)
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Windows </td>
+    <td> <code> 
+    Expand-Archive .\swigwin-4.0.1.zip .;
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="2"> Set PATH </td>
+    <td> Linux/Unix </td>
+    <td> <code> 
+    export PATH=/new/path:$PATH
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Windows </td>
+    <td> <code> 
+    $env:Path += ";.\swigwin-4.0.1";
     </code> </td>
   </tr>
     
