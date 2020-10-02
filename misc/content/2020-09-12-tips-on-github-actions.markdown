@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-02 09:26:40
+Date: 2020-10-02 16:50:53
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -40,7 +40,11 @@ https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-comma
 Prepends a directory to the system PATH variable for all subsequent actions in the current job. The currently running action cannot access the new path variable.
 
 
+## GitHub Actions for Python
 
+https://hynek.me/articles/python-github-actions/
+
+https://github.com/actions/setup-python
 
 ## References
 
