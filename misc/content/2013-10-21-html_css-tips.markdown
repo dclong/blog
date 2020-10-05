@@ -16,6 +16,9 @@ helps generating HTML tables easily.
 
 [HTML color codes and names](https://www.computerhope.com/htmcolor.htm)
 
+[W3C Markup Validation Service](http://validator.w3.org/)
+
+
 1. HTML is not case sensitive, 
     but it's suggested that you alway use lower case for tags.
 

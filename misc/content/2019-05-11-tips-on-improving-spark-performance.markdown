@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-07 13:49:02
+Date: 2020-10-05 09:10:38
 Author: Benjamin Du
 Slug: improve-spark-performance
 Title: Improve the Performance of Spark
@@ -27,7 +27,11 @@ Please read with your own judgement!
     helps Spark SQL engine to fast locate target dataset to avoid full table scan,
     which accelerates execution.
 
-4. Persist a DataFrame which is used multiple times.
+4. Persist a DataFrame which is used multiple times and expensive to recompute.
+    Remembe to unpersist it too when the DataFrame is no longer needed. 
+    Even Spark evict data from memory using the LRU (least recently used) strategy
+    when the caching layer becomes full,
+    it is still beneficial to unpersist data as soon as it is no used any more to reduce memory usage.
 
 5. Add cast for join key to use bucket
 
