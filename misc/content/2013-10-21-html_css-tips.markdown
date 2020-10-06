@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-02-17 11:54:35
+Date: 2020-10-06 09:55:57
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming
@@ -17,6 +17,13 @@ helps generating HTML tables easily.
 [HTML color codes and names](https://www.computerhope.com/htmcolor.htm)
 
 [W3C Markup Validation Service](http://validator.w3.org/)
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+[Font Awesome](https://fontawesome.com/)
+
+[Funkify](https://www.funkify.org/?v=f003c44deab6)
+A disability simulator for the web.
 
 
 1. HTML is not case sensitive, 
