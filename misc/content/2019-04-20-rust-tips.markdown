@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-06 12:25:07
+Date: 2020-10-06 12:28:49
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -61,7 +61,7 @@ https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-
 
 ## Machine Learning
 
-http://www.arewelearningyet.com/
+[Are We Learning Yes](http://www.arewelearningyet.com/)
 
 ## Parallel, Multithreading and Concurrency in Rust
 
@@ -85,6 +85,10 @@ sounds like a good one.
 [gate](https://github.com/SergiusIW/gate)
 is a specialized 2D game library.
 
+## Rust for Game Development
+
+[Are we game yet?](https://arewegameyet.rss)
+
 ## Rust for Backend Web Development
 
 http://www.arewewebyet.org/
@@ -102,6 +106,8 @@ https://github.com/andygrove/ballista
 https://github.com/weld-project/weld
 
 ## Tutorials
+
+[The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 
 [Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
 
