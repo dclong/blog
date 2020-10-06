@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-06 09:55:57
+Date: 2020-10-06 10:15:16
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming
@@ -24,6 +24,8 @@ helps generating HTML tables easily.
 
 [Funkify](https://www.funkify.org/?v=f003c44deab6)
 A disability simulator for the web.
+
+[The Ultimate HTML 5 Cheat Sheet – 2019](https://www.wpkube.com/html5-cheat-sheet/)
 
 
 1. HTML is not case sensitive, 
