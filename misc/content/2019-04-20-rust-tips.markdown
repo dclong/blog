@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-27 20:29:50
+Date: 2020-10-06 12:25:07
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -53,7 +53,11 @@ rustc: compiler for Rust
 
 VSCode plus the Rust extenstion seems to be a good option.
 
+IntelliJ based IDE is another good option.
+
 https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-in-rust-5087d46006f5
+
+[Are We IDE Yet](https://areweideyet.com/)
 
 ## Machine Learning
 
@@ -81,6 +85,10 @@ sounds like a good one.
 [gate](https://github.com/SergiusIW/gate)
 is a specialized 2D game library.
 
+## Rust for Backend Web Development
+
+http://www.arewewebyet.org/
+
 ## Rust Frameworks
 
 https://blog.logrocket.com/the-best-rust-frameworks-to-check-out-in-2019/
@@ -96,3 +104,5 @@ https://github.com/weld-project/weld
 ## Tutorials
 
 [Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
+
+https://github.com/rust-unofficial/awesome-rust
