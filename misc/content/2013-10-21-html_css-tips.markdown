@@ -25,6 +25,8 @@ helps generating HTML tables easily.
 [Funkify](https://www.funkify.org/?v=f003c44deab6)
 A disability simulator for the web.
 
+[The Ultimate HTML 5 Cheat Sheet – 2019](https://www.wpkube.com/html5-cheat-sheet/)
+
 
 1. HTML is not case sensitive, 
     but it's suggested that you alway use lower case for tags.
