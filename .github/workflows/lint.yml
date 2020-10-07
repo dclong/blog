@@ -26,7 +26,7 @@ jobs:
         /home/runner/.local/bin/pylint -E *.py
     - name: Lint with pytype
       run: |
-        pytype *.py
+        /home/runner/.local/bin/pylint/pytype *.py
     - name: Check code format
       run: |
-        yapf -dr *.py
+        /home/runner/.local/bin/pylint/yapf -dr *.py
