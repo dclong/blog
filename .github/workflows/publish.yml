@@ -1,4 +1,4 @@
-name: Lint Code
+name: Publish Blog
 
 on:
   push:
