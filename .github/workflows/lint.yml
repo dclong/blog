@@ -20,7 +20,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        pip3 install --user pylint pytype yapf
+        pip3 install --user pylint pytype yapf -r requirements.txt
     - name: Lint with pylint
       run: |
         /home/runner/.local/bin/pylint -E *.py
