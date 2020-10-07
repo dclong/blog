@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-06 23:12:22
+Date: 2020-10-06 23:22:48
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming
@@ -33,6 +33,9 @@ A disability simulator for the web.
 
 ### CSS 
 
+[CSS Zen Garden](http://www.csszengarden.com/)
+A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
+
 Bootstrap
 
 ### JavaScript / TypeScript
@@ -62,3 +65,12 @@ React
     but only center works perfect.
 
 4. no difference between double vs single quotes in HTML
+
+## HTML/CSS Validators
+
+[validator](https://github.com/validator/validator)
+Nu Html Checker – Helps you catch problems in your HTML/CSS/SVG
+
+[15 Most Popular HTML Validator Online Tools In 2020](https://www.softwaretestinghelp.com/html-validator/)
+
+[20 Free Online Tools for Validating the Code of Your Website](https://1stwebdesigner.com/website-validation/)
