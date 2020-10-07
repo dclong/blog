@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 16:45:49
+Date: 2020-10-07 13:06:40
 Author: Benjamin Du
 Slug: data-sources
 Title: Data Sources
@@ -26,10 +26,6 @@ https://proxycrawl.com
 ## [Data for NLP](http://www.legendu.net/misc/blog/data-for-nlp-research/)
 
 ## Data Sources
-
-World Bank Open Data Datasets covering population demographics and a huge number of economic and development indicators from across the world.
-IMF Data The International Monetary Fund publishes data on international finances, debt rates, foreign exchange reserves, commodity prices and investments.
-
 
 The US National Center for Education Statistics Data on educational institutions and education demographics from the US and around the world.
 The UK Data Centre The UK’s largest collection of social, economic and population data.
