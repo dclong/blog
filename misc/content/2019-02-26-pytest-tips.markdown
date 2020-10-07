@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-17 22:34:01
+Date: 2020-10-07 09:01:57
 Author: Benjamin Du
 Slug: pytest-tips
 Title: Write Unit Tests Using PyTest in Python
@@ -21,7 +21,10 @@ in a test file (e.g., `test_func`) using `pytest test_file.py -k test_func`.
 
 
 
-## Tags
+## Markers
+
+`@pytest.mark.foo` where `foo` can be any arbitrary string you like, 
+e.g., `@pytest.mark.slow` tells pytest that the marked test takes a long time to run.
 
 [@pytest.mark.skipif](http://doc.pytest.org/en/latest/reference.html#pytest-mark-skipif)
 
@@ -57,3 +60,5 @@ https://github.com/ClearcodeHQ/pytest-mongo
 [Changing standard (Python) test discovery¶](https://docs.pytest.org/en/stable/example/pythoncollection.html)
 
 [Is there a way to specify which pytest tests to run from a file?](https://stackoverflow.com/questions/36456920/is-there-a-way-to-specify-which-pytest-tests-to-run-from-a-file)
+
+https://medium.com/python-in-plain-english/unit-testing-in-python-structure-57acd51da923
