@@ -1,4 +1,3 @@
-dsutil
 pelican 
 pelican-jupyter
 pelican-render-math
