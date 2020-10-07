@@ -184,7 +184,7 @@ class Post:
             return self._parse_markdown()
         return self._parse_notebook()
 
-    def _parse_markdown(self) -> List[str]:
+    def _parse_markdown(self) -> List:
         with self.path.open() as fin:
             lines = fin.readlines()
         index = 0
@@ -236,7 +236,7 @@ class Post:
             name_title_mismatch,
         ]
 
-    def _parse_notebook(self) -> List[str]:
+    def _parse_notebook(self) -> List:
         content = self.path.read_text()
         cells = json.loads(content)["cells"]
         empty = 1 if len(cells) <= 1 else 0
@@ -576,7 +576,7 @@ class Blogger:
         paths = " ".join(f"'{path}'" for path in paths)
         os.system(f"{editor} {paths}")
 
-    def update_records(self, paths: List[str], mapping: dict) -> None:
+    def update_records(self, paths: Union[List[str], List[Path]], mapping: dict) -> None:
         """Update records corresponding to the specified paths.
         :param mapping: A dictionary of the form dict[field, value].
         :param paths: Paths of records to be updated.
@@ -607,14 +607,14 @@ class Blogger:
             post.update_time()
             self._load_post(post)
 
-    def add_post(self, title: str, dir_: str, notebook: bool = True) -> str:
+    def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
         """Add a new post with the given title.
         """
         if notebook:
             return self._add_post_notebook(title, dir_)
         return self._add_post_markdown(title, dir_)
 
-    def _add_post_notebook(self, title: str, dir_: str):
+    def _add_post_notebook(self, title: str, dir_: str) -> Path:
         file = self.find_post(title, dir_)
         if not file:
             file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.ipynb"
@@ -624,7 +624,7 @@ class Blogger:
         print(f"\nThe following post is added.\n{file}\n")
         return file
 
-    def _add_post_markdown(self, title: str, dir_: str):
+    def _add_post_markdown(self, title: str, dir_: str) -> Path:
         file = self.find_post(title, dir_)
         if not file:
             file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.markdown"
