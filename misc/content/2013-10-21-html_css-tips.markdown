@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-06 10:15:16
+Date: 2020-10-06 23:12:22
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming
@@ -10,6 +10,8 @@ Tags: tips, HTML, CSS, web, programming
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!
 **
+
+[W3C Standard](https://www.w3.org/TR/)
  
 [TableConvert Online](https://tableconvert.com/)
 helps generating HTML tables easily.
@@ -26,6 +28,20 @@ helps generating HTML tables easily.
 A disability simulator for the web.
 
 [The Ultimate HTML 5 Cheat Sheet – 2019](https://www.wpkube.com/html5-cheat-sheet/)
+
+## Popular Libraries
+
+### CSS 
+
+Bootstrap
+
+### JavaScript / TypeScript
+
+Vue
+
+React
+
+## Misc
 
 
 1. HTML is not case sensitive, 
