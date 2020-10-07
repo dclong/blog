@@ -23,7 +23,7 @@ jobs:
         pip3 install --user pylint pytype yapf
     - name: Lint with pylint
       run: |
-        pylint -E *.py
+        /home/runner/.local/bin/pylint -E *.py
     - name: Lint with pytype
       run: |
         pytype *.py
