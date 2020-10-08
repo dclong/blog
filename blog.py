@@ -43,7 +43,6 @@ def qmarks(n: Union[int, Sequence]) -> str:
 class Post:
     """A class abstracting a post.
     """
-
     def __init__(self, path: Union[str, Path]):
         self.path = Path(path).resolve()
         if self.path.suffix not in (MARKDOWN, IPYNB):
@@ -57,7 +56,7 @@ class Post:
         :param content: The content to compare against.
         """
         return self.path.read_text() != content
-        
+
     def blog_dir(self):
         """Get the corresponding blog directory (home, en, cn or misc) of a post.
         """
@@ -150,7 +149,9 @@ class Post:
     def _read_notebook(self) -> dict:
         notebook = json.loads(self.path.read_text())
         if notebook["cells"][0]["cell_type"] != "markdown":
-            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+            raise SyntaxError(
+                f"The first cell of the notebook {self.path} is not a markdown cell!"
+            )
         return notebook
 
     def _update_category_notebook(self, category: str) -> str:
@@ -241,7 +242,9 @@ class Post:
         cells = json.loads(content)["cells"]
         empty = 1 if len(cells) <= 1 else 0
         if cells[0]["cell_type"] != "markdown":
-            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+            raise SyntaxError(
+                f"The first cell of the notebook {self.path} is not a markdown cell!"
+            )
         meta = cells[0]["source"]
         status = ""
         date = ""
@@ -252,7 +255,9 @@ class Post:
         tags = ""
         for line in meta:
             if not re.search("^- [a-zA-Z]+:", line):
-                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!")
+                raise SyntaxError(
+                    f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
+                )
             if line.startswith("- Status:"):
                 status = line[9:].strip()
                 continue
@@ -348,7 +353,7 @@ class Post:
             lines = fin.readlines()
         Post.update_meta_field(lines, "Slug", slug)
         with self.path.open("w") as fout:
-            fout.writelines(lines)   
+            fout.writelines(lines)
 
     def title(self) -> str:
         """Get the title of the post.
@@ -359,15 +364,19 @@ class Post:
         return self._title_notebook()
 
     def _title_notebook(self):
-        # TODO: dedup the code 
+        # TODO: dedup the code
         content = self.path.read_text()
         cell = json.loads(content)["cells"][0]
         if cell["cell_type"] != "markdown":
-            raise SyntaxError(f"The first cell of the notebook {self.path} is not a markdown cell!")
+            raise SyntaxError(
+                f"The first cell of the notebook {self.path} is not a markdown cell!"
+            )
         meta = cell["source"]
         for line in meta:
             if not re.search("^- [a-zA-Z]+:", line):
-                raise SyntaxError(f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!")
+                raise SyntaxError(
+                    f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
+                )
             if line.startswith("- Title:"):
                 return line[8:].strip()
         raise SyntaxError(f"No title in the post {self.path}!")
@@ -418,25 +427,12 @@ class Post:
 class Blogger:
     """A class for managing blog.
     """
-    POSTS_COLS = [ 
-        "path",
-        "dir",
-        "status",
-        "date",
-        "author",
-        "slug",
-        "title",
-        "category",
-        "tags",
-        "content",
-        "empty",
-        "updated",
-        "name_title_mismatch"
+    POSTS_COLS = [
+        "path", "dir", "status", "date", "author", "slug", "title", "category", "tags",
+        "content", "empty", "updated", "name_title_mismatch"
     ]
 
-    SRPS_COLS = [
-        "path", "title", "dir", "slug"
-    ]
+    SRPS_COLS = ["path", "title", "dir", "slug"]
 
     def __init__(self, db: str = ""):
         """Create an instance of Blogger.
@@ -490,7 +486,9 @@ class Blogger:
         :return: An iterator of Path object.
         """
         return itertools.chain.from_iterable(
-            (BASE_DIR / dir_ / "content").iterdir() for dir_ in (CN, EN, MISC, OUTDATED))
+            (BASE_DIR / dir_ / "content").iterdir()
+            for dir_ in (CN, EN, MISC, OUTDATED)
+        )
 
     def trust_notebooks(self):
         for dir_ in (EN, CN, MISC):
@@ -576,7 +574,9 @@ class Blogger:
         paths = " ".join(f"'{path}'" for path in paths)
         os.system(f"{editor} {paths}")
 
-    def update_records(self, paths: Union[List[str], List[Path]], mapping: dict) -> None:
+    def update_records(
+        self, paths: Union[List[str], List[Path]], mapping: dict
+    ) -> None:
         """Update records corresponding to the specified paths.
         :param mapping: A dictionary of the form dict[field, value].
         :param paths: Paths of records to be updated.
@@ -642,8 +642,7 @@ class Blogger:
         """
         # find all posts and get rid of leading dates
         sql = "SELECT path FROM posts WHERE path LIKE ? AND dir = ?"
-        row = self.execute(
-            sql, [f"%{Post.slug(title)}.%", dir_]).fetchone()
+        row = self.execute(sql, [f"%{Post.slug(title)}.%", dir_]).fetchone()
         if row:
             return Path(row[0])
         return None
