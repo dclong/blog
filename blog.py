@@ -483,7 +483,7 @@ class Blogger:
         """Update the tag from_tag of the post to the tag to_tag.
         """
         tags = post.update_tags(from_tag, to_tag)
-        self.update_records(paths=[post.path], mapping={"tags": tags + ","})
+        self.update_records(paths=[post.path], mapping={"tags": ", ".join(tags) + ","})
 
     def iter_content(self) -> Iterable[Path]:
         """Iterate all files and subdirectories under the content directory of cn, en and misc.
@@ -615,7 +615,7 @@ class Blogger:
         return self._add_post_markdown(title, dir_)
 
     def _add_post_notebook(self, title: str, dir_: str) -> Path:
-        file = self.find_post(title, dir_)
+        file = self._find_post(title, dir_)
         if not file:
             file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.ipynb"
             post = Post(file)
@@ -625,7 +625,7 @@ class Blogger:
         return file
 
     def _add_post_markdown(self, title: str, dir_: str) -> Path:
-        file = self.find_post(title, dir_)
+        file = self._find_post(title, dir_)
         if not file:
             file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.markdown"
             post = Post(file)
@@ -634,7 +634,7 @@ class Blogger:
         print(f"\nThe following post is added.\n{file}\n")
         return file
 
-    def find_post(self, title: str, dir_: str) -> str:
+    def _find_post(self, title: str, dir_: str) -> Union[Path, None]:
         """Find existing post matching the given title.
 
         :return: Return the path of the existing post if any,
@@ -645,8 +645,8 @@ class Blogger:
         row = self.execute(
             sql, [f"%{Post.slug(title)}.%", dir_]).fetchone()
         if row:
-            return row[0]
-        return ""
+            return Path(row[0])
+        return None
 
     def empty_posts(self, dry_run=False) -> None:
         """Load all empty posts into the table srps.

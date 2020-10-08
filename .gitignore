@@ -19,3 +19,4 @@ outdated/cache
 dask-worker-space/
 derby.log
 metastore_db/
+.pytype/
