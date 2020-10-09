@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:12:18
+Date: 2020-10-09 01:15:45
 Author: Ben Chuanlong Du
 Slug: investment-tips
 Title: Investment
@@ -27,3 +27,9 @@ https://jingyan.baidu.com/article/49711c61858939fa441b7cd9.html
 投研帮
 
 摩尔金融
+
+## Video Tutorials
+
+[为何波音屡屡“重锤“砸向自己？内外交困的波音将迎来转机？最全波音基本面分析！结尾有美投君亲自做的估值~](https://www.youtube.com/watch?v=WHHRMzcHUTA)
+
+[美投讲美股](https://www.youtube.com/channel/UCBUH38E0ngqvmTqdchWunwQ)

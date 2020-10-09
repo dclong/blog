@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-13 17:41:24
+Date: 2020-10-07 22:02:18
 Author: Benjamin Du
 Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
@@ -14,6 +14,9 @@ Please read with your own judgement!
 ## Debugging
 
 1. [pdb](https://docs.python.org/3/library/pdb.html)
+
+[Goodbye Print, Hello Debugger! - Nina Zakharenko - Talk](https://www.youtube.com/watch?v=5AYIe-3cD-s)
+
 
 ## Unit Testing
 

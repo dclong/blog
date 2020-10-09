@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-07 09:01:57
+Date: 2020-10-07 21:36:33
 Author: Benjamin Du
 Slug: pytest-tips
 Title: Write Unit Tests Using PyTest in Python
@@ -33,6 +33,10 @@ http://doc.pytest.org/en/latest/reference.html#pytest-mark-skip-ref
 http://doc.pytest.org/en/latest/skipping.html
 
 https://stackoverflow.com/questions/38442897/how-do-i-disable-a-test-using-py-test
+
+## Parameterized Tests
+
+[Talk: Brian K Okken - Multiply your Testing Effectiveness with Parameterized Testing](https://www.youtube.com/watch?v=2R1HELARjUk)
 
 
 ## Plugins
