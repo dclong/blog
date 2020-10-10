@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-07 22:39:46
+Date: 2020-10-10 11:50:31
 Author: Benjamin Du
 Slug: advanced-knowledge-about-python
 Title: Advanced Knowledge About Python
@@ -11,5 +11,3 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-
-[Talk: Anthony Shaw - Why is Python slow?](https://www.youtube.com/watch?v=I4nkgJdVZFA)
