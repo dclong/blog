@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: data-sources
 Title: Data Sources
 Category: AI
-Tags: AI, machine learning, data, resource
+Tags: AI, machine learning, data, resource, financial data
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -24,6 +24,8 @@ https://proxycrawl.com
 ## [Data for Computer Vison](http://www.legendu.net/misc/blog/data-for-computer-vision-research/)
 
 ## [Data for NLP](http://www.legendu.net/misc/blog/data-for-nlp-research/)
+
+[Financial Data](http://www.legendu.net/misc/blog/financial-data)
 
 ## Data Sources
 
