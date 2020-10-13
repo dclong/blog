@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-18 21:29:34
+Date: 2020-10-13 16:16:52
 Author: Benjamin Du
 Slug: static-type-checking-of-Python-Scripts-using-pytype
 Title: Static Type Checking of Python Scripts Using Pytype
@@ -36,6 +36,10 @@ Please read with your own judgement!
         exclude = 
             **/*_test.py 
             **/test_*.py 
+
+## Silent Errors
+
+[Silencing errors](https://google.github.io/pytype/user_guide.html#silencing-errors)
 
 ## References 
 
