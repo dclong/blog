@@ -1,0 +1,6 @@
+# This is an example YAML file.
+---
+x: [1, 2, 3]
+y: |
+    import dsutil
+    dsutil.datetime.range('2019-01-01', '2019-01-05')

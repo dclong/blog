@@ -1,0 +1,7 @@
+args:
+-
+   cal_dt: '2019-01-01'
+   path: '/path/1'
+-
+   cal_dt: '2019-01-02'
+   path: '/path/2'

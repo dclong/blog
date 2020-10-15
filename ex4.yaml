@@ -1,0 +1,4 @@
+# This is an example YAML file.
+---
+x: [1, 2, 3]
+y: [a, b, c]
