@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-05 15:05:17
+Date: 2020-10-15 15:26:56
 Author: Ben Chuanlong Du
 Slug: ipython-tips
 Title: Tips on IPython
@@ -142,13 +142,15 @@ Please read with your own judgement!
 
 1. `%lsmagic` lists all magic commands.
 
-2. `%evn` shows and set environment variables.
+2. `%env` shows and set environment variables.
     Of course, 
     you can also use `os.environ` to help management environment variables.
     However, 
     be aware that environment varaibles set by either `%env` or `os.environ` 
     are active in the current session only
     and are not visible to other shell/Python processes spawned using `subprocess`.
+    For more details, 
+    please refer to [Environment variables](https://ipython.readthedocs.io/en/stable/interactive/shell.html#environment-variables).
 
 3. `%run` runs a Python script or a Jupyter/Lab notebook 
     and brings its content into the current namespace.
