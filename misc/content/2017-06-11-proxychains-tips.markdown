@@ -165,6 +165,15 @@ socks5     127.0.0.1 1080
 
 [How to specify server by DOMAIN PORT not IP PORT?](https://github.com/rofl0r/proxychains-ng/issues/246)
 
+### Use Different Proxies for Different Servers
+
+ProxyChains does not support configuring different proxies for different servers directly, 
+however,
+tinyproxy can be configured to use different upstream proxies for different destinations, 
+and you can run tinyproxy on localhost and put its address into your proxychains configuration.
+
+
+
 ## References
 
 https://linuxhint.com/proxychains-tutorial/
