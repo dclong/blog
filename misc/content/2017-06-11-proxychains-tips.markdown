@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-15 23:42:36
+Date: 2020-10-16 09:17:50
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -157,6 +157,15 @@ socks5     127.0.0.1 1080
 ## Advanced Discussions
 
 [How to specify server by DOMAIN PORT not IP PORT?](https://github.com/rofl0r/proxychains-ng/issues/246)
+
+### Use Different Proxies for Different Servers
+
+ProxyChains does not support configuring different proxies for different servers directly, 
+however,
+tinyproxy can be configured to use different upstream proxies for different destinations, 
+and you can run tinyproxy on localhost and put its address into your proxychains configuration.
+
+
 
 ## References
 
