@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 18:08:56
+Date: 2020-10-15 22:54:23
 Author: Ben Chuanlong Du
 Slug: linux-network-tools
 Title: Linux Network Tools
@@ -21,6 +21,8 @@ tcpdump
 1. arp-scan
 2. ping
 3. netstat
+4. proxychains
+5. sshuttle
 4. ip addr
 
         ip addr show dev eth0
@@ -55,5 +57,6 @@ tcpdump
 2. Proxy
 3. Anomos
 4. Tor
+5. proxychains 
 
 ## [Downloading Tools](http://www.legendu.net/misc/blog/downloading-tools/)
