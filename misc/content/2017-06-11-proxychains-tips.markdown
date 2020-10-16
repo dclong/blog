@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:04:08
+Date: 2020-10-15 23:42:36
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -153,6 +153,10 @@ socks5     127.0.0.1 1080
 
 3. There seems to be an issue if ProxyChains is directly in a VM,
     but it works well if used in a Docker on the VM ...
+
+## Advanced Discussions
+
+[How to specify server by DOMAIN PORT not IP PORT?](https://github.com/rofl0r/proxychains-ng/issues/246)
 
 ## References
 

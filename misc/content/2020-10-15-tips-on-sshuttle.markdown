@@ -11,6 +11,9 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+It’s valid to run sshuttle more than once simultaneously on a single client machine, 
+connecting to a different server every time, so you can be on more than one VPN at once.
+
 ## Configuration 
 
     {
@@ -27,6 +30,8 @@ Please read with your own judgement!
 
 ## References
 
+[sshoot](https://github.com/albertodonato/sshoot)
+
 [sshuttle](https://github.com/sshuttle/sshuttle)
 
 [sshuttle Documentation](https://sshuttle.readthedocs.io/en/stable/index.html)
@@ -36,3 +41,7 @@ Please read with your own judgement!
 [Using Sshuttle as a service](https://medium.com/@mike.reider/using-sshuttle-as-a-service-bec2684a65fe)
 
 [How to use SSH as a VPN with sshuttle](https://www.techrepublic.com/article/how-to-use-ssh-as-a-vpn-with-sshuttle/)
+
+[Use sshuttle to build a poor man’s VPN](https://fedoramagazine.org/use-sshuttle-to-build-a-poor-mans-vpn/)
+
+[Chaining sshuttle commands over two hops](https://serverfault.com/questions/826585/chaining-sshuttle-commands-over-two-hops)
