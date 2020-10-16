@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-15 23:42:36
+Date: 2020-10-16 10:48:10
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -30,6 +30,13 @@ An alternative way is to use proxychains via Docker on Mac.
 The Docker image
 [dclong/jupyterhub-ds](https://cloud.docker.com/repository/docker/dclong/jupyterhub-ds)
 has proxychains (NOT proxychains-ng) installed.
+
+## Syntax 
+
+    proxychains4 [--help] [-q] [-f config_file] program_name [arguments]
+    --help: show the help doc.
+    -q makes proxychains quiet - this overrides the config setting
+    -f allows one to manually specify a configfile to use
 
 ## Use Case of ProxyChains
 
