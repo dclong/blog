@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Make Your Linux Server Securer
-Date: 2020-10-15 18:30:00
+Date: 2020-10-16 11:02:36
 Tags: security, Linux, server
 Category: OS
 Slug: make-your-linux-server-securer
@@ -25,7 +25,7 @@ Author: Ben Chuanlong Du
     With a non-default port set up,
     a hacker has to also guess the port number,
     which makes the brute-forth break-in even harder.
-    You can use the command `sudo nmap -sS -O 127.0.0.1' to scan open ports.
+    You can use the command `sudo nmap -sS -O 127.0.0.1` to scan open ports.
 
 4. Use the package `fail2ban` to automatically ban ips which attemps to break into your server by brute-forth. 
 

@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on JavaScript
-Date: 2020-04-08 11:47:35
+Date: 2020-10-16 11:03:47
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
@@ -116,5 +116,7 @@ and want to start being productive immediately,
 what do I need?" ... and the tie to go along with jQuery's tux and Backbone's suspenders. 
 
 ## References
+
+[Python vs JavaScript for Pythonistas](https://realpython.com/python-vs-javascript/)
 
 https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
