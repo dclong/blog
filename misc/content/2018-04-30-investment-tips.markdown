@@ -1,16 +1,20 @@
 Status: published
-Date: 2020-10-09 01:15:45
+Date: 2020-10-17 12:24:21
 Author: Ben Chuanlong Du
 Slug: investment-tips
 Title: Investment
 Category: Finance
-Tags: finance, investment, WeChat official account, money, tips
+Tags: finance, investment, WeChat official account, money, tips, economics, stock
 
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## General Tips 
+
+1. Spend less money than you can make.
 
 ## A 股
 
@@ -20,16 +24,20 @@ Please read with your own judgement!
 
 https://jingyan.baidu.com/article/49711c61858939fa441b7cd9.html
 
-## Good WeChat Official Accounts
+## US Stocks
 
-1. [Yahoo Finance](https://finance.yahoo.com/news/)
+[美投讲美股](https://www.youtube.com/channel/UCBUH38E0ngqvmTqdchWunwQ)
+
+## Good WeChat Official Accounts
 
 投研帮
 
 摩尔金融
 
-## Video Tutorials
-
-[为何波音屡屡“重锤“砸向自己？内外交困的波音将迎来转机？最全波音基本面分析！结尾有美投君亲自做的估值~](https://www.youtube.com/watch?v=WHHRMzcHUTA)
+## References
 
 [美投讲美股](https://www.youtube.com/channel/UCBUH38E0ngqvmTqdchWunwQ)
+
+[How The Economic Machine Works by Ray Dalio](https://www.youtube.com/watch?v=PHe0bXAIuk0)
+
+[Yahoo Finance](https://finance.yahoo.com/news/)

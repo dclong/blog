@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-16 09:18:20
+Date: 2020-10-17 12:18:40
 Author: Benjamin Du
 Slug: tips-on-tinyproxy
 Title: Tips on Tinyproxy
@@ -17,6 +17,34 @@ Please read with your own judgement!
 
 
 [How to setup a simple proxy server with tinyproxy (Debian 10 Buster)](https://nxnjz.net/2019/10/how-to-setup-a-simple-proxy-server-with-tinyproxy-debian-10-buster/)
+
+
+## Configure TinyProxy to use Different Upstream Proxies for Different Destinations
+
+For more discussions,
+please refer to
+[[Question]: How can I configure TinyProxy to use different upstream proxies for different destinations?](https://github.com/tinyproxy/tinyproxy/issues/331)
+and
+[TinyProxy::Upstream](https://tinyproxy.github.io/#Upstream)
+.
+
+    # first rules: don't redirect local ips over upstreams
+    upstream none "127.0.0.1/8"
+    upstream none "10.0.0.0/8"
+    upstream none "192.168.0.0/16"
+
+    #nullroute ads/trackers
+    upstream http 0.0.0.0:0  ".adserver.com"
+    upstream http 0.0.0.0:0  ".spy-analytics.com"
+
+    #route google traffic over proxy1
+    upstream socks5 127.0.0.1:8001 ".google.com"
+
+    #route yahoo traffic over proxy2
+    upstream socks5 127.0.0.1:8002 ".yahoo.com"
+
+    #route everything else over tor
+    upstream socks4 127.0.0.1:9050
 
 
 ## Configuration

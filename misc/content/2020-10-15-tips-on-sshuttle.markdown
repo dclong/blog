@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-10-16 19:09:28
+Date: 2020-10-17 12:55:44
 Author: Benjamin Du
 Slug: tips-on-sshuttle
-Title: Tips on Sshuttle
+Title: Tips on sshuttle
 Category: Computer Science
 Tags: Computer Science, sshuttle, VPN, SSH, internet, web, network
 
@@ -11,8 +11,19 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-It’s valid to run sshuttle more than once simultaneously on a single client machine, 
-connecting to a different server every time, so you can be on more than one VPN at once.
+1. It's valid to run sshuttle more than once simultaneously on a single client machine, 
+    connecting to a different server every time, so you can be on more than one VPN at once.
+
+2. It is common in enterprise environments that a SSH tunnel to a production server needs to go through a bastion server.
+    There is no way to configure this in sshuttle directly,
+    however, 
+    this is doable in the configuration file of SSH.
+    For more discussions,
+    please refer to
+    [[Question]: SSH proxy](https://github.com/sshuttle/sshuttle/issues/540)
+    and
+    [Configure SSH to Use a Proxy Server](http://www.legendu.net/en/blog/configure-ssh-to-use-a-proxy-server/)
+    .
 
 ## Configuration 
 
