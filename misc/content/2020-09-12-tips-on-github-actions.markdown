@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-02 16:50:53
+Date: 2020-10-18 15:12:07
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -45,6 +45,14 @@ Prepends a directory to the system PATH variable for all subsequent actions in t
 https://hynek.me/articles/python-github-actions/
 
 https://github.com/actions/setup-python
+
+## Examples
+
+[Using semantic-release with GitHub Actions](https://www.youtube.com/watch?v=rCXq86FOlzQ)
+
+[automerge-action](https://github.com/pascalgn/automerge-action)
+
+(https://www.youtube.com/watch?v=X3F3El_yvFg)[Automatic Deployment With Github Actions]
 
 ## References
 
