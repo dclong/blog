@@ -13,3 +13,5 @@ Please read with your own judgement!
 
 
 [Networking 101 - IP Addressing](https://www.civo.com/learn/ip-addressing)
+
+[IP Subnet Calculator](https://www.calculator.net/ip-subnet-calculator.html)
