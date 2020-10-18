@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-10-17 12:18:40
+Date: 2020-10-17 21:09:17
 Author: Benjamin Du
 Slug: tips-on-tinyproxy
-Title: Tips on Tinyproxy
+Title: Tips on TinyProxy
 Category: Computer Science
 Tags: Computer Science, proxy, proxy server, TinyProxy
 
@@ -13,7 +13,7 @@ Please read with your own judgement!
 
 ## Tutorials 
 
-[How I set up Tinyproxy as a forward proxy and reverse proxy](https://medium.com/@isabelcmdcosta/how-i-set-up-tinyproxy-as-a-forward-proxy-and-reverse-proxy-2a5dc1ed64e4)
+[How I set up TinyProxy as a forward proxy and reverse proxy](https://medium.com/@isabelcmdcosta/how-i-set-up-tinyproxy-as-a-forward-proxy-and-reverse-proxy-2a5dc1ed64e4)
 
 
 [How to setup a simple proxy server with tinyproxy (Debian 10 Buster)](https://nxnjz.net/2019/10/how-to-setup-a-simple-proxy-server-with-tinyproxy-debian-10-buster/)
