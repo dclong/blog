@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-19 00:48:21
+Date: 2020-10-19 00:51:53
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -10,6 +10,8 @@ Tags: Computer Science, sshuttle, VPN, SSH, internet, web, network
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+1. `sudo` permission is required to run sshuttle. 
 
 1. It's valid to run sshuttle more than once simultaneously on a single client machine, 
     connecting to a different server every time, so you can be on more than one VPN at once.
