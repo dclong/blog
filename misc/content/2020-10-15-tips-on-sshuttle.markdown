@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-17 12:55:44
+Date: 2020-10-19 00:48:21
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -24,6 +24,12 @@ Please read with your own judgement!
     and
     [Configure SSH to Use a Proxy Server](http://www.legendu.net/en/blog/configure-ssh-to-use-a-proxy-server/)
     .
+
+## Installation 
+
+    :::bash
+    wajig install iptables 
+    pip3 install shuttle
 
 ## Configuration 
 
