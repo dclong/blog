@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-18 15:12:07
+Date: 2020-10-18 21:36:56
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -52,7 +52,13 @@ https://github.com/actions/setup-python
 
 [automerge-action](https://github.com/pascalgn/automerge-action)
 
-(https://www.youtube.com/watch?v=X3F3El_yvFg)[Automatic Deployment With Github Actions]
+[Automatic Deployment With Github Actions](https://www.youtube.com/watch?v=X3F3El_yvFg)
+
+[Zip Code Base with Github Actions for Releases](https://www.youtube.com/watch?v=yAkMgcfdok0)
+
+[GitHub Automatic Releases](https://github.com/marketplace/actions/automatic-releases)
+
+[Introducing GitHub Package Registry](https://www.youtube.com/watch?v=N_-Cu9_2YAA)
 
 ## References
 
@@ -63,3 +69,7 @@ https://www.youtube.com/watch?v=0ahRkhrOePo
 https://docs.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners#about-virtual-environments
 
 https://stackoverflow.com/questions/57830375/github-actions-workflow-error-permission-denied
+
+[GitHub’s Actions v2 — Tips and Tricks](https://medium.com/inexdigital-fr/githubs-actions-v2-tips-and-tricks-c083ec6cfae0)
+
+[Questions about PR workflows and actions/checkout@v2](https://github.community/t/questions-about-pr-workflows-and-actions-checkout-v2/122347)
