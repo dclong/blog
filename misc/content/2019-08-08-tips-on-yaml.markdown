@@ -15,19 +15,10 @@ https://yaml.org/
 
 https://yaml.org/spec/1.2/spec.html#directive/
 
-## YAML in Python
-
-http://sweetohm.net/article/introduction-yaml.en.html
-
-https://pyyaml.org/wiki/PyYAMLDocumentation
-
-
-1. PyYAML is the most popular Python library for parsing YAML.
-
-2. [SnakeYaml](https://bitbucket.org/asomov/snakeyaml/src/default/)
-  is a high quality YAML library for JVM-based languages (Java, Scala, etc.)
-  [circe-yaml](https://github.com/circe/circe-yaml)
-  is a Scala library for parsing YAML.
+## [YAML in Python](http://www.legendu.net/misc/blog/tips-on-pyyaml)
+Please refer to 
+[YAML in Python](http://www.legendu.net/misc/blog/tips-on-pyyaml)
+for discussions.
 
 ## Ranges in YAML
 
