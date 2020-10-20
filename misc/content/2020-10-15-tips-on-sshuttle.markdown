@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-19 19:43:28
+Date: 2020-10-20 11:39:41
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -56,6 +56,26 @@ Please read with your own judgement!
 [Error running sshuttle in Docker container](https://github.com/sshuttle/sshuttle/issues/546)
 
 [Docker ubuntu 20.04 container OSError: [Errno 18] Invalid cross-device link: '/etc/hosts' -> '/etc/hosts.sbak'](https://github.com/sshuttle/sshuttle/issues/518)
+
+--cap-add=NET_ADMIN
+--cap-add=NET_RAW
+
+    docker run -d \
+        --hostname jupyterhub-ds \
+        --log-opt max-size=50m \
+        --memory=$(($(head -n 1 /proc/meminfo | awk '{print $2}') * 4 / 5))k \
+        --cpus=$((`nproc` - 1)) \
+        --cap-add=NET_ADMIN \
+        --cap-add=NET_RAW \
+        -p 3000:8000 \
+        -e DOCKER_USER=`id -un` \
+        -e DOCKER_USER_ID=`id -u` \
+        -e DOCKER_PASSWORD=`id -un` \
+        -e DOCKER_GROUP_ID=`id -g` \
+        -e DOCKER_ADMIN_USER=`id -un` \
+        -v `pwd`:/workdir \
+        -v `dirname $HOME`:/home_host \
+        dclong/jupyterhub-ds /scripts/sys/init.sh
 
 ## References
 
