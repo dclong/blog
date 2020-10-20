@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-19 00:51:53
+Date: 2020-10-19 19:43:28
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -50,6 +50,12 @@ Please read with your own judgement!
 ## sshuttle in Docker 
 
 [how to let docker container work with sshuttle?](https://stackoverflow.com/questions/29838892/how-to-let-docker-container-work-with-sshuttle)
+
+[Installing iptables in docker container based on alpinelinux](https://stackoverflow.com/questions/41706983/installing-iptables-in-docker-container-based-on-alpinelinux)
+
+[Error running sshuttle in Docker container](https://github.com/sshuttle/sshuttle/issues/546)
+
+[Docker ubuntu 20.04 container OSError: [Errno 18] Invalid cross-device link: '/etc/hosts' -> '/etc/hosts.sbak'](https://github.com/sshuttle/sshuttle/issues/518)
 
 ## References
 
