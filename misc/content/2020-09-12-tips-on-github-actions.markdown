@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-18 21:36:56
+Date: 2020-10-20 09:22:11
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -23,6 +23,24 @@ Please read with your own judgement!
     Please refer to 
     [Is it possible to install and configure Docker on MacOS runner?](https://github.community/t/is-it-possible-to-install-and-configure-docker-on-macos-runner/16981)
     for more details.
+
+## Branch Matching
+
+    on:
+    push:
+        branches:    
+        - '*'         # matches every branch that doesn't contain a '/'
+        - '*/*'       # matches every branch containing a single '/'
+        - '**'        # matches every branch
+        - '!master'   # excludes master
+
+For more discussions,
+please refer to
+[GitHub Actions: how to target all branches EXCEPT master?](https://stackoverflow.com/questions/57699839/github-actions-how-to-target-all-branches-except-master)
+and
+[Workflow syntax for GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions)
+.
+
 
 ## PowerShell on Windows
 

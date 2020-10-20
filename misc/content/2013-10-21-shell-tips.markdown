@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Shell Commands
-Date: 2020-06-24 13:34:20
+Date: 2020-10-20 10:03:04
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal
@@ -77,6 +77,7 @@ http://www.legendu.net/misc/blog/terminology-tips/
 
 2. Check whether a system is 32 bit or 64 bit
 
+        :::bash
         getconf LONG_BIT
 
 3. all parameters: `$@` (what about `$*`?)
