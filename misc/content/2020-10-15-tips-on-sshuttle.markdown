@@ -47,6 +47,10 @@ Please read with your own judgement!
     ]
     }
 
+## sshuttle in Docker 
+
+[how to let docker container work with sshuttle?](https://stackoverflow.com/questions/29838892/how-to-let-docker-container-work-with-sshuttle)
+
 ## References
 
 [sshoot](https://github.com/albertodonato/sshoot)

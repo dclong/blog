@@ -2,7 +2,7 @@ Status: published
 Date: 2020-10-19 00:53:00
 Author: Benjamin Du
 Slug: ip-address-and-subnets
-Title: Ip Address and Subnets
+Title: IP Address and Subnets
 Category: Computer Science
 Tags: Computer Science, IP, address, network, internet, web, subnets, mask
 
