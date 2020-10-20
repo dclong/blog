@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-19 10:58:42
+Date: 2020-10-19 22:01:29
 Author: Benjamin Du
 Slug: tips-on-google-ads
 Title: Tips on Google Ads
@@ -23,3 +23,5 @@ Please read with your own judgement!
 https://blog.hubspot.com/marketing/google-adwords-ppc
 
 [About audience targeting](https://support.google.com/google-ads/answer/2497941?hl=en)
+
+[Product Listing Ads Promote your products with Google Shopping](https://services.google.com/fh/files/misc/product_listing_ads_intro.pdf)
