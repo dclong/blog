@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-23 11:41:16
+Date: 2020-10-21 14:27:59
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -47,11 +47,14 @@ You can also directly make a copy of the original SQLite3 file to backup it.
 
 ## References 
 
+
 https://www.sqlite.org/lockingv3.html
 
 https://www.arysontechnologies.com/blog/fix-sqlite-error-database-locked/
 
-https://stackoverflow.com/questions/151026/how-do-i-unlock-a-sqlite-database
+[How do I unlock a SQLite database?](https://stackoverflow.com/questions/151026/how-do-i-unlock-a-sqlite-database)
+
+[“The database file is locked” error even when the file is newly created](https://forum.duplicati.com/t/the-database-file-is-locked-error-even-when-the-file-is-newly-created/6893)
 
 https://docs.python.org/3.8/library/sqlite3.html#sqlite3.connect
 
