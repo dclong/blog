@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-21 14:27:59
+Date: 2020-10-21 14:31:57
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -11,11 +11,8 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-1. Using pooling if possible. 
-    For example, 
-    SQLAlchemy supports pool of connections if you use SQLite3 with SQLAlchemy.
-    Another way is to manually use SQLite3 with a resource pool manager
-    e.g., CuttlePool.
+1. The simple answer is do NOT use SQLite3 on NFS. 
+    Use MySQL, etc. instead.
 
 2. Use autocommit mode by using the option `isolation_level=None`.
     Notice that even if SQLite3 uses autocommit by default,
@@ -26,10 +23,6 @@ Please read with your own judgement!
     (including recent versions of Mac OS X) 
     and that there are reports of locking problems for network filesystems under Windows. 
     Your best defense is to not use SQLite for files on a network filesystem.
-
-## Third-party Libraries to Alleviate the Issue 
-
-https://github.com/smitchell556/cuttlepool
 
 ## Fix "OperationError: Database is locked" 
 
