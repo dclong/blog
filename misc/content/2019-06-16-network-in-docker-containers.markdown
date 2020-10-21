@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-27 14:53:00
+Date: 2020-10-20 23:52:35
 Author: Benjamin Du
 Slug: network-in-docker-containers
 Title: Network in Docker Containers
@@ -38,6 +38,15 @@ https://docs.docker.com/config/daemon/systemd/
 
 If you set up http_proxy, https_proxy and restart the Docker daemon, 
 it should work.
+
+## Docker Networks
+
+[What does --net=host option in Docker command really do?](https://stackoverflow.com/questions/43316376/what-does-net-host-option-in-docker-command-really-do)
+
+[Docker Networking 101 – Host mode](http://www.dasblinkenlichten.com/docker-networking-101-host-mode/)
+
+[Use host networking](https://docs.docker.com/network/host/)
+
 
 
 ## References

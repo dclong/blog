@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-10-20 11:39:41
+Date: 2020-10-20 23:52:35
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
 Category: Computer Science
-Tags: Computer Science, sshuttle, VPN, SSH, internet, web, network
+Tags: Computer Science, sshuttle, VPN, SSH, internet, web, network, SSH tunnel
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

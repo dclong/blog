@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: SSH Tips
-Date: 2020-02-29 21:37:59
+Date: 2020-10-20 23:38:22
 Slug: ssh-tips
 Category: Software
 Tags: tips, SSH, software, remote, Linux
@@ -10,6 +10,7 @@ Tags: tips, SSH, software, remote, Linux
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
 ## Tips and Traps
 
 1. The permissions of the directory `~/.ssh` and its subcontents
@@ -69,6 +70,12 @@ Please read with your own judgement!
     Seconds, 
     settings passwords for SSH keys might causes problems to other applicatons 
     (e.g., keyring management, cron jobs, duplicity, etc.) rely on SSH.
+
+## Multiplexing / ControlMaster
+
+[How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
+
+[SSH ControlMaster: The Good, The Bad, The Ugly](https://www.anchor.com.au/blog/2010/02/ssh-controlmaster-the-good-the-bad-the-ugly/)
 
 
 ## References
