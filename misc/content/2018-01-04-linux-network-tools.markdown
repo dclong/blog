@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-15 22:54:23
+Date: 2020-10-21 00:01:40
 Author: Ben Chuanlong Du
 Slug: linux-network-tools
 Title: Linux Network Tools
@@ -17,6 +17,13 @@ Please read with your own judgement!
 [WireShark](https://www.wireshark.org/)
 [iStatMenus](https://bjango.com/mac/istatmenus/)
 tcpdump
+
+
+[9 Best Bandwidth Monitor and Network Usage Monitoring Tools](https://www.dnsstuff.com/bandwidth-monitor)
+
+[Best Bandwidth Monitoring Software for Tracking Network Traffic Usage](https://www.netadmintools.com/bandwidth-monitor/)
+
+
 ## Network Admin  
 1. arp-scan
 2. ping
