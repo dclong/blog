@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-10-21 23:14:03
+Date: 2020-10-22 09:25:14
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
 Category: Computer Science
-Tags: programming, Python, ODBC, JDBC, database, SQL
+Tags: programming, Python, ODBC, JDBC, database, SQL, TurbODBC, pyarrow, pyarrow.jvm, Java
 
 **
 Things on this page are
