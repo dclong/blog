@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
-Title: SSH Tips
-Date: 2020-10-20 23:38:22
+Title: Operate Remote Servers Using SSH
+Date: 2020-10-21 23:19:27
 Slug: ssh-tips
 Category: Software
 Tags: tips, SSH, software, remote, Linux
@@ -11,7 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Tips and Traps
+## General Tips and Traps
 
 1. The permissions of the directory `~/.ssh` and its subcontents
     on **both the local machine and the remote server** must be properly set 
@@ -72,6 +72,20 @@ Please read with your own judgement!
     (e.g., keyring management, cron jobs, duplicity, etc.) rely on SSH.
 
 ## Multiplexing / ControlMaster
+
+    Host *
+    # ControlMaster: persist connections for reuse
+        ControlPath ~/.ssh/control/%r@%h:%p
+        ControlMaster auto
+        ControlPersist yes
+    #
+        SendEnv LANG LC_*
+        HashKnownHosts yes
+        GSSAPIAuthentication yes
+        GSSAPIDelegateCredentials no
+    # make connection alive
+        ServerAliveInterval 10
+        ServerAliveCountMax 3
 
 [How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
 
