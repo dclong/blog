@@ -1,16 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Operate Remote Servers Using SSH
-Date: 2020-10-21 23:19:27
+Date: 2020-10-22 09:34:26
 Slug: ssh-tips
 Category: Software
 Tags: tips, SSH, software, remote, Linux
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 ## General Tips and Traps
 
 1. The permissions of the directory `~/.ssh` and its subcontents
@@ -73,26 +67,47 @@ Please read with your own judgement!
 
 ## Multiplexing / ControlMaster
 
-    Host *
-    # ControlMaster: persist connections for reuse
-        ControlPath ~/.ssh/control/%r@%h:%p
-        ControlMaster auto
-        ControlPersist yes
-    #
-        SendEnv LANG LC_*
-        HashKnownHosts yes
-        GSSAPIAuthentication yes
-        GSSAPIDelegateCredentials no
-    # make connection alive
-        ServerAliveInterval 10
-        ServerAliveCountMax 3
+1. The `ControlMaster auto` option can be used to allow SSH reuse an existing connection.
+    The `ControlPersist yes` option goes one step further to persist a connection once it's established.
+    This means that there will essentially be one long-term SSH connection to each host. 
+    Those 2 options together is a very good way to avoid frequently SSH logins 
+    especially when you have to rely on bastion servers to login (e.g., in an Enterprise environment).
+    Notice that you must also specify a `ControlPath` 
+    if you use `ControlMaster`.
+    For more discussions, 
+    please refer to
+    [How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
+    .
+
+        :::text
+        Host *
+        # ControlMaster: persist connections for reuse
+            ControlPath ~/.ssh/control/%r@%h:%p
+            ControlMaster auto
+            ControlPersist yes
+        #
+            SendEnv LANG LC_*
+            HashKnownHosts yes
+            GSSAPIAuthentication yes
+            GSSAPIDelegateCredentials no
+        # make connection alive
+            ServerAliveInterval 10
+            ServerAliveCountMax 3
+
+2. There are some potential drawbacks with `ControlMaster` turned on though. 
+    It is mainly due to limited bandwidth.
+    This is, generally speaking, not really an issue 
+    unless you transfer huge amount of data over SSH.
+    For more discussions,
+    please refer to
+    [SSH ControlMaster: The Good, The Bad, The Ugly](https://www.anchor.com.au/blog/2010/02/ssh-controlmaster-the-good-the-bad-the-ugly/)
+    .
+
+## References
 
 [How To Reuse SSH Connection To Speed Up Remote Login Process Using Multiplexing](https://www.cyberciti.biz/faq/linux-unix-reuse-openssh-connection/)
 
 [SSH ControlMaster: The Good, The Bad, The Ugly](https://www.anchor.com.au/blog/2010/02/ssh-controlmaster-the-good-the-bad-the-ugly/)
-
-
-## References
 
 https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts
 
