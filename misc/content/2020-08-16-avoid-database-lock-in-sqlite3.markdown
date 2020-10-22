@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-21 14:31:57
+Date: 2020-10-21 14:46:38
 Author: Benjamin Du
 Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
@@ -44,6 +44,8 @@ You can also directly make a copy of the original SQLite3 file to backup it.
 https://www.sqlite.org/lockingv3.html
 
 https://www.arysontechnologies.com/blog/fix-sqlite-error-database-locked/
+
+[Can SQLite and TDB databases be used with NFS?](https://access.redhat.com/solutions/120733)
 
 [How do I unlock a SQLite database?](https://stackoverflow.com/questions/151026/how-do-i-unlock-a-sqlite-database)
 
