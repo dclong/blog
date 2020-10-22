@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:00:59
+Date: 2020-10-21 23:14:03
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -15,32 +15,39 @@ Please read with your own judgement!
 Overall speaking,
 Python has better ODBC support than JDBC support.
 Most database related packages in Python support or rely on ODBC.
-Currently, ODBC packages also have richer feathers than JDBC packages.
+Currently, 
+ODBC packages also have richer feathers than JDBC packages.
 However,
-it is not an easy job to install and configure ODBC drivers for a non-open source databases.
+it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata).
 
 ## ODBC vs JDBC
 
 ### JDBC Packages in Python
 
-1. `JayDeBeApi` (NOT `JayDeBeApi3`, just ignore it) is currently the first choice 
+1. [JayDeBeApi](https://github.com/baztian/jaydebeapi)
+    is currently the first choice 
     even thought it is not fully DB-API compliant
-    and not actively maintained any more.
+    and not very actively maintained.
 
-2. `py4jdbc` (based on Py4j) is another JDBC package 
-    which claims to be faster than `JayDeBeApi` (based on JPype)
-    but it is relative young compared to JayDeBeApi
-    and is not actively maintained any more.
+2. [Fast JDBC access in Python using pyarrow.jvm](https://uwekorn.com/2019/11/17/fast-jdbc-access-in-python-using-pyarrow-jvm.html)
+    claims that `pyarrow.jvm` is about 100x faster than `JayDeBeApi`.
 
 4. PyAthenaJDBC is a JDBC package specifically for Amazon Athena.
 
 ### ODBC Packages in Python
 
-1. `pyodbc` and `SQLAlchemy` are general purpose packages relying on ODBC.
+1. [TurbODBC](https://github.com/blue-yonder/turbodbc)
+    is likely the fastest ODBC Python package.
+    [pyodbc](https://github.com/mkleehammer/pyodbc)
+    is another (less efficient) alternative.
+
+2. [SQLAlchemy](https://github.com/sqlalchemy/sqlalchemy)
+    are general purpose packages relying on ODBC.
 
 2. There are lots of database specific packages relying on ODBC.
     For example,
-    `teradata` is a Python package for Teradata SQL which relies on ODBC or RESTful.
+    [teradata](https://github.com/Teradata/PyTd)
+    is a Python package for Teradata SQL which relies on ODBC or RESTful.
 
 ## Database Modules
 
