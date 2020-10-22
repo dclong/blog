@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-10-21 10:38:11
+Date: 2020-10-22 09:23:48
 Author: Benjamin Du
 Slug: the-elegant-theme-for-pelican
-Title: the Elegant Theme for Pelican
+Title: The Elegant Theme for Pelican
 Category: Computer Science
 Tags: Computer Science, Pelican, elegant, theme, search, static site generator, static site
 

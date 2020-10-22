@@ -118,6 +118,10 @@ class Post:
                 title = title.replace(origin + " ", replace + " ")
             if title.endswith(" " + origin):
                 title = title.replace(" " + origin, " " + replace)
+        if title.startswith("the "):
+            title = "The " + title[4:]
+        if title.startswith("a "):
+            title = "A " + title[2:]
         return title
 
     def update_category(self, category: str) -> str:
