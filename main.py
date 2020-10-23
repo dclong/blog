@@ -712,7 +712,7 @@ def _subparse_search(subparsers):
         help="Futher filtering conditions in addition to the full-text match."
     )
     subparser_search.add_argument(
-        "-n", dest="n", type=int, default=10, help="Number of matched records to show."
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
     )
     subparser_search.add_argument(
         "-F",
@@ -1028,7 +1028,7 @@ def _subparse_find_name_title_mismatch(subparsers):
         help="Print out the SQL query without running it."
     )
     subparser_find_name_title_mismatch.add_argument(
-        "-n", dest="n", type=int, default=10, help="Number of matched records to show."
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
     )
     subparser_find_name_title_mismatch.add_argument(
         "-F",
@@ -1115,7 +1115,7 @@ def _subparse_empty_posts(subparsers):
         help="Print out the SQL query without running it."
     )
     subparser_status.add_argument(
-        "-n", dest="n", type=int, default=10, help="Number of matched records to show."
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
     )
     subparser_status.add_argument(
         "-F",
