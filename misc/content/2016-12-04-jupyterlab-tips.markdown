@@ -74,6 +74,9 @@ https://github.com/krassowski/jupyterlab-lsp/blob/master/scripts/nblint.py
 
 https://github.com/dclong/dsutil/blob/dev/dsutil/filesystem.py#L266
 
+## Find & Replace 
+
+https://stackoverflow.com/questions/59498649/how-to-find-replace-in-jupyter-lab
 
 ## More Tips on IPython and Jupyter/Lab
 
