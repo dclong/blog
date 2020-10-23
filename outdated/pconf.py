@@ -80,7 +80,10 @@ THEME = BLOG_DIR / "themes/elegant"
 
 # plugins
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["render_math", "tipue_search"]
+PLUGINS = [
+    "render_math", 
+    #"tipue_search"
+]
 ## jupyter
 MARKUP = ("md", "ipynb")
 IPYNB_MARKUP_USE_FIRST_CELL = True

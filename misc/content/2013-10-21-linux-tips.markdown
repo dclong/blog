@@ -98,15 +98,12 @@ Please read with your own judgement!
     i.e., terminate the terminal you are using.
 
 
-5. to add path to the "PATH" environment variable, use the following command
+5. To add a path to the `$PATH` environment variable, use the following command
 
         PATH=$PATH:path_to_add
 
     If you want to add the path permanently, 
-    you can put the command into the ".bashrc" file under your home directory. 
-    If you have to add lots of paths into the PATH environment variable, 
-    you can put them into a seperate file, 
-    and link it in the ".bashrc" file.
+    you can put the command into the `.bashrc` file under your home directory. 
 
 ## Path in Bash Script
 

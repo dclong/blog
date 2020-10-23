@@ -570,7 +570,7 @@ def _subparse_list(subparsers):
         "list", aliases=["l"], help="List last search results."
     )
     subparser_list.add_argument(
-        "-n", dest="n", type=int, default=10, help="Number of matched records to show."
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
     )
     subparser_list.add_argument(
         "-F",
