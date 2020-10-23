@@ -75,8 +75,9 @@ NOTEBOOK_DIR = "downloads/notebooks"
 
 # theme and plugins
 BLOG_DIR = Path(__file__).resolve().parent.parent
-CSS_FILE = "main_2.css"
+#CSS_FILE = "main_2.css"
 THEME = BLOG_DIR / "themes/elegant"
+print(THEME)
 
 # plugins
 PLUGIN_PATHS = ["plugins"]
