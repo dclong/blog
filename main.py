@@ -6,7 +6,6 @@ from pathlib import Path
 from argparse import ArgumentParser
 import subprocess as sp
 import getpass
-# install_if_not_exist(["pelican", "pelican-render-math", "pelican-jupyter"])
 import pelican
 import dsutil
 from utils import VIM, get_editor, install_if_not_exist
