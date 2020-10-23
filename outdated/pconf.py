@@ -83,7 +83,7 @@ print(THEME)
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     "render_math", 
-    #"tipue_search"
+    "tipue_search"
 ]
 ## jupyter
 MARKUP = ("md", "ipynb")
