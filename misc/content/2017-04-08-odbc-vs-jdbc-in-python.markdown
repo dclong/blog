@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-10-22 09:25:14
+Date: 2020-10-23 13:05:00
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
 Category: Computer Science
-Tags: programming, Python, ODBC, JDBC, database, SQL, TurbODBC, pyarrow, pyarrow.jvm, Java
+Tags: programming, Python, ODBC, JDBC, database, SQL, TurbODBC, pyarrow, pyarrow.jvm, Java, Arrow Flight
 
 **
 Things on this page are
@@ -20,9 +20,20 @@ ODBC packages also have richer feathers than JDBC packages.
 However,
 it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata).
 
-## ODBC vs JDBC
 
-### JDBC Packages in Python
+## Arrow Flight 
+
+Arrow Flight is the future!
+
+[It’s Time to Replace ODBC & JDBC](https://www.dremio.com/is-time-to-replace-odbc-jdbc/)
+
+[Xoriant Open Source Contribution to Apache Arrow – JDBC Adapter](https://www.xoriant.com/blog/big-data-analytics/xoriant-open-source-contribution-apache-arrow-jdbc-adapter.html)
+
+[arrow-jdbc](https://mvnrepository.com/artifact/org.apache.arrow/arrow-jdbc/2.0.0)
+
+[arrow-memory](https://mvnrepository.com/artifact/org.apache.arrow/arrow-memory/2.0.0)
+
+## JDBC Packages in Python
 
 1. [JayDeBeApi](https://github.com/baztian/jaydebeapi)
     is currently the first choice 
@@ -34,7 +45,7 @@ it is not an easy job to install and configure ODBC drivers for a non-open sourc
 
 4. PyAthenaJDBC is a JDBC package specifically for Amazon Athena.
 
-### ODBC Packages in Python
+## ODBC Packages in Python
 
 1. [TurbODBC](https://github.com/blue-yonder/turbodbc)
     is likely the fastest ODBC Python package.

@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Shell Commands
-Date: 2020-10-20 10:03:04
+Date: 2020-10-23 12:19:10
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal
@@ -27,19 +27,9 @@ Please read with your own judgement!
 6. script (logging terminal activities)
 
 
-## References
-
-http://www.legendu.net/misc/blog/terminator-tips/
-
-http://www.legendu.net/misc/blog/terminology-tips/
-
-## Tips & Traps
-
-1. Do NOT use `;` to delimit paths passed to a shell command because `;` terminates shell commands.
-  Use `,` to delimit paths if needed.
-
-
 ## Configuration
+
+https://github.com/thoughtbot/til/blob/master/bash/bash_profile_vs_bashrc.md#:~:text=bashrc%20is%20sourced%20on%20every,with%20the%20%2D%2Dlogin%20option.&text=bash_profile%20is%20great%20for%20commands%20that%20should%20run%20only%20once%20and%20
 
 1. Debian does not read in the `.profile` file on start-up of X windows.
     To solve this problem,
@@ -54,14 +44,6 @@ http://www.legendu.net/misc/blog/terminology-tips/
     The default is Emacs mode.
     You can turn on the Vim mode by `set -o vi` in `.bashrc`.
 
-## Programming
-
-1. Dash is faster than bash and thus is often used as login shell
-    while bash has more features and is often used as interactive shell
-    `.profile` is intend to be read by shell script
-    you should not use any bash specific feature in it.
-
-2. You do not have to escape quotes in sub shells (command in `$()`).
 
 ### Media
 
@@ -82,99 +64,10 @@ http://www.legendu.net/misc/blog/terminology-tips/
 
 3. all parameters: `$@` (what about `$*`?)
 
-4. advance use of `[[ ]]` wild cards ...
-
-5. alias, function versus scripts, function is more robust, convenient,
-    but you have to source them in every time, which decreases performance
-    you should think about things similar to python and ruby, use them in both ways!
-    alias similar to function,
-    prefer script than alias and function, generally speaking
-    counter example cs
-    Vim !: has no access to shell alias or functions
-    another reason to use script
-    function versus script:
-    function need to refreshed (fun is cached)
-    while scripts need not after modified
-    so I think scripts is more suitable to use
-    I vote for separate fun and script
-
-6. shell scripts are more flexible than shell functions,
-    because you can use shabang, which gives flexibility to use any script language
-    shell function is must sometimes, e.g., cs example, shell scripts are run in sub shell
-    () ... $() ...
-    use $0 and $BASH_SOURCE to write ... your example
-
-
-8. avoid using "global" bash variables in sub shell,
-    many things are sub shell, very dangerous, and be careful!!!,
-    duplicity, aerofs, dropbox examples ...
-
-24. bash array index is 0-based
 
 28. Be careful about `.` when using regular expressions (e.g., sed),
     this is really a general problem
 
-
-`-b file` = True if the file exists and is block special file.
-
-`-c file` = True if the file exists and is character special file.
-
-`-d file` = True if the file exists and is a directory.
-
-`-e file` = True if the file exists.
-
-`-f file` = True if the file exists and is a regular file
-
-`-g file` = True if the file exists and the set-group-id bit is set.
-
-`-k file` = True if the files' "sticky" bit is set.
-
-`-L file` = True if the file exists and is a symbolic link.
-
-`-p file` = True if the file exists and is a named pipe.
-
-`-r file` = True if the file exists and is readable.
-
-`-s file` = True if the file exists and its size is greater than zero.
-
-`-s file` = True if the file exists and is a socket.
-
-`-t fd` = True if the file descriptor is opened on a terminal.
-
-`-u file` = True if the file exists and its set-user-id bit is set.
-
-`-w file` = True if the file exists and is writable.
-
-`-x file` = True if the file exists and is executable.
-
-`-O file` = True if the file exists and is owned by the effective user id.
-
-`-G file` = True if the file exists and is owned by the effective group id.
-
-`file1 –nt file2` = True if file1 is newer, by modification date, than file2.
-
-`file1 ot file2` = True if file1 is older than file2.
-
-`file1 ef file2` = True if file1 and file2 have the same device and inode numbers.
-
-`-z string` = True if the length of the string is 0.
-
-`-n string` = True if the length of the string is non-zero.
-
-`string1 = string2` = True if the strings are equal.
-
-`string1 != string2` = True if the strings are not equal.
-
-`!expr =` True if the expr evaluates to false.
-
-`expr1 –a expr2` = True if both expr1 and expr2 are true.
-
-`expr1 –o expr2` = True is either expr1 or expr2 is true.
-
-if a function has the same name as a script,
-the function comes first,
-but if you prefix it with sudo, then the script is run as a function
-is invisible in sub shells
 
 2. the trick of "--" end of command after which only positional arguments are accepted
 
@@ -199,17 +92,6 @@ is invisible in sub shells
     you have to quote it with double/single quotations marks
     in order to make shell commands work correctly.
 
-### Bash Programming
-
-1. case ... esac is different from switch(){} in C/C++.
-    You do not have to return/exit manually after each branch.
-
-
-not condition
-```bash
-if [ ! -d "$1" ]; then
-fi
-```
 
 ### top
 
@@ -358,13 +240,6 @@ readlink path
 
         acpi -bi
 
-### Shell Programing Trick
-
-2. Generate 00, 01, ..., to 25.
-
-        for i in {00..25}; do echo $i; done
-    or
-        seq -f %02g 0 25
 
 ## Administration
 
@@ -389,22 +264,6 @@ readlink path
 8. `at` command run in backgroud,
     so do not use it to do things that have to communicate with stdin stdout ...
 
-## Shell Scripting
-
-22. It is recommended that you use single quotes when defining aliases
-    unless you have good reasons to use double quotes.
-    The reason is that shell variables in aliases defined in single quotes
-    are not expanded until runtime.
-    This makes your alias more robust (shell variables do not have to defined before aliases)
-    and flexible (you can change definition of shell variables later as needed).
-
-6. In terminal,
-    wild cards are expanded before passed to functions.
-    This means that if you pass wild cards from a function to nested functions,
-    it usually will not work.
-    Instead,
-    you should pass the whole argument list,
-    which is represented by `$@`.
 
 
 ## Archive
@@ -460,43 +319,6 @@ readlink path
         df -T
 
 
-11. In a `case ... esac` clause, you have to espace spaces in matching patterns,
-    e.g., You should use `*Linux\ Mint*` instead of `*Linux Mint*` in the following code.
-
-        case "$dist" in
-            *Debian* | *LMDE* | *Ubuntu* | *Linux\ Mint* )
-                # install minimum texlive and some extra fonts
-                wajig install texlive texlive-latex-extra texlive-fonts-extra dvipng texstudio
-                return 0;;
-            * )
-                echo "This script does not support ${dist:13}."
-                return 1;;
-        esac
-
-12. loop throught English letters
-
-        for letter in {a..z} ; do
-        echo $letter
-        done
-
-        for letter in {c..f} ; do
-        echo $letter
-        done
-
-
-2. Direct output and error message
-
-        command1 > out.txt 2> err.txt
-
-        command2 -f -z -y > out.txt 2> err.txt
-
-
-## Environment Variables
-
-using envrionment variables in script that doesn't exists is really dangerous!!!
-came across this multiple times.
-how should solve the problem?
-Check whether a variable exists before you use it?
 
 CPU Stats
 
@@ -517,6 +339,10 @@ Mac
 <https://slaptijack.com/system-administration/set-mac-os-x-time-zone-from-the-command-line/>
 
 ## References
+
+- http://www.legendu.net/misc/blog/programming-in-shell
+- http://www.legendu.net/misc/blog/terminator-tips/
+- http://www.legendu.net/misc/blog/terminology-tips/
 
 - [你可能不知道的Shell](http://coolshell.cn/articles/8619.html)
 - [28个Unix/Linux的命令行神器](http://coolshell.cn/articles/7829.html)

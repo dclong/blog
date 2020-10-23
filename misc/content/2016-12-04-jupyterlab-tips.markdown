@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-22 12:13:37
+Date: 2020-10-23 11:50:14
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
 Title: Tips on JupyterLab
@@ -76,7 +76,7 @@ https://github.com/dclong/dsutil/blob/dev/dsutil/filesystem.py#L266
 
 ## Find & Replace 
 
-https://stackoverflow.com/questions/59498649/how-to-find-replace-in-jupyter-lab
+[How to Find & Replace in Jupyter Lab](https://stackoverflow.com/questions/59498649/how-to-find-replace-in-jupyter-lab)
 
 ## More Tips on IPython and Jupyter/Lab
 

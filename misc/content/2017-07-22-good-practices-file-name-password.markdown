@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-30 20:24:17
+Date: 2020-10-23 12:19:10
 Author: Ben Chuanlong Du
 Slug: speical-characters-to-avoid
 Title: Speical Characters to Avoid in Strings
 Category: Computer Science
-Tags: programming, speical characters, avoid, password, file name
+Tags: programming, speical characters, avoid, password, file name, Shell
 
 **
 Things on this page are
@@ -29,6 +29,12 @@ Please read with your own judgement!
     - dash/minus (`-`) 
     - backtick (`` ` ``) 
     - shell command (`$()`) 
+    - semicolon (`;`) 
+        Semicolon indicating the end of a shell command. 
+        It might cause issues when used carelessly in shell commands.
+        This also applies when your application take a string of delimited paths,
+        in which case you want to avoid using semicolon (`;`) as the delimiter.
+        Comma (`,`) is a better alternative in this case.
 
 2. When you programmally get the path of a file, 
     it is best to convert it to its absolute form.
