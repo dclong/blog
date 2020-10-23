@@ -255,7 +255,7 @@ def _pelican_generate(dir_: str, fatal: str):
     #config = blog_dir / "pconf.py"
     #settings = pelican.settings.read_settings(path=str(config))
     #pelican.Pelican(settings).run()
-    args = ["-s", str(blog_dir / "pconf.py"), "-v"]
+    args = ["-s", str(blog_dir / "pconf.py")]
     if fatal:
         args.extend(["--fatal", fatal])
     pelican.main(args)
