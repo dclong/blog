@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-10-23 18:15:36
+Date: 2020-10-24 13:08:22
 Author: Benjamin Du
 Slug: tips-on-mkdocs
-Title: Tips on Mkdocs
+Title: Tips on mkdocs
 Category: Computer Science
 Tags: Computer Science, mkdocs, Python, static site generator, documentation, static, generator
 
