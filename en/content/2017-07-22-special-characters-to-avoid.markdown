@@ -1,16 +1,11 @@
 Status: published
-Date: 2020-10-24 09:18:04
+Date: 2020-10-24 10:36:47
 Author: Ben Chuanlong Du
 Slug: special-characters-to-avoid
 Title: Special Characters to Avoid in Strings
 Category: Computer Science
-Tags: programming, special characters, avoid, password, file name, Shell
+Tags: programming, special characters, avoid, password, file name, Shell, char, special, character
 
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
 
 This articles talks about special characters to avoid in various places. 
 You might not encounter issues most of the time when violating rules stated below,
