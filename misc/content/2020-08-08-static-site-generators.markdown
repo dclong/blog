@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-09 11:51:25
+Date: 2020-10-23 18:23:35
 Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators
@@ -12,6 +12,7 @@ Please read with your own judgement!
 **
 
 ## Site Generator 
+
 https://github.com/gatsbyjs/gatsby
 
 https://github.com/vercel/next.js/
@@ -25,6 +26,12 @@ https://github.com/facebook/docusaurus
 ## Documentation Generator 
 
 https://github.com/docsifyjs/awesome-docsify#showcase
+
+[Sphinx](https://github.com/sphinx-doc/sphinx)
+
+[mkdocs](https://github.com/mkdocs/mkdocs)
+
+[pandoc](https://github.com/jgm/pandoc)
 
 ## Copy the Content of Code Block 
 
