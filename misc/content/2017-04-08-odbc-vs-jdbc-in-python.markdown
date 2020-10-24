@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-23 13:05:00
+Date: 2020-10-24 09:42:37
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -12,13 +12,18 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-Overall speaking,
-Python has better ODBC support than JDBC support.
-Most database related packages in Python support or rely on ODBC.
-Currently, 
-ODBC packages also have richer feathers than JDBC packages.
-However,
-it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata).
+1. Apache Arrow Flight is the future protocol for querying Databases!
+    It use columnar data and leverages Apache Arrow to avoid unnecessary copy of data,
+    which makes it able to query large data much (about 100x) faster than ODBC and JDBC.
+
+2. Overall speaking,
+    Python has better ODBC support than JDBC support.
+    Most database related packages in Python support or rely on ODBC.
+    Currently, 
+    ODBC packages also have richer feathers than JDBC packages.
+    However,
+    it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata),
+    in which situations JDBC is more convenient.
 
 
 ## Arrow Flight 
