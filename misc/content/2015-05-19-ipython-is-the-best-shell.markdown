@@ -1,10 +1,16 @@
 Status: published
 Date: 2020-10-15 15:26:56
 Author: Ben Chuanlong Du
-Slug: ipython-tips
-Title: Tips on IPython
+Slug: ipython-is-the-best-shell
+Title: IPython Is the Best Shell
 Category: Computer Science
-Tags: programming, Python, tips, IPython
+Tags: programming, Python, tips, IPython, Shell
+
+**
+Things on this page are fragmentary and immature notes/thoughts of the author.
+Please read with your own judgement!
+**
+
 
 **
 Things on this page are
@@ -12,7 +18,23 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Tricks & Traps 
+## Tips & Traps 
+
+### Profile of IPython
+
+1. IPython leverages SQLite3 for configuration.
+    SQLite3 is notorious for the database locking issues on network fileystesm (NFS, SAMBA, etc).
+    This means that you might encounter issues running IPython
+    if the configuration file of IPython is stored on a network filesystem.
+    You should avoid storing IPython configuration files on network filesystems!!
+
+2. You can the below command to generate (default) IPython configuration files.
+
+        :::bash
+        # generate an IPython configuration dir
+        ipython profile create [profilename]
+        # generate an IPython configuration dir in the specified location
+        ipython profile create [profilename] --profile-dir ~/.ipython
 
 ### Start IPython
 
@@ -42,12 +64,6 @@ Please read with your own judgement!
     If you want to define the environment variable `IPYTHONDIR` manually,
     it is better to export it as `$HOME/.ipython/` rather than leave it blank
     (which causes IPython to use the current directory as the configuration directory in rare buggy situations).
-
-### Create a Profile for IPython
-
-    ipython profile create [profilename]
-
-    ipython profile create [profilename] --profile-dir ~/.ipython
 
 ### Help Doc
 
@@ -142,6 +158,16 @@ Please read with your own judgement!
 
 1. `%lsmagic` lists all magic commands.
 
+2. The magic command `%rehashx` automatically create aliases for the contents of your `$PATH`.
+    After running `%rehashx`,
+    most system commands can be used directly.
+
+2. `%edit` is very useful for editing the definition of Python objects (functions, classes, etc.).
+
+10. `%notebook` exports the current IPython history to a notebook file. 
+    For example, 
+    to export the history to `foo.ipynb` do `%notebook foo.ipynb`.
+
 2. `%env` shows and set environment variables.
     Of course, 
     you can also use `os.environ` to help management environment variables.
@@ -171,19 +197,16 @@ Please read with your own judgement!
     [Python Profiler for JupyterLab Notebooks](http://www.legendu.net/misc/blog/python-profile-notebook/)
     for more discussions.
 
-2. The magic command `%rehashx` automatically create aliases for the contents of your `$PATH`.
-    After running `%rehashx`,
-    most system commands can be used directly.
-
-3. `%edit` is really useful ...
-
-4. `%autoreload` always reload modules before running a function.
+9. `%autoreload` always reload modules before running a function.
     This is extremely helpful if you update your own modules/scripts 
     while using them in IPython or Jupyter/Lab notebook.
 
-4. `%notebook`
+2. You can enable auto call (calling without using parentheses) of Python functions/method 
+    using the alias `%autocall`.
+    However, 
+    this is not a good idea generally speaking.
 
-### Other
+### Misc
 
 1. IPython accepts only script with the file extension `.ipy`.
 
@@ -194,13 +217,7 @@ Please read with your own judgement!
     For more information,
     please check [this discussion on Stack Overflow](https://stackoverflow.com/questions/22631845/how-to-pass-command-line-arguments-to-ipython).
 
-3. it seems that IPython tries to beautify outputs.
-
-## Most Useful Magic Commandso
-
-%rehashx
-
-%autocall
+3. IPython automatically beautify outputs.
 
 ## References
 

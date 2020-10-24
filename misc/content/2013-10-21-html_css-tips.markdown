@@ -1,10 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-06 23:22:48
+Date: 2020-10-24 09:55:36
 Slug: html_css-tips
 Category: Computer Science
-Tags: tips, HTML, CSS, web, programming
+Tags: tips, HTML, CSS, web, programming, WebAIM
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -21,6 +21,8 @@ helps generating HTML tables easily.
 [W3C Markup Validation Service](http://validator.w3.org/)
 
 [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+
+[WebAIM](https://webaim.org/)
 
 [Font Awesome](https://fontawesome.com/)
 
