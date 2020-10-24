@@ -1,10 +1,11 @@
 Status: published
-Date: 2020-10-24 10:40:40
+Date: 2020-10-24 13:00:31
 Author: Ben Chuanlong Du
 Slug: ipython-is-the-best-shell
 Title: IPython Is the Best Shell
 Category: Computer Science
 Tags: programming, Python, tips, IPython, Shell
+
 ## Tips & Traps 
 
 ### Profile of IPython
