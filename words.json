@@ -80,6 +80,7 @@
     ["Crunchbang", "CrunchBang"],
     ["Jupyterlab", "JupyterLab"],
     ["Jupyterhub", "JupyterHub"],
+    ["namedtuple", "namedtuple"],
     ["Teamviewer", "TeamViewer"], ["Tensorflow", "TensorFlow"],
     ["Virtualbox", "VirtualBox"],
     ["IJavascript", "IJavascript"], ["Itypescript", "ITypescript"], ["Proxychains", "ProxyChains"],
