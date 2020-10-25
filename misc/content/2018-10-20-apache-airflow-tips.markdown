@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:36:39
+Date: 2020-10-25 16:25:30
 Author: Ben Chuanlong Du
 Title: Job Scheduling and Management Using Apache Airflow
 Slug: apache-airflow-tips
@@ -11,26 +11,6 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-## Links
-
-https://airflow.apache.org/start.html
-
-https://airflow.apache.org/cli.html
-
-[Airflow Lesser Known Tips Tricks and Best Practises](https://medium.com/datareply/airflow-lesser-known-tips-tricks-and-best-practises-cf4d4a90f8f)
-
-[We Are All Using AirFlow Wrong and How to Fix It](https://medium.com/bluecore-engineering/were-all-using-airflow-wrong-and-how-to-fix-it-a56f14cb0753)
-
-[AirFlow Why Is Nothing Working](https://medium.com/bluecore-engineering/airflow-why-is-nothing-working-f705eb6b7b04)
-
-[Yet Another Scalable Apache AirFlow with Docker Example Setup](https://medium.com/@tomaszdudek/yet-another-scalable-apache-airflow-with-docker-example-setup-84775af5c451)
-
-https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/
-
-https://towardsdatascience.com/kubernetesexecutor-for-airflow-e2155e0f909c
-
-https://bostata.com/built-to-scale-running-highly-concurrent-etl-with-apache-airflow/
 
 ## Installation (MySQL)
 
@@ -92,3 +72,19 @@ https://airflow.apache.org/start.html
 https://airflow.apache.org/installation.html
 
 https://airflow.apache.org/tutorial.html
+
+https://airflow.apache.org/cli.html
+
+[Airflow Lesser Known Tips Tricks and Best Practises](https://medium.com/datareply/airflow-lesser-known-tips-tricks-and-best-practises-cf4d4a90f8f)
+
+[We Are All Using AirFlow Wrong and How to Fix It](https://medium.com/bluecore-engineering/were-all-using-airflow-wrong-and-how-to-fix-it-a56f14cb0753)
+
+[AirFlow Why Is Nothing Working](https://medium.com/bluecore-engineering/airflow-why-is-nothing-working-f705eb6b7b04)
+
+[Yet Another Scalable Apache AirFlow with Docker Example Setup](https://medium.com/@tomaszdudek/yet-another-scalable-apache-airflow-with-docker-example-setup-84775af5c451)
+
+https://kubernetes.io/blog/2018/06/28/airflow-on-kubernetes-part-1-a-different-kind-of-operator/
+
+https://towardsdatascience.com/kubernetesexecutor-for-airflow-e2155e0f909c
+
+https://bostata.com/built-to-scale-running-highly-concurrent-etl-with-apache-airflow/
