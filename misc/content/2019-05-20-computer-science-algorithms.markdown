@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-20 23:32:49
+Date: 2020-10-26 10:48:42
 Author: Benjamin Du
 Slug: computer-science-algorithms
 Title: Computer Science Algorithms
@@ -17,6 +17,7 @@ https://leetcode.com/
 https://github.com/TheAlgorithms/Python
 
 
+[Visualization of OT with a central server](http://operational-transformation.github.io/)
 
 ## Specific Ones
 

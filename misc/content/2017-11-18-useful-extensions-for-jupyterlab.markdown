@@ -62,6 +62,8 @@ It works well with Git.
 [JupyterHub](http://www.legendu.net/misc/blog/jupyterhub-tips/)
 is a multi-user server for Jupyter notebooks.
 
+### Plasma
+
 ## Useful Extensions for JupyterLab
 
 ### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
@@ -171,3 +173,5 @@ https://github.com/topics/jupyterlab-extension
 https://medium.com/@subpath/jupyter-lab-extensions-for-data-scientist-e0d97d529fc1
 
 https://github.com/mauhai/awesome-jupyterlab
+
+[Plasma: A learning platform powered by Jupyter](https://blog.jupyter.org/plasma-a-learning-platform-powered-by-jupyter-1b850fcd8624)
