@@ -49,6 +49,7 @@
     ["Yyyymm", "YYYYMM"],
     ["Autokey", "AutoKey"], ["Add-Ons", "Add-ons"], ["Asyncio", "asyncio"],
     ["Beakerx", "BeakerX"],
+    ["Fastapi", "FastApi"],
     ["Ipython", "IPython"],
     ["Pycharm", "PyCharm"],
     ["Scalajs", "ScalaJS"],
