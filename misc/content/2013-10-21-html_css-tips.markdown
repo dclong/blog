@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-25 18:55:10
+Date: 2020-10-26 11:56:30
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming, WebAIM
@@ -78,3 +78,7 @@ Nu Html Checker – Helps you catch problems in your HTML/CSS/SVG
 [15 Most Popular HTML Validator Online Tools In 2020](https://www.softwaretestinghelp.com/html-validator/)
 
 [20 Free Online Tools for Validating the Code of Your Website](https://1stwebdesigner.com/website-validation/)
+
+## References 
+
+[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/specializations/web-design)

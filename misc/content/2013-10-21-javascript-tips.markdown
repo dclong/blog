@@ -145,3 +145,5 @@ what do I need?" ... and the tie to go along with jQuery's tux and Backbone's su
 [JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 
 https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
+
+[Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/specializations/web-design)
