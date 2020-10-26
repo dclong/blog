@@ -18,12 +18,14 @@ Composable transformations of Python+NumPy programs: differentiate, vectorize, J
 
 
 ## [XLA](https://www.tensorflow.org/xla)
+deep learning
 
 ## [TVM](https://github.com/apache/incubator-tvm)
+deep learning
 
 ## [LLVM](https://github.com/llvm/llvm-project)
 
 ## [MLIR](https://github.com/llvm/llvm-project/tree/master/mlir/)
 
-Multi-Level Intermediate Representation
+Multi-Level Intermediate Representation.
 

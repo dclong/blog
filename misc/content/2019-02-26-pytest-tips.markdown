@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-07 21:36:33
+Date: 2020-10-26 09:40:31
 Author: Benjamin Du
 Slug: pytest-tips
 Title: Write Unit Tests Using PyTest in Python
@@ -16,9 +16,13 @@ You can run test cases in a specific test file (e.g., `test_file.py`)
 using the command `pytest test_file.py`.
 You can run a specific test (e.g., `test_func`) 
 in a test file (e.g., `test_func`) using `pytest test_file.py -k test_func`.
+you can also pass parameters to a test function using
+`pytest test_file.py:::test_func[0-0-0-invalid]`.
 
 [pytest import mechanisms and sys.path/PYTHONPATH¶](https://docs.pytest.org/en/stable/pythonpath.html#import-modes)
 
+--tb=short
+--lf (last failure)
 
 
 ## Markers

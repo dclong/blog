@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-13 13:21:50
+Date: 2020-10-26 09:44:56
 Author: Benjamin Du
 Slug: python-for-desktop-applications
 Title: Python for Desktop Applications
@@ -14,6 +14,15 @@ Please read with your own judgement!
 ## Simple Python Packages for GUI Applications
 
 ### [Tkinter](http://www.legendu.net/misc/blog/use-tkinter-to-build-gui-applications-in-python/)
+
+### [DearPyGui](https://github.com/hoffstadt/DearPyGui)
+[DearPyGui](https://github.com/hoffstadt/DearPyGui)
+Dear PyGui is a simple to use (but powerful) Python GUI framework. 
+Dear PyGui provides a wrapping of [Dear ImGui](https://github.com/ocornut/imgui) 
+which simulates a traditional retained mode GUI (as opposed to Dear ImGui's immediate mode paradigm).
+Dear PyGui is fundamentally different than other Python GUI frameworks. 
+Under the hood, Dear PyGui uses the immediate mode paradigm and your computer's GPU 
+to facilitate extremely dynamic interfaces. 
 
 ### [Gooey](https://github.com/chriskiehl/Gooey)
 turns (almost) any Python command line program 
