@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-01 14:45:03
+Date: 2020-10-25 20:15:13
 Author: Benjamin Du
 Slug: call-java-code-using-jpype-from-python
 Title: Call Java Code Using JPype from Python
@@ -40,6 +40,8 @@ https://stackoverflow.com/questions/13637614/jpype-passing-args-to-java
 https://jpype.readthedocs.io/en/latest/quickguide.html#primitives
 
 ## References
+
+- [Java Interfaces for Python](http://www.legendu.net/misc/blog/java-interfaces-for-python)
 
 - [jpype-project/jpype](https://github.com/jpype-project/jpype)
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-29 23:59:05
+Date: 2020-10-25 20:15:13
 Author: Ben Chuanlong Du
 Slug: java-interfaces-for-python
 Title: Java Interfaces for Python
@@ -29,4 +29,8 @@ Too complicated to use ...
 
 ## References
 
-https://web.archive.org/web/20170729052824/http://baojie.org/blog/2014/06/16/call-java-from-python/
+- https://web.archive.org/web/20170729052824/http://baojie.org/blog/2014/06/16/call-java-from-python/
+
+- [Call Java Code Using Jpype from Python](http://www.legendu.net/misc/blog/call-java-code-using-jpype-from-python/)
+
+- [Call Java Using PyJNIus from Python](http://www.legendu.net/misc/blog/call-java-using-pyjnius-from-python/)

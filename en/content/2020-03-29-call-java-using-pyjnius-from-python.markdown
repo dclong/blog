@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 14:24:29
+Date: 2020-10-25 20:15:13
 Author: Benjamin Du
 Slug: call-java-using-pyjnius-from-python
 Title: Call Java Using PyJNIus from Python
@@ -38,5 +38,7 @@ it is a bad idea to have the same for an instance variable and a method
 as it might confuse other programming languages (e.g., Kotlin) and frameworks too.
 
 ## References 
+
+- [Java Interfaces for Python](http://www.legendu.net/misc/blog/java-interfaces-for-python)
 
 - [PyJNIus](https://github.com/kivy/pyjnius)
