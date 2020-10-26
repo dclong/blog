@@ -18,4 +18,17 @@ Please read with your own judgement!
 
 1. If performance is a concern, use volatile (temp) tables.
 
-2. Always use CTE (with clause) instead of sub queries.
+2. Always use a CTE (with clause) instead of a sub query when applicable
+    as a CTE is more flexible (can be recursive),
+    is reusable,
+    and is more readable.
+
+3. A CTE can be recursive and is reusable.
+
+## References
+
+https://www.alisa-in.tech/post/2019-10-02-ctes/
+
+https://stackoverflow.com/questions/706972/difference-between-cte-and-subquery
+
+https://learnsql.com/blog/sql-subquery-cte-difference/

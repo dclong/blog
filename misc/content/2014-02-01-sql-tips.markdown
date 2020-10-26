@@ -79,7 +79,7 @@ Please read with your own judgement!
 
 3. Avoid using subqueries in SQL. 
     Use CTE (with clause) instead
-    which is equivalent but has much more readable.
+    which is equivalent but much more readable.
 
 1. avoid using resvered keywords (e.g., title) as column/table name, 
     even if you can use "keyword" but still other people might forget for not obvious keywords like title
