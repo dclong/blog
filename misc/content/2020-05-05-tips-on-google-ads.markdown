@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-19 22:01:29
+Date: 2020-10-25 18:56:25
 Author: Benjamin Du
 Slug: tips-on-google-ads
 Title: Tips on Google Ads
@@ -10,6 +10,8 @@ Tags: Computer Science, Google, Ads, AdWords
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+[Google Keywords API](https://keywordtool.io/api)
 
 [About the best sellers report](https://support.google.com/merchants/answer/9488679)
 

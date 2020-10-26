@@ -112,3 +112,5 @@ https://stackoverflow.com/questions/36333117/refresh-visual-studio-code-list-of-
 - [Visual Studio Code Updates](https://code.visualstudio.com/updates/)
 
 - [Download Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
+
+- https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode
