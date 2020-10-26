@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:48:00
+Date: 2020-10-25 18:45:40
 Author: Ben Chuanlong Du
 Title: Volatile CTE and Subqueries in SQL
 Slug: volatile-cte-and-subqueries-in-sql
@@ -32,3 +32,5 @@ https://www.alisa-in.tech/post/2019-10-02-ctes/
 https://stackoverflow.com/questions/706972/difference-between-cte-and-subquery
 
 https://learnsql.com/blog/sql-subquery-cte-difference/
+
+[Common Table Expression (CTE)](http://spark.apache.org/docs/latest/sql-ref-syntax-qry-select-cte.html)

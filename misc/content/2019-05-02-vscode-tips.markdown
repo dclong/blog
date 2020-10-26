@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:10:15
+Date: 2020-10-25 18:53:43
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -76,6 +76,34 @@ Ctrl + Command + F: Enter/Exit full screen mode.
 
 Ctrl + Click: Togger menu on a variable (which contains Peek definition)
 Ctrl + Alt + Click: variable definition
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax" rowspan="2">Descrption</th>
+    <th class="tg-0lax" colspan="3">Shortcut</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Windows</td>
+    <td class="tg-0lax">Mac</td>
+    <td class="tg-0lax">Linux</td>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Format code</td>
+    <td class="tg-0lax">shift + alt + f</td>
+    <td class="tg-0lax">shift + option + f</td>
+    <td class="tg-0lax">ctrl + shift + i</td>
+  </tr>
+</tbody>
+</table>
+
+## Auto Refresh Opened Files on Change
+
+https://github.com/Microsoft/vscode/issues/28432
+
+https://stackoverflow.com/questions/36333117/refresh-visual-studio-code-list-of-files/36338358
 
 ## References
 

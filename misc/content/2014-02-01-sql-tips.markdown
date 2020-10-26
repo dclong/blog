@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-09-05 15:38:48
+Date: 2020-10-25 18:45:40
 Title: General Tips on SQL
 Slug: sql-tips
 Category: Computer Science
