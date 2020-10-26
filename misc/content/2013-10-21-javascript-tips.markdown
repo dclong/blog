@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on JavaScript
-Date: 2020-10-16 11:03:47
+Date: 2020-10-26 11:47:33
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
@@ -11,6 +11,22 @@ Tags: tips, programming, JavaScript, JS, web
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!
 **
+
+### [babel](https://github.com/babel/babel)
+[babel](https://github.com/babel/babel)
+is a compiler for writing next generation JavaScript.
+
+### [webpack](https://webpack.js.org/)
+[webpack](https://github.com/webpack/webpack)
+is a module bundler. 
+Its main purpose is to bundle JavaScript files for usage in a browser, 
+yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
+
+### [grunt](https://github.com/gruntjs/grunt)
+[grunt](https://github.com/gruntjs/grunt)
+is a JavaScript Task Runner.
+
+[Select the Plates](https://flukeout.github.io/)
 
 
 ## Node.js
@@ -89,6 +105,13 @@ When a prompt box pops up, the user will have to click either "OK" or "Cancel" t
 
 If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
 
+## OOP 
+
+[Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+
+[https://www.youtube.com/watch?v=YkoelSTUy7A](Prototype basics - Object Creation in JavaScript P3 - FunFunFunction #46)
+
+
 ## Electron
 For desktop UI.
 
@@ -118,5 +141,7 @@ what do I need?" ... and the tie to go along with jQuery's tux and Backbone's su
 ## References
 
 [Python vs JavaScript for Pythonistas](https://realpython.com/python-vs-javascript/)
+
+[JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 
 https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
