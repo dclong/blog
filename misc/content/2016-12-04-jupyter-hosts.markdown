@@ -1,16 +1,21 @@
 Status: published
-Date: 2020-01-30 19:54:20
+Date: 2020-10-27 11:26:37
 Author: Ben Chuanlong Du
 Slug: jupyter-hosts
 Title: Public Jupyter/JupyterLab Hosts
 Category: Software
-Tags: Data Science, JuptyerLab, Jupyter, notebook
+Tags: Data Science, JuptyerLab, Jupyter, notebook, deepnote
 
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## [DeepNote](https://deepnote.com/project/)
+
+Sounds like the best available one now. 
+It also supports real-time collaboration among users!
 
 ## [GitPod](https://www.gitpod.io/)
 
