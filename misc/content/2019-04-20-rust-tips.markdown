@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-20 14:18:40
+Date: 2020-10-27 10:38:24
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -85,17 +85,6 @@ sounds like a good one.
 [gate](https://github.com/SergiusIW/gate)
 is a specialized 2D game library.
 
-## Rust for Game Development
-
-[Are we game yet?](https://arewegameyet.rss)
-
-## Rust for Backend Web Development
-
-http://www.arewewebyet.org/
-
-## Rust Frameworks
-
-https://blog.logrocket.com/the-best-rust-frameworks-to-check-out-in-2019/
 
 ## Cool Rust Projects
 
@@ -112,3 +101,11 @@ https://github.com/weld-project/weld
 [Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
 
 https://github.com/rust-unofficial/awesome-rust
+
+## References
+
+- [Are We Web Yet](http://www.arewewebyet.org/)
+
+- [Are we game yet?](https://arewegameyet.rss)
+
+- [The Best Rust Frameworks to Check out in 2019](https://blog.logrocket.com/the-best-rust-frameworks-to-check-out-in-2019/)

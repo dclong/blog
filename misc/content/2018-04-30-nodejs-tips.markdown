@@ -1,4 +1,3 @@
-UUID: 9cb0b534-ad6d-4837-8f42-bf3245fe52f9
 Status: published
 Date: 2020-03-07 12:12:37
 Author: Ben Chuanlong Du
@@ -13,7 +12,7 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## Install NodeJs
+## Install NodeJS
 
 [Install NodeJS on Ubuntu](http://www.legendu.net/misc/blog/install-nodejs-on-ubuntu/)
 

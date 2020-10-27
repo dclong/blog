@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: tips-on-html
 Title: Tips on HTML
 Category: Computer Science
-Tags: Computer Science, HTML, web
+Tags: Computer Science, HTML, web, HTML5
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

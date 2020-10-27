@@ -11,13 +11,3 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-https://swagger.io/tools/swagger-editor/
-
-[Convert curl syntax to Python, Node.js, PHP, R](https://curl.trillworks.com/)
-
-[curlconverter](https://github.com/NickCarneiro/curlconverter/)
-
-[Python Requests](http://docs.python-requests.org/en/master/#)
-
-[W3C Markup Validation Service](http://validator.w3.org/)

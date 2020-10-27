@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Web Development
-Date: 2020-10-27 09:48:50
+Date: 2020-10-27 10:31:55
 Slug: web-development-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming, WebAIM, development, web development, JavaScript, frontend, backend
@@ -28,6 +28,10 @@ for details.
 Please refer to 
 [Tips on Frontend Development](http://www.legendu.net/misc/blog/tips-on-frontend-development)
 for details.
+
+## Trend 
+
+https://themindstudios.com/blog/web-app-development-trends/#javascripttrends
 
 ## Tutorial 
 
