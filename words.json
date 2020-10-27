@@ -26,6 +26,7 @@
     ["Uml", "UML"],
     ["Vba", "VBA"], ["Vpn", "VPN"], ["Wsl", "WSL"],
     ["Ar1X", "AR1X"], ["Curl", "cURL"], 
+    ["Html", "HTML"],
     ["Rdds", "RDDs"],
     ["Http", "HTTP"], ["Hdfs", "HDFS"], ["Ipad", "iPad"], ["Json", "JSON"], 
     ["Nltk", "NLTK"], ["Odbc", "ODBC"], ["jdbc", "JDBC"], 
