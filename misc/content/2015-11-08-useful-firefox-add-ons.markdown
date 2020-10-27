@@ -1,6 +1,6 @@
 UUID: 7abb905a-186d-4944-98be-c8b08ea9e83d
 Status: published
-Date: 2019-10-11 01:20:29
+Date: 2020-10-27 12:25:55
 Author: Ben Chuanlong Du
 Slug: useful-firefox-add-ons
 Title: Useful Firefox Add-ons
@@ -116,6 +116,8 @@ Allows you to initiate a direct download of a file given a url.
 View HTTP headers of a page and while browsing.
 
 ## Downloading Tools
+
+- Video DownloadHelper
 
 - DownThemAll  
 The first and only download manager/accelerator built inside Firefox!

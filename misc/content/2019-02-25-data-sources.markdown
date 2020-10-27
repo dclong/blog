@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-07 13:06:40
+Date: 2020-10-27 12:25:08
 Author: Benjamin Du
 Slug: data-sources
 Title: Data Sources
@@ -25,7 +25,11 @@ https://proxycrawl.com
 
 ## [Data for NLP](http://www.legendu.net/misc/blog/data-for-nlp-research/)
 
-[Financial Data](http://www.legendu.net/misc/blog/financial-data)
+## [Financial Data](http://www.legendu.net/misc/blog/financial-data)
+
+## Education
+
+[Educational Demographic and Geographic Estimates](https://nces.ed.gov/programs/edge/Geographic/DistrictBoundaries)
 
 ## Data Sources
 
