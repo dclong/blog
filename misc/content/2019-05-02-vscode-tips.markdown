@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-25 18:53:43
+Date: 2020-10-27 11:35:40
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -34,6 +34,8 @@ is available.
 
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     The sphinx style is recommended.
+
+- [Android](https://marketplace.visualstudio.com/items?itemName=adelphes.android-dev-ext)
 
 ## Other Potentially Useful Extensions
 
