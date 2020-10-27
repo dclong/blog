@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for HTML and CSS
-Date: 2020-10-26 11:56:30
+Date: 2020-10-26 20:26:15
 Slug: html_css-tips
 Category: Computer Science
 Tags: tips, HTML, CSS, web, programming, WebAIM
@@ -41,6 +41,8 @@ A disability simulator for the web.
 A demonstration of what can be accomplished through CSS-based design. Select any style sheet from the list to load it into this page.
 
 Bootstrap
+
+`!important`
 
 ### JavaScript / TypeScript
 
