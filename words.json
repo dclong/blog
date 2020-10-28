@@ -84,6 +84,7 @@
     ["Jupyterlab", "JupyterLab"],
     ["Jupyterhub", "JupyterHub"],
     ["namedtuple", "namedtuple"],
+    ["Rustpython", "RustPython"],
     ["Teamviewer", "TeamViewer"], ["Tensorflow", "TensorFlow"],
     ["Virtualbox", "VirtualBox"],
     ["IJavascript", "IJavascript"], ["Itypescript", "ITypescript"], ["Proxychains", "ProxyChains"],
