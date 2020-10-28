@@ -74,17 +74,7 @@ https://skipworth.io/posts/rust-wc-threads/
 
 https://crates.io/crates/scoped-threadpool
 
-## Rust GUI
-
-https://areweguiyet.com/newsfeed/2019-01-13_rust2019.html
-
-Overall, 
-[Azul](https://github.com/maps4print/azul)
-sounds like a good one.
-
-[gate](https://github.com/SergiusIW/gate)
-is a specialized 2D game library.
-
+## [Rust GUI](http://www.legendu.net/misc/blog/develop-a-gui-application-in-rust)
 
 ## Cool Rust Projects
 
