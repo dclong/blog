@@ -1,8 +1,7 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on JavaScript
-Date: 2020-10-26 11:47:33
+Date: 2020-10-28 15:58:51
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
@@ -147,3 +146,7 @@ what do I need?" ... and the tie to go along with jQuery's tux and Backbone's su
 https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
 
 [Web Design for Everybody: Basics of Web Development & Coding Specialization](https://www.coursera.org/specializations/web-design)
+
+[Python vs JavaScript: Most Important Differences](https://hackr.io/blog/python-vs-javascript)
+
+[Python vs JavaScript](https://www.educba.com/python-vs-javascript/)
