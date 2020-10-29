@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-29 13:06:18
+Date: 2020-10-29 13:24:18
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -984,7 +984,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> sth </td>
+    <td rowspan="6"> Cast to date </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -997,6 +997,512 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
+    SELECT
+        to_date("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Cast to timestamp </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        to_timestamp("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT
+        to_timestamp("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Cast to UTC timestamp </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        to_utc_timestamp("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Cast to Unix timestamp </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        to_unix_timestamp("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Extract year </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        year("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Extract quarter </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        quarter("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Extract month </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        montofyearh("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Extract day </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        day("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT
+        dayofmonth("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Extract minute </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        minute("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Extract second </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        second("2000-01-01") AS date
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Add days to a date </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        date_add(current_date, 3) AS date3
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    /* The + operator for date and int is support since Spark 3 */
+    SELECT
+        current_date + 3 AS date3
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Add months to a date </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        add_months(current_date, 3) AS date3
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="7"> Subtract days from a date </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        date_sub(current_date, 3) AS date3
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    /* The - operator for date and int is supported since Spark 3 */
+    SELECT
+        current_date - 3 AS date3
+    FROM 
+        ...
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Diff between two dates </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT
+        datediff(date1, date2) AS diff
+    FROM 
+        ...
     </code> </td>
   </tr>
   <tr>
