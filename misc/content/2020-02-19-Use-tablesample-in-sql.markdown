@@ -51,4 +51,6 @@ if randomness is important.
 
 - [Sample Rows from a Spark DataFrame](http://www.legendu.net/en/blog/spark-dataframe-sample)
 
-https://stackoverflow.com/questions/51502443/is-sample-n-really-a-random-sample-when-used-with-sparklyr
+- [SQL Equivalent](http://www.legendu.net/misc/blog/sql-equivalent)
+
+- https://stackoverflow.com/questions/51502443/is-sample-n-really-a-random-sample-when-used-with-sparklyr
