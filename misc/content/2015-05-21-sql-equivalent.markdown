@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-29 13:24:18
+Date: 2020-10-30 10:55:26
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -997,10 +997,10 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    SELECT
-        to_date("2000-01-01") AS date
-    FROM 
-        ...
+    SELECT <br> &nbsp; &nbsp;
+        to_date("2000-01-01") AS date <br>
+    FROM <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1033,18 +1033,24 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td rowspan="2"> Spark/Hive </td>
     <td> <code> 
-    SELECT
-        to_timestamp("2000-01-01") AS date
-    FROM 
-        ...
+    SELECT 
+        <br> &nbsp; &nbsp;
+        to_timestamp("2000-01-01") AS date 
+        <br>
+    FROM  
+        <br> &nbsp; &nbsp; 
+        table
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         to_timestamp("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1078,9 +1084,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         to_utc_timestamp("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1114,9 +1123,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         to_unix_timestamp("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1150,9 +1162,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         year("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1186,9 +1201,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         quarter("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1222,9 +1240,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         montofyearh("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1258,17 +1279,23 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="2"> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         day("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         dayofmonth("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1302,9 +1329,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         minute("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1338,9 +1368,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         second("2000-01-01") AS date
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1374,18 +1407,25 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="2"> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         date_add(current_date, 3) AS date3
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    /* The + operator for date and int is support since Spark 3 */
+    /* The + operator for date and int <br>
+    is support since Spark 3 */ <br>
     SELECT
+        <br> &nbsp; &nbsp;
         current_date + 3 AS date3
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1419,9 +1459,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         add_months(current_date, 3) AS date3
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1455,18 +1498,26 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td rowspan="2"> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         date_sub(current_date, 3) AS date3
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    /* The - operator for date and int is supported since Spark 3 */
+    /* The - operator for date and int <br>
+    is supported since Spark 3 */
+    <br>
     SELECT
+        <br> &nbsp; &nbsp;
         current_date - 3 AS date3
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
@@ -1500,9 +1551,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Spark/Hive </td>
     <td> <code> 
     SELECT
+        <br> &nbsp; &nbsp;
         datediff(date1, date2) AS diff
+        <br>
     FROM 
-        ...
+        <br> &nbsp; &nbsp;
+        table
     </code> </td>
   </tr>
   <tr>
