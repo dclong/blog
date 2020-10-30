@@ -6,11 +6,13 @@ Title: Java Interfaces for Python
 Category: Computer Science
 Tags: programming, Python, Java, interface, PyJNIus, jpype, py4j
 
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
+
+JPype, py4j and PyJNIus are all good options for Java interface for Python.
+Jpype is easy to use and widely adopted.
+PyJNIus is an even easier solution compred to JPype.
+py4j is more complicated to use compared to JPype and PyJNIus,
+however,
+it has a better performance, generally speaking.
 
 ## JPype
 Please refer to 
@@ -24,8 +26,6 @@ Please refer to
 for details.
 
 ## py4j 
-
-Too complicated to use ...
 
 ## References
 
