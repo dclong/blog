@@ -22,7 +22,7 @@ pip install pyjnius
 
 ```
 import os
-os.environ['CLASSPATH'] = "/path/to/your.jar"
+os.environ["CLASSPATH"] = "/path/to/your.jar"
 from jnius import autoclass
 YourClass = autoclass(path.to.YourClass)
 yourObj = YourClass()
