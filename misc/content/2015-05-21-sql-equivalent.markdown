@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 10:55:26
+Date: 2020-10-30 11:07:14
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -479,7 +479,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="6"> Randomly <br> sample <br> 100 rows </td>
+    <td rowspan="8"> Randomly <br> sample <br> 100 rows </td>
     <td> SQLite 3 </td>
     <td> <code> 
         SELECT * <br>
@@ -494,8 +494,27 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td rowspan="3"> Spark/Hive </td>
     <td> <code> 
+    SELECT * <br>
+    FROM table <br>
+    TABLESAMPLE (1 PERCENT) <br>
+    LIMIT 100;
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT * <br>
+    FROM table <br>
+    ORDER BY random() <br>
+    LIMIT 100;
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    /* NOTE: the following does NOT work!!! <br>
+    It is equivalent to `LIMIT 100`
+    */ <br>
     SELECT * FROM table <br>
     TABLESAMPLE (100 ROWS)
     </code> </td>
