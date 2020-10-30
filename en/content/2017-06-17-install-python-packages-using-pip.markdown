@@ -1,16 +1,10 @@
 Status: published
-Date: 2020-09-13 12:51:51
+Date: 2020-10-30 09:46:05
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
 Category: Computer Science
 Tags: programming, Python, package, module, install, pip, conda
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 ## PyPi Statistics
 
 You can check download statistics of Python Packages on PYPI at https://pypistats.org/.
@@ -65,21 +59,6 @@ https://github.com/pypa/pip/issues/5599
 
 https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 
-
-## Install Python Packages from Git Repositories
-
-['pip install' From a Git Repository](https://adamj.eu/tech/2019/03/11/pip-install-from-a-git-repository/)
-
-## Install Python Packages from Requirements.txt
-
-
-    :::bash
-    pip3 install -r requirements.txt
-
-Notice that all formats accepted by `pip3 install` is valid in `requirements.txt`.
-For example,
-`git+https://github.com/dclong/dsutil@master` is valid to use in `requirements.txt`.
-
 ## Install a Specific Version of a Python Package
 
 1. List all available versions of a Python package. 
@@ -112,41 +91,86 @@ For example,
         :::bash
         pip3 install --pre pybuilder
 
+## Install Python Packages from Source
+
+1. Install Python package from a `tar.gz` file which contains the source code.
+
+        :::bash
+        pip3 install xinstall-0.23.0.tar.gz
+
+2. Install from the current directory
+
+        :::bash
+        pip3 install .
+
+3. `pip` 20.0+ supports instaling a peotry managed Python project from GitHub directly.
+    For example,
+    the comamnd below installs the Python package dsutil from the GitHub repository dclong/dsutil directly.
+
+        :::bash
+        pip3 install git+ssh://git@github.com/dclong/dsutil 
+        # or
+        pip3 install git+https://github.com/dclong/xinstall
+
+    If you are behind a corporate proxy,
+    you might need 2FA to visit the enterprise GitHub of your company.
+    However, 
+    2FA is usually not required for Git comamnd line (since it would too much hassle).
+    The above way to install Python packages from GitHub repositories directly
+    can be a good way to avoid 2FA authentication if you are behind a corporate proxy.
+
+## Install Python Packages from Requirements.txt
+
+You can install Python packages from a `requirements.txt` file.
+
+    :::bash
+    pip3 install -r requirements.txt
+
+Notice that all formats accepted by `pip3 install` is valid in `requirements.txt`.
+For example,
+`git+https://github.com/dclong/dsutil@master` is valid to use in `requirements.txt`.
+
 ## Difference between --ignore-installed and --force-reinstall
-
-https://stackoverflow.com/questions/51913361/difference-between-pip-install-options-ignore-installed-and-force-reinstall
-
-https://github.com/blockstack/blockstack-core/issues/504
 
 Sometimes a package is installed by distutils
 which cannot be reinstalled using `pip`, 
 not even with the `--force-reinstall` option.
 In that case, 
 you have to use the `--ignore-installed` option.
+For more discussions,
+please refer to
+[Difference Between Pip Install Options Ignore Installed and Force Reinstall](https://stackoverflow.com/questions/51913361/difference-between-pip-install-options-ignore-installed-and-force-reinstall)
+and
+[blockstack-core::Issues 504](https://github.com/blockstack/blockstack-core/issues/504)
+.
 
 ## Install Python Packages Without Installing Dependencies
 
-```
-pip3 install --no-deps some_package
-```
+You can install a Python package without installing its dependencies
+using the command below.
+
+    :::bash
+    pip3 install --no-deps some_package
 
 ## Upgrade Python Packages
 
-```sh
-pip3 install --upgrade wheel
-```
+You can upgrade an already installed Python package to the latest version
+using the command below.
+
+    :::bash
+    pip3 install --upgrade wheel
 
 ## List All Installed Python Packages
 
 1. List all installed modules.
-    ```
-    pip3 list --outdated
-    ```
+
+        :::bash
+        pip3 list --outdated
 
 2. List outdated modules only.
-    ```
-    pip3 list --outdated
-    ```
+
+        :::bash
+        pip3 list --outdated
 
 3. You can also use `help('modules')` to show all installed modules in Python.
 
@@ -172,55 +196,17 @@ Just be ware of that.
 [ProxyChains](http://www.legendu.net/misc/blog/proxychains-tips/)
 is likely a solution when that issue happens.
 
-## Install from Source
-
-pip 20.0+ supports instaling a peotry managed Python project from GitHub directly.
-For example,
-the comamnd below installs the Python package dsutil from the GitHub repository dclong/dsutil directly.
-
-    :::bash
-    pip3 install git+ssh://git@github.com/dclong/dsutil 
-    # or
-    pip3 install git+https://github.com/dclong/xinstall
-
-
-If you are behind a corporate proxy,
-you might need 2FA to visit the enterprise GitHub of your company.
-However, 
-2FA is usually not required for Git comamnd line (since it would too much hassle).
-The above way to install Python packages from GitHub repositories directly
-can be a good way to avoid 2FA authentication if you are behind a corporate proxy.
-
-
-Below are some more supported protocols.
-
-    :::bash
-    pip3 install git+ssh://
-    pip install git+https://...
-    pip install git+git://...
-    pip install git+ssh://...
-
-## Caching
-
-1. You can disable pip caching using the option `--no-cache-dir`.
-
-https://pip.pypa.io/en/latest/reference/pip_install/#caching
-
-
-https://github.com/pypa/pip/issues/4685
-
-https://github.com/pypa/pip/pull/6391
-
 ## Misc
 
-1. `pip` supports downloading without installation!
+1. `pip` supports downloading Python packages without installing them.
+    At the same time,
+    you can disable `pip` caching using the option `--no-cache-dir`.
+    For more discussions,
+    please refer to
+    [Caching](https://pip.pypa.io/en/latest/reference/pip_install/#caching)
+    .
 
-2. Install from the current directory
-
-        :::bash
-        pip3 install .
-
-4. `export LC_ALL=C` resolved an issues of pip3
+2. `export LC_ALL=C` resolves an issues (cannot remember which issue exactly) of pip3.
 
 ## Installation Location
 
@@ -264,3 +250,9 @@ https://stackoverflow.com/questions/36898474/how-to-install-a-module-for-all-use
 [How to pip install a package with min and max version range?](https://stackoverflow.com/questions/8795617/how-to-pip-install-a-package-with-min-and-max-version-range)
 
 [How to state in requirements.txt a direct github source](https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source)
+
+['pip install' From a Git Repository](https://adamj.eu/tech/2019/03/11/pip-install-from-a-git-repository/)
+
+https://github.com/pypa/pip/issues/4685
+
+https://github.com/pypa/pip/pull/6391

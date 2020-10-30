@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-25 22:48:56
+Date: 2020-10-30 09:27:28
 Author: Benjamin Du
 Slug: Use-tablesample-in-sql
 Title: Use TableSample in SQL
@@ -48,5 +48,7 @@ if randomness is important.
     select * from table_name TABLESAMPLE (1 PCT) 
 
 ## References
+
+- [Sample Rows from a Spark DataFrame](http://www.legendu.net/en/blog/spark-dataframe-sample)
 
 https://stackoverflow.com/questions/51502443/is-sample-n-really-a-random-sample-when-used-with-sparklyr
