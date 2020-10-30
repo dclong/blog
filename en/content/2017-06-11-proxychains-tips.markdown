@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-16 10:48:10
+Date: 2020-10-30 09:04:03
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -106,12 +106,9 @@ socks5     proxy_ip_3 1080
 
     Notably, `127.0.0.1` is preferred over `localhost`.
 
-2. no special requirement on `$HOME/.ssh/config`
+2. There is no special requirement on the SSH configuration file (`$HOME/.ssh/config`).
 
-3. socks5 is recommended
-
-4. `proxychains ssh -i /path_to_key user@server_ip`
-
+3. `socks5` is prefer to `socks4` when you use a socks proxy (SSH tunnel).
 
 ## Example of ProxyChains Configuration
 
