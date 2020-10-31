@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 11:07:14
+Date: 2020-10-31 09:55:01
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -1635,5 +1635,11 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
 
 ## References 
+
+http://www.legendu.net/misc/blog/Use-tablesample-in-sql
+
+http://www.legendu.net/misc/blog/spark-dataframe-func-date
+
+http://www.legendu.net/misc/blog/spark-dataframe-func-string
 
 https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html
