@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-08-29 22:38:46
+Date: 2020-10-30 20:47:07
 Author: Benjamin Du
 Slug: handons-the-python-library-notifiers
-Title: Handons the Python Library Notifiers
+Title: Handons the Python Library notifiers
 Category: Computer Science
 Tags: Computer Science, python, notifiers, notification, email, web, internet
 
@@ -29,4 +29,4 @@ The function below is an example of sending email using the Python library notif
     )
 
 Notice that notifiers supports email attachements via the `attachments` option
-which accepts an iterable of valid file paths.
+which accepts a **list** of valid file paths.
