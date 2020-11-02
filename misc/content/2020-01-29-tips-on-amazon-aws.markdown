@@ -42,11 +42,11 @@ Please read with your own judgement!
 
 Below is a list of CPU-only instances.
 t2.large is a good one for occasional general purpose usage.
-![](https://user-images.githubusercontent.com/824507/73387307-3c6bc200-4285-11ea-9119-d5396c011cc5.png)
+![Amazon AWS EC2 Instances](https://user-images.githubusercontent.com/824507/73387307-3c6bc200-4285-11ea-9119-d5396c011cc5.png)
 
 ## GPU Instances
 
 Below is a list of instances that have 1 GPU on Amazon AWS.
 `g4dn.xlarge` and `g3s.xlarge` 
  are good ones for occasional GPU usage.
-![](https://user-images.githubusercontent.com/824507/73386836-607ad380-4284-11ea-862a-d04a19b98ee2.png)
+![Amazon AWS EC2 Instances](https://user-images.githubusercontent.com/824507/73386836-607ad380-4284-11ea-862a-d04a19b98ee2.png)

@@ -1,4 +1,3 @@
-UUID: 09253576-35e1-470f-8fd2-03dc2d659e47
 Status: published
 Date: 2019-12-20 10:19:20
 Author: Ben Chuanlong Du
@@ -28,7 +27,7 @@ Please read with your own judgement!
     Running Docker on Linux is a much better alternative.
     If you do have to stick with Docker on Mac,
     you can increase the memory and swap that Docker can use in advanced settings of Docker.
-    ![](https://user-images.githubusercontent.com/824507/71281147-0b0ce780-2312-11ea-87cd-349ab77d5479.png)
+    ![Docker Advanced Settings](https://user-images.githubusercontent.com/824507/71281147-0b0ce780-2312-11ea-87cd-349ab77d5479.png)
 
 3. Default file location for user settings is
     `~/Library/Containers/com.docker.docker/Data/database/com.docker.driver.amd64-linux/etc/docker/daemon.json`

@@ -19,9 +19,6 @@ $$ GELU(x) == x \Phi(x) $$,
 
 where $\Phi(x)$ is the cumulative distribution function of the standard normal distribution.
 
-![](https://mmbiz.qpic.cn/mmbiz_png/KmXPKA19gWibcVsmTEMibWSmOvAkQYXV94vqFIJYiaHkZAQn6UFoChcUicVeZnhGeRsDIiacdQ8PLcxWqib74ibDVXDRw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
-
-
 
 ## ReLU
 
