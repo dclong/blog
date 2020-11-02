@@ -40,4 +40,4 @@ to open the current or selected directory in Terminal, iTerm, Hyper or Alacritty
 5. Enable Finder Extension permission 
     by going to System Preferences -> Extensions -> Finder Extensions 
     and then checking the permission button.
-    ![](https://github.com/Ji4n1ng/OpenInTerminal/blob/master/Resources/screenshots/finder-extension-permission.png?raw=true)
+    ![Finder Extension Permission](https://user-images.githubusercontent.com/824507/97831360-9ff7a580-1c84-11eb-80df-8ae2ddb3ee6d.png)
