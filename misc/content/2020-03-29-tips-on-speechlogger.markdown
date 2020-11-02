@@ -14,4 +14,4 @@ Please read with your own judgement!
 
 1. You can configure the source of voice of SpeechLogger.
 
-    ![](https://user-images.githubusercontent.com/824507/77865965-ca145100-71e5-11ea-9aa6-20f31ade5534.png)
+    ![SpeechLogger](https://user-images.githubusercontent.com/824507/77865965-ca145100-71e5-11ea-9aa6-20f31ade5534.png)

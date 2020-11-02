@@ -11,7 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-![](https://miro.medium.com/max/1400/1*EQsNOZqNPsx5eelVJRh9jQ.png)
+![Delta Lake](https://miro.medium.com/max/1400/1*EQsNOZqNPsx5eelVJRh9jQ.png)
 
 [Delta Lake PySpark Examples](https://github.com/delta-io/delta/tree/master/examples/python)
 

@@ -13,7 +13,7 @@ Please read with your own judgement!
 
 I personal prefer the sphnix style as it is concise and work well with type annotation.
 
-![](https://user-images.githubusercontent.com/824507/82768514-5dcc5d00-9de4-11ea-817b-41cc98e71471.png)
+![VSCode Docstring Sphinx](https://user-images.githubusercontent.com/824507/82768514-5dcc5d00-9de4-11ea-817b-41cc98e71471.png)
 
 ## References
 
