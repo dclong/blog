@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-01 21:09:44
+Date: 2020-11-01 22:05:44
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
@@ -46,3 +46,4 @@ Increase Driver or Executor Memory
 
 [[Java 8] Over usage of virtual memory](https://issues.apache.org/jira/browse/YARN-4714)
 
+[Yarn memory limit](https://www.xspdf.com/resolution/50926958.html)
