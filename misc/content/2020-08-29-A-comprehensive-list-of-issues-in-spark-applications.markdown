@@ -77,3 +77,5 @@ http://www.legendu.net/misc/blog/spark-unable-to-find-encoder-type-issue/
 http://www.legendu.net/misc/blog/spark-issue-native-memory-usage-exceed-memoryOverhead/
 
 http://www.legendu.net/misc/blog/spark-issue-too-many-containers-asked/
+
+http://www.legendu.net/misc/blog/spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
