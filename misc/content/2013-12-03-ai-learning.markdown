@@ -11,7 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-![](https://jixta.files.wordpress.com/2015/11/machinelearningalgorithms.png)
+![Machine Learning Allg](https://jixta.files.wordpress.com/2015/11/machinelearningalgorithms.png)
 The picture comes from [Machine Learning Algorithms Mindmap](https://jixta.wordpress.com/2015/07/17/machine-learning-algorithms-mindmap/).
 
 ## Feature Engineering

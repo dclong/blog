@@ -13,7 +13,7 @@ Follow the steps below to install the addon.
 
 1. Click on your avatar in the lower left corner on your homepage of Bitbucket.
 
-    ![](https://user-images.githubusercontent.com/824507/78822713-64b42300-7990-11ea-9879-cd8cf97cdbbd.png)
+    ![Bitbucket Menu](https://user-images.githubusercontent.com/824507/78822713-64b42300-7990-11ea-9879-cd8cf97cdbbd.png)
 
 2. Select the option `App marketplace`. 
 

@@ -22,4 +22,4 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 Below is a list of instances that have 1 GPU on Amazon AWS.
 g3s.xlarge and g4dn.xlarge (**recommended**) are good ones for occasional use.
-![](https://user-images.githubusercontent.com/824507/73386836-607ad380-4284-11ea-862a-d04a19b98ee2.png)
+![AWS EC2 Instances](https://user-images.githubusercontent.com/824507/73386836-607ad380-4284-11ea-862a-d04a19b98ee2.png)
