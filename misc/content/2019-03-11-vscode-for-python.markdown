@@ -21,7 +21,7 @@ Please read with your own judgement!
 
 4. Change Python Path to the one you want to use.
 
-![](https://user-images.githubusercontent.com/824507/69910283-b7b41300-13bd-11ea-83f0-5f959c68532f.png)
+![Set Python Path](https://user-images.githubusercontent.com/824507/69910283-b7b41300-13bd-11ea-83f0-5f959c68532f.png)
 
 ## Useful Extensions
 

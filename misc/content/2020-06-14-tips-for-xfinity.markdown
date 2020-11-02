@@ -20,4 +20,4 @@ Please read with your own judgement!
 3. Click "Edit WiFi" in the upper-left corner.
 
 4. Check the checkbox "Use different names and passwords" in the prompt.
-    ![](https://user-images.githubusercontent.com/824507/84610925-27c54a80-ae71-11ea-920b-f2772062c119.png)
+    ![Edit WiFi Settings](https://user-images.githubusercontent.com/824507/84610925-27c54a80-ae71-11ea-920b-f2772062c119.png)

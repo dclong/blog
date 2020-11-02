@@ -34,7 +34,7 @@ you can trust a notebook using the `Trust Notebook` comamnd from the command tab
 3. Click the `Trust Notebook` button to trust a notebook.
     You will get a prompt to confirm your action.
 
-![](https://user-images.githubusercontent.com/824507/71461881-4ff7aa80-2766-11ea-8c35-0de71284907b.png)
+![Trust a Notebook](https://user-images.githubusercontent.com/824507/71461881-4ff7aa80-2766-11ea-8c35-0de71284907b.png)
 
 ## References
 
