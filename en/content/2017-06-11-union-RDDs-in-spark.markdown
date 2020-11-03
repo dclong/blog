@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 19:11:32
+Date: 2020-11-03 15:48:42
 Author: Ben Chuanlong Du
 Slug: union-RDDs-in-spark
 Title: Union RDDs in Spark
@@ -30,3 +30,5 @@ No deduplication is done (to be efficient) when unioning RDDs/DataFrames in Spar
 ## References 
 
 [Union DataFrames in Spark](http://www.legendu.net/misc/blog/spark-dataframe-union)
+
+[Union DataFrames in Spark](http://www.legendu.net/en/blog/spark-dataframe-union)
