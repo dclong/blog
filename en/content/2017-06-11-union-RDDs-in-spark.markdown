@@ -1,16 +1,10 @@
 Status: published
-Date: 2020-11-03 15:48:42
+Date: 2020-11-03 23:49:38
 Author: Ben Chuanlong Du
 Slug: union-RDDs-in-spark
 Title: Union RDDs in Spark
 Category: Computer Science
 Tags: programming, Scala, Spark, RDD, union
-
-**
-Things on this page are
-fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
 
 
 No deduplication is done (to be efficient) when unioning RDDs/DataFrames in Spark 2.1.0+.
