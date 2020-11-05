@@ -79,3 +79,5 @@ http://www.legendu.net/misc/blog/spark-issue-native-memory-usage-exceed-memoryOv
 http://www.legendu.net/misc/blog/spark-issue-too-many-containers-asked/
 
 http://www.legendu.net/misc/blog/spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
+
+ http://www.legendu.net/misc/blog/spark-issue:-_pickle.PicklingError:-args[0]-from-__newobj__-args-has-the-wrong-class

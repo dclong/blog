@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-01 22:05:44
+Date: 2020-11-04 23:34:30
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
@@ -23,6 +23,11 @@ and
 [Container killed by YARN for exceeding memory limits](https://www.cnblogs.com/zz-ksw/p/11403622.html)
 have good discussions on solutions to fix the issue including some low-level explanation of the issue.
 
+## Possible Causes 
+
+1. due to bug in YARN 
+
+2. data skew (e.g., big data table but not partitioned)
 
 ## Solutions 
 
