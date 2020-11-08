@@ -69,6 +69,10 @@ $ jupyter notebook
 
 https://github.com/n-riesco/ijavascript/issues/118
 
+## Some Useful Libraries
+
+https://github.com/jupyterlab/lumino
+
 ## Testing & Debugging
 
 https://github.com/Microsoft/vscode-recipes/tree/master/Docker-TypeScript
