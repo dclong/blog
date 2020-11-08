@@ -45,12 +45,7 @@ to find software/tools for all kinds of purposes.
 
 1. ntp (sync-debian)
 
-### Task Scheduling
-1. at
-2. watch
-1. crontab
-2. inotify (monitoring file system changes and trigger events)
-3. parallel
+### [Task Scheduling](http://www.legendu.net/misc/blog/workflow-managing-tools)
 
 ## Backup
 

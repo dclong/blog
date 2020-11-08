@@ -55,6 +55,18 @@ Please read with your own judgement!
     using MLFlow's predefined patterns 
     than about finding a tool that can adapt to your existing custom workflows.
 
+
+## Command-line Tools
+
+If you prefer a simple command-line tool to schedule tasks, 
+below are some possible solutions.
+
+1. at
+2. watch
+3. [crontab](http://www.legendu.net/en/blog/schedule-task-using-crontab-in-linux)
+4. inotify (monitoring file system changes and trigger events)
+5. parallel
+
 ## References 
 
 [Airflow vs. Luigi vs. Argo vs. MLFlow vs. KubeFlow](https://towardsdatascience.com/airflow-vs-luigi-vs-argo-vs-mlflow-vs-kubeflow-b3785dd1ed0c)
