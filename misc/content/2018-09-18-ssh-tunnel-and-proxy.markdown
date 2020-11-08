@@ -1,16 +1,27 @@
 Status: published
-Date: 2020-02-29 21:37:59
+Date: 2020-11-07 21:32:57
 Author: Ben Chuanlong Du
 Slug: ssh-tunnel
 Title: SSH Tunnel
 Category: Software
-Tags: software, SSH tunnel, socks proxy, reverse
+Tags: software, SSH tunnel, socks proxy, reverse, SSH
 
 **
 Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+
+1. The StackOverflow discussion 
+    [What's ssh port forwarding and what's the difference between ssh local and remote port forwarding [duplicate]](https://unix.stackexchange.com/questions/115897/whats-ssh-port-forwarding-and-whats-the-difference-between-ssh-local-and-remot#:~:text=Introduction,port%20on%20the%20remote%20side.&text=remote%3A%20%2DR%20Specifies%20that%20the,port%20on%20the%20local%20side.)
+    has a good visual comparison/explanation of the difference 
+    between the `ssh -L` (`-L` stands for local) and `ssh -R` (`-R` stands for remote).
+
+2. [sshtunnel](https://github.com/pahaz/sshtunnel)
+    is a Python implementation of SSH tunnel 
+    (based on [paramiko](https://github.com/paramiko/paramiko))
+    .
 
 ## SSH Tunnel
 
@@ -41,6 +52,7 @@ Or you can try to visit a website using curl through the socks5 proxy.
 ## Reverse SSH Tunnel
 
     :::bash
+    ssh -fN -L 8888:localhost:8888 user@domain.com
     ssh -o ProxyCommand='ssh bastion_server -W %h:%p' -R 20000:localhost:22 target_server
 
 https://www.howtoforge.com/reverse-ssh-tunneling
@@ -93,8 +105,16 @@ You can follow the steps below to access the public network from machine B.
 
 ## References
 
+[sshtunnel](https://github.com/pahaz/sshtunnel)
+
+[What's ssh port forwarding and what's the difference between ssh local and remote port forwarding [duplicate]](https://unix.stackexchange.com/questions/115897/whats-ssh-port-forwarding-and-whats-the-difference-between-ssh-local-and-remot#:~:text=Introduction,port%20on%20the%20remote%20side.&text=remote%3A%20%2DR%20Specifies%20that%20the,port%20on%20the%20local%20side.)
+
+[Running Jupyter Lab Remotely](https://benjlindsay.com/posts/running-jupyter-lab-remotely)
+
 [Proxy Using SSH Tunnel](https://www.systutorials.com/944/proxy-using-ssh-tunnel/)
 
 [Quick-Tip: SSH Tunneling Made Easy](http://www.revsys.com/writings/quicktips/ssh-tunnel.html)
+
+[Setting up a Jupyter Lab remote server](https://agent-jay.github.io/2018/03/jupyterserver/)
 
 https://superuser.com/questions/303251/how-to-check-if-a-socks5-proxy-works
