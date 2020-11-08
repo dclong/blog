@@ -45,16 +45,11 @@ Please read with your own judgement!
 
 ## hypothesis
 
-## coverage 
+## [coverage](http://www.legendu.net/misc/blog/measure-python-code-coverage)
 
-converage
-
-https://coveralls.io/
-
-https://github.com/codecov/codecov-python
-Python report uploader for Codecov
-
-
+Please refer to 
+[coverage](http://www.legendu.net/misc/blog/measure-python-code-coverage)
+for details.
 
 ## Mock and pytest Fixtures
 

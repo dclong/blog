@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-23 13:49:09
+Date: 2020-11-08 11:53:47
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -13,6 +13,18 @@ Please read with your own judgement!
 
 1. PySpark 2.4 and older does not support Python 3.8.
     You have to use Python 3.7 with PySpark 2.4 or older.
+
+2. It can be extremely helpful to run a PySpark application locally to detect possible issues
+    before submitting it to the Spark cluster.
+
+        :::bash
+        #!/usr/bin/env bash
+        PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
+        /path/to/spark-2.3.1-bin-hadoop2.7/bin/spark-submit \
+            --conf spark.yarn.maxAppAttempts=1 \
+            --conf spark.pyspark.driver.python=.venv/bin/python3 \
+            --conf spark.pyspark.python=.venv/bin/python3 \
+            script_to_run.py --arg1 v1 --arg2 v2
 
 2. You can run PySpark interactively using the `pyspark` command
   and submit a PySpark job to the cluster using the `spark-submit` command.
