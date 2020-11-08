@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-10-27 10:38:24
+Date: 2020-11-08 15:21:16
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
 Category: Computer Science
-Tags: programming, Rust, tips
+Tags: programming, Rust, tips, Cargo, rustup
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -14,6 +14,8 @@ Please read with your own judgement!
 
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
 summarizes good/bad/ugly things about Rust.
+
+xinstall rustup -ic
 
 Cargo: package manager for Rust
 
@@ -48,6 +50,13 @@ rustc: compiler for Rust
 
 6. `assert_eq!`
 
+## Install Rust for Multiple Users
+
+[Installing rustup for all linux users](https://github.com/rust-lang/rustup/issues/1085)
+
+[Does rustup.rs support shared .multirust (or whatever) directory?](https://github.com/rust-lang/rustup/issues/313)
+
+[Add Document of "How to Install Rust Environment for Multiple Users on Linux?"](https://github.com/rust-lang/rustup/issues/2383)
 
 ## Rust IDE
 
