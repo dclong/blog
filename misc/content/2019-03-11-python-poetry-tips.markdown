@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 09:56:48
+Date: 2020-11-08 20:02:36
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -66,6 +66,18 @@ If you want to install prerelease versions, you can use the --preview option.
 
     :::bash
     poetry init
+
+### Install Dependencies
+
+1. Installl all dependencies.
+
+        :::bash
+        poetry install 
+
+2. Installl all but dev dependencies.
+
+        :::bash
+        poetry install  --no-dev
 
 ### Export Dependencies
 
