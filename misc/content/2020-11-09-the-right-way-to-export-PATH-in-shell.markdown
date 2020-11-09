@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-09 09:52:49
+Date: 2020-11-09 11:10:06
 Author: Benjamin Du
 Slug: the-right-way-to-export-PATH-in-shell
 Title: The Right Way to Export Path in Shell
@@ -16,10 +16,12 @@ instead of in `.bashrc` (for Bash).
 The helps but does not resolve the issue of possible duplicated paths in `$PATH`.
 The right way is to check for existence of the path in the `$PATH` environment variable first,
 and add it only when it does NOT already exist in `$PATH`.
+Below is an example snippet of adding the directory `$HOME/env_python/bin` into `$PATH`.
 
     :::bash
-    if [[ ! "$PATH" =~ (^{BIN_DIR}:)|(:{BIN_DIR}:)|(:{BIN_DIR}$) ]]; then
-        export PATH={BIN_DIR}:$PATH
+    BIN_DIR=$HOME/env_python/bin
+    if [[ ! "$PATH" =~ (^$BIN_DIR:)|(:$BIN_DIR:)|(:$BIN_DIR$) ]]; then
+        export PATH=$BIN_DIR:$PATH
     fi
 
 The snippet has the advatage that it works well in both `.bashrc` and `.bash_profile`.
