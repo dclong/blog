@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 10:34:40
+Date: 2020-11-08 19:33:32
 Author: Benjamin Du
 Slug: workflow-managing-tools
 Title: Workflow Managing Tools
@@ -42,6 +42,12 @@ Please read with your own judgement!
 
 ## crontab
 
+## [schedule](https://github.com/dbader/schedule)
+
+An in-process scheduler for periodic jobs that uses the builder pattern for configuration. 
+Schedule lets you run Python functions (or any other callable) periodically 
+at pre-determined intervals using a simple, human-friendly syntax.
+
 ## Which One to Use
 
  - Apache Airflow if you want the most full-featured, 
@@ -64,6 +70,7 @@ below are some possible solutions.
 1. at
 2. watch
 3. [crontab](http://www.legendu.net/en/blog/schedule-task-using-crontab-in-linux)
+4. [schedule](https://github.com/dbader/schedule)
 4. inotify (monitoring file system changes and trigger events)
 5. parallel
 
