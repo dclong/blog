@@ -49,6 +49,22 @@ In a multi-threaded situation each thread will have its own completely independe
 EHCache's off-heap storage takes your regular object off the heap, serializes it, and stores it as bytes in a chunk of memory that EHCache manages. It's like storing it to disk but it's still in RAM. The objects are not directly usable in this state, they have to be deserialized first. Also not subject to garbage collection.
 
 
+## Tune JVM 
+
+java -XX:+PrintFlagsFinal -version
+
+java -XX:MaxDirectMemorySize=8g
+
+[JVM Tuning](https://docs.gigaspaces.com/latest/production/production-jvm-tuning.html)
+has a very explanation on the use of memory in JVM.
+
+
 ## References
 
 https://stackoverflow.com/questions/6091615/difference-between-on-heap-and-off-heap
+
+https://stackoverflow.com/questions/3773775/default-for-xxmaxdirectmemorysize
+
+[-XX:MaxDirectMemorySize](https://www.eclipse.org/openj9/docs/xxmaxdirectmemorysize/)
+
+[JVM Tuning](https://docs.gigaspaces.com/latest/production/production-jvm-tuning.html)
