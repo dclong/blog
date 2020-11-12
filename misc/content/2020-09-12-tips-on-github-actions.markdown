@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-20 09:22:11
+Date: 2020-11-11 23:33:22
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -63,6 +63,12 @@ Prepends a directory to the system PATH variable for all subsequent actions in t
 https://hynek.me/articles/python-github-actions/
 
 https://github.com/actions/setup-python
+
+## Pull Request 
+
+https://github.com/peter-evans/create-pull-request
+
+[Create PR from push on a given branch](https://github.com/peter-evans/create-pull-request/issues/544)
 
 ## Examples
 
