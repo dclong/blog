@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-14 11:44:00
+Date: 2020-11-14 11:51:01
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -524,6 +524,26 @@ My Docker images are auto built leveraging GitHub Actions workflow
 in the GitHub repository 
 [docker_image_builder](https://github.com/dclong/docker_image_builder)
 .
+
+## Tips for Maintaining Docker Images (for My own Reference)
+
+1. Do NOT update the `latest` tag 
+    until you have fully tested the corresponding `next` tag.
+
+2. Do NOT add new features or tools unless you really need them.
+
+3. It generally a good idea to restrict versions of non-stable packages to be a specific (working) version 
+    or a range of versions that is unlike to break.
+
+4. If you REALLY have to update some Bash script a Docker image,
+    do not update it in the GitHub repository directly 
+    and build the Docker image to test whether it works.
+    Instead,
+    make a copy of the Bash script outside the Docker container, 
+    update it, 
+    and mount it into the container to test whether it work.
+    If the updated Bash script work as you expected,
+    then go ahead to update it in the GitHub repository.
 
 ## Known Issues 
 
