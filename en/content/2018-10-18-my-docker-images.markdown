@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-26 15:30:49
+Date: 2020-11-13 22:26:38
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -488,23 +488,10 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
 ## Build my Docker Images
 
-My Docker images are auto built with the help of the `docker` module
-in the Python package [dsutil](https://github.com/dclong/dsutil).
-
-    :::python
-    import dsutil
-    images = [
-        "https://github.com/dclong/docker-python-portable.git",
-        "https://github.com/dclong/docker-vscode-server.git",
-        "https://github.com/dclong/docker-gitpod.git",
-        "https://github.com/dclong/docker-jupyterhub-julia.git",
-        "https://github.com/dclong/docker-jupyterhub-pytorch.git",
-        "https://github.com/dclong/docker-jupyterhub-ai.git",
-    ]
-    builder = dsutil.docker.DockerImageBuilder(images)
-    builder.build()
-    builder.push()
-
+My Docker images are auto built leveraging GitHub Actions workflow 
+in the GitHub repository 
+[docker_image_builder](https://github.com/dclong/docker_image_builder)
+.
 
 ## Known Issues 
 
