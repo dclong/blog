@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-13 22:26:38
+Date: 2020-11-14 11:44:00
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -8,14 +8,50 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
 
 ## Tips
 
-1. The `dclong/jupyterlab` Docker image is well maintained (which is the base image of `dclong/jupyterhub`), 
-    however, 
-    many of the `dclong/jupyterlab-*` Docker images are not maintained any more.
-    Please use the corresponding `dclong/jupyterhub-*`  Docker images instead.
+1. Most of my Docker images has 2 main tags `latest` and `next`. 
+    The `latest` tag corresponds to the most recent stable version of the Docker image
+    while the `next` tag corresponds to the most recent testing version of the Docker images.
+    Some of my Docker images has another main tag `debian`.
+    Docker images with the `latest` or `next` tag are based on Ubuntu LTS (or newer if necessary)
+    while Docker images with the `debian` tag are based on on Debian testing.
+    It is for some rare situations where a new version of some software is required
+    while it is hard to get it work in Ubuntu LTS or even newer release. 
+    For example,
+    [dclong/jupyterhub-ds:debian](https://github.com/dclong/docker-jupyterhub-ds)
+    has a Rust kernel for JupyterLab
+    while a Rust kernel might not exists in 
+    [dclong/jupyterhub-ds](https://github.com/dclong/docker-jupyterhub-ds)
+    or
+    [dclong/jupyterhub-ds:next](https://github.com/dclong/docker-jupyterhub-ds)
+    .
+    Generally speaking,
+    the `latest` (the default when you do not specify a tag) is recommended for most users. 
 
-2. There is an issue with the `dclong/xubuntu*` Docker images due to Xfce on Ubuntu 18.04.
-    It is suggested that you use the corresponding `dclong/lubuntu*` Docker images instead,
-    which are based on LXQt.
+2. Most of my Docker images have historical versions
+    which correspond to tags of the pattern 
+    `mmddHH` (historical version of the latest tag),
+    `next_mmddHH` (historical version of the next tag),
+    and `debian_mmddHH` (historical version of the debian tag),
+    where `mmd`, `dd` and `HH` stand for the month, day and hour (24-hour format) 
+    when the Docker image was built. 
+    Those historical versions of Docker images might be helpful in some rare situations.
+    Generally speaking,
+    the historical tags should be used 
+    and instead the `latest` tag (the default when you do not specify a tag) is recommended for most users. 
+
+3. The Docker image 
+    [dclong/jupyterhub-ds](https://github.com/dclong/docker-jupyterhub-ds)
+    is recommended for most data science related work.
+    Specially,
+    [dclong/jupyterhub-ds:debian](https://github.com/dclong/docker-jupyterhub-ds)
+    contains a Rust kernel for JupyterLab.
+    The Docker image
+    [dclong/jupyterhub-ai](https://github.com/dclong/docker-jupyterhub-ai)
+    is recommended for deep leaning related work.
+
+4. There is an issue with the `dclong/xubuntu*` Docker images due to Xfce on Ubuntu 18.04.
+    It is suggested that you use the corresponding `dclong/lubuntu*` Docker images instead (which are based on LXQt)
+    if a desktop environment is needed.
 
 ## Usage
 
@@ -329,7 +365,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
 - [dclong/ubuntu_b](https://hub.docker.com/r/dclong/ubuntu_b/)  
 
-    > OS: Ubuntu 20.04 . 
+    > OS: Ubuntu 20.04. 
     > Time Zone: US Pacific Time  
     > Desktop Environment: None  
     > Remote Desktop: None  
@@ -345,14 +381,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
     - [dclong/jdk](https://hub.docker.com/r/dclong/jdk/)  
 
         - [dclong/scala](https://hub.docker.com/r/dclong/scala/)  
-
-            - [dclong/hadoop](https://hub.docker.com/r/dclong/hadoop/)  
-
-              - [dclong/hive](https://hub.docker.com/r/dclong/hive/)  
-
-                  - [dclong/spark](https://hub.docker.com/r/dclong/spark/)  
-
-                  - [dclong/zeppelin](https://hub.docker.com/r/dclong/zeppelin/)  
 
         - [dclong/h2o](https://hub.docker.com/r/dclong/h2o/)  
 
@@ -376,7 +404,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
     - [dclong/python](https://hub.docker.com/r/dclong/python/)  
 
-        > Python 3.8  
+        > Python 3.8.x  
 
         - [dclong/python-jdk](https://hub.docker.com/r/dclong/python-jdk/)  
 
@@ -410,17 +438,21 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
+                    > The latest release of [code-server](https://github.com/cdr/code-server).
+
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
-                     > JupyterLab: 2.1
+                     > JupyterLab: 2.2.x
 
                     - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
 
-                         > JupyterHub: 1.1.0  
+                         > JupyterHub: 1.2.x  
 
                         - [dclong/jupyterhub-ts](https://hub.docker.com/r/dclong/jupyterhub-ts/)  
 
                         - [dclong/jupyterhub-julia](https://hub.docker.com/r/dclong/jupyterhub-julia/)  
+
+                            > Julia stable.
 
                         - [dclong/jupyterhub-cuda](https://hub.docker.com/r/dclong/jupyterhub-cuda/)  
 
@@ -435,7 +467,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
                         - [dclong/jupyterhub-jdk](https://hub.docker.com/r/dclong/jupyterhub-jdk/)  
 
                             > OpenJDK 8  
-                            > Maven: 3.6.0  
+                            > Maven: 3.6.x  
 
                             - [dclong/jupyterhub-py](https://hub.docker.com/r/dclong/jupyterhub-py/)  
 
@@ -448,7 +480,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
                                 > JayDeBeApi pymysql pymongo sqlalchemy  
                                 > pysocks requests[socks] Scrapy beautifulsoup4 wget  ansible  
 
-                                - [dclong/jupyterhub-beakerx](https://hub.docker.com/r/dclong/jupyterhub-beakerx/)  
+                                - [dclong/jupyterhub-beakerx](https://hub.docker.com/r/dclong/jupyterhub-beakerx/) (will be retired)  
 
                                     > SQL (based on JDBC) via BeakerX 1.4.1  
                                     > Scala 2.11.12 via BeakerX 1.4.1  
@@ -458,7 +490,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                                     > Almond (latest stable)
                                     > Kotlin
-                                    > Rust
+                                    > Rust (only for the `debian` tag)
 
                                     - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
 
