@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-04 09:13:11
+Date: 2020-11-13 14:35:26
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -43,9 +43,26 @@ You can install a specific version of an extension using `@`.
 
 https://github.com/cdr/code-server/issues/171
 
-## JupyterLab Within VS Code 
+## Debug Python Code
 
-https://github.com/cdr/code-server/issues/524
+`launch.json` for debugging Python code.
+
+    :::bash
+    {
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "python",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal"
+            }
+        ]
+    }
 
 ## Shortcuts
 

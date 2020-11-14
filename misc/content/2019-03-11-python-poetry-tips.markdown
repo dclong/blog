@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-08 20:02:36
+Date: 2020-11-13 14:42:34
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -127,6 +127,25 @@ https://python-poetry.org/docs/configuration/
 Pleaser refer to
 [pyproject.toml](https://github.com/dclong/pyproject.toml)
 for examples of configuration for Python Poetry.
+
+## Restrict Operating Systems in Python Poetry
+
+```
+[tool.poetry]
+# ...
+classifiers = [
+    "Operating System :: POSIX :: Linux",
+]
+```
+
+https://python-poetry.org/docs/pyproject/#classifiers
+
+https://pypi.org/classifiers/
+
+https://github.com/python-poetry/poetry/issues/738
+
+https://github.com/python-poetry/poetry/issues/3356
+
 
 ## References
 

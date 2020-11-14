@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:10:15
+Date: 2020-11-13 14:38:43
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -35,6 +35,8 @@ Please read with your own judgement!
 
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     Thhe sphinx style is recommended.
+
+- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
 ## Other Potentially Useful Extensions
 

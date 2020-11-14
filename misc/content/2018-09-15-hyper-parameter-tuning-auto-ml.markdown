@@ -96,6 +96,10 @@ transformers
 
 wandb, fitlog, runx
 
+## Examples 
+
+https://github.com/h2oai/driverlessai-recipes
+
 ## References
 
 https://arxiv.org/pdf/1908.00709v1.pdf

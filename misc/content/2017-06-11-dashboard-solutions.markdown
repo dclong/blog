@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 18:33:06
+Date: 2020-11-13 15:51:31
 Author: Ben Chuanlong Du
 Slug: dashboard-solutions
 Title: Dashboard Solutions
@@ -11,6 +11,11 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## [jupyterlab-interactive-dashboard-editor](https://github.com/jupytercalpoly/jupyterlab-interactive-dashboard-editor)
+
+[jupyterlab-interactive-dashboard-editor](https://github.com/jupytercalpoly/jupyterlab-interactive-dashboard-editor)
+is an awesome dashboard plugin for JupyterLab!
 
 ## [panel](https://github.com/pyviz/panel)
 
