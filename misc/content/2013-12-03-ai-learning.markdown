@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-05 10:39:39
+Date: 2020-11-15 12:02:54
 Title: AI Learning
 Slug: ai-learning
 Author: Ben Du
@@ -57,3 +57,11 @@ https://mmlspark.blob.core.windows.net/website/index.html
 ## [Tips on Kaggle](http://www.legendu.net/misc/blog/tips-on-kaggle/)
 
 ## [Machine Learning Resources](http://www.legendu.net/misc/blog/machine-learning-resources/)
+
+## References 
+
+- https://github.com/academic/awesome-datascience
+
+- [Essential Cheat Sheets for Machine Learning and Deep Learning Engineers](https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5)
+
+- https://rushter.com/dsreader/

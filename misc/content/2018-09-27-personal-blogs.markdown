@@ -1,6 +1,6 @@
 UUID: 32b5b88e-d415-402a-af22-5293c4020ba9
 Status: published
-Date: 2018-09-27 23:47:00
+Date: 2020-11-15 12:04:05
 Author: Ben Chuanlong Du
 Slug: personal-blogs
 Title: Personal Blogs
@@ -15,6 +15,7 @@ Please read with your own judgement!
 
 ## Machine Learning
 
+- https://rushter.com/dsreader/
 - [Andrew Ng](http://ai.stanford.edu/~ang/)
 - [视觉计算研究论坛](http://www.sigvc.org/bbs/forum.php)
 - [计算机视觉|视频处理|视频呈现](http://doctorimage.cn/)

@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-24 11:11:20
+Date: 2020-11-15 12:02:54
 Author: Benjamin Du
 Slug: machine-learning-resources
 Title: Machine Learning Resources
@@ -64,3 +64,11 @@ https://github.com/bulutyazilim/awesome-datascience
 
 - [Random Forests Theory and Applications for Variable Selection - Video 1 of 5](https://www.youtube.com/watch?v=IO7F1-PlKNM)
 - [Random Forests Theory and Applications for Variable Selection - Video 2 of 5](https://www.youtube.com/watch?v=cQrvTYVN0ko)
+
+## References 
+
+- https://github.com/academic/awesome-datascience
+
+- [Essential Cheat Sheets for Machine Learning and Deep Learning Engineers](https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5)
+
+- https://rushter.com/dsreader/
