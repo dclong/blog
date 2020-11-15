@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-14 18:37:31
+Date: 2020-11-14 20:38:08
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -1637,6 +1637,8 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 ## References 
 
 [Ten SQL Tricks that You Didn’t Think Were Possible (Lukas Eder)](https://www.youtube.com/watch?v=mgipNdAgQ3o)
+
+[Column Alias in SQL](http://www.legendu.net/misc/blog/column-alias-in-sql)
 
 http://www.legendu.net/misc/blog/Use-tablesample-in-sql
 
