@@ -124,6 +124,8 @@ Please read with your own judgement!
 
 ## Tricks and Traps
 
+1. [Ten SQL Tricks that You Didn’t Think Were Possible (Lukas Eder)](https://www.youtube.com/watch?v=mgipNdAgQ3o)
+
 1. You cannot use `order by` when insert records into a table using select .
     this is easy to understand as first SQL does not save data in order. 
     second, ordering in select might conflict with ordered columns (e.g., auto increment columns).

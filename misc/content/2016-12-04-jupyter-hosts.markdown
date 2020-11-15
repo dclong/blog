@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 11:26:37
+Date: 2020-11-14 18:35:33
 Author: Ben Chuanlong Du
 Slug: jupyter-hosts
 Title: Public Jupyter/JupyterLab Hosts
@@ -12,7 +12,7 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## [DeepNote](https://deepnote.com/project/)
+## [DeepNote](https://deepnote.com/)
 
 Sounds like the best available one now. 
 It also supports real-time collaboration among users!
