@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-05 15:37:06
+Date: 2020-11-15 10:32:52
 Author: Ben Chuanlong Du
 Slug: processing-big-data-using-spark
 Title: Processing Big Data Using Spark
@@ -173,6 +173,8 @@ https://spark.apache.org/docs/latest/submitting-applications.html#master-urls
 
 
 ## References
+
+[awesome-spark](https://github.com/awesome-spark/awesome-spark)
 
 https://developer.ibm.com/hadoop/2016/07/18/troubleshooting-and-tuning-spark-for-heavy-workloads/
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-08 11:53:47
+Date: 2020-11-15 10:32:52
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -228,6 +228,8 @@ Issues:
 3. Does wheel work or not with this approach?
 
 ## References
+
+[awesome-spark](https://github.com/awesome-spark/awesome-spark)
 
 https://spark.apache.org/docs/latest/api/python/pyspark.sql.html
 
