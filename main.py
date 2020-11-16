@@ -374,7 +374,7 @@ def format_notebook(bloger, args):
     if args.indexes:
         args.notebooks = blogger.path(args.indexes)
     if args.notebooks:
-        dsutil.filesystem.format_notebook(args.notebooks)
+        dsutil.jupyter.format_notebook(args.notebooks)
 
 
 def _subparse_format_notebook(subparsers):
