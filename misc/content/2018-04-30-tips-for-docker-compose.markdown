@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 21:43:30
+Date: 2020-11-17 11:59:51
 Author: Ben Chuanlong Du
 Slug: tips-on-docker-compose
 Title: Tips on Docker Compose
@@ -49,6 +49,12 @@ Shell commands cannot be used in a Docker-Compose file or a `env` file directly,
 which is a big limitation of Docker-Compose.
 
 https://github.com/docker/compose/issues/4081
+
+## Nvidia GPU Support 
+
+https://github.com/docker/compose/pull/7929
+
+https://github.com/docker/compose/issues/6691
 
 ## Environment Variables
 
