@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 18:53:45
+Date: 2020-11-18 01:02:42
 Author: Benjamin Du
 Slug: docker-for-nvidia-gpu
 Title: Docker for Nvidia GPU
@@ -107,11 +107,13 @@ Please read with your own judgement!
 
 https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64/
 
-[nvidia/cuda:10.1-base-ubuntu18.04](https://gitlab.com/nvidia/container-images/cuda/blob/ubuntu18.04/10.1/base/Dockerfile)
+[nvidia/cuda:11.0-cudnn-base-ubuntu20.04](https://gitlab.com/nvidia/container-images/cuda/-/blob/master/dist/11.0/ubuntu20.04-x86_64/base/Dockerfile)
 
-[nvidia/cuda:10.1-cudnn-runtime-ubuntu18.04](https://gitlab.com/nvidia/container-images/cuda/blob/ubuntu18.04/10.1/runtime/Dockerfile)
+[nvidia/cuda:11.0-cudnn-runtime-ubuntu20.04](https://gitlab.com/nvidia/container-images/cuda/-/blob/master/dist/11.0/ubuntu20.04-x86_64/runtime/Dockerfile)
 
-[nvidia/cuda:10.1-cudnn-devel-ubuntu18.04](https://gitlab.com/nvidia/container-images/cuda/blob/ubuntu18.04/10.1/devel/Dockerfile)
+[nvidia/cuda:11.0-cudnn-devel-ubuntu20.04](https://gitlab.com/nvidia/container-images/cuda/-/blob/master/dist/11.0/ubuntu20.04-x86_64/devel/Dockerfile)
+
+https://github.com/floydhub/dockerfiles
 
 ## References
 
