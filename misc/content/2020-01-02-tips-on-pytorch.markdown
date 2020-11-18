@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 19:35:29
+Date: 2020-11-18 00:39:50
 Author: Benjamin Du
 Slug: tips-on-pytorch
 Title: Tips on PyTorch
@@ -138,3 +138,5 @@ https://stackoverflow.com/questions/48152674/how-to-check-if-pytorch-is-using-th
 https://medium.com/ai%C2%B3-theory-practice-business/use-gpu-in-your-pytorch-code-676a67faed09
 
 https://groups.google.com/forum/#!topic/torch7/CkB57025yRY
+
+[PyTorch Stable Downloads](https://download.pytorch.org/whl/torch_stable.html)
