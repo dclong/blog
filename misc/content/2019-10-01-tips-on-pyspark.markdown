@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-15 10:32:52
+Date: 2020-11-17 22:48:25
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -50,6 +50,7 @@ Please read with your own judgement!
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --conf spark.pyspark.driver.python=/usr/share/anaconda3/bin/python \
             --conf spark.pyspark.python=/usr/share/anaconda3/bin/python \
             /path/to/_pyspark.py
@@ -74,6 +75,7 @@ Please read with your own judgement!
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --conf spark.pyspark.driver.python=./env/bin/python \
             --conf spark.pyspark.python=./env/bin/python \
             --archives env.tar.gz#env \
