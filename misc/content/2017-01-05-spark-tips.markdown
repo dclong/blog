@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-15 10:32:52
+Date: 2020-11-17 22:48:25
 Author: Ben Chuanlong Du
 Slug: processing-big-data-using-spark
 Title: Processing Big Data Using Spark
@@ -105,6 +105,12 @@ which are variables that are only “added” to, such as counters and sums.
     Or another way is to just submit your Spark application
     from a server that has very stable network connection.
 
+3. Best to use the JVM option `-XX:MaxDirectMemorySize` to limit the maximum directory memory used.
+    This helps avoid the issue of memory exceding limit.
+
+        :::bash
+        --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
+
 2. If you are sure that your Spark application is production ready,
     it is better to submit it with the option `--deploy-mode cluster`.
     However the default option (`--deploy-mode client`) is good for debugging.
@@ -128,6 +134,7 @@ which are variables that are only “added” to, such as counters and sums.
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --class your.package.SomeClass \
             --jars /path/to/jar/dependencies \
             /path/to/compiled/jar arg1 arg2 ...
@@ -151,6 +158,7 @@ which are variables that are only “added” to, such as counters and sums.
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --class your.package.SomeClass \
             --jars /path/to/kotlin-stdlib.jar \
             /path/to/compiled/jar arg1 arg2 ...
