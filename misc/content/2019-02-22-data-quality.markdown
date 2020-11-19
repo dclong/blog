@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-23 00:13:32
+Date: 2020-11-19 09:15:07
 Author: Benjamin Du
 Slug: data-quality
 Title: Data Quality
@@ -37,10 +37,13 @@ Please read with your own judgement!
 2. [great_expectations](https://github.com/great-expectations/great_expectations)
     helps data teams eliminate pipeline debt, through data testing, documentation, and profiling.
 
-1. [Optimus](https://github.com/ironmussa/Optimus)
+3. [deequ](https://github.com/awslabs/deequ)
+    is a library built on top of Apache Spark for defining "unit tests for data", 
+    which measure data quality in large datasets.
 
-Optimus is the one that is closest to what I want to achieve so far. 
-Looks promissing.
+4. [Optimus](https://github.com/ironmussa/Optimus)
+
+5. [dbsanity](http://databene.org/dbsanity)
 
 1. [Apache Griffin](https://github.com/apache/griffin)
 
@@ -51,8 +54,6 @@ Apache Griffin supports data profiling but seems to be heavy and limited.
 A GUI tool for data cleaning, profiling ,etc.
 
 4. [Open Stduio for Data Quality](https://www.talend.com/products/data-quality/data-quality-open-studio/)
-
-1. athena 
 
 ## Commercial Solutions
 
