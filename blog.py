@@ -17,7 +17,7 @@ CN = "cn"
 HOME = "home"
 MISC = "misc"
 OUTDATED = "outdated"
-DECLARATION = """
+DISCLAIMER = """
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
@@ -65,7 +65,7 @@ class Post:
     def update_after_move(self) -> None:
         """ Update the post after move.
         There are 3 possible change.
-        1. The declaration might be added/removed
+        1. The disclaimer might be added/removed
             depending on whether the post is moved to the misc sub blog directory.
         2. The slug of the post is updated to match the path of the post.
         3. The title should be updated to match the file name.
@@ -81,10 +81,10 @@ class Post:
             index = [line.strip() for line in lines].index("")
             with self.path.open("w") as fout:
                 fout.writelines(lines[:index])
-                fout.writelines(DECLARATION)
+                fout.writelines(DISCLAIMER)
                 fout.writelines(lines[index:])
             return
-        text = self.path.read_text().replace(DECLARATION, "")
+        text = self.path.read_text().replace(DISCLAIMER, "")
         self.path.write_text(text)
 
     def update_time(self) -> str:
@@ -410,6 +410,10 @@ class Post:
         text = text.replace("${TITLE}", Post.format_title(title)) \
             .replace("${SLUG}", Post.slug(title)) \
             .replace("${DATE}", NOW_DASH)
+        if self.blog_dir() == MISC:
+            text = text.replace("${DISCLAIMER}", DISCLAIMER.replace("\n", " "))
+        else:
+            text = text.replace("${DISCLAIMER}", "")
         with self.path.open("w") as fout:
             fout.write(text)
             if self.blog_dir() == MISC:
@@ -425,7 +429,7 @@ class Post:
             fout.writelines("Category: Computer Science\n")
             fout.writelines("Tags: Computer Science\n")
             if self.blog_dir() == MISC:
-                fout.writelines(DECLARATION)
+                fout.writelines(DISCLAIMER)
 
 
 class Blogger:
