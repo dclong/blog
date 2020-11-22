@@ -1,11 +1,10 @@
-UUID: f619752c-38b7-4355-a7f0-ef671eec4a57
 Status: published
-Date: 2020-06-07 15:17:32
+Date: 2020-11-22 12:31:45
 Author: Ben Chuanlong Du
 Slug: use-jupyterlab-notebooks-in-pelican
 Title: Use JupyterLab Notebooks in Pelican
 Category: Computer Science
-Tags: programming
+Tags: programming, Computer Science, plugins, Pelican, Static Site Generator, Python, markdown
 
 **
 Things on this page are
@@ -18,6 +17,8 @@ https://github.com/getpelican/pelican-plugins/issues/866
 https://github.com/getpelican/pelican-plugins/issues/651
 
 ## Plugins 
+
+[pelican-plugins](https://github.com/pelican-plugins)
 
 https://github.com/danielfrg/pelican-ipynb
 

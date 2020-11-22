@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-08 23:06:23
+Date: 2020-11-22 12:31:45
 Author: Ben Chuanlong Du
 Slug: pelican-tips
 Title: Generate Static Site Using Pelican
@@ -35,5 +35,7 @@ https://github.com/gfidente/pelican-svbhack
 https://github.com/getpelican/pelican/issues/1357
 
 ## References
+
+[pelican-plugins](https://github.com/pelican-plugins)
 
 https://sourceforge.net/p/pelican-edt/wiki/markdown_syntax/#md_ex_code
