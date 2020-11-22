@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-07 21:15:50
+Date: 2020-11-21 22:47:23
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Python Module Tips
@@ -16,11 +16,10 @@ Please read with your own judgement!
 
 1. sys.path.append
 
-```bash
-import module_name
-import module_name as alias
-from module import pkg_mod_or_fun
-```
+        :::bash
+        import module_name
+        import module_name as alias
+        from module import pkg_mod_or_fun
 
 https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-source
 
@@ -41,6 +40,17 @@ https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-s
     Changes to the module after loading of the module will not take effect
 	unless the module is reloaded.
 	A module can be reloaded using `importlib.reload(module)` In Python3.
+
+3. Both the import styles of `import a.b.C as C`
+    and `from a.b import C` work.
+    `import a.b.C as C` is better if you work with Java classes via JPype
+    as you get a very similar experience as you do import in Java.
+    However, 
+    `from a.b import C` is better if you work with python modules
+    as it is easier to add more imports from `a.b` if necessary.
+    The following is an example of import both classes `C` and `D` from `a.b`.
+
+        from a.b import C, D
 
 ## Module Access
 
