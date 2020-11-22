@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-21 17:13:43
+Date: 2020-11-21 17:22:39
 Author: Benjamin Du
 Slug: build-a-fat-jar-using-maven-without-a-java-project
 Title: Build a Fat JAR Using Maven Without a Java Project
@@ -14,7 +14,7 @@ and build everything into a single fat jar (for easy use in other places),
 you can first crate a file `pom.xml` containing the following content
 and then run the command `mvn assembly:single`.
 A copy of the built fat JAR can be download at 
-[arrow-jvm-1.0-jar-with-dependencies.jar](www.legendu.net/media/java/arrow-jvm-1.0-jar-with-dependencies.jar)
+[arrow-jvm-1.0-jar-with-dependencies.jar](http://www.legendu.net/media/java/arrow-jvm-1.0-jar-with-dependencies.jar)
 .
 
     :::xml
