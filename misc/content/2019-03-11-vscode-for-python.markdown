@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-13 14:38:43
+Date: 2020-11-22 10:06:41
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -37,6 +37,8 @@ Please read with your own judgement!
     Thhe sphinx style is recommended.
 
 - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Other Potentially Useful Extensions
 

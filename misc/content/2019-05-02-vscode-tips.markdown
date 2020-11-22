@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 11:35:40
+Date: 2020-11-22 10:06:41
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -36,6 +36,8 @@ is available.
     The sphinx style is recommended.
 
 - [Android](https://marketplace.visualstudio.com/items?itemName=adelphes.android-dev-ext)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Other Potentially Useful Extensions
 

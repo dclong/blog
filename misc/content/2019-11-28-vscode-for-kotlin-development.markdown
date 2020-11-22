@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:10:15
+Date: 2020-11-22 10:06:41
 Author: Benjamin Du
 Slug: vscode-for-kotlin-development
 Title: Vscode for Kotlin Development
@@ -27,6 +27,8 @@ https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Other Potentially Useful Extensions
 

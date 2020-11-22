@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 15:10:15
+Date: 2020-11-22 10:06:41
 Author: Benjamin Du
 Slug: vscode-for-jvm-languages
 Title: Visual Studio Code for Java Development
@@ -37,6 +37,8 @@ https://github.com/redhat-developer/vscode-java/wiki/Lombok-support
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
 ## Other Potentially Useful Extensions
 
