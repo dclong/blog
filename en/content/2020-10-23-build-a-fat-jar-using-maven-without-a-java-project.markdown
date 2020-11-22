@@ -1,16 +1,21 @@
 Status: published
-Date: 2020-10-23 16:39:35
+Date: 2020-11-21 17:22:39
 Author: Benjamin Du
 Slug: build-a-fat-jar-using-maven-without-a-java-project
 Title: Build a Fat JAR Using Maven Without a Java Project
 Category: Computer Science
 Tags: Computer Science, Java, Maven, POM, JAR, fat jar, assembly
+
+
 You can use Maven to download dependencies of Java packages without creating a Java project.
 For example,
 if you want to download all dependencies of `arrow-jvm` and `arrow-memory` 
 and build everything into a single fat jar (for easy use in other places),
 you can first crate a file `pom.xml` containing the following content
 and then run the command `mvn assembly:single`.
+A copy of the built fat JAR can be download at 
+[arrow-jvm-1.0-jar-with-dependencies.jar](http://www.legendu.net/media/java/arrow-jvm-1.0-jar-with-dependencies.jar)
+.
 
     :::xml
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
