@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-14 11:51:01
+Date: 2020-11-23 11:09:19
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -301,23 +301,18 @@ for more details.
 
 - [Use Spark With the BeakerX Scala Kernel](http://www.legendu.net/misc/blog/use-spark-with-the-beakerx-scala-kernel/)
 
-- [Use Spark With Apache Toree Kernel in Juptyerlab](http://www.legendu.net/misc/blog/use-spark-with-apache-toree-kernel-in-juptyerlab/)
-
 It is suggested that you use the Almond Scala kernel. 
-I will gradually drop support of the BeakerX Scala kernel and the Apache Toree Spark kernel in my Docker images. 
+I will gradually drop support of the BeakerX Scala kernel in my Docker images. 
 
 ## PySpark - pyspark and findspark
 
-The Docker image
-[dclong/jupyterhub-toree](https://github.com/dclong/docker-jupyterhub-toree)
-supports PySpark 2.4 out-of-box.
 To use PySpark in a container of the Docker image
 [dclong/jupyterhub-ds](https://github.com/dclong/docker-jupyterhub-ds)
 you need to install Spark and the Python package `pyspark` first,
 which can be achieved using the following command.
 
     :::bash
-    sudo xinstall spark -ic  
+    xinstall --sudo spark -ic --loc /opt/  
     xinstall pyspark -ic
 
 Follow the steps below to use PySpark after it is installed.
@@ -329,7 +324,7 @@ Follow the steps below to use PySpark after it is installed.
         :::python
         import findspark
         # A symbolic link of the Spark Home is made to /opt/spark for convenience
-        findspark.init('/opt/spark')
+        findspark.init("/opt/spark")
 
         from pyspark.sql import SparkSession
         spark = SparkSession.builder.appName('PySpark Example').enableHiveSupport().getOrCreate()
@@ -416,16 +411,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
         - [dclong/dryscrape](https://hub.docker.com/r/dclong/dryscrape/)  
 
-        - [dclong/cuda](https://hub.docker.com/r/dclong/cuda/)  
-
-            - [dclong/cuda_b](https://hub.docker.com/r/dclong/cuda_b/)  
-
-                - [dclong/cuda-pytorch](https://hub.docker.com/r/dclong/cuda-pytorch/)  
-
-                - [dclong/cuda-autogluon](https://hub.docker.com/r/dclong/cuda-autogluon/)  
-
-                    - [dclong/cuda-ai](https://hub.docker.com/r/dclong/cuda-ai/)  
-
         - [dclong/jupyter](https://hub.docker.com/r/dclong/jupyter/)  
 
              > Jupyter Notebook: 6.0.3  
@@ -471,14 +456,14 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                             - [dclong/jupyterhub-py](https://hub.docker.com/r/dclong/jupyterhub-py/)  
 
-                                > numpy scipy pandas dask  
-                                > torch torchvision tensorflow keras h2o  
-                                > gensim nltk  
-                                > scikit-learn xgboost  
-                                > matplotlib seaborn bokeh plotly  
+                                > loguru pysnooper
+                                > numpy scipy pandas pyarrow  
+                                > scikit-learn lightgbm 
+                                > graphviz matplotlib bokeh holoviews[recommended] hvplot
                                 > tabulate  
-                                > JayDeBeApi pymysql pymongo sqlalchemy  
-                                > pysocks requests[socks] Scrapy beautifulsoup4 wget  ansible  
+                                > JayDeBeApi sqlparse 
+                                > requests[socks] lxml notifiers
+                                > dsutill
 
                                 - [dclong/jupyterhub-beakerx](https://hub.docker.com/r/dclong/jupyterhub-beakerx/) (will be retired)  
 
