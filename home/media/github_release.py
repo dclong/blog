@@ -5,7 +5,6 @@ from argparse import Namespace, ArgumentParser
 
 
 class GitHubRepoRelease:
-
     def __init__(self, repo):
         self.repo = repo
         url = f"https://api.github.com/repos/{repo}/releases/latest"
