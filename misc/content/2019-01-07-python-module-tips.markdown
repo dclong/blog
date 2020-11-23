@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-21 22:47:23
+Date: 2020-11-22 19:44:09
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Python Module Tips
@@ -70,3 +70,7 @@ https://stackoverflow.com/questions/43393764/python-3-6-project-structure-leads-
 [depfinder](https://github.com/ericdill/depfinder) finds all the unique imports in your library.
 
 [awesome-python](https://github.com/uhub/awesome-python)
+
+## References 
+
+https://github.com/pypa
