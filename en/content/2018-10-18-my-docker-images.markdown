@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-23 11:09:19
+Date: 2020-11-24 17:28:42
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -421,10 +421,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyter-jdk](https://hub.docker.com/r/dclong/jupyter-jdk/)  
 
-                - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
-
-                    > The latest release of [code-server](https://github.com/cdr/code-server).
-
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
                      > JupyterLab: 2.2.x
@@ -453,6 +449,10 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                             > OpenJDK 8  
                             > Maven: 3.6.x  
+
+                            - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
+
+                                > The latest release of [code-server](https://github.com/cdr/code-server).
 
                             - [dclong/jupyterhub-py](https://hub.docker.com/r/dclong/jupyterhub-py/)  
 
