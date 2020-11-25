@@ -1,11 +1,9 @@
 name: Publish Blog
-
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
 jobs:
   lint_code:
     runs-on: ubuntu-latest
