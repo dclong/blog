@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-28 09:44:49
+Date: 2020-11-28 10:57:35
 Author: Benjamin Du
 Slug: tips-on-backend-development
 Title: Tips on Backend Development
@@ -68,6 +68,10 @@ By using non-blocking network I/O,
 Tornado can scale to tens of thousands of open connections, 
 making it ideal for long polling, WebSockets, 
 and other applications that require a long-lived connection to each user.
+
+[Pyre](https://github.com/Project-Dream-Weaver/Pyre)
+
+A fast Python http server inspired by japronto written in rust.
 
 ### Flask
 
