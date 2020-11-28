@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 17:06:24
+Date: 2020-11-28 10:59:14
 Author: Benjamin Du
 Slug: tips-on-nlp
 Title: Tips on NLP
@@ -109,6 +109,8 @@ is an industrial-strength Natural Language Processing (NLP) library.
 provides state-of-the-art general-purpose architectures (BERT, GPT-2, RoBERTa, XLM, DistilBert, XLNet, CTRL...) 
 for Natural Language Understanding (NLU) and Natural Language Generation (NLG) 
 with over 32+ pretrained models in 100+ languages and deep interoperability between TensorFlow 2.0 and PyTorch.
+
+[huggingface/tokenizers](https://github.com/huggingface/tokenizers/tree/master/bindings/python)
 
 [OpenNMT-py](https://github.com/OpenNMT/OpenNMT-py)
 
