@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 11:12:45
+Date: 2020-11-28 11:34:51
 Author: Benjamin Du
 Slug: json-parsing-libraries-in-python
 Title: JSON Parsing Libraries in Python
@@ -30,6 +30,13 @@ is an ultra fast JSON encoder and decoder written in pure C with bindings for Py
 is a Python module wraps 
 [rapidjson](https://github.com/Tencent/rapidjson)
 which is an extremely fast C++ JSON parser and serialization library.
+
+## [hyperjson](https://github.com/mre/hyperjson)
+[hyperjson](https://github.com/mre/hyperjson)
+is a hyper-fast, safe Python module to read and write JSON data. 
+Works as a drop-in replacement for Python's built-in json module. 
+This is alpha software and there will be bugs, 
+so maybe don't deploy to production just yet.
 
 ## json
 
