@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-26 16:36:06
+Date: 2020-11-28 11:02:29
 Author: Benjamin Du
 Slug: tips-on-reinforcement-learning
 Title: Tips on Reinforcement Learning
@@ -34,6 +34,8 @@ are the best 2 libraries.
 
 [On Choosing a Deep Reinforcement Learning Library](https://medium.com/data-from-the-trenches/choosing-a-deep-reinforcement-learning-library-890fb0307092)
 recommends Stable Baselines and TF-Agents.
+
+https://github.com/kngwyu/rogue-gym
 
 ## References
 
