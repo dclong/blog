@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 11:05:57
+Date: 2020-11-28 11:37:35
 Author: Benjamin Du
 Slug: calling-rust-from-python
 Title: Calling Rust from Python
@@ -11,7 +11,9 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-https://github.com/PyO3/pyo3
+[pyo3](https://github.com/PyO3/pyo3)
+
+[rust-cpython](https://github.com/dgrunwald/rust-cpython)
 
 https://www.benfrederickson.com/writing-python-extensions-in-rust-using-pyo3/
 

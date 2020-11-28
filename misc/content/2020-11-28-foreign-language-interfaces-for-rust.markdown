@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 11:03:51
+Date: 2020-11-28 11:37:35
 Author: Benjamin Du
 Slug: foreign-language-interfaces-for-rust
 Title: Foreign Language Interfaces for Rust
@@ -16,3 +16,5 @@ Please read with your own judgement!
 [inline-python](https://github.com/fusion-engineering/inline-python)
 inlines Python code directly in your Rust code.
 
+
+[rust-cpython](https://github.com/dgrunwald/rust-cpython)
