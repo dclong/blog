@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-24 17:28:42
+Date: 2020-11-28 16:51:28
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -450,36 +450,28 @@ you can connect to the desktop environment in the Docker container using NoMachi
                             > OpenJDK 8  
                             > Maven: 3.6.x  
 
-                            - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
+                            - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
 
-                                > The latest release of [code-server](https://github.com/cdr/code-server).
+                                > Almond (latest stable)
+                                > Kotlin
+                                > Rust (only for the `debian` tag)
 
-                            - [dclong/jupyterhub-py](https://hub.docker.com/r/dclong/jupyterhub-py/)  
+                                - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
-                                > loguru pysnooper
-                                > numpy scipy pandas pyarrow  
-                                > scikit-learn lightgbm 
-                                > graphviz matplotlib bokeh holoviews[recommended] hvplot
-                                > tabulate  
-                                > JayDeBeApi sqlparse 
-                                > requests[socks] lxml notifiers
-                                > dsutill
+                                    > The latest release of [code-server](https://github.com/cdr/code-server).
 
-                                - [dclong/jupyterhub-beakerx](https://hub.docker.com/r/dclong/jupyterhub-beakerx/) (will be retired)  
+                                - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
+                                    Python packages:
+                                    > loguru pysnooper
+                                    > numpy scipy pandas pyarrow  
+                                    > scikit-learn lightgbm 
+                                    > graphviz matplotlib bokeh holoviews[recommended] hvplot
+                                    > tabulate  
+                                    > JayDeBeApi sqlparse 
+                                    > requests[socks] lxml notifiers
+                                    > dsutil
 
-                                    > SQL (based on JDBC) via BeakerX 1.4.1  
-                                    > Scala 2.11.12 via BeakerX 1.4.1  
-                                    > Java 8, Clojure, Groovy, Kotlin via BeakerX 1.4.1  
-
-                                - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
-
-                                    > Almond (latest stable)
-                                    > Kotlin
-                                    > Rust (only for the `debian` tag)
-
-                                    - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
-
-                                        - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
+                                    - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
     - [dclong/rust](https://hub.docker.com/r/dclong/rust/)  
 
