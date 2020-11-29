@@ -17,8 +17,8 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
     It is for some rare situations where a new version of some software is required
     while it is hard to get it work in Ubuntu LTS or even newer release. 
     For example,
-    [dclong/jupyterhub-ds:debian](https://github.com/dclong/docker-jupyterhub-ds)
-    has a Rust kernel for JupyterLab
+    [dclong/jupyterhub-ds:debian_111510](https://github.com/dclong/docker-jupyterhub-ds)
+    has a valid Rust kernel for JupyterLab
     while a Rust kernel might not exists in 
     [dclong/jupyterhub-ds](https://github.com/dclong/docker-jupyterhub-ds)
     or
@@ -46,7 +46,7 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
     [dclong/jupyterhub-ds:debian](https://github.com/dclong/docker-jupyterhub-ds)
     contains a Rust kernel for JupyterLab.
     The Docker image
-    [dclong/jupyterhub-ai](https://github.com/dclong/docker-jupyterhub-ai)
+    [dclong/jupyterhub-pytorch](https://github.com/dclong/docker-jupyterhub-pytorch)
     is recommended for deep leaning related work.
 
 4. There is an issue with the `dclong/xubuntu*` Docker images due to Xfce on Ubuntu 18.04.
@@ -440,10 +440,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
                             - [dclong/jupyterhub-cuda_b](https://hub.docker.com/r/dclong/jupyterhub-cuda_b/)  
 
                                 - [dclong/jupyterhub-pytorch](https://hub.docker.com/r/dclong/jupyterhub-pytorch/)  
-
-                                - [dclong/jupyterhub-autogluon](https://hub.docker.com/r/dclong/jupyterhub-autogluon/)  
-
-                                    - [dclong/jupyterhub-ai](https://hub.docker.com/r/dclong/jupyterhub-ai/)  
 
                         - [dclong/jupyterhub-jdk](https://hub.docker.com/r/dclong/jupyterhub-jdk/)  
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-08 15:21:16
+Date: 2020-11-29 11:21:59
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -10,6 +10,36 @@ Tags: programming, Rust, tips, Cargo, rustup
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+!, ?, 
+
+## Result
+`Result.unwrap()` unwrap a result object. 
+You can also unwrap it using pattern matching.
+
+Ok, 
+Result, 
+
+
+## Pattern Matching
+Pattern matching 
+
+https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html#matching-named-variables
+
+## Functionall Programming 
+
+Rust operations are generic 
+so that a `map` can only be done on iterators 
+instead of the raw collection type. 
+
+use collect to convert a map to a collection
+
+https://doc.rust-lang.org/stable/std/iter/struct.Map.html
+
+## Deducted Types 
+
+It doesn't seem to be as powerful/smart as Scala. 
+It is suggested that you write types as much as possible at this time.
 
 
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
@@ -95,6 +125,8 @@ https://github.com/weld-project/weld
 
 ## Tutorials
 
+[Rust on YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
+
 [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
 
 [Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
@@ -102,6 +134,16 @@ https://github.com/weld-project/weld
 https://github.com/rust-unofficial/awesome-rust
 
 ## References
+
+- https://users.rust-lang.org/
+
+- https://internals.rust-lang.org/
+
+- https://play.rust-lang.org/
+
+- https://docs.rs/
+
+- [The Rust Standard Library](https://doc.rust-lang.org/stable/std/)
 
 - [Are We Web Yet](http://www.arewewebyet.org/)
 
