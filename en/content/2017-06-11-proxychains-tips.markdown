@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 09:04:03
+Date: 2020-11-30 14:34:01
 Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
@@ -97,14 +97,13 @@ socks5     proxy_ip_3 1080
 
 ## Tricks and Traps 
 
-1. It is suggested that you use IP addresses instead of URL names when configuring ProxyChains. 
-    The reason is that IP addresses always work while URL names might not work if all the following situations are met.
-
-    - The proxy is for internal use in an enterprise, which is often the case.
-
-    - You use ProxyChains in a Docker container and forget to configure DNS for your Docker container.
-
-    Notably, `127.0.0.1` is preferred over `localhost`.
+1. ProxyChains supports only `IP PORT` but not `DNS_NAME PORT` now.
+    Notably, 
+    `127.0.0.1` is OK but not `localhost`.
+    For more details, 
+    please refer to the issue 
+    [How to specify server by DOMAIN PORT not IP PORT?](https://github.com/rofl0r/proxychains-ng/issues/246)
+    .
 
 2. There is no special requirement on the SSH configuration file (`$HOME/.ssh/config`).
 
