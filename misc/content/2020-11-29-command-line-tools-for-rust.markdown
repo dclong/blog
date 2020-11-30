@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: command-line-tools-for-rust
 Title: Command-Line Tools for Rust
 Category: Computer Science
-Tags: Computer Science
+Tags: Computer Science, programming, Rust, command, line, tool, command-line
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
