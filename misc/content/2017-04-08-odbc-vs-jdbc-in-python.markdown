@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-24 09:42:37
+Date: 2020-11-30 12:06:09
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
@@ -20,7 +20,7 @@ Please read with your own judgement!
     Python has better ODBC support than JDBC support.
     Most database related packages in Python support or rely on ODBC.
     Currently, 
-    ODBC packages also have richer feathers than JDBC packages.
+    ODBC packages also have richer features than JDBC packages.
     However,
     it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata),
     in which situations JDBC is more convenient.
