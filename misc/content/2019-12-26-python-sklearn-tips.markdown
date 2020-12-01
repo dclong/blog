@@ -1,16 +1,10 @@
 Status: published
-Date: 2019-12-27 22:57:54
+Date: 2020-12-01 10:06:27
 Author: Benjamin Du
 Slug: python-sklearn-tips
 Title: Tips on Scikit-Learn
 Category: AI
 Tags: AI, data science, machine learning, Scikit-learn, sklearn, pipeline
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
