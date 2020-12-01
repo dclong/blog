@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-29 23:54:05
+Date: 2020-12-01 00:01:16
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -44,6 +44,17 @@ https://doc.rust-lang.org/stable/std/iter/struct.Map.html
 It doesn't seem to be as powerful/smart as Scala. 
 It is suggested that you write types as much as possible at this time.
 
+## Types
+
+Rust is very picky about data types.
+For example, 
+the modulus operation `%` is only define for integers with the same type.
+For more discussion,
+please refer to
+[RFC: implement Rem for all equally signed integers where RHS < LHS](https://github.com/rust-lang/rfcs/pull/2643)
+.
+
+## Misc
 
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
 summarizes good/bad/ugly things about Rust.
