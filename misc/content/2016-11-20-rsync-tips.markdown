@@ -52,6 +52,20 @@ Please read with your own judgement!
         :::bash
         rsync -a --relative /new/x/./y/z/ user@remote:/pre_existing/dir/
 
+4. You can use `rsync` to sync between 2 local directories/files 
+    or to sync between a remote server and the local host.
+    You cannot use `rsync` to directly rsync between 2 remote servers.
+    However, 
+    this is archivable (indirectly) uisng SSH.
+    For example, 
+    the following command logs into a server named `vm1.example.com` using SSH 
+    and then use `rsync` to synchronize the directory `/workdir/` on the server `vm2.example.com`
+    to the directory `/workdir/` on the server `vm1.example.com` (which is the local machine of `rsync`).
+
+        :::bash
+        ssh vm1.example.com rsync -avh --info=progress2 --delete vm2.example.com:/workdir/ /workdir/ \
+            > backup.log 2> backup.err
+
 ## Examples
 
 1. Disable strickt host key checking. 

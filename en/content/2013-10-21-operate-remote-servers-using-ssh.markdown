@@ -67,6 +67,16 @@ Tags: tips, SSH, software, remote, Linux, ControlMaster, ControlPersist, ProxyCo
     settings passwords for SSH keys might causes problems to other applicatons 
     (e.g., keyring management, cron jobs, duplicity, etc.) rely on SSH.
 
+5. You can use SSH to run commands on a remote server in non-interactive mode.
+    For example, 
+    the following command logs into a server named `vm1.example.com` using SSH 
+    and then use `rsync` to synchronize the directory `/workdir/` on the server `vm2.example.com`
+    to the directory `/workdir/` on the server `vm1.example.com` (which is the local machine of `rsync`).
+
+        :::bash
+        ssh vm1.example.com rsync -avh --info=progress2 --delete vm2.example.com:/workdir/ /workdir/ \
+            > backup.log 2> backup.err
+
 ## Multiplexing / ControlMaster
 
 1. The `ControlMaster auto` option can be used to allow SSH reuse an existing connection.
