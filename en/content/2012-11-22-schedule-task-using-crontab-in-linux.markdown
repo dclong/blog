@@ -1,11 +1,17 @@
-UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2020-10-18 15:33:01
+Date: 2020-12-01 23:55:02
 Slug: schedule-task-using-crontab-in-linux
 Author: Ben Chuanlong Du
 Title: Schedule Task Using Crontab in Linux
 Category: OS
 Tags: task, crontab, schedule, linux, scheduling, AirFlow
+
+
+Note: Crontab is great for simple scheduling requests. 
+For complicated scheduling with many dependencies 
+you probably want to go with 
+[AirFlow](http://www.legendu.net/misc/blog/apache-airflow-tips)
+.
 
 1. There are 6 fields that you need to fill for a task to be schedule: 
     `m`, `h`, `dom`, `mon`, `dow` and `command`,
@@ -95,11 +101,6 @@ You can use the following command to check crontab logs on Ubuntu.
 ```
 sudo cat /var/log/syslog | grep cron
 ```
-
-## Crontab vs AirFlow
-
-Crontab is great for simple scheduling requests. 
-For complicated scheduling with many dependencies you probably want to go with AirFlow.
 
 ## References
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-25 16:25:30
+Date: 2020-12-01 23:57:43
 Author: Ben Chuanlong Du
 Title: Job Scheduling and Management Using Apache Airflow
 Slug: apache-airflow-tips
@@ -64,6 +64,17 @@ Below is an example of `my.cnf`.
 5. Start a scheduler.
 
         airflow scheduler -D
+
+## Tips and Traps
+
+1. Just place your Python script which defines a DAG into the directory `AIRFLOW_HOME/dags/`
+    and AirFlow will pick it up automatically.
+
+2. Avoid defining tasks using the BashOperator.
+    Some bash commands (e.g., `rsync`) might return the error code 0 
+    even if it essentially succeeds.
+    It is quite challenge to handle exceptions/error code of shell command
+    to ingore non-critical errors.
 
 ## References
 
