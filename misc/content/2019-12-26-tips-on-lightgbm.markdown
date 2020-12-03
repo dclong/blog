@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-11 11:26:10
+Date: 2020-12-03 01:26:29
 Author: Benjamin Du
 Slug: tips-on-lightgbm
 Title: Tips on LightGBM
@@ -37,7 +37,10 @@ Please read with your own judgement!
 [Parameters](https://lightgbm.readthedocs.io/en/latest/Parameters.html#parameters)
 [Metric Parameters](https://lightgbm.readthedocs.io/en/latest/Parameters.html#metric-parameters)
 
-## Parameter Tuning
+## Hyper Parameter Tuning
+
+[Optuna](http://www.legendu.net/misc/blog/tips-on-optuna)
+is a good framework for tuning hyper parameters.
 
 https://sites.google.com/view/lauraepp/parameters
 
