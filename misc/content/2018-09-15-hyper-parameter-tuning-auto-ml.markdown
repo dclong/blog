@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-20 09:46:33
+Date: 2020-12-04 12:29:38
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
@@ -24,7 +24,13 @@ k-fold
 
 ## Libraries
 
+### [Optuna](https://github.com/optuna/optuna)
+
 ### auto-sklearn
+
+### [Ludwig](https://github.com/uber/ludwig)
+
+Ludwig is a toolbox that allows to train and evaluate deep learning models without the need to write code.
 
 ### [autogluon](https://github.com/awslabs/autogluon)
 
