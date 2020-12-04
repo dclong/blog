@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-27 14:34:31
+Date: 2020-12-02 21:55:44
 Author: Ben Chuanlong Du
 Slug: python-pandas-tips
 Title: Python pandas Tips
@@ -21,7 +21,7 @@ pd.set_option('display.max_columns', 1000)
 pd.set_option('display.max_colwidth', 100)
 ```
 
-## Tips
+## Tips and Traps
 
 1. Avoid using column/element names that conflict with pandas internal member names,
     otherwise you will not be able to access the column/element using the dot syntax.
@@ -72,5 +72,7 @@ pd.set_option('display.max_colwidth', 100)
     like what the `fixed=True` options does for regular expression related functions in R?
 
 ## References 
+
+[Frequently Asked Questions (FAQ)](https://pandas.pydata.org/pandas-docs/stable/user_guide/gotchas.html)
 
 https://www.youtube.com/watch?v=tcRGa2soc-c
