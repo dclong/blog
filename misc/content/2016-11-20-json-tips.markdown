@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-01 15:12:28
+Date: 2020-12-04 14:05:59
 Author: Ben Chuanlong Du
 Title: Tips on JSON
 Slug: json-tips
@@ -23,7 +23,8 @@ Please read with your own judgement!
 ## JSON Parsing Libraries in Python
 
 1. [orjson](https://github.com/ijl/orjson) 
-    is a great JSON parsing library for Python.
+    is currently the best JSON parsing library for Python.
+    It is very fast and is able handle large (<10G) JSON files.
 
 2. [simdjson](https://github.com/simdjson/simdjson)
     is a C++ library for parsing JSON 
@@ -33,6 +34,8 @@ Please read with your own judgement!
     [simdjson](https://github.com/simdjson/simdjson)
     .
     It is another good choice of JSON parsing library for Python.
+    However, 
+    simdjson is unable to handle JSON files larger than 10G.
 
 
 ### [orjson](https://github.com/ijl/orjson) 

@@ -4,7 +4,7 @@ Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml
 Category: AI
-Tags: AI, machine learning, framework, AutoML, mlflow
+Tags: AI, machine learning, framework, AutoML, mlflow, Lugwid, Optuna, turicreate, PyCaret
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -32,13 +32,6 @@ k-fold
 
 Ludwig is a toolbox that allows to train and evaluate deep learning models without the need to write code.
 
-### [autogluon](https://github.com/awslabs/autogluon)
-
-AutoGluon automates machine learning tasks enabling you 
-to easily achieve strong predictive performance in your applications. 
-With just a few lines of code, 
-you can train and deploy high-accuracy deep learning models on tabular, image, and text data.
-
 ### [turicreate](https://github.com/apple/turicreate)
 
 Turi Create simplifies the development of custom machine learning models. 
@@ -62,6 +55,13 @@ that can be used to perform complex machine learning tasks with only few lines o
 PyCaret is essentially a Python wrapper 
 around several machine learning libraries and frameworks 
 such as `scikit-learn`, `XGBoost`, `Microsoft LightGBM`, `spaCy` and many more. 
+
+### [autogluon](https://github.com/awslabs/autogluon)
+
+AutoGluon automates machine learning tasks enabling you 
+to easily achieve strong predictive performance in your applications. 
+With just a few lines of code, 
+you can train and deploy high-accuracy deep learning models on tabular, image, and text data.
 
 ### Apache Ray Tune
 
