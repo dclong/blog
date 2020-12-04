@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-24 10:36:47
+Date: 2020-12-03 21:56:32
 Author: Ben Chuanlong Du
 Slug: special-characters-to-avoid
 Title: Special Characters to Avoid in Strings
@@ -28,7 +28,7 @@ It is more for a good-practice suggestion.
         Spaces in paths might cause issues in Shell
         as paths have to be quoted in double/single strings.
         However,
-        some Shell commands/applications might handle this well.
+        some Shell commands/applications might not handle this well.
     - dollar signs (`$`)  
         The dollar sign (`$`) has special meanings in various places (e.g., in Shell).
     - double quotes (`"`)  
