@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-20 23:52:35
+Date: 2020-12-03 23:44:48
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -31,7 +31,7 @@ Please read with your own judgement!
 
     :::bash
     wajig install iptables 
-    pip3 install shuttle
+    pip3 install sshuttle
 
 ## Configuration 
 
