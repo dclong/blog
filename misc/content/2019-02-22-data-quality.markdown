@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-11-19 09:15:07
+Date: 2020-12-07 08:54:40
 Author: Benjamin Du
 Slug: data-quality
 Title: Data Quality
 Category: Computer Science
-Tags: database, big data, data quality, data check, data profiling
+Tags: database, big data, data quality, data check, data profiling, data validation, validation
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -24,6 +24,12 @@ Please read with your own judgement!
 - Wherever data comes from, whether it is flat files, IPs, users, etc. This should all be tracked. Especially if it is specific files. 
     If your team finds out that the data from a specific file was inaccurate. 
     Then it would want to remove it. If you have tracked what file the data came from, this is easy.
+
+## Data Validation Tools
+
+### [voluptuous](https://github.com/alecthomas/voluptuous)
+[voluptuous](https://github.com/alecthomas/voluptuous)
+is a Python data validation library.
 
 ## Useful Libraries
 
