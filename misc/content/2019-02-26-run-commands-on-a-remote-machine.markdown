@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 22:22:19
+Date: 2020-12-06 23:21:30
 Author: Benjamin Du
 Slug: run-commands-on-remote-machines
 Title: Run Commands on Remote Machines
@@ -46,6 +46,8 @@ It is a great tool to interact with a remote server in Python.
 ### [asyncssh](https://github.com/ronf/asyncssh)
 
 ### [ssh2-python](https://github.com/ParallelSSH/ssh2-python)
+[ssh2-python](https://github.com/ParallelSSH/ssh2-python)
+is a super fast Python SSH library based on `libssh2` C library.
 
 ### [sshtunnel](https://github.com/pahaz/sshtunnel)
 
