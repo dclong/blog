@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-03 09:17:08
+Date: 2020-12-09 08:43:45
 Author: Ben Chuanlong Du
 Slug: working-with-spreadsheet-with-python
 Title: Working With Spreadsheet with Python
@@ -11,6 +11,17 @@ Things on this page are
 fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## pandas
+
+If you just want to read an Excel spreadsheet to a pandas DataFrame 
+or write a pandas DataFrame to an Excel file, 
+it is best to use the pandas library directly.
+
+## [openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
+
+[openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
+is the underlying library that pandas leverages for reading/writing Excel files.
 
 ## [xlsxwriter](https://github.com/jmcnamara/XlsxWriter)
 [xlsxwriter](https://github.com/jmcnamara/XlsxWriter)
