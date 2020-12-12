@@ -11,10 +11,7 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## [parallel-ssh](https://github.com/ParallelSSH/parallel-ssh)
 
-## [Paramiko](https://github.com/paramiko/paramiko)
+[Run Commands on Remote Machines](http://www.legendu.net/misc/blog/run-commands-on-remote-machines)
 
 ## [psutil](https://github.com/giampaolo/psutil)
-
-## [Ansible](http://www.legendu.net/misc/blog/ansible-tips/)
