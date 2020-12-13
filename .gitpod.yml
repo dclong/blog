@@ -1,4 +1,4 @@
-image: dclong/gitpod:091008
+image: dclong/gitpod
 ports:
   - port: 8888
 tasks:
