@@ -1,6 +1,0 @@
-pelican 
-pelican-jupyter
-pelican-render-math
-beautifulsoup4 
-typogrify
-git+https://github.com/dclong/dsutil@main
