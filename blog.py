@@ -12,6 +12,7 @@ from pathlib import Path
 import json
 import itertools
 import subprocess as sp
+from tqdm import tqdm
 EN = "en"
 CN = "cn"
 HOME = "home"
@@ -508,7 +509,7 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        for path in self.iter_content():
+        for path in tqdm(list(self.iter_content())):
             if path.suffix in (MARKDOWN, IPYNB):
                 self._load_post(Post(path))
         self.commit()
