@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-18 22:56:13
+Date: 2020-12-19 15:31:10
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -68,7 +68,7 @@ is a multi-user server for Jupyter notebooks.
 
 ### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
 
-### [jupyter-resource-usage](https://github.com/jupyter-server/jupyter-resource-usage)
+### [jupyterlab-system-monitor](https://github.com/jtpio/jupyterlab-system-monitor)
 
 ### [Jupyter/Lab Extensions for Spreadsheet](http://www.legendu.net/misc/blog/jupyterlab-extensions-for-spreadsheet/)
 

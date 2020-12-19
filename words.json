@@ -42,7 +42,7 @@
     ["Aerofs", "AeroFS"], ["Btsync", "BTSync"], ["Centos", "CentOS"], 
     ["Etrade", "eTrade"], ["Ffmpeg", "FFmpeg"], ["Github", "GitHub"], 
     ["Mkdocs", "mkdocs"], 
-    ["Nodejs", "NodeJS"],
+    ["Neovim", "NeoVim"], ["Nodejs", "NodeJS"],
     ["Opencv", "OpenCV"],
     ["Ulimit", "ulimit"],
     ["Pyodbc", "pyodbc"], ["Pypdf2", "PyPDF2"], ["Pyyaml", "PyYAML"], ["Pytype", "pytype"], 
