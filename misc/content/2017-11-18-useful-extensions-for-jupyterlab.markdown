@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-11 11:47:18
+Date: 2020-12-18 22:56:13
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -29,7 +29,7 @@ Enable an installed Jupyter/Lab extension.
     :::bash
     jupyter serverextension enable --py jupyterlab_code_formatter
 
-Disable an istallledd Jupyter/Lab extension.
+Disable an installed Jupyter/Lab extension.
 
     :::bash
     jupyter serverextension disable --py jupyterlab_code_formatter
@@ -67,6 +67,8 @@ is a multi-user server for Jupyter notebooks.
 ## Useful Extensions for JupyterLab
 
 ### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
+
+### [jupyter-resource-usage](https://github.com/jupyter-server/jupyter-resource-usage)
 
 ### [Jupyter/Lab Extensions for Spreadsheet](http://www.legendu.net/misc/blog/jupyterlab-extensions-for-spreadsheet/)
 
