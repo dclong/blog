@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-17 09:56:10
+Date: 2020-12-20 00:25:59
 Author: Ben Chuanlong Du
 Slug: general-programming-tips
 Title: General Tips on Programming
@@ -36,3 +36,12 @@ Please read with your own judgement!
     and can be tricky to debug sometimes (e.g., if randomization is used in a loop).
     It is suggested that you avoid using plain for/while loops if possible
     and use high-level alternatives such as `forEach`, `map`, `filter`, etc.
+
+5. Any initialization that might involve network, etc. 
+    which might either fail or take a long time
+    should be delayed as much as possible.
+    For example,
+    if you define command-line options using the library `argparse`
+    and a default value might take a long time to run,
+    it is better to set the defautl value to `None` 
+    and then calculalte the default value when the corresponding command is called.
