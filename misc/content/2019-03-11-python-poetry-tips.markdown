@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-13 14:42:34
+Date: 2020-12-20 11:53:58
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -28,6 +28,13 @@ Please read with your own judgement!
 
         :::bash
         poetry add git+ssh://git@github.com/chdu/dsutil
+
+3. `poetry install` removes non needed libraries. 
+    A tricky situation is that if you have dependency A 
+    which depends on dependency B,
+    and you have specified both A and B in `pyproject.toml`.
+    Removing dependency B from `pyrpoject.toml` and then running `poetry install` 
+    won't remove the library B from the virtual environment as B is still needed by A.
 
 ## Install Python Poetry
 
