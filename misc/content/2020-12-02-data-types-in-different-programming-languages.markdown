@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 01:02:49
+Date: 2020-12-20 12:39:39
 Author: Benjamin Du
 Slug: data-types-in-different-programming-languages
 Title: Data Types in Different Programming Languages
@@ -10,16 +10,6 @@ Tags: Computer Science, programming, type, data type, primitive, pandas, pyarrow
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
-
-[Overview of Pandas Data Types](https://pbpython.com/pandas_dtypes.html)
-
-http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_datatypes_general.asp.html
-
-https://spark.apache.org/docs/latest/sql-ref-datatypes.html
-
-https://numpy.org/devdocs/user/basics.types.htmlo
-
-https://arrow.apache.org/docs/python/generated/pyarrow.decimal128.html
 
 decimal(n, k), tinyint, bigint, int, double, float, etc.
 
@@ -59,3 +49,13 @@ decimal(n, k), tinyint, bigint, int, double, float, etc.
 
 
 ## References 
+
+[Overview of Pandas Data Types](https://pbpython.com/pandas_dtypes.html)
+
+http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/sql/sql_datatypes_general.asp.html
+
+https://spark.apache.org/docs/latest/sql-ref-datatypes.html
+
+https://numpy.org/devdocs/user/basics.types.htmlo
+
+https://arrow.apache.org/docs/python/generated/pyarrow.decimal128.html
