@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-02-20 11:51:11
+Date: 2020-12-20 17:58:02
 Title: Tips on Git
 Slug: git-tips
 Category: Software
@@ -315,6 +315,7 @@ What is corkscrew?
 
 ## References
 
+- [Git reset, revert and rebase commands](https://opensource.com/article/18/6/git-reset-revert-rebase-commands)
 - [Git Documentation](http://git-scm.com/documentation)
 - [Using Git to manage a web site](http://toroid.org/ams/git-website-howto)
 - [A web-focused Git workflow](http://joemaller.com/990/a-web-focused-git-workflow/)
