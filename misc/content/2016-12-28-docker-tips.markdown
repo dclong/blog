@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-09 09:38:26
+Date: 2020-12-20 21:07:39
 Author: Ben Chuanlong Du
 Slug: links-docker
 Title: General Tips for Docker
@@ -28,6 +28,15 @@ https://phoenixnap.com/kb/docker-run-override-entrypoint
 
 How to remove entrypoint from parent Image on Dockerfile
 https://stackoverflow.com/questions/40122152/how-to-remove-entrypoint-from-parent-image-on-dockerfile/40122359
+
+## Init Process
+
+--init	
+Run an init inside the container that forwards signals and reaps processes
+
+https://docs.docker.com/engine/reference/commandline/run/
+
+https://github.com/krallin/tini
 
 
 

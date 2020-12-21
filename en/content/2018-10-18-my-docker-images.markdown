@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 16:51:28
+Date: 2020-12-21 10:07:40
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -393,10 +393,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
         - [dclong/conda-yarn](https://hub.docker.com/r/dclong/conda-yarn/)  
 
-    - [dclong/tdodbc](https://hub.docker.com/r/dclong/tdodbc/)  
-
-        - [dclong/tdodbc-py](https://hub.docker.com/r/dclong/tdodbc-py/)  
-
     - [dclong/python](https://hub.docker.com/r/dclong/python/)  
 
         > Python 3.8.x  
@@ -520,13 +516,4 @@ in the GitHub repository
 
 ## Known Issues 
 
-1. The subprocess managment issue.
-    This is not an issue at all in most use cases.
-    This Docker image launch service using a shell script
-    so there won't be orphan subprocesses
-    when the process of the Docker container is killed.
-    However, launching by shell script is not the best way for managing processes.
-    Please refer to [A Simple Init System](https://blog.phusion.nl/2015/01/20/docker-and-the-pid-1-zombie-reaping-problem/#asimpleinitsystem)
-    for more details.
-    I might switch to the [Supervisor](https://github.com/Supervisor/supervisor) for process management
-    or use the base image of [pushion/baseimage](https://hub.docker.com/r/phusion/baseimage/) in future.
+There are no known issues at this time.

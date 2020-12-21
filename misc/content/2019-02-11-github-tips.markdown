@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-18 21:48:40
+Date: 2020-12-21 10:19:11
 Author: Benjamin Du
 Slug: github-tips
 Title: Tips on GitHub
@@ -42,6 +42,10 @@ https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
 ## [Connect JIRA Cloud to GitHub](https://confluence.atlassian.com/adminjiracloud/connect-jira-cloud-to-github-814188429.html)
 
 ## References
+
+[GitHub Support Community](https://github.community/)
+
+[GitHub Support - Feedback](https://support.github.com/contact/feedback)
 
 https://stackoverflow.com/questions/26372417/github-oauth2-token-how-to-restrict-access-to-read-a-single-private-repo
 
