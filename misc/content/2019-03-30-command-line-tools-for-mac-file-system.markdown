@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-26 11:20:06
+Date: 2020-12-22 10:35:29
 Author: Benjamin Du
 Slug: command-line-tools-for-mac-file-system
 Title: Command Line Tools for Mac File System
@@ -33,26 +33,34 @@ for the Linux version.
 
 3. List disk information.
 
+        :::bash
         diskutil list
+
+4. Unmount a volume.
+
+        :::bash
+        diskutil unmount /path/to/mounted/volume
 
 2. Management disk partition tables.
 
-        fdisk.
+        :::bash
+        fdisk
 
 3. Format disk partitions.
 
+        :::bash
         newfs_ext4 /dev/sd3 /path_to_mount_in
-
         newfs_ntfs /dev/sd3 /path_to_mount_in
-
         newfs_exfat /dev/sd3 /path_to_mount_in
 
 4. Report disk usage.
 
+        :::bash
         du -lhd 1 .
 
 5. dd
 
+        :::bash
         dd
 
 6. badblocks
