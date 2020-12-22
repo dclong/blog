@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-10 18:15:56
+Date: 2020-12-22 10:11:21
 Author: Benjamin Du
 Slug: access-control-in-spark-sql
 Title: Access Control in Spark SQL
@@ -56,3 +56,7 @@ If a user is granted a privilege `WITH GRANT OPTION` on a table or view,
 then the user can also grant/revoke privileges of other users and roles on those objects. 
 The grant option for a privilege can be removed 
 while still keeping the privilege by using `REVOKE GRANT OPTION FOR <privilege>`.
+
+## References 
+
+https://docs.databricks.com/spark/latest/spark-sql/language-manual/security-grant.html
