@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 13:04:04
+Date: 2020-12-22 12:08:11
 Author: Benjamin Du
 Slug: tips-on-sqlfluff
 Title: Tips on Sqlfluff
@@ -12,7 +12,6 @@ Please read with your own judgement!
 **
 
 ## Safe to fix
-1. PRS: Found unparsable section: '-- /*Select list of users to choose from...'
 2. L001: Unneccessary trailing whitespace.
 3. L008: Commas should be followed by a single whitespace unless followed by a comment.
 
@@ -20,3 +19,7 @@ Please read with your own judgement!
 ## Ignore 
 
 L:  75 | P:   5 |  LXR | Unable to lex characters: ''${candidat'...'
+
+## Parsing Error
+
+1. PRS: Found unparsable section: '-- /*Select list of users to choose from...'
