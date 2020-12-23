@@ -30,7 +30,7 @@ Please read with your own judgement!
 
 ## JDBC
 
-1. JayDeBeApi
+1. JDBC + pyarrow.jvm
 
 ## CLIv2
 
