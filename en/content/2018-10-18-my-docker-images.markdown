@@ -459,7 +459,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
                                     > scikit-learn lightgbm 
                                     > graphviz matplotlib bokeh holoviews[recommended] hvplot
                                     > tabulate  
-                                    > JayDeBeApi sqlparse 
+                                    > JPype1 sqlparse 
                                     > requests[socks] lxml notifiers
                                     > dsutil
 
