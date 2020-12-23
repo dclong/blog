@@ -40,13 +40,8 @@ Arrow Flight is the future!
 
 ## JDBC Packages in Python
 
-1. [JayDeBeApi](https://github.com/baztian/jaydebeapi)
-    is currently the first choice 
-    even thought it is not fully DB-API compliant
-    and not very actively maintained.
-
-2. [Fast JDBC access in Python using pyarrow.jvm](https://uwekorn.com/2019/11/17/fast-jdbc-access-in-python-using-pyarrow-jvm.html)
-    claims that `pyarrow.jvm` is about 100x faster than `JayDeBeApi`.
+1. [JDBC + pyarrow.jvm](https://uwekorn.com/2019/11/17/fast-jdbc-access-in-python-using-pyarrow-jvm.html)
+    is currently the best way to query SQL databases. 
 
 4. PyAthenaJDBC is a JDBC package specifically for Amazon Athena.
 
@@ -72,8 +67,6 @@ Arrow Flight is the future!
 2. sqlite3
 
 3. [jreese/aiosqlite](https://github.com/jreese/aiosqlite)
-
-3. [JayDeBeApi](https://github.com/baztian/jaydebeapi): connect to databases using Java JDBC in Python.
 
 4. PyMySQL, MySQLdb
 
