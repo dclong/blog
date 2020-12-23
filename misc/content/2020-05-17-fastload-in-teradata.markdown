@@ -51,7 +51,7 @@ Teradata SQL does not support `VALUES` with multiple rows in a `INSERT` statemen
         ps.setString(4, desc);
         ps.executeUpdate();
 
-    In a [DB-API](https://www.python.org/dev/peps/pep-0249/) compatible Python module (e.g., JayDeBeApi),
+    In a [DB-API](https://www.python.org/dev/peps/pep-0249/) compatible Python module,
     you call use the method [execute](https://www.python.org/dev/peps/pep-0249/#id15)
     on a parameterized query with a list/tuple of parameters.
 
@@ -82,7 +82,7 @@ Teradata SQL does not support `VALUES` with multiple rows in a `INSERT` statemen
 			ps.executeBatch(); // sends all the batched rows to the database
 		}
 
-    In a [DB-API](https://www.python.org/dev/peps/pep-0249/) compatible Python module (e.g., JayDeBeApi),
+    In a [DB-API](https://www.python.org/dev/peps/pep-0249/) compatible Python module,
     you call use the method [executemany](https://www.python.org/dev/peps/pep-0249/#executemany)
     on a parameterized query with a list/tuple of list/tuple of parameters.
 
