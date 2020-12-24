@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-01 00:01:16
+Date: 2020-12-23 22:48:17
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -10,6 +10,34 @@ Tags: programming, Rust, tips, Cargo, rustup
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## Installation 
+
+### Official Doc
+
+https://www.rust-lang.org/tools/install
+
+### Using xinstall
+
+xinstall rustup -ic
+
+### Install a Newer Version of Rust via PPA on Ubuntu
+
+    :::bash
+    sudo apt-add-repository ppa:ubuntu-mozilla-security/rust-updates
+    sudo apt-get update
+    sudo apt-get install rustc
+
+### Install Rust for Multiple Users
+
+[Installing rustup for all linux users](https://github.com/rust-lang/rustup/issues/1085)
+
+[Does rustup.rs support shared .multirust (or whatever) directory?](https://github.com/rust-lang/rustup/issues/313)
+
+[Add Document of "How to Install Rust Environment for Multiple Users on Linux?"](https://github.com/rust-lang/rustup/issues/2383)
+
+
+## Syntax
 
 !, ?, 
 
@@ -59,7 +87,6 @@ please refer to
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
 summarizes good/bad/ugly things about Rust.
 
-xinstall rustup -ic
 
 Cargo: package manager for Rust
 
@@ -93,14 +120,6 @@ rustc: compiler for Rust
 5. '&' vs `&mut`
 
 6. `assert_eq!`
-
-## Install Rust for Multiple Users
-
-[Installing rustup for all linux users](https://github.com/rust-lang/rustup/issues/1085)
-
-[Does rustup.rs support shared .multirust (or whatever) directory?](https://github.com/rust-lang/rustup/issues/313)
-
-[Add Document of "How to Install Rust Environment for Multiple Users on Linux?"](https://github.com/rust-lang/rustup/issues/2383)
 
 ## Rust IDE
 
