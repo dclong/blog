@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-21 10:07:40
+Date: 2020-12-26 12:20:23
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -8,21 +8,21 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
 
 ## Tips
 
-1. Most of my Docker images has 2 main tags `latest` and `next`. 
+1. Most of my Docker images has 3 main tags `latest`, `next` and `debian`. 
     The `latest` tag corresponds to the most recent stable version of the Docker image
     while the `next` tag corresponds to the most recent testing version of the Docker images.
-    Some of my Docker images has another main tag `debian`.
     Docker images with the `latest` or `next` tag are based on Ubuntu LTS (or newer if necessary)
     while Docker images with the `debian` tag are based on on Debian testing.
-    It is for some rare situations where a new version of some software is required
+    The `debian` tag is for some rare situations where a new version of some software is required
     while it is hard to get it work in Ubuntu LTS or even newer release. 
     For example,
-    [dclong/jupyterhub-ds:debian_111510](https://github.com/dclong/docker-jupyterhub-ds)
+    [dclong/jupyterhub-ds:debian](https://github.com/dclong/docker-jupyterhub-ds)
     has a valid Rust kernel for JupyterLab
-    while a Rust kernel might not exists in 
+    while a Rust kernel might not exists or might not work in 
     [dclong/jupyterhub-ds](https://github.com/dclong/docker-jupyterhub-ds)
     or
     [dclong/jupyterhub-ds:next](https://github.com/dclong/docker-jupyterhub-ds)
+    due to installation issues on Ubuntu (LTS).
     .
     Generally speaking,
     the `latest` (the default when you do not specify a tag) is recommended for most users. 
