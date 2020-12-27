@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-26 12:20:23
+Date: 2020-12-27 10:55:15
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -169,15 +169,19 @@ except that it limits the use of CPU and memory.
         -v `dirname $HOME`:/home_host \
         dclong/jupyterhub-ds /scripts/sys/init.sh
 
-## Debug Docker Containers
+## Use the JupyterHub Server
 
-You can change the option `docker run -d ...` to `docker run -it ...` 
-to show logs of processes in the Docker container which helps debugging. 
-If you have already started a Docker container using `docker run -d ...`,
-you can use the command 
-[docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
-to get the log of the container
-(which contains logs of all processes in it).
+1. Open your browser and and visit `your_host_ip:8000`
+    where `your_host_ip` is the URL/ip address of your server.
+
+2. Login to the JupyterHub server 
+    using your user name (by default your user name on the host machine)
+    and password (by default your user name on the host machine). 
+
+3. It is strongly suggested (for security reasons) that you change your password (using the command `passwd`)
+    in the container.
+
+4. Enjoy JupyterLab notebook!
 
 ## Get Information of Running Jupyter/Lab Servers
 
@@ -219,20 +223,6 @@ to find the tokens of the running Jupyter/Lab servers,
 no matter you are root or the user that launches the Docker/JupyterLab server,
 and no matter you are inside the Docker container or not.
 
-
-## Use the JupyterHub Server
-
-1. Open your browser and and visit `your_host_ip:8000`
-    where `your_host_ip` is the URL/ip address of your server.
-
-2. Login to the JupyterHub server 
-    using your user name (by default your user name on the host machine)
-    and password (by default your user name on the host machine). 
-
-3. It is strongly suggested (for security reasons) that you change your password (using the command `passwd`)
-    in the container.
-
-4. Enjoy JupyterLab notebook!
 
 ## Add a New User to the JupyterHub Server
 
@@ -294,6 +284,16 @@ Install the ITypeScript kernel.
 Many other software/tools can be easily install by xinstall.
 Please refer to [dclong/xinstall](https://github.com/dclong/xinstall)
 for more details.
+
+## Debug Docker Containers
+
+You can change the option `docker run -d ...` to `docker run -it ...` 
+to show logs of processes in the Docker container which helps debugging. 
+If you have already started a Docker container using `docker run -d ...`,
+you can use the command 
+[docker logs](https://docs.docker.com/engine/reference/commandline/logs/)
+to get the log of the container
+(which contains logs of all processes in it).
 
 ## Use Spark in JupyterLab Notebooks
 
