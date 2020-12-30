@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-05 23:52:58
+Date: 2020-12-30 12:43:37
 Author: Benjamin Du
 Slug: tips-on-feature-engineering-for-machine-learning
 Title: Tips on Feature Engineering for Machine Learning
@@ -40,6 +40,21 @@ https://en.wikipedia.org/wiki/Feature_hashing
 https://medium.com/value-stream-design/introducing-one-of-the-best-hacks-in-machine-learning-the-hashing-trick-bf6a9c8af18f
 
 https://booking.ai/dont-be-tricked-by-the-hashing-trick-192a6aae3087
+
+## Useful Libraries
+
+### [FeatureTools](https://github.com/alteryx/featuretools)
+[FeatureTools](https://github.com/alteryx/featuretools)
+is an open source Python library for automated feature engineering.
+
+### [compose](https://github.com/alteryx/compose)
+[compose](https://github.com/alteryx/compose)
+is a machine learning tool for automated prediction engineering. 
+It allows you to easily structure prediction problems and generate labels for supervised learning.
+
+### [tsfresh](https://github.com/blue-yonder/tsfresh)
+[tsfresh](https://github.com/blue-yonder/tsfresh)
+is a tool for automatic extraction of relevant features from time series.
 
 ## References
 

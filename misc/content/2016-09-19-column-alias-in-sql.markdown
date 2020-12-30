@@ -1,8 +1,8 @@
 Status: published
 Date: 2020-11-14 20:37:13
 Author: Ben Chuanlong Du
-Slug: column-alias-in-sql
-Title: Column Alias in SQL
+Slug: use-column-alias-in-sql
+Title: Use Column Alias in SQL
 Category: Computer Science
 Tags: programming, SQL, column alias, Teradata, Oracle
 
@@ -37,8 +37,33 @@ Please read with your own judgement!
     For those SQL variants which do not support using a column alias
     in `where`, `group by`, `having`, window functions or `qualify`,
     you can use subqueries instead.
-    In some situations, 
-    Spark SQL has an extra use DataFrame APIs which does not run into column alias issues.
+
+2. Spark/Hive SQL does not support using column aliases 
+    in `where`, `group by`, `having` or window functions.
+    However, 
+    column aliases can be used in Spark DataFrame APIs 
+    as long as it is used in a subsequent method invoke.
+    For example,
+    the following code does not work in PySpark 
+    because the column alias `new_column_alias` is used in the same method invoke.
+
+        :::python
+        df.select(
+            col("col1").alias("new_column_alias"),
+            (col("new_column_allias") + 1).alias("another_column_alias")
+        )
+
+    However,
+    the following code works 
+    as the column alias `new_colun_alias` is used in a subsequent method invoke.
+
+        :::python
+        df.select(
+            col("col1").alias("new_column_alias")
+        ).withColumn("another_column_alias", col("new_column_alias") + 1)
+
+    Since Spark SQL and DataFrame APIs can be mixed together in Spark applications,
+    things become very flexible and thus convenient.
 
 2. Even if column aliases are allowed in Teradata and MySQL, 
     you should never alias to an existing column name 
