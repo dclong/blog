@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-12-19 15:16:58
+Date: 2020-12-30 13:00:12
 Author: Benjamin Du
 Slug: the-neovim-plugin-for-visual-studio-code
 Title: The NeoVim Plugin for Visual Studio Code
 Category: Computer Science
-Tags: Computer Science, Software, NeoVim, IDE, Visual Studio Code, VSCode
+Tags: Computer Science, Software, NeoVim, IDE, Visual Studio Code, VSCode, plugin, extension
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
