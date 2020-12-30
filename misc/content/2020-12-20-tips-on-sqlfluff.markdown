@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-22 12:08:11
+Date: 2020-12-30 14:01:53
 Author: Benjamin Du
 Slug: tips-on-sqlfluff
 Title: Tips on Sqlfluff
@@ -10,6 +10,10 @@ Tags: Computer Science, sqlfluff, SQL, lint, linter, format, issue, error
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## General Tips and Traps 
+
+1. SQLfluff supports Jinja template! 
 
 ## Safe to fix
 2. L001: Unneccessary trailing whitespace.
