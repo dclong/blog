@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-31 18:23:21
+Date: 2020-12-31 18:51:42
 Author: Benjamin Du
 Slug: tips-on-darglint
 Title: Tips on Darglint
@@ -24,3 +24,8 @@ Below is an example of configuration.
     [darglint]
     docstring_style=sphinx
     message_template={path}:{line}: {msg_id}: {msg}
+
+
+## References
+
+https://github.com/terrencepreilly/darglint
