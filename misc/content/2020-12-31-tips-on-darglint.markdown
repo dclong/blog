@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-31 18:51:42
+Date: 2021-01-01 11:25:33
 Author: Benjamin Du
 Slug: tips-on-darglint
 Title: Tips on Darglint
@@ -11,6 +11,11 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Tips and Traps
+
+1. It is suggested that you avoid using `darglint` directly,
+    but instead you can use `flake8`
+    which will automatically call `darglint` if it exists.
 
 ## Configuration 
 

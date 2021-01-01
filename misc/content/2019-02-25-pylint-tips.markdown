@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-22 09:52:52
+Date: 2021-01-01 11:26:33
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -11,8 +11,11 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Tips and Traps 
 
-## pylint
+[Optional Pylint checkers in the extensions module](https://docs.pylint.org/en/1.6.0/extensions.html#optional-pylint-checkers-in-the-extensions-module)
+
+## Message Control
 
 1. Show ERROR messages only.
 ```
