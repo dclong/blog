@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-01 11:25:33
+Date: 2021-01-04 10:02:09
 Author: Benjamin Du
 Slug: tips-on-darglint
 Title: Tips on Darglint
@@ -16,6 +16,8 @@ Please read with your own judgement!
 1. It is suggested that you avoid using `darglint` directly,
     but instead you can use `flake8`
     which will automatically call `darglint` if it exists.
+
+2. Improperly escaped `\n` causes `darglint` fail to parse the docstring.
 
 ## Configuration 
 

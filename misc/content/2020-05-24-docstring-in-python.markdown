@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-24 17:36:14
+Date: 2021-01-04 10:02:09
 Author: Benjamin Du
 Slug: docstring-in-python
 Title: Docstring in Python
@@ -11,7 +11,11 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-I personal prefer the sphnix style as it is concise and work well with type annotation.
+## Tips and Traps
+
+1. I personal prefer the sphnix style as it is concise and work well with type annotation.
+
+2. Improperly escaped `\n` in docstring causes `darglint` fail to parse the docstring.
 
 ![VSCode Docstring Sphinx](https://user-images.githubusercontent.com/824507/82768514-5dcc5d00-9de4-11ea-817b-41cc98e71471.png)
 

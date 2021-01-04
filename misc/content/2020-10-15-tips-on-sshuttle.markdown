@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-03 23:44:48
+Date: 2021-01-04 09:59:49
 Author: Benjamin Du
 Slug: tips-on-sshuttle
 Title: Tips on sshuttle
@@ -46,6 +46,10 @@ Please read with your own judgement!
         "11.38.26.0/24"
     ]
     }
+
+## Reverse Traffic Forwarding 
+
+[[question] "server" on the local system, "client" on the remote system?](https://github.com/sshuttle/sshuttle/issues/421)
 
 ## sshuttle in Docker 
 
