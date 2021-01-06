@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-31 11:49:29
+Date: 2021-01-06 13:57:46
 Author: Benjamin Du
 Slug: use-flake8-to-lint-python-scripts
 Title: Use Flake8 to Lint Python Scripts
@@ -12,7 +12,6 @@ Please read with your own judgement!
 **
 
 
-python3 -m flake8 --ignore E127,E501,F401,W291 dsutil
 
 ## Configration
 
@@ -27,6 +26,10 @@ Below is an example of configuration.
     ignore = C901,E501,E251,E124,E125,E722,E261,E265,W291,W292,W293
     exclude = __init__.py,docs/source/conf.py,old,build,dist,.git,__pycache__
     max-complexity = 10
+
+Please refer to the following link for an example of configuration.
+
+https://github.com/dclong/xinstall/blob/dev/xinstall/data/flake8/flake8
 
 ## References 
 
