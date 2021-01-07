@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-17 22:48:25
+Date: 2021-01-07 10:11:25
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -135,7 +135,7 @@ Please read with your own judgement!
 
 1. The trick is to use the Python library `findspark` to find and initiate Spark for use in notebook. 
 
-        :::bash
+        :::python
         import findspark
         findspark.init("/opt/spark")
         from pyspark.sql import SparkSession, DataFrame

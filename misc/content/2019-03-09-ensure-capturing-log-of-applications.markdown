@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: a-trick-to-ensure-capturing-log
 Title: Ensure Capturing Log of Applications
 Category: Computer Science
-Tags: programming, logging, rediction, exception
+Tags: programming, logging, log, redirect, redirection, exception
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -15,7 +15,7 @@ Logging is critical for debugging applications.
 For production applications,
 it is best to send log information into a file instead of the standard output
 so that the log information is persisted.
-One command way to keep log into a file is to redict standard output into a file.
+One command way to keep log into a file is to redirect standard output into a file.
 
 ```Bash
 some_command arg1 arg2 > log_file
@@ -23,8 +23,8 @@ some_command arg1 arg2 > log_file
 
 There is some issue with this approach. 
 If an exception throws in `some_command arg1 arg2`,
-no log is redicted into the log file
-as the rediction happens after `some_command` runs sucessfully.
+no log is redirected into the log file
+as the redirection happens after `some_command` runs sucessfully.
 One way to fix the issue is to let the underlying application log into files. directly 
 instead of relying on shell redirection. 
 However, 

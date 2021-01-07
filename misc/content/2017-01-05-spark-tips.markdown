@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-17 22:48:25
+Date: 2021-01-05 23:55:46
 Author: Ben Chuanlong Du
 Slug: processing-big-data-using-spark
 Title: Processing Big Data Using Spark
@@ -21,7 +21,8 @@ Please read with your own judgement!
 2. It is almost always a good idea to filter out null value in the joinining columns before joining
     no matter it is an inner join or an outer join 
     (of course if the rows containing null matters in your use case, you have to do a union of those records).
-    Spark (at least in Spark 2.3 and older) is stupid enough not to filter out joining keys/columns with null values before even INNER join.
+    Spark (at least in Spark 2.3 and older) is stupid enough not to filter out joining keys/columns with null values before even INNER join
+    (even if null values are dropped after inner join).
     This means that if a joining key/column has lots of null values, 
     it get shuffle into the same node in SortMergeJoin.
     This can cause a serious data skew issue.
