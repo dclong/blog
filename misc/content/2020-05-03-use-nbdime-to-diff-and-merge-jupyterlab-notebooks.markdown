@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-03 07:41:14
+Date: 2021-01-08 13:53:44
 Author: Benjamin Du
 Slug: use-nbdime-to-diff-and-merge-jupyterlab-notebooks
 Title: Use nbdime to Diff and Merge JupyterLab Notebooks
 Category: Computer Science
-Tags: Computer Science, JupyterLab, notebook, diff, merge, version control, nbdime
+Tags: Computer Science, JupyterLab, notebook, diff, merge, version control, nbdime, Git
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -39,6 +39,17 @@ Deregister nbdime with Git for global users.
     :::bash
     nbdime config-git --disable --global
 
+
+## Version Control Integration
+
+nbdime config-git --enable --global
+
+nbdime config-git --disable --global
+
 ## References
 
 [nbdime](https://github.com/jupyter/nbdime)
+
+http://nbdime.readthedocs.io/en/stable/
+
+http://nbdime.readthedocs.io/en/stable/vcs.html

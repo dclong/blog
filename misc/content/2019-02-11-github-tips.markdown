@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-21 10:19:11
+Date: 2021-01-08 13:41:56
 Author: Benjamin Du
 Slug: github-tips
 Title: Tips on GitHub
@@ -40,6 +40,22 @@ https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
 ## [Creating a PR Template for Your Repository](https://docs.github.com/en/github/building-a-strong-community/creating-a-pull-request-template-for-your-repository)
 
 ## [Connect JIRA Cloud to GitHub](https://confluence.atlassian.com/adminjiracloud/connect-jira-cloud-to-github-814188429.html)
+
+## Some Good Organizations and Repositories
+
+https://github.com/Meituan-Dianping
+
+https://github.com/xingshaocheng/architect-awesome#fork-destination-box
+
+https://ai.googleblog.com/
+
+https://coolshell.cn/
+
+https://brendansterne.com/
+
+https://www.raychase.net/
+
+https://www.kawabangga.com/
 
 ## References
 

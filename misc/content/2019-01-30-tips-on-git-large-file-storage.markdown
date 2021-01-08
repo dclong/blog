@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-14 14:05:22
+Date: 2021-01-08 13:46:55
 Author: Ben Chuanlong Du
 Slug: tips-for-git-large-file-storage
 Title: Git Large File Storage
@@ -28,6 +28,22 @@ for instructions on how to install git-lfs.
 1. It seems to be that git-lfs automatically tracks large files now if it is installed and enabled,
     which makes things more convenient.
 
+
+
+## Large File
+https://stackoverflow.com/questions/20002557/how-to-remove-a-too-large-file-in-a-commit-when-my-branch-is-ahead-of-master-by
+
+https://rtyley.github.io/bfg-repo-cleaner/
+
+https://github.com/rtyley/bfg-repo-cleaner
+
+Removing a file added in the most recent unpushed commit
+https://help.github.com/articles/removing-files-from-a-repository-s-history/
+
+Removing Changes
+https://stackoverflow.com/questions/1090309/git-undo-all-working-dir-changes-including-new-files
+
+git checkout -f
 
 ## References
 

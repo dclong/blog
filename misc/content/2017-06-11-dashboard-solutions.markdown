@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-13 15:51:31
+Date: 2021-01-08 14:01:55
 Author: Ben Chuanlong Du
 Slug: dashboard-solutions
 Title: Dashboard Solutions
@@ -168,3 +168,40 @@ https://github.com/keen/dashboards
 https://github.com/metabase/metabase
 
 
+
+## Redash
+Redash is a dashboard tool developed in Python.
+
+Installation of Redash
+wget https://raw.githubusercontent.com/getredash/redash/master/setup/ubuntu/bootstrap.sh
+sudo ./bootstrap.sh
+Note: Redash uses Python2, not Python3, so please make sure to use pip2 to install all required dependencies.
+
+Supported Data Sources
+Currently, Redash supports MySQL, PostgreSQL, Hive, Presto, ClickHouse, etc. Teradata is NOT supported directly. I couldn't find an approach to let Teradata be supported at the moment, although I believe it is possible.
+
+Glance of Redash
+Creating a dashboard or adding a config in Redash is pretty straightforward, go to http://10.148.177.222/, login with username: test@ebay.com, password: 123456 to have a look at Redash in real.
+
+Create a Dashboard
+First go to Queries - New Query, create your first new SQL query, and then publish it;
+Then go to Dashboards - New Dashboard, enter name for your new Dashboard;
+Click ... on the upper right corner, go to Add Widget, enter the Query name you created before;
+A new Dashboard has been created now. You can add more widgets whenever you want.
+Problems encountered now:
+Teradata is not officially supported by Redash;
+Unable to add the Presto and Hive data source to Redash, don't know the reason;
+
+## Superset
+At the first glance, Superset is an Apache project, whcih means that it may be more active, maintained by more people, and better-supported.
+
+Installation of Superset
+Installing Superset is pretty easy by just following the guide here: https://superset.incubator.apache.org/installation.html
+
+Note: Since I use Python3 instead of Python2 which is used in the guide, need to change sudo apt-get install build-essential libssl-dev libffi-dev python-dev python-pip libsasl2-dev libldap2-dev to sudo apt-get install build-essential libssl-dev libffi-dev python3-dev python3-pip libsasl2-dev libldap2-dev
+
+Supported Data Source
+Superset uses SqlAlchemy as its SQL query engine, hence any data source supported by SqlAlchemy can be supported by Superset as well.
+
+Glance of Superset
+Go to http://10.148.177.222:8088, login with username: test, password: 123456 to take a first glance at Superset. Note: If you encountered indefinite waiting after logined with test, please try to use username: mpan2, password: 123456 instead. There are many example dashboards already created by default, which can show you how powerful Superset is.
