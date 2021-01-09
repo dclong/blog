@@ -90,6 +90,10 @@ A unified approach to explain the output of any machine learning model.
 
 Missing data visualization module for Python.
 
+## [hiplot](https://github.com/facebookresearch/hiplot)
+
+HiPlot makes understanding high dimensional data easy
+
 ## References
 
 http://jakevdp.github.io/blog/2014/01/10/d3-plugins-truly-interactive/
