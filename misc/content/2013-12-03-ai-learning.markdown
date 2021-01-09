@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-15 12:02:54
+Date: 2021-01-08 23:07:57
 Title: AI Learning
 Slug: ai-learning
 Author: Ben Du
@@ -57,6 +57,10 @@ https://mmlspark.blob.core.windows.net/website/index.html
 ## [Tips on Kaggle](http://www.legendu.net/misc/blog/tips-on-kaggle/)
 
 ## [Machine Learning Resources](http://www.legendu.net/misc/blog/machine-learning-resources/)
+
+## AI Tools
+
+https://openai.com/blog/dall-e/
 
 ## References 
 
