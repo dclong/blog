@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-03-03 21:30:11
+Date: 2021-01-10 11:45:40
 Author: Benjamin Du
 Slug: alternatives-to-docker-containers
 Title: Alternatives to Docker Containers
 Category: Computer Science
-Tags: programming
+Tags: Computer Science, Docker, container, alternative, LXD, LXC
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -27,6 +27,9 @@ To sum up all that we know, both LXD and Docker are containerization technologie
 
 LXD on the other hand, is much better equipped and is much closer to a complete operating system environment with networking and storage interfaces. You can run multiple Docker containers nested inside LXD, if you want.
 
+## [podman](http://www.legendu.net/misc/blog/tips-on-podman)
+
+Podman is a good container alternative to Docker.
 
 
 [LXD vs Docker](https://linuxhint.com/lxd-vs-docker/)

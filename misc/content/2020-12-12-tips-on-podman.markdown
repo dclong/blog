@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-12-12 11:25:18
+Date: 2021-01-10 11:47:37
 Author: Benjamin Du
 Slug: tips-on-podman
 Title: Tips on Podman
 Category: Computer Science
-Tags: Computer Science, Docker, container, Podman, buildah, rootless, daemonless
+Tags: Computer Science, Docker, container, Podman, buildah, rootless, daemonless, alternative
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

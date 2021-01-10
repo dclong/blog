@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-04-24 00:53:24
+Date: 2021-01-10 11:45:40
 Author: Benjamin Du
 Slug: tips-on-lxd
 Title: Tips on LXD
 Category: Computer Science
-Tags: programming
+Tags: Computer Science, Docker, container, LXD, LXC
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
