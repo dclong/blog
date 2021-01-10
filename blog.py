@@ -223,7 +223,7 @@ class Post:
                 if not tags.endswith(","):
                     tags = tags + ","
         # parse content index to end
-        content = "".join(lines)
+        content = title + "\n" + category + "\n" + tags + "\n" + "".join(lines[index:])
         empty = self._is_ess_empty(lines[index:])
         name_title_mismatch = self.is_name_title_mismatch(title)
         return [

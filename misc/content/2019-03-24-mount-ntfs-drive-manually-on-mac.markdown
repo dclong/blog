@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-30 14:28:17
+Date: 2021-01-10 08:56:36
 Author: Benjamin Du
 Slug: mount-external-hard-drive-manually-on-mac
 Title: Mount Ntfs Drive Manually on Mac
@@ -50,3 +50,7 @@ sudo mount_ntfs /dev/disk2s1 /path_to_mount_in
 ```Bash
 sudo mount_exfat /dev/disk2s1 /path_to_mount_in
 ```
+
+## Unmount 
+
+diskutil unmount
