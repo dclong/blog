@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-05-22 13:23:44
+Date: 2021-01-10 12:03:36
 Author: Ben Chuanlong Du
 Title: Tips on Android
 Slug: android-tips
 Category: OS
-Tags: Android, OS
+Tags: Android, OS, copy, scp
 
 **
 Things on this page are

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-12 10:14:14
+Date: 2021-01-10 12:03:36
 Author: Ben Chuanlong Du
 Slug: android-emulators
 Title: Android Emulators
@@ -49,3 +49,7 @@ ARM-only apps might be able to run on x86-based Linux OS via
 is an Android emulator develop by the Chinese company Wangyi for Windows and macOS.
 An English version is also availabe at https://mumu.163.com/global/download/en/.
 Tribal Pioneer works on MuMu App Player on macOS!!!
+
+## References 
+
+[Run ARM apps on the Android Emulator](https://android-developers.googleblog.com/2020/03/run-arm-apps-on-android-emulator.html)
