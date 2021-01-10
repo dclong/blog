@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 22:54:45
+Date: 2021-01-10 10:24:23
 Author: Ben Chuanlong Du
 Slug: downloading-tools
 Title: Downloading Tools
@@ -14,55 +14,36 @@ Please read with your own judgement!
 
 ## GUI Tools
 
-[Motrix](https://github.com/agalwood/Motrix)
-seems to be the best cross-platform downloading tool available currently.
+### [transmission](http://www.legendu.net/misc/blog/transmssion-tips)
+
+Transmission is the BEST cross-platform BitTorrent client.
+It is simple, clean 
+and allows setting the uploading speed to zero (i.e., disable upload),
+which almost all other BitTorrent clients do not support. 
+
+### [Motrix](https://github.com/agalwood/Motrix)
+Motrix is a good cross-platform general purpose downloading tool.
+However,
+it does NOT allow setting the uploading speed zero
+when downloading BitTorrent files!
+It is suggested that you use transmission to download BitTorrent files.
 
 ## [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) + [Greasy Fork](https://greasyfork.org/en)
-
-
-## [EagleGet](http://www.eagleget.com/)
-
-A great tool!
 
 ## Command-line Tools
 
 ### aria2
 
-`aria2` is a high speed command line download utility.
+`aria2` is a high speed general purpose command-line downloading tool.
 Notice that `aria2` supports BitTorrent as well.
 
 ### youtube-dl
 
-A command-line tool for downloading videos from YouTube.
-
-### rTorrent
-
-A command-line BitTorrent downloading tool.
-It is suggested that you use `aria2` instead.
+The best command-line tool for downloading videos from YouTube.
 
 ### wget
 
 ### curl
-
-## BitTorrent Tools
-
-### transmission
-
-A simple and clean BitTorrent GUI.
-It allows you to set the upload speed to zero (i.e., disable upload).
-
-### aria2
-
-`aria2` is a high speed command line download utility.
-
-### qBitTorrent (BitTorrent)
-
-### uGet
-
-uGet is a great download manager for Linux.
-It can also be used as a GUI for `aria2`.
-
-### Deluge (BitTorrent, magnet)
 
 ## Misc
 
