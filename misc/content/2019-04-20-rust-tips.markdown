@@ -156,6 +156,16 @@ https://github.com/andygrove/ballista
 
 https://github.com/weld-project/weld
 
+https://github.com/rbatis/rbatis
+
+https://github.com/dclong?language=rust&tab=stars
+
+https://github.com/rust-unofficial/awesome-rust
+
+https://github.com/yewstack/yew
+
+https://github.com/valeriansaliou/sonic
+
 ## Tutorials
 
 [Rust on YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
