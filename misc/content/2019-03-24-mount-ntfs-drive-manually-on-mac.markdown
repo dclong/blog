@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-01-10 08:56:36
+Date: 2021-01-10 10:25:07
 Author: Benjamin Du
 Slug: mount-external-hard-drive-manually-on-mac
-Title: Mount Ntfs Drive Manually on Mac
+Title: Mount NTFS Drive Manually on Mac
 Category: OS
 Tags: OS, macOS, mount, NTFS, external drive, ExFAT
 
