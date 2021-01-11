@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:29:05
+Date: 2021-01-10 16:03:04
 Slug: nfs-tips
 Title: Tips on NFS
 Category: Internet
@@ -57,3 +57,34 @@ Please read with your own judgement!
 
         :::bash
         /nfs 192.168.1.*(ro,sync)
+
+## /etc/exports
+
+Below is an example of `/etc/exports`.
+    :::text
+    # /etc/exports: the access control list for filesystems which may be exported
+    #       to NFS clients.  See exports(5).
+    #
+    # Example for NFSv2 and NFSv3:
+    # /srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+    #
+    # Example for NFSv4:
+    # /srv/nfs4        gss/krb5i(rw,sync,fsid=0,crossmnt,no_subtree_check)
+    # /srv/nfs4/homes  gss/krb5i(rw,sync,no_subtree_check)
+    #
+
+    /wwwroot        *(rw,sync,fsid=0,crossmnt,no_subtree_check)
+
+## Mount NFS
+
+    :::bash
+    #mount on Linux
+    sudo mount -t nfs4 -o proto=tcp,port=2049 10.148.179.93:/ /wwwroot
+
+    :::bash 
+    # mount on macOS
+    sudo mount -t nfs -o vers=4,resvport 10.148.179.93:/ mnt
+
+## References
+
+http://cworld.wikidot.com/mac-os-x-automount-resvport-option

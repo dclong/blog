@@ -1,6 +1,6 @@
 # deps
 python3 -m pip install \
-    pelican \ 
+    pelican \
     pelican-jupyter \
     pelican-render-math \
     beautifulsoup4 \

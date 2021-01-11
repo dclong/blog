@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-14 20:38:08
+Date: 2021-01-10 17:17:40
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -119,10 +119,13 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="7"> List all <br> tables <br>in the <br> current <br> database <a href="#footnote1">[1]</a> </td>
+    <td rowspan="9"> List all <br> tables <br>in the <br> current <br> database <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
-        .TABLES
+        .TABLES <br>
+        SELECT name 
+        FROM db.sqlite_master 
+        WHERE type='table'
     </code> </td>
   </tr>
   <tr>
@@ -132,7 +135,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Spark/Hive </td>
+    <td rowspan="4"> Spark/Hive </td>
     <td> <code> 
         SHOW TABLES
     </code> </td>
@@ -140,6 +143,16 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> <code> 
         SHOW TABLES in db_name
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+        SHOW TABLES in db_name like '*cust*'
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+        SHOW TABLE EXTENDED in db_name like '*cust*'
     </code> </td>
   </tr>
   <tr>
@@ -151,9 +164,16 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle </td>
     <td> <code> 
+        /*All tables in a database*/
         SELECT * <br>
         FROM dba_tables <br>
-        WHERE table_schema = 'current database name'
+        WHERE table_schema = 'current database name'<br>
+        The table `all_tab_cols` contains information about tables and their columns
+        <br>
+        /* List all tables owned by the current user.*/
+        select * from user_tables;
+        List all tables accessible to the current user.
+        select * from all_tables;
     </code> </td>
   </tr>
   <tr>
@@ -206,6 +226,43 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> MS SQL Server </td>
     <td> <code> 
         DESCRIBE table_name
+    </code> </td>
+  </tr>
+    
+  <tr>
+    <td rowspan="7"> Source code <br> of a table </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+        SHOW CREATE table_name
+    </code> </td>
+  </tr>
+  <tr>
+    <td rowspan="2"> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
     </code> </td>
   </tr>
     
@@ -897,6 +954,40 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
     </code> </td>
   </tr>
+
+  <tr>
+    <td rowspan="6"> Refresh <br> Table <br> Cache </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    REFRESH TABLE table_name
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
     
   <tr>
     <td rowspan="6"> Concatenate <br> Strings </td>
@@ -933,7 +1024,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Refresh <br> Table <br> Cache </td>
+    <td rowspan="6"> Substring </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -946,7 +1037,182 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    REFRESH TABLE table_name
+    /* substr and substring are equivalent in Spark/Hive SQL */ <br>
+    SELECT <br> &nbsp; &nbsp; 
+        substr('Spark SQL', 5, 1) -- resulting 'k' <br>
+    FROM <br> &nbsp; &nbsp;
+        table <br>
+    left/right
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    substr
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> trim </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    ltrim/rtrim/trim
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    trim
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> substitute </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    replace/translate/regexp_replace
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    oreplace, otranslate
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> length of string </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    char_length
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> Index of substring </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    substring_index
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    POSITION('de' IN 'abcdefg') <br>
+    regexp_instr('abc', 'a') -- 1-base index;
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> upper case </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    ucase/upper
     </code> </td>
   </tr>
   <tr>
@@ -966,7 +1232,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Substring </td>
+    <td rowspan="6"> decode base64 </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -979,16 +1245,226 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Spark/Hive </td>
     <td> <code> 
-    /* substr and substring are equivalent in Spark/Hive SQL */ <br>
-    SELECT <br> &nbsp; &nbsp; 
-        substr('Spark SQL', 5, 1) -- resulting 'k' <br>
-    FROM <br> &nbsp; &nbsp;
-        table
+    unbase64
     </code> </td>
   </tr>
   <tr>
     <td> Teradata </td>
     <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> decode hex </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    unhex
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> generate an uuid </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    uuid
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> reverse a string </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    reverse
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> string matching </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    /* like is Case sensitive */
+    like/rlike
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    /*like is case insensitive by default, 
+    however, 
+    you can specify the keyword CaseSpecific to make it case sensitive
+    */
+    like
+    SELECT 
+        empname 
+    FROM 
+        tbl_emp 
+    WHERE 
+        empname (CaseSpecific) like '%JO%’
+    ;
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    /*like is case sensitive*/
+    like / regexp_like(name, 'string$', 'i')
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> shift string </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    shiftleft/shiftright
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+
+  <tr>
+    <td rowspan="6"> ocurrence of char </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    shiftleft/shiftright
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    char_length('Teradata is Relational Database') - char_length(Oreplace('Teradata is Relational Database', 'a', ''))
     </code> </td>
   </tr>
   <tr>
@@ -1025,6 +1501,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata </td>
     <td> <code> 
+    cast(str_col as date format 'YYYY-MM-DD')
     </code> </td>
   </tr>
   <tr>
@@ -1595,6 +2072,55 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
+    <td rowspan="6"> truncate date </td>
+    <td> SQLite 3 </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MySQL </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Spark/Hive </td>
+    <td> <code> 
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR');
+    -- 2015-01-01T00:00:00
+
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'MM');
+    -- 2015-03-01T00:00:00
+
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'DD');
+    -- 2015-03-05T00:00:00
+
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'HOUR');
+    -- 2015-03-05T09:00:00
+
+    SELECT trunc('2009-02-12', 'MM');
+    -- 2009-02-01
+
+    SELECT trunc('2015-10-27', 'YEAR');
+    -- 2015-01-01
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Teradata </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> Oracle </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+  <tr>
+    <td> MS SQL Server </td>
+    <td> <code> 
+    </code> </td>
+  </tr>
+    
+  <tr>
     <td rowspan="6"> sth </td>
     <td> SQLite 3 </td>
     <td> <code> 
@@ -1634,6 +2160,19 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 </p>
 
 
+A [NOT] LIKE B¶
+NULL if A or B is NULL, TRUE if string A matches the SQL simple regular expression B, otherwise FALSE. The comparison is done character by character. The character in B matches any character in A (similar to . in posix regular expressions) while the % character in B matches an arbitrary number of characters in A (similar to .* in posix regular expressions). For example, 'foobar' like 'foo' evaluates to FALSE whereas 'foobar' like 'foo ' evaluates to TRUE and so does 'foobar' like 'foo%'.
+
+A RLIKE B
+NULL if A or B is NULL, TRUE if any (possibly empty) substring of A matches the Java regular expression B, otherwise FALSE. For example, 'foobar' RLIKE 'foo' evaluates to TRUE and so does 'foobar' RLIKE '^f.*r$'.
+
+A REGEXP B
+Same as RLIKE.
+
+A || B
+Concatenate A and B (as of Hive 2.2.0).
+
+
 ## References 
 
 [Ten SQL Tricks that You Didn’t Think Were Possible (Lukas Eder)](https://www.youtube.com/watch?v=mgipNdAgQ3o)
@@ -1647,3 +2186,9 @@ http://www.legendu.net/misc/blog/spark-dataframe-func-date
 http://www.legendu.net/misc/blog/spark-dataframe-func-string
 
 https://www.oreilly.com/library/view/high-performance-mysql/9780596101718/ch04.html
+
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-StringFunctions
+
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-StringOperators
+
+https://cwiki.apache.org/confluence/display/Hive/LanguageManual+UDF#LanguageManualUDF-RelationalOperators

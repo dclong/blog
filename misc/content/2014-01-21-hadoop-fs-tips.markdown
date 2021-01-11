@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-10 10:04:08
+Date: 2021-01-10 13:04:06
 Slug: hadoop-fs-tips
 Title: Hadoop Filesystem Tips
 Category: Software
@@ -10,7 +10,30 @@ Tags: big data, Hadoop, filesystem, file system, tips
 Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!
 **
- 
+
+
+## hadoop fs vs hadoop dfs vs hdfs dfs
+
+1. `hadoop fs` supports generic file systems.
+    It can be used when you are dealing with different file systems 
+    such as Local FS, HFTP FS, S3 FS, and others.
+    `hadoop fs` is recommended when you work with differnt file systems at the same time.
+
+2. Both `hdfs dfs` and `hadoop dfs` are very specific to HDFS. 
+    They work for operation relates to HDFS. 
+    `hadoop dfs` has been deprecated in favor of `hdfs dfs`.
+    `hdfs dfs` is recommended when you work with HDFS only.
+
+
+## General Tips 
+
+1. `*` represents all files/directories 
+    including hidden ones (which is different from Linux/Unix shell).
+
+2. The success file `_SUCCESS` is generated when a Spark/Hadoop application succeed.
+    It can be used to check whether the data produced by a Spark application is ready.
+    The success file `_HIVESUCCESS` is generated when a Hive table is refreshed successfully.
+    It can be used to check whether a Hive table is ready for consumption.
 
 ## cat - Print a File
 
@@ -34,6 +57,18 @@ If a HDFS path under user A's home (`/user/A/`) is changed to be owned by user B
 then neither A nor B can remove the path.
 You have to change the owner of the path back to user A
 and then use user A to remove the path.
+
+## count (for Quota)
+
+    :::bash
+    hdfs dfs -count -q -v -h /user/username
+    QUOTA       REM_QUOTA     SPACE_QUOTA REM_SPACE_QUOTA    DIR_COUNT   FILE_COUNT       CONTENT_SIZE  PATHNAME  
+    16 K           7.9 K             3 T           3.0 T           27        8.1 K            573.8 M  /user/username
+
+`QUOTA` is namespace quota, 
+i.e., the number of files you can store. 
+The directory /tmp has no quota limit. You can use it for storing files temporarily.
+
 
 ## cp - Copy Files/Directories
 
@@ -113,6 +148,29 @@ if you intend to overwrite the whole directory.
         :::bash
         hdfs dfs -rm -r -skipTrash /tmp/item_desc
 
+
+## checksum
+
+    :::bash
+    hdfs dfs -checksum URL
+
+Notice that the checksum command on HDFS returns different result from the md5sum command on Linux.
+
+
+## Merge Multiple Files¶
+
+Use hadoop-streaming job (with single reducer) 
+to merge all part files data to single hdfs file on cluster itself 
+and then use hdfs get to fetch single file to local system.
+
+    :::bash
+    hadoop jar /usr/hdp/2.3.2.0-2950/hadoop-mapreduce/hadoop-streaming-2.7.1.2.3.2.0-2950.jar \
+        -Dmapred.reduce.tasks=1 \
+        -input "/hdfs/input/dir" \
+        -output "/hdfs/output/dir" \
+        -mapper cat \
+        -reducer cat
+
 ## Parquet Format
 
 Hadoop commands do not support merging Parquet files. 
@@ -142,6 +200,10 @@ http://www.ericlin.me/disable-hive-output-compression
 
 ## References
 
+https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/FileSystemShell.html
+
 https://stackoverflow.com/questions/6504107/the-way-to-check-a-hdfs-directorys-size
 
 https://dzone.com/articles/top-10-hadoop-shell-commands
+
+https://stackoverflow.com/questions/18142960/whats-the-difference-between-hadoop-fs-shell-commands-and-hdfs-dfs-shell-co
