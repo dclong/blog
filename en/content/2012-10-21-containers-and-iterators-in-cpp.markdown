@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-01-10 11:41:38
+Date: 2021-01-12 10:45:08
 Slug: collections-and-iterators-in-cpp
 Author: Ben Chuanlong Du
 Title: Collections and Iterators in C++
 Category: Computer Science
-Tags: C++, programming, list, set, map, iterator, collection, C/C++, vector
+Tags: C++, cpp, programming, list, set, map, iterator, collection, C/C++, vector
 
 
 ## Collections
