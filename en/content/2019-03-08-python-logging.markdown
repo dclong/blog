@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-10 17:44:33
+Date: 2021-01-12 10:43:38
 Author: Benjamin Du
 Slug: python-logging
 Title: Python Logging
@@ -15,10 +15,10 @@ Tags: programming, Python, logging, loguru, rich
     Unless you do not want your Python package/script to depend on 3rd-party libraries,
     `loguru` is preferred to `logging` for multiple reasons.
 
-        - loguru is easy and fun to use 
-        - Good out-of-box experience. They default settings work well for most situations. 
-            For example,
-            loguru works with Spark by default while logging needs additional configurations.
+    - loguru is easy and fun to use 
+    - Good out-of-box experience. They default settings work well for most situations. 
+        For example,
+        loguru works with Spark by default while logging needs additional configurations.
 
 2. [rich](https://github.com/willmcgugan/rich)
     is a Python library for rich text and beautiful formatting in the terminal.
