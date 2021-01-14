@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-01 11:26:33
+Date: 2021-01-14 09:28:49
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -18,14 +18,19 @@ Please read with your own judgement!
 ## Message Control
 
 1. Show ERROR messages only.
-```
-pylint -E some_script.py
-```
+
+        :::bash 
+        pylint -E some_script.py
 
 2. Show ERROR and WARNING messages only.
-```
-pylint --disable=R,C some_script.py
-```
+
+        :::bash 
+        pylint --disable=R,C some_script.py
+
+3. Disable warning associated with a specific line.
+
+        :::bash
+        proc = sp.run(cmd, shell=True)  # pylint: disable=W1510
 
 ## Configuration
 
