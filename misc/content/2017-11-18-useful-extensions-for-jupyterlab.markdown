@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-21 10:17:19
+Date: 2021-01-15 14:16:33
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -104,6 +104,8 @@ Examples of custom widget libraries built upon ipywidgets are
 - pythreejs a Jupyter - Three.js wrapper, bringing Three.js to the notebook.
 
 - ipyleaflet a leaflet widget for Jupyter.
+
+### [ipyvue](https://github.com/mariobuikhuizen/ipyvue)
 
 ## Some Other Extensions for JupyterLab
 
