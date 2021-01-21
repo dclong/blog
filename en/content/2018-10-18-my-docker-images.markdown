@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-21 12:09:57
+Date: 2021-01-21 12:11:29
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -418,7 +418,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
-                     > JupyterLab: 2.2.x
+                     > JupyterLab: 3.0.x
 
                     - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
 
