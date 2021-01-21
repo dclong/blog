@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-22 10:06:41
+Date: 2021-01-15 18:04:35
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -19,6 +19,13 @@ is available.
 
 1. It seems that Visual Studio Code installed using snap in Kubuntu 18.10 has issues.
     It is suggested that you install Visual Studio Code using the `.deb` package instead of snap.
+
+## Places to Find Extensoins 
+
+[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)
+and
+[Open VSX Registry](https://open-vsx.org/)
+are 2 places to find VSCode compatible extensions.
 
 ## Useful Extensions
 

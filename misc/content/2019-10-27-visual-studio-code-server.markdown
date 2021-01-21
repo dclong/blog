@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 01:21:31
+Date: 2021-01-15 18:04:35
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -11,6 +11,13 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+
+## Places to Find Extensoins 
+
+[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)
+and
+[Open VSX Registry](https://open-vsx.org/)
+are 2 places to find VSCode compatible extensions.
 
 ## Advanced Tips
 --link                 (beta) Securely bind code-server via Coder Cloud with the passed name. You'll get a URL like
