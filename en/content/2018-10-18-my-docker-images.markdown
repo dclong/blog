@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-27 10:55:15
+Date: 2021-01-21 12:09:57
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -23,7 +23,6 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
     or
     [dclong/jupyterhub-ds:next](https://github.com/dclong/docker-jupyterhub-ds)
     due to installation issues on Ubuntu (LTS).
-    .
     Generally speaking,
     the `latest` (the default when you do not specify a tag) is recommended for most users. 
 
@@ -36,7 +35,7 @@ Tags: software, Docker, Docker image, Ubuntu, JupyterLab, Lubuntu, dclong
     when the Docker image was built. 
     Those historical versions of Docker images might be helpful in some rare situations.
     Generally speaking,
-    the historical tags should be used 
+    the historical tags shouldn't be used 
     and instead the `latest` tag (the default when you do not specify a tag) is recommended for most users. 
 
 3. The Docker image 
