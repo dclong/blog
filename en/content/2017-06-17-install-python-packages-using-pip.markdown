@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 09:46:05
+Date: 2021-01-22 00:00:55
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -111,6 +111,8 @@ https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
         pip3 install git+ssh://git@github.com/dclong/dsutil 
         # or
         pip3 install git+https://github.com/dclong/xinstall
+        # or install with optional components
+        pip3 install --user -U "dsutil[cv] @ git+https://github.com/dclong/dsutil@main"
 
     If you are behind a corporate proxy,
     you might need 2FA to visit the enterprise GitHub of your company.

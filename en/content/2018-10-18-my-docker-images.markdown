@@ -453,14 +453,14 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                                 - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
                                     Python packages:
-                                    > loguru pysnooper
-                                    > numpy scipy pandas pyarrow  
-                                    > scikit-learn lightgbm 
-                                    > graphviz matplotlib bokeh holoviews[recommended] hvplot
-                                    > tabulate  
-                                    > JPype1 sqlparse 
-                                    > requests[socks] lxml notifiers
-                                    > dsutil
+                                    + loguru pysnooper
+                                    + numpy scipy pandas pyarrow  
+                                    + scikit-learn lightgbm 
+                                    + graphviz matplotlib bokeh holoviews[recommended] hvplot
+                                    + tabulate  
+                                    + JPype1 sqlparse 
+                                    + requests[socks] lxml notifiers
+                                    + dsutil
 
                                     - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
