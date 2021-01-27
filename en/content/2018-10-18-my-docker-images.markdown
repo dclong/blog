@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-27 09:54:48
+Date: 2021-01-27 10:28:57
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -363,6 +363,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
     > Time Zone: US Pacific Time  
     > Desktop Environment: None  
     > Remote Desktop: None  
+    > Debian branch: Yes
 
     - [dclong/samba](https://hub.docker.com/r/dclong/samba/)  
 
@@ -441,16 +442,19 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                         > OpenJDK 8  
                         > Maven: 3.6.x  
+                        > Debian branch: Yes, have to switch to openjdk-11
 
                         - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
 
                             > Almond (latest stable)
                             > Kotlin
                             > Rust (only for the `debian` tag)
+                            > Debian branch: Yes, for Rust kernel
 
                             - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
                                 > The latest release of [code-server](https://github.com/cdr/code-server).
+                                > Debian branch: Yes, dsutil cannot be install on Debian due to dependency on numba.
 
                             - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
 
@@ -463,6 +467,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
                                 > JPype1 sqlparse  
                                 > requests[socks] lxml notifiers  
                                 > dsutil
+                                > Debian branch: Yes, dsutil cannot be install on Debian due to dependency on numba.
 
                                 - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
