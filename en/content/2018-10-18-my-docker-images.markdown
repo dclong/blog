@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-21 12:11:29
+Date: 2021-01-27 09:54:48
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -395,10 +395,9 @@ you can connect to the desktop environment in the Docker container using NoMachi
     - [dclong/python](https://hub.docker.com/r/dclong/python/)  
 
         > Python 3.8.x  
+        > Python 3.7.9  
 
         - [dclong/python-jdk](https://hub.docker.com/r/dclong/python-jdk/)  
-
-        - [dclong/python-nodejs](https://hub.docker.com/r/dclong/python-nodejs/)  
 
         - [dclong/mlflow](https://hub.docker.com/r/dclong/mlflow/)  
 
@@ -408,7 +407,7 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
         - [dclong/jupyter](https://hub.docker.com/r/dclong/jupyter/)  
 
-             > Jupyter Notebook: 6.0.3  
+             > Jupyter Notebook: latest version.
 
             - [dclong/jupyter-nodejs](https://hub.docker.com/r/dclong/jupyter-nodejs/)  
 
@@ -416,53 +415,56 @@ you can connect to the desktop environment in the Docker container using NoMachi
 
                 - [dclong/jupyter-jdk](https://hub.docker.com/r/dclong/jupyter-jdk/)  
 
-                - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
+        - [dclong/python-nodejs](https://hub.docker.com/r/dclong/python-nodejs/)  
 
-                     > JupyterLab: 3.0.x
+            - [dclong/jupyterlab](https://hub.docker.com/r/dclong/jupyterlab)  
 
-                    - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
+                > JupyterLab: 3.0.x
 
-                         > JupyterHub: 1.2.x  
+                - [dclong/jupyterhub](https://hub.docker.com/r/dclong/jupyterhub/)  
 
-                        - [dclong/jupyterhub-ts](https://hub.docker.com/r/dclong/jupyterhub-ts/)  
+                    > JupyterHub: latest version.
 
-                        - [dclong/jupyterhub-julia](https://hub.docker.com/r/dclong/jupyterhub-julia/)  
+                    - [dclong/jupyterhub-ts](https://hub.docker.com/r/dclong/jupyterhub-ts/)  
 
-                            > Julia stable.
+                    - [dclong/jupyterhub-julia](https://hub.docker.com/r/dclong/jupyterhub-julia/)  
 
-                        - [dclong/jupyterhub-cuda](https://hub.docker.com/r/dclong/jupyterhub-cuda/)  
+                        > Julia stable.
 
-                            - [dclong/jupyterhub-cuda_b](https://hub.docker.com/r/dclong/jupyterhub-cuda_b/)  
+                    - [dclong/jupyterhub-cuda](https://hub.docker.com/r/dclong/jupyterhub-cuda/)  
 
-                                - [dclong/jupyterhub-pytorch](https://hub.docker.com/r/dclong/jupyterhub-pytorch/)  
+                        - [dclong/jupyterhub-cuda_b](https://hub.docker.com/r/dclong/jupyterhub-cuda_b/)  
 
-                        - [dclong/jupyterhub-jdk](https://hub.docker.com/r/dclong/jupyterhub-jdk/)  
+                            - [dclong/jupyterhub-pytorch](https://hub.docker.com/r/dclong/jupyterhub-pytorch/)  
 
-                            > OpenJDK 8  
-                            > Maven: 3.6.x  
+                    - [dclong/jupyterhub-jdk](https://hub.docker.com/r/dclong/jupyterhub-jdk/)  
 
-                            - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
+                        > OpenJDK 8  
+                        > Maven: 3.6.x  
 
-                                > Almond (latest stable)
-                                > Kotlin
-                                > Rust (only for the `debian` tag)
+                        - [dclong/jupyterhub-more](https://hub.docker.com/r/dclong/jupyterhub-more/)  
 
-                                - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
+                            > Almond (latest stable)
+                            > Kotlin
+                            > Rust (only for the `debian` tag)
 
-                                    > The latest release of [code-server](https://github.com/cdr/code-server).
+                            - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
-                                - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
-                                    Python packages:
-                                    + loguru pysnooper
-                                    + numpy scipy pandas pyarrow  
-                                    + scikit-learn lightgbm 
-                                    + graphviz matplotlib bokeh holoviews[recommended] hvplot
-                                    + tabulate  
-                                    + JPype1 sqlparse 
-                                    + requests[socks] lxml notifiers
-                                    + dsutil
+                                > The latest release of [code-server](https://github.com/cdr/code-server).
 
-                                    - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
+                            - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
+
+                                > Python packages:  
+                                > loguru pysnooper 
+                                > numpy scipy pandas pyarrow  
+                                > scikit-learn lightgbm  
+                                > graphviz matplotlib bokeh holoviews[recommended] hvplot 
+                                > tabulate  
+                                > JPype1 sqlparse  
+                                > requests[socks] lxml notifiers  
+                                > dsutil
+
+                                - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
     - [dclong/rust](https://hub.docker.com/r/dclong/rust/)  
 
