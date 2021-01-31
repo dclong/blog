@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-10 17:17:40
+Date: 2021-01-31 13:13:14
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -1400,9 +1400,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> Oracle </td>
+    <td> <code> 
     /*like is case sensitive*/
     like / regexp_like(name, 'string$', 'i')
-    <td> <code> 
     </code> </td>
   </tr>
   <tr>
