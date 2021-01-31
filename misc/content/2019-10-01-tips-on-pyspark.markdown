@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-07 10:11:25
+Date: 2021-01-31 13:46:23
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -22,6 +22,8 @@ Please read with your own judgement!
         PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
         /path/to/spark-2.3.1-bin-hadoop2.7/bin/spark-submit \
             --conf spark.yarn.maxAppAttempts=1 \
+            --conf spark.yarn.appMasterEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.executorEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
             --conf spark.pyspark.driver.python=.venv/bin/python3 \
             --conf spark.pyspark.python=.venv/bin/python3 \
             script_to_run.py --arg1 v1 --arg2 v2
@@ -50,6 +52,8 @@ Please read with your own judgement!
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.yarn.appMasterEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.executorEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
             --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --conf spark.pyspark.driver.python=/usr/share/anaconda3/bin/python \
             --conf spark.pyspark.python=/usr/share/anaconda3/bin/python \
