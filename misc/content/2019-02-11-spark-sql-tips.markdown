@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-26 09:01:58
+Date: 2021-02-01 12:48:51
 Author: Benjamin Du
 Slug: spark-sql-tips
 Title: Spark SQL
@@ -120,6 +120,20 @@ https://docs.cloudera.com/documentation/enterprise/5-8-x/topics/impala_create_ta
         auc_end_dt String
     );
 
+    CREATE TABLE cust_sci.image_quality_score (
+        item_id BigInt,
+        image_url String,
+        guid String,
+        type String,
+        score double,
+        prcs_dt String
+    ) PARTITIONED BY (
+        site_id Int
+    ) CLUSTERED BY (
+        image_url
+    ) into 400 buckets
+    ;
+
 ## Insert 
 
 https://mapr.com/docs/61/Hive/INSERTINTOnestedMapr-DB-JSONwithHive.html
@@ -138,6 +152,25 @@ insert complicated data types
 1. use a dummy table
 2. use with to create a dummy table
 3. put it into insert ... select
+4. Partition columns need to be handled specially in an INSERT statement
+    however,
+    cluster columns do not need special handling in an INSERT statement. 
+    Considered the table cust_sci.image_quality_score
+    which has both partition and cluster columns,
+    below is an example inserting query.
+
+        INSERT INTO cust_sci.image_quality_score 
+            PARTITION (site_id=0) 
+        SELECT
+            item_id,
+            image_url,
+            guid,
+            'iipa',
+            score,
+            '2021-01-28'
+        from 
+            cust_sci.temp_score_iipa 
+        ;
 
         :::sql
         INSERT INTO cs_itm_text_featr PARTITION (site_id=1, meta_categ_id, auc_start_dt) 
