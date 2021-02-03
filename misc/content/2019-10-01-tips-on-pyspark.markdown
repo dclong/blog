@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-31 13:46:23
+Date: 2021-02-03 14:52:19
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -24,6 +24,7 @@ Please read with your own judgement!
             --conf spark.yarn.maxAppAttempts=1 \
             --conf spark.yarn.appMasterEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
             --conf spark.executorEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.sql.execution.arrow.enabled=True \
             --conf spark.pyspark.driver.python=.venv/bin/python3 \
             --conf spark.pyspark.python=.venv/bin/python3 \
             script_to_run.py --arg1 v1 --arg2 v2
