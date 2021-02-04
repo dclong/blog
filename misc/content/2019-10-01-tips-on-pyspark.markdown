@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-03 14:52:19
+Date: 2021-02-04 14:46:34
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -55,6 +55,7 @@ Please read with your own judgement!
             --conf spark.executor.memoryOverhead=2G \
             --conf spark.yarn.appMasterEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
             --conf spark.executorEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.sql.execution.arrow.enabled=True \
             --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --conf spark.pyspark.driver.python=/usr/share/anaconda3/bin/python \
             --conf spark.pyspark.python=/usr/share/anaconda3/bin/python \
@@ -80,6 +81,9 @@ Please read with your own judgement!
             --conf spark.dynamicAllocation.maxExecutors=1000 \
             --conf spark.network.timeout=300s \
             --conf spark.executor.memoryOverhead=2G \
+            --conf spark.yarn.appMasterEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.executorEnv.ARROW_PRE_0_15_IPC_FORMAT=1 \
+            --conf spark.sql.execution.arrow.enabled=True \
             --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G \
             --conf spark.pyspark.driver.python=./env/bin/python \
             --conf spark.pyspark.python=./env/bin/python \
