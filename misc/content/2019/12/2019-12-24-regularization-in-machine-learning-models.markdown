@@ -67,4 +67,5 @@ by preventing complex co-adaptations on training data.
 It is a very efficient way of performing model averaging with neural networks.
 The term "dropout" refers to dropping out units (both hidden and visible) in a neural network.
 
-## References
+## Reference
+
