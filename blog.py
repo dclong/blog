@@ -29,6 +29,7 @@ MARKDOWN = ".markdown"
 IPYNB = ".ipynb"
 NOW_DASH = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 TODAY_DASH = NOW_DASH[:10]
+YYYYMM_slash = TODAY_DASH[:7].replace("-", "/")
 BASE_DIR = Path(__file__).resolve().parent
 WORDS = json.loads((BASE_DIR / "words.json").read_text())
 
@@ -490,15 +491,6 @@ class Blogger:
         tags = post.update_tags(from_tag, to_tag)
         self.update_records(paths=[post.path], mapping={"tags": ", ".join(tags) + ","})
 
-    def iter_content(self) -> Iterable[Path]:
-        """Iterate all files and subdirectories under the content directory of cn, en and misc.
-        :return: An iterator of Path object.
-        """
-        return itertools.chain.from_iterable(
-            (BASE_DIR / dir_ / "content").iterdir()
-            for dir_ in (CN, EN, MISC, OUTDATED)
-        )
-
     def trust_notebooks(self):
         for dir_ in (EN, CN, MISC):
             cmd = f"jupyter trust {dir_}/content/*.ipynb"
@@ -509,7 +501,7 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        for path in tqdm(list(self.iter_content())):
+        for path in tqdm(list(BASE_DIR.glob("*/content/*/*/*"))):
             if path.suffix in (MARKDOWN, IPYNB):
                 self._load_post(Post(path))
         self.commit()
@@ -619,39 +611,27 @@ class Blogger:
     def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
         """Add a new post with the given title.
         """
-        if notebook:
-            return self._add_post_notebook(title, dir_)
-        return self._add_post_markdown(title, dir_)
-
-    def _add_post_notebook(self, title: str, dir_: str) -> Path:
-        file = self._find_post(title, dir_)
+        dir_ = BASE_DIR / dir_ / "content" / YYYYMM_slash
+        dir_.mkdir(parents=True, exist_ok=True)
+        file = self._find_post(title)
         if not file:
-            file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.ipynb"
+            suffix = IPYNB if notebook else MARKDOWN
+            file = dir_ / (Post.slug(title) + suffix)
             post = Post(file)
             post.create(title)
             self._load_post(post)
         print(f"\nThe following post is added.\n{file}\n")
         return file
 
-    def _add_post_markdown(self, title: str, dir_: str) -> Path:
-        file = self._find_post(title, dir_)
-        if not file:
-            file = BASE_DIR / dir_ / "content" / f"{TODAY_DASH}-{Post.slug(title)}.markdown"
-            post = Post(file)
-            post.create(title)
-            self._load_post(post)
-        print(f"\nThe following post is added.\n{file}\n")
-        return file
-
-    def _find_post(self, title: str, dir_: str) -> Union[Path, None]:
+    def _find_post(self, title: str) -> Union[Path, None]:
         """Find existing post matching the given title.
 
         :return: Return the path of the existing post if any,
         otherwise return empty string.
         """
         # find all posts and get rid of leading dates
-        sql = "SELECT path FROM posts WHERE path LIKE ? AND dir = ?"
-        row = self.execute(sql, [f"%{Post.slug(title)}.%", dir_]).fetchone()
+        sql = "SELECT path FROM posts WHERE path LIKE ?"
+        row = self.execute(sql, [f"%{Post.slug(title)}.%"]).fetchone()
         if row:
             return Path(row[0])
         return None

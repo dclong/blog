@@ -12,6 +12,7 @@ SITENAME = "Ben Chuanlong Du's Blog"
 DEFAULT_DATE_FORMAT = "%b %d, %Y"
 TIMEZONE = "US/Pacific"
 DEFAULT_LANG = "en"
+USE_FOLDER_AS_CATEGORY = False
 DELETE_OUTPUT_DIRECTORY = True
 logger.debug("Site URL: {}", SITEURL)
 
