@@ -81,7 +81,7 @@ THEME = BLOG_DIR / "themes/elegant"
 print(THEME)
 
 # plugins
-PLUGIN_PATHS = ["plugins", "tipue_search"]
+#PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     "render_math", 
     "tipue_search"
