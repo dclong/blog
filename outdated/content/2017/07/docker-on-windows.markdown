@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-14 09:43:04
+Date: 2021-02-08 14:45:17
 Author: Ben Chuanlong Du
 Slug: docker-on-windows
 Title: Docker on Windows
@@ -56,3 +56,4 @@ it allows you to manage containers, images, networks, and volumes from the web-b
 
 2. There is issue to mount volumes to a docker container on Windows. 
 
+## References
