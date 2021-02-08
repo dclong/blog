@@ -6,6 +6,7 @@ from pathlib import Path
 from argparse import ArgumentParser
 import subprocess as sp
 import getpass
+from loguru import logger
 import pelican
 import dsutil
 from utils import VIM, get_editor, install_if_not_exist
@@ -293,7 +294,7 @@ def update_plugins(blogger, args):
 
 def install_vim(blogger, args):
     cmd = "curl -sLf https://spacevim.org/install.sh | bash"
-    os.system(cmd)
+    sp.run(cmd, shell=True, check=True)
 
 
 def link(blogger, args):
@@ -1080,15 +1081,16 @@ def _subparse_git_diff(subparsers):
 
 
 def _git_status(blogger, args):
-    os.system("git status")
+    sp.run("git status", shell=True, check=True)
 
 
 def _git_diff(blogger, args):
-    os.system(f"git diff {' '.join(args.file)}")
+    sp.run(f"git diff {' '.join(args.file)}", shell=True, check=True)
 
 
 def _git_pull(blogger, args):
-    os.system("git pull origin master")
+    logger.info("Pulling origin/master ...")
+    sp.run("git pull origin master", shell=True, check=True)
     reload(blogger, args)
 
 

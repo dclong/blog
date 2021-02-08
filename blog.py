@@ -12,6 +12,7 @@ from pathlib import Path
 import json
 import itertools
 import subprocess as sp
+from loguru import logger
 from tqdm import tqdm
 EN = "en"
 CN = "cn"
@@ -262,7 +263,7 @@ class Post:
         for line in meta:
             if not re.search("^- [a-zA-Z]+:", line):
                 raise SyntaxError(
-                    f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
+                    f"The meta line '{line}' of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
                 )
             if line.startswith("- Status:"):
                 status = line[9:].strip()
@@ -501,7 +502,9 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        for path in tqdm(list(BASE_DIR.glob("*/content/*/*/*"))):
+        paths = list(BASE_DIR.glob("*/content/*/*/*"))
+        logger.info("Reloading posts into SQLite3 ...")
+        for path in tqdm(paths):
             if path.suffix in (MARKDOWN, IPYNB):
                 self._load_post(Post(path))
         self.commit()
