@@ -1,16 +1,10 @@
 Status: published
-Date: 2019-10-22 01:00:07
+Date: 2021-02-10 23:47:18
 Author: Benjamin Du
-Slug: connect-to-teradata-from-the-bekaerx-sql-kernel-in-jupyterlab
-Title: Connect to Teradata from the Bekaerx SQL Kernel in JupyterLab
+Slug: connect-to-teradata-from-the-beakerx-sql-kernel-in-jupyterlab
+Title: Connect to Teradata from the BeakerX SQL Kernel in JupyterLab
 Category: Computer Science
 Tags: programming, Jupyter, JupyterLab, SQL, BeakerX
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 You can run the following magics in a cell to connect to Teradata from a BeakerX SQL kernel.
 
     :::bash

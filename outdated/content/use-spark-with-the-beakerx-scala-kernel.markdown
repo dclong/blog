@@ -6,12 +6,6 @@ Title: Use Spark With the BeakerX Scala Kernel
 Category: Computer Science
 Tags: Computer Science, Spark, Scala, BeakerX, JupyterLab
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-
 1. Open a JupyterLab notebook with the BeakerX Scala kernel from the launcher.
 
 2. Download Spark (say, 2.3.1) dependencies. 
