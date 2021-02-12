@@ -284,14 +284,6 @@ def auto_git_push(blogger, args):
     sp.run(cmd, shell=True, check=True)
 
 
-def update_plugins(blogger, args):
-    plugins = BASE_DIR / "plugins"
-    cmd = f"""git -C {plugins} submodule init \
-            && git -C {plugins} submodule update --recursive --remote
-        """
-    sp.run(cmd, shell=True, check=True)
-
-
 def install_vim(blogger, args):
     cmd = "curl -sLf https://spacevim.org/install.sh | bash"
     sp.run(cmd, shell=True, check=True)
@@ -326,7 +318,6 @@ def parse_args(args=None, namespace=None):
     _subparse_edit(subparsers)
     _subparse_move(subparsers)
     _subparse_publish(subparsers)
-    _subparse_update_plugins(subparsers)
     _subparse_query(subparsers)
     _subparse_auto(subparsers)
     _subparse_space_vim(subparsers)
@@ -942,13 +933,6 @@ def _subparse_publish(subparsers):
         help="Disable the --fatal argument for pelican."
     )
     subparser_publish.set_defaults(func=publish)
-
-
-def _subparse_update_plugins(subparsers):
-    subparser_update_plugins = subparsers.add_parser(
-        "update_plugins", aliases=["plugins", "upp"], help="Update plugins."
-    )
-    subparser_update_plugins.set_defaults(func=update_plugins)
 
 
 def _subparse_trash(subparsers):
