@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-27 11:02:44
+Date: 2021-02-12 10:34:26
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -454,7 +454,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
                             - [dclong/vscode-server](https://hub.docker.com/r/dclong/vscode-server/)  
 
                                 > The latest release of [code-server](https://github.com/cdr/code-server).  
-                                > Has Debian branch: Yes, dsutil cannot be install on Debian due to dependency on numba.
 
                             - [dclong/jupyterhub-ds](https://hub.docker.com/r/dclong/jupyterhub-ds/)  
 
@@ -467,7 +466,6 @@ you can connect to the desktop environment in the Docker container using NoMachi
                                 > JPype1 sqlparse  
                                 > requests[socks] lxml notifiers  
                                 > dsutil  
-                                > Has Debian branch: Yes, dsutil cannot be install on Debian due to dependency on numba.
 
                                 - [dclong/gitpod](https://hub.docker.com/r/dclong/gitpod/)
 
