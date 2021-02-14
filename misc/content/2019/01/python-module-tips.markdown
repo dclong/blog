@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-14 12:16:58
+Date: 2021-02-14 13:20:48
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Tips on Python Module 
@@ -20,6 +20,15 @@ Please read with your own judgement!
         import module_name
         import module_name as alias
         from module import pkg_mod_or_fun
+
+2. The module `importlib.resources` (since Python 3.7+) leverages Python's import system to provide access to resources within packages. 
+  If you can import a package, 
+  you can access resources within that package. 
+  Resources can be opened or read, in either binary or text mode.
+  Resources are roughly akin to files inside directories, 
+  though it’s important to keep in mind that this is just a metaphor. 
+  Resources and packages do not have to exist as physical files and directories on the file system. 
+  `importlib.resources` is analogue to `getClass.getResource` in Java.
 
 1. One of the trickiest problem in Python is conflicting package/module names. 
     It happens when there are more than one Python scripts with the same name on Python module search paths.
@@ -91,6 +100,15 @@ Please read with your own judgement!
 
         :::python
         from a.b import C, D
+
+## Issues and Solutions
+
+### Cannot Import an Installed Module
+
+I have met the issue that some packages cannot be imported even if they have been installed.
+The issue was due to file permissions (the installed Python packages are not readable).
+A simple fix (even not optimal) is to make these Python packages readable, 
+e.g., make the permissions `777` (sudo required).
 
 ## Module Access
 
