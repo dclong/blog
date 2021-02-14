@@ -1,8 +1,8 @@
 Status: published
-Date: 2020-11-22 19:44:09
+Date: 2021-02-14 12:16:58
 Author: Ben Chuanlong Du
 Slug: python-module-tips
-Title: Python Module Tips
+Title: Tips on Python Module 
 Category: Computer Science
 Tags: programming, Python, module, tips, module access
 
@@ -14,18 +14,56 @@ Please read with your own judgement!
 
 ## Import a Module
 
-1. sys.path.append
+1. There are 3 different ways import Python modules.
 
-        :::bash
+        :::python
         import module_name
         import module_name as alias
         from module import pkg_mod_or_fun
 
-https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-source
+1. One of the trickiest problem in Python is conflicting package/module names. 
+    It happens when there are more than one Python scripts with the same name on Python module search paths.
+    This is often not a problem when developing Python packages due to absolute and relative import.
+    However, 
+    this issue can come up in a few situations and can be quite tricky for uers to figure out.
 
+    - If an user run a Python script whose parent directory contains a Python script with a name conflicting with other (official) Python modules,
+        this issue will come up.
+    - An even trickier situation is when a Python script is piped to a Python interpreter directly. 
+        According to [docs about sys.path](https://docs.python.org/3/library/sys.html#sys.path),
+        `sys.path[0]` is initailized to be the empty string on the startup of Python in this situation 
+        which directs Python to search modules in the current directly first.
+        Since an user can run the command in any directory, 
+        it is more likely for him/her to encounter the issue of conflicting module names. 
+    
+    For example, 
+    if you have a Python script named `abc.py` in the current directory 
+    and your script depends on the Python module `collections.abc`,
+    you code will likely fail to run. 
+    Another (really tricky) eample is that if you have a Python script named `pyspark.py`
+    and submit it to  a Spark cluster to run (using `spark-submit`).
+    The PySpark application will likely throw an error saying that the `pyspark` module is not found.
+    Those are just 2 commonly seen examples. 
+    You can easily run into this issue when you run ad hoc Python scripts 
+    (unlikely to encounter this issue when you develop a Python package).
+    A possible way to avoid this issue is to always prefix your ad hoc Python script with a leading underscore (`_`).
+    Another solution is to remove the emtpry string 
+    (represent the current working directory from `sys.path`)
+    if your Python script does not import other modules in the current directory.
 
-1. By default, 
-    the current path of the Python interpreter is in the module search path (i.e., `sys.path`).
+        :::python
+        import sys
+        sys.path.remove("")
+
+1. Python searches for modules at paths in `sys.path`.
+    To add a path into the module search path,
+    you can simply append it into `sys.path`.
+
+        :::python
+        sys.path.append("/new/path/to/search/for/modules")
+
+    By default, 
+    the current path of the Python interpreter is on the module search path (i.e., `sys.path`).
     If the current directory has a Python script 
     with the same name as a built-in model, 
     it might causes issues. 
@@ -33,6 +71,7 @@ https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-s
     (represent the current working directory)
     from `sys.path`.
 
+        :::python
         import sys
         sys.path.remove("")
 
@@ -50,6 +89,7 @@ https://stackoverflow.com/questions/3144089/expand-python-search-path-to-other-s
     as it is easier to add more imports from `a.b` if necessary.
     The following is an example of import both classes `C` and `D` from `a.b`.
 
+        :::python
         from a.b import C, D
 
 ## Module Access
