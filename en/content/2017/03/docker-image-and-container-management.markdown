@@ -1,14 +1,21 @@
 Status: published
-Date: 2020-05-02 14:52:34
+Date: 2021-02-15 10:29:33
 Author: Ben Chuanlong Du
 Slug: docker-image-and-container-management
 Title: Manage Docker Images and Containers 
 Category: Software
 Tags: software, Docker, Docker image, container, management, remove
 
-It is suggested that you use [osquery](https://osquery.io/)
-or [dsutil.docker](https://github.com/dclong/dsutil/blob/dev/dsutil/docker.py)
-to manage Docker images, containers, etc.
+1. It is suggested that you use [osquery](https://osquery.io/)
+    or [dsutil.docker](https://github.com/dclong/dsutil/blob/dev/dsutil/docker)
+    to manage Docker images, containers, etc.
+
+2. If you want to manage Docker images and containers inside a Docker container,
+    simply add the option `-v /var/run/docker.sock:/var/run/docker.sock` 
+    to the `docker run` command of the Docker container.
+    For more discussions,
+    please refer to
+    [How To Run Docker in Docker Container [3 Easy Methods]](https://devopscube.com/run-docker-in-docker/#:~:text=To%20run%20docker%20inside%20docker,sock%20as%20a%20volume.&text=Just%20a%20word%20of%20caution,privileges%20over%20your%20docker%20daemon)
 
 ## Remove Containers
 
