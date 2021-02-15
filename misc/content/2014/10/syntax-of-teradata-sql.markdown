@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 17:12:17
+Date: 2021-02-15 12:10:03
 Author: Ben Chuanlong Du
 Slug: syntax-of-teradata-sql
 Title: Syntax of Teradata SQL

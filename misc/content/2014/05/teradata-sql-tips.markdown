@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 17:12:17
+Date: 2021-02-15 12:10:03
 Author: Ben Chuanlong Du
 Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
@@ -16,6 +16,12 @@ Please read with your own judgement!
 - [Teradata SQL笔记](http://cuishen.iteye.com/blog/638968)
 - [无知的比较：R和Teradata SQL(附赠TD经验几枚)](http://www.loyhome.com/%E6%97%A0%E7%9F%A5%E7%9A%84%E6%AF%94%E8%BE%83%EF%BC%9Ar%E5%92%8Cteradata-sql%E9%99%84%E8%B5%A0td%E7%BB%8F%E9%AA%8C%E5%87%A0%E6%9E%9A/)
 - [The SQL Server DBA’s Guide to Teradata](http://sqlfool.com/mssql-dba-guide-to-teradata/)
+
+## Syntax
+
+Please refer to 
+[Syntax of Teradata SQL](http://www.legendu.net/2014/blog/syntax-of-teradata-sql)
+.
 
 ## Performance Tips
 

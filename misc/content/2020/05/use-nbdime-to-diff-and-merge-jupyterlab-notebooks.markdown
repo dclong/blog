@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-08 13:53:44
+Date: 2021-02-15 12:08:11
 Author: Benjamin Du
 Slug: use-nbdime-to-diff-and-merge-jupyterlab-notebooks
 Title: Use nbdime to Diff and Merge JupyterLab Notebooks
@@ -39,6 +39,11 @@ Deregister nbdime with Git for global users.
     :::bash
     nbdime config-git --disable --global
 
+If you are using [xinstall](https://github.com/dclong/xinstall),
+a simple way to install and configure nbdime is to run the following commandd.
+
+    :::bash
+    xinstall nbdime -ic
 
 ## Version Control Integration
 

@@ -1,10 +1,10 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-10-25 18:45:40
+Date: 2021-02-15 12:10:03
 Title: General Tips on SQL
 Slug: sql-tips
 Category: Computer Science
-Tags: programming, SQL, tips, IDE, sqldep, queryscope, queryViz, eralchemy, database
+Tags: programming, SQL, tips, IDE, sqldep, queryscope, queryViz, SQLAlchemy, database
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -20,7 +20,7 @@ Please read with your own judgement!
     [一条垃圾SQL，把 64 核 CPU 快跑崩了！](https://mp.weixin.qq.com/s/mdl4Xa9zbl-CUBCi4Io-Tg)
     .
 
-1. if performance is an issue, avoid using sub queries, use temp tables instead ...
+1. If performance is an issue, temp tables are preferred to subqueriess.
 
 2. When you create a table by selecting records from another table,
     it is best to specify a primary index
@@ -81,7 +81,7 @@ Please read with your own judgement!
     Use CTE (with clause) instead
     which is equivalent but much more readable.
 
-1. avoid using resvered keywords (e.g., title) as column/table name, 
+1. Avoid using resvered keywords (e.g., `title`) as column/table name, 
     even if you can use "keyword" but still other people might forget for not obvious keywords like title
 
 2. JDBC is preferred over ODBC for 3 reason. 
