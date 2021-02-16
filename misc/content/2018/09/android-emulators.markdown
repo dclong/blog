@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-10 12:03:36
+Date: 2021-02-16 10:24:51
 Author: Ben Chuanlong Du
 Slug: android-emulators
 Title: Android Emulators
@@ -21,10 +21,12 @@ Most of the Android emulators are based on VirtualBox and for Windows only.
 
 [GenyMotion](https://www.genymotion.com/)
 is a great cross-platform choice.
-Even though GenyMotion is a commerical software,
-it is free for personal use 
-and the personal use edition can be download at 
-https://www.genymotion.com/fun-zone/.
+However, 
+a licence must be purchased to use GenyMotion.
+The desktop version of GenyMotion 
+can be downloaded at
+<https://www.genymotion.com/fun-zone/>
+.
 
 ## [BlueStacks](https://www.bluestacks.com/) 
 
@@ -40,9 +42,11 @@ is a good free Android emulator for Windows only.
 ## [AnBox](https://anbox.io/)
 
 [AnBox](https://anbox.io/)
-is an open-source WINE-like Android emulator for Linux only (cannot be run on macOS).
-ARM-only apps might be able to run on x86-based Linux OS via 
-[libhoudini](https://github.com/Rprop/libhoudini) (development is inactive now).
+is an open-source WINE-like Android emulator for Linux only (CANNOT be run on macOS).
+ARM apps can be run on x86-based Linux OS with Android 11+ images.
+For more details,
+please refer to
+[Run ARM apps on the Android Emulator](https://android-developers.googleblog.com/2020/03/run-arm-apps-on-android-emulator.html)
 
 ## [MuMu App Player](https://mumu.163.com/)
 [MuMu App Player](https://mumu.163.com/)
