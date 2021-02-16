@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-01-10 13:04:06
+Date: 2021-02-15 21:26:24
 Slug: hadoop-fs-tips
 Title: Hadoop Filesystem Tips
 Category: Software
@@ -200,7 +200,9 @@ http://www.ericlin.me/disable-hive-output-compression
 
 ## References
 
-https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-common/FileSystemShell.html
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html
+
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/FileSystemShell.html
 
 https://stackoverflow.com/questions/6504107/the-way-to-check-a-hdfs-directorys-size
 
