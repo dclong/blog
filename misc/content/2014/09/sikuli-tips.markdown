@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-16 14:28:04
+Date: 2021-02-16 15:00:28
 Author: Ben Chuanlong Du
 Slug: sikuli-tips
 Title: Use SikuliX to Automate Anything 
@@ -20,6 +20,11 @@ Please read with your own judgement!
     are 2 Python bidings.
     [sikulix4python](https://github.com/RaiMan/sikulix4python) 
     is inactive at this time.
+
+2. SikuliX IDE is very useful.
+    Please refer to
+    https://raiman.github.io/SikuliX1/downloads.html
+    for instructions on how to use SikuliX IDE.
 
 ## References
 
