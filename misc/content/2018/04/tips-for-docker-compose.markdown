@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-17 11:59:51
+Date: 2021-02-16 09:18:10
 Author: Ben Chuanlong Du
 Slug: tips-on-docker-compose
 Title: Tips on Docker Compose
@@ -51,6 +51,8 @@ which is a big limitation of Docker-Compose.
 https://github.com/docker/compose/issues/4081
 
 ## Nvidia GPU Support 
+
+[Enabling GPU access with Compose](https://docs.docker.com/compose/gpu-support/)
 
 https://github.com/docker/compose/pull/7929
 
