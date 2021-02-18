@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-12 10:34:26
+Date: 2021-02-18 09:10:17
 Author: Ben Chuanlong Du
 Slug: my-docker-images
 Title: My Docker Images
@@ -221,7 +221,11 @@ most of time you can rely on `/scripts/list_jupyter.py`
 to find the tokens of the running Jupyter/Lab servers,
 no matter you are root or the user that launches the Docker/JupyterLab server,
 and no matter you are inside the Docker container or not.
-
+Yet another way to get information of the running JupyterLab server 
+is to check the log. 
+Please refer to the section 
+[Debug Docker Containers](http://www.legendu.net/en/blog/my-docker-images/#debug-docker-containers)
+for more information.
 
 ## Add a New User to the JupyterHub Server
 
