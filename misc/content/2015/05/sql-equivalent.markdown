@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 09:49:22
+Date: 2021-02-20 11:38:43
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -2170,36 +2170,36 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
     </td>
     <td> <code> 
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR')
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR') <br>
     -- 2015-01-01T00:00:00
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'MM')
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'MM') <br>
     -- 2015-03-01T00:00:00
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'DD')
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'DD') <br>
     -- 2015-03-05T00:00:00
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'HOUR')
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'HOUR') <br>
     -- 2015-03-05T09:00:00
     </code> </td>
   <tr>
     <td> <code> 
-    SELECT trunc('2009-02-12', 'MM')
+    SELECT trunc('2009-02-12', 'MM') <br>
     -- 2009-02-01
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-    SELECT trunc('2015-10-27', 'YEAR')
+    SELECT trunc('2015-10-27', 'YEAR') <br>
     -- 2015-01-01
     </code> </td>
   </tr>
