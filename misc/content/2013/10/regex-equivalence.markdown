@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:34:56
+Date: 2021-02-20 12:03:37
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -30,19 +30,16 @@ Please read with your own judgement!
 <table style="width:100%">
     <tr>
         <th> </th>
-        <th> grep </th>
-        <th> sed </th>
         <th> Vim search </th>
         <th> Python </th>
         <th> JavaScript </th>
         <th> Teradata SQL </th>
         <th> Oracle SQL </th>
+        <th> grep </th>
+        <th> sed </th>
     </tr>
     <tr>
         <td> Regular expression modifiers </td>
-        <td> Fully suppoted via Perl style regular (the `-P` option) expressions. </td>
-        <td> 
-        </td>
         <td> 
         </td>
         <td> 
@@ -64,9 +61,21 @@ Please read with your own judgement!
             Not supported. 
             Behavior of regular expressions are control via parameters of regular expression functions.
         </td>
+        <td> Fully suppoted via Perl style regular (the `-P` option) expressions. </td>
+        <td> </td>
     </tr>
     <tr>
         <td> Greedy match or not </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
         <td> 
             Greedy by default.
             However, 
@@ -75,22 +84,9 @@ Please read with your own judgement!
             instead of `.*` you can use `.*?` to do a non-greedy match.
         </td>
         <td> </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
     </tr>
     <tr>
         <td> Popular functions </td>
-        <td> 
-        </td>
-        <td> </td>
         <td> 
         </td>
         <td> 
@@ -103,15 +99,11 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> </td>
+        <td> </td>
     </tr>
     <tr>
         <td> White spaces </td>
-        <td> 
-            `\s` or `[[:space:]]`
-        </td>
-        <td> 
-            `[[:space:]]` (recommended) or `\s`
-        </td>
         <td> 
             `\s`
         </td>
@@ -125,6 +117,12 @@ Please read with your own judgement!
             [[:space:]]
         </td>
         <td> 
+        </td>
+        <td> 
+            `\s` or `[[:space:]]`
+        </td>
+        <td> 
+            `[[:space:]]` (recommended) or `\s`
         </td>
     </tr>
     <tr>
@@ -133,12 +131,6 @@ Please read with your own judgement!
             `\S`
         </td>
         <td> 
-            `[^[:space:]]` or `\S`
-        </td>
-        <td> 
-            `\S`
-        </td>
-        <td> 
             `\S`
         </td>
         <td> 
@@ -149,16 +141,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `\S`
+        </td>
+        <td> 
+            `[^[:space:]]` or `\S`
+        </td>
     </tr>
     <tr>
         <td> 
             Lower-case letters
-        </td>
-        <td> 
-            `[a-z]`
-        </td>
-        <td> 
-            `[a-z]`
         </td>
         <td> 
             `[a-z]` or `\l`
@@ -172,16 +164,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[a-z]`
+        </td>
+        <td> 
+            `[a-z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non lower-case characters
-        </td>
-        <td> 
-            `[^a-z]`
-        </td>
-        <td> 
-            `[^a-z]`
         </td>
         <td> 
             `[^a-z]` or `\L`
@@ -195,16 +187,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^a-z]`
+        </td>
+        <td> 
+            `[^a-z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Upper-case letters
-        </td>
-        <td> 
-            `[A-Z]`
-        </td>
-        <td> 
-            `[A-Z]`
         </td>
         <td> 
             `[A-Z]` or `\u`
@@ -218,16 +210,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[A-Z]`
+        </td>
+        <td> 
+            `[A-Z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non upper-case characters
-        </td>
-        <td> 
-            `[^A-Z]`
-        </td>
-        <td> 
-            `[^A-Z]`
         </td>
         <td> 
             `[^A-Z]` or `\U`
@@ -241,16 +233,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^A-Z]`
+        </td>
+        <td> 
+            `[^A-Z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Letters
-        </td>
-        <td> 
-            `[a-zA-Z]`
-        </td>
-        <td> 
-            `[a-zA-Z]`
         </td>
         <td> 
             `[a-zA-Z]` or `\a`
@@ -264,16 +256,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[a-zA-Z]`
+        </td>
+        <td> 
+            `[a-zA-Z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non letters
-        </td>
-        <td> 
-            `[^a-zA-Z]`
-        </td>
-        <td> 
-            `[^a-zA-Z]`
         </td>
         <td> 
             `[^a-zA-Z]` or `\A`
@@ -287,10 +279,28 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^a-zA-Z]`
+        </td>
+        <td> 
+            `[^a-zA-Z]`
+        </td>
     </tr>
     <tr>
         <td> 
             Digits
+        </td>
+        <td> 
+            `\d`
+        </td>
+        <td> 
+            `\d`
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
         </td>
         <td> 
             `[[:digit:]]`
@@ -298,22 +308,22 @@ Please read with your own judgement!
         <td> 
             `\d`
         </td>
-        <td> 
-            `\d`
-        </td>
-        <td> 
-            `\d`
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
     </tr>
     <tr>
         <td> 
             Non digits
+        </td>
+        <td> 
+            `\D`
+        </td>
+        <td> 
+            `\D`
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
         </td>
         <td> 
             `[^[:digit:]]`
@@ -321,28 +331,10 @@ Please read with your own judgement!
         <td> 
             `\D`
         </td>
-        <td> 
-            `\D`
-        </td>
-        <td> 
-            `\D`
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
     </tr>
     <tr>
         <td> 
             Hex digits
-        </td>
-        <td> 
-            `[0-9a-fA-F]`
-        </td>
-        <td> 
-            `[0-9a-fA-F]`
         </td>
         <td> 
             `[0-9a-fA-F]` or `\x`
@@ -356,16 +348,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[0-9a-fA-F]`
+        </td>
+        <td> 
+            `[0-9a-fA-F]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non-Hex digit characters
-        </td>
-        <td> 
-            `[^0-9a-fA-F]`
-        </td>
-        <td> 
-            `[^0-9a-fA-F]`
         </td>
         <td> 
             `[^0-9a-fA-F]` or `\X`
@@ -379,16 +371,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^0-9a-fA-F]`
+        </td>
+        <td> 
+            `[^0-9a-fA-F]`
+        </td>
     </tr>
     <tr>
         <td> 
             Octal digits
-        </td>
-        <td> 
-            `[0-7]`
-        </td>
-        <td> 
-            `[0-7]`
         </td>
         <td> 
             `[0-7]` or `\o`
@@ -402,16 +394,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[0-7]`
+        </td>
+        <td> 
+            `[0-7]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non-octal digit Characters
-        </td>
-        <td> 
-            `[^0-7]`
-        </td>
-        <td> 
-            `[^0-7]`
         </td>
         <td> 
             `[^0-7]` or `\O`
@@ -425,16 +417,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^0-7]`
+        </td>
+        <td> 
+            `[^0-7]`
+        </td>
     </tr>
     <tr>
         <td> 
             Head of word
-        </td>
-        <td> 
-            `[a-zA-Z_]`
-        </td>
-        <td> 
-            `[a-zA-Z_]`
         </td>
         <td> 
             `[a-zA-Z_]` or `\h`
@@ -448,16 +440,16 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[a-zA-Z_]`
+        </td>
+        <td> 
+            `[a-zA-Z_]`
+        </td>
     </tr>
     <tr>
         <td> 
             Non-head of word
-        </td>
-        <td> 
-            `[^a-zA-Z_]`
-        </td>
-        <td> 
-            `[^a-zA-Z_]`
         </td>
         <td> 
             `[^a-zA-Z_]` or `\H`
@@ -471,17 +463,23 @@ Please read with your own judgement!
         </td>
         <td> 
         </td>
+        <td> 
+            `[^a-zA-Z_]`
+        </td>
+        <td> 
+            `[^a-zA-Z_]`
+        </td>
     </tr>
     <tr>
         <td> 
             Printable Characters
         </td>
         <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
             `\p`
+        </td>
+        <td> 
+        </td>
+        <td> 
         </td>
         <td> 
         </td>
@@ -497,11 +495,11 @@ Please read with your own judgement!
             Non printable Characters
         </td>
         <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
             `\P`
+        </td>
+        <td> 
+        </td>
+        <td> 
         </td>
         <td> 
         </td>
@@ -523,16 +521,16 @@ Please read with your own judgement!
             `\w`
         </td>
         <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
             `\w`
         </td>
         <td> 
             `\w`
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
         </td>
     </tr>
     <tr>
@@ -546,16 +544,42 @@ Please read with your own judgement!
             `\W`
         </td>
         <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
             `\W`
         </td>
         <td> 
             `\W`
         </td>
+    </tr>
+    <tr>
         <td> 
+            grouping
         </td>
         <td> 
+            \(\)
         </td>
         <td> 
+            ()
+        </td>
+        <td> 
+            ()
+        </td>
+        <td> 
+            ()
+        </td>
+        <td> 
+            ()
+        </td>
+        <td> 
+            \(\)
+        </td>
+        <td> 
+            ()
         </td>
     </tr>
 </table>
