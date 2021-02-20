@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 09:12:14
+Date: 2021-02-20 09:49:22
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -119,7 +119,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
     
   <tr>
-    <td rowspan="9"> List all <br> tables <br>in the <br> current <br> database <a href="#footnote1">[1]</a> </td>
+    <td rowspan="12"> List all <br> tables <br>in the <br> current <br> database <a href="#footnote1">[1]</a> </td>
     <td> SQLite 3 </td>
     <td> <code> 
         .TABLES <br>
@@ -162,20 +162,31 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle </td>
+    <td rowspan="4"> Oracle </td>
     <td> <code> 
-        /*All tables in a database*/
+        /* All tables in a database */ <br>
         SELECT * <br>
         FROM dba_tables <br>
         WHERE table_schema = 'current database name'<br>
-        The table `all_tab_cols` contains information about tables and their columns
-        <br>
-        /* List all tables owned by the current user.*/
-        select * from user_tables;
-        List all tables accessible to the current user.
-        select * from all_tables;
     </code> </td>
   </tr>
+  <tr>
+    <td> <code> 
+        /* The table all_tab_cols contains information <br>
+        about tables and their columns */
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+        /* List all tables owned by the current user */ <br>
+        select * from user_tables
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+        /* List all tables accessible to the current user */ <br>
+        select * from all_tables
+    </code> </td>
   <tr>
     <td> MS SQL Server </td>
     <td> <code> 
@@ -208,12 +219,12 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td rowspan="2"> Teradata </td>
     <td> <code> 
-        HELP TABLE table_name;
+        HELP TABLE table_name
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
-        HELP COLUMN table_name.*;
+        HELP COLUMN table_name.*
     </code> </td>
   </tr>
   <tr>
@@ -294,21 +305,21 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
            since all tables in user_tables are owned by the current user <br>
          */ <br>
         SELECT * <br>
-        FROM user_tables;
+        FROM user_tables
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
         SELECT * <br>
         FROM all_tables <br> 
-        WHERE owner = "current_user_name";
+        WHERE owner = "current_user_name"
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
         SELECT * <br>
         FROM dba_tables <br> 
-        WHERE owner = "curent_user_name";
+        WHERE owner = "curent_user_name"
     </code> </td>
   </tr>
   <tr>
@@ -342,7 +353,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Oracle </td>
     <td> <code> 
         SELECT * <br>
-        FROM all_tables;
+        FROM all_tables
     </code> </td>
   </tr>
   <tr>
@@ -375,7 +386,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Oracle </td>
     <td> <code> 
-        SELECT * FROM dba_tables;
+        SELECT * FROM dba_tables
     </code> </td>
   </tr>
   <tr>
@@ -489,7 +500,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table <br>
-        LIMIT 5;
+        LIMIT 5
     </code> </td>
   </tr>
   <tr>
@@ -497,7 +508,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table_name <br> 
-        LIMIT 5;
+        LIMIT 5
     </code> </td>
   </tr>
   <tr>
@@ -505,14 +516,14 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table_name <br> 
-        LIMIT 5;
+        LIMIT 5
     </code> </td>
   </tr>
   <tr>
     <td> Teradata </td>
     <td> <code> 
         SELECT TOP 5 * <br>
-        FROM table;
+        FROM table
     </code> </td>
   </tr>
   <tr>
@@ -520,20 +531,20 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table <br>
-        LIMIT 5;
+        LIMIT 5
     </code> </td>
   </tr>
   <tr>
     <td rowspan="2"> MS SQL Server </td>
     <td> <code> 
         SELECT TOP 5 * <br> 
-        FROM table;
+        FROM table
     </code> </td>
   </tr>
   <tr>
     <td> <code> 
         SELECT TOP 50 PERCENT * <br> 
-        FROM table;
+        FROM table
     </code> </td>
   </tr>
     
@@ -544,7 +555,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         SELECT * <br>
         FROM table <br> 
         ORDER BY random() <br> 
-        LIMIT 100;
+        LIMIT 100
     </code> </td>
   </tr>
   <tr>
@@ -558,7 +569,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     SELECT * <br>
     FROM table <br>
     TABLESAMPLE (1 PERCENT) <br>
-    LIMIT 100;
+    LIMIT 100
     </code> </td>
   </tr>
   <tr>
@@ -566,7 +577,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     SELECT * <br>
     FROM table <br>
     ORDER BY random() <br>
-    LIMIT 100;
+    LIMIT 100
     </code> </td>
   </tr>
   <tr>
@@ -585,7 +596,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table <br>
-        SAMPLE 100;
+        SAMPLE 100
     </code> </td>
   </tr>
   <tr>
@@ -609,7 +620,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         */ <br>
         SELECT * <br>
         FROM table <br> 
-        WHERE random() % 10 = 0;
+        WHERE random() % 10 = 0
     </code> </td>
   </tr>
   <tr>
@@ -629,7 +640,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> <code> 
         SELECT * <br>
         FROM table <br>
-        SAMPLE 0.1;
+        SAMPLE 0.1
     </code> </td>
   </tr>
   <tr>
@@ -683,7 +694,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
 
     
   <tr>
-    <td rowspan="6"> Insert <br> multiple <br> rows in <br> one <br> statement </td>
+    <td rowspan="7"> Insert <br> multiple <br> rows in <br> one <br> statement </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -719,23 +730,28 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
             ('John', 'Smith'), <br> &nbsp; &nbsp;
             ('Michael', 'Smith'), <br> &nbsp; &nbsp;
             ('Robert', 'Smith') <br>
-        ;
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle </td>
+    <td rowspan="2"> Oracle </td>
     <td> <code> 
-        INSERT INTO pager (pag_id, pag_parent, pag_name, pag_active) <br>
+        INSERT INTO pager ( <br> &nbsp; &nbsp;
+            pag_id, <br> &nbsp; &nbsp;
+            pag_parent, <br> &nbsp; &nbsp;
+            pag_name, <br> &nbsp; &nbsp;
+            pag_active <br> 
+        ) <br>
         SELECT 8000, 0, 'Multi 8000', 1 FROM dual <br>
         UNION ALL  <br>
         SELECT 8001, 0, 'Multi 8001', 1 FROM dual <br>
-        ; <br>
-        -- or <br>
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
         INSERT ALL <br>
         INTO t (col1, col2, col3) VALUES ('val1_1', 'val1_2', 'val1_3') <br>
         INTO t (col1, col2, col3) VALUES ('val2_1', 'val2_2', 'val2_3') <br>
         INTO t (col1, col2, col3) VALUES ('val3_1', 'val3_2', 'val3_3')
-        ;
     </code> </td>
   </tr>
   <tr>
@@ -1198,7 +1214,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     <td> Teradata </td>
     <td> <code> 
     POSITION('de' IN 'abcdefg') <br>
-    regexp_instr('abc', 'a') -- 1-base index;
+    regexp_instr('abc', 'a') -- 1-base index
     </code> </td>
   </tr>
   <tr>
@@ -1388,7 +1404,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> string matching </td>
+    <td rowspan="8"> string matching </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -1399,36 +1415,41 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> 
+    <td rowspan="2"> 
         <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
     </td>
     <td> <code> 
-    /* like is Case sensitive */
-    like/rlike
+    /* like is Case sensitive */ <br>
+    like
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    rlike
     </code> </td>
   </tr>
   <tr>
     <td> Teradata </td>
     <td> <code> 
-    /*like is case insensitive by default, 
-    however, 
+    /* Like is case insensitive by default. <br> 
+    However, 
     you can specify the keyword CaseSpecific to make it case sensitive
-    */
-    like
-    SELECT 
-        empname 
-    FROM 
-        tbl_emp 
-    WHERE 
-        empname (CaseSpecific) like '%JO%’
-    ;
+    */ <br>
+    SELECT empname <br>
+    FROM tbl_emp  <br>
+    WHERE empname (CaseSpecific) like '%JO%’
     </code> </td>
   </tr>
   <tr>
-    <td> Oracle </td>
+    <td rowspan="2"> Oracle </td>
     <td> <code> 
-    /*like is case sensitive*/
-    like / regexp_like(name, 'string$', 'i')
+    /*like is case sensitive*/ <br>
+    like
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    regexp_like(name, 'string$', 'i')
     </code> </td>
   </tr>
   <tr>
@@ -1438,7 +1459,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> shift string </td>
+    <td rowspan="7"> shift string </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -1449,11 +1470,16 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> 
+    <td rowspan="2"> 
         <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
     </td>
     <td> <code> 
-    shiftleft/shiftright
+    shiftleft
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    shiftright
     </code> </td>
   </tr>
   <tr>
@@ -1488,7 +1514,6 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
     </td>
     <td> <code> 
-    shiftleft/shiftright
     </code> </td>
   </tr>
   <tr>
@@ -2130,7 +2155,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> truncate date </td>
+    <td rowspan="11"> truncate date </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -2141,26 +2166,40 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> 
+    <td rowspan="6"> 
         <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
     </td>
     <td> <code> 
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR');
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR')
     -- 2015-01-01T00:00:00
-
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'MM');
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'MM')
     -- 2015-03-01T00:00:00
-
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'DD');
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'DD')
     -- 2015-03-05T00:00:00
-
-    SELECT date_trunc('2015-03-05T09:32:05.359', 'HOUR');
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT date_trunc('2015-03-05T09:32:05.359', 'HOUR')
     -- 2015-03-05T09:00:00
-
-    SELECT trunc('2009-02-12', 'MM');
+    </code> </td>
+  <tr>
+    <td> <code> 
+    SELECT trunc('2009-02-12', 'MM')
     -- 2009-02-01
-
-    SELECT trunc('2015-10-27', 'YEAR');
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    SELECT trunc('2015-10-27', 'YEAR')
     -- 2015-01-01
     </code> </td>
   </tr>

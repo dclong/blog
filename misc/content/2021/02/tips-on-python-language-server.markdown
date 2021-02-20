@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: tips-on-python-language-server
 Title: Tips on Python-Language-Server
 Category: Computer Science
-Tags: Computer Science
+Tags: Computer Science, programming, IDE, Python, language server, pyls
 
 
 
