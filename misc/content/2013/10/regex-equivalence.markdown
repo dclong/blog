@@ -586,17 +586,6 @@ Please read with your own judgement!
 </div>
 
 
-## Grouping
-### Python
-`()`
-### sed
-`()`
-### grep
-`\(\)`
-### Vim
-`\(\)`
-
-
 ## Alternation
 ### Python
 
