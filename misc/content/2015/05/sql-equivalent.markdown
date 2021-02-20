@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 11:38:43
+Date: 2021-02-20 11:48:36
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -1044,7 +1044,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Substring </td>
+    <td rowspan="8"> Substring </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -1055,7 +1055,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> 
+    <td rowspan="3"> 
         <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
     </td>
     <td> <code> 
@@ -1064,7 +1064,16 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
         substr('Spark SQL', 5, 1) -- resulting 'k' <br>
     FROM <br> &nbsp; &nbsp;
         table <br>
-    left/right
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    left
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    right
     </code> </td>
   </tr>
   <tr>
@@ -1192,7 +1201,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
 
   <tr>
-    <td rowspan="6"> Index of substring </td>
+    <td rowspan="7"> Index of substring </td>
     <td> SQLite 3 </td>
     <td> <code> 
     </code> </td>
@@ -1211,10 +1220,15 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Teradata </td>
+    <td rowspan="2"> Teradata </td>
     <td> <code> 
-    POSITION('de' IN 'abcdefg') <br>
-    regexp_instr('abc', 'a') -- 1-base index
+    position('de' IN 'abcdefg') <br>
+    </code> </td>
+  </tr>
+  <tr>
+    <td> <code> 
+    regexp_instr('abc', 'a') <br>
+    -- 1-base index
     </code> </td>
   </tr>
   <tr>
@@ -1431,9 +1445,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   <tr>
     <td> Teradata </td>
     <td> <code> 
-    /* Like is case insensitive by default. <br> 
-    However, 
-    you can specify the keyword CaseSpecific to make it case sensitive
+    /* Like is case-insensitive by default. <br> 
+    You can specify the keyword CaseSpecific <br>
+    to make it case-sensitive.
     */ <br>
     SELECT empname <br>
     FROM tbl_emp  <br>
