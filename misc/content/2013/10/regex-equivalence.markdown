@@ -26,6 +26,13 @@ Please read with your own judgement!
     than remembering different options in different programming languages or tools. 
     It is suggested that you use regular expression modifiers when possible.
 
+4. Word boundry is a super set of white spaces.
+
+5. `[[:alnum:]]` contains all letters and numbers 
+    while `\w` contains not only letters and numbers but also some special character such as `_`. 
+    So in short `\w` is a super set of `[[:alnum:]]`.
+
+
 <div style="overflow-x:auto;">
 <table style="width:100%">
     <tr>
@@ -535,6 +542,29 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
+            Word boundry
+        </td>
+        <td> 
+            `\b`
+        </td>
+        <td> 
+            `\b`
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            `\b`
+        </td>
+        <td> 
+            `\b`
+        </td>
+    </tr>
+    <tr>
+        <td> 
             Non word characters
         </td>
         <td> 
@@ -582,201 +612,349 @@ Please read with your own judgement!
             ()
         </td>
     </tr>
+    <tr>
+        <td> 
+            0 or more matches
+        </td>
+        <td> 
+            *
+        </td>
+        <td> 
+            *
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            *
+        </td>
+        <td> 
+            *
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            0 or more matches (as few as possible)
+        </td>
+        <td> 
+            \\{-\\}
+        </td>
+        <td> 
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            0 or 1 matches
+        </td>
+        <td> 
+            \=
+        </td>
+        <td> 
+            ?
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            ?
+        </td>
+        <td> 
+            ?
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            1 or more matches
+        <td> 
+            \+
+        </td>
+        <td> 
+            +
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            +
+        </td>
+        <td> 
+            +
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            Exactly m matches
+        </td>
+        </td>
+        <td> 
+            \\{m\\}
+        </td>
+        <td> 
+            {m}
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            {m}
+        </td>
+        <td> 
+            {m}
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            m or more matches
+        </td>
+        </td>
+        <td> 
+            \\{m,\\}
+        </td>
+        <td> 
+            {m,}
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            {m,}
+        </td>
+        <td> 
+            {m,}
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            m or more matches (as few as possible)
+        </td>
+        </td>
+        <td> 
+            \\{-m,\\}
+        </td>
+        <td> 
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            m to n matches
+        </td>
+        </td>
+        <td> 
+            \\{m,n\\}
+        </td>
+        <td> 
+            {m,n}
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            {m,n}
+        </td>
+        <td> 
+            {m,n}
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            m to n matches (as few as possible)
+        </td>
+        </td>
+        <td> 
+            \\{-m,n\\}
+        </td>
+        <td> 
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            up to n matches
+        </td>
+        </td>
+        <td> 
+            \\{,n\\}
+        </td>
+        <td> 
+            {,n}
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            {,n}
+        </td>
+        <td> 
+            {,n}
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            up to n matches (as few as possible)
+        </td>
+        </td>
+        <td> 
+            \\{-,n\\}
+        </td>
+        <td> 
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            Any character except a newline
+        </td>
+        <td> 
+            .
+        </td>
+        <td> 
+            .
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            .
+        </td>
+        <td> 
+            .
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            Start of a line
+        </td>
+        <td> 
+            ^
+        </td>
+        <td> 
+            ^
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            ^
+        </td>
+        <td> 
+            ^
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            End of a line
+        </td>
+        <td> 
+            $
+        </td>
+        <td> 
+            $
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            $
+        </td>
+        <td> 
+            $
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            Literal /
+        </td>
+        <td> 
+        </td>
+        <td> 
+            \/ (need to escape)
+        <td> 
+        </td>
+        <td> 
+        </td>
+            / (no need to escape)
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+    </tr>
+    <tr>
+        <td> 
+            Literal dot
+        </td>
+        <td> 
+        </td>
+        <td> 
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td> 
+            \\.
+        </td>
+    </tr>
 </table>
 </div>
-
-
-## Alternation
-### Python
-
-### sed
-
-### grep
-
-### Vim
-
-
-
-## 0 or More Matches
-### Python
-`*`
-### sed
-`*`
-### grep
-`*`
-### Vim
-`*`
-
-
-## 0 or 1 match
-### Python
-`?`
-### sed
-`?`
-### grep
-`?`
-### Vim
-`\=`
-
-
-## 1 or More Matches
-### Python
-`+`
-### sed
-`+`
-### grep
-`+`
-### Vim
-`\+`
-
-
-## Any Character Except a Newline
-### Python
-`.`
-### sed
-`.`
-### grep
-`.`
-### Vim
-`.`
-
-
-## Start of a Line
-### Python
-`^`
-### sed
-`^`
-### grep
-`^`
-### Vim
-`^`
-
-
-## End of a Line
-### Python
-`$`
-### sed
-`$`
-### grep
-`$`
-### Vim
-`$`
-
-
-## Exactly `m` Matches
-### Python
-`{m}`
-### sed
-`{m}`
-### grep
-`{m}`
-### Vim
-`\\{m\\}`
-
-
-## `m` or More Matches
-### Python
-`{m,}`
-### sed
-`{m,}`
-### grep
-`{m,}`
-### Vim
-`\\{m,\\}`
-
-
-## `m` to `n` Matches
-### Python
-`{m,n}`
-### sed
-`{m,n}`
-### grep
-`{m,n}`
-### Vim
-`\\{m,n\\}`
-
-
-## At Most `n` Matches
-### Python
-`{,n}`
-### sed
-`{,n}`
-### grep
-`{,n}`
-### Vim
-`\\{,n\\}`
-
-
-## 0 or More Matches (as few as possible)
-### Python
-NA
-### sed
-NA
-### grep
-NA
-### Vim
-`\\{-\\}`
-
-
-## m to n matches, as few as possible
-### Python
-NA
-### sed
-NA
-### grep
-NA
-### Vim
-`\\{-m,n\\}`
-
-
-## at least m matches, as few as possible
-### Python
-NA
-### sed
-NA
-### grep
-NA
-### Vim
-`\\{-m,\\}`
-
-
-## at most m matches, as few as possible
-### Python
-NA
-### sed
-NA
-### grep
-NA
-### Vim
-`\\{-,m\\}`
-
-
-
-## Word Boundry 
-### Python
-`\b`
-### sed
-`\b`
-### grep
-`\b`
-### Vim
-`\b`
-
-## Escape Special Characters
-### Teradata SQL
-1. No need to escape `/`.
-### Python 
-1. Need to escape `/`.
-### sed
-1. `.` -> `\\.`
-
-## Some Confusing Concept
-1. white spaces vs word boundry
-word boundry is a super set of white spaces.
-2. `\w` vs [[:alnum:]]
-[[:alnum:]] contains all letters and numbers 
-while `\w` contains not only letters and numbers but also some special character such as `_`. 
-So in short `\w` is a super set of `[[:alnum:]]`.
 
 
 ## References
