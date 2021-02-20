@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-02-20 12:03:37
+Date: 2021-02-20 12:45:45
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -621,6 +621,7 @@ Please read with your own judgement!
         </td>
         <td> 
             *
+        </td>
         <td> 
         </td>
         <td> 
@@ -642,6 +643,7 @@ Please read with your own judgement!
             \\{-\\}
         </td>
         <td> 
+        </td>
         <td> 
         </td>
         <td> 
@@ -662,6 +664,7 @@ Please read with your own judgement!
         </td>
         <td> 
             ?
+        </td>
         <td> 
         </td>
         <td> 
@@ -678,17 +681,16 @@ Please read with your own judgement!
     <tr>
         <td> 
             1 or more matches
+        </td> 
         <td> 
             \+
         </td>
         <td> 
             +
-        <td> 
         </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
         <td> 
             +
         </td>
@@ -700,12 +702,12 @@ Please read with your own judgement!
         <td> 
             Exactly m matches
         </td>
-        </td>
         <td> 
             \\{m\\}
         </td>
         <td> 
             {m}
+        </td>
         <td> 
         </td>
         <td> 
@@ -723,12 +725,12 @@ Please read with your own judgement!
         <td> 
             m or more matches
         </td>
-        </td>
         <td> 
             \\{m,\\}
         </td>
         <td> 
             {m,}
+        </td>
         <td> 
         </td>
         <td> 
@@ -746,11 +748,11 @@ Please read with your own judgement!
         <td> 
             m or more matches (as few as possible)
         </td>
-        </td>
         <td> 
             \\{-m,\\}
         </td>
         <td> 
+        </td>
         <td> 
         </td>
         <td> 
@@ -766,18 +768,15 @@ Please read with your own judgement!
         <td> 
             m to n matches
         </td>
-        </td>
         <td> 
             \\{m,n\\}
         </td>
         <td> 
             {m,n}
-        <td> 
         </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
         <td> 
             {m,n}
         </td>
@@ -789,38 +788,29 @@ Please read with your own judgement!
         <td> 
             m to n matches (as few as possible)
         </td>
-        </td>
         <td> 
             \\{-m,n\\}
-        </td>
-        <td> 
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        </td> 
+        <td> </td> 
+        <td> </td> 
+        <td> </td> 
+        <td> </td> 
+        <td> </td> 
+        <td> </td>
     </tr>
     <tr>
         <td> 
             up to n matches
-        </td>
         </td>
         <td> 
             \\{,n\\}
         </td>
         <td> 
             {,n}
-        <td> 
         </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
         <td> 
             {,n}
         </td>
@@ -832,21 +822,15 @@ Please read with your own judgement!
         <td> 
             up to n matches (as few as possible)
         </td>
-        </td>
         <td> 
             \\{-,n\\}
         </td>
-        <td> 
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
     </tr>
     <tr>
         <td> 
@@ -857,6 +841,7 @@ Please read with your own judgement!
         </td>
         <td> 
             .
+        </td>
         <td> 
         </td>
         <td> 
@@ -879,6 +864,7 @@ Please read with your own judgement!
         </td>
         <td> 
             ^
+        </td>
         <td> 
         </td>
         <td> 
@@ -901,6 +887,7 @@ Please read with your own judgement!
         </td>
         <td> 
             $
+        </td>
         <td> 
         </td>
         <td> 
@@ -922,12 +909,11 @@ Please read with your own judgement!
         </td>
         <td> 
             \/ (need to escape)
+        </td> 
         <td> 
         </td>
         <td> 
-        </td>
             / (no need to escape)
-        <td> 
         </td>
         <td> 
         </td>
@@ -938,17 +924,12 @@ Please read with your own judgement!
         <td> 
             Literal dot
         </td>
-        <td> 
-        </td>
-        <td> 
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
-        <td> 
-        </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td> </td>
         <td> 
             \\.
         </td>
