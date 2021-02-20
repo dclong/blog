@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-30 13:00:12
+Date: 2021-02-20 08:47:41
 Author: Benjamin Du
 Slug: the-neovim-plugin-for-visual-studio-code
 Title: The NeoVim Plugin for Visual Studio Code
@@ -20,7 +20,7 @@ https://github.com/asvetliakov/vscode-neovim
         :::bash
         xinstall nvim -ic --ppa
 
-2. Install the VeoVim plugin from the extension market in VSCode or Code Server.
+2. Install the NeoVim plugin from the extension market in VSCode or Code Server.
 
 3. Set the path of NeoVim via the extension settings.
     You can also do this by editing the settings file directly.

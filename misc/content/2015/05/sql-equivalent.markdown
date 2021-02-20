@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-15 12:10:03
+Date: 2021-02-20 09:12:14
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent
@@ -406,7 +406,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/spark-sql-tips/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     CREATE TABLE IF NOT EXISTS queries ( <br> &nbsp; &nbsp;
         query String NOT NULL, <br> &nbsp; &nbsp;
@@ -693,7 +695,7 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
   </tr>
   <tr>
     <td> 
-        <a href="https://docs.databricks.com/spark/latest/spark-sql/language-manual/insert.html"> Spark/Hive </a>
+        <a href="http://www.legendu.net/misc/blog/spark-sql-tips/"> Spark/Hive </a>
     </td>
     <td> <code> 
     INSERT INTO tablel_name PARTITION ( <br> &nbsp; &nbsp;
@@ -1001,7 +1003,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT concat('Spark', 'SQL') <br>
     FROM table
@@ -1035,7 +1039,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     /* substr and substring are equivalent in Spark/Hive SQL */ <br>
     SELECT <br> &nbsp; &nbsp; 
@@ -1074,7 +1080,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     ltrim/rtrim/trim
     </code> </td>
@@ -1108,7 +1116,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     replace/translate/regexp_replace
     </code> </td>
@@ -1142,7 +1152,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     </code> </td>
   </tr>
@@ -1175,7 +1187,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     substring_index
     </code> </td>
@@ -1210,7 +1224,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     ucase/upper
     </code> </td>
@@ -1243,7 +1259,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     unbase64
     </code> </td>
@@ -1276,7 +1294,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     unhex
     </code> </td>
@@ -1309,7 +1329,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     uuid
     </code> </td>
@@ -1342,7 +1364,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     reverse
     </code> </td>
@@ -1375,7 +1399,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     /* like is Case sensitive */
     like/rlike
@@ -1423,7 +1449,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     shiftleft/shiftright
     </code> </td>
@@ -1456,7 +1484,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-string/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     shiftleft/shiftright
     </code> </td>
@@ -1490,7 +1520,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT <br> &nbsp; &nbsp;
         to_date("2000-01-01") AS date <br>
@@ -1527,7 +1559,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT 
         <br> &nbsp; &nbsp;
@@ -1577,7 +1611,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1616,7 +1652,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1655,7 +1693,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1694,7 +1734,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1733,7 +1775,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1772,7 +1816,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1822,7 +1868,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1861,7 +1909,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1900,7 +1950,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1952,7 +2004,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -1991,7 +2045,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td rowspan="2"> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -2044,7 +2100,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT
         <br> &nbsp; &nbsp;
@@ -2083,7 +2141,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     SELECT date_trunc('2015-03-05T09:32:05.359', 'YEAR');
     -- 2015-01-01T00:00:00
@@ -2132,7 +2192,9 @@ is a great tool that transalte any SQL statement(s) to a different dialetc using
     </code> </td>
   </tr>
   <tr>
-    <td> Spark/Hive </td>
+    <td> 
+        <a href="http://www.legendu.net/misc/blog/pyspark-func-date/"> Spark/Hive </a>
+    </td>
     <td> <code> 
     </code> </td>
   </tr>
