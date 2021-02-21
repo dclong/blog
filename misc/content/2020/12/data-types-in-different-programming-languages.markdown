@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 13:34:55
+Date: 2021-02-21 01:53:29
 Author: Benjamin Du
 Slug: data-types-in-different-programming-languages
 Title: Data Types in Different Programming Languages
@@ -38,7 +38,7 @@ Please read with your own judgement!
     <td> int8 </td>
     <td> </td>
     <td> TinyInt </td>
-    <td> </td>
+    <td> TinyInt or Decimal(3, 0) (slight larger) </td>
   </tr>
   <tr>
     <td> 16 bit integer </td>
@@ -50,7 +50,7 @@ Please read with your own judgement!
     <td> int16 </td>
     <td> </td>
     <td> SmallInt </td>
-    <td> SmallInt </td>
+    <td> SmallInt or Decimal(5, 0) (slight larger) </td>
   </tr>
   <tr>
     <td> 32 bit integer </td>
@@ -61,8 +61,8 @@ Please read with your own judgement!
     <td> int (arbitrary precision) </td>
     <td> int32 </td>
     <td> </td>
-    <td> int </td>
-    <td> </td>
+    <td> Int </td>
+    <td> Int or Decimal(10, 0) (slight larger) </td>
   </tr>
   <tr>
     <td> 64 bit integer </td>
@@ -74,7 +74,55 @@ Please read with your own judgement!
     <td> int64 </td>
     <td> </td>
     <td> BigInt </td>
-    <td> BigInt </td>
+    <td> BigInt or Decimal(18,0) (slight smaller) </td>
+  </tr>
+  <tr>
+    <td> Decimal(2,0) </td>
+    <td> short (larger) </td>
+    <td> short (laarger) </td>
+    <td> i8 (larger) </td>
+    <td> short </td>
+    <td> int (arbitrary precision) </td>
+    <td> int8 (larger) </td>
+    <td> </td>
+    <td> Decimal(2,0) or TinyInt (slight larger) </td>
+    <td> Decimal(2,0) </td>
+  </tr>
+  <tr>
+    <td> Decimal(4,0) </td>
+    <td> short (larger) </td>
+    <td> short (laarger) </td>
+    <td> i16 (larger) </td>
+    <td> short </td>
+    <td> int (arbitrary precision) </td>
+    <td> int16 (larger) </td>
+    <td> </td>
+    <td> Decimal(4,0) or SmallInt (larger) </td>
+    <td> Decimal(4,0) </td>
+  </tr>
+  <tr>
+    <td> Decimal(9,0) </td>
+    <td> int (larger) </td>
+    <td> int (laarger) </td>
+    <td> i32 (larger) </td>
+    <td> int </td>
+    <td> int (arbitrary precision) </td>
+    <td> int32 (larger) </td>
+    <td> </td>
+    <td> Decimal(9,0) or Int (larger) </td>
+    <td> Decimal(9,0) </td>
+  </tr>
+  <tr>
+    <td> Decimal(18,0) </td>
+    <td> long long (larger) </td>
+    <td> long long (laarger) </td>
+    <td> i64 (larger) </td>
+    <td> long </td>
+    <td> int (arbitrary precision) </td>
+    <td> int64 (larger) </td>
+    <td> </td>
+    <td> Decimal(18,0) or BigInt (larger) </td>
+    <td> Decimal(18,0) </td>
   </tr>
   <tr>
     <td> 32 bit float </td>
@@ -85,7 +133,7 @@ Please read with your own judgement!
     <td> float (64-bit) </td>
     <td> float64 </td>
     <td> </td>
-    <td> decimal(n,k) or double </td>
+    <td> decimal(n,k) or float </td>
     <td> decimal(n,k) </td>
   </tr>
   <tr>
