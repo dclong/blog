@@ -71,7 +71,7 @@ class Post:
     def blog_dir(self):
         """Get the corresponding blog directory (home, en, cn or misc) of a post.
         """
-        return self.path.parent.parent.stem
+        return self.path.parent.parent.parent.parent.stem
 
     def update_after_move(self) -> None:
         """ Update the post after move.
@@ -195,12 +195,12 @@ class Post:
             fout.writelines(lines)
         return tags
 
-    def record(self):
+    def record(self) -> Record:
         if self.path.suffix == MARKDOWN:
             return self._parse_markdown()
         return self._parse_notebook()
 
-    def _parse_markdown(self) -> List:
+    def _parse_markdown(self) -> Record:
         with self.path.open() as fin:
             lines = fin.readlines()
         index = 0
@@ -236,7 +236,7 @@ class Post:
         content = title + "\n" + category + "\n" + tags + "\n" + "".join(lines[index:])
         empty = self._is_ess_empty(lines[index:])
         name_title_mismatch = self.is_name_title_mismatch(title)
-        return [
+        return Record(
             self.path.relative_to(BASE_DIR),
             self.blog_dir(),
             status,
@@ -249,10 +249,10 @@ class Post:
             content,
             empty,
             0,
-            name_title_mismatch,
-        ]
+            name_title_mismatch
+        )
 
-    def _parse_notebook(self) -> List:
+    def _parse_notebook(self) -> Record:
         content = self.path.read_text()
         cells = json.loads(content)["cells"]
         empty = 1 if len(cells) <= 1 else 0
@@ -295,7 +295,7 @@ class Post:
                 tags = line[7:].strip()
                 continue
         name_title_mismatch = self.is_name_title_mismatch(title)
-        return [
+        return Record(
             self.path.relative_to(BASE_DIR),
             self.blog_dir(),
             status,
@@ -308,8 +308,8 @@ class Post:
             content,
             empty,
             0,
-            name_title_mismatch,
-        ]
+            name_title_mismatch
+        )
 
     def is_name_title_mismatch(self, title: str) -> int:
         """Check whether the file anme and the title of the post does not match.
@@ -525,8 +525,6 @@ class Blogger:
                 ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
             )
             """
-        # TODO: check whether a namedtuple can be used here ...
-        # If so, it is more flexible to use named tuple ...
         self.execute(sql, post.record())
 
     def trash(self, posts: Union[str, List[str]]):
