@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 from typing import Union, Sequence, List, Iterable
+from collections import namedtuple
 import os
 import re
 import sys
@@ -33,6 +34,10 @@ TODAY_DASH = NOW_DASH[:10]
 YYYYMM_slash = TODAY_DASH[:7].replace("-", "/")
 BASE_DIR = Path(__file__).resolve().parent
 WORDS = json.loads((BASE_DIR / "words.json").read_text())
+POSTS_COLS = [
+    "path", "dir", "status", "date", "author", "slug", "title", "category", "tags",
+    "content", "empty", "updated", "name_title_mismatch"
+]
 
 
 def qmarks(n: Union[int, Sequence]) -> str:
@@ -41,6 +46,9 @@ def qmarks(n: Union[int, Sequence]) -> str:
     if isinstance(n, (list, tuple)):
         n = len(n)
     return ", ".join(["?"] * n)
+
+
+Record = namedtuple("Record", POSTS_COLS)
 
 
 class Post:
@@ -517,6 +525,8 @@ class Blogger:
                 ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
             )
             """
+        # TODO: check whether a namedtuple can be used here ...
+        # If so, it is more flexible to use named tuple ...
         self.execute(sql, post.record())
 
     def trash(self, posts: Union[str, List[str]]):
