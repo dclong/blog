@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-15 18:04:35
+Date: 2021-02-23 10:24:06
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -59,26 +59,7 @@ You can install a specific version of an extension using `@`.
 
 https://github.com/cdr/code-server/issues/171
 
-## Debug Python Code
-
-`launch.json` for debugging Python code.
-
-    :::bash
-    {
-        // Use IntelliSense to learn about possible attributes.
-        // Hover to view descriptions of existing attributes.
-        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "name": "Python: Current File",
-                "type": "python",
-                "request": "launch",
-                "program": "${file}",
-                "console": "integratedTerminal"
-            }
-        ]
-    }
+## [Debug Python Project](http://www.legendu.net/misc/blog/debug-python-project-in-visual-studio-code)
 
 ## Shortcuts
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-22 10:06:41
+Date: 2021-02-23 10:27:10
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -57,6 +57,8 @@ https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-par
 https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-part-2/
 
 https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-part-3/
+
+## [Debug a Python Project](http://www.legendu.net/misc/blog/debug-python-project-in-visual-studio-code)
 
 ## Visual Studio Live Share
 
