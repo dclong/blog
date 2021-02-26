@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 11:53:58
+Date: 2021-02-25 16:17:30
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -35,6 +35,9 @@ Please read with your own judgement!
     and you have specified both A and B in `pyproject.toml`.
     Removing dependency B from `pyrpoject.toml` and then running `poetry install` 
     won't remove the library B from the virtual environment as B is still needed by A.
+
+4. Poetry has lots of issues in Windows currently.
+    It is suggested that you avoid using poetry in Windows.
 
 ## Install Python Poetry
 

@@ -1,789 +1,1130 @@
 #!/usr/bin/env python3
-# encoding: utf-8
-
-from typing import Union, Sequence, List, Iterable
-from collections import namedtuple
 import os
 import re
-import sys
-import sqlite3
-import datetime
 import shutil
 from pathlib import Path
-import json
-import itertools
+from argparse import ArgumentParser
 import subprocess as sp
+import getpass
 from loguru import logger
-from tqdm import tqdm
-EN = "en"
-CN = "cn"
-HOME = "home"
-MISC = "misc"
-OUTDATED = "outdated"
-DISCLAIMER = """
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-"""
-MARKDOWN = ".markdown"
-IPYNB = ".ipynb"
-NOW_DASH = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-TODAY_DASH = NOW_DASH[:10]
-YYYYMM_slash = TODAY_DASH[:7].replace("-", "/")
-BASE_DIR = Path(__file__).resolve().parent
-WORDS = json.loads((BASE_DIR / "words.json").read_text())
-POSTS_COLS = [
-    "path", "dir", "status", "date", "author", "slug", "title", "category", "tags",
-    "content", "empty", "updated", "name_title_mismatch"
-]
+import pelican
+import dsutil
+from utils import VIM, get_editor, install_if_not_exist
+from blogger import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
+USER = getpass.getuser()
+EDITOR = get_editor()
+DASHES = "\n" + "-" * 100 + "\n"
+INDEXES = [""] + [str(i) for i in range(1, 11)]
+SITE = "http://www.legendu.net"
 
 
-def qmarks(n: Union[int, Sequence]) -> str:
-    """Generate n question marks delimited by comma.
-    """
-    if isinstance(n, (list, tuple)):
-        n = len(n)
-    return ", ".join(["?"] * n)
+def query(blogger, args):
+    rows = blogger.query(" ".join(args.sql))
+    for row in rows:
+        print(row)
 
 
-Record = namedtuple("Record", POSTS_COLS)
+def move(blogger, args):
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        blogger.move(args.files, args.target)
+    blogger.commit()
 
 
-class Post:
-    """A class abstracting a post.
-    """
-    def __init__(self, path: Union[str, Path]):
-        self.path = Path(path).resolve()
-        if self.path.suffix not in (MARKDOWN, IPYNB):
-            raise ValueError(f"{self.path} is not a {MARKDOWN} or {IPYNB} file.")
-
-    def __str__(self):
-        return str(self.path)
-
-    def diff(self, content: str) -> bool:
-        """Check whether there is any difference between this post's content and the given content.
-        :param content: The content to compare against.
-        """
-        return self.path.read_text() != content
-
-    def blog_dir(self):
-        """Get the corresponding blog directory (home, en, cn or misc) of a post.
-        """
-        return self.path.parent.parent.parent.parent.stem
-
-    def update_after_move(self) -> None:
-        """ Update the post after move.
-        There are 3 possible change.
-        1. The disclaimer might be added/removed
-            depending on whether the post is moved to the misc sub blog directory.
-        2. The slug of the post is updated to match the path of the post.
-        3. The title should be updated to match the file name.
-            Both 2 and 3 will prompt to user for confirmation.
-        """
-        if self.path.suffix == MARKDOWN:
-            self._update_after_move_markdown()
-
-    def _update_after_move_markdown(self) -> None:
-        if self.blog_dir() == MISC:
-            with self.path.open() as fin:
-                lines = fin.readlines()
-            index = [line.strip() for line in lines].index("")
-            with self.path.open("w") as fout:
-                fout.writelines(lines[:index])
-                fout.writelines(DISCLAIMER)
-                fout.writelines(lines[index:])
-            return
-        text = self.path.read_text().replace(DISCLAIMER, "")
-        self.path.write_text(text)
-
-    def update_time(self) -> str:
-        """Update the meta filed date in the post.
-        """
-        if self.path.suffix == MARKDOWN:
-            return self._update_time_markdown()
-        return self._update_time_notebook()
-
-    def _update_time_markdown(self) -> str:
-        # TODO: put the time into the databse as well
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        self.update_meta_field(lines, "Date", NOW_DASH)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-        return NOW_DASH
-
-    def _update_time_notebook(self) -> str:
-        notebook = self._read_notebook()
-        self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
-        self.path.write_text(json.dumps(notebook, indent=1))
-        return NOW_DASH
-
-    @staticmethod
-    def format_title(title):
-        title = title.title()
-        for origin, replace in WORDS:
-            title = title.replace(f" {origin} ", f" {replace} ")
-            if title.startswith(origin + " "):
-                title = title.replace(origin + " ", replace + " ")
-            if title.endswith(" " + origin):
-                title = title.replace(" " + origin, " " + replace)
-        if title.startswith("the "):
-            title = "The " + title[4:]
-        if title.startswith("a "):
-            title = "A " + title[2:]
-        return title
-
-    def update_category(self, category: str) -> str:
-        """Change the category of the specified post to the specified category.
-        :param category: The category to change to.
-        :return: The new category of the post.
-        """
-        if self.path.suffix == MARKDOWN:
-            return self._update_category_markdown(category)
-        return self._update_category_notebook(category)
-
-    def _update_category_markdown(self, category: str) -> str:
-        """Change the category of the specified post to the specified category.
-        :param category: The category to change to.
-        :return: The new category of the post.
-        """
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        for idx, line in enumerate(lines):
-            if line.startswith("Category: "):
-                lines[idx] = f"Category: {category}\n"
-                break
-        else:
-            lines.insert(0, f"Category: {category}\n")
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-        return category
-
-    def _read_notebook(self) -> dict:
-        notebook = json.loads(self.path.read_text())
-        if notebook["cells"][0]["cell_type"] != "markdown":
-            raise SyntaxError(
-                f"The first cell of the notebook {self.path} is not a markdown cell!"
-            )
-        return notebook
-
-    def _update_category_notebook(self, category: str) -> str:
-        notebook = self._read_notebook()
-        self.update_meta_field(notebook["cells"][0]["source"], "- Category", category)
-        self.path.write_text(json.dumps(notebook, indent=1))
-        return category
-
-    def update_tags(self, from_tag: str, to_tag: str) -> List[str]:
-        """Update the tag from_tag of the post to the tag to_tag.
-        :param from_tag: The tag to be changed.
-        :param to_tag: The tag to change to.
-        :return: The new list of tags in the post.
-        """
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        for idx, line in enumerate(lines):
-            if line.startswith("Tags: "):
-                tags = (tag.strip() for tag in line[5:].split(","))
-                tags = [to_tag if tag == from_tag else tag for tag in tags]
-                lines[idx] = f"Tags: {', '.join(tags)}"
-                break
-        else:
-            tags = []
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-        return tags
-
-    def record(self) -> Record:
-        if self.path.suffix == MARKDOWN:
-            return self._parse_markdown()
-        return self._parse_notebook()
-
-    def _parse_markdown(self) -> Record:
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        index = 0
-        for index, line in enumerate(lines):
-            if not re.match("[A-Za-z]+: ", line):
-                break
-        # parse meta data 0 - index (exclusive)
-        status = ""
-        date = ""
-        author = ""
-        slug = ""
-        title = ""
-        category = ""
-        tags = ""
-        for line in lines[:index]:
-            if line.startswith("Status: "):
-                status = line[8:].strip()
-            elif line.startswith("Date: "):
-                date = line[6:].strip()
-            elif line.startswith("Author: "):
-                author = line[8:].strip()
-            elif line.startswith("Slug: "):
-                slug = line[6:].strip()
-            elif line.startswith("Title: "):
-                title = line[7:].strip()
-            elif line.startswith("Category: "):
-                category = line[10:].strip()
-            elif line.startswith("Tags: "):
-                tags = line[6:].strip()
-                if not tags.endswith(","):
-                    tags = tags + ","
-        # parse content index to end
-        content = title + "\n" + category + "\n" + tags + "\n" + "".join(lines[index:])
-        empty = self._is_ess_empty(lines[index:])
-        name_title_mismatch = self.is_name_title_mismatch(title)
-        return Record(
-            self.path.relative_to(BASE_DIR),
-            self.blog_dir(),
-            status,
-            date,
-            author,
-            slug,
-            title,
-            category,
-            tags,
-            content,
-            empty,
-            0,
-            name_title_mismatch
+def trash(blogger, args):
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.all:
+        sql = "SELECT path FROM srps"
+        args.files = [row[0] for row in blogger.query(sql)]
+    if args.files:
+        for index, file in enumerate(args.files):
+            print(f"\n{index}: {file}")
+        answer = input(
+            "\nAre you sure to delete the specified files in the srps table (y/N): "
         )
+        if answer.lower() in ("y", "yes"):
+            blogger.trash(args.files)
+    else:
+        print("No file to delete is specified!\n")
+    blogger.commit()
 
-    def _parse_notebook(self) -> Record:
-        content = self.path.read_text()
-        cells = json.loads(content)["cells"]
-        empty = 1 if len(cells) <= 1 else 0
-        if cells[0]["cell_type"] != "markdown":
-            raise SyntaxError(
-                f"The first cell of the notebook {self.path} is not a markdown cell!"
-            )
-        meta = cells[0]["source"]
-        status = ""
-        date = ""
-        author = ""
-        slug = ""
-        title = ""
-        category = ""
-        tags = ""
-        for line in meta:
-            if not re.search("^- [a-zA-Z]+:", line):
-                raise SyntaxError(
-                    f"The meta line '{line}' of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
-                )
-            if line.startswith("- Status:"):
-                status = line[9:].strip()
-                continue
-            if line.startswith("- Date:"):
-                date = line[7:].strip()
-                continue
-            if line.startswith("- Author:"):
-                author = line[9:].strip()
-                continue
-            if line.startswith("- Slug:"):
-                slug = line[7:].strip()
-                continue
-            if line.startswith("- Title:"):
-                title = line[8:].strip()
-                continue
-            if line.startswith("- Category:"):
-                category = line[11:].strip()
-                continue
-            if line.startswith("- Tags:"):
-                tags = line[7:].strip()
-                continue
-        name_title_mismatch = self.is_name_title_mismatch(title)
-        return Record(
-            self.path.relative_to(BASE_DIR),
-            self.blog_dir(),
-            status,
-            date,
-            author,
-            slug,
-            title,
-            category,
-            tags,
-            content,
-            empty,
-            0,
-            name_title_mismatch
+
+def find_name_title_mismatch(blogger, args):
+    blogger.find_name_title_mismatch()
+    show(blogger, args)
+
+
+def match_post(blogger, args):
+    if re.search(r"^mp\d+$", args.sub_cmd):
+        args.indexes = [int(args.sub_cmd[2:])]
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.all:
+        sql = "SELECT path FROM srps"
+        args.files = [row[0] for row in blogger.query(sql)]
+    total = len(args.files)
+    if not args.files:
+        print("No specifed file to be matched!\n")
+    if args.name:
+        answer = input(
+            "Are you sure to edit post title for the specified files in the srps table (yes or no): \n"
         )
+        if answer == "yes":
+            for index in range(total):
+                blogger.match_post_name(args.files[index])
+    if args.title:
+        answer = input(
+            "Are you sure to edit post name for the specified files in the srps table (yes or no): \n"
+        )
+        if answer == "yes":
+            for index in range(total):
+                blogger.match_post_title(args.files[index])
 
-    def is_name_title_mismatch(self, title: str) -> int:
-        """Check whether the file anme and the title of the post does not match.
-        :param path: The path of the post.
-        :param title: The title of the post.
-        :return: 1 if mismatch and 0 otherwise.
+
+def edit(blogger, args):
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        blogger.edit(args.files, args.editor)
+    else:
+        print("No post is specified for editing!\n")
+    blogger.commit()
+
+
+def search(blogger, args):
+    update(blogger, args)
+    filter_ = []
+    args.filter = " ".join(args.filter)
+    if args.filter:
+        filter_.append(args.filter)
+    if args.sub_dir:
+        args.sub_dir = ", ".join(f"'{dir_}'" for dir_ in args.sub_dir)
+        filter_.append(f"dir IN ({args.sub_dir})")
+    if args.neg_sub_dir:
+        args.neg_sub_dir = ", ".join(f"'{dir_}'" for dir_ in args.neg_sub_dir)
+        filter_.append(f"dir NOT IN ({args.neg_sub_dir})")
+    if args.categories:
+        args.categories = ", ".join(f"'{cat}'" for cat in args.categories)
+        filter_.append(f"category IN ({args.categories})")
+    if args.neg_categories:
+        args.neg_sub_dir = ", ".join(f"'{cat}'" for cat in args.neg_catgories)
+        filter_.append(f"category NOT IN ({args.neg_categories})")
+    if args.tags:
+        args.tags = "".join(f"% {tag},%" for tag in args.tags).replace("%%", "%")
+        filter_.append(f"tags LIKE '{args.tags}'")
+    if args.neg_tags:
+        args.neg_tags = "".join(f"% {tag},%"
+                                for tag in args.neg_tags).replace("%%", "%")
+        filter_.append(f"tags NOT LIKE '{args.neg_tags}'")
+    if args.status:
+        args.status = ", ".join(f"'{stat}'" for stat in args.status)
+        filter_.append(f"status IN ({args.status})")
+    if args.neg_status:
+        args.neg_status = ", ".join(f"'{stat}'" for stat in args.neg_status)
+        filter_.append(f"status NOT IN ({args.neg_status})")
+    args.author = " ".join(args.author)
+    if args.author:
+        filter_.append(f"author = '{args.author}'")
+    args.neg_author = " ".join(args.neg_author)
+    if args.neg_author:
+        filter_.append(f"author != '{args.neg_author}'")
+    args.title = " ".join(args.title)
+    if args.title:
+        filter_.append(f"title LIKE '%{args.title}%'")
+    args.neg_title = " ".join(args.neg_title)
+    if args.neg_title:
+        filter_.append(f"title NOT LIKE '%{args.neg_title}%'")
+    blogger.search(" ".join(args.phrase), " AND ".join(filter_), args.dry_run)
+    show(blogger, args)
+
+
+def show(blogger, args) -> None:
+    sql = "SELECT count(*) FROM srps"
+    total = blogger.query(sql)[0][0]
+    print(f"\nNumber of matched posts: {total}")
+    for rowid, path, title, dir_, slug in blogger.query(
+        f"""
+        SELECT rowid, path, title, dir, slug FROM srps LIMIT {args.n}
         """
-        # TODO: seems that title is not needed!!!
-        title_new = Post.format_title(self.stem_name().replace("-", " "))
-        title_old = title.replace("-", " ")
-        return 1 if title_old != title_new else 0
-
-    def stem_name(self) -> str:
-        return self.path.stem[11:]
-
-    def _is_ess_empty(self, lines: List[str]) -> int:
-        """Check whether the lines are essentially empty.
-        :param lines: A list of lines.
-        """
-        content = "".join(line.strip() for line in lines)
-        is_empty = re.sub(r"\*\*.+\*\*", "", content).replace("**", "") == ""
-        return 1 if is_empty else 0
-
-    @staticmethod
-    def update_meta_field(lines: List[str], field: str, value: str) -> None:
-        for idx, line in enumerate(lines):
-            if line.startswith(f"{field}:"):
-                lines[idx] = f"{field}: {value}\n"
-                break
-        else:
-            lines.insert(0, f"{field}: {value}")
-
-    def match_name(self):
-        title = Post.format_title(self.stem_name().replace("-", " "))
-        slug = title.lower().replace(" ", "-")
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        Post.update_meta_field(lines, "Title", title)
-        Post.update_meta_field(lines, "Slug", slug)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-
-    def match_title(self) -> None:
-        """Make the post's slug and path name match its title.
-        """
-        # file name
-        stem_name = self.stem_name()
-        title = self.title()
-        slug = title.lower().replace(" ", "-")
-        name = self.path.name.replace(stem_name, slug)
-        path = self.path.with_name(name)
-        os.rename(self.path, path)
-        self.path = path
-        # meta field Slug
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        Post.update_meta_field(lines, "Slug", slug)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-
-    def title(self) -> str:
-        """Get the title of the post.
-        :return: The title of the post.
-        """
-        if self.path.suffix == MARKDOWN:
-            return self._title_markdown()
-        return self._title_notebook()
-
-    def _title_notebook(self):
-        # TODO: dedup the code
-        content = self.path.read_text()
-        cell = json.loads(content)["cells"][0]
-        if cell["cell_type"] != "markdown":
-            raise SyntaxError(
-                f"The first cell of the notebook {self.path} is not a markdown cell!"
-            )
-        meta = cell["source"]
-        for line in meta:
-            if not re.search("^- [a-zA-Z]+:", line):
-                raise SyntaxError(
-                    f"The meta line {line} of the notebook {self.path} does not confront to the format '- MetaField: Value'!"
-                )
-            if line.startswith("- Title:"):
-                return line[8:].strip()
-        raise SyntaxError(f"No title in the post {self.path}!")
-
-    def _title_markdown(self) -> str:
-        with self.path.open() as fin:
-            for line in fin:
-                if line.startswith("Title: "):
-                    return line[7:].strip()
-        raise SyntaxError(f"No title in the post {self.path}!")
-
-    @staticmethod
-    def slug(title: str) -> str:
-        """Create a slug from the title.
-        :param title: The title to create the slug from.
-        :return: A slug created from the title.
-        """
-        return title.replace(" ", "-").replace("/", "-")
-
-    def create(self, title: str):
-        if self.path.suffix == MARKDOWN:
-            return self._create_markdown(title)
-        return self._create_notebook(title)
-
-    def _create_notebook(self, title: str):
-        text = (BASE_DIR / "themes/template.ipynb").read_text()
-        text = text.replace("${TITLE}", Post.format_title(title)) \
-            .replace("${SLUG}", Post.slug(title)) \
-            .replace("${DATE}", NOW_DASH)
-        if self.blog_dir() == MISC:
-            text = text.replace("${DISCLAIMER}", DISCLAIMER.replace("\n", " "))
-        else:
-            text = text.replace("${DISCLAIMER}", "")
-        with self.path.open("w") as fout:
-            fout.write(text)
-            if self.blog_dir() == MISC:
-                pass
-
-    def _create_markdown(self, title: str):
-        with self.path.open("w") as fout:
-            fout.writelines("Status: published\n")
-            fout.writelines(f"Date: {NOW_DASH}\n")
-            fout.writelines("Author: Benjamin Du\n")
-            fout.writelines(f"Slug: {Post.slug(title)}\n")
-            fout.writelines(f"Title: {Post.format_title(title)}\n")
-            fout.writelines("Category: Computer Science\n")
-            fout.writelines("Tags: Computer Science\n")
-            if self.blog_dir() == MISC:
-                fout.writelines(DISCLAIMER)
+    ):
+        url = f"{SITE}/{dir_}/blog/{slug}"
+        print(f"\n{rowid}: {title}  |  {path}  |  {url}")
+    print("")
 
 
-class Blogger:
-    """A class for managing blog.
-    """
-    POSTS_COLS = [
-        "path", "dir", "status", "date", "author", "slug", "title", "category", "tags",
-        "content", "empty", "updated", "name_title_mismatch"
-    ]
+def reload(blogger, args):
+    blogger.reload_posts()
 
-    SRPS_COLS = ["path", "title", "dir", "slug"]
 
-    def __init__(self, db: str = ""):
-        """Create an instance of Blogger.
+def add(blogger, args):
+    file = blogger.add_post(" ".join(args.title), args.sub_dir, notebook=args.notebook)
+    args.indexes = None
+    args.files = file
+    edit(blogger, args)
 
-        :param dir_: the root directory of the blog.
-        :param db: the path to the SQLite3 database file.
-        """
-        self._db = db if db else str(BASE_DIR / ".blogger.sqlite3")
-        self._conn = sqlite3.connect(self._db)
-        options = self._conn.execute("pragma compile_options").fetchall()
-        self._fts = "fts5" if ("ENABLE_FTS5", ) in options else "fts4"
-        self._create_vtable_posts()
 
-    def _create_vtable_posts(self):
-        sql = f"""
-            CREATE VIRTUAL TABLE IF NOT EXISTS posts USING {self._fts} (
-                {", ".join(Blogger.POSTS_COLS)},
-                tokenize = porter
-            )
-            """
-        self.execute(sql)
+def categories(blogger, args):
+    cats = blogger.categories(dir_=args.sub_dir, where=args.where)
+    for cat in cats:
+        print(cat)
 
-    def _create_table_srps(self):
-        sql = f"CREATE TABLE IF NOT EXISTS srps ({', '.join(Blogger.SRPS_COLS)})"
-        self.execute(sql)
 
-    def clear(self):
-        """Remove the SQLite3 database.
-        """
-        os.remove(self._db)
-
-    def commit(self):
-        """Commit changes made to the SQLite3 database.
-        """
-        self._conn.commit()
-
-    def update_category(self, post: Union[Post, str, Path], category: str):
-        if isinstance(post, (str, Path)):
-            post = Post(post)
-        post.update_category(category)
-        self.update_records(paths=[post.path], mapping={"category": category})
-
-    def update_tags(self, post: Post, from_tag: str, to_tag: str):
-        """Update the tag from_tag of the post to the tag to_tag.
-        """
-        tags = post.update_tags(from_tag, to_tag)
-        self.update_records(paths=[post.path], mapping={"tags": ", ".join(tags) + ","})
-
-    def trust_notebooks(self):
-        for dir_ in (EN, CN, MISC):
-            cmd = f"jupyter trust {dir_}/content/*.ipynb"
-            sp.run(cmd, shell=True, check=True)
-
-    def reload_posts(self):
-        """Reload posts into the SQLite3 database.
-        """
-        self._create_vtable_posts()
-        self.execute("DELETE FROM posts")
-        paths = list(BASE_DIR.glob("*/content/*/*/*"))
-        logger.info("Reloading posts into SQLite3 ...")
-        for path in tqdm(paths):
-            if path.suffix in (MARKDOWN, IPYNB):
-                self._load_post(Post(path))
-        self.commit()
-
-    def _load_post(self, post: Post):
-        sql = f"""
-            INSERT INTO posts (
-                {", ".join(Blogger.POSTS_COLS)}
-            ) VALUES (
-                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
-            )
-            """
-        self.execute(sql, post.record())
-
-    def trash(self, posts: Union[str, List[str]]):
-        """Move the specified posts to the trash directory.
-        :param posts:
-        """
-        if isinstance(posts, str):
-            posts = [posts]
-        path = BASE_DIR / "trash"
-        if not path.is_dir():
-            path.mkdir(0o700, True, True)
+def update_category(blogger, args):
+    if re.search(r"^ucat\d+$", args.sub_cmd):
+        args.indexes = int(args.sub_cmd[4:])
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        for file in args.files:
+            blogger.update_category(file, args.to_cat)
+    elif args.from_cat:
+        sql = "SELECT path FROM posts WHERE category = ?"
+        posts = (row[0] for row in blogger.query(sql, [args.from_cat]))
         for post in posts:
-            shutil.move(post, path)
+            blogger.update_category(post, args.to_cat)
+    blogger.commit()
+
+
+def update_tags(blogger, args):
+    if re.search(r"^utag\d+$", args.sub_cmd):
+        args.indexes = int(args.sub_cmd[4:])
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        for file in args.files:
+            blogger.update_tags(Post(file), args.from_tag, args.to_tag)
+    else:
         sql = f"""
-            DELETE FROM posts
-            WHERE path in ({qmarks(posts)})
-            """
-        self.execute(sql, posts)
-
-    def move(self, src: Union[str, Path], dst: str) -> None:
-        if isinstance(src, (str, Path)):
-            self._move_1(src, dst)
-        if len(src) > 1 and not os.path.isdir(dst):
-            sys.exit("dst must be a directory when moving multiple files")
-        for file in src:
-            self._move_1(file, dst)
-
-    def _move_1(self, src: Union[str, Path], dst: str) -> None:
-        """Move a post to the specified location.
-        """
-        if isinstance(src, str):
-            src = Path(src)
-        if dst in (EN, CN, MISC, OUTDATED):
-            dst = BASE_DIR / dst / "content" / src.name
-        else:
-            dst = Path(dst)
-        if src == dst:
-            return
-        shutil.move(src, dst)
-        post = Post(dst)
-        post.update_after_move()
-        self.update_records(paths=[src], mapping={"path": dst, "dir": post.blog_dir()})
-
-    def _reg_param(self, param):
-        if isinstance(param, (int, float, str)):
-            return param
-        return str(param)
-
-    def execute(self, operation: str, parameters=()):
-        parameters = [self._reg_param(param) for param in parameters]
-        return self._conn.execute(operation, parameters)
-
-    def edit(self, paths: Union[str, List[str]], editor: str) -> None:
-        """Edit the specified posts using the specified editor.
-        """
-        if not isinstance(paths, list):
-            paths = [paths]
-        self.update_records(paths=paths, mapping={"updated": 1})
-        paths = " ".join(f"'{path}'" for path in paths)
-        os.system(f"{editor} {paths}")
-
-    def update_records(
-        self, paths: Union[List[str], List[Path]], mapping: dict
-    ) -> None:
-        """Update records corresponding to the specified paths.
-        :param mapping: A dictionary of the form dict[field, value].
-        :param paths: Paths of records to be updated.
-        """
-        sql = f"""
-            UPDATE posts 
-            SET {", ".join(f"{key} = ?" for key in mapping)} 
-            WHERE path in ({qmarks(paths)})
-            """
-        self.execute(sql, list(mapping.values()) + paths)
-
-    def _delete_updated(self) -> None:
-        sql = "DELETE FROM posts WHERE updated = 1"
-        self.execute(sql)
-
-    def update(self):
-        """Update information of the changed posts.
-        """
-        sql = "SELECT path, content FROM posts WHERE updated = 1"
-        rows = self.execute(sql).fetchall()
-        # posts that were not changed
-        paths = [path for path, content in rows if not Post(path).diff(content)]
-        self.update_records(paths=paths, mapping={"updated": 0})
-        # posts that were changed
-        self._delete_updated()
-        posts = [Post(path) for path, content in rows if Post(path).diff(content)]
-        for post in posts:
-            post.update_time()
-            self._load_post(post)
-
-    def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
-        """Add a new post with the given title.
-        """
-        dir_ = BASE_DIR / dir_ / "content" / YYYYMM_slash
-        dir_.mkdir(parents=True, exist_ok=True)
-        file = self._find_post(title)
-        if not file:
-            suffix = IPYNB if notebook else MARKDOWN
-            file = dir_ / (Post.slug(title) + suffix)
-            post = Post(file)
-            post.create(title)
-            self._load_post(post)
-        print(f"\nThe following post is added.\n{file}\n")
-        return file
-
-    def _find_post(self, title: str) -> Union[Path, None]:
-        """Find existing post matching the given title.
-
-        :return: Return the path of the existing post if any,
-        otherwise return empty string.
-        """
-        # find all posts and get rid of leading dates
-        sql = "SELECT path FROM posts WHERE path LIKE ?"
-        row = self.execute(sql, [f"%{Post.slug(title)}.%"]).fetchone()
-        if row:
-            return Path(row[0])
-        return None
-
-    def empty_posts(self, dry_run=False) -> None:
-        """Load all empty posts into the table srps.
-        """
-        self.reload_posts()
-        self.clear_srps()
-        sql = f"""
-            INSERT INTO srps
-            SELECT {", ".join(Blogger.SRPS_COLS)}
-            FROM posts
-            WHERE empty = 1
-            """
-        if dry_run:
-            print(sql)
-            return
-        self.execute(sql)
-        self.commit()
-
-    def find_name_title_mismatch(self, dry_run=False):
-        self.clear_srps()
-        sql = f"""
-            INSERT INTO srps
             SELECT path
             FROM posts
-            WHERE name_title_mismatch = 1 AND dir <> 'cn'
+            WHERE tags LIKE '%, {args.from_tag},%' OR tags LIKE '%: {args.from_tag},%'
             """
-        if dry_run:
-            print(sql)
-            return
-        self.execute(sql)
-        self.commit()
+        posts = (row[0] for row in blogger.query(sql))
+        for post in posts:
+            blogger.update_tags(Post(post), args.from_tag, args.to_tag)
+    blogger.commit()
 
-    def search(self, phrase: str, filter_: str = "", dry_run=False):
-        """Search for posts containing the phrase.
-        :param phrase: The phrase to search for in posts.
-        :param filter_: Extra filtering conditions.
-        """
-        self.clear_srps()
-        conditions = []
-        if phrase:
-            conditions.append(f"posts MATCH '{phrase}'")
-        if filter_:
-            filter_ = conditions.append(filter_)
-        where = " AND ".join(conditions)
-        if where:
-            where = "WHERE " + where
-        sql = f"""
-            INSERT INTO srps
-            SELECT path, title, dir, slug
-            FROM posts
-            {where}
-            ORDER BY rank
-            """
-        if dry_run:
-            print(sql)
-            return
-        self.execute(sql)
-        self.commit()
 
-    def clear_srps(self):
-        """Clean contents of the table srps.
-        """
-        self._create_table_srps()
-        self.execute("DELETE FROM srps")
+def tags(blogger, args):
+    tags = blogger.tags(dir_=args.sub_dir, where=args.where)
+    for tag in tags:
+        print(tag)
 
-    def last(self, n: int):
-        """Get last (according to modification time) n posts.
-        :param n: The number of posts to get.
-        """
-        self.clear_srps()
-        sql = f"""
-            insert into srps
-            select path
-            from posts
-            where 
-            """
-        self.execute(sql)
-        self.commit()
 
-    def path(self, idx: Union[int, List[int]]) -> List[str]:
-        if isinstance(idx, int):
-            idx = [idx]
-        sql = f"SELECT path FROM srps WHERE rowid in ({qmarks(idx)})"
-        return [row[0] for row in self.execute(sql, idx).fetchall()]
+def update(blogger, args):
+    blogger.update()
+    blogger.commit()
 
-    def fetch(self, n: int):
-        """Fetch search results.
 
-        :param n: the number of results to fetch.
-        """
-        sql = "SELECT rowid, path FROM srps LIMIT {}".format(n)
-        return self.execute(sql).fetchall()
+def _github_repos_url(dir_: str, https: bool = False) -> str:
+    repos = {
+        "home": "dclong.github.io",
+        "en": "en",
+        "cn": "cn",
+        "misc": "misc",
+        "outdated": "outdated",
+    }[dir_]
+    url = f"git@github.com:dclong/{repos}.git"
+    if https:
+        url = f"https://github.com/dclong/{repos}.git"
+    return url
 
-    def query(self, sql: str, params: Sequence = ()):
-        return self.execute(sql, params).fetchall()
 
-    def tags(self, dir_: str = "", where=""):
-        """Get all tags and their frequencies in all posts.
-        :param dir_:
-        :param where:
-        """
-        sql = "SELECT tags FROM posts {where}"
-        if where:
-            sql = sql.format(where=where)
-        else:
-            # todo you can support quicker specific filtering in future
-            sql = sql.format(where=where)
-        cursor = self.execute(sql)
-        tags = {}
-        row = cursor.fetchone()
-        while row is not None:
-            for tag in row[0].split(","):
-                tag = tag.strip()
-                if tag == "":
-                    continue
-                if tag in tags:
-                    tags[tag] += 1
-                else:
-                    tags[tag] = 1
-            row = cursor.fetchone()
-        return sorted(tags.items(), key=lambda pair: pair[1], reverse=True)
+def _push_github(dir_: str, https: bool):
+    path = BASE_DIR / dir_ / "output"
+    os.chdir(path)
+    # commit
+    if dir_ == "home":
+        shutil.copy("pages/index.html", "index.html")
+    cmd = "git init && git add --all . && git commit -a -m ..."
+    sp.run(cmd, shell=True, check=True)
+    # push
+    url = _github_repos_url(dir_, https)
+    cmd = f"git remote add origin {url} && git push origin master --force"
+    sp.run(cmd, shell=True, check=True)
 
-    def categories(self, dir_: str = "", where=""):
-        """Get all categories and their frequencies in posts.
-        :param dir_: 
-        :param where: 
-        """
-        sql = """
-            SELECT category, count(*) as n
-            FROM posts
-            {where}
-            GROUP BY category
-            ORDER BY n desc
-            """
-        if where:
-            sql = sql.format(where=where)
-        else:
-            # todo you can support quicker specific filtering in future
-            sql = sql.format(where=where)
-        cats = (row for row in self.execute(sql).fetchall())
-        return cats
+
+def _pelican_generate(dir_: str, fatal: str):
+    """Generate the (sub) blog/site using Pelican.
+    :param dir_: the sub blog directory to generate.
+    """
+    blog_dir = BASE_DIR / dir_
+    os.chdir(blog_dir)
+    #config = blog_dir / "pconf.py"
+    #settings = pelican.settings.read_settings(path=str(config))
+    #pelican.Pelican(settings).run()
+    args = ["-s", str(blog_dir / "pconf.py")]
+    if fatal:
+        args.extend(["--fatal", fatal])
+    pelican.main(args)
+
+
+def publish(blogger, args):
+    """Publish the blog to GitHub
+    """
+    auto_git_push(blogger, args)
+    print(DASHES)
+    for dir_ in args.sub_dirs:
+        _pelican_generate(dir_, args.fatal)
+        if not args.no_push_github:
+            _push_github(dir_, args.https)
+        print(DASHES)
+
+
+def auto_git_push(blogger, args):
+    """Push commits of this repository to dclong/blog on GitHub.
+    """
+    update(blogger, args)
+    cmd = f"""git -C {BASE_DIR} add . \
+            && git -C {BASE_DIR} commit -m ..."""
+    sp.run(cmd, shell=True, check=False)
+    cmd = f"""git -C {BASE_DIR} push origin master"""
+    sp.run(cmd, shell=True, check=True)
+
+
+def install_vim(blogger, args):
+    cmd = "curl -sLf https://spacevim.org/install.sh | bash"
+    sp.run(cmd, shell=True, check=True)
+
+
+def symlink():
+    blog = Path.home() / ".local/bin/blog"
+    try:
+        blog.unlink()
+    except FileNotFoundError:
+        pass
+    try:
+        blog.symlink_to(Path(__file__).resolve())
+    except:
+        pass
+
+
+def _subparse_link(subparsers):
+    subparser_link = subparsers.add_parser(
+        "symlink", aliases=["link", "ln", "lk"], help="Link main.py to blog in a searchable path."
+    )
+    subparser_link.set_defaults(func=symlink)
+
+
+def parse_args(args=None, namespace=None):
+    """Parse command-line arguments for the blogging util.
+    """
+    parser = ArgumentParser(description="Write blog in command line.")
+    subparsers = parser.add_subparsers(dest="sub_cmd", help="Sub commands.")
+    _subparse_jupyterlab(subparsers)
+    _subparse_utag(subparsers)
+    _subparse_ucat(subparsers)
+    _subparse_tags(subparsers)
+    _subparse_cats(subparsers)
+    _subparse_update(subparsers)
+    _subparse_reload(subparsers)
+    _subparse_list(subparsers)
+    _subparse_search(subparsers)
+    _subparse_add(subparsers)
+    _subparse_edit(subparsers)
+    _subparse_move(subparsers)
+    _subparse_publish(subparsers)
+    _subparse_query(subparsers)
+    _subparse_auto(subparsers)
+    _subparse_space_vim(subparsers)
+    _subparse_clear(subparsers)
+    _subparse_git_status(subparsers)
+    _subparse_git_diff(subparsers)
+    _subparse_git_pull(subparsers)
+    _subparse_empty_posts(subparsers)
+    _subparse_trash(subparsers)
+    _subparse_find_name_title_mismatch(subparsers)
+    _subparse_match_post(subparsers)
+    _subparse_exec_notebook(subparsers)
+    _subparse_format_notebook(subparsers)
+    _subparse_trust_notebooks(subparsers)
+    _subparse_link(subparsers)
+    return parser.parse_args(args=args, namespace=namespace)
+
+
+def clear(blogger, args):
+    blogger.clear()
+
+
+def launch_jupyterlab(blogger, args):
+    cmd = "jupyter lab --allow-root --ip='0.0.0.0' --port=8888 --no-browser --notebook-dir=/workdir &"
+    sp.run(cmd, shell=True, check=True)
+
+
+def _subparse_jupyterlab(subparsers):
+    subparser_jlab = subparsers.add_parser(
+        "jupyterlab", aliases=["jupyter", "jlab"], help="Launch the JupyterLab server."
+    )
+    subparser_jlab.set_defaults(func=launch_jupyterlab)
+
+
+def exec_notebook(bloger, args):
+    if args.indexes:
+        args.notebooks = blogger.path(args.indexes)
+    if args.notebooks:
+        cmd = [
+            "jupyter", "nbconvert", "--to", "notebook", "--inplace", "--execute"
+        ] + args.notebooks
+        sp.run(cmd, check=True)
+
+
+def format_notebook(bloger, args):
+    if args.indexes:
+        args.notebooks = blogger.path(args.indexes)
+    if args.notebooks:
+        dsutil.jupyter.format_notebook(args.notebooks)
+
+
+def _subparse_format_notebook(subparsers):
+    subparser_format_notebook = subparsers.add_parser(
+        "format_notebook", aliases=["format", "fmt", "f"], help="Format notebooks."
+    )
+    subparser_format_notebook.add_argument(
+        "-i",
+        "--indexes",
+        nargs="+",
+        dest="indexes",
+        type=int,
+        default=(),
+        help="Row IDs in the search results."
+    )
+    subparser_format_notebook.add_argument(
+        "-n",
+        "--notebooks",
+        nargs="+",
+        dest="notebooks",
+        default=(),
+        help="Notebooks to format."
+    )
+    subparser_format_notebook.set_defaults(func=format_notebook)
+
+
+def _subparse_trust_notebooks(subparsers):
+    subparser_trust_notebooks = subparsers.add_parser(
+        "trust_notebooks", aliases=["trust"], help="Trust notebooks."
+    )
+
+
+def _subparse_exec_notebook(subparsers):
+    subparser_exec_notebook = subparsers.add_parser(
+        "exec_notebook", aliases=["exec"], help="Execute a notebook."
+    )
+    subparser_exec_notebook.add_argument(
+        "-i",
+        "--indexes",
+        nargs="+",
+        dest="indexes",
+        type=int,
+        default=(),
+        help="Row IDs in the search results."
+    )
+    subparser_exec_notebook.add_argument(
+        "-n",
+        "--notebooks",
+        nargs="+",
+        dest="notebooks",
+        default=(),
+        help="Notebooks to execute."
+    )
+    subparser_exec_notebook.set_defaults(func=exec_notebook)
+
+
+def _subparse_clear(subparsers):
+    subparser_clear = subparsers.add_parser(
+        "clear", aliases=["c"], help="Remove the underlying SQLite3 database."
+    )
+    subparser_clear.set_defaults(func=clear)
+
+
+def _subparse_utag(subparsers):
+    # parser for the update_tags command
+    subparser_utag = subparsers.add_parser(
+        "update_tags",
+        aliases=["utag" + i for i in INDEXES],
+        help="update tags of posts."
+    )
+    subparser_utag.add_argument(
+        "-i",
+        "--indexes",
+        nargs="+",
+        dest="indexes",
+        type=int,
+        default=(),
+        help="Row IDs in the search results."
+    )
+    subparser_utag.add_argument(
+        "--files",
+        nargs="+",
+        dest="files",
+        default=(),
+        help="Paths of the posts whose categories are to be updated."
+    )
+    subparser_utag.add_argument(
+        "-f", "--from-tag", dest="from_tag", default="", help="The tag to change from."
+    )
+    subparser_utag.add_argument(
+        "-t", "--to-tag", dest="to_tag", default="", help="The tag to change to."
+    )
+    subparser_utag.set_defaults(func=update_tags)
+
+
+def _subparse_ucat(subparsers):
+    # parser for the update_category command
+    subparser_ucat = subparsers.add_parser(
+        "update_category",
+        aliases=["ucat" + i for i in INDEXES],
+        help="Update category of posts."
+    )
+    subparser_ucat.add_argument(
+        "indexes",
+        nargs="*",
+        type=int,
+        default=(),
+        help="Row IDs in the search results."
+    )
+    subparser_ucat.add_argument(
+        "--files",
+        nargs="+",
+        dest="files",
+        default=(),
+        help="Paths of the posts whose categories are to be updated."
+    )
+    subparser_ucat.add_argument(
+        "-f",
+        "--from-category",
+        dest="from_cat",
+        default="",
+        help="the category to change from."
+    )
+    subparser_ucat.add_argument(
+        "-t",
+        "--to-category",
+        dest="to_cat",
+        default="",
+        help="the category to change to."
+    )
+    subparser_ucat.set_defaults(func=update_category)
+
+
+def _subparse_tags(subparsers):
+    subparser_tags = subparsers.add_parser(
+        "tags", aliases=["t"], help="List all tags and their frequencies."
+    )
+    subparser_tags.add_argument(
+        "-w",
+        "---where",
+        dest="where",
+        default="",
+        help="A user-specified filtering condition."
+    )
+    subparser_tags.add_argument(
+        "-d",
+        "---dir",
+        dest="sub_dir",
+        default="",
+        help="The sub blog directory to list categories; by default list all categories."
+    )
+    subparser_tags.set_defaults(func=tags)
+
+
+def _subparse_cats(subparsers):
+    subparser_cats = subparsers.add_parser(
+        "cats", aliases=["c"], help="List all categories and their frequencies."
+    )
+    subparser_cats.add_argument(
+        "-w",
+        "---where",
+        dest="where",
+        default="",
+        help="A user-specified filtering condition."
+    )
+    subparser_cats.add_argument(
+        "-d",
+        "---dir",
+        dest="sub_dir",
+        default="",
+        help="The sub blog directory to list categories; by default list all categories."
+    )
+    subparser_cats.set_defaults(func=categories)
+
+
+def _subparse_update(subparsers):
+    subparser_update = subparsers.add_parser(
+        "update", aliases=["u"], help="Update information of changed posts."
+    )
+    subparser_update.set_defaults(func=update)
+
+
+def _subparse_reload(subparsers):
+    subparser_reload = subparsers.add_parser(
+        "reload", aliases=["r"], help="Reload information of posts."
+    )
+    subparser_reload.set_defaults(func=reload)
+
+
+def _subparse_list(subparsers):
+    subparser_list = subparsers.add_parser(
+        "list", aliases=["l"], help="List last search results."
+    )
+    subparser_list.add_argument(
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
+    )
+    subparser_list.add_argument(
+        "-F",
+        "--full-path",
+        dest="full_path",
+        action="store_true",
+        help="whether to show full (instead of short/relative) path."
+    )
+    subparser_list.set_defaults(func=show)
+
+
+def _subparse_search(subparsers):
+    subparser_search = subparsers.add_parser(
+        "search",
+        aliases=["s"],
+        help="Search for posts. "
+        "Tokens separated by spaces ( ) or plus signs (+) in the search phrase "
+        "are matched in order with tokens in the text. "
+        "ORDERLESS match of tokens can be achieved by separating them with the AND keyword. "
+        "You can also limit match into specific columns. "
+        "For more information, please refer to https://sqlite.org/fts5.html"
+    )
+    subparser_search.add_argument(
+        "--dry-run",
+        dest="dry_run",
+        action="store_true",
+        help="Print out the SQL query without running it."
+    )
+    subparser_search.add_argument(
+        "phrase",
+        nargs="*",
+        default=(),
+        help="The phrase to match in posts. "
+        "The phrase is optional. "
+        "For example if you want to filter by category only without constraints on full-text search, "
+        "you can use ./blog.py s the -c some_category."
+    )
+    subparser_search.add_argument(
+        "-i",
+        "--title",
+        nargs="+",
+        dest="title",
+        default=(),
+        help="Search for posts with the sepcified title."
+    )
+    subparser_search.add_argument(
+        "-I",
+        "--neg-title",
+        nargs="+",
+        dest="neg_title",
+        default=(),
+        help="Search for posts without the sepcified title."
+    )
+    subparser_search.add_argument(
+        "-a",
+        "--author",
+        nargs="+",
+        dest="author",
+        default=(),
+        help="Search for posts with the sepcified author."
+    )
+    subparser_search.add_argument(
+        "-A",
+        "--neg-author",
+        nargs="+",
+        dest="neg_author",
+        default=(),
+        help="Search for posts without the sepcified author."
+    )
+    subparser_search.add_argument(
+        "-s",
+        "--status",
+        nargs="+",
+        dest="status",
+        default=(),
+        help="Search for posts with the sepcified status."
+    )
+    subparser_search.add_argument(
+        "-S",
+        "--neg-status",
+        nargs="+",
+        dest="neg_status",
+        default=(),
+        help="Search for posts without the sepcified status."
+    )
+    subparser_search.add_argument(
+        "-t",
+        "--tags",
+        nargs="+",
+        dest="tags",
+        default=(),
+        help="Search for posts with the sepcified tags."
+    )
+    subparser_search.add_argument(
+        "-T",
+        "--neg-tags",
+        nargs="+",
+        dest="neg_tags",
+        default=(),
+        help="Search for posts without the sepcified tags."
+    )
+    subparser_search.add_argument(
+        "-c",
+        "--categories",
+        nargs="+",
+        dest="categories",
+        default=(),
+        help="Search for posts with the sepcified categories."
+    )
+    subparser_search.add_argument(
+        "-C",
+        "--neg-categories",
+        nargs="+",
+        dest="neg_categories",
+        default=(),
+        help="Search for posts without the sepcified categories."
+    )
+    subparser_search.add_argument(
+        "-d",
+        "--sub-dir",
+        dest="sub_dir",
+        nargs="+",
+        default=(),
+        help="Search for posts in the specified sub blog directory."
+    )
+    subparser_search.add_argument(
+        "-D",
+        "--neg-sub-dir",
+        dest="neg_sub_dir",
+        nargs="+",
+        default=["outdated"],
+        help="Search for posts not in the specified sub blog directory."
+    )
+    subparser_search.add_argument(
+        "-f",
+        "--filter",
+        dest="filter",
+        nargs="+",
+        default=(),
+        help="Futher filtering conditions in addition to the full-text match."
+    )
+    subparser_search.add_argument(
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
+    )
+    subparser_search.add_argument(
+        "-F",
+        "--full-path",
+        dest="full_path",
+        action="store_true",
+        help="Whether to show full (instead of short/relative) path."
+    )
+    subparser_search.set_defaults(func=search)
+
+
+def _subparse_add(subparsers):
+    subparser_add = subparsers.add_parser("add", aliases=["a"], help="Add a new post.")
+    subparser_add.add_argument(
+        "-v",
+        "--vim",
+        dest="editor",
+        action="store_const",
+        const=VIM,
+        default=EDITOR,
+        help="Edit the post using Vim."
+    )
+    subparser_add.add_argument(
+        "-g",
+        "--gp-open",
+        dest="editor",
+        action="store_const",
+        const="gp open",
+        help="Edit the post using the GitPod editor."
+    )
+    subparser_add.add_argument(
+        "--code",
+        "--vscode",
+        dest="editor",
+        action="store_const",
+        const="code",
+        help="Edit the post using VSCode."
+    )
+    subparser_add.add_argument(
+        "-e",
+        "--en",
+        dest="sub_dir",
+        action="store_const",
+        const=EN,
+        default=MISC,
+        help="Create a post in the en sub blog directory."
+    )
+    subparser_add.add_argument(
+        "-c",
+        "--cn",
+        dest="sub_dir",
+        action="store_const",
+        const=CN,
+        help="Create a post in the cn sub blog directory."
+    )
+    group = subparser_add.add_mutually_exclusive_group(required=True)
+    group.add_argument(
+        "-m",
+        "--markdown",
+        dest="notebook",
+        action="store_false",
+        help="Create a MarkDown (default Notebook) post."
+    )
+    group.add_argument(
+        "-n",
+        "--notebook",
+        "--ipynb",
+        dest="notebook",
+        action="store_true",
+        help="Create a MarkDown (default Notebook) post."
+    )
+    subparser_add.add_argument(
+        "title", nargs="+", help="Title of the post to be created."
+    )
+    subparser_add.set_defaults(func=add)
+
+
+def _subparse_edit(subparsers):
+    subparser_edit = subparsers.add_parser("edit", aliases=["e"], help="Edit a post.")
+    subparser_edit.add_argument(
+        "indexes", nargs="*", type=int, help="Row IDs in the search results."
+    )
+    subparser_edit.add_argument(
+        "--code",
+        "--vscode",
+        dest="editor",
+        action="store_const",
+        const="code",
+        default=EDITOR,
+        help="Edit the post using VSCode."
+    )
+    subparser_edit.add_argument(
+        "-g",
+        "--gp-open",
+        dest="editor",
+        action="store_const",
+        const="gp open",
+        default=EDITOR,
+        help="Edit the post using the GitPod editor."
+    )
+    subparser_edit.add_argument(
+        "-v",
+        "--vim",
+        dest="editor",
+        action="store_const",
+        const=VIM,
+        default=EDITOR,
+        help="Edit the post using Vim."
+    )
+    subparser_edit.add_argument(
+        "-f", "--files", dest="files", help="Path of the post to be edited."
+    )
+    subparser_edit.set_defaults(func=edit)
+
+
+def _subparse_move(subparsers):
+    subparser_move = subparsers.add_parser("move", aliases=["m"], help="Move a post.")
+    subparser_move.add_argument(
+        "indexes", type=int, nargs="*", help="Rowid in the search results."
+    )
+    subparser_move.add_argument(
+        "-f", "--files", nargs="*", dest="files", help="Path of the post to be moved."
+    )
+    subparser_move.add_argument(
+        "-t", "--target", dest="target", default=MISC, help="Path of destination file"
+    )
+    subparser_move.add_argument(
+        "-c",
+        "--cn",
+        dest="target",
+        action="store_const",
+        const=CN,
+        help="Move to the cn sub blog directory."
+    )
+    subparser_move.add_argument(
+        "-e",
+        "--en",
+        dest="target",
+        action="store_const",
+        const=EN,
+        help="Move to the en sub blog directory."
+    )
+    subparser_move.add_argument(
+        "-m",
+        "--misc",
+        dest="target",
+        action="store_const",
+        const=MISC,
+        help="Move to the misc sub blog directory."
+    )
+    subparser_move.add_argument(
+        "-o",
+        "--out",
+        "--outdated",
+        dest="target",
+        action="store_const",
+        const=OUTDATED,
+        help="Move to the outdated sub blog directory."
+    )
+    subparser_move.set_defaults(func=move)
+
+
+def _subparse_publish(subparsers):
+    subparser_publish = subparsers.add_parser(
+        "publish", aliases=["p"], help="Publish the blog."
+    )
+    subparser_publish.add_argument(
+        "-c",
+        "--cn",
+        dest="sub_dirs",
+        action="append_const",
+        const=CN,
+        default=[HOME],
+        help="Add the cn sub blog directory into the publish list."
+    )
+    subparser_publish.add_argument(
+        "-e",
+        "--en",
+        dest="sub_dirs",
+        action="append_const",
+        const=EN,
+        help="Add the en sub blog directory into the publish list."
+    )
+    subparser_publish.add_argument(
+        "-m",
+        "--misc",
+        dest="sub_dirs",
+        action="append_const",
+        const=MISC,
+        help="Add the misc sub blog directory into the publish list."
+    )
+    subparser_publish.add_argument(
+        "-o",
+        "--out",
+        "--outdated",
+        dest="sub_dirs",
+        action="append_const",
+        const=OUTDATED,
+        help="Add the outdated sub blog directory into the publish list."
+    )
+    subparser_publish.add_argument(
+        "--https",
+        dest="https",
+        action="store_true",
+        default=(USER == "gitpod"),
+        help="Use the HTTPS protocol for Git."
+    )
+    subparser_publish.add_argument(
+        "--no-push-github",
+        dest="no_push_github",
+        action="store_true",
+        help="Do not push the generated (sub) blog/site to GitHub."
+    )
+    subparser_publish.add_argument(
+        "--fatal",
+        dest="fatal",
+        default="errors",
+        help="The --fatal argument for pelican."
+    )
+    subparser_publish.add_argument(
+        "-F",
+        "--no-fatal",
+        dest="fatal",
+        action="store_const",
+        const=None,
+        help="Disable the --fatal argument for pelican."
+    )
+    subparser_publish.set_defaults(func=publish)
+
+
+def _subparse_trash(subparsers):
+    subparser_trash = subparsers.add_parser(
+        "trash", aliases=["t"], help="Move posts to the trash directory."
+    )
+    subparser_trash.add_argument(
+        "indexes",
+        nargs="*",
+        type=int,
+        help=
+        "Row IDs of the files (in the search results) to be moved to the trash directory."
+    )
+    subparser_trash.add_argument(
+        "-a",
+        "--all",
+        dest="all",
+        action="store_true",
+        help="Move all files in the search results to the trash directory."
+    )
+    subparser_trash.add_argument(
+        "-f",
+        "--files",
+        dest="files",
+        help="Paths of the posts to be moved to the trash directory."
+    )
+    subparser_trash.set_defaults(func=trash)
+
+
+def _subparse_match_post(subparsers):
+    subparser_match_post = subparsers.add_parser(
+        "matchpost",
+        aliases=["mp" + i for i in INDEXES],
+        help="match post name and title"
+    )
+    subparser_match_post.add_argument(
+        "-i",
+        "--indexes",
+        dest="indexes",
+        nargs="+",
+        type=int,
+        help="Row IDs of the files (in the search results) to be matched."
+    )
+    subparser_match_post.add_argument(
+        "-a",
+        "--all",
+        dest="all",
+        action="store_true",
+        help="Whether to edit all files in the search results."
+    )
+    subparser_match_post.add_argument(
+        "-n",
+        "--name",
+        dest="name",
+        action="store_true",
+        help="Match the post title with its name."
+    )
+    subparser_match_post.add_argument(
+        "-t",
+        "--title",
+        dest="title",
+        action="store_true",
+        help="Match the post name with its title."
+    )
+    subparser_match_post.set_defaults(func=match_post)
+
+
+def _subparse_find_name_title_mismatch(subparsers):
+    subparser_find_name_title_mismatch = subparsers.add_parser(
+        "findmismatch",
+        aliases=["fm"],
+        help="Find posts where their name and title are mismatched."
+    )
+    subparser_find_name_title_mismatch.add_argument(
+        "--dry-run",
+        dest="dry_run",
+        action="store_true",
+        help="Print out the SQL query without running it."
+    )
+    subparser_find_name_title_mismatch.add_argument(
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
+    )
+    subparser_find_name_title_mismatch.add_argument(
+        "-F",
+        "--full-path",
+        dest="full_path",
+        action="store_true",
+        help="Whether to show full (instead of short/relative) path."
+    )
+    subparser_find_name_title_mismatch.set_defaults(func=find_name_title_mismatch)
+
+
+def _subparse_query(subparsers):
+    subparser_query = subparsers.add_parser(
+        "query", aliases=["q"], help="Run a SQL query."
+    )
+    subparser_query.add_argument("sql", nargs="+", help="the SQL to run")
+    subparser_query.set_defaults(func=query)
+
+
+def _subparse_auto(subparsers):
+    subparser_auto = subparsers.add_parser(
+        "auto_git_push", aliases=["auto", "agp", "ap"], help="Run a SQL query."
+    )
+    subparser_auto.set_defaults(func=auto_git_push)
+
+
+def _subparse_space_vim(subparsers):
+    subparser_vim = subparsers.add_parser(
+        "space_vim", aliases=["isv", "sv", "svim"], help="Install SpaceVim."
+    )
+    subparser_vim.set_defaults(func=install_vim)
+
+
+def _subparse_git_status(subparsers):
+    subparser_status = subparsers.add_parser(
+        "status", aliases=["st", "sts"], help="The git status command."
+    )
+    subparser_status.set_defaults(func=_git_status)
+
+
+def _subparse_git_diff(subparsers):
+    subparser_git = subparsers.add_parser(
+        "diff", aliases=["df", "dif"], help="The git diff command."
+    )
+    subparser_git.add_argument(
+        "file", nargs="*", default=(), help="Path of the post to run git diff on."
+    )
+    subparser_git.set_defaults(func=_git_diff)
+
+
+def _git_status(blogger, args):
+    sp.run("git status", shell=True, check=True)
+
+
+def _git_diff(blogger, args):
+    sp.run(f"git diff {' '.join(args.file)}", shell=True, check=True)
+
+
+def _git_pull(blogger, args):
+    logger.info("Pulling origin/master ...")
+    sp.run("git pull origin master", shell=True, check=True)
+    reload(blogger, args)
+
+
+def _subparse_git_pull(subparsers):
+    subparser_status = subparsers.add_parser(
+        "pull", aliases=["pu"], help="The git pull command."
+    )
+    subparser_status.set_defaults(func=_git_pull)
+
+
+def empty_posts(blogger, args):
+    blogger.empty_posts(args.dry_run)
+    show(blogger, args)
+
+
+def _subparse_empty_posts(subparsers):
+    subparser_status = subparsers.add_parser(
+        "empty", aliases=["em"], help="Find empty post."
+    )
+    subparser_status.add_argument(
+        "--dry-run",
+        dest="dry_run",
+        action="store_true",
+        help="Print out the SQL query without running it."
+    )
+    subparser_status.add_argument(
+        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
+    )
+    subparser_status.add_argument(
+        "-F",
+        "--full-path",
+        dest="full_path",
+        action="store_true",
+        help="Whether to show full (instead of short/relative) path."
+    )
+    subparser_status.set_defaults(func=empty_posts)
+
+
+
+
+if __name__ == "__main__":
+    symlink()
+    blogger = Blogger()
+    args = parse_args()
+    args.func(blogger, args)
