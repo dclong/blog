@@ -341,6 +341,7 @@ def parse_args(args=None, namespace=None):
     _subparse_format_notebook(subparsers)
     _subparse_trust_notebooks(subparsers)
     _subparse_link(subparsers)
+    _subparse_convert(subparsers)
     return parser.parse_args(args=args, namespace=namespace)
 
 
@@ -1121,6 +1122,37 @@ def _subparse_empty_posts(subparsers):
     subparser_status.set_defaults(func=empty_posts)
 
 
+def convert(blogger, args):
+    if args.indexes:
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        for file in args.files:
+            Post(file).convert()
+        # TODO: reload those posts; need to clean first ...
+
+
+def _subparse_convert(subparsers):
+    subparser_convert = subparsers.add_parser(
+        "convert", aliases=["conv"], help="Convert markdown/notebook to notebooks/markdown."
+    )
+    subparser_convert.add_argument(
+        "-i",
+        "--indexes",
+        nargs="+",
+        dest="indexes",
+        type=int,
+        default=(),
+        help="Row IDs in the search results."
+    )
+    subparser_convert.add_argument(
+        "-f",
+        "--files",
+        nargs="+",
+        dest="files",
+        default=(),
+        help="Paths of posts to convert."
+    )
+    subparser_convert.set_defaults(func=convert)
 
 
 if __name__ == "__main__":

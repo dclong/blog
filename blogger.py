@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # encoding: utf-8
 
+from argparse import ArgumentDefaultsHelpFormatter
 from typing import Union, Sequence, List, Iterable
 from collections import namedtuple
 import os
@@ -15,6 +16,7 @@ import itertools
 import subprocess as sp
 from loguru import logger
 from tqdm import tqdm
+AUTHOR = "Benjamin Du"
 EN = "en"
 CN = "cn"
 HOME = "home"
@@ -27,6 +29,8 @@ Please read with your own judgement!
 **
 
 """
+CATEGORY = "Computer Science"
+TAGS = "Computer Science, programming"
 MARKDOWN = ".markdown"
 IPYNB = ".ipynb"
 NOW_DASH = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -417,10 +421,7 @@ class Post:
         return self._create_notebook(title)
 
     def _create_notebook(self, title: str):
-        text = (BASE_DIR / "themes/template.ipynb").read_text()
-        text = text.replace("${TITLE}", Post.format_title(title)) \
-            .replace("${SLUG}", Post.slug(title)) \
-            .replace("${DATE}", NOW_DASH)
+        text = self._replace_meta(title=title, slug=Post.slug(title), category=CATEGORY, tags=TAGS)
         if self.blog_dir() == MISC:
             text = text.replace("${DISCLAIMER}", DISCLAIMER.replace("\n", " "))
         else:
@@ -437,10 +438,35 @@ class Post:
             fout.writelines("Author: Benjamin Du\n")
             fout.writelines(f"Slug: {Post.slug(title)}\n")
             fout.writelines(f"Title: {Post.format_title(title)}\n")
-            fout.writelines("Category: Computer Science\n")
-            fout.writelines("Tags: Computer Science\n")
+            fout.writelines(f"Category: {CATEGORY}\n")
+            fout.writelines(f"Tags: {TAGS}\n")
             if self.blog_dir() == MISC:
                 fout.writelines(DISCLAIMER)
+
+    @staticmethod
+    def _replace_meta(title, slug, category, tags) -> str:
+        text = (BASE_DIR / "themes/template.ipynb").read_text()
+        return text.replace("${AUTHOR}", AUTHOR) \
+            .replace("${DATE}", NOW_DASH) \
+            .replace("${TITLE}", Post.format_title(title)) \
+            .replace("${SLUG}", slug) \
+            .replace("${CATEGORY}", category) \
+            .replace("${TAGS}", tags)
+
+    def convert(self):
+        """Convert a markdown post to a notebook blog, vice versa.
+        """
+        if self.path.suffix == MARKDOWN:
+            self._md_to_nb()
+        
+    def _md_to_nb(self):
+        record = self.record()
+        text = self._replace_meta(title=record.title, slug=record.slug, category=record.category, tags=record.tags)
+        content = ",\n".join(f'"{line}\\n"' for line in record.content.split("\n"))
+        text = text.replace('"${DISCLAIMER}"', content)
+        self.path.unlink()
+        self.path = self.path.with_suffix(".ipynb")
+        self.path.write_text(text)
 
 
 class Blogger:
