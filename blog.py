@@ -8,9 +8,9 @@ import getpass
 from loguru import logger
 import dsutil
 from utils import (
-    BASE_DIR, push_github, pelican_generate, option_files, option_indexes,
-    option_where, option_dir, option_num, option_from, option_to, option_editor,
-    option_all, option_dry_run, option_full_path
+    BASE_DIR, push_github, pelican_generate, option_files, option_indexes, option_where,
+    option_dir, option_num, option_from, option_to, option_editor, option_all,
+    option_dry_run, option_full_path
 )
 from blogger import Post, Blogger, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
@@ -23,6 +23,14 @@ def query(blogger, args):
     rows = blogger.query(" ".join(args.sql))
     for row in rows:
         print(row)
+
+
+def _subparse_query(subparsers):
+    subparser_query = subparsers.add_parser(
+        "query", aliases=["q"], help="Run a SQL query."
+    )
+    subparser_query.add_argument("sql", nargs="+", help="the SQL to run")
+    subparser_query.set_defaults(func=query)
 
 
 def move(blogger, args):
@@ -65,6 +73,18 @@ def _subparse_trash(subparsers):
 def find_name_title_mismatch(blogger, args):
     blogger.find_name_title_mismatch()
     show(blogger, args)
+
+
+def _subparse_find_name_title_mismatch(subparsers):
+    subparser_find_name_title_mismatch = subparsers.add_parser(
+        "findmismatch",
+        aliases=["fm"],
+        help="Find posts where their name and title are mismatched."
+    )
+    option_dry_run(subparser_find_name_title_mismatch)
+    option_num(subparser_find_name_title_mismatch)
+    option_full_path(subparser_find_name_title_mismatch)
+    subparser_find_name_title_mismatch.set_defaults(func=find_name_title_mismatch)
 
 
 def match_post(blogger, args):
@@ -249,11 +269,6 @@ def auto_git_push(blogger, args):
             && git -C {BASE_DIR} commit -m ..."""
     sp.run(cmd, shell=True, check=False)
     cmd = f"""git -C {BASE_DIR} push origin master"""
-    sp.run(cmd, shell=True, check=True)
-
-
-def install_vim(blogger, args):
-    cmd = "curl -sLf https://spacevim.org/install.sh | bash"
     sp.run(cmd, shell=True, check=True)
 
 
@@ -735,38 +750,11 @@ def _subparse_match_post(subparsers):
     subparser_match_post.set_defaults(func=match_post)
 
 
-def _subparse_find_name_title_mismatch(subparsers):
-    subparser_find_name_title_mismatch = subparsers.add_parser(
-        "findmismatch",
-        aliases=["fm"],
-        help="Find posts where their name and title are mismatched."
-    )
-    option_dry_run(subparser_find_name_title_mismatch)
-    option_num(subparser_find_name_title_mismatch)
-    option_full_path(subparser_find_name_title_mismatch)
-    subparser_find_name_title_mismatch.set_defaults(func=find_name_title_mismatch)
-
-
-def _subparse_query(subparsers):
-    subparser_query = subparsers.add_parser(
-        "query", aliases=["q"], help="Run a SQL query."
-    )
-    subparser_query.add_argument("sql", nargs="+", help="the SQL to run")
-    subparser_query.set_defaults(func=query)
-
-
 def _subparse_auto(subparsers):
     subparser_auto = subparsers.add_parser(
         "auto_git_push", aliases=["auto", "agp", "ap"], help="Run a SQL query."
     )
     subparser_auto.set_defaults(func=auto_git_push)
-
-
-def _subparse_space_vim(subparsers):
-    subparser_vim = subparsers.add_parser(
-        "space_vim", aliases=["isv", "sv", "svim"], help="Install SpaceVim."
-    )
-    subparser_vim.set_defaults(func=install_vim)
 
 
 def _subparse_git_status(subparsers):
@@ -862,7 +850,6 @@ def parse_args(args=None, namespace=None):
     _subparse_publish(subparsers)
     _subparse_query(subparsers)
     _subparse_auto(subparsers)
-    _subparse_space_vim(subparsers)
     _subparse_clear(subparsers)
     _subparse_git_status(subparsers)
     _subparse_git_diff(subparsers)
