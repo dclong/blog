@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 from argparse import ArgumentDefaultsHelpFormatter
-from typing import Union, Sequence, List, Iterable
+from typing import Union, List, Iterable, Sequence
 from collections import namedtuple
 import os
 import re
@@ -16,6 +16,7 @@ import itertools
 import subprocess as sp
 from loguru import logger
 from tqdm import tqdm
+from utils import BASE_DIR, qmarks
 AUTHOR = "Benjamin Du"
 EN = "en"
 CN = "cn"
@@ -36,20 +37,11 @@ IPYNB = ".ipynb"
 NOW_DASH = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 TODAY_DASH = NOW_DASH[:10]
 YYYYMM_slash = TODAY_DASH[:7].replace("-", "/")
-BASE_DIR = Path(__file__).resolve().parent
 WORDS = json.loads((BASE_DIR / "words.json").read_text())
 POSTS_COLS = [
     "path", "dir", "status", "date", "author", "slug", "title", "category", "tags",
     "content", "empty", "updated", "name_title_mismatch"
 ]
-
-
-def qmarks(n: Union[int, Sequence]) -> str:
-    """Generate n question marks delimited by comma.
-    """
-    if isinstance(n, (list, tuple)):
-        n = len(n)
-    return ", ".join(["?"] * n)
 
 
 Record = namedtuple("Record", POSTS_COLS)

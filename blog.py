@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 import os
 import re
-import shutil
 from pathlib import Path
 from argparse import ArgumentParser
 import subprocess as sp
 import getpass
 from loguru import logger
-import pelican
 import dsutil
-from utils import VIM, get_editor, install_if_not_exist
-from blogger import Post, Blogger, BASE_DIR, HOME, EN, CN, MISC, OUTDATED
+from utils import (
+    BASE_DIR, symlink, push_github, pelican_generate,
+    option_files, option_indexes, option_where, option_dir, option_num, option_from, option_to, option_editor,
+    option_all, option_dry_run, option_full_path
+)
+from blogger import Post, Blogger, HOME, EN, CN, MISC, OUTDATED
 USER = getpass.getuser()
-EDITOR = get_editor()
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
 SITE = "http://www.legendu.net"
@@ -49,6 +50,16 @@ def trash(blogger, args):
     else:
         print("No file to delete is specified!\n")
     blogger.commit()
+
+
+def _subparse_trash(subparsers):
+    subparser_trash = subparsers.add_parser(
+        "trash", aliases=["t"], help="Move posts to the trash directory."
+    )
+    option_indexes(subparser_trash)
+    option_all(subparser_trash)
+    option_files(subparser_trash)
+    subparser_trash.set_defaults(func=trash)
 
 
 def find_name_title_mismatch(blogger, args):
@@ -218,58 +229,15 @@ def update(blogger, args):
     blogger.commit()
 
 
-def _github_repos_url(dir_: str, https: bool = False) -> str:
-    repos = {
-        "home": "dclong.github.io",
-        "en": "en",
-        "cn": "cn",
-        "misc": "misc",
-        "outdated": "outdated",
-    }[dir_]
-    url = f"git@github.com:dclong/{repos}.git"
-    if https:
-        url = f"https://github.com/dclong/{repos}.git"
-    return url
-
-
-def _push_github(dir_: str, https: bool):
-    path = BASE_DIR / dir_ / "output"
-    os.chdir(path)
-    # commit
-    if dir_ == "home":
-        shutil.copy("pages/index.html", "index.html")
-    cmd = "git init && git add --all . && git commit -a -m ..."
-    sp.run(cmd, shell=True, check=True)
-    # push
-    url = _github_repos_url(dir_, https)
-    cmd = f"git remote add origin {url} && git push origin master --force"
-    sp.run(cmd, shell=True, check=True)
-
-
-def _pelican_generate(dir_: str, fatal: str):
-    """Generate the (sub) blog/site using Pelican.
-    :param dir_: the sub blog directory to generate.
-    """
-    blog_dir = BASE_DIR / dir_
-    os.chdir(blog_dir)
-    #config = blog_dir / "pconf.py"
-    #settings = pelican.settings.read_settings(path=str(config))
-    #pelican.Pelican(settings).run()
-    args = ["-s", str(blog_dir / "pconf.py")]
-    if fatal:
-        args.extend(["--fatal", fatal])
-    pelican.main(args)
-
-
 def publish(blogger, args):
-    """Publish the blog to GitHub
+    """Publish the blog to GitHub pages.
     """
     auto_git_push(blogger, args)
     print(DASHES)
     for dir_ in args.sub_dirs:
-        _pelican_generate(dir_, args.fatal)
+        pelican_generate(dir_, args.fatal)
         if not args.no_push_github:
-            _push_github(dir_, args.https)
+            push_github(dir_, args.https)
         print(DASHES)
 
 
@@ -289,60 +257,11 @@ def install_vim(blogger, args):
     sp.run(cmd, shell=True, check=True)
 
 
-def symlink():
-    blog = Path.home() / ".local/bin/blog"
-    try:
-        blog.unlink()
-    except FileNotFoundError:
-        pass
-    try:
-        blog.symlink_to(Path(__file__).resolve())
-    except:
-        pass
-
-
 def _subparse_link(subparsers):
     subparser_link = subparsers.add_parser(
         "symlink", aliases=["link", "ln", "lk"], help="Link main.py to blog in a searchable path."
     )
-    subparser_link.set_defaults(func=symlink)
-
-
-def parse_args(args=None, namespace=None):
-    """Parse command-line arguments for the blogging util.
-    """
-    parser = ArgumentParser(description="Write blog in command line.")
-    subparsers = parser.add_subparsers(dest="sub_cmd", help="Sub commands.")
-    _subparse_jupyterlab(subparsers)
-    _subparse_utag(subparsers)
-    _subparse_ucat(subparsers)
-    _subparse_tags(subparsers)
-    _subparse_cats(subparsers)
-    _subparse_update(subparsers)
-    _subparse_reload(subparsers)
-    _subparse_list(subparsers)
-    _subparse_search(subparsers)
-    _subparse_add(subparsers)
-    _subparse_edit(subparsers)
-    _subparse_move(subparsers)
-    _subparse_publish(subparsers)
-    _subparse_query(subparsers)
-    _subparse_auto(subparsers)
-    _subparse_space_vim(subparsers)
-    _subparse_clear(subparsers)
-    _subparse_git_status(subparsers)
-    _subparse_git_diff(subparsers)
-    _subparse_git_pull(subparsers)
-    _subparse_empty_posts(subparsers)
-    _subparse_trash(subparsers)
-    _subparse_find_name_title_mismatch(subparsers)
-    _subparse_match_post(subparsers)
-    _subparse_exec_notebook(subparsers)
-    _subparse_format_notebook(subparsers)
-    _subparse_trust_notebooks(subparsers)
-    _subparse_link(subparsers)
-    _subparse_convert(subparsers)
-    return parser.parse_args(args=args, namespace=namespace)
+    subparser_link.set_defaults(func=lambda blogger, args: symlink())
 
 
 def clear(blogger, args):
@@ -373,32 +292,17 @@ def exec_notebook(bloger, args):
 
 def format_notebook(bloger, args):
     if args.indexes:
-        args.notebooks = blogger.path(args.indexes)
-    if args.notebooks:
-        dsutil.jupyter.format_notebook(args.notebooks)
+        args.files = blogger.path(args.indexes)
+    if args.files:
+        dsutil.jupyter.format_notebook(args.files)
 
 
 def _subparse_format_notebook(subparsers):
     subparser_format_notebook = subparsers.add_parser(
         "format_notebook", aliases=["format", "fmt", "f"], help="Format notebooks."
     )
-    subparser_format_notebook.add_argument(
-        "-i",
-        "--indexes",
-        nargs="+",
-        dest="indexes",
-        type=int,
-        default=(),
-        help="Row IDs in the search results."
-    )
-    subparser_format_notebook.add_argument(
-        "-n",
-        "--notebooks",
-        nargs="+",
-        dest="notebooks",
-        default=(),
-        help="Notebooks to format."
-    )
+    option_indexes(subparser_format_notebook)
+    option_files(subparser_format_notebook)
     subparser_format_notebook.set_defaults(func=format_notebook)
 
 
@@ -412,23 +316,8 @@ def _subparse_exec_notebook(subparsers):
     subparser_exec_notebook = subparsers.add_parser(
         "exec_notebook", aliases=["exec"], help="Execute a notebook."
     )
-    subparser_exec_notebook.add_argument(
-        "-i",
-        "--indexes",
-        nargs="+",
-        dest="indexes",
-        type=int,
-        default=(),
-        help="Row IDs in the search results."
-    )
-    subparser_exec_notebook.add_argument(
-        "-n",
-        "--notebooks",
-        nargs="+",
-        dest="notebooks",
-        default=(),
-        help="Notebooks to execute."
-    )
+    option_indexes(subparser_exec_notebook)
+    option_files(subparser_exec_notebook)
     subparser_exec_notebook.set_defaults(func=exec_notebook)
 
 
@@ -446,28 +335,10 @@ def _subparse_utag(subparsers):
         aliases=["utag" + i for i in INDEXES],
         help="update tags of posts."
     )
-    subparser_utag.add_argument(
-        "-i",
-        "--indexes",
-        nargs="+",
-        dest="indexes",
-        type=int,
-        default=(),
-        help="Row IDs in the search results."
-    )
-    subparser_utag.add_argument(
-        "--files",
-        nargs="+",
-        dest="files",
-        default=(),
-        help="Paths of the posts whose categories are to be updated."
-    )
-    subparser_utag.add_argument(
-        "-f", "--from-tag", dest="from_tag", default="", help="The tag to change from."
-    )
-    subparser_utag.add_argument(
-        "-t", "--to-tag", dest="to_tag", default="", help="The tag to change to."
-    )
+    option_indexes(subparser_utag)
+    option_files(subparser_utag)
+    option_from(subparser_utag)
+    option_to(subparser_utag)
     subparser_utag.set_defaults(func=update_tags)
 
 
@@ -478,34 +349,10 @@ def _subparse_ucat(subparsers):
         aliases=["ucat" + i for i in INDEXES],
         help="Update category of posts."
     )
-    subparser_ucat.add_argument(
-        "indexes",
-        nargs="*",
-        type=int,
-        default=(),
-        help="Row IDs in the search results."
-    )
-    subparser_ucat.add_argument(
-        "--files",
-        nargs="+",
-        dest="files",
-        default=(),
-        help="Paths of the posts whose categories are to be updated."
-    )
-    subparser_ucat.add_argument(
-        "-f",
-        "--from-category",
-        dest="from_cat",
-        default="",
-        help="the category to change from."
-    )
-    subparser_ucat.add_argument(
-        "-t",
-        "--to-category",
-        dest="to_cat",
-        default="",
-        help="the category to change to."
-    )
+    option_indexes(subparser_ucat)
+    option_files(subparser_ucat)
+    option_from(subparser_ucat)
+    option_to(subparser_ucat)
     subparser_ucat.set_defaults(func=update_category)
 
 
@@ -513,20 +360,8 @@ def _subparse_tags(subparsers):
     subparser_tags = subparsers.add_parser(
         "tags", aliases=["t"], help="List all tags and their frequencies."
     )
-    subparser_tags.add_argument(
-        "-w",
-        "---where",
-        dest="where",
-        default="",
-        help="A user-specified filtering condition."
-    )
-    subparser_tags.add_argument(
-        "-d",
-        "---dir",
-        dest="sub_dir",
-        default="",
-        help="The sub blog directory to list categories; by default list all categories."
-    )
+    option_where(subparser_tags)
+    option_dir(subparser_tags)
     subparser_tags.set_defaults(func=tags)
 
 
@@ -534,20 +369,8 @@ def _subparse_cats(subparsers):
     subparser_cats = subparsers.add_parser(
         "cats", aliases=["c"], help="List all categories and their frequencies."
     )
-    subparser_cats.add_argument(
-        "-w",
-        "---where",
-        dest="where",
-        default="",
-        help="A user-specified filtering condition."
-    )
-    subparser_cats.add_argument(
-        "-d",
-        "---dir",
-        dest="sub_dir",
-        default="",
-        help="The sub blog directory to list categories; by default list all categories."
-    )
+    option_where(subparser_cats)
+    option_dir(subparser_cats)
     subparser_cats.set_defaults(func=categories)
 
 
@@ -569,16 +392,8 @@ def _subparse_list(subparsers):
     subparser_list = subparsers.add_parser(
         "list", aliases=["l"], help="List last search results."
     )
-    subparser_list.add_argument(
-        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
-    )
-    subparser_list.add_argument(
-        "-F",
-        "--full-path",
-        dest="full_path",
-        action="store_true",
-        help="whether to show full (instead of short/relative) path."
-    )
+    option_num(subparser_list)
+    option_full_path(subparser_list)
     subparser_list.set_defaults(func=show)
 
 
@@ -593,12 +408,7 @@ def _subparse_search(subparsers):
         "You can also limit match into specific columns. "
         "For more information, please refer to https://sqlite.org/fts5.html"
     )
-    subparser_search.add_argument(
-        "--dry-run",
-        dest="dry_run",
-        action="store_true",
-        help="Print out the SQL query without running it."
-    )
+    option_dry_run(subparser_search)
     subparser_search.add_argument(
         "phrase",
         nargs="*",
@@ -712,46 +522,14 @@ def _subparse_search(subparsers):
         default=(),
         help="Futher filtering conditions in addition to the full-text match."
     )
-    subparser_search.add_argument(
-        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
-    )
-    subparser_search.add_argument(
-        "-F",
-        "--full-path",
-        dest="full_path",
-        action="store_true",
-        help="Whether to show full (instead of short/relative) path."
-    )
+    option_num(subparser_search)
+    option_full_path(subparser_search)
     subparser_search.set_defaults(func=search)
 
 
 def _subparse_add(subparsers):
     subparser_add = subparsers.add_parser("add", aliases=["a"], help="Add a new post.")
-    subparser_add.add_argument(
-        "-v",
-        "--vim",
-        dest="editor",
-        action="store_const",
-        const=VIM,
-        default=EDITOR,
-        help="Edit the post using Vim."
-    )
-    subparser_add.add_argument(
-        "-g",
-        "--gp-open",
-        dest="editor",
-        action="store_const",
-        const="gp open",
-        help="Edit the post using the GitPod editor."
-    )
-    subparser_add.add_argument(
-        "--code",
-        "--vscode",
-        dest="editor",
-        action="store_const",
-        const="code",
-        help="Edit the post using VSCode."
-    )
+    option_editor(subparser_add)
     subparser_add.add_argument(
         "-e",
         "--en",
@@ -796,33 +574,7 @@ def _subparse_edit(subparsers):
     subparser_edit.add_argument(
         "indexes", nargs="*", type=int, help="Row IDs in the search results."
     )
-    subparser_edit.add_argument(
-        "--code",
-        "--vscode",
-        dest="editor",
-        action="store_const",
-        const="code",
-        default=EDITOR,
-        help="Edit the post using VSCode."
-    )
-    subparser_edit.add_argument(
-        "-g",
-        "--gp-open",
-        dest="editor",
-        action="store_const",
-        const="gp open",
-        default=EDITOR,
-        help="Edit the post using the GitPod editor."
-    )
-    subparser_edit.add_argument(
-        "-v",
-        "--vim",
-        dest="editor",
-        action="store_const",
-        const=VIM,
-        default=EDITOR,
-        help="Edit the post using Vim."
-    )
+    option_editor(subparser_edit)
     subparser_edit.add_argument(
         "-f", "--files", dest="files", help="Path of the post to be edited."
     )
@@ -944,54 +696,14 @@ def _subparse_publish(subparsers):
     subparser_publish.set_defaults(func=publish)
 
 
-def _subparse_trash(subparsers):
-    subparser_trash = subparsers.add_parser(
-        "trash", aliases=["t"], help="Move posts to the trash directory."
-    )
-    subparser_trash.add_argument(
-        "indexes",
-        nargs="*",
-        type=int,
-        help=
-        "Row IDs of the files (in the search results) to be moved to the trash directory."
-    )
-    subparser_trash.add_argument(
-        "-a",
-        "--all",
-        dest="all",
-        action="store_true",
-        help="Move all files in the search results to the trash directory."
-    )
-    subparser_trash.add_argument(
-        "-f",
-        "--files",
-        dest="files",
-        help="Paths of the posts to be moved to the trash directory."
-    )
-    subparser_trash.set_defaults(func=trash)
-
-
 def _subparse_match_post(subparsers):
     subparser_match_post = subparsers.add_parser(
         "matchpost",
         aliases=["mp" + i for i in INDEXES],
         help="match post name and title"
     )
-    subparser_match_post.add_argument(
-        "-i",
-        "--indexes",
-        dest="indexes",
-        nargs="+",
-        type=int,
-        help="Row IDs of the files (in the search results) to be matched."
-    )
-    subparser_match_post.add_argument(
-        "-a",
-        "--all",
-        dest="all",
-        action="store_true",
-        help="Whether to edit all files in the search results."
-    )
+    option_indexes(subparser_match_post)
+    option_all(subparser_match_post)
     subparser_match_post.add_argument(
         "-n",
         "--name",
@@ -1015,22 +727,9 @@ def _subparse_find_name_title_mismatch(subparsers):
         aliases=["fm"],
         help="Find posts where their name and title are mismatched."
     )
-    subparser_find_name_title_mismatch.add_argument(
-        "--dry-run",
-        dest="dry_run",
-        action="store_true",
-        help="Print out the SQL query without running it."
-    )
-    subparser_find_name_title_mismatch.add_argument(
-        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
-    )
-    subparser_find_name_title_mismatch.add_argument(
-        "-F",
-        "--full-path",
-        dest="full_path",
-        action="store_true",
-        help="Whether to show full (instead of short/relative) path."
-    )
+    option_dry_run(subparser_find_name_title_mismatch)
+    option_num(subparser_find_name_title_mismatch)
+    option_full_path(subparser_find_name_title_mismatch)
     subparser_find_name_title_mismatch.set_defaults(func=find_name_title_mismatch)
 
 
@@ -1103,22 +802,9 @@ def _subparse_empty_posts(subparsers):
     subparser_status = subparsers.add_parser(
         "empty", aliases=["em"], help="Find empty post."
     )
-    subparser_status.add_argument(
-        "--dry-run",
-        dest="dry_run",
-        action="store_true",
-        help="Print out the SQL query without running it."
-    )
-    subparser_status.add_argument(
-        "-n", dest="n", type=int, default=5, help="Number of matched records to show."
-    )
-    subparser_status.add_argument(
-        "-F",
-        "--full-path",
-        dest="full_path",
-        action="store_true",
-        help="Whether to show full (instead of short/relative) path."
-    )
+    option_dry_run(subparser_status)
+    option_num(subparser_status)
+    option_full_path(subparser_status)
     subparser_status.set_defaults(func=empty_posts)
 
 
@@ -1135,24 +821,46 @@ def _subparse_convert(subparsers):
     subparser_convert = subparsers.add_parser(
         "convert", aliases=["conv"], help="Convert markdown/notebook to notebooks/markdown."
     )
-    subparser_convert.add_argument(
-        "-i",
-        "--indexes",
-        nargs="+",
-        dest="indexes",
-        type=int,
-        default=(),
-        help="Row IDs in the search results."
-    )
-    subparser_convert.add_argument(
-        "-f",
-        "--files",
-        nargs="+",
-        dest="files",
-        default=(),
-        help="Paths of posts to convert."
-    )
+    option_indexes(subparser_convert)
+    option_files(subparser_convert)
     subparser_convert.set_defaults(func=convert)
+
+
+def parse_args(args=None, namespace=None):
+    """Parse command-line arguments for the blogging util.
+    """
+    parser = ArgumentParser(description="Write blog in command line.")
+    subparsers = parser.add_subparsers(dest="sub_cmd", help="Sub commands.")
+    _subparse_jupyterlab(subparsers)
+    _subparse_utag(subparsers)
+    _subparse_ucat(subparsers)
+    _subparse_tags(subparsers)
+    _subparse_cats(subparsers)
+    _subparse_update(subparsers)
+    _subparse_reload(subparsers)
+    _subparse_list(subparsers)
+    _subparse_search(subparsers)
+    _subparse_add(subparsers)
+    _subparse_edit(subparsers)
+    _subparse_move(subparsers)
+    _subparse_publish(subparsers)
+    _subparse_query(subparsers)
+    _subparse_auto(subparsers)
+    _subparse_space_vim(subparsers)
+    _subparse_clear(subparsers)
+    _subparse_git_status(subparsers)
+    _subparse_git_diff(subparsers)
+    _subparse_git_pull(subparsers)
+    _subparse_empty_posts(subparsers)
+    _subparse_trash(subparsers)
+    _subparse_find_name_title_mismatch(subparsers)
+    _subparse_match_post(subparsers)
+    _subparse_exec_notebook(subparsers)
+    _subparse_format_notebook(subparsers)
+    _subparse_trust_notebooks(subparsers)
+    _subparse_link(subparsers)
+    _subparse_convert(subparsers)
+    return parser.parse_args(args=args, namespace=namespace)
 
 
 if __name__ == "__main__":
