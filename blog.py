@@ -8,8 +8,8 @@ import getpass
 from loguru import logger
 import dsutil
 from utils import (
-    BASE_DIR, symlink, push_github, pelican_generate,
-    option_files, option_indexes, option_where, option_dir, option_num, option_from, option_to, option_editor,
+    BASE_DIR, push_github, pelican_generate, option_files, option_indexes,
+    option_where, option_dir, option_num, option_from, option_to, option_editor,
     option_all, option_dry_run, option_full_path
 )
 from blogger import Post, Blogger, HOME, EN, CN, MISC, OUTDATED
@@ -257,9 +257,23 @@ def install_vim(blogger, args):
     sp.run(cmd, shell=True, check=True)
 
 
+def symlink():
+    blog = Path.home() / ".local/bin/blog"
+    try:
+        blog.unlink()
+    except FileNotFoundError:
+        pass
+    try:
+        blog.symlink_to(Path(__file__).resolve())
+    except:
+        pass
+
+
 def _subparse_link(subparsers):
     subparser_link = subparsers.add_parser(
-        "symlink", aliases=["link", "ln", "lk"], help="Link main.py to blog in a searchable path."
+        "symlink",
+        aliases=["link", "ln", "lk"],
+        help="Link main.py to blog in a searchable path."
     )
     subparser_link.set_defaults(func=lambda blogger, args: symlink())
 
@@ -819,7 +833,9 @@ def convert(blogger, args):
 
 def _subparse_convert(subparsers):
     subparser_convert = subparsers.add_parser(
-        "convert", aliases=["conv"], help="Convert markdown/notebook to notebooks/markdown."
+        "convert",
+        aliases=["conv"],
+        help="Convert markdown/notebook to notebooks/markdown."
     )
     option_indexes(subparser_convert)
     option_files(subparser_convert)

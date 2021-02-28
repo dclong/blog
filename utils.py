@@ -101,11 +101,7 @@ def option_indexes(subparser):
 
 def option_files(subparser):
     subparser.add_argument(
-        "--files",
-        nargs="+",
-        dest="filels",
-        default=(),
-        help="Paths to files."
+        "--files", nargs="+", dest="filels", default=(), help="Paths to files."
     )
 
 
@@ -117,6 +113,7 @@ def option_where(subparser):
         default="",
         help="A user-specified filtering condition."
     )
+
 
 def option_dir(subparser):
     subparser.add_argument(
@@ -133,21 +130,16 @@ def option_num(subparser):
         "-n", dest="n", type=int, default=5, help="Number of matched records to show."
     )
 
+
 def option_from(subparser):
     subparser.add_argument(
-        "--from",
-        dest="from",
-        default="",
-        help="the category/tag to change from."
+        "--from", dest="from", default="", help="the category/tag to change from."
     )
 
 
 def option_to(subparser):
     subparser.add_argument(
-        "--to",
-        dest="to",
-        default="",
-        help="the category/tag to change to."
+        "--to", dest="to", default="", help="the category/tag to change to."
     )
 
 
@@ -206,16 +198,3 @@ def option_all(subparser):
         action="store_true",
         help="Select all files in the search results."
     )
-
-
-def symlink():
-    blog = Path.home() / ".local/bin/blog"
-    try:
-        blog.unlink()
-    except FileNotFoundError:
-        pass
-    try:
-        blog.symlink_to(Path(__file__).resolve())
-    except:
-        pass
-

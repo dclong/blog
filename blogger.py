@@ -43,7 +43,6 @@ POSTS_COLS = [
     "content", "empty", "updated", "name_title_mismatch"
 ]
 
-
 Record = namedtuple("Record", POSTS_COLS)
 
 
@@ -233,19 +232,8 @@ class Post:
         empty = self._is_ess_empty(lines[index:])
         name_title_mismatch = self.is_name_title_mismatch(title)
         return Record(
-            self.path.relative_to(BASE_DIR),
-            self.blog_dir(),
-            status,
-            date,
-            author,
-            slug,
-            title,
-            category,
-            tags,
-            content,
-            empty,
-            0,
-            name_title_mismatch
+            self.path.relative_to(BASE_DIR), self.blog_dir(), status, date, author,
+            slug, title, category, tags, content, empty, 0, name_title_mismatch
         )
 
     def _parse_notebook(self) -> Record:
@@ -292,19 +280,8 @@ class Post:
                 continue
         name_title_mismatch = self.is_name_title_mismatch(title)
         return Record(
-            self.path.relative_to(BASE_DIR),
-            self.blog_dir(),
-            status,
-            date,
-            author,
-            slug,
-            title,
-            category,
-            tags,
-            content,
-            empty,
-            0,
-            name_title_mismatch
+            self.path.relative_to(BASE_DIR), self.blog_dir(), status, date, author,
+            slug, title, category, tags, content, empty, 0, name_title_mismatch
         )
 
     def is_name_title_mismatch(self, title: str) -> int:
@@ -413,7 +390,9 @@ class Post:
         return self._create_notebook(title)
 
     def _create_notebook(self, title: str):
-        text = self._replace_meta(title=title, slug=Post.slug(title), category=CATEGORY, tags=TAGS)
+        text = self._replace_meta(
+            title=title, slug=Post.slug(title), category=CATEGORY, tags=TAGS
+        )
         if self.blog_dir() == MISC:
             text = text.replace("${DISCLAIMER}", DISCLAIMER.replace("\n", " "))
         else:
@@ -450,10 +429,15 @@ class Post:
         """
         if self.path.suffix == MARKDOWN:
             self._md_to_nb()
-        
+
     def _md_to_nb(self):
         record = self.record()
-        text = self._replace_meta(title=record.title, slug=record.slug, category=record.category, tags=record.tags)
+        text = self._replace_meta(
+            title=record.title,
+            slug=record.slug,
+            category=record.category,
+            tags=record.tags
+        )
         content = ",\n".join(f'"{line}\\n"' for line in record.content.split("\n"))
         text = text.replace('"${DISCLAIMER}"', content)
         self.path.unlink()
