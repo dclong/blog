@@ -18,16 +18,20 @@ Please read with your own judgement!
 
 2. Python Poetry supports Python package dependencies on GitHub.
     For example,
-    if a Python package depends on https://github.com/chdu/dsutil,
+    if a Python package depends on https://github.com/dclong/dsutil,
     then you can add it using the following.
 
         :::bash
-        poetry add git+https://git@github.com/chdu/dsutil
+        poetry add git+https://github.com/dclong/dsutil.git
 
     Or
 
         :::bash
-        poetry add git+ssh://git@github.com/chdu/dsutil
+        poetry add git+ssh://git@github.com/dclong/dsutil.git
+
+    For more details on the command `poetry add`,
+    please refer to 
+    https://python-poetry.org/docs/cli/#add.
 
 3. `poetry install` removes non needed libraries. 
     A tricky situation is that if you have dependency A 
