@@ -5,4 +5,6 @@ tasks:
   - command: . /scripts/gitpod.sh
 vscode:
   extensions:
-    - vscodevim.vim@1.17.1:9GrHtaCR1xXAlopLzQjIkQ==
+    - vscodevim.vim
+    - ms-python.python
+
