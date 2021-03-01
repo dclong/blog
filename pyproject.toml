@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "blog"
+version = "0.1.0"
+description = ""
+authors = ["Benjamin Du"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.9"
+beautifulsoup4 = ">=4.9.3"
+typogrify = ">=2.0.7"
+pelican = ">=4.5.4"
+pelican-jupyter = ">=0.10.0"
+pelican-render-math = ">=1.0.3"
+jupyter = ">=1.0.0"
+dsutil = {git = "https://github.com/dclong/dsutil.git", rev = "main"}
+
+[tool.poetry.dev-dependencies]
+pylint = ">=2.7.2"
+pytest = ">=6.2.0"
+pytype = { version = ">=2020.08.10", python = "<3.9" }
+yapf = ">=0.30.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
