@@ -2,7 +2,7 @@
 import os
 import re
 from pathlib import Path
-from argparse import ArgumentParser
+from argparse import ArgumentParser, Namespace
 import subprocess as sp
 import getpass
 from loguru import logger
