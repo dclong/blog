@@ -830,8 +830,13 @@ def _subparse_convert(subparsers):
     subparser_convert.set_defaults(func=convert)
 
 
-def parse_args(args=None, namespace=None):
-    """Parse command-line arguments for the blogging util.
+def parse_args(args=None, namespace=None) -> Namespace:
+    """Parse command-line arguments.
+    
+    :param args: The arguments to parse. 
+        If None, the arguments from command-line are parsed.
+    :param namespace: An inital Namespace object.
+    :return: A namespace object containing parsed options.
     """
     parser = ArgumentParser(description="Write blog in command line.")
     subparsers = parser.add_subparsers(dest="sub_cmd", help="Sub commands.")
