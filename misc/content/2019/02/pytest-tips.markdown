@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-26 09:40:31
+Date: 2021-03-05 19:29:39
 Author: Benjamin Du
 Slug: pytest-tips
 Title: Write Unit Tests Using PyTest in Python
@@ -37,6 +37,18 @@ http://doc.pytest.org/en/latest/reference.html#pytest-mark-skip-ref
 http://doc.pytest.org/en/latest/skipping.html
 
 https://stackoverflow.com/questions/38442897/how-do-i-disable-a-test-using-py-test
+
+## Capturing of the stdout/stderr output
+
+You can disable all capturing using the `-s` option 
+(which is equivalent to `--capture=no`).
+
+    pytest -s
+
+For more details,
+please refer to
+[Capturing of the stdout/stderr output](https://docs.pytest.org/en/reorganize-docs/capture.html)
+.
 
 ## Parameterized Tests
 
