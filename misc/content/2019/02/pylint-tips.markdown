@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-05 18:04:46
+Date: 2021-03-05 19:33:02
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -53,6 +53,9 @@ extension-pkg-whitelist=numpy,cv2
 Similar lines detection has a high chance of yielding false positives.
 It is suggested that you either set `min-similarity-lines` to a large value
 or disable check of similar lines.
+Please refer to the issue
+[The duplicate-code (R0801) can't be disabled](https://github.com/PyCQA/pylint/issues/214)
+for more discussions.
 
 ```
 [SIMILARITIES]
