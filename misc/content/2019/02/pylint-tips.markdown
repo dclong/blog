@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-14 09:28:49
+Date: 2021-03-05 18:04:46
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -39,12 +39,27 @@ Please read with your own judgement!
 [TYPECHECK]
 ignored-classes=Fysom,MyClass
 ```
-## Make pylint Work with cv2
+
+### Make pylint Work with cv2
 
 ```
 [MASTER]
 unsafe-load-any-extension=no
 extension-pkg-whitelist=numpy,cv2
+```
+
+### Similar Lines
+
+Similar lines detection has a high chance of yielding false positives.
+It is suggested that you either set `min-similarity-lines` to a large value
+or disable check of similar lines.
+
+```
+[SIMILARITIES]
+min-similarity-lines=11
+ignore-docstrings=yes
+ignore-comments=yes
+ignore-imports=yes
 ```
 
 ## Examples
