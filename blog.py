@@ -867,7 +867,7 @@ def parse_args(args=None, namespace=None):
 
 
 if __name__ == "__main__":
-    symlink()
+    #symlink()
     blogger = Blogger()
     args = parse_args()
     args.func(blogger, args)
