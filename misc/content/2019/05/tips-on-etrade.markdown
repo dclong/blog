@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-06 12:38:55
+Date: 2021-03-07 13:53:22
 Author: Benjamin Du
 Slug: tips-on-etrade
 Title: Tips on eTrade
@@ -55,6 +55,6 @@ https://content.etrade.com/etrade/customer/invest/finalrestrictedstockfaqs.pdf
 
 https://content.etrade.com/etrade/optionslink/sartax.pdf
 
-## Questionso
+## Questions
 
-1. Can I withould tax when I sell RSU shares and pay in the next tax season?
+1. Can I withhold tax when I sell RSU shares and pay in the next tax season?
