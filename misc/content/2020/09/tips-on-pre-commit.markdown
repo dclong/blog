@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-08 23:57:48
+Date: 2021-03-09 12:03:21
 Author: Benjamin Du
 Slug: tips-on-pre-commit
 Title: Tips on pre-commit
@@ -12,7 +12,7 @@ Please read with your own judgement!
 **
 
 
-It is suggested that you leverage CICD tools (e.g., GitHub Actions) more
+It is suggested that you leverage CICD tools (e.g., GitHub Actions)
 instead of Git Hooks which happens locally.
 However, 
 Git hooks can be useful for simple and fast local code formatting.
