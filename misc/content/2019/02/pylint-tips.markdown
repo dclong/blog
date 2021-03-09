@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-05 19:33:02
+Date: 2021-03-08 17:16:19
 Author: Benjamin Du
 Slug: pylint-tips
 Title: Tips on pylint
@@ -34,18 +34,15 @@ Please read with your own judgement!
 
 ## Configuration
 
-.pylintrc 
+It is suggessted that you configure pylint using `pyproject.toml`.
+Below is an example.
 ```
-[TYPECHECK]
-ignored-classes=Fysom,MyClass
-```
-
-### Make pylint Work with cv2
-
-```
-[MASTER]
+[tool.pylint.master]
 unsafe-load-any-extension=no
 extension-pkg-whitelist=numpy,cv2
+
+[tool.pylint.typecheck]
+ignored-classes=Fysom,MyClass
 ```
 
 ### Similar Lines
