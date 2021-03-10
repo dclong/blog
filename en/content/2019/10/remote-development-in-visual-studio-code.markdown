@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-11-28 12:12:15
+Date: 2021-03-10 13:07:08
 Author: Benjamin Du
 Slug: remote-development-in-visual-studio-code
 Title: Remote Development in Visual Studio Code
@@ -24,3 +24,12 @@ please refer to
 Visual Studio Code Server is prefer to the Remote Development extension pack 
 as Visual Studio Code Server requires no installation or configuration on the client machine.
 A browser is all your need to use Visual Studio Code Server once it is setup.
+
+## References 
+
+[Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
+
+[Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced)
+
+
+https://code.visualstudio.com/docs/remote/containers-advanced#_developing-inside-a-container-on-a-remote-docker-host
