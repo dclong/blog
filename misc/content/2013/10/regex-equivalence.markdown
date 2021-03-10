@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-03-10 09:44:46
+Date: 2021-03-10 09:54:11
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -53,16 +53,16 @@ Please read with your own judgement!
         <td> 
         </td>
         <td> 
-            Partially supported<sup>[1]</sup>
+            Partial<sup>[1]</sup>
         </td>
         <td> 
-            Partial supported<sup>[1]</sup>
+            Partial<sup>[1]</sup>
         </td>
-        <td> Fully supported </td>
+        <td> Full </td>
         <td> 
-            Not supported<sup>[2]</sup> 
+            No<sup>[2]</sup> 
         </td>
-        <td> Fully suppoted[3] </td>
+        <td> Full[3] </td>
         <td> </td>
     </tr>
     <tr>
