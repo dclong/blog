@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-03-10 09:01:03
+Date: 2021-03-10 09:44:46
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -49,33 +49,24 @@ Please read with your own judgement!
         <th> sed </th>
     </tr>
     <tr>
-        <td> Regular expression modifiers </td>
+        <td> Modifiers </td>
         <td> 
         </td>
         <td> 
-            Partially supported. 
-            Turning modifiers on is supported
-            however turning modifiers off is not supported.
-            Modifiers (once turned on) are applied to the entire regular expression
-            and cannot be turned off.
+            Partially supported<sup>[1]</sup>
         </td>
         <td> 
-            Partial supported.
-            Tunning modifiers on is supported
-            however turnning modifiers off is not supported.
-            Modifiers (once turned on) are applied to the entire regular expression
-            and cannot be turned off.
+            Partial supported<sup>[1]</sup>
         </td>
-        <td> Fully supported. </td>
+        <td> Fully supported </td>
         <td> 
-            Not supported. 
-            Behavior of regular expressions are control via parameters of regular expression functions.
+            Not supported<sup>[2]</sup> 
         </td>
-        <td> Fully suppoted via Perl style regular (the <code>-P</code> option) expressions. </td>
+        <td> Fully suppoted[3] </td>
         <td> </td>
     </tr>
     <tr>
-        <td> Greedy match or not </td>
+        <td> Greedy or not</td>
         <td> 
         </td>
         <td> 
@@ -87,11 +78,7 @@ Please read with your own judgement!
         <td> 
         </td>
         <td> 
-            Greedy by default.
-            However, 
-            in the Perl style syntax you use the modifer <code>?</code> after the quantifier to perform a non-greedy match.
-            For example, 
-            instead of <code>.*</code> you can use <code>.*?</code> to do a non-greedy match.
+            Both<sup>[4]</sup>
         </td>
         <td> </td>
     </tr>
@@ -940,7 +927,25 @@ Please read with your own judgement!
 </table>
 </div>
 
+[1]: Python/JavaScript partially supports regular expression modifiers.
+    To be more specifically,
+    turning modifiers on is supported
+    but turning modifiers off is not supported.
+    Modifiers (once turned on) are applied to the entire regular expression
+    and cannot be turned off.
 
+[2]: Behavior of regular expressions in Oracle SQL 
+    is control via parameters of regular expression  functions 
+    instead of via regular expression modifiers.
+
+[3]: `grep` fully supports regular expression modifiers 
+    via Perl style regular (the `-P` option) expressions.
+
+[4]: `grep` matches pattern greedly by default.
+    However, 
+    in Perl style syntax you can use the modifer `?` after a quantifier to perform a non-greedy match.
+    For example, 
+    instead of `.*` you can use `.*?` to do a non-greedy match.
 ## References
 
 [Regular Expression in Bash](http://www.legendu.net/misc/blog/regular-expression-in-bash/)
