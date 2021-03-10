@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-02-20 12:45:45
+Date: 2021-03-10 09:01:03
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -14,10 +14,13 @@ Please read with your own judgement!
 [Regular Expression Tester](https://regex101.com/)
 
 
-1. If you use a regular expression multiple times, 
-    then there is advantage to complie it and use the compiled version ... 
-    as everyone use a plain regrex, 
-    it is compiled and then used ...
+1. In some programming languages,
+    you have to compile a plain/text pattern into a regular expression pattern object
+    before using it.
+    The Python module `re` automatically compiles a plain/text pattern 
+    (using `re.compile`)
+    and caches it,
+    so there is not much benefit to compile regular expressions by yourself in Python.
 
 2. `\W` does not include `^` and `$`.
 
@@ -26,7 +29,7 @@ Please read with your own judgement!
     than remembering different options in different programming languages or tools. 
     It is suggested that you use regular expression modifiers when possible.
 
-4. Word boundry is a super set of white spaces.
+4. Word boundry (`\b`) is a super set of white spaces (`\s`).
 
 5. `[[:alnum:]]` contains all letters and numbers 
     while `\w` contains not only letters and numbers but also some special character such as `_`. 
