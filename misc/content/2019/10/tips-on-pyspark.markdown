@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-04 14:46:34
+Date: 2021-03-09 16:35:34
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -29,7 +29,7 @@ Please read with your own judgement!
             --conf spark.pyspark.python=.venv/bin/python3 \
             script_to_run.py --arg1 v1 --arg2 v2
 
-2. You can run PySpark interactively using the `pyspark` command
+3. You can run PySpark interactively using the `pyspark` command
   and submit a PySpark job to the cluster using the `spark-submit` command.
 	For more details, 
 	please refer to
@@ -96,7 +96,7 @@ Please read with your own judgement!
         from pyspark.sql import SparkSession
         from pyspark.sql.functions import *
 
-        spark = SparkSession.builder.appName('Test PySpark').enableHiveSupport().getOrCreate()
+        spark = SparkSession.builder.appName("Test PySpark").enableHiveSupport().getOrCreate()
         sql = """
                 SELECT * 
                 FROM some_table 
@@ -114,7 +114,7 @@ Please read with your own judgement!
     It is suggestion that adopt the trick of "prefixing an underscore to file names"
     when submitting a PySpark job.
 
-3. If you have multiple versions of Spark installed,
+4. If you have multiple versions of Spark installed,
     the exported Spark environment variables might intervent with each other 
     and cause some of them fail to work.
     For example, 
@@ -130,14 +130,14 @@ Please read with your own judgement!
     As a matter of fact,
     this is the way to fix most PATH related issues in Linux/Unix.
 
-2. PySpark does not support converting `$"col"` to a Column implicitly. 
+5. PySpark does not support converting `$"col"` to a Column implicitly. 
     However, 
     the function `pyspark.sql.functions.col` works the same as in Spark.
 
-3. [Pandas UDFs](https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html#pandas-udfs-aka-vectorized-udfs)
+6. [Pandas UDFs](https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html#pandas-udfs-aka-vectorized-udfs)
     sounds interesting!
 
-5. [pyspark-stubs](https://github.com/zero323/pyspark-stubs)
+7. [pyspark-stubs](https://github.com/zero323/pyspark-stubs)
     can be leveraged for static type checking for PySpark project.
 
 ## Use PySpark in Jupyter/Lab Notebooks
