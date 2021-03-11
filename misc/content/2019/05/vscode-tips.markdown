@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 23:08:33
+Date: 2021-03-10 23:12:02
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -66,6 +66,11 @@ A simple fix is to add the following configuration into the user's setting.json 
     {
         "keyboard.dispatch": "keyCode"
     }
+
+
+## Snippets
+
+[Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
 ## Install Extensions from Command-line
 
