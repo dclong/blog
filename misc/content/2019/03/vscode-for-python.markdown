@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-23 10:27:10
+Date: 2021-03-10 23:07:42
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -31,14 +31,20 @@ Please read with your own judgement!
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
 
-- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
-
 - [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
     Thhe sphinx style is recommended.
 
 - [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 
+- [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
+
+- [Python Snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.python-snippets)
+
+- [Python Type Hint](https://marketplace.visualstudio.com/items?itemName=njqdev.vscode-python-typehint)
+
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
 
 ## Other Potentially Useful Extensions
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 12:59:11
+Date: 2021-03-10 23:08:33
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -34,6 +34,8 @@ are 2 places to find VSCode compatible extensions.
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
 
 - [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
+
+- [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
 
 - [Extensions for VS Code Compatible Editors](https://open-vsx.org/)
 
