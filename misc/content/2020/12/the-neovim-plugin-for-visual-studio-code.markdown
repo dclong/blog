@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 08:47:41
+Date: 2021-03-10 23:23:59
 Author: Benjamin Du
 Slug: the-neovim-plugin-for-visual-studio-code
 Title: The NeoVim Plugin for Visual Studio Code

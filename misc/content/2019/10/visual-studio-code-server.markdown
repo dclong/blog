@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 23:12:02
+Date: 2021-03-10 23:34:08
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -12,12 +12,6 @@ Please read with your own judgement!
 **
 
 
-## Places to Find Extensoins 
-
-[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)
-and
-[Open VSX Registry](https://open-vsx.org/)
-are 2 places to find VSCode compatible extensions.
 
 ## Advanced Tips
 --link                 (beta) Securely bind code-server via Coder Cloud with the passed name. You'll get a URL like
@@ -40,24 +34,12 @@ https://github.com/cdr/code-server/issues/965
 
 https://github.com/cdr/code-server/issues/148
 
-## Install Extensions
 
-If you install extension in Dockerfile using `root`,
-the extensions are installed into `/root/.local/share/code-server/extensions`.
-You change the the permissions of `/root` and all its subcontents to 777 
-(using the command `chmod -R 777 /root`) 
-so that other users can use the installed extensions.
+## Extensions
 
-    :::bash
-    code-server --install-extension ms-python.python
-    code-server --install-extension njpwerner.autodocstring
-
-You can install a specific version of an extension using `@`.
-
-    :::bash
-    code-server --install-extension ms-python.python@2020.5.86806 \
-
-https://github.com/cdr/code-server/issues/171
+Please refer to 
+[Useful Visual Studio Code Extensions](http://www.legendu.net/misc/blog/useful-visual-studio-code-extensions)
+.
 
 ## [Debug Python Project](http://www.legendu.net/misc/blog/debug-python-project-in-visual-studio-code)
 

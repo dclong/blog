@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 23:12:02
+Date: 2021-03-10 23:23:59
 Author: Benjamin Du
 Slug: vscode-tips
 Title: Tips on Visual Studio Code
@@ -20,41 +20,6 @@ is available.
 1. It seems that Visual Studio Code installed using snap in Kubuntu 18.10 has issues.
     It is suggested that you install Visual Studio Code using the `.deb` package instead of snap.
 
-## Places to Find Extensoins 
-
-[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode)
-and
-[Open VSX Registry](https://open-vsx.org/)
-are 2 places to find VSCode compatible extensions.
-
-## Useful Extensions
-
-- [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
-
-- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
-
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-
-- [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
-
-- [Extensions for VS Code Compatible Editors](https://open-vsx.org/)
-
-- [SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
-
-- [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
-    The sphinx style is recommended.
-
-- [Android](https://marketplace.visualstudio.com/items?itemName=adelphes.android-dev-ext)
-
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
-## Other Potentially Useful Extensions
-
-- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-
-- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ## Fix the Caps Lock Mapping to Escape Issue
 
@@ -72,9 +37,11 @@ A simple fix is to add the following configuration into the user's setting.json 
 
 [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
-## Install Extensions from Command-line
+## Extensions
 
-https://stackoverflow.com/questions/34286515/how-to-install-visual-studio-code-extensions-from-command-line/34339780#34339780
+Please refer to 
+[Useful Visual Studio Code Extensions](http://www.legendu.net/misc/blog/useful-visual-studio-code-extensions)
+.
 
 ## Change Indention/Shift Width
 

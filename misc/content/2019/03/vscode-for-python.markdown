@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 23:07:42
+Date: 2021-03-10 23:34:08
 Author: Benjamin Du
 Slug: vscode-for-python
 Title: Visual Studio Code for Python
@@ -23,38 +23,11 @@ Please read with your own judgement!
 
 ![Set Python Path](https://user-images.githubusercontent.com/824507/69910283-b7b41300-13bd-11ea-83f0-5f959c68532f.png)
 
-## Useful Extensions
+## Extensions
 
-- [Python (by Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
-- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
-
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-
-- [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
-    Thhe sphinx style is recommended.
-
-- [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-
-- [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
-
-- [Python Snippets](https://marketplace.visualstudio.com/items?itemName=cstrap.python-snippets)
-
-- [Python Type Hint](https://marketplace.visualstudio.com/items?itemName=njqdev.vscode-python-typehint)
-
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
-- [Python Extension Pack](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-extension-pack)
-
-## Other Potentially Useful Extensions
-
-- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-
-- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-
-
+Please refer to 
+[Useful Visual Studio Code Extensions](http://www.legendu.net/misc/blog/useful-visual-studio-code-extensions)
+.
 
 ## Python Project with poetry and VS Code
 
