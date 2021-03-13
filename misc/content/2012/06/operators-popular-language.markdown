@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-30 14:38:25
+Date: 2021-03-13 12:22:40
 Slug: operators-popular-language
 Author: Ben Chuanlong Du
 Title: Operators in Different Programming Languages
@@ -12,15 +12,10 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <th> </th>
         <th>Bash</th>
         <th>C/C++</th>
-        <th>D</th>
         <th>Java</th>
         <th>Julia</th>
         <th>Mathematica</th>
-        <th>MATLAB</th>
         <th>Python</th>
-        <th>R</th>
-        <th>Ruby</th>
-        <th>VB/VB.net</th>
     </tr>   
 
     <tr>
@@ -30,11 +25,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> && </td>
         <td> && </td>
         <td> && </td>
-        <td> && </td>
-        <td> && </td>
-        <td> and </td>
-        <td> && </td>
-        <td> &&, and </td>
         <td> and </td>
     </tr>
 
@@ -45,11 +35,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> || </td>
         <td> || </td>
         <td> || </td>
-        <td> || </td>
-        <td> || </td>
-        <td> or </td>
-        <td> || </td>
-        <td> ||, or </td>
         <td> or </td>
     </tr>
 
@@ -60,11 +45,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> ! </td>
         <td> ! </td>
         <td> ! </td>
-        <td> ! </td>
-        <td> ! </td>
-        <td> not </td>
-        <td> ! </td>
-        <td> !, not  </td>
         <td> not </td>
     </tr>
 
@@ -74,13 +54,8 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> & </td>
         <td> & </td>
         <td> & </td>
-        <td> & </td>
         <td> BitAnd </td>
-        <td> bitand </td>
         <td> & </td>
-        <td> bitops::bitAnd </td>
-        <td> & </td>
-        <td> </td>
     </tr>
 
     <tr>
@@ -89,13 +64,8 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> | </td>
         <td> | </td>
         <td> | </td>
-        <td> | </td>
         <td> BitOr </td>
-        <td> bitor </td>
         <td> | </td>
-        <td> bitops:bitOr </td>
-        <td> | </td>
-        <td> </td>
     </tr>
 
     <tr>
@@ -104,13 +74,8 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> ~ </td>
         <td> ~ </td>
         <td> ~ </td>
-        <td> ~ </td>
         <td> BitNot </td>
-        <td> bitnot </td>
         <td> ~ </td>
-        <td> bitops:bitNot </td>
-        <td> ~ </td>
-        <td> </td>
     </tr>
 
     <tr>
@@ -119,13 +84,8 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> ^ </td>
         <td> ^ </td>
         <td> ^ </td>
-        <td> ^ </td>
         <td> BitXor </td>
-        <td> bitxor </td>
         <td> ^ </td>
-        <td> bitops::bitxor </td>
-        <td> ^ </td>
-        <td> </td>
     </tr>
 
     <tr>
@@ -134,11 +94,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> </td>
         <td> </td>
         <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> & </td>
         <td> </td>
         <td> </td>
     </tr>
@@ -151,11 +106,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> </td>
         <td> </td>
         <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> | </td>
-        <td> </td>
-        <td> </td>
     </tr>
 
     <tr>
@@ -164,11 +114,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> </td>
         <td> </td>
         <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> </td>
-        <td> ! </td>
         <td> </td>
         <td> </td>
     </tr>
@@ -181,11 +126,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> == </td>
         <td> == </td>
         <td> == </td>
-        <td> == </td>
-        <td> == </td>
-        <td> == </td>
-        <td> == </td>
-        <td> = </td>
     </tr>
 
     <tr>
@@ -196,21 +136,11 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> != </td>
         <td> != </td>
         <td> != </td>
-        <td> ~= </td>
-        <td> != </td>
-        <td> != </td>
-        <td> != </td>
-        <td> not a=b </td>
     </tr>
 
     <tr>
         <td> greater than </td>
         <td> -gt </td>
-        <td> > </td>
-        <td> > </td>
-        <td> > </td>
-        <td> > </td>
-        <td> > </td>
         <td> > </td>
         <td> > </td>
         <td> > </td>
@@ -226,21 +156,11 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> < </td>
         <td> < </td>
         <td> < </td>
-        <td> < </td>
-        <td> < </td>
-        <td> < </td>
-        <td> < </td>
-        <td> < </td>
     </tr>
 
     <tr>
         <td> greater than or equal to </td>
         <td> -ge </td>
-        <td> >= </td>
-        <td> >= </td>
-        <td> >= </td>
-        <td> >= </td>
-        <td> >= </td>
         <td> >= </td>
         <td> >= </td>
         <td> >= </td>
@@ -256,11 +176,6 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> <= </td>
         <td> <= </td>
         <td> <= </td>
-        <td> <= </td>
-        <td> <= </td>
-        <td> <= </td>
-        <td> <= </td>
-        <td> <= </td>
     </tr>   
 
     <tr>
@@ -269,12 +184,7 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> continue </td>
         <td> continue </td>
         <td> continue </td>
-        <td> continue </td>
         <td> Continue[] </td>
-        <td> continue </td>
-        <td> continue </td>
-        <td> next </td>
-        <td> next </td>
         <td> continue </td>
     </tr>
     
@@ -286,31 +196,20 @@ Tags: Mathematica, Python, Julia, programming, C/C++, Java, D, operator, Bash, R
         <td> break </td>
         <td> break </td>
         <td> break </td>
-        <td> break </td>
-        <td> break </td>
-        <td> break </td>
-        <td> break </td>
-        <td> break </td>
     </tr>
     <tr>
         <td> print </td>
         <td> echo </td>
         <td> printf/std::cout </td>
-        <td> write, writeln </td>
         <td> System.out.print, System.out.println </td>
         <td> print, println </td>
         <td> Print </td>
-        <td> disp </td>
         <td>  </td>
-        <td> cat, print </td>
-        <td> </td>
-        <td> </td>
     </tr>
 
 
 </table>
         
 
-        Python and SAS support
-        1 <= x < 3
-        equivalent to x >= 1 and x <3
+Python supports `1 <= x < 3`
+which is equivalent to `x >= 1 and x <3`.
