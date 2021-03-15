@@ -6,7 +6,7 @@ from argparse import ArgumentParser, Namespace
 import subprocess as sp
 import getpass
 from loguru import logger
-import dsutil
+import dsutil.jupyter
 from utils import (
     BASE_DIR, push_github, pelican_generate, option_files, option_indexes, option_where,
     option_dir, option_num, option_from, option_to, option_editor, option_all,
