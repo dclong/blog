@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from __future__ import annotations
+from typing import Sequence
 import os
 import re
 from pathlib import Path
@@ -41,12 +43,17 @@ def move(blogger, args):
     blogger.commit()
 
 
-def trash(blogger, args):
-    if args.indexes:
-        args.files = blogger.path(args.indexes)
-    if args.all:
+def _resolve_files(args: Namespace) -> None:
+    if "all" in args and args.all:
         sql = "SELECT path FROM srps"
         args.files = [row[0] for row in blogger.query(sql)]
+        return 
+    if "indexes" in args and args.indexes:
+        args.files = blogger.path(args.indexes)
+
+
+def trash(blogger, args):
+    _resolve_files(args)
     if args.files:
         for index, file in enumerate(args.files):
             print(f"\n{index}: {file}")
@@ -90,11 +97,7 @@ def _subparse_find_name_title_mismatch(subparsers):
 def match_post(blogger, args):
     if re.search(r"^mp\d+$", args.sub_cmd):
         args.indexes = [int(args.sub_cmd[2:])]
-    if args.indexes:
-        args.files = blogger.path(args.indexes)
-    if args.all:
-        sql = "SELECT path FROM srps"
-        args.files = [row[0] for row in blogger.query(sql)]
+    _resolve_files(args)
     total = len(args.files)
     if not args.files:
         print("No specifed file to be matched!\n")
@@ -320,8 +323,7 @@ def exec_notebook(bloger, args):
 
 
 def format_notebook(bloger, args):
-    if args.indexes:
-        args.files = blogger.path(args.indexes)
+    _resolve_files(args)
     if args.files:
         dsutil.jupyter.format_notebook(args.files)
 
@@ -332,6 +334,7 @@ def _subparse_format_notebook(subparsers):
     )
     option_indexes(subparser_format_notebook)
     option_files(subparser_format_notebook)
+    option_all(subparser_format_notebook)
     subparser_format_notebook.set_defaults(func=format_notebook)
 
 
