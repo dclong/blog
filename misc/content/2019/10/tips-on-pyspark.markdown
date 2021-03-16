@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-09 16:35:34
+Date: 2021-03-16 14:35:31
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: Tips on PySpark
@@ -150,6 +150,15 @@ Please read with your own judgement!
         from pyspark.sql import SparkSession, DataFrame
         spark = SparkSession.builder.appName("PySpark_Notebook") \
             .enableHiveSupport().getOrCreate()
+
+    Notice that the following 2 lines of code must be before any code that involving Spark.
+    The example here might seems obvious, 
+    however,
+    it might not so obvious if you import a module which creates a SparkSession object.
+
+        :::python
+        import findspark
+        findspark.init("/opt/spark")
 
 2. When working with relatively large data in a local version of Spark in Jupyter/Lab notebook,
     you might easily encounter OOM errors. 
