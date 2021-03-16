@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "xinstall"
+version = "0.35.0"
+description = "Easy Cross-platform Installation and Configuration of Apps."
+authors = ["Benjamin Du <longendu@yahoo.com>"]
+
+[tool.poetry.scripts]
+xinstall = "xinstall:main.main"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4"
+distro = ">=1.5.0"
+tqdm = ">=4.48.2"
+findspark = ">=1.4.2"
+requests = ">=2.25.0"
+packaging = ">=20.4"
+GitPython = ">=3.1.11"
+toml = ">=0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=3.0"
+pylint = ">=2.4.4"
+pytype = { version = ">=2020.08.10", python = "<3.9" }
+yapf = ">=0.31.0"
+coverage = ">=5.3"
+
+[tool.pylint.master]
+ignore = ".venv,.ipynb_checkpoints"
+unsafe-load-any-extension = "no"
+load-plugins = "pylint.extensions.docparams"
+extension-pkg-whitelist = "numpy,cv2,pyspark"
+generated-members = "sqlite3.*,cv2.*,pyspark.*"
+ignored-modules = "pyspark.sql.functions"
+
+[tool.pylint.typecheck]
+ignored-classes = "Namespace"
+
+[tool.pylint.message_control]
+disable = "C0103,C0200,C0301,C0302,C0303,C0330,R0902,R0903,R0904,R0911,R0912,R0913,W0621,W0622,W0702,W0703,W1116,W9016"
+
+[tool.yapf]
+based_on_style = "facebook"
+column_limit = "88"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
