@@ -22,7 +22,7 @@ Please read with your own judgement!
     Currently, 
     ODBC packages also have richer features than JDBC packages.
     However,
-    it is not an easy job to install and configure ODBC drivers for a non-open source databases (e.g., Teradata),
+    it is not an easy job to install and configure ODBC drivers for non-open source databases (e.g., Teradata),
     in which situations JDBC is more convenient.
 
 
