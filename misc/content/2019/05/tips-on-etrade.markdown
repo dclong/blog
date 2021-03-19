@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-07 13:53:22
+Date: 2021-03-18 17:09:47
 Author: Benjamin Du
 Slug: tips-on-etrade
 Title: Tips on eTrade
@@ -29,6 +29,14 @@ Please read with your own judgement!
   You can submit a Registration Change form to update your account to a Complete Investment Account. 
 
 ## Tax
+
+1. The way to cover tax for RSU can be updated at https://us.etrade.com/etx/sp/stockplan/#/myAccount/planElections/stockElections.
+    You might not be able to update it for 2 reasons.
+    First, 
+    some company use the default way (sell to cover) and does not allow employees to change it.
+    Second,
+    even if you company allows you to update the way to cover tax,
+    you have to wait for an open time window to update it.
 
 When RSU shares vest, 
 shares are withheld and sold to cover your tax commitment. 
