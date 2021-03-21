@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-13 14:43:44
+Date: 2021-03-21 11:32:16
 Author: Benjamin Du
 Slug: tips-on-rust-kernel-via-evcxr-for-jupyterlab
 Title: Tips on Rust Kernel Via Evcxr for JupyterLab
@@ -21,3 +21,5 @@ contains a valid Rust kernel for Jupyter/Lab notebooks.
 ## References 
 
 https://github.com/google/evcxr/issues/135
+
+https://github.com/google/evcxr/blob/master/evcxr_jupyter/README.md
