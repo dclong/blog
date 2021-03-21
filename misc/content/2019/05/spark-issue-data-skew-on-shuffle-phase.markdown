@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-08-29 22:05:22
+Date: 2021-03-21 12:14:37
 Author: Benjamin Du
 Slug: spark-issue-data-skew-on-shuffle-phase
 Title: Spark Issue: Data Skew on Shuffle Phase
 Category: Computer Science
-Tags: Computer Science, Spark, issue, data skew, shuffle, error, data skew, shuffle
+Tags: Computer Science, Spark, issue, data skew, shuffle, error, data skew, shuffle, Spark issue
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

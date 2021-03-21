@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-11-04 23:28:54
+Date: 2021-03-21 12:14:37
 Author: Benjamin Du
 Slug: spark-issue:-_pickle.PicklingError:-args[0]-from-__newobj__-args-has-the-wrong-class
 Title: Spark Issue: _Pickle.Picklingerror: Args[0] from __Newobj__ Args Has the Wrong Class
 Category: Computer Science
-Tags: Computer Science, programming, Spark, big data, issue, Pickle, serialization, deserialization
+Tags: Computer Science, programming, Spark, big data, issue, Pickle, serialization, deserialization, Spark issue
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

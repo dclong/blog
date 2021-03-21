@@ -1,10 +1,10 @@
 Status: published
-Date: 2020-08-30 20:05:34
+Date: 2021-03-21 12:14:37
 Author: Benjamin Du
 Slug: spark-issue-too-large-table-for-auto-BroadcastHashJoin
 Title: Spark Issue: Too Large Table for Auto BroadcastHashJoin
 Category: Computer Science
-Tags: programming, Spark, issue, big data, error, BroadcastHashJoin, broadcast
+Tags: programming, Spark, issue, big data, error, BroadcastHashJoin, broadcast, Spark issue
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
