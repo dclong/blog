@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2021-03-22 09:41:16
 Author: Benjamin Du
 Slug: spark-issue-file-not-found-exception
 Title: Spark Issue: File Not Found Exception
 Category: Computer Science
-Tags: programming, Spark, issue, big data, error, file not found, Spark issue
+Tags: programming, Spark, issue, big data, error, file not found, Spark issue, FileNotFoundException
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -41,20 +41,20 @@ or the temp files (intermediate file stored locally for shuffle) are removed.
 
 ## Cause 2
 
-The shuffle file need to be stored locally for each executor, 
-when doing very large shuffle, 
-there are chances that the stored temp files exceed the hard limit restricted by yarn
-
-The local dir that used to store the temp files are controlled by yarn.nodemanager.local-dirs, which is set to 12 folders on the Spark cluster.
-
-The upper bound size for each dir is controlled by yarn.nodemanager.localizer.cache.target-size-mb, which is 10G by default  (not set on the cluster)
+The shuffle file need to be stored locally for each executor. 
+When doing very large shuffle, 
+there are chances that the stored temp files exceed the hard limit restricted by yarn.
+The local dir for storing the temp files are controlled by `yarn.nodemanager.local-dirs`, 
+which is set to 12 folders on the Spark cluster.
+The upper bound size for each directory is controlled by `yarn.nodemanager.localizer.cache.target-size-mb`, 
+which is 10G by default.
 
 ## Solution 2
 
-Since we don't have authority to change the yarn properties, 
-we can walk around the issue by enlarging the cluster size. 
-In this case we have more temp folder capacity. 
-For example, 
-to compute 30-day google live item response, we need around 300 executors to resolve the issue
+Users do not have authority to change the yarn properties,
+however,
+an workaround solution is to ask for more executors
+which will give us more temporary directories for storing shuffling data.
 
+    :::bash
     --num-executors 320
