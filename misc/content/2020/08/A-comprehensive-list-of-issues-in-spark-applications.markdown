@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:28:33
+Date: 2021-03-22 08:53:56
 Author: Benjamin Du
 Slug: A-comprehensive-list-of-issues-in-spark-applications
 Title: A Comprehensive List of Common Issues in Spark Applications
@@ -10,6 +10,12 @@ Tags: Computer Science, Spark, issue, big data, error, Spark issue
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+## List of Common Issues 
+
+Please refer to 
+<http://www.legendu.net/misc/tag/spark-issue.html>
+for a comprehensive list of Spark Issues and (possible) causes and solutions.
 
 ## Debugging Tips 
 
@@ -37,9 +43,3 @@ Below a few things to check while you debug your Spark applications.
     This is critical for improve the performance of your Spark application.
     For example, 
     you might expect Spark to use BroadcastHashJoin but it actually used SortMergeJoin.
-
-## List of Common Issues 
-
-Please refer to 
-http://www.legendu.net/misc/tag/spark-issue.html
-for a comprehensive list of Spark Issues and (possible) causes and solutions.
