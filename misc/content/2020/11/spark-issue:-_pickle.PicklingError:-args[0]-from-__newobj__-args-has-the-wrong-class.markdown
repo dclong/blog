@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2021-03-22 10:12:17
 Author: Benjamin Du
 Slug: spark-issue:-_pickle.PicklingError:-args[0]-from-__newobj__-args-has-the-wrong-class
 Title: Spark Issue: _Pickle.Picklingerror: Args[0] from __Newobj__ Args Has the Wrong Class
@@ -10,6 +10,14 @@ Tags: Computer Science, programming, Spark, big data, issue, Pickle, serializati
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+Please refer to
+[Spark Issue: Task Not Serializable](http://www.legendu.net/misc/blog/spark-issue-task-not-serializable)
+for a similar serialization issue in Spark/Scala.
+
+## Symptom
+
+## Cause
 
 For example,
 if you have the following import 

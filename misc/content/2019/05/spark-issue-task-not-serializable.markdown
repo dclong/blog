@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2021-03-22 10:11:48
 Author: Benjamin Du
 Slug: spark-issue-task-not-serializable
 Title: Spark Issue: Task Not Serializable
@@ -10,6 +10,10 @@ Tags: programming, Spark, issue, serialiation, error, big data, Spark issue
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
+
+Please refer to
+[Spark Issue: _Pickle.Picklingerror: Args[0] from __Newobj__ Args Has the Wrong Class](http://www.legendu.net/misc/blog/spark-issue:-_pickle.PicklingError:-args[0]-from-__newobj__-args-has-the-wrong-class)
+for a similar serialization issue in PySpark.
 
 ## Error Message
 
