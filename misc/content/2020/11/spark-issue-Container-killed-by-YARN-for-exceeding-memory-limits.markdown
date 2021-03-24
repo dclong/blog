@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-22 11:01:18
+Date: 2021-03-24 09:11:58
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
@@ -34,40 +34,47 @@ and
 [Container killed by YARN for exceeding memory limits](https://www.cnblogs.com/zz-ksw/p/11403622.html)
 have good discussions on solutions to fix the issue including some low-level explanation of the issue.
 
-Spark Tungsten leverages off-heap memory a lot to boost performance. 
-Checking the Spark SQL physical plan, 
-aggregation and sorting are all happened in off-heap.
+1. A bug ([YARN-4714](https://issues.apache.org/jira/browse/YARN-4714)) in YARN.
 
-    org.apache.spark.sql.catalyst.errors.package$TreeNodeException: execute, tree:
-    TungstenAggregate(key=[], functions=[(count(1),mode=Final,isDistinct=false)], output=[count#983L])
-    +- TungstenExchange SinglePartition, None
-      +- TungstenAggregate(key=[], functions=[(count(1),mode=Partial,isDistinct=false)], output=[count#988L])
-        +- Project
-          +- Sort [ocsQltyScr#845L DESC], true, 0
-            +- ConvertToUnsafe
-              +- Exchange rangepartitioning(ocsQltyScr#845L DESC,400), None
-                +- ConvertToSafe
-                  +- Project [ocsQltyScr#845L]
-                    +- Filter (rank#977 = 1)
-                      +- Window
-
-1. due to bug in YARN 
+2. Too much usage of **off-heap** memory. 
+  Spark Tungsten leverages off-heap memory a lot to boost performance. 
+  Some Java operations (especially IO related) also levarages off-heap memory.
+  Usage of off-heap memory in Spark 2 (this has been changed in Spark 3) 
+  is control by `spark.yarn.executor.memoryOverhead`.
+  Generally speaking,
+  it is hard to control the usage of off-heap memory 
+  unless the corresponding Java operations provide such options.
+  The JVM option `MaxDirectMemorySize` specifies the maximum total size of `java.nio` (New I/O package) direct buffer allocations (off-heap memory),
+  which is used with network data transfer and serialization activity.
 
 2. data skew (e.g., big data table but not partitioned)
 
-## Solutions 
+## Possible Solutions 
 
-Increase Memory Overhead `spark.yarn.executor.memoryOverhead` 
+1. Increase memory overhead.
 
-Reducing the number of Executor Cores
+        :::bash
+        --conf spark.yarn.executor.memoryOverhead=8G
 
-Increase the number of partitions
+2. Reducing the number of executor cores (which helps reducing memory consumption).
 
-Increase Driver or Executor Memory
+3. Increase the number of partitions (which makes each task smaller and helps reducing memory consumption).
+
+4. Configure the JVM option `MaxDirectMemorySize` 
+    if your Spark application involves reading Parquet files and/or encoding/decoding BASE64 string, etc.     
+    By default,
+    `MaxDirectMemorySize` is close to the size of heap memory size.
+    So, if `MaxDirectoryMemorySize` is not set, 
+    Spark containers might use too much off-heap memory.
+
+        :::bash
+        --conf spark.executor.extraJavaOptions=-XX:MaxDirectMemorySize=8G
 
 ## References 
 
 [Solving “Container Killed by Yarn For Exceeding Memory Limits” Exception in Apache Spark](https://medium.com/analytics-vidhya/solving-container-killed-by-yarn-for-exceeding-memory-limits-exception-in-apache-spark-b3349685df16)
+
+[How do I resolve the error "Container killed by YARN for exceeding memory limits" in Spark on Amazon EMR?](https://aws.amazon.com/premiumsupport/knowledge-center/emr-spark-yarn-memory-limit/#:~:text=Memory%20overhead%20is%20the%20amount,libraries%2C%20or%20memory%20mapped%20files.)
 
 [“Container killed by YARN for exceeding memory limits. 10.4 GB of 10.4 GB physical memory used” on an EMR cluster with 75GB of memory](https://stackoverflow.com/questions/40781354/container-killed-by-yarn-for-exceeding-memory-limits-10-4-gb-of-10-4-gb-physic)
 
@@ -82,3 +89,7 @@ Increase Driver or Executor Memory
 https://stackoverflow.com/questions/37505638/understanding-spark-physical-plan
 
 https://community.hortonworks.com/questions/36266/spark-physical-plan-doubts-tungstenaggregate-tungs.html
+
+[Apache Spark and off-heap memory](https://www.waitingforcode.com/apache-spark/apache-spark-off-heap-memory/read#off-heap_memory_and_Project_Tungsten)
+
+[Decoding Memory in Spark — Parameters that are often confused](https://medium.com/walmartglobaltech/decoding-memory-in-spark-parameters-that-are-often-confused-c11be7488a24)
