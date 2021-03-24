@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-03-22 10:24:16
+Date: 2021-03-24 14:59:52
 Author: Benjamin Du
-Slug: org.apache.hadoop.security.AccessControlException:-Permission-denied
-Title: Org.Apache.Hadoop.Security.Accesscontrolexception: Permission Denied
+Slug: Spark-Issue-AccessControlException-Permission-denied
+Title: Spark Issue: AccessControlException: Permission Denied
 Category: Computer Science
 Tags: Computer Science, programming, Spark, issue, big data, Spark issue, AccessControlException, permission, denied
 
