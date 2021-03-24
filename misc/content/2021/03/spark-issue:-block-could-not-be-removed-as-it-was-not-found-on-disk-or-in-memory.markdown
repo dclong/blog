@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 09:04:08
+Date: 2021-03-24 09:05:05
 Author: Benjamin Du
 Slug: spark-issue:-block-could-not-be-removed-as-it-was-not-found-on-disk-or-in-memory
 Title: Spark Issue: Block Could Not Be Removed as It Was Not Found on Disk or in Memory
@@ -34,9 +34,11 @@ Not enough memory to persist DataFrames (even if you used the default persist op
     Notice that even if you persist DataFrames to disk only,
     you might still encounter this issue due to lack of disk space for caching.
 
-4. Increase the number of partitions.
+4. Increase the number of partitions,
+    which makes each partition smaller.
 
-4. Increase the number of executors. 
+4. Increase the number of executors,
+    which increases the total disk space for caching.
 
 4. Ask Hadoop/Spark admin to increase local disk space for caching.
 
