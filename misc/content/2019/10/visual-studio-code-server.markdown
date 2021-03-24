@@ -24,6 +24,15 @@ Please read with your own judgement!
 
 [dclong/docker-vscode-server](https://github.com/dclong/docker-vscode-server)
 
+## Format Source Code
+
+Format manually: Shift + Alt + F (Windows/Linux) or Shift + Option + F (macOS)
+Please refer to
+https://code.visualstudio.com/docs/editor/codebasics#_formatting
+and
+https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code
+for more discussions.
+
 ## Setup Password
 
 https://github.com/cdr/code-server/issues/940

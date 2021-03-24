@@ -27,14 +27,16 @@ Reason: Container killed by YARN for exceeding memory limits. 40.6 GB of 40 GB p
 Consider boosting spark.yarn.executor.memoryOverhead.
 
 
+## Possible Causes 
+
 [Spark on Yarn and virtual memory error](https://a-ghorbani.github.io/2016/12/23/spark-on-yarn-and-java-8-and-virtual-memory-error)
 and
 [Container killed by YARN for exceeding memory limits](https://www.cnblogs.com/zz-ksw/p/11403622.html)
 have good discussions on solutions to fix the issue including some low-level explanation of the issue.
 
-## Possible Causes 
-
-DataFrame and Spark Tunsten leverage off-heap a lot to boost performance. Checking the Spark SQL physical plan, the Aggregation and Sort are all happened in Off-Heap. 
+Spark Tungsten leverages off-heap memory a lot to boost performance. 
+Checking the Spark SQL physical plan, 
+aggregation and sorting are all happened in off-heap.
 
     org.apache.spark.sql.catalyst.errors.package$TreeNodeException: execute, tree:
     TungstenAggregate(key=[], functions=[(count(1),mode=Final,isDistinct=false)], output=[count#983L])
