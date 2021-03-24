@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-23 17:59:03
+Date: 2021-03-23 18:00:30
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
@@ -89,3 +89,7 @@ have good discussions on solutions to fix the issue including some low-level exp
 https://stackoverflow.com/questions/37505638/understanding-spark-physical-plan
 
 https://community.hortonworks.com/questions/36266/spark-physical-plan-doubts-tungstenaggregate-tungs.html
+
+[Apache Spark and off-heap memory](https://www.waitingforcode.com/apache-spark/apache-spark-off-heap-memory/read#off-heap_memory_and_Project_Tungsten)
+
+[Decoding Memory in Spark — Parameters that are often confused](https://medium.com/walmartglobaltech/decoding-memory-in-spark-parameters-that-are-often-confused-c11be7488a24)
