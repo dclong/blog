@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 08:53:51
+Date: 2021-03-24 14:43:30
 Author: Benjamin Du
 Slug: spark-issue-file-not-found-exception
 Title: Spark Issue: java.io.FileNotFoundException
@@ -38,6 +38,9 @@ or the temp files (intermediate file stored locally for shuffle) are removed.
 ## Solution 1
 
 1. Enlarge the executor memory
+
+        ::bash
+        --conf executor-memory=20G
 
 ## Cause 2
 

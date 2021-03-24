@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 09:11:58
+Date: 2021-03-24 14:55:43
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
@@ -13,6 +13,7 @@ Please read with your own judgement!
 
 ## Symptoms
 
+### Symptom 1
 Container killed by YARN for exceeding memory limits.  
 22.0 GB of 19 GB physical memory used. 
 Consider boosting `spark.yarn.executor.memoryOverhead` 
@@ -20,12 +21,26 @@ or disabling `yarn.nodemanager.vmem-check-enabled`
 because of [YARN-4714](https://issues.apache.org/jira/browse/YARN-4714).
 
 
+### Symptom 2
 Job aborted due to stage failure: Task 110 in stage 68.0 failed 1 times, 
 most recent failure: Lost task 110.0 in stage 68.0:
 ExecutorLostFailure (executor 35 exited caused by one of the running tasks) 
 Reason: Container killed by YARN for exceeding memory limits. 40.6 GB of 40 GB physical memory used. 
 Consider boosting spark.yarn.executor.memoryOverhead.
 
+### Symptom 3
+16/04/22 04:27:18 WARN yarn.YarnAllocator: Container marked as failed: container_1459803563374_223497_02_000067 on host.
+Exit status: 143. Diagnostics: Container [pid=30502,containerID=container_1459803563374_223497_02_000067] is running beyond physical memory limits. 
+Current usage: 13.8 GB of 13.8 GB physical memory used; 14.6 GB of 28.9 GB virtual memory used. Killing container.
+Dump of the process-tree for container_1459803563374_223497_02_000067 :
+- PID PPID PGRPID SESSID CMD_NAME USER_MODE_TIME(MILLIS) SYSTEM_TIME(MILLIS) VMEM_USAGE(BYTES) RSSMEM_USAGE(PAGES) FULL_CMD_LINE
+- 30502 18022 30502 30502 (bash) 0 0 22773760 347 /bin/bash -c LD_LIBRARY_PATH=/apache/hadoop/lib/native:/apache/hadoop/lib/native/Linux-amd64-64: 
+/usr/java/latest/bin/java -server -XX:OnOutOfMemoryError='kill %p' 
+...
+container_1459803563374_223497_02_000067/stderr
+...
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
 
 ## Possible Causes 
 
@@ -49,16 +64,25 @@ have good discussions on solutions to fix the issue including some low-level exp
 
 2. data skew (e.g., big data table but not partitioned)
 
+3. Some tables in joins are too large.
+
 ## Possible Solutions 
 
 1. Increase memory overhead.
+    For example,
+    the below configuration set memory overhead to 8G.
 
         :::bash
         --conf spark.yarn.executor.memoryOverhead=8G
 
 2. Reducing the number of executor cores (which helps reducing memory consumption).
+    For example,
+    change `--execuor-cores=4` to `--execuor-cores=2`.
 
 3. Increase the number of partitions (which makes each task smaller and helps reducing memory consumption).
+
+        :::bash
+        --conf spark.sql.shuffle.partitions=2000
 
 4. Configure the JVM option `MaxDirectMemorySize` 
     if your Spark application involves reading Parquet files and/or encoding/decoding BASE64 string, etc.     
@@ -93,3 +117,9 @@ https://community.hortonworks.com/questions/36266/spark-physical-plan-doubts-tun
 [Apache Spark and off-heap memory](https://www.waitingforcode.com/apache-spark/apache-spark-off-heap-memory/read#off-heap_memory_and_Project_Tungsten)
 
 [Decoding Memory in Spark — Parameters that are often confused](https://medium.com/walmartglobaltech/decoding-memory-in-spark-parameters-that-are-often-confused-c11be7488a24)
+
+http://stackoverflow.com/questions/29850784/what-are-the-likely-causes-of-org-apache-spark-shuffle-metadatafetchfailedexcept 
+
+http://apache-spark-developers-list.1001551.n3.nabble.com/Lost-executor-on-YARN-ALS-iterations-td7916.html 
+
+https://issues.apache.org/jira/browse/SPARK-4516?focusedCommentId=14220157&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-14220157
