@@ -75,12 +75,9 @@
     ["Java-Home", "JAVA-HOME"],
     ["Mobaxterm", "MobaXterm"],
     ["Nbconvert", "nbconvert"], ["Nomachine", "NoMachine"],
-    ["Pybuilder", "PyBuilder"],
-    ["Rmarkdown", "RMarkdown"],
-    ["Teamdrive", "TeamDrive"],
-    ["Texstudio", "TeXstudio"],
-    ["Rsnapshot", "rsnapshot"],
-    ["Tinyproxy", "TinyProxy"],
+    ["Pybuilder", "PyBuilder"], ["Pdftotext", "pdftotext"],
+    ["Rsnapshot", "rsnapshot"], ["Rmarkdown", "RMarkdown"],
+    ["Teamdrive", "TeamDrive"], ["Texstudio", "TeXstudio"], ["Tinyproxy", "TinyProxy"],
     ["Virtualvm", "VirtualVM"],
     ["Autohotkey", "AutoHotkey"],
     ["Crunchbang", "CrunchBang"],
@@ -100,5 +97,6 @@
     ["Restructuretext", "RestructureText"],
     ["Broadcasthashjoin", "BroadcastHashJoin"],
     ["Torch.Nn.Functional", "torch.nn.functional"],
-    ["Modulenotfounderror", "ModuleNotFoundRrror"]
+    ["Modulenotfounderror", "ModuleNotFoundRrror"],
+    ["Python-Build-Standalone", "python-build-standalone"]
 ]

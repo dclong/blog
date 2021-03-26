@@ -6,12 +6,6 @@ Title: Replace Single Quotes With Double Quotes in Python Code
 Category: Computer Science
 Tags: Computer Science, programming, Python, code, format, single, double, quotes, string
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-
 There are 2 ways.
 
 1. Format the Python code using black,
