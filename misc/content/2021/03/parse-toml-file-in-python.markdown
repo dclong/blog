@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-15 23:01:08
+Date: 2021-03-26 09:37:58
 Author: Benjamin Du
 Slug: parse-toml-file-in-python
 Title: Parse TOML File in Python
@@ -23,5 +23,9 @@ as it is more flexible and style-preserving.
 
 
 ## References 
+
+- [Hands on the Python Library tomlkit](http://www.legendu.net/misc/blog/hands-on-python-library-tomlkit)
+
+- [Hands on the Python Library toml](http://www.legendu.net/misc/blog/hands-on-python-library-toml)
 
 - [Adopting/recommending a toml parser?](https://discuss.python.org/t/adopting-recommending-a-toml-parser/4068)
