@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-26 09:43:55
+Date: 2021-03-26 09:57:42
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: General Tips on PySpark
@@ -135,7 +135,10 @@ Please read with your own judgement!
     the function `pyspark.sql.functions.col` works the same as in Spark.
 
 6. [Pandas UDFs](https://spark.apache.org/docs/latest/sql-pyspark-pandas-with-arrow.html#pandas-udfs-aka-vectorized-udfs)
-    sounds interesting!
+    is preferred to UDFs.
+    Please refer to 
+    [User-defined Function (UDF) in PySpark](http://www.legendu.net/en/blog/pyspark-udf/)
+    for more discussions.
 
 7. [pyspark-stubs](https://github.com/zero323/pyspark-stubs)
     can be leveraged for static type checking for PySpark project.
