@@ -99,5 +99,6 @@
     ["Restructuretext", "RestructureText"],
     ["Broadcasthashjoin", "BroadcastHashJoin"],
     ["Torch.Nn.Functional", "torch.nn.functional"],
-    ["Modulenotfounderror", "ModuleNotFoundRrror"]
+    ["Modulenotfounderror", "ModuleNotFoundRrror"],
+    ["Python-Build-Standalone", "python-build-standalone"]
 ]

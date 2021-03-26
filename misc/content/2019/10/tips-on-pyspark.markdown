@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-03-16 14:35:31
+Date: 2021-03-26 09:43:55
 Author: Benjamin Du
 Slug: tips-on-pyspark
-Title: Tips on PySpark
+Title: General Tips on PySpark
 Category: Computer Science
 Tags: programming, PySpark, Python, Spark, tips, HPC, high performance computing
 
@@ -61,7 +61,7 @@ Please read with your own judgement!
             --conf spark.pyspark.python=/usr/share/anaconda3/bin/python \
             /path/to/_pyspark.py
 
-    If you use a conda-pack Python environment named `env.tar.gz`,
+    If you use a portable Python environment named `env.tar.gz`,
     you can submit a PySpark application using the following shell script.
 
         :::bash
@@ -211,41 +211,13 @@ Please read with your own judgement!
     This way, the Python objects (e.g., pandas DataFrame you have created)
     will still be alive for you to use.
 
-## Dependencies
+## Python Dependencies for PySpark
 
-[PEX](https://github.com/pantsbuild/pex)
-sounds like a good tool!
+There are several ways to handle dependencies for PySpark.
 
-1. Create a directory named `lib`.
-
-        :::bash
-        mkdir lib
-
-2. Install dependencies into the library.
-
-        :::bash
-        pip3 install -r requirements.txt -t lib
-
-3. Zip the library.
-
-        :::bash
-        cd lib
-        zip -r ../lib.zip .
-
-4. Call `SparkContext.addPyFile` to add the zip file before using the packages/moduels.
-
-        :::bash
-        spark.sparkContext.addPyFile("/path/to/python/file")
-
-Issues:
-
-1. This approach works with only pure Python package.
-    No dependecny on C/C++, Fortran is allowed.
-    It is OK for a Python package to rely on JAR files.
-
-2. No easy way to exclude dependencies.
-
-3. Does wheel work or not with this approach?
+1. [Build a portable Python environment using python-build-standalone](http://www.legendu.net/misc/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
+2. [Build a portable Python environment using conda-pack](http://www.legendu.net/misc/blog/packaging-python-dependencies-for-pyspark-using-conda-pack)
+3. [Packaging Python dependencies using pex](http://www.legendu.net/misc/blog/packaging-python-dependencies-for-pyspark-using-pex)
 
 ## References
 
@@ -272,4 +244,3 @@ https://stackoverflow.com/questions/36461054/i-cant-seem-to-get-py-files-on-spar
 [Best Practices Writing Production-Grade PySpark Jobs](https://developerzen.com/best-practices-writing-production-grade-pyspark-jobs-cb688ac4d20f)
 
 [Packaging code with PEX — a PySpark example](https://medium.com/criteo-labs/packaging-code-with-pex-a-pyspark-example-9057f9f144f3)
-
