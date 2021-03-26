@@ -1,16 +1,10 @@
 Status: published
-Date: 2020-06-07 14:44:03
+Date: 2021-03-26 10:25:39
 Author: Benjamin Du
 Slug: tips-on-pex
 Title: Tips on pex
 Category: Computer Science
 Tags: programming, Python, pex, dependency, virtual environment
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 
 ## Steps to Build a pex Environment File
 
@@ -55,7 +49,7 @@ Please read with your own judgement!
     And the Python executable must be searchable by `/usr/bin/env` if you use the default settings.
     It is kind of like that Java need to be installed on the machine to run a JAR application.
 
-3. If theree are multiple versions of Python installed in your system,
+3. If there are multiple versions of Python installed in your system,
     you use the option `--python` to specify the Python interpreter 
     (e.g., `--python=python3.7`)
     to use when building a pex environment file.

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 09:13:48
+Date: 2021-03-26 10:20:50
 Author: Benjamin Du
 Slug: reload-file-in-visual-studio-code
 Title: Reload File in Visual Studio Code
@@ -14,7 +14,7 @@ Please read with your own judgement!
 
 [Where VS Code stores the list of open files?](https://stackoverflow.com/questions/48014141/where-vs-code-stores-the-list-of-open-files)
 
-(https://stackoverflow.com/questions/30078077/visual-studio-code-auto-refresh-file-changes#:~:text=3%20Answers&text=VSCode%20will%20never%20refresh%20the,way%20to%20disable%20this%20behaviour.)(Visual Studio Code: Auto-refresh file changes)
+[Visual Studio Code: Auto-refresh file changes](https://stackoverflow.com/questions/30078077/visual-studio-code-auto-refresh-file-changes#:~:text=3%20Answers&text=VSCode%20will%20never%20refresh%20the,way%20to%20disable%20this%20behaviour.)
 
 [https://github.com/cdr/code-server/discussions/2944#discussioncomment-516696](Is there any command to refresh/reload opened files in code-server?)
 
