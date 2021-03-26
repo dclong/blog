@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-03-22 09:53:20
+Date: 2021-03-24 15:06:53
 Author: Benjamin Du
 Slug: spark-issue-table-not-found
-Title: Spark Issue: Table not found
+Title: Spark Issue: Table Not Found
 Category: Computer Science
 Tags: programming, Spark, issue, big data, error, Spark issue, hive-site.xml
 

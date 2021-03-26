@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2021-03-24 15:12:11
 Author: Benjamin Du
 Slug: spark-issue-timeout-when-communicate-with-driver-during-shuffle
 Title: Spark Issue: Timeout When Communicate With Driver During Shuffle Caused by Driver OOM
@@ -45,6 +45,7 @@ Based on my experience, we may need 10G memory for 10K partition.
 
 1. Increase Driver memory and computation power is useful in case you need less than 15G memory 
 
+        :::bash
         --driver-memory 12G
         --conf spark.driver.cores=4 
         --conf spark.akka.threads=32 
@@ -52,6 +53,7 @@ Based on my experience, we may need 10G memory for 10K partition.
 2. The ultimate solution is to re-partition the map output when feed to the reduce actions. 
     A simple way is to half the number of input partitions.
 
+        :::scala
         val liveItems = liveItemsPair.reduceByKey(rFindMax, liveItemsPair.partitions.size / 2)
 
     For example, 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2021-03-24 15:12:11
 Author: Benjamin Du
 Slug: spark-issue-java.lang.OutOfMemoryError
 Title: Spark Issue: Java.Lang.OutOfMemoryerror
@@ -11,10 +11,21 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-Cause:  Executor out of memory
+## Symptom
 
-Solution: Increase executor memory from 4G to 6G: --executor-memory "6G" 
+OutOfMemoryError
 
-Reference:
+## Cause
 
- http://stackoverflow.com/questions/27462061/why-does-spark-fail-with-java-lang-outofmemoryerror-gc-overhead-limit-exceeded
+`java.lang.OutOfMemoryError` is thrown when there is not enough heap memory (for JVM to allocating new objects).
+
+## Solution
+
+Increase executor memory.
+
+    :::bash
+    --executor-memory=20G
+
+## Reference:
+
+http://stackoverflow.com/questions/27462061/why-does-spark-fail-with-java-lang-outofmemoryerror-gc-overhead-limit-exceeded
