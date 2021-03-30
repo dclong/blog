@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-30 15:22:23
+Date: 2021-03-30 16:28:59
 Author: Benjamin Du
 Slug: work-with-multiple-spark-installations
 Title: Work With Multiple Spark Installations
@@ -30,3 +30,12 @@ Remove or reset the environment variable `HADOOP_CONF_DIR` resolves the issue.
     spark = SparkSession.builder.appName("PySpark_Notebook") \
         .enableHiveSupport().getOrCreate()
     ...
+
+## More Spark Related Environment Variables
+
+- HADOOP_CONF_DIR
+- SPARK_HOME
+- HADOOP_HOME
+- HIVE_HOME
+- PIG_HOME
+- HBASE_HOME
