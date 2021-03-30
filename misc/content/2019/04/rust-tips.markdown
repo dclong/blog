@@ -131,6 +131,12 @@ https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-
 
 [Are We IDE Yet](https://areweideyet.com/)
 
+## Popular Rust Libraries
+
+[12 Killer Rust Libraries You Should Know](https://jondot.medium.com/12-killer-rust-libraries-you-should-know-c60bab07624f)
+
+[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+
 ## Machine Learning
 
 [Are We Learning Yes](http://www.arewelearningyet.com/)
