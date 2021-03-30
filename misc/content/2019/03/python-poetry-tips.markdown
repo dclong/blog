@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-25 16:17:30
+Date: 2021-03-30 12:38:52
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -73,13 +73,13 @@ If you want to install prerelease versions, you can use the --preview option.
 
 1. Create a new Python project using poetry.
 
-    :::bash
-    poetry new proj
+        :::bash
+        poetry new proj
 
 2. Initialize an existing Python project using poetry.
 
-    :::bash
-    poetry init
+        :::bash
+        poetry init
 
 ### Install Dependencies
 
@@ -98,8 +98,8 @@ If you want to install prerelease versions, you can use the --preview option.
 1. Export the lock file to `requirements.txt` 
     so that the dependency can be installed using `pip`.
 
-    :::bash
-    poetry export -f requirements.txt > requirements.txt
+        :::bash
+        poetry export -f requirements.txt > requirements.txt
 
 ### Run Commands in the Virtual Environment 
 
