@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-10 23:34:08
+Date: 2021-03-30 12:23:22
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -14,11 +14,10 @@ Please read with your own judgement!
 
 
 ## Advanced Tips
+
 --link                 (beta) Securely bind code-server via Coder Cloud with the passed name. You'll get a URL like
                              https://myname.coder-cloud.com at which you can easily access your code-server instance.
                              Authorization is done via GitHub.
-
---home a customized "Go Home" button
 
 [Hashed Password](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed)
 

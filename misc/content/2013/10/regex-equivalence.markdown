@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-03-10 09:54:11
+Date: 2021-03-30 12:29:42
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
@@ -66,7 +66,7 @@ Please read with your own judgement!
         <td> </td>
     </tr>
     <tr>
-        <td> Greedy or not</td>
+        <td> Greedy <br> or not</td>
         <td> 
         </td>
         <td> 
@@ -83,7 +83,7 @@ Please read with your own judgement!
         <td> </td>
     </tr>
     <tr>
-        <td> Popular functions </td>
+        <td> Popular <br> functions </td>
         <td> 
         </td>
         <td> 
@@ -100,7 +100,7 @@ Please read with your own judgement!
         <td> </td>
     </tr>
     <tr>
-        <td> White spaces </td>
+        <td> White <br> spaces </td>
         <td> 
             <code>\s</code>
         </td>
@@ -123,7 +123,7 @@ Please read with your own judgement!
         </td>
     </tr>
     <tr>
-        <td> Non-white space </td>
+        <td> Non-white <br> space </td>
         <td> 
             <code>\S</code>
         </td>
@@ -147,7 +147,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Lower-case letters
+            Lower-case <br> letters
         </td>
         <td> 
             <code>[a-z]</code> or <code>\l</code>
@@ -170,7 +170,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non lower-case characters
+            Non lower-case <br> characters
         </td>
         <td> 
             <code>[^a-z]</code> or <code>\L</code>
@@ -193,7 +193,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Upper-case letters
+            Upper-case <br> letters
         </td>
         <td> 
             <code>[A-Z]</code> or <code>\u</code>
@@ -216,7 +216,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non upper-case characters
+            Non upper-case <br> characters
         </td>
         <td> 
             <code>[^A-Z]</code> or <code>\U</code>
@@ -354,7 +354,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non-Hex digit characters
+            Non-Hex digit <br> characters
         </td>
         <td> 
             <code>[^0-9a-fA-F]</code> or <code>\X</code>
@@ -400,7 +400,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non-octal digit Characters
+            Non-octal digit <br> Characters
         </td>
         <td> 
             <code>[^0-7]</code> or <code>\O</code>
@@ -446,7 +446,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non-head of word
+            Non-head <br> of word
         </td>
         <td> 
             <code<code>[^a-zA-Z_]</code> or <code>\H</code>
@@ -469,7 +469,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Printable Characters
+            Printable <br> Characters
         </td>
         <td> 
             <code>\p</code>
@@ -489,7 +489,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non printable Characters
+            Non printable <br> Characters
         </td>
         <td> 
             <code>\P</code>
@@ -555,7 +555,7 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Non word characters
+            Non word <br> characters
         </td>
         <td> 
             <code>\W</code>
@@ -604,7 +604,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            0 or more matches
+            0 or more 
+            <br> matches
         </td>
         <td> 
             *
@@ -627,7 +628,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            0 or more matches (as few as possible)
+            0 or more matches 
+            <br> (as few as possible)
         </td>
         <td> 
             \\{-\\}
@@ -647,7 +649,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            0 or 1 matches
+            0 or 1 
+            <br> matches
         </td>
         <td> 
             \=
@@ -670,7 +673,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            1 or more matches
+            1 or more 
+            <br> matches
         </td> 
         <td> 
             \+
@@ -690,7 +694,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Exactly m matches
+            Exactly m 
+            <br> matches
         </td>
         <td> 
             \\{m\\}
@@ -713,7 +718,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            m or more matches
+            m or more 
+            <br> matches
         </td>
         <td> 
             \\{m,\\}
@@ -736,7 +742,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            m or more matches (as few as possible)
+            m or more matches 
+            <br> (as few as possible)
         </td>
         <td> 
             \\{-m,\\}
@@ -756,7 +763,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            m to n matches
+            m to n 
+            <br> matches
         </td>
         <td> 
             \\{m,n\\}
@@ -776,7 +784,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            m to n matches (as few as possible)
+            m to n matches 
+            <br> (as few as possible)
         </td>
         <td> 
             \\{-m,n\\}
@@ -790,7 +799,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            up to n matches
+            up to n 
+            <br> matches
         </td>
         <td> 
             \\{,n\\}
@@ -810,7 +820,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            up to n matches (as few as possible)
+            up to n matches 
+            <br> (as few as possible)
         </td>
         <td> 
             \\{-,n\\}
@@ -824,7 +835,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Any character except a newline
+            Any character 
+            <br> except a newline
         </td>
         <td> 
             .
@@ -847,7 +859,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            Start of a line
+            Start of 
+            <br> a line
         </td>
         <td> 
             ^
@@ -870,7 +883,8 @@ Please read with your own judgement!
     </tr>
     <tr>
         <td> 
-            End of a line
+            End of 
+            <br> a line
         </td>
         <td> 
             $
@@ -898,12 +912,14 @@ Please read with your own judgement!
         <td> 
         </td>
         <td> 
-            \/ (need to escape)
+            \/ 
+            <br> (need to escape)
         </td> 
         <td> 
         </td>
         <td> 
-            / (no need to escape)
+            / 
+            <br> (no need to escape)
         </td>
         <td> 
         </td>
