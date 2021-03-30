@@ -1,17 +1,20 @@
 Status: published
-Date: 2021-03-26 09:48:30
+Date: 2021-03-30 12:13:17
 Author: Benjamin Du
 Slug: packaging-python-dependencies-for-pyspark-using-conda-pack
 Title: Packaging Python Dependencies for PySpark Using Conda-Pack
 Category: Computer Science
-Tags: programming, PySpark, Python, conda, conda-pack, dependency
+Tags: programming, PySpark, Python, conda, conda-pack, dependency, Spark, big data, portable
+## Build Portable Python Environments Using conda-pack
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
+Please refer to the GitHub repo
+[dclong/conda_environ](https://github.com/dclong/conda_environ)
+for instructions
+which leverages the Docker image
+[dclong/conda](https://github.com/dclong/docker-conda)
+to build portable conda environments.
 
-[Usage with Apache Spark on YARN](https://conda.github.io/conda-pack/spark.html)
+## Submit a PySpark Application Using conda Environment
 
 Below is my shell script for sumitting a PySpark job 
 using a conda-pack Python environment named `env.tar.gz`.
@@ -50,6 +53,8 @@ And below is a simple example of `_pyspark.py`.
     spark.sql(sql).write.mode("overwrite").parquet("output")
 
 ## References
+
+[Usage with Apache Spark on YARN](https://conda.github.io/conda-pack/spark.html)
 
 https://jcrist.github.io/skein/
 
