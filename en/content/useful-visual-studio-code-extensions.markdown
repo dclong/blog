@@ -1,16 +1,10 @@
 Status: published
-Date: 2021-03-10 23:34:08
+Date: 2021-03-30 12:19:38
 Author: Benjamin Du
 Slug: useful-visual-studio-code-extensions
 Title: Useful Visual Studio Code Extensions
 Category: Computer Science
 Tags: Computer Science, programming, IDE, VSCode, Visual Studio Code, extension
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 
 ## Places to Find Extensoins 
 
@@ -57,6 +51,10 @@ https://github.com/cdr/code-server/issues/171
 
 - [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
 
+- [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
+
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
 ## Useful Extensions for Python
 
 - [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
@@ -76,32 +74,14 @@ https://github.com/cdr/code-server/issues/171
 
 - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 
-## Useful Extensions
-
-- [Visual Studio Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
-
-- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
-
-- [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)
-
-- [Snippet](https://marketplace.visualstudio.com/items?itemName=vscode-snippet.Snippet)
-
-- [Extensions for VS Code Compatible Editors](https://open-vsx.org/)
+## Useful Extensions for SQL
 
 - [SQL Language Server](https://marketplace.visualstudio.com/items?itemName=joe-re.sql-language-server)
 
-- [Python Docstring Generator](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
-    The sphinx style is recommended.
+## Useful Extensions for Android Development
 
 - [Android](https://marketplace.visualstudio.com/items?itemName=adelphes.android-dev-ext)
 
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+## References
 
-## Other Potentially Useful Extensions
-
-- [vscode-neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
-
-- [Visual Stuido IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-
-- [TabNine VSCode](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
-
+- https://open-vsx.org/
