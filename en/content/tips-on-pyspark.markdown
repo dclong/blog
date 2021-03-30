@@ -1,16 +1,10 @@
 Status: published
-Date: 2021-03-26 09:57:42
+Date: 2021-03-30 11:49:58
 Author: Benjamin Du
 Slug: tips-on-pyspark
 Title: General Tips on PySpark
 Category: Computer Science
 Tags: programming, PySpark, Python, Spark, tips, HPC, high performance computing
-
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
 1. PySpark 2.4 and older does not support Python 3.8.
     You have to use Python 3.7 with PySpark 2.4 or older.
 
@@ -216,11 +210,13 @@ Please read with your own judgement!
 
 ## Python Dependencies for PySpark
 
-There are several ways to handle dependencies for PySpark.
+Listed below are several ways to handle dependencies for PySpark.
 
 1. [Build a portable Python environment using python-build-standalone](http://www.legendu.net/misc/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
 2. [Build a portable Python environment using conda-pack](http://www.legendu.net/misc/blog/packaging-python-dependencies-for-pyspark-using-conda-pack)
 3. [Packaging Python dependencies using pex](http://www.legendu.net/misc/blog/packaging-python-dependencies-for-pyspark-using-pex)
+
+Building a portable Python environment using python-build-standalone is the recommended approach.
 
 ## References
 
