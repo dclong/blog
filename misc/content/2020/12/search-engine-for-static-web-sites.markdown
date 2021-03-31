@@ -1,16 +1,17 @@
 Status: published
-Date: 2020-12-13 12:28:07
+Date: 2021-03-31 09:50:34
 Author: Benjamin Du
 Slug: search-engine-for-static-web-sites
 Title: Search Engine for Static Web Sites
 Category: Computer Science
-Tags: Computer Science
+Tags: Computer Science, search engine, search, static, web, client, frontend
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+Below is a list of search engines which run on the client side. 
 
 ## [tinysearch](https://github.com/tinysearch/tinysearch)
 
