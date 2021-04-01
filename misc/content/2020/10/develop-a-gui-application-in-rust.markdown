@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 22:48:17
+Date: 2021-03-31 23:47:38
 Author: Benjamin Du
 Slug: develop-a-gui-application-in-rust
 Title: Develop a GUI Application in Rust
@@ -11,6 +11,27 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+The article
+[Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
+has a good review of different GUI libraries in Rust.
+According to the article and based on star and activities of the corresponding GitHub repos of the libraries,
+iced, druid and azul are the 3 good ones.
+
+## [iced](https://github.com/hecrj/iced)
+A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
+
+## [druid](https://github.com/linebender/druid)
+Druid is an experimental Rust-native UI toolkit. 
+Its main goal is to offer a polished user experience. 
+There are many factors to this goal, including performance, 
+a rich palette of interactions (hence a widget library to support them), and playing well with the native platform. 
+See the goals section for more details.
+
+## [azul](https://github.com/fschutt/azul)
+
+Azul is a free, functional, reactive GUI framework for Rust and C++, 
+built using the WebRender rendering engine and a CSS / HTML-like document object model for rapid development of beautiful, native desktop applications
+
 
 ## [orbtk](https://github.com/redox-os/orbtk)
 [orbtk](https://github.com/redox-os/orbtk)
@@ -19,8 +40,6 @@ with the programming language Rust.
 It's based on the Entity Component System Pattern and provides a functional Reactive-like API.
 
 https://crates.io/crates/OrbTk
-
-## [druid](https://github.com/linebender/druid)
 
 ## [conrod](https://github.com/PistonDevelopers/conrod)
 [conrod](https://github.com/PistonDevelopers/conrod)
@@ -32,4 +51,6 @@ is a Rust bindings for Dear ImGui.
 
 ## References
 
-https://www.areweguiyet.com/
+- [Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
+
+- https://www.areweguiyet.com/
