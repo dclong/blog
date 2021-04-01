@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-31 23:47:38
+Date: 2021-04-01 11:16:58
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -87,18 +87,11 @@ please refer to
 [Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
 summarizes good/bad/ugly things about Rust.
 
+- [cargo](http://www.legendu.net/misc/blog/tips-on-cargo): package manager for Rust
 
-Cargo: package manager for Rust
+- rustup: version manager for Rust
 
-    cargo init
-    cargo new project_name
-    cargo run
-    cargo build
-    cargo build --release
-
-rustup: version manager for Rust
-
-rustc: compiler for Rust
+- [rustc](http://www.legendu.net/misc/blog/tips-on-rustc): compiler for Rust
 
 1. Rust uses the underscore name convention.
 
