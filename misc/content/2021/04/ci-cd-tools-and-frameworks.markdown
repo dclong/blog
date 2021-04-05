@@ -1,25 +1,33 @@
 Status: published
-Date: 2021-04-05 08:07:47
+Date: 2021-04-05 08:04:02
 Author: Benjamin Du
-Slug: CI-CD-for-machine-learning
-Title: CI/CD for Machine Learning
+Slug: ci-cd-tools-and-frameworks
+Title: Ci/Cd Tools and Frameworks
 Category: Computer Science
-Tags: Computer Science, ML, AI, data science, CICD, CI/CD, pipeline, test, unit testing, GitHub Actions
+Tags: Computer Science, programming, CI, CD, CICD, buildbot, framework, act, GitHub Actions
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-## GitHub Actions
 
-## Travis CI 
+## Tools
 
-## Jenkins
+### GitHub Actions
 
-## [act](https://github.com/nektos/act)
+### Travis CI 
+
+### Jenkins
+
+## FrameWorks
+
+### [buildbot](https://github.com/buildbot/buildbot)
+
+### [act](https://github.com/nektos/act)
 
 Run your GitHub Actions locally.
+
 
 ## References
 
