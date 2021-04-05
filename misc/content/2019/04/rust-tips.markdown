@@ -76,7 +76,7 @@ It is suggested that you write types as much as possible at this time.
 
 Rust is very picky about data types.
 For example, 
-the modulus operation `%` is only define for integers with the same type.
+the modulus operation `%` is only defined for integers with the same type.
 For more discussion,
 please refer to
 [RFC: implement Rem for all equally signed integers where RHS < LHS](https://github.com/rust-lang/rfcs/pull/2643)

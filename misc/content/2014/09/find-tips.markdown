@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-17 18:19:49
+Date: 2021-04-04 22:12:00
 Author: Ben Chuanlong Du
 Slug: find-tips
 Title: Tips on the find command in Linux
@@ -12,7 +12,17 @@ fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-1. Find all files with extension ".out" in currently directory and its subdirectory, 
+It is suggested that you 
+use
+[fselect](https://github.com/jhspetersson/fselect)
+or
+[osquery](http://www.legendu.net/misc/blog/osquery-tips) 
+(currently have some bugs)
+to locate files,
+both of which support SQL-like syntax 
+and are more intuitive than the `find` command.
+
+1. Find all files with the extension ".out" in the current directory and its subdirectory, 
     and then make them executable.
 
         :::bash
