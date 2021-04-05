@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-08 18:15:59
+Date: 2021-04-05 08:26:34
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip
@@ -169,7 +169,7 @@ using the command below.
 1. List all installed modules.
 
         :::bash
-        pip3 list --outdated
+        pip3 list
 
 2. List outdated modules only.
 
