@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-05 23:50:10
+Date: 2021-04-06 09:43:30
 Author: Ben Chuanlong Du
 Slug: find-tips
 Title: Tips on the find command in Linux
