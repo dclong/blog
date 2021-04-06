@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-04 22:12:00
+Date: 2021-04-05 23:50:10
 Author: Ben Chuanlong Du
 Slug: find-tips
 Title: Tips on the find command in Linux
@@ -14,12 +14,14 @@ Please read with your own judgement!
 
 It is suggested that you 
 use
+Python (the `pathlib` module),
 [fselect](https://github.com/jhspetersson/fselect)
 or
 [osquery](http://www.legendu.net/misc/blog/osquery-tips) 
 (currently have some bugs)
-to locate files,
-both of which support SQL-like syntax 
+to locate files.
+The Python module `pathlib` is the most suitable one for relatively complex jobs.
+Both fselect and osquery support SQL-like syntax 
 and are more intuitive than the `find` command.
 
 1. Find all files with the extension ".out" in the current directory and its subdirectory, 
