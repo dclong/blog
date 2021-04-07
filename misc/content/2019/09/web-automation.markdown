@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-02-16 14:09:43
+Date: 2021-04-07 09:02:30
 Author: Benjamin Du
 Slug: web-automation
 Title: Web Automation
 Category: Computer Science
-Tags: programming
+Tags: programming, web, automation, Selenium, playwright, Puppeteer
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
