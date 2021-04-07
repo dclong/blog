@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-04-05 08:04:02
+Date: 2021-04-07 10:03:06
 Author: Benjamin Du
 Slug: ci-cd-tools-and-frameworks
-Title: Ci/Cd Tools and Frameworks
+Title: CI/CD Tools and Frameworks
 Category: Computer Science
-Tags: Computer Science, programming, CI, CD, CICD, buildbot, framework, act, GitHub Actions
+Tags: Computer Science, programming, CI, CD, CI/CD, CICD, buildbot, framework, act, GitHub Actions
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -36,6 +36,7 @@
     ["Tmux", "tmux"], ["Toml", "TOML"], 
     ["Uuid", "UUID"], ["Wget", "wget"], 
     ["Yapf", "yapf"], ["Yaml", "YAML"],
+    ["Ci/Cd", "CI/CD"], ["Cicd", "CICD"], 
     ["Anbox", "AnBox"], 
     ["Isort", "isort"], 
     ["Gnome", "GNOME"], 
