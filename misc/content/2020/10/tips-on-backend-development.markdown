@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 10:57:35
+Date: 2021-04-07 09:32:07
 Author: Benjamin Du
 Slug: tips-on-backend-development
 Title: Tips on Backend Development
@@ -51,8 +51,8 @@ https://clever-solution.com/blog/9-best-nodejs-frameworks-for-backend-developmen
 
 ## Python Backend Frameworks
 
-### [django](https://github.com/django/django)
-[django](https://github.com/django/django)
+### [Django](https://github.com/django/django)
+[Django](https://github.com/django/django)
 is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 
 ### [FastApi](https://github.com/tiangolo/fastapi)
@@ -69,6 +69,11 @@ Tornado can scale to tens of thousands of open connections,
 making it ideal for long polling, WebSockets, 
 and other applications that require a long-lived connection to each user.
 
+### [bottle](https://github.com/bottlepy/bottle)
+[bottle](https://github.com/bottlepy/bottle)
+is a fast and simple micro-framework for python web-applications.
+
+### [Pyre](https://github.com/Project-Dream-Weaver/Pyre)
 [Pyre](https://github.com/Project-Dream-Weaver/Pyre)
 
 A fast Python http server inspired by japronto written in rust.
