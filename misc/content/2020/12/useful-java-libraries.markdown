@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 00:45:26
+Date: 2021-04-08 09:37:12
 Author: Benjamin Du
 Slug: useful-java-libraries
 Title: Useful Java Libraries
@@ -16,6 +16,20 @@ Please read with your own judgement!
 Parser library and framework to easily build JVM command line applications (Java, Groovy, Kotlin, etc). 
 Usage help with ANSI colors. Autocomplete. Nested subcommands. Annotations and programmatic API. 
 Easy to include as source to avoid adding dependencies.
+
+## [MyBatis](https://github.com/mybatis/mybatis-3)
+MyBatis is a SQL mapper framework for Java,
+which makes it easier to use a relational database with object-oriented applications. 
+MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. 
+Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools.
+
+
+
+## [RxJava](https://github.com/ReactiveX/RxJava)
+[RxJava](https://github.com/ReactiveX/RxJava)
+is a reactive extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.
+
+
 
 
 ## [guava](https://github.com/google/guava)
