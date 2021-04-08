@@ -16,7 +16,7 @@
     ["Dns", "DNS"], ["Dsl", "DSL"], 
     ["Gdb", "GDB"], ["Gnu", "GNU"], ["Gui", "GUI"], ["Gpu", "GPU"], ["Gpt", "GPT"],
     ["Ide", "IDE"], ["Iml", "IML"], 
-    ["Jar", "JAR"], ["Jni", "JNI"], ["Jit", "JIT"], 
+    ["Jar", "JAR"], ["Jni", "JNI"], ["Jit", "JIT"], ["Jvm", "JVM"], 
     ["Lxd", "LXD"], 
     ["Nlp", "NLP"], ["Npm", "npm"], ["Nfs", "NFS"], 
     ["Kde", "KDE"], ["Pdf", "PDF"], ["Pex", "pex"],
