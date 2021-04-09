@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 22:00:12
+Date: 2021-04-09 09:41:03
 Author: Benjamin Du
 Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python

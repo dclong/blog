@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-21 15:55:05
+Date: 2021-04-09 09:49:14
 Author: Ben Chuanlong Du
 Title: Tips on JSON
 Slug: json-tips
@@ -62,13 +62,19 @@ Works as a drop-in replacement for Python's built-in json module.
 This is alpha software and there will be bugs, 
 so maybe don't deploy to production just yet.
 
+### [JmesPath](https://github.com/jmespath/jmespath.py)
+[JmesPath](https://github.com/jmespath/jmespath.py)
+JMESPath allows you to declaratively specify how to extract elements from a JSON document.
+
 ### json
 
 ### simplejson
 
 ## JavaScript
 
-JSON5
+### JSON5
+
+### [JmesPath](https://github.com/jmespath/jmespath.js)
 
 ## Java
 
