@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-04 08:55:26
+Date: 2021-04-09 11:14:19
 Author: Benjamin Du
 Slug: deploy-apache-ray
 Title: Deploy Apache Ray
@@ -67,6 +67,10 @@ https://ray.readthedocs.io/en/latest/using-ray-on-a-cluster.html
 ## GCP
 
 https://github.com/ray-project/ray/issues/2660
+
+## AWS 
+
+https://gist.github.com/edoakes/0f7f62b7d9aa5481482bca23be5f622a
 
 ## Kubernetes
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-01 23:57:43
+Date: 2021-04-09 11:15:43
 Author: Ben Chuanlong Du
 Title: Job Scheduling and Management Using Apache Airflow
 Slug: apache-airflow-tips
@@ -75,6 +75,10 @@ Below is an example of `my.cnf`.
     even if it essentially succeeds.
     It is quite challenge to handle exceptions/error code of shell command
     to ingore non-critical errors.
+
+## Delete DAGs
+
+https://gist.github.com/villasv/8bb1492beb46162c28dbc242d4887533
 
 ## References
 
