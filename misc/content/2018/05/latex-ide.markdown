@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:18:59
+Date: 2021-04-11 11:32:28
 Author: Ben Chuanlong Du
 Slug: latex-ide
 Title: IDEs for LaTeX
@@ -20,5 +20,3 @@ is an online LaTex editing and publishing.
 ## [TexStudio](http://www.legendu.net/en/blog/texstudio-bravo)
 
 ## TexMacs (WYSIWYG, convert to Tex available)
-
-## WriteLatex (on-line collaborative editing)
