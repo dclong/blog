@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-01-24 22:05:25
+Date: 2021-04-11 11:56:25
 Author: Benjamin Du
 Slug: hardware-for-ai
 Title: Hardware for AI
 Category: AI
-Tags: AI, hardware, GPU, TPU, Jetson Nano, Google Coral
+Tags: AI, deep learning, machine learning, data science, hardware, GPU, TPU, Jetson Nano, Google Coral
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
