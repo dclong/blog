@@ -48,16 +48,16 @@ CPU：i9-10920X
 散热器：海盗船H100X240水冷 + 若干120机箱风扇
 机箱：海盗船AIR540 E-ATX机箱
 
-最佳性价比GPU：RTX 2070
-避免的坑：所有Tesla、Quadro、创始人版（Founders Edition）的显卡，还有Titan RTX、Titan V、Titan XP
-高性价比：RTX 2070（高端），RTX 2060或GTX 1060 (6GB)（中低端）
-穷人之选：GTX 1060 (6GB)
-破产之选：GTX 1050 Ti（4GB），或者CPU（原型）+ AWS / TPU（训练），或者Colab
-Kaggle竞赛：RTX 2070
-计算机视觉或机器翻译研究人员：采用鼓风设计的GTX 2080 Ti，如果训练非常大的网络，请选择RTX Titans
-NLP研究人员：RTX 2080 Ti
-已经开始研究深度学习：RTX 2070起步，以后按需添置更多RTX 2070
-尝试入门深度学习：GTX 1050 Ti（2GB或4GB显存）
+- 最佳性价比GPU：RTX 2070
+- 避免的坑：所有Tesla、Quadro、创始人版（Founders Edition）的显卡，还有Titan RTX、Titan V、Titan XP
+- 高性价比：RTX 2070（高端），RTX 2060或GTX 1060 (6GB)（中低端）
+- 穷人之选：GTX 1060 (6GB)
+- 破产之选：GTX 1050 Ti（4GB），或者CPU（原型）+ AWS / TPU（训练），或者Colab
+- Kaggle竞赛：RTX 2070
+- 计算机视觉或机器翻译研究人员：采用鼓风设计的GTX 2080 Ti，如果训练非常大的网络，请选择RTX Titans
+- NLP研究人员：RTX 2080 Ti
+- 已经开始研究深度学习：RTX 2070起步，以后按需添置更多RTX 2070
+- 尝试入门深度学习：GTX 1050 Ti（2GB或4GB显存）
 
 
 https://www.digitalstorm.com/configurator.asp?id=3137888
