@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-16 10:24:51
+Date: 2021-04-12 23:41:58
 Author: Ben Chuanlong Du
 Title: Tips on AnBox
 Slug: anbox-tips
@@ -19,10 +19,11 @@ Please read with your own judgement!
     However,
     Android 11+ images are capable of running ARM apps on x86-based machines. 
     This means that AnBox is capable of running ARM apps now
-    with Anddroid 11+ images. 
+    with Android 11+ images. 
     For more details,
     please refer to
     [Run ARM apps on the Android Emulator](https://android-developers.googleblog.com/2020/03/run-arm-apps-on-android-emulator.html)
+    .
 
 ## Installation
 
@@ -34,6 +35,8 @@ anbox-installer
 ## References
 
 [Anbox - Android in a Box](http://anbox.io/)
+
+[Anbox @ GitHub](https://github.com/anbox/anbox)
 
 [Run ARM apps on the Android Emulator](https://android-developers.googleblog.com/2020/03/run-arm-apps-on-android-emulator.html)
 
