@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-08 22:15:29
+Date: 2021-04-13 09:48:04
 Author: Ben Chuanlong Du
 Slug: my-list-of-python-modules
 Title: My List of Python Modules
@@ -92,7 +92,11 @@ for more details.
 
 2. unittest: built-in unit testing framework.
 
-## Network/Graph
+## Data Structure
+
+1. [python-sortedcontainers](https://github.com/grantjenks/python-sortedcontainers)
+
+### Network/Graph
 
 1. [networkx/networkx](https://github.com/networkx/networkx)
 
