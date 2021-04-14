@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-14 00:14:01
+Date: 2021-04-14 08:56:52
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
