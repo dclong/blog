@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-13 23:32:49
+Date: 2021-04-14 00:14:01
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -27,6 +27,11 @@ xinstall rustup -ic
     sudo apt-add-repository ppa:ubuntu-mozilla-security/rust-updates
     sudo apt-get update
     sudo apt-get install rustc
+
+For details of the PPA ubuntu-mozilla-security/rust-updates,
+please refer to
+[PPA for preparing rust toolchain updates for Firefox](https://launchpad.net/~ubuntu-mozilla-security/+archive/ubuntu/rust-updates)
+.
 
 ### Install Rust for Multiple Users
 
