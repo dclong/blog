@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-04-14 00:14:53
+Date: 2021-04-14 22:53:53
 Author: Benjamin Du
 Slug: tips-on-rustup
-Title: Tips on Rustup
+Title: Tips on rustup
 Category: Computer Science
 Tags: Computer Science, programming, rust, rustup
 
