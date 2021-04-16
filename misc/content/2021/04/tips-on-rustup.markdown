@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-16 14:38:47
+Date: 2021-04-16 14:56:32
 Author: Benjamin Du
 Slug: tips-on-rustup
 Title: Tips on rustup
@@ -18,6 +18,11 @@ rustup default stable
 
 The `cargo`, `rustc`, `rustup` and other commands 
 will be added to Cargo's bin directory, located at `$HOME/.cargo/bin`.
+
+
+## Installing rust-src Using rustup
+
+rustup component add rust-src
 
 ## References 
 
