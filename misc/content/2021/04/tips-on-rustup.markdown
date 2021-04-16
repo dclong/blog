@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-16 11:33:39
+Date: 2021-04-16 14:38:47
 Author: Benjamin Du
 Slug: tips-on-rustup
 Title: Tips on rustup
