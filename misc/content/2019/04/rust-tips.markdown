@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-14 08:56:52
+Date: 2021-04-16 11:33:39
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -13,9 +13,11 @@ Please read with your own judgement!
 
 ## Installation 
 
-### Official Doc
+### Using rustup
 
-https://www.rust-lang.org/tools/install
+Please refer to
+[Tips on rustup](http://www.legendu.net/misc/blog/tips-on-rustup)
+for instructions.
 
 ### Using xinstall
 

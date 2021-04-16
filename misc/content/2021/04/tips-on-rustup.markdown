@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-14 22:53:53
+Date: 2021-04-16 11:33:39
 Author: Benjamin Du
 Slug: tips-on-rustup
 Title: Tips on rustup
@@ -12,7 +12,9 @@ Please read with your own judgement!
 **
 
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | bash -s -- -y
+rustup install stable
+rustup default stable
 
 The `cargo`, `rustc`, `rustup` and other commands 
 will be added to Cargo's bin directory, located at `$HOME/.cargo/bin`.
