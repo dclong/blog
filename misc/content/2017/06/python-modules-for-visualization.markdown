@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-28 09:55:38
+Date: 2021-04-17 09:58:04
 Author: Ben Chuanlong Du
 Slug: python-modules-for-visualization
 Title: Python Modules for Visualization
@@ -93,6 +93,10 @@ Missing data visualization module for Python.
 ## [hiplot](https://github.com/facebookresearch/hiplot)
 
 HiPlot makes understanding high dimensional data easy
+
+## [scattertext](https://github.com/JasonKessler/scattertext)
+
+Beautiful visualizations of how language differs among document types.
 
 ## References
 

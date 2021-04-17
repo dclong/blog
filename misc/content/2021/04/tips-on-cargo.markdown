@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-01 11:17:49
+Date: 2021-04-17 10:39:55
 Author: Benjamin Du
 Slug: tips-on-cargo
 Title: Tips on Cargo
@@ -17,3 +17,7 @@ Please read with your own judgement!
     cargo run
     cargo build
     cargo build --release
+
+Install a package from GitHub (the default branch).
+
+    cargo install --git https://github com/RustPython/RustPython
