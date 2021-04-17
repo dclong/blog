@@ -552,7 +552,7 @@ class Blogger:
             """
         self.execute(sql, posts)
 
-    def move(self, src: Union[str, Path, Sequence[Union[str, Path]]], dst: str) -> None:
+    def move(self, src: Union[str, Path, Sequence[Union[str, Path]]], dst: Union[str]) -> None:
         """Move specified posts into a destination directory.
 
         :param src: A (sequence of) path(s). 
