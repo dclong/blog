@@ -79,6 +79,12 @@ class Post:
         """
         if self.path.suffix == MARKDOWN:
             self._update_after_move_markdown()
+        else:
+            self._update_after_move_notebook()
+
+    def _update_after_move_notebook(self) -> None:
+        # TODO
+        pass
 
     def _update_after_move_markdown(self) -> None:
         if self.blog_dir() == MISC:
@@ -546,7 +552,13 @@ class Blogger:
             """
         self.execute(sql, posts)
 
-    def move(self, src: Union[str, Path], dst: str) -> None:
+    def move(self, src: Union[str, Path, Sequence[Union[str, Path]]], dst: str) -> None:
+        """Move specified posts into a destination directory.
+
+        :param src: A (sequence of) path(s). 
+            A path can be of either the str or the Path type.
+        :param dst: The destination path or directory to move posts to.
+        """
         if isinstance(src, (str, Path)):
             self._move_1(src, dst)
         if len(src) > 1 and not os.path.isdir(dst):
@@ -554,16 +566,19 @@ class Blogger:
         for file in src:
             self._move_1(file, dst)
 
-    def _move_1(self, src: Union[str, Path], dst: str) -> None:
+    def _move_1(self, src: Union[str, Path], dst: Union[str, Path]) -> None:
         """Move a post to the specified location.
         """
         if isinstance(src, str):
             src = Path(src)
         if dst in (EN, CN, MISC, OUTDATED):
-            dst = BASE_DIR / dst / "content" / src.name
-        else:
+            if re.match("20\d\d", src.parts[-3]):
+                dst = BASE_DIR.joinpath(dst, "content", *src.parts[-3:])
+            else:
+                dst = BASE_DIR.joinpath(dst, "content", YYYYMM_slash, src.parts[-1])
+        elif isinstance(dst, str):
             dst = Path(dst)
-        if src == dst:
+        if src.resolve() == dst.resolve():
             return
         shutil.move(src, dst)
         post = Post(dst)
