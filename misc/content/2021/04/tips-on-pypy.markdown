@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-15 12:13:28
+Date: 2021-04-18 09:18:08
 Author: Benjamin Du
 Slug: tips-on-pypy
 Title: Tips on Pypy
@@ -22,3 +22,10 @@ Please read with your own judgement!
     :::bash
     /path/to/pypy -m ensurepip
     /path/to/pypy -m pip install ...
+
+### Packages Failed to Install 
+## pytype
+
+wajig install gcc cmake g++
+
+ast27/Parser/tokenizer.c:17:10: fatal error: codecs.h: No such file or directory
