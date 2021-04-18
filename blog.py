@@ -543,7 +543,7 @@ def _subparse_search(subparsers):
         "--neg-sub-dir",
         dest="neg_sub_dir",
         nargs="+",
-        default=["outdated"],
+        default=(),
         help="Search for posts not in the specified sub blog directory."
     )
     subparser_search.add_argument(

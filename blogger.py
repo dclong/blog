@@ -518,7 +518,7 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        paths = list(BASE_DIR.glob("*/content/*/*/*"))
+        paths = list(BASE_DIR.glob("*/content/**/*"))
         logger.info("Reloading posts into SQLite3 ...")
         for path in tqdm(paths):
             if path.suffix in (MARKDOWN, IPYNB):
@@ -580,6 +580,7 @@ class Blogger:
             dst = Path(dst)
         if src.resolve() == dst.resolve():
             return
+        dst.parent.mkdir(parents=True, exist_ok=True)
         shutil.move(src, dst)
         post = Post(dst)
         post.update_after_move()
