@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-20 14:04:56
+Date: 2021-04-18 18:54:19
 Author: Ben Chuanlong Du
 Slug: rsync-tips
 Title: Tips on rsync
@@ -65,6 +65,15 @@ Please read with your own judgement!
         :::bash
         ssh vm1.example.com rsync -avh --info=progress2 --delete vm2.example.com:/workdir/ /workdir/ \
             > backup.log 2> backup.err
+
+5. By default, 
+    `rsync` set the owner of files on the destination machine to be the user that receives the files.
+    However,
+    you can keep the original owners/groups information by specifying the options `-o` and `-g`.
+    For more discussions,
+    please refer to [Rsync command issues, owner and group permissions doesn´t change](https://serverfault.com/questions/564385/rsync-command-issues-owner-and-group-permissions-doesn%C2%B4t-change)
+    .
+
 
 ## Examples
 
