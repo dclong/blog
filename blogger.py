@@ -523,7 +523,7 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        paths = list(BASE_DIR.glob("*/content/**/*"))
+        paths = list(path for path in BASE_DIR.glob("*/content/**/*") if not path.parent.name.startswith("."))
         logger.info("Reloading posts into SQLite3 ...")
         for path in tqdm(paths):
             if path.suffix in (MARKDOWN, IPYNB):

@@ -12,12 +12,22 @@ Please read with your own judgement!
 **
 
 
+## Create a Project
+
     cargo init
     cargo new project_name
-    cargo run
-    cargo build
-    cargo build --release
 
 Install a package from GitHub (the default branch).
 
     cargo install --git https://github com/RustPython/RustPython
+
+## Build 
+
+cargo build --release
+
+
+either src/lib.rs, src/main.rs, a [lib] section, or [[bin]] section must be present
+
+
+## Run 
+    cargo run
