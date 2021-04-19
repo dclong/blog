@@ -23,13 +23,7 @@ CN = "cn"
 HOME = "home"
 MISC = "misc"
 OUTDATED = "outdated"
-DISCLAIMER = """
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
-
-"""
+DISCLAIMER = "**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**"
 CATEGORY = "Computer Science"
 TAGS = "Computer Science, programming"
 MARKDOWN = ".markdown"
@@ -83,8 +77,21 @@ class Post:
             self._update_after_move_notebook()
 
     def _update_after_move_notebook(self) -> None:
-        # TODO
-        pass
+        notebook = self._read_notebook()
+        if self.blog_dir() == MISC:
+            if notebook["cells"][1]["source"][0] != DISCLAIMER:
+                notebook["cells"].insert(1, {
+                    "source": [DISCLAIMER],
+                    "cell_type": 'markdown',
+                    "metadata": {}
+                })
+            self._write_notebook()
+        elif notebook["cells"][1]["source"][0] == DISCLAIMER:
+            notebook["cells"].pop(1)
+        self._write_notebook(notebook)
+
+    def _write_notebook(self, notebook: dict):
+        self.path.write_text(json.dumps(notebook, indent=1))
 
     def _update_after_move_markdown(self) -> None:
         if self.blog_dir() == MISC:
@@ -118,7 +125,7 @@ class Post:
     def _update_time_notebook(self) -> str:
         notebook = self._read_notebook()
         self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
-        self.path.write_text(json.dumps(notebook, indent=1))
+        self._write_notebook(notebook)
         return NOW_DASH
 
     @staticmethod
@@ -173,7 +180,7 @@ class Post:
     def _update_category_notebook(self, category: str) -> str:
         notebook = self._read_notebook()
         self.update_meta_field(notebook["cells"][0]["source"], "- Category", category)
-        self.path.write_text(json.dumps(notebook, indent=1))
+        self._write_notebook(notebook)
         return category
 
     def update_tags(self, from_tag: str, to_tag: str) -> List[str]:
@@ -400,13 +407,11 @@ class Post:
             title=title, slug=Post.slug(title), category=CATEGORY, tags=TAGS
         )
         if self.blog_dir() == MISC:
-            text = text.replace("${DISCLAIMER}", DISCLAIMER.replace("\n", " "))
+            text = text.replace("${DISCLAIMER}", DISCLAIMER)
         else:
             text = text.replace("${DISCLAIMER}", "")
         with self.path.open("w") as fout:
             fout.write(text)
-            if self.blog_dir() == MISC:
-                pass
 
     def _create_markdown(self, title: str):
         with self.path.open("w") as fout:
