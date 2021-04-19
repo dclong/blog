@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-04-18 09:18:08
+Date: 2021-04-19 09:53:27
 Author: Benjamin Du
 Slug: tips-on-pypy
-Title: Tips on Pypy
+Title: Tips on PyPy
 Category: Computer Science
 Tags: Computer Science, programming, PyPy, Python, pip, ensurepip
 
