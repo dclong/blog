@@ -121,15 +121,11 @@ summarizes good/bad/ugly things about Rust.
 
 6. `assert_eq!`
 
-## Rust IDE
+## IDE for Rust
 
-VSCode with the [Rust extenstion (rust-lang.rust)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust) seems to be a good option.
-
-IntelliJ based IDE is another good option.
-
-https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-in-rust-5087d46006f5
-
-[Are We IDE Yet](https://areweideyet.com/)
+Please refer to 
+[IDE for Rust](http://www.legendu.net/misc/blog/IDE-for-Rust)
+for more details.
 
 ## Popular Rust Libraries
 
