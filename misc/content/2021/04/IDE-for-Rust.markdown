@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-19 17:50:05
+Date: 2021-04-20 08:43:39
 Author: Benjamin Du
 Slug: IDE-for-Rust
 Title: IDE for Rust
@@ -26,6 +26,8 @@ Tags: Computer Science, programming, Rust, IDE
 
 ## References
 
-[Are We IDE Yet](https://areweideyet.com/)
+- [Are We IDE Yet](https://areweideyet.com/)
 
-https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-in-rust-5087d46006f5
+- [Rust-Analyzer User Manual](https://rust-analyzer.github.io/manual.html)
+
+- [What is the best IDE for developing in Rust?](https://medium.com/cloud-native-the-gathering/whats-the-best-ide-for-developing-in-rust-5087d46006f5)
