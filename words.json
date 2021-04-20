@@ -57,7 +57,7 @@
     ["Beakerx", "BeakerX"],
     ["Fastapi", "FastApi"], ["Fselect", "fselect"],
     ["Ipython", "IPython"],
-    ["Pycharm", "PyCharm"],
+    ["Println", "println"], ["Pycharm", "PyCharm"],
     ["Scalajs", "ScalaJS"],
     ["Py4Jdbc", "py4jdbc"], ["Pycharm", "PyCharm"], ["Pymysql", "PyMySQL"], ["Pyspark", "PySpark"], ["Pytorch", "PyTorch"], ["Pyjnius", "PyJNIus"],
     ["Rstudio", "RStudio"],
