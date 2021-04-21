@@ -85,7 +85,7 @@ class Post:
                     "cell_type": 'markdown',
                     "metadata": {}
                 })
-            self._write_notebook()
+            self._write_notebook(notebook)
         elif notebook["cells"][1]["source"][0] == DISCLAIMER:
             notebook["cells"].pop(1)
         self._write_notebook(notebook)
