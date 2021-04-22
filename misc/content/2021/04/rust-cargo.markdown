@@ -20,6 +20,10 @@ Please read with your own judgement!
 Install a package from GitHub (the default branch).
 
     cargo install --git https://github com/RustPython/RustPython
+    
+Use the option `--version` to install a specific version of a package.
+
+    cargo install --version 0.8.1 evcxr_jupyter
 
 ## Build 
 
