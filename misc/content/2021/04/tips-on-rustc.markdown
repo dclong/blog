@@ -1,8 +1,8 @@
 Status: published
-Date: 2021-04-01 11:01:59
+Date: 2021-04-22 21:11:46
 Author: Benjamin Du
 Slug: tips-on-rustc
-Title: Tips on Rustc
+Title: Tips on rustc
 Category: Computer Science
 Tags: Computer Science, programming, Rust, rustc, optimization, cargo
 
