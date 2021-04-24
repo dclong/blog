@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-30 12:23:22
+Date: 2021-04-24 11:28:44
 Author: Benjamin Du
 Slug: visual-studio-code-server
 Title: Visual Studio Code Server
@@ -31,6 +31,10 @@ https://code.visualstudio.com/docs/editor/codebasics#_formatting
 and
 https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code
 for more discussions.
+
+## Auto Activate Python Virtual Environment 
+
+[Auto activate virtual environment in Visual Studio Code](https://stackoverflow.com/questions/58433333/auto-activate-virtual-environment-in-visual-studio-code)
 
 ## Setup Password
 
