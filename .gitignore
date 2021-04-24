@@ -21,3 +21,4 @@ derby.log
 metastore_db/
 .pytype/
 .DS_Store
+.vscode/
