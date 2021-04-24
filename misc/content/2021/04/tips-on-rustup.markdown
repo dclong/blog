@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-04-19 16:34:59
+Date: 2021-04-24 08:36:28
 Author: Benjamin Du
 Slug: tips-on-rustup
 Title: Tips on rustup
 Category: Computer Science
-Tags: Computer Science, programming, rust, rustup
+Tags: Computer Science, programming, Rust, rustup, rustfmt, toochain, stable, beta, nightly
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -27,9 +27,14 @@ rustup default stable
 
 
 
-## Installing rust-src Using rustup
+## Install rust-src
 
 rustup component add rust-src
+
+## Install rustfmt
+
+rustup component add rustfmt
+
 
 ## References 
 
