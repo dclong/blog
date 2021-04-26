@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators
 Category: Computer Science
-Tags: Computer Science, static site genertor, blog, blogging, gatsby, next.js, nextjs, nuxtjs, nuxt.js, docusaurus
+Tags: Computer Science, static site genertor, blog, blogging, gatsby, docusaurus, Pelican, ABlog, docusaurus, docsify, Sphinx, mkdocs, pandoc
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -13,27 +13,31 @@ Please read with your own judgement!
 
 ## Site Generator 
 
-### https://github.com/gatsbyjs/gatsby
-
-### https://github.com/vercel/next.js/
-
-### https://github.com/nuxt/nuxt.js
-
-### https://github.com/facebook/docusaurus
+### [gatsby](https://github.com/gatsbyjs/gatsby)
+[gatsby](https://github.com/gatsbyjs/gatsby)
 
 ### [Pelican](http://www.legendu.net/misc/blog/pelican-tips/)
+[Pelican](http://www.legendu.net/misc/blog/pelican-tips/)
 
 ### [ABlog](https://github.com/sunpy/ablog)
-ABlog for blogging with Sphinx
+[ABlog](https://github.com/sunpy/ablog)
+is for blogging with Sphinx.
 
 ## Documentation Generator 
 
-https://github.com/docsifyjs/awesome-docsify#showcase
+### [docusaurus](https://github.com/facebook/docusaurus)
+[docusaurus](https://github.com/facebook/docusaurus)
 
+### [docsify](https://github.com/docsifyjs/docsify)
+[docsify](https://github.com/docsifyjs/docsify)
+
+### [Sphinx](https://github.com/sphinx-doc/sphinx)
 [Sphinx](https://github.com/sphinx-doc/sphinx)
 
+### [mkdocs](https://github.com/mkdocs/mkdocs)
 [mkdocs](https://github.com/mkdocs/mkdocs)
 
+### [pandoc](https://github.com/jgm/pandoc)
 [pandoc](https://github.com/jgm/pandoc)
 
 ## Copy the Content of Code Block 

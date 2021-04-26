@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on JavaScript
-Date: 2021-04-13 23:40:08
+Date: 2021-04-26 12:48:21
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web

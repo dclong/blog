@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-07 09:32:07
+Date: 2021-04-26 12:49:19
 Author: Benjamin Du
 Slug: tips-on-backend-development
 Title: Tips on Backend Development
@@ -46,6 +46,17 @@ Under the hood,
 Nest makes use of Express, 
 but also, provides compatibility with a wide range of other libraries, 
 like e.g. Fastify, allowing for easy use of the myriad third-party plugins which are available.
+
+
+Notice that 
+[nest](https://github.com/nestjs/nest)
+is different from 
+[Nuxt](https://github.com/nuxt/nuxt.js)
+and
+[Next](https://github.com/vercel/next.js/)
+which are for frontend web application 
+leveraging Vue and React respectively.
+
 
 https://clever-solution.com/blog/9-best-nodejs-frameworks-for-backend-development-in-2020
 

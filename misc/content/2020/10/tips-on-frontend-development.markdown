@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 09:50:21
+Date: 2021-04-26 13:10:46
 Author: Benjamin Du
 Slug: tips-on-frontend-development
 Title: Tips on Frontend Development
@@ -40,9 +40,24 @@ for more details.
 
 ## JavaScript/TypeScript Frameworks for Web UI
 
-React
+### [React](https://github.com/facebook/react)
 
-Vue
+[React](https://github.com/facebook/react)
+is a declarative, efficient, and flexible JavaScript library for building user interfaces.
+
+### [Vue](https://github.com/vuejs/vue)
+
+[Vue.js](https://github.com/vuejs/vue)
+is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+### [Nuxt](https://github.com/nuxt/nuxt.js)
+[Nuxt](https://github.com/nuxt/nuxt.js)
+is an intuitive Vue Framework,
+which makes web development simple and powerful.
+
+### [Next](https://github.com/vercel/next.js/)
+[Next](https://github.com/vercel/next.js/)
+is frontend Framework to create a React application that supports universal rendering.
 
 ## CSS
 
