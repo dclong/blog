@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-24 08:50:49
+Date: 2021-04-26 21:53:23
 Author: Benjamin Du
 Slug: tips-on-cargo
 Title: Tips on Cargo
@@ -31,6 +31,24 @@ If `rustfmt` has been installed (using `rustup component add rustfmt`),
 you can run the following command to format code in a Rust project.
 
     cargo fmt 
+
+## Security
+
+### [cargo-crev](https://github.com/crev-dev/cargo-crev)
+[cargo-crev](https://github.com/crev-dev/cargo-crev)
+is a cryptographically verifiable code review system for the cargo (Rust) package manager.
+It is an implementation of Crev as a command line tool integrated with cargo,
+which helps Rust users evaluate the quality and trustworthiness of their package dependencies.
+
+### [cargo-audit](https://github.com/RustSec/cargo-audit)
+[cargo-audit](https://github.com/RustSec/cargo-audit)
+is a Cargo subcommand
+which audits Cargo.lock files for crates with security vulnerabilities.
+It also supports CICD tools such as GitHub Actions 
+(via [audit-check](https://github.com/actions-rs/audit-check))
+and Travis CI.
+
+
 
 ## Build 
 

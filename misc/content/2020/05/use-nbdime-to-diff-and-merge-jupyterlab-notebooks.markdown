@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-15 12:08:11
+Date: 2021-04-26 23:50:45
 Author: Benjamin Du
 Slug: use-nbdime-to-diff-and-merge-jupyterlab-notebooks
 Title: Use nbdime to Diff and Merge JupyterLab Notebooks
@@ -11,8 +11,16 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
-Tools for diffing and merging of Jupyter notebooks.
+`nbdime` is a tool for diffing and merging of Jupyter notebooks.
 Notice that nbdime integrates with git well.
+
+## Tips and Traps
+
+If you install nbdime to your local directory,
+make sure that the directory containing executables (usually `~/.local/bin`) 
+is in `$PATH` so that it can be used without issues.
+
+## Installation and Configuration
 
 You can use the following command to configure nbdime for Git.
 
