@@ -7,8 +7,9 @@ Category: Software
 Tags: tips, software, Cygwin
 
 **
-Things on this page are fragmentary and immature notes/thoughts of the author. 
-Please read with your own judgement!
+Things under legendu.net/outdated are outdated technologies 
+that the author does not plan to update any more. 
+Please look for better alternatives.
 **
 
 http://x.cygwin.com/docs/faq/cygwin-x-faq.html
