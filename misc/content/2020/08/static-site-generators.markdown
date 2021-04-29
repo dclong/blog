@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-26 10:53:03
+Date: 2021-04-29 09:37:32
 Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators
@@ -39,6 +39,28 @@ is for blogging with Sphinx.
 
 ### [pandoc](https://github.com/jgm/pandoc)
 [pandoc](https://github.com/jgm/pandoc)
+
+## Jupyter/Lab Notebook Parsers
+
+### [nbsphinx](https://github.com/spatialaudio/nbsphinx)
+[nbsphinx](https://github.com/spatialaudio/nbsphinx)
+is a Sphinx extension that provides a source parser for `*.ipynb` files. 
+Custom Sphinx directives are used to show Jupyter Notebook code cells 
+(and of course their results) in both HTML and LaTeX output. 
+Un-evaluated notebooks (i.e., notebooks without stored output cells) 
+will be automatically executed during the Sphinx build process.
+
+### [jupyter-book](https://github.com/executablebooks/jupyter-book)
+[jupyter-book](https://github.com/executablebooks/jupyter-book)
+is an open-source tool for building publication-quality books 
+and documents from computational material.
+[jupyter-book](https://github.com/executablebooks/jupyter-book)
+uses
+[MyST-Parser](https://github.com/executablebooks/MyST-Parser)
+as the underlying markdown/notebook parser.
+
+### jupter convert
+`jupyter convert` is a built-in command of Jupyter/Lab. 
 
 ## Copy the Content of Code Block 
 
