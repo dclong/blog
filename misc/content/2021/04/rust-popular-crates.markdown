@@ -19,9 +19,17 @@ It also guarantees data-race freedom.
 [serde](https://crates.io/crates/serde)
 is a framework for serializing and deserializing Rust data structures efficiently and generically.
 
-## [bitflags](https://crates.io/crates/bitflags)
-[bitflags](https://crates.io/crates/bitflags)
-is a Rust macro to generate structures which behave like a set of bitflags.
+## [num-derive](https://crates.io/crates/num-derive)
+[num-derive](https://crates.io/crates/num-derive)
+providess procedural macros to derive numeric traits in Rust.
+
+## [num-traits](https://crates.io/crates/num-traits)
+[num-traits](https://crates.io/crates/num-traits)
+provides numeric traits for generic mathematics in Rust.
+
+## [itertools](https://crates.io/crates/itertools)
+[itertools](https://crates.io/crates/itertools)
+provides extra iterator adaptors, iterator methods, free functions, and macros.
 
 ## [lazy_static](https://crates.io/crates/lazy_static)
 [lazy_static](https://crates.io/crates/lazy_static)
@@ -31,6 +39,10 @@ it is possible to have statics that require code to be executed at runtime in or
 This includes anything requiring heap allocations, 
 like vectors or hash maps, 
 as well as anything that requires non-const function calls to be computed.
+
+## [bitflags](https://crates.io/crates/bitflags)
+[bitflags](https://crates.io/crates/bitflags)
+is a Rust macro to generate structures which behave like a set of bitflags.
 
 ## [futures](https://crates.io/crates/futures)
 [futures](https://crates.io/crates/futures)
@@ -48,14 +60,6 @@ is an event-driven, non-blocking I/O platform for writing asynchronous I/O backe
 ## [enum_primitive](https://crates.io/crates/enum_primitive)
 [enum_primitive](https://crates.io/crates/enum_primitive)
 is a macro to generate `num::FromPrimitive` instances for enum that works in Rust 1.0+.
-
-## [num-derive](https://crates.io/crates/num-derive)
-[num-derive](https://crates.io/crates/num-derive)
-providess procedural macros to derive numeric traits in Rust.
-
-## [num-traits](https://crates.io/crates/num-traits)
-[num-traits](https://crates.io/crates/num-traits)
-provides numeric traits for generic mathematics in Rust.
 
 ## References
 
