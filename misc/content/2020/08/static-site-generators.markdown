@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-29 09:37:32
+Date: 2021-05-01 12:16:52
 Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators
@@ -59,8 +59,9 @@ uses
 [MyST-Parser](https://github.com/executablebooks/MyST-Parser)
 as the underlying markdown/notebook parser.
 
-### jupter convert
-`jupyter convert` is a built-in command of Jupyter/Lab. 
+### [jupter nbconvert](https://github.com/jupyter/nbconvert)
+
+`jupyter nbconvert` is a built-in command of Jupyter/Lab. 
 
 ## Copy the Content of Code Block 
 
