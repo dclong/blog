@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 16:06:22
+Date: 2021-05-02 10:58:13
 Title: Tips on GPU Computing
 Slug: gpu-tips
 Category: Computer Science
@@ -19,7 +19,7 @@ You can list GPU devices using the following command on linux.
     lspci -v | grep VGA
 
 
-## Frameworks Supporting Managing GPU Resources
+## Machine Learning Frameworks Supporting Managing GPU Resources
 
 - [Horovod](https://github.com/horovod/horovod)
 
@@ -29,7 +29,7 @@ You can list GPU devices using the following command on linux.
     is a deep learning optimization library 
     that makes distributed training on GPU clusters easy, efficient, and effective.
 
-## High-level Libraries with Built-in GPU Support 
+## High-level Scientific Libraries with Built-in GPU Support 
 
 - TensorFlow
 
@@ -110,6 +110,25 @@ https://github.com/harrism/numba_examples/blob/master/mandelbrot_numba.ipynb
 - [jcuda](https://github.com/jcuda/jcuda)
 
     Java bindings for CUDA.
+
+## Graphics Rendering
+
+OpenGL
+https://github.com/mcfletch/pyopengl
+
+PyOpenGL
+
+GLFW
+https://github.com/glfw/glfw
+GLFW is an Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+
+[vulkano](https://github.com/vulkano-rs/vulkano)
+
+
+
+
+
+
 
 ## External Graphics Card
 
