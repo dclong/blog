@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-13 23:32:49
+Date: 2021-05-03 21:36:53
 Author: Benjamin Du
 Slug: develop-a-gui-application-in-rust
 Title: Develop a GUI Application in Rust
@@ -21,6 +21,8 @@ iced, druid and azul are the 3 good ones.
 Please refer to 
 [tauri](http://www.legendu.net/misc/blog/use-tauri-to-build-a-desktop-application)
 for more discussions.
+
+## [gtk-rs](https://github.com/gtk-rs/gtk-rs)
 
 ## [iced](https://github.com/hecrj/iced)
 A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
@@ -57,6 +59,8 @@ is a Rust bindings for Dear ImGui.
 ## References
 
 - [Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl)
+
+- [Rust语言有那些好的GUI库?](https://www.zhihu.com/question/312815643/answer/1846050229)
 
 - https://www.areweguiyet.com/
 

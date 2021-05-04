@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Virtualbox
-Date: 2019-05-11 01:05:59
+Date: 2021-05-03 10:42:46
 Slug: virtualbox-tips
 Category: Software
 Tags: tips, virtualbox, virtualization
@@ -149,6 +149,10 @@ I use this if I am running a test web server.
 
 To make a long story short, 
 assuming you have a router, I would use bridged networking.
+
+## Mouse Control
+
+[VirtualBox Main API - IMouse Interface Reference](https://www.virtualbox.org/sdkref/interface_i_mouse.html)
 
 ## Questions
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-16 16:54:22
+Date: 2021-05-03 10:47:34
 Author: Benjamin Du
 Slug: proxy-vpn-dns-reverse-proxy
 Title: Proxy, Reverse Proxy, Load Balancer, VPN and DNS
@@ -22,6 +22,8 @@ Please read with your own judgement!
 
 5. sshuttle is a poor man's VPN.
 
+6. [TunnelTo](https://tunnelto.dev/) (written in Rust leveraging tokio)
+    allows you to expose your local web server to the internet with a public URL.
 
 ## Proxy vs VPN
 

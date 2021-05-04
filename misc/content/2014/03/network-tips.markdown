@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-04-13 22:14:36
+Date: 2021-05-03 11:41:59
 Slug: network-tips
 Title: Tips on Network
 Category: Internet
@@ -33,6 +33,12 @@ https://www.youtube.com/watch?v=F6yh4b7ML5g
 [caddy](https://github.com/caddyserver/caddy)
 
 https://engineering.hashnode.com/after-4-years-with-nginx-we-switched-to-caddy-here-is-why-cjxbv8eb2001ke8s1yl7ndroz
+
+## Expose Local Web Service to Public
+
+[TunnelTo](https://tunnelto.dev/)
+allows you to expose your local web server to the internet with a public URL.
+
 
 ## General Tips
 

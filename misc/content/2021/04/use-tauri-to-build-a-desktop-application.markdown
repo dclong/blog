@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-13 23:31:40
+Date: 2021-05-03 21:42:15
 Author: Benjamin Du
 Slug: use-tauri-to-build-a-desktop-application
 Title: Use Tauri to Build a Desktop Application
@@ -17,10 +17,15 @@ that compiles to HTML, JS and CSS for building their user interface.
 The backend of the application is a rust-sourced binary 
 with an API that the front-end can interact with.
 
+## Examples & Tutorials
+
 Please refer to 
 [Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl#tauri)
 for an example.
 
+[Examples Projects Using Tauri](https://github.com/tauri-apps/tauri/tree/dev/examples)
+
 ## References
 - [tauri](https://github.com/tauri-apps/tauri)
+- [Tauri Documentation](https://tauri.studio/en/docs/getting-started/intro)
 - https://tauri.studio/en/docs/usage/intro/
