@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-03 10:02:06
+Date: 2021-05-04 19:04:42
 Author: Benjamin Du
 Slug: useful-rust-crates
 Title: Useful Rust Crates
@@ -72,4 +72,7 @@ is a macro to generate `num::FromPrimitive` instances for enum that works in Rus
 
 https://crates.io/
 
+[12 Killer Rust Libraries You Should Know](https://jondot.medium.com/12-killer-rust-libraries-you-should-know-c60bab07624f)
+
+[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 

@@ -43,47 +43,7 @@ please refer to
 
 [Add Document of "How to Install Rust Environment for Multiple Users on Linux?"](https://github.com/rust-lang/rustup/issues/2383)
 
-
-## Syntax
-
-!, ?, 
-
-do not use `..=` which has performance issues. 
-use `..` instead.
-
-## Result
-`Result.unwrap()` unwrap a result object. 
-You can also unwrap it using pattern matching.
-
-Ok, 
-Result, 
-
-
-## Pattern Matching
-Pattern matching 
-
-https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html#matching-named-variables
-
-## Functionall Programming 
-
-Rust operations are generic 
-so that a `map` can only be done on iterators 
-instead of the raw collection type. 
-
-use collect to convert a map to a collection
-
-https://doc.rust-lang.org/stable/std/iter/struct.Map.html
-
-## Deducted Types 
-
-It doesn't seem to be as powerful/smart as Scala. 
-It is suggested that you write types as much as possible at this time.
-
-
-## Misc
-
-[Programming in Rust: the good, the bad, the ugly.](https://hackernoon.com/programming-in-rust-the-good-the-bad-the-ugly-d06f8d8b7738)
-summarizes good/bad/ugly things about Rust.
+## Rust Toolchains
 
 - [cargo](http://www.legendu.net/misc/blog/tips-on-cargo): package manager for Rust
 
@@ -91,42 +51,34 @@ summarizes good/bad/ugly things about Rust.
 
 - [rustc](http://www.legendu.net/misc/blog/tips-on-rustc): compiler for Rust
 
-1. Rust uses the underscore name convention.
-
-2. A variable is immutable by default.
-    You can make it mutable using the keyword `mut`.
-
-    let mut x = 1;
-
-    There is also a keyword `cconst` in rust. 
-    The difference between `const` and `let` is that 
-    you must explicitly specify the type of the variable when defining it using `const`.
-    `const` is seldom used in Rust.
-
-3. Use `::` to access members in a module and enum object.
-
-4. Use the keyword `use` to import a library.
-    use the keyword `mod` to import local modules.
-
-5. '&' vs `&mut`
-
-6. `assert_eq!`
-
 ## IDE for Rust
 
 Please refer to 
 [IDE for Rust](http://www.legendu.net/misc/blog/IDE-for-Rust)
 for more details.
 
+## General Tips and Traps
+
+1. do not use `..=` which has performance issues. 
+    use `..` instead.
+
+
+## Pattern Matching
+Pattern matching 
+
+https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html#matching-named-variables
+
 ## Popular Rust Libraries
 
-[12 Killer Rust Libraries You Should Know](https://jondot.medium.com/12-killer-rust-libraries-you-should-know-c60bab07624f)
-
-[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+Please refer to 
+[Useful Rust Crates](http://www.legendu.net/misc/blog/useful-rust-crates)
+for detailed discussions.
 
 ## Machine Learning
 
-[Are We Learning Yes](http://www.arewelearningyet.com/)
+Please refer to
+[Rust for Machine Learning](http://www.legendu.net/misc/blog/rust-for-machine-learning)
+for detailed discussions.
 
 ## Parallel, Multithreading and Concurrency in Rust
 

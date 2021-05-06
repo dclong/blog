@@ -21,4 +21,6 @@ is a Rust bindings for the C++ API of PyTorch.
 
 ## References
 
-http://www.arewelearningyet.com/
+[Are We Learning Yes](http://www.arewelearningyet.com/)
+
+
