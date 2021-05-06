@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-06 12:03:14
+Date: 2021-05-06 12:46:35
 Author: Benjamin Du
 Slug: data-for-nlp-research
 Title: Data for NLP Research
@@ -32,6 +32,8 @@ Please read with your own judgement!
 ## [CoLA: The Corpus of Linguistic Acceptability](https://nyu-mll.github.io/CoLA/)
 
 ## References
+
+[Data Sources](http://www.legendu.net/misc/blog/data-sources/)
 
 [SQuAD: 100,000+ Questions for Machine Comprehension of Text](https://arxiv.org/pdf/1606.05250.pdf)
 

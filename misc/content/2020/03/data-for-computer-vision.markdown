@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-16 09:57:53
+Date: 2021-05-06 12:45:31
 Author: Benjamin Du
 Slug: data-for-computer-vision-research
 Title: Data for Computer Vision Research
@@ -24,4 +24,6 @@ https://www.nist.gov/
 
 ## References
 
-[Imagenet classes](https://discuss.pytorch.org/t/imagenet-classes/4923)
+- [Data Sources](http://www.legendu.net/misc/blog/data-sources/)
+
+- [Imagenet classes](https://discuss.pytorch.org/t/imagenet-classes/4923)
