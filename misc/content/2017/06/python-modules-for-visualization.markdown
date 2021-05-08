@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-17 09:58:04
+Date: 2021-05-08 10:20:38
 Author: Ben Chuanlong Du
 Slug: python-modules-for-visualization
 Title: Python Modules for Visualization
@@ -16,7 +16,7 @@ The website [The Python Graph Gallery](https://python-graph-gallery.com/)
 displays hundreds of charts, always providing the reproducible python code! 
 It aims to showcase the awesome dataviz possibilities of python and to help you benefit it. 
 
-## JS based Modules
+## General Purpose Visualization Libraries Based on JavaScript
 
 ### [hvplot](https://github.com/pyviz/hvplot)
 
@@ -46,7 +46,7 @@ They supports all kinds of charts, data table and can easily build a dashboard.
 
 Plotly is great (even better than Bokeh) but unfortunately not totally free (very limited API calls per day).
 
-## `matplotlib` based Modules
+## General Purpose Visualization Libraries Based on `matplotlib`
 
 ### matplotlib
 
@@ -68,6 +68,34 @@ It makes things convenient if you have to work with data frame a lot.
 
 ### [Graphviz](https://github.com/xflr6/graphviz)
 
+## Domain Specific Libraries
+
+### [ipyvolume](https://github.com/maartenbreddels/ipyvolume)
+
+3-D plotting in Python.
+
+### [pydot/pydot](https://github.com/pydot/pydot)
+
+### [slundberg/shap](https://github.com/slundberg/shap)
+
+A unified approach to explain the output of any machine learning model.
+
+### [ResidentMario/missingno](https://github.com/ResidentMario/missingno)
+
+Missing data visualization module for Python.
+
+### [hiplot](https://github.com/facebookresearch/hiplot)
+
+HiPlot makes understanding high dimensional data easy
+
+### [scattertext](https://github.com/JasonKessler/scattertext)
+
+Beautiful visualizations of how language differs among document types.
+
+### [geemap](https://github.com/giswqs/geemap)
+[geemap](https://github.com/giswqs/geemap)
+is a Python package for interactive mapping with Google Earth Engine, ipyleaflet, and folium.
+
 ### Blender Python
 
 https://docs.blender.org/api/current/info_quickstart.html
@@ -75,28 +103,6 @@ https://docs.blender.org/api/current/info_quickstart.html
 https://medium.com/@behreajj/creative-coding-in-blender-a-primer-53e79ff71e
 
 https://blenderscripting.blogspot.com/
-
-## [maartenbreddels/ipyvolume](https://github.com/maartenbreddels/ipyvolume)
-
-3-D plotting in Python.
-
-## [pydot/pydot](https://github.com/pydot/pydot)
-
-## [slundberg/shap](https://github.com/slundberg/shap)
-
-A unified approach to explain the output of any machine learning model.
-
-## [ResidentMario/missingno](https://github.com/ResidentMario/missingno)
-
-Missing data visualization module for Python.
-
-## [hiplot](https://github.com/facebookresearch/hiplot)
-
-HiPlot makes understanding high dimensional data easy
-
-## [scattertext](https://github.com/JasonKessler/scattertext)
-
-Beautiful visualizations of how language differs among document types.
 
 ## References
 
