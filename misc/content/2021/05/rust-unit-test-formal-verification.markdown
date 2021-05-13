@@ -21,6 +21,8 @@ Tags: Computer Science, programming, Rust, testing, unit test, verification, ana
 
 [Library-ification and analyzing Rust](http://smallcultfollowing.com/babysteps/blog/2020/04/09/libraryification/)
 
+[This is a static simulator for Rust programs. It runs a set of test cases and attempts to prove that all assertions pass on all valid inputs.](https://github.com/GaloisInc/crucible/tree/master/crux-mir)
+
 ## References 
 
 https://www.youtube.com/watch?v=C9TTioH5JUg

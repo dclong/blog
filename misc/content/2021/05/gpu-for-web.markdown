@@ -4,7 +4,7 @@ Author: Benjamin Du
 Slug: gpu-for-web
 Title: GPU for Web
 Category: Computer Science
-Tags: Computer Science, programming
+Tags: Computer Science, programming, GPU, Web, gpuweb, wgpu
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 
