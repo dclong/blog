@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-01 23:46:55
+Date: 2021-05-11 08:45:30
 Author: Benjamin Du
 Slug: show-image-in-terminal
 Title: Show Image in Terminal

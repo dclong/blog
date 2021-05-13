@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-15 14:16:33
+Date: 2021-05-10 10:12:31
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -61,6 +61,10 @@ It works well with Git.
 
 [JupyterHub](http://www.legendu.net/misc/blog/jupyterhub-tips/)
 is a multi-user server for Jupyter notebooks.
+
+### [euporie](https://github.com/joouha/euporie)
+[euporie](https://github.com/joouha/euporie)
+is a text-based user interface for running and editing Jupyter notebooks.
 
 ### Plasma
 

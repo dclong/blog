@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-05-02 10:58:13
+Date: 2021-05-12 11:19:32
 Title: Tips on GPU Computing
 Slug: gpu-tips
 Category: Computer Science
@@ -85,6 +85,23 @@ You can list GPU devices using the following command on linux.
 
     OpenCL for Rust.
 
+https://github.com/zakarumych/gpu-alloc
+
+https://github.com/zakarumych/gpu-descriptor
+Backend agnostic descriptor allocator for Vulkan-like APIs
+
+
+- [gfx-rs](https://github.com/gfx-rs/gfx)
+[gfx-rs](https://github.com/gfx-rs/gfx)
+is a low-level, cross-platform graphics and compute abstraction library in Rust. 
+[gfx-rs](https://github.com/gfx-rs/gfx)
+is hard to use. 
+It's recommended for performance-sensitive libraries and engines. 
+wgpu-rs is a safe and simple alternative.
+
+- [wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
+[wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
+
 ### GPU Computing in Python
 
 Please refer to 
@@ -102,6 +119,22 @@ https://developer.nvidia.com/how-to-cuda-python
 https://devblogs.nvidia.com/numba-python-cuda-acceleration/
 
 https://github.com/harrism/numba_examples/blob/master/mandelbrot_numba.ipynb
+
+- [wgpu-py](https://github.com/pygfx/wgpu-py)
+[wgpu-py](https://github.com/pygfx/wgpu-py)
+is a next generation GPU API for Python.
+It is a Python lib wrapping wgpu-native and exposing it with a Pythonic API similar to the WebGPU spec.
+
+- [vulkan-kompute](https://github.com/EthicalML/vulkan-kompute)
+General purpose GPU compute framework for cross vendor graphics cards 
+(AMD, Qualcomm, NVIDIA & friends). 
+Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data processing usecases.
+
+https://gabdube.github.io/python/vulkan/2019/01/10/python-and-vulkan-01.html
+
+[Beyond CUDA: GPU Accelerated Python for Machine Learning on Cross-Vendor Graphics Cards Made Simple](https://towardsdatascience.com/beyond-cuda-gpu-accelerated-python-for-machine-learning-in-cross-vendor-graphics-cards-made-simple-6cc828a45cc3)
+
+
 
 ### Java
 

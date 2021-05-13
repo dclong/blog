@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-09 16:33:41
+Date: 2021-05-10 10:12:31
 Author: Ben Chuanlong Du
 Slug: jupyterlab-tips
 Title: Tips on JupyterLab
@@ -60,6 +60,7 @@ Please read with your own judgement!
 
 3. Convert Jupyter Notebook to another format.
 
+        :::bash
         jupyter nbconvert --to FORMAT notebook.ipynb
 
 4. Notice that you'd better turn off proxies while using JupyterLab. 

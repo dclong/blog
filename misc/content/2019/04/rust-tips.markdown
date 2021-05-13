@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-21 17:08:44
+Date: 2021-05-13 10:41:04
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -82,6 +82,15 @@ for detailed discussions.
 
 ## Parallel, Multithreading and Concurrency in Rust
 
+### [loom](https://github.com/tokio-rs/loom)
+is a concurrency permutation testing tool for Rust.
+
+### [sanitizers](https://github.com/google/sanitizers)
+This project is the home for Sanitizers: AddressSanitizer, MemorySanitizer, ThreadSanitizer, LeakSanitizer, 
+and more The actual code resides in the LLVM repository. Here we keep extended documentation, bugfixes and some helper code.
+
+
+
 [rayon](https://github.com/rayon-rs/rayon)
 A data parallelism library for Rust.
 
@@ -122,6 +131,8 @@ https://github.com/valeriansaliou/sonic
 https://github.com/rust-unofficial/awesome-rust
 
 ## References
+
+- [Rust Blog](https://blog.rust-lang.org/)
 
 - [Rust Compiler Explorer](https://rust.godbolt.org/)
 
