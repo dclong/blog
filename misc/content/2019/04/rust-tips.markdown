@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-13 10:41:04
+Date: 2021-05-15 09:43:02
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -121,6 +121,8 @@ https://github.com/yewstack/yew
 https://github.com/valeriansaliou/sonic
 
 ## Tutorials
+
+[Jon Gjengset's Video Tutorials (Medium to Advanced)](https://www.youtube.com/channel/UC_iD0xppBwwsrM9DegC5cQQ)
 
 [Rust on YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
 
