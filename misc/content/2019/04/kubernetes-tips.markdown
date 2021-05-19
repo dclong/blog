@@ -1,26 +1,19 @@
 Status: published
-Date: 2020-03-09 18:13:01
+Date: 2021-05-18 18:08:59
 Author: Benjamin Du
 Slug: kubernetes-tips
 Title: Tips on Kubernetes
 Category: Software
-Tags: Software, Kubernetes, k8s, minikube, kubectl
+Tags: Software, Kubernetes, k8s, minikube, kubectl, Microk8s
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Tutorials
+
 https://www.youtube.com/watch?v=ZpbXSdzp_vo
-
-
-https://github.com/kubernetes/minikube
-
-
-https://github.com/kubernetes/kubernetes
-
-
-[Kubertenes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
 
 ## Some Kubernetes Distributions
 
@@ -36,8 +29,18 @@ Microk8s seems like a good option.
 
 - Docker for Mac/Windows - Docker's Desktop edition has an option to run a local Kubernetes cluster
 
-## Example
+## Tips and Traps
 
+1. https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/
+  Define a Command and Arguments for a Container
+
+
+
+## Kubertenes Deployment
+
+[Kubertenes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+
+Below is an example YAML configuration file.
 ```
 ---
 apiVersion: v1
@@ -83,6 +86,14 @@ Another good example is to
 
 ## References
 
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
+
 - [helm](https://github.com/helm/helm) is the Kubernetes Package Manager
 
-[Multipass and MicroK8s: the Quickest Route to Ubuntu and Kubernetes?](https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun)
+- [Multipass and MicroK8s: the Quickest Route to Ubuntu and Kubernetes?](https://dzone.com/articles/-multipass-and-microk8s-the-quickest-route-to-ubun)
+
+- [minikube @ GitHub](https://github.com/kubernetes/minikube)
+
+- [kubernetes @ GitHub](https://github.com/kubernetes/kubernetes)
+
+- [Kubertenes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
