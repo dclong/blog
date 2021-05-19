@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-04-09 11:14:19
+Date: 2021-05-18 18:08:59
 Author: Benjamin Du
 Slug: deploy-apache-ray
 Title: Deploy Apache Ray
 Category: Computer Science
-Tags: programming, Apache Ray, distributed computing, deploy, deployment, setup, configure, Kubernetes, Spark, cluster
+Tags: programming, Apache Ray, distributed computing, deploy, deployment, setup, configure, Kubernetes, k8s, Spark, cluster
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
