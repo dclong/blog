@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-20 12:36:50
+Date: 2021-05-20 16:00:26
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -60,6 +60,7 @@ so that you can use Sphinx commands directly.
         Relative paths (w.r.t the `conf.py` file) are allowed.
         Assume your project has the following structure,
 
+            :::text
             proj_name/
                 proj_name/
                     __init__.py
@@ -68,22 +69,23 @@ so that you can use Sphinx commands directly.
 
         you can use the following generic code to help you to insert the correct path of the source code directory.
  
-            import os 
+            :::python
             import sys
             from pathlib import Path
 
 
             def get_source_dir() -> str:
-                path = Path(__file__).resolvee()
+                path = Path(__file__).resolve()
                 while path.name != "docs":
                     path = path.parent
-                return (path.parent / path.parent.name)
+                return str(path.parent)
 
 
             sys.path.insert(0, get_source_dir())
 
     - Enable sphinx extensions.
 
+            :::python
             extensions = [
                 "sphinx.ext.todo",
                 "sphinx.ext.viewcode",
