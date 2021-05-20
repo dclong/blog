@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-20 09:36:59
+Date: 2021-05-20 09:44:26
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -11,6 +11,18 @@ Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+## Installation
+
+You can install Sphinx using the following command.
+
+    pip3 install sphinx
+
+Since the above command installs Sphinx to the user's local directory,
+Sphinx executables are placed into the directory `~/.local/bin`. 
+So you might have to configure your `PATH` environment variable 
+so that you can use Sphinx commands directly.
+
+## Generate Docs Using Sphinx
 
 1. Create a directory named `docs` (other names are OK too) in the root directory of your Python project.
     Do NOT use the root directory of your project 
