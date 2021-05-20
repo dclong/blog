@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-29 09:37:32
+Date: 2021-05-20 09:36:59
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -13,9 +13,9 @@ Please read with your own judgement!
 
 
 1. Create a directory named `docs` (other names are OK too) in the root directory of your Python project.
-    It is strongly NOT recommended to use the Python project root directory 
-    as the root directory for the docs
-    as it will make your Python project root directory messy. 
+    Do NOT use the root directory of your project 
+    as the root directory for documentations
+    as it will make your the root directory of your project messy. 
 
         :::bash 
         mkdir docs
