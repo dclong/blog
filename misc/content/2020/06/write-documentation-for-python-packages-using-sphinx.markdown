@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-20 09:44:26
+Date: 2021-05-20 12:36:50
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -13,18 +13,25 @@ Please read with your own judgement!
 
 ## Installation
 
-You can install Sphinx using the following command.
+You can install Sphinx and necessary extensions using the following command.
 
+    :::bash
     pip3 install sphinx
+    pip3 install sphinx-autodoc-typehints
 
-Since the above command installs Sphinx to the user's local directory,
+Or simply
+
+    :::bash
+    xinstall sphinx -ic
+
+Since the above commands installs Sphinx to the user's local directory,
 Sphinx executables are placed into the directory `~/.local/bin`. 
 So you might have to configure your `PATH` environment variable 
 so that you can use Sphinx commands directly.
 
 ## Generate Docs Using Sphinx
 
-1. Create a directory named `docs` (other names are OK too) in the root directory of your Python project.
+1. Create a directory named `docs` in the root directory of your Python project.
     Do NOT use the root directory of your project 
     as the root directory for documentations
     as it will make your the root directory of your project messy. 
@@ -38,16 +45,42 @@ so that you can use Sphinx commands directly.
         cd docs 
         sphinx-quickstart 
 
+    A few questions will be asked to you.
+    Note: It is suggested that you choose to **separate build and source directories**
+    when the question is asked.
+    This option makes the `docs` directory tidier especially for large projects.
+
 3. Update the generated configuration script `conf.py`. 
     Below are a few important ones.
 
-    - Configure the `sys.path`
+    - Configure `sys.path`
         to [tell autodoc where to find your code](https://docs-python2readthedocs.readthedocs.io/en/master/code-doc.html#tell-autodoc-how-to-find-your-code).
-        Taking [xinstall](https://github.com/dclong/xinstall) as an example,
+        In short, 
+        you should insert the path to your source code directory as the first element to `sys.path`.
+        Relative paths (w.r.t the `conf.py` file) are allowed.
+        Assume your project has the following structure,
+
+            proj_name/
+                proj_name/
+                    __init__.py
+                docs/
+                ...
+
+        you can use the following generic code to help you to insert the correct path of the source code directory.
  
             import os 
             import sys
-            sys.path.insert(0, "../xinstall")            
+            from pathlib import Path
+
+
+            def get_source_dir() -> str:
+                path = Path(__file__).resolvee()
+                while path.name != "docs":
+                    path = path.parent
+                return (path.parent / path.parent.name)
+
+
+            sys.path.insert(0, get_source_dir())
 
     - Enable sphinx extensions.
 
@@ -59,15 +92,24 @@ so that you can use Sphinx commands directly.
                 "sphinx.ext.doctest",
             ]
 
-3. Run the following command in the root directory of your Python project 
-    (taking [xinstall](https://github.com/dclong/xinstall) as an example) 
-    to generate docs from docstrings 
-    (you only have to do this once).
+3. Run the following command in the `docs` directory to generate documentation from docstrings.
+    Notice that the command `sphinx-apidoc` does not extract docstrings from your source code
+    but instead generate a RST file to tell Sphinx to use docstrings when building the docs.
+    So you only have to run the command `aphinx-apidoc` once.
 
         :::bash
-        sphinx-apidoc -f -o docs/ xinstall
+        # if build and source are NOT separated
+        sphinx-apidoc -f -o ./ ../proj_name
+        # if build and source are separated
+        sphinx-apidoc -f -o source/ ../proj_name
 
-4. Run the following command in the `docs` directory to generate HTML documentation. 
+    A file named `modules.rst` (together with some other RST files) will be generated.
+    Include it into the file `index.rst`.
+
+
+4. Add more RST files into `index.rst` if necessary.
+
+5. Run the following command in the `docs` directory to generate HTML documentation. 
 
         :::bash 
         make clean && make html 
@@ -97,12 +139,11 @@ https://stackoverflow.com/questions/2471804/using-sphinx-with-markdown-instead-o
 
 ## Sphinx Extensions
 
-### Jupyter/Lab Notebooks
+[sphinx-autodoc-typehints](https://github.com/agronholm/sphinx-autodoc-typehints)
 
-https://github.com/spatialaudio/nbsphinx/
+[nbsphinx](https://github.com/spatialaudio/nbsphinx/)
 
-https://github.com/jupyter/jupyter-sphinx
-
+[jupyter-sphinx](https://github.com/jupyter/jupyter-sphinx)
 
 ## References 
 
