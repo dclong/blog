@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-20 16:00:26
+Date: 2021-05-21 10:09:41
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -57,7 +57,7 @@ so that you can use Sphinx commands directly.
         to [tell autodoc where to find your code](https://docs-python2readthedocs.readthedocs.io/en/master/code-doc.html#tell-autodoc-how-to-find-your-code).
         In short, 
         you should insert the path to your source code directory as the first element to `sys.path`.
-        Relative paths (w.r.t the `conf.py` file) are allowed.
+        Relative paths (w.r.t the directory of the file `conf.py`) are allowed.
         Assume your project has the following structure,
 
             :::text
