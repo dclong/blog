@@ -36,6 +36,7 @@
     ["Pyqt", "PyQt"], 
     ["Tmux", "tmux"], ["Toml", "TOML"], 
     ["Uuid", "UUID"], ["Wget", "wget"], 
+    ["Wasi", "WASI"], 
     ["Yapf", "yapf"], ["Yaml", "YAML"],
     ["Ci/Cd", "CI/CD"], ["Cicd", "CICD"], 
     ["Anbox", "AnBox"], 
