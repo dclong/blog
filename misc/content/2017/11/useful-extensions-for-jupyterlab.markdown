@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-10 10:12:31
+Date: 2021-05-24 10:55:57
 Author: Ben Chuanlong Du
 Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
@@ -17,14 +17,15 @@ Please read with your own judgement!
 Install a Jupyter/Lab extension.
 
     :::bash
-    jupyter labextension install some_extension
+    pip3 install extension_name
 
 Unnstall a Jupyter/Lab extension.
 
     :::bash
-    jupyter labextension uninstall some_extension
+    pip3 uninstall extension_name
 
 Enable an installed Jupyter/Lab extension.
+Note: An extension is enabled by default once installed.
 
     :::bash
     jupyter serverextension enable --py jupyterlab_code_formatter
@@ -66,11 +67,11 @@ is a multi-user server for Jupyter notebooks.
 [euporie](https://github.com/joouha/euporie)
 is a text-based user interface for running and editing Jupyter notebooks.
 
-### Plasma
-
 ## Useful Extensions for JupyterLab
 
-### [jupyterlab-toc](https://github.com/jupyterlab/jupyterlab-toc)
+### [jupyterlab-vim](https://github.com/axelfahy/jupyterlab-vim)
+[jupyterlab-vim](https://github.com/axelfahy/jupyterlab-vim)
+provides Vim keybindings for notebook cells in JupyterLab.
 
 ### [jupyter-resource-usage](https://github.com/jupyter-server/jupyter-resource-usage)
 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-04 19:04:42
+Date: 2021-05-24 16:01:25
 Author: Benjamin Du
 Slug: useful-rust-crates
 Title: Useful Rust Crates
@@ -19,12 +19,7 @@ is a framework for serializing and deserializing Rust data structures efficientl
 [sled](https://github.com/spacejam/sled)
 is an embedded key-value pair databases written in Rust.
 
-## Other
-### [rayon](https://crates.io/crates/rayon)
-[rayon](https://crates.io/crates/rayon)
-is a data-parallelism library for Rust. 
-It is extremely lightweight and makes it easy to convert a sequential computation into a parallel one. 
-It also guarantees data-race freedom. 
+## Numeric Computation
 
 ### [num-derive](https://crates.io/crates/num-derive)
 [num-derive](https://crates.io/crates/num-derive)
@@ -33,6 +28,38 @@ providess procedural macros to derive numeric traits in Rust.
 ### [num-traits](https://crates.io/crates/num-traits)
 [num-traits](https://crates.io/crates/num-traits)
 provides numeric traits for generic mathematics in Rust.
+
+### [enum_primitive](https://crates.io/crates/enum_primitive)
+[enum_primitive](https://crates.io/crates/enum_primitive)
+is a macro to generate `num::FromPrimitive` instances for enum that works in Rust 1.0+.
+
+## Parallell, Concurrency and Async
+### [futures](https://crates.io/crates/futures)
+[futures](https://crates.io/crates/futures)
+is an implementation of futures and streams featuring zero allocations, 
+composability, and iterator-like interfaces.
+It is a library providing the foundations for asynchronous programming in Rust. 
+It includes key trait definitions like Stream, 
+as well as utilities like `join!`, `select!`, 
+and various futures combinator methods which enable expressive asynchronous control flow.
+
+### [tokio](https://crates.io/crates/tokio)
+[tokio](https://crates.io/crates/tokio)
+is an event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications.
+
+### [rayon](https://crates.io/crates/rayon)
+[rayon](https://crates.io/crates/rayon)
+is a data-parallelism library for Rust. 
+It is extremely lightweight and makes it easy to convert a sequential computation into a parallel one. 
+It also guarantees data-race freedom. 
+
+## Command-line Parsing
+
+### [clap](https://crates.io/crates/clap)
+[clap](https://crates.io/crates/clap)
+is a simple to use, efficient, and full-featured Command Line Argument Parser.
+
+## Other
 
 ### [itertools](https://crates.io/crates/itertools)
 [itertools](https://crates.io/crates/itertools)
@@ -47,26 +74,13 @@ This includes anything requiring heap allocations,
 like vectors or hash maps, 
 as well as anything that requires non-const function calls to be computed.
 
+### [derive_builder](https://crates.io/crates/derive_builder)
+[derive_builder](https://crates.io/crates/derive_builder)
+provides a Rust procedural macro to automatically implement the builder pattern for arbitrary structs.
+
 ### [bitflags](https://crates.io/crates/bitflags)
 [bitflags](https://crates.io/crates/bitflags)
 is a Rust macro to generate structures which behave like a set of bitflags.
-
-### [futures](https://crates.io/crates/futures)
-[futures](https://crates.io/crates/futures)
-is an implementation of futures and streams featuring zero allocations, 
-composability, and iterator-like interfaces.
-It is a library providing the foundations for asynchronous programming in Rust. 
-It includes key trait definitions like Stream, 
-as well as utilities like `join!`, `select!`, 
-and various futures combinator methods which enable expressive asynchronous control flow.
-
-### [tokio](https://crates.io/crates/tokio)
-[tokio](https://crates.io/crates/tokio)
-is an event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications.
-
-### [enum_primitive](https://crates.io/crates/enum_primitive)
-[enum_primitive](https://crates.io/crates/enum_primitive)
-is a macro to generate `num::FromPrimitive` instances for enum that works in Rust 1.0+.
 
 ## References
 
