@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-21 10:09:41
+Date: 2021-05-25 10:15:43
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -115,6 +115,12 @@ so that you can use Sphinx commands directly.
 
         :::bash 
         make clean && make html 
+
+## Use Markdown Together with RST in Sphinx
+
+Please refer to the official documentation
+[markdown](https://www.sphinx-doc.org/en/master/usage/markdown.html)
+for instructions.
 
 ## Public Host 
 
