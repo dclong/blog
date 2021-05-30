@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-03-11 11:35:36
+Date: 2021-05-30 11:09:57
 Title: Tips on Git
 Slug: git-tips
 Category: Software
@@ -128,6 +128,13 @@ What is corkscrew?
     #!/bin/bash
 
     corkscrew http://10.135.227.47 80 $*
+
+## Exclude Paths in `git diff`
+
+[Want to exclude file from “git diff”](https://stackoverflow.com/questions/10415100/want-to-exclude-file-from-git-diff/39943727)
+
+    :::bash
+    git diff -- . ':(exclude)db/irrelevant.php' ':(exclude)db/irrelevant2.php'
 
 ## Git Syntax
 
