@@ -1,15 +1,11 @@
 Status: published
-Date: 2021-05-27 11:28:08
+Date: 2021-06-01 09:40:48
 Author: Benjamin Du
 Slug: schedule-cron-tasks-in-a-docker-container
 Title: Schedule Cron Tasks in a Docker Container
 Category: Software
 Tags: software, Docker, crontab, cron, deamon, container
 
-**
-Things on this page are fragmentary and immature notes/thoughts of the author.
-Please read with your own judgement!
-**
 
 Cron tasks work in a Docker container. 
 However,
