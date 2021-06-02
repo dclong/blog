@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-30 12:38:52
+Date: 2021-06-02 11:17:44
 Author: Benjamin Du
 Slug: python-poetry-tips
 Title: Manage Your Python Project Using Poetry
@@ -29,9 +29,12 @@ Please read with your own judgement!
         :::bash
         poetry add git+ssh://git@github.com/dclong/dsutil.git
 
-    For more details on the command `poetry add`,
-    please refer to 
-    https://python-poetry.org/docs/cli/#add.
+    For more details,
+    please refer to
+    [poetry add](https://python-poetry.org/docs/cli/#add.)
+    and
+    [git dependencies](https://python-poetry.org/docs/dependency-specification/#git-dependencies)
+    .
 
 3. `poetry install` removes non needed libraries. 
     A tricky situation is that if you have dependency A 

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-11 23:33:22
+Date: 2021-06-01 12:42:15
 Author: Benjamin Du
 Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
@@ -14,6 +14,10 @@ Please read with your own judgement!
 ## Tips and Traps
 
 1. You can use `sudo` without password in Linux and macOS when running GitHub Actions.
+
+2. `GITHUB_TOKEN` is an automatically generated secret 
+    that lets you make authenticated calls to the GitHub API in your workflow runs. 
+    Actions generates a new token for each job and expires the token when a job completes.
 
 2. OS: ubuntu-latest, windows-latest, macOS-latest
 

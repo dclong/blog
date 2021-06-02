@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-31 12:34:28
+Date: 2021-06-02 12:31:26
 Author: Benjamin Du
 Slug: git-implementations-and-bindings-in-python
 Title: Git Implementations and Bindings in Python
@@ -19,7 +19,7 @@ and
 [pygit2](https://github.com/libgit2/pygit2)
 are good choices.
 [Dulwich](https://github.com/dulwich/dulwich)
-is preferred as it has more freindly licence agreement.
+is preferred as it has a more freindly licence agreement.
 
 ## [Dulwich](https://github.com/dulwich/dulwich)
 [Dulwich](https://github.com/dulwich/dulwich)

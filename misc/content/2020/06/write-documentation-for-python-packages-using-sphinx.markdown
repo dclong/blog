@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-25 10:15:43
+Date: 2021-06-01 21:51:41
 Author: Benjamin Du
 Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
@@ -16,8 +16,7 @@ Please read with your own judgement!
 You can install Sphinx and necessary extensions using the following command.
 
     :::bash
-    pip3 install sphinx
-    pip3 install sphinx-autodoc-typehints
+    pip3 install sphinx sphinx-autodoc-typehints
 
 Or simply
 
