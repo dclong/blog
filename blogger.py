@@ -565,7 +565,7 @@ class Blogger:
         :param dst: The destination path or directory to move posts to.
         """
         if isinstance(src, (str, Path)):
-            self._move_1(src, dst)
+            src = [src]
         if len(src) > 1 and not os.path.isdir(dst):
             sys.exit("dst must be a directory when moving multiple files")
         for file in src:
