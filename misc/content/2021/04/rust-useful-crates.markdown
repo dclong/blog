@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-24 16:01:25
+Date: 2021-06-08 08:47:12
 Author: Benjamin Du
 Slug: useful-rust-crates
 Title: Useful Rust Crates
@@ -58,6 +58,14 @@ It also guarantees data-race freedom.
 ### [clap](https://crates.io/crates/clap)
 [clap](https://crates.io/crates/clap)
 is a simple to use, efficient, and full-featured Command Line Argument Parser.
+
+## File System
+
+### [ripgrep](https://github.com/BurntSushi/ripgrep)
+[ripgrep](https://github.com/BurntSushi/ripgrep)
+recursively searches directories for a regex pattern while respecting your gitignore.
+
+
 
 ## Other
 
