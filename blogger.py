@@ -17,6 +17,7 @@ import subprocess as sp
 from loguru import logger
 from tqdm import tqdm
 from utils import BASE_DIR, qmarks
+
 AUTHOR = "Benjamin Du"
 EN = "en"
 CN = "cn"
@@ -60,7 +61,7 @@ class Post:
     def blog_dir(self):
         """Get the corresponding blog directory (home, en, cn or misc) of a post.
         """
-        return self.path.parent.parent.parent.parent.stem
+        return self.path.parent.parent.parent.parent.parent.stem
 
     def update_after_move(self) -> None:
         """ Update the post after move.
@@ -80,11 +81,13 @@ class Post:
         notebook = self._read_notebook()
         if self.blog_dir() == MISC:
             if notebook["cells"][1]["source"][0] != DISCLAIMER:
-                notebook["cells"].insert(1, {
-                    "source": [DISCLAIMER],
-                    "cell_type": 'markdown',
-                    "metadata": {}
-                })
+                notebook["cells"].insert(
+                    1, {
+                        "source": [DISCLAIMER],
+                        "cell_type": 'markdown',
+                        "metadata": {}
+                    }
+                )
             self._write_notebook(notebook)
         elif notebook["cells"][1]["source"][0] == DISCLAIMER:
             notebook["cells"].pop(1)
@@ -523,11 +526,14 @@ class Blogger:
         """
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        paths = list(path for path in BASE_DIR.glob("*/content/**/*") if not path.parent.name.startswith("."))
+        paths = list(
+            path for path in BASE_DIR.glob("*/content/**/*")
+            if path.suffix in (MARKDOWN,
+                               IPYNB) and not path.parent.name.startswith(".")
+        )
         logger.info("Reloading posts into SQLite3 ...")
         for path in tqdm(paths):
-            if path.suffix in (MARKDOWN, IPYNB):
-                self._load_post(Post(path))
+            self._load_post(Post(path))
         self.commit()
 
     def _load_post(self, post: Post):
@@ -557,7 +563,9 @@ class Blogger:
             """
         self.execute(sql, posts)
 
-    def move(self, src: Union[str, Path, Sequence[Union[str, Path]]], dst: Union[str]) -> None:
+    def move(
+        self, src: Union[str, Path, Sequence[Union[str, Path]]], dst: Union[str]
+    ) -> None:
         """Move specified posts into a destination directory.
 
         :param src: A (sequence of) path(s). 
@@ -565,7 +573,8 @@ class Blogger:
         :param dst: The destination path or directory to move posts to.
         """
         if isinstance(src, (str, Path)):
-            src = [src]
+            self._move_1(file, dst)
+            return
         if len(src) > 1 and not os.path.isdir(dst):
             sys.exit("dst must be a directory when moving multiple files")
         for file in src:
@@ -577,10 +586,7 @@ class Blogger:
         if isinstance(src, str):
             src = Path(src)
         if dst in (EN, CN, MISC, OUTDATED):
-            if re.match("20\d\d", src.parts[-3]):
-                dst = BASE_DIR.joinpath(dst, "content", *src.parts[-3:])
-            else:
-                dst = BASE_DIR.joinpath(dst, "content", YYYYMM_slash, src.parts[-1])
+            dst = BASE_DIR.joinpath(dst, "content", *src.parts[-4:])
         elif isinstance(dst, str):
             dst = Path(dst)
         if src.resolve() == dst.resolve():
@@ -645,17 +651,18 @@ class Blogger:
     def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
         """Add a new post with the given title.
         """
-        dir_ = BASE_DIR / dir_ / "content" / YYYYMM_slash
-        dir_.mkdir(parents=True, exist_ok=True)
-        file = self._find_post(title)
-        if not file:
+        path = self._find_post(title)
+        if not path:
+            stem = Post.slug(title)
+            dir_ = BASE_DIR / dir_ / "content" / YYYYMM_slash / stem
+            dir_.mkdir(parents=True, exist_ok=True)
             suffix = IPYNB if notebook else MARKDOWN
-            file = dir_ / (Post.slug(title) + suffix)
-            post = Post(file)
+            path = dir_ / (stem + suffix)
+            post = Post(path)
             post.create(title)
             self._load_post(post)
-        print(f"\nThe following post is added.\n{file}\n")
-        return file
+        print(f"\nThe following post is added.\n{path}\n")
+        return path
 
     def _find_post(self, title: str) -> Union[Path, None]:
         """Find existing post matching the given title.

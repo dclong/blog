@@ -5,6 +5,7 @@ import shutil
 import subprocess as sp
 import pelican
 import dsutil
+
 BASE_DIR = Path(__file__).resolve().parent
 VIM = "nvim" if shutil.which("nvim") else "vim"
 

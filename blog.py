@@ -15,6 +15,7 @@ from utils import (
     option_dry_run, option_full_path
 )
 from blogger import Post, Blogger, HOME, EN, CN, MISC, OUTDATED
+
 USER = getpass.getuser()
 DASHES = "\n" + "-" * 100 + "\n"
 INDEXES = [""] + [str(i) for i in range(1, 11)]
@@ -47,7 +48,7 @@ def _resolve_files(args: Namespace) -> None:
     if "all" in args and args.all:
         sql = "SELECT path FROM srps"
         args.files = [row[0] for row in blogger.query(sql)]
-        return 
+        return
     if "indexes" in args and args.indexes:
         args.files = blogger.path(args.indexes)
 
