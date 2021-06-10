@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-
+from __future__ import annotations
 from argparse import ArgumentDefaultsHelpFormatter
 from typing import Union, List, Iterable, Sequence
 from collections import namedtuple
@@ -109,27 +109,6 @@ class Post:
         text = self.path.read_text().replace(DISCLAIMER, "")
         self.path.write_text(text)
 
-    def update_time(self) -> str:
-        """Update the meta filed date in the post.
-        """
-        if self.path.suffix == MARKDOWN:
-            return self._update_time_markdown()
-        return self._update_time_notebook()
-
-    def _update_time_markdown(self) -> str:
-        # TODO: put the time into the databse as well
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        self.update_meta_field(lines, "Date", NOW_DASH)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-        return NOW_DASH
-
-    def _update_time_notebook(self) -> str:
-        notebook = self._read_notebook()
-        self.update_meta_field(notebook["cells"][0]["source"], "- Date", NOW_DASH)
-        self._write_notebook(notebook)
-        return NOW_DASH
 
     @staticmethod
     def format_title(title):
@@ -146,32 +125,6 @@ class Post:
             title = "A " + title[2:]
         return title
 
-    def update_category(self, category: str) -> str:
-        """Change the category of the specified post to the specified category.
-        :param category: The category to change to.
-        :return: The new category of the post.
-        """
-        if self.path.suffix == MARKDOWN:
-            return self._update_category_markdown(category)
-        return self._update_category_notebook(category)
-
-    def _update_category_markdown(self, category: str) -> str:
-        """Change the category of the specified post to the specified category.
-        :param category: The category to change to.
-        :return: The new category of the post.
-        """
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        for idx, line in enumerate(lines):
-            if line.startswith("Category: "):
-                lines[idx] = f"Category: {category}\n"
-                break
-        else:
-            lines.insert(0, f"Category: {category}\n")
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
-        return category
-
     def _read_notebook(self) -> dict:
         notebook = json.loads(self.path.read_text())
         if notebook["cells"][0]["cell_type"] != "markdown":
@@ -179,12 +132,6 @@ class Post:
                 f"The first cell of the notebook {self.path} is not a markdown cell!"
             )
         return notebook
-
-    def _update_category_notebook(self, category: str) -> str:
-        notebook = self._read_notebook()
-        self.update_meta_field(notebook["cells"][0]["source"], "- Category", category)
-        self._write_notebook(notebook)
-        return category
 
     def update_tags(self, from_tag: str, to_tag: str) -> List[str]:
         """Update the tag from_tag of the post to the tag to_tag.
@@ -210,15 +157,25 @@ class Post:
         if self.path.suffix == MARKDOWN:
             return self._parse_markdown()
         return self._parse_notebook()
-
-    def _parse_markdown(self) -> Record:
+    
+    def _read_lines_markdown(self) -> tuple[list[str], int]:
+        """Read lines of a markdown post.
+        
+        return: A tuple of the format (lines, index),
+            where lines is a list containing lines of the file
+            and index is the 0-based starting index of non-metadata.
+        """
         with self.path.open() as fin:
             lines = fin.readlines()
         index = 0
         for index, line in enumerate(lines):
             if not re.match("[A-Za-z]+: ", line):
                 break
-        # parse meta data 0 - index (exclusive)
+        return lines, index
+
+    def _parse_markdown(self) -> Record:
+        lines, index = self._read_lines_markdown()
+        # parse metadata 0 - index (exclusive)
         status = ""
         date = ""
         author = ""
@@ -321,25 +278,36 @@ class Post:
         content = "".join(line.strip() for line in lines)
         is_empty = re.sub(r"\*\*.+\*\*", "", content).replace("**", "") == ""
         return 1 if is_empty else 0
+    
+    def update_meta_field(self, mapping: dict[str, str]) -> None:
+        if self.path.suffix == MARKDOWN:
+            lines, index = self._read_lines_markdown()
+            self._upate_meta_field_lines(lines[0:index], mapping)
+            with self.path.open("w") as fout:
+                fout.writelines(lines)
+            return
+        mapping = {f"- {field}": value for field, value in mapping.items()}
+        notebook = self._read_notebook()
+        self._update_meta_field_lines(notebook["cells"][0]["source"], mapping)
+        self._write_notebook(notebook)
 
     @staticmethod
-    def update_meta_field(lines: List[str], field: str, value: str) -> None:
+    def _update_meta_field_lines(lines: List[str], mapping: dict[str, str]) -> None:
         for idx, line in enumerate(lines):
-            if line.startswith(f"{field}:"):
-                lines[idx] = f"{field}: {value}\n"
-                break
+            for field, value in mapping.items():
+                if line.startswith(f"{field}:"):
+                    lines[idx] = f"{field}: {value}\n"
+                    break
         else:
-            lines.insert(0, f"{field}: {value}")
+            lines.insert(0, f"{field}: {value}\n")
 
     def match_name(self):
         title = Post.format_title(self.stem_name().replace("-", " "))
         slug = title.lower().replace(" ", "-")
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        Post.update_meta_field(lines, "Title", title)
-        Post.update_meta_field(lines, "Slug", slug)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
+        self.update_meta_field({
+            "Title": title,
+            "Slug", slug,
+        })
 
     def match_title(self) -> None:
         """Make the post's slug and path name match its title.
@@ -353,11 +321,7 @@ class Post:
         os.rename(self.path, path)
         self.path = path
         # meta field Slug
-        with self.path.open() as fin:
-            lines = fin.readlines()
-        Post.update_meta_field(lines, "Slug", slug)
-        with self.path.open("w") as fout:
-            fout.writelines(lines)
+        self.update_meta_field({"Slug": slug})
 
     def title(self) -> str:
         """Get the title of the post.
@@ -507,7 +471,7 @@ class Blogger:
     def update_category(self, post: Union[Post, str, Path], category: str):
         if isinstance(post, (str, Path)):
             post = Post(post)
-        post.update_category(category)
+        post.update_meta_field("Category", category)
         self.update_records(paths=[post.path], mapping={"category": category})
 
     def update_tags(self, post: Post, from_tag: str, to_tag: str):
@@ -645,7 +609,7 @@ class Blogger:
         self._delete_updated()
         posts = [Post(path) for path, content in rows if Post(path).diff(content)]
         for post in posts:
-            post.update_time()
+            post.update_meta_field("Date", NOW_DASH)
             self._load_post(post)
 
     def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
