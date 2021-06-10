@@ -40,6 +40,7 @@ MENUITEMS = [
         ("About", f"{SITEURL}/pages/about"),
     ]
 NEWEST_FIRST_ARCHIVES = True
+ARTICLE_ORDER_BY = 'reversed-modified'
 
 # tag cloud
 TAG_CLOUD_STEPS = 10

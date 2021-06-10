@@ -41,6 +41,7 @@ MENUITEMS = [
     ("Links", f"{SITEURL}/pages/links.html"),
 ]
 NEWEST_FIRST_ARCHIVES = True
+ARTICLE_ORDER_BY = 'reversed-modified'
 
 # tag cloud
 TAG_CLOUD_STEPS = 10
