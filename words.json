@@ -74,6 +74,7 @@
     ["Spacevim", "SpaceVim"], ["Sshuttle", "sshuttle"],
     ["Unittest", "unittest"],
     ["Autogluon", "AutoGluon"], 
+    ["Dataframe", "DataFrame"],
     ["Getpocket", "GetPocket"], ["Gitpython", "GitPython"],
     ["Java-Home", "JAVA-HOME"],
     ["Mobaxterm", "MobaXterm"],

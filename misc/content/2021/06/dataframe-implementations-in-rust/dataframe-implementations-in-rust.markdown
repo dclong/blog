@@ -1,10 +1,10 @@
 Status: published
-Date: 2021-06-09 10:01:19
+Date: 2021-06-09 22:38:27
 Author: Benjamin Du
-Slug: dataframe-implementations-in-rust
-Title: Dataframe Implementations in Rust
+Slug: data-frame-implementations-in-rust
+Title: Data Frame Implementations in Rust
 Category: Computer Science
-Tags: Computer Science, programming, Rust, DataFrame
+Tags: Computer Science, programming, Rust, DataFrame, data frame
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## [polars](https://github.com/pola-rs/polars)
