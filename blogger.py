@@ -178,6 +178,7 @@ class Post:
         # parse metadata 0 - index (exclusive)
         status = ""
         date = ""
+        modified = NOW_DASH
         author = ""
         slug = ""
         title = ""
@@ -188,6 +189,8 @@ class Post:
                 status = line[8:].strip()
             elif line.startswith("Date: "):
                 date = line[6:].strip()
+            elif line.startswith("Modified: "):
+                modified = line[10:].strip()
             elif line.startswith("Author: "):
                 author = line[8:].strip()
             elif line.startswith("Slug: "):
@@ -220,6 +223,7 @@ class Post:
         meta = cells[0]["source"]
         status = ""
         date = ""
+        modified = NOW_DASH
         author = ""
         slug = ""
         title = ""
@@ -232,25 +236,20 @@ class Post:
                 )
             if line.startswith("- Status:"):
                 status = line[9:].strip()
-                continue
-            if line.startswith("- Date:"):
+            elif line.startswith("- Date:"):
                 date = line[7:].strip()
-                continue
-            if line.startswith("- Author:"):
+            elif line.startswith("- Modified:"):
+                date = line[11:].strip()
+            elif line.startswith("- Author:"):
                 author = line[9:].strip()
-                continue
-            if line.startswith("- Slug:"):
+            elif line.startswith("- Slug:"):
                 slug = line[7:].strip()
-                continue
-            if line.startswith("- Title:"):
+            elif line.startswith("- Title:"):
                 title = line[8:].strip()
-                continue
-            if line.startswith("- Category:"):
+            elif line.startswith("- Category:"):
                 category = line[11:].strip()
-                continue
-            if line.startswith("- Tags:"):
+            elif line.startswith("- Tags:"):
                 tags = line[7:].strip()
-                continue
         name_title_mismatch = self.is_name_title_mismatch(title)
         return Record(
             self.path.relative_to(BASE_DIR), self.blog_dir(), status, date, author,
@@ -384,6 +383,7 @@ class Post:
         with self.path.open("w") as fout:
             fout.writelines("Status: published\n")
             fout.writelines(f"Date: {NOW_DASH}\n")
+            fout.writelines(f"Modified: {NOW_DASH}\n")
             fout.writelines("Author: Benjamin Du\n")
             fout.writelines(f"Slug: {Post.slug(title)}\n")
             fout.writelines(f"Title: {Post.format_title(title)}\n")
@@ -397,6 +397,7 @@ class Post:
         text = (BASE_DIR / "themes/template.ipynb").read_text()
         return text.replace("${AUTHOR}", AUTHOR) \
             .replace("${DATE}", NOW_DASH) \
+            .replace("${MODIFIED}", NOW_DASH) \
             .replace("${TITLE}", Post.format_title(title)) \
             .replace("${SLUG}", slug) \
             .replace("${CATEGORY}", category) \
@@ -609,7 +610,7 @@ class Blogger:
         self._delete_updated()
         posts = [Post(path) for path, content in rows if Post(path).diff(content)]
         for post in posts:
-            post.update_meta_field("Date", NOW_DASH)
+            post.update_meta_field("Modified", NOW_DASH)
             self._load_post(post)
 
     def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
