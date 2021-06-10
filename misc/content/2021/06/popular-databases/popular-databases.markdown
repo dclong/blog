@@ -12,20 +12,23 @@ Tags: Computer Science, programming, database
 ClickHouse® is an open-source column-oriented database management system 
 that allows generating analytical data reports in real time.
 
-mysql
+## mysql
 
-MongoDB
+## MongoDB
+MongoDB is a document-oriented, disk-based database optimized 
+for operational simplicity, schema-free design and very large data volumes. 
 
-Redis
+## Redis
 
+Redis is an in-memory, persistent data structure store 
+that enables developers to perform common operations with minimal complexity and maximum performance.
 
-MongoDB is a document-oriented, disk-based database optimized for operational simplicity, schema-free design and very large data volumes. Redis is an in-memory, persistent data structure store that enables developers to perform common operations with minimal complexity and maximum performance.
+## [yugabyte-db](https://github.com/YugaByte/yugabyte-db)
+[yugabyte-db](https://github.com/YugaByte/yugabyte-db)
 
-https://github.com/YugaByte/yugabyte-db
+## neo4j
 
-neo4j
-
-Elasticsearch
+## Elasticsearch
 
 ## References
 
