@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-09 11:15:43
+Date: 2021-06-10 09:32:40
 Author: Ben Chuanlong Du
 Title: Job Scheduling and Management Using Apache Airflow
 Slug: apache-airflow-tips

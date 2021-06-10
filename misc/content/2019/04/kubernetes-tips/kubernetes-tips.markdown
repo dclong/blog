@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-18 18:08:59
+Date: 2021-06-10 09:39:25
 Author: Benjamin Du
 Slug: kubernetes-tips
 Title: Tips on Kubernetes
@@ -33,6 +33,17 @@ Microk8s seems like a good option.
 
 1. https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/
   Define a Command and Arguments for a Container
+
+## Request Resource 
+
+https://cloud.google.com/blog/products/containers-kubernetes/kubernetes-best-practices-resource-requests-and-limits
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-memory-resource/
+
+https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/
+
+[Configure Quality of Service for Pods](https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/)
+
 
 
 
@@ -85,6 +96,8 @@ Another good example is to
 .
 
 ## References
+
+- [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 
 - [Kubernetes Documentation](https://kubernetes.io/docs/home/)
 
