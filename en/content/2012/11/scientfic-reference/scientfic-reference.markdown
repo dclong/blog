@@ -1,4 +1,3 @@
-UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Scientific References
 Date: 2012-11-13 00:05:06
