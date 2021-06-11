@@ -637,7 +637,9 @@ class Blogger:
         self._delete_updated()
         posts = [Post(path) for path, content in rows if Post(path).diff(content)]
         for post in posts:
-            post.update_meta_field("Modified", NOW_DASH)
+            post.update_meta_field({
+                "Modified": NOW_DASH
+            })
             self._load_post(post)
 
     def add_post(self, title: str, dir_: str, notebook: bool = True) -> Path:
