@@ -41,17 +41,31 @@ POSTS_COLS = [
 Record = namedtuple("Record", POSTS_COLS)
 
 
+def is_post(path: Union[Path, str]) -> bool:
+    if isinstance(path, str):
+        path = Path(path)
+    return path.suffix in (MARKDOWN, IPYNB)
+
 class Post:
     """A class abstracting a post.
     """
     def __init__(self, path: Union[str, Path]):
-        self.path = Path(path).resolve()
-        if self.path.suffix not in (MARKDOWN, IPYNB):
+        if isinstance(path, str):
+            path = Path(path)
+        path = path.resolve()
+        if not is_post(path):
             raise ValueError(f"{self.path} is not a {MARKDOWN} or {IPYNB} file.")
+        self.path = path
 
     def __str__(self):
         return str(self.path)
 
+    def is_markdown(self):
+        return self.path.suffix == MARKDOWN
+    
+    def is_notebook(self):
+        return self.path.suffix == IPYNB
+    
     def diff(self, content: str) -> bool:
         """Check whether there is any difference between this post's content and the given content.
         :param content: The content to compare against.
@@ -72,7 +86,7 @@ class Post:
         3. The title should be updated to match the file name.
             Both 2 and 3 will prompt to user for confirmation.
         """
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             self._update_after_move_markdown()
         else:
             self._update_after_move_notebook()
@@ -139,6 +153,8 @@ class Post:
         :param to_tag: The tag to change to.
         :return: The new list of tags in the post.
         """
+        # TODO: need to be updated: 1. support both markdown and notebook; 
+        # 2. leverage update_meta_field? Is it possible?
         with self.path.open() as fin:
             lines = fin.readlines()
         for idx, line in enumerate(lines):
@@ -154,7 +170,7 @@ class Post:
         return tags
 
     def record(self) -> Record:
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             return self._parse_markdown()
         return self._parse_notebook()
     
@@ -207,6 +223,7 @@ class Post:
         content = title + "\n" + category + "\n" + tags + "\n" + "".join(lines[index:])
         empty = self._is_ess_empty(lines[index:])
         name_title_mismatch = self.is_name_title_mismatch(title)
+        # TODO: add modified into the database ...
         return Record(
             self.path.relative_to(BASE_DIR), self.blog_dir(), status, date, author,
             slug, title, category, tags, content, empty, 0, name_title_mismatch
@@ -279,9 +296,9 @@ class Post:
         return 1 if is_empty else 0
     
     def update_meta_field(self, mapping: dict[str, str]) -> None:
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             lines, index = self._read_lines_markdown()
-            self._upate_meta_field_lines(lines[0:index], mapping)
+            self._update_meta_field_lines(lines[:index], mapping)
             with self.path.open("w") as fout:
                 fout.writelines(lines)
             return
@@ -292,20 +309,20 @@ class Post:
 
     @staticmethod
     def _update_meta_field_lines(lines: List[str], mapping: dict[str, str]) -> None:
-        for idx, line in enumerate(lines):
-            for field, value in mapping.items():
+        for field, value in mapping.items():
+            for idx, line in enumerate(lines):
                 if line.startswith(f"{field}:"):
                     lines[idx] = f"{field}: {value}\n"
                     break
-        else:
-            lines.insert(0, f"{field}: {value}\n")
+            else:
+                lines.insert(0, f"{field}: {value}\n")
 
     def match_name(self):
         title = Post.format_title(self.stem_name().replace("-", " "))
         slug = title.lower().replace(" ", "-")
         self.update_meta_field({
             "Title": title,
-            "Slug", slug,
+            "Slug": slug,
         })
 
     def match_title(self) -> None:
@@ -326,7 +343,7 @@ class Post:
         """Get the title of the post.
         :return: The title of the post.
         """
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             return self._title_markdown()
         return self._title_notebook()
 
@@ -364,7 +381,7 @@ class Post:
         return title.replace(" ", "-").replace("/", "-")
 
     def create(self, title: str):
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             return self._create_markdown(title)
         return self._create_notebook(title)
 
@@ -406,7 +423,7 @@ class Post:
     def convert(self):
         """Convert a markdown post to a notebook blog, vice versa.
         """
-        if self.path.suffix == MARKDOWN:
+        if self.is_markdown():
             self._md_to_nb()
 
     def _md_to_nb(self):
@@ -420,7 +437,7 @@ class Post:
         content = ",\n".join(f'"{line}\\n"' for line in record.content.split("\n"))
         text = text.replace('"${DISCLAIMER}"', content)
         self.path.unlink()
-        self.path = self.path.with_suffix(".ipynb")
+        self.path = self.path.with_suffix(IPYNB)
         self.path.write_text(text)
 
 
@@ -493,8 +510,7 @@ class Blogger:
         self.execute("DELETE FROM posts")
         paths = list(
             path for path in BASE_DIR.glob("*/content/**/*")
-            if path.suffix in (MARKDOWN,
-                               IPYNB) and not path.parent.name.startswith(".")
+            if is_post(path) and not path.parent.name.startswith(".")
         )
         logger.info("Reloading posts into SQLite3 ...")
         for path in tqdm(paths):
