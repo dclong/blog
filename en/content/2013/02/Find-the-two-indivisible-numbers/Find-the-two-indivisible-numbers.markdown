@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: What are the Two Integers?
-Date: 2014-09-08 11:41:48
+Date: 2013-02-08 11:41:48
 Tags: puzzle, fun problems, number
 Category: Fun Problems
 Slug: find-the-two-indivisible-numbers

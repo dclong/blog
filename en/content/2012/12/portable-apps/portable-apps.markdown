@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 00:04:26
+Date: 2012-12-23 00:04:26
 Author: Ben Chuanlong Du
 Title: Make Your Life Easier with Portable Applications
 Slug: portable-apps

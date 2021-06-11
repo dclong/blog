@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-07-13 22:40:14
+Date: 2013-10-13 22:40:14
 Slug: statistics-tips
 Title: Statistics
 Category: AI

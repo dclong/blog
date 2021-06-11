@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 12:58:10
+Date: 2017-08-22 12:58:10
 Author: Ben Chuanlong Du
 Slug: scala-errors
 Title: Common Errors Encountered in Scala and Solutions

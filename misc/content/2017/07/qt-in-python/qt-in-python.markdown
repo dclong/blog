@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-12 11:12:42
+Date: 2017-07-12 11:12:42
 Author: Ben Chuanlong Du
 Slug: qt-in-python
 Title: Use Qt in Python

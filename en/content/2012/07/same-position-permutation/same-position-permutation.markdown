@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: How Many People Stay in the Same Position?
-Date: 2013-11-17 15:16:03
+Date: 2012-07-17 15:16:03
 Tags: same position, statistics, probability, linear recursion, fun problems, conditional expectation, permutation
 Category: Fun Problems
 Slug: same-position-permutation

@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-03 19:30:50
+Date: 2014-12-03 19:30:50
 Author: Ben Chuanlong Du
 Slug: add-an-entry-into-the-right-click-menu-in-windows
 Title: Add an Entry into the Right-click Menu in Windows

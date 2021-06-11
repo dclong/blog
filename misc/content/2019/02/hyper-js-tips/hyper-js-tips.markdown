@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-02 12:20:43
+Date: 2019-02-02 12:20:43
 Author: Benjamin Du
 Slug: hyper-js-tips
 Title: Tips on Hyper

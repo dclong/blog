@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-28 18:11:59
+Date: 2017-01-28 18:11:59
 Author: Ben Chuanlong Du
 Slug: intellij-idea-tips
 Title: IntelliJ IDEA Tips

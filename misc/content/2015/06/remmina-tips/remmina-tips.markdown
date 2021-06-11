@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:05:21
+Date: 2015-06-22 14:05:21
 Author: Ben Chuanlong Du
 Title: Remote Desktop Using Remmina
 Slug: remmina-tips

@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-06-11 18:28:16
+Date: 2012-11-11 18:28:16
 Slug: graphics-in-r
 Author: Ben Chuanlong Du
 Title: Graphics in R

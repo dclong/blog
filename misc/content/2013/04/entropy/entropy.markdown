@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:21:46
+Date: 2013-04-22 12:21:46
 Title: Entropy
 Slug: entropy
 Category: AI

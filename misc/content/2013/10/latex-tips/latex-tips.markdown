@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:35:51
+Date: 2013-10-22 14:35:51
 Title: Tips on LaTeX
 Slug: latex-tips
 Category: Computer Science

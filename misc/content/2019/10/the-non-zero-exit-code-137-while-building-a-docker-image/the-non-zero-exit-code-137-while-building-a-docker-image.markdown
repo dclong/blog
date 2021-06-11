@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-18 17:56:29
+Date: 2019-10-18 17:56:29
 Author: Benjamin Du
 Slug: the-non-zero-exit-code-137-while-building-a-docker-image
 Title: The Non-Zero Exit Code 137 While Building a Docker Image

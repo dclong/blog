@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:02:59
+Date: 2017-04-22 15:02:59
 Author: Ben Chuanlong Du
 Title: Connect to Databases Using pyodbc in Python
 Slug: pyodbc-tips

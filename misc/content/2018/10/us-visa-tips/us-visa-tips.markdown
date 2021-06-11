@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:42:45
+Date: 2018-10-22 15:42:45
 Author: Ben Chuanlong Du
 Slug: us-visa-tips
 Title: Tips on US Visa

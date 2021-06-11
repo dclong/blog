@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-15 10:29:33
+Date: 2017-03-15 10:29:33
 Author: Ben Chuanlong Du
 Slug: docker-image-and-container-management
 Title: Manage Docker Images and Containers 

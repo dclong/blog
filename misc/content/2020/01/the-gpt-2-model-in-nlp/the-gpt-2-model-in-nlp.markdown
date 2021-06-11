@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-06 09:57:38
+Date: 2020-01-06 09:57:38
 Author: Benjamin Du
 Slug: the-gpt-2-model-in-nlp
 Title: The GPT-2 Model in NLP

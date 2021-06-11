@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 16:10:02
+Date: 2016-06-22 16:10:02
 Author: Ben Chuanlong Du
 Slug: shortcuts-for-mac
 Title: Shortcuts in macOS

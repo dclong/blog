@@ -1,6 +1,6 @@
 UUID: d78ff64f-d909-4efd-9b98-eb54493e67f0
 Status: published
-Date: 2016-07-09 22:24:39
+Date: 2015-09-09 22:24:39
 Author: Ben Chuanlong Du
 Slug: install-terminator-on-cygwin
 Title: Install Terminator on Cygwin

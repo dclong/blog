@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Check Whether an Email Address Is Valid in Java
-Date: 2016-07-12 23:58:54
+Date: 2012-05-12 23:58:54
 Slug: valid-email-address-java
 Author: Ben Chuanlong Du
 Category: Computer Science

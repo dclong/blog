@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: The Sum and Product Puzzle
-Date: 2015-02-04 23:47:19
+Date: 2013-07-04 23:47:19
 Slug: the-sum-and-product-puzzle
 Author: Ben Chuanlong Du
 Category: Fun Problems

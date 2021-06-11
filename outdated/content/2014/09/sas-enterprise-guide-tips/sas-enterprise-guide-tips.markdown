@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-06-14 18:44:56
+Date: 2014-09-14 18:44:56
 Author: Ben Chuanlong Du
 Slug: sas enterprise guide tips
 Title: SAS Enterprise Guide Tips

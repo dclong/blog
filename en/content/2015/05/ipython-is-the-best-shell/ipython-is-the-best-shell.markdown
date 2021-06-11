@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-24 13:00:31
+Date: 2015-05-24 13:00:31
 Author: Ben Chuanlong Du
 Slug: ipython-is-the-best-shell
 Title: IPython Is the Best Shell

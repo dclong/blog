@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-07 21:47:47
+Date: 2017-06-07 21:47:47
 Author: Ben Chuanlong Du
 Slug: environment-variables-docker
 Title: Environment Variables in Docker

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-01-10 16:03:04
+Date: 2014-03-10 16:03:04
 Slug: nfs-tips
 Title: Tips on NFS
 Category: Internet

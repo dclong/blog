@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:41:47
+Date: 2013-10-22 14:41:47
 Title: Tips on VNC
 Slug: vnc-tips
 Category: Software

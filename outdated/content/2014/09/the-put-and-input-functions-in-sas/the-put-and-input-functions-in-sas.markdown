@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-08-28 17:11:56
+Date: 2014-09-28 17:11:56
 Author: Ben Chuanlong Du
 Slug: the put and input functions in sas
 Title: The PUT/INPUT Functions in SAS

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:25:22
+Date: 2015-01-22 14:25:22
 Author: Ben Chuanlong Du
 Title: Backup Files Using "rsnapshot" 
 Slug: rsnapshot-tips

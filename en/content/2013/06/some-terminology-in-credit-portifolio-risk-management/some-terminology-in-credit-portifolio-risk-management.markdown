@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-13 22:26:26
+Date: 2013-06-13 22:26:26
 Slug: some-terminology-in-credit-portifolio-risk-management
 Author: Ben Chuanlong Du
 Title: Some Terminologies in Business Investment

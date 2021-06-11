@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:57:11
+Date: 2013-07-20 10:57:11
 Slug: resizing-hard-disk-of-guest-machine-in-virtualbox
 Author: Ben Chuanlong Du
 Title: Resizing Hard Disk of Guest Machine in Virtualbox

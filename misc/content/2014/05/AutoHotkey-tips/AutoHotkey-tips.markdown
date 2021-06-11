@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:34:48
+Date: 2014-05-22 13:34:48
 Title: Typing Automatically Using AutoHotkey
 Slug: AutoHotkey-tips
 Category: Software

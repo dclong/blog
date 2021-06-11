@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-30 01:27:49
+Date: 2019-10-30 01:27:49
 Author: Benjamin Du
 Slug: tips-on-google-colab
 Title: Tips on Google Colab

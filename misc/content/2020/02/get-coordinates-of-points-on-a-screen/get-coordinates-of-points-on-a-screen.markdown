@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-09 12:03:40
+Date: 2020-02-09 12:03:40
 Author: Benjamin Du
 Slug: get-coordinates-of-points-on-a-screen-or-image
 Title: Get Coordinates of Points on a Screen or Image

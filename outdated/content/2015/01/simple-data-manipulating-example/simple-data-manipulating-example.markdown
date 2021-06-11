@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:33:00
+Date: 2015-01-22 13:33:00
 Author: Ben Chuanlong Du
 Title: Simple Data Manipulating Example in SAS
 Slug: simple-data-manipulating-example

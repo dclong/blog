@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-30 12:25:15
+Date: 2020-07-30 12:25:15
 Author: Benjamin Du
 Slug: Python-Docstring-Generator-for-vscode
 Title: Python Docstring Generator for Visual Studio Code

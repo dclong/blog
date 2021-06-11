@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:30:50
+Date: 2013-12-22 12:30:50
 Title: Tips on Multimedia
 Slug: multimedia-tips
 Category: Software

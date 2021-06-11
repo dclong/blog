@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-06-20 18:59:03
+Date: 2014-03-20 18:59:03
 Slug: escape-key-in-vim
 Title: The Escape Key in Vim
 Category: Software

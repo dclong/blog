@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-02-21 23:37:52
+Date: 2014-01-21 23:37:52
 Slug: hadoop-fs-tips
 Title: Hadoop Filesystem Tips
 Category: Software

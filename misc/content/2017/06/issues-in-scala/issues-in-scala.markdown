@@ -1,6 +1,6 @@
 UUID: 5bada210-2cbb-4750-8dd3-8ceb09649540
 Status: published
-Date: 2017-10-22 13:32:43
+Date: 2017-06-22 13:32:43
 Author: Ben Chuanlong Du
 Slug: issues-in-scala
 Title: Issues in Scala

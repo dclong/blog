@@ -1,6 +1,6 @@
 UUID: 1dec40df-dbb6-4cef-aebc-55f7e5d5640d
 Status: published
-Date: 2016-07-05 07:51:37
+Date: 2016-06-05 07:51:37
 Author: Ben Chuanlong Du
 Slug: install-and-configure-iterm2-on-mac
 Title: Install and Configure Iterm2 on Mac

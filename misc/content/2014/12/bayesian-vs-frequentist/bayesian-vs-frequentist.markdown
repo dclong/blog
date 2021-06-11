@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-07-13 22:22:54
+Date: 2014-12-13 22:22:54
 Author: Ben Chuanlong Du
 Slug: bayesian-vs-frequentist
 Title: Bayesian vs Frequentist

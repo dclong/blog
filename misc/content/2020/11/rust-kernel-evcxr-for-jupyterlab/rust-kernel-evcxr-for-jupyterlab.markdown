@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 11:32:16
+Date: 2020-11-21 11:32:16
 Author: Benjamin Du
 Slug: tips-on-rust-kernel-via-evcxr-for-jupyterlab
 Title: Tips on Rust Kernel Via Evcxr for JupyterLab

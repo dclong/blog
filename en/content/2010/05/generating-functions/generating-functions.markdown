@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: The Power of Generating Functions
-Date: 2015-11-22 02:20:55
+Date: 2010-05-22 02:20:55
 Tags: series, statistics, sequence, math, fun problems, generating function
 Category: Fun Problems
 Slug: generating-functions

@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: General Tips for R
-Date: 2013-12-05 00:29:52
+Date: 2012-11-05 00:29:52
 Tags: tips, R, generic, programming, argument
 Category: Computer Science
 Slug: general-tips-for-r

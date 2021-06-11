@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2014-10-19 13:48:18
+Date: 2012-06-19 13:48:18
 Slug: copy-array-java
 Author: Ben Chuanlong Du
 Title: Copy Arrays in Java

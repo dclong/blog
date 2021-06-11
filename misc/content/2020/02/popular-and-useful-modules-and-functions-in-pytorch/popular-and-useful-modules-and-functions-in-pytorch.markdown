@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-03 10:08:35
+Date: 2020-02-03 10:08:35
 Author: Benjamin Du
 Slug: popular-and-useful-modules-and-functions-in-pytorch
 Title: Popular and Useful Modules and Functions in PyTorch

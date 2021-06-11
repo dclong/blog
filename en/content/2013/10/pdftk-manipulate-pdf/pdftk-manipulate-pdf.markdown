@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Use pdftk to Manipulating PDF Files
-Date: 2020-04-06 11:44:58
+Date: 2013-10-06 11:44:58
 Slug: pdftk-examples
 Category: Software
 Tags: pdftk, software, examples, PDF

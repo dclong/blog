@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-05 16:28:22
+Date: 2020-01-05 16:28:22
 Author: Benjamin Du
 Slug: the-bert-model-in-nlp
 Title: The Bert Model in NLP

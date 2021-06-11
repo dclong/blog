@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:00:33
+Date: 2017-04-22 15:00:33
 Author: Ben Chuanlong Du
 Title: Java PPA for Ubuntu
 Slug: java-ppa

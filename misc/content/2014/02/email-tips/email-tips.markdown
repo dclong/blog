@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:21:50
+Date: 2014-02-22 14:21:50
 Title: Work More Efficiently with Email
 Slug: email-tips
 Category: Software

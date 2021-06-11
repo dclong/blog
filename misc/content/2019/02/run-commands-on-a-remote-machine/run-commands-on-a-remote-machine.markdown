@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-06 23:21:30
+Date: 2019-02-06 23:21:30
 Author: Benjamin Du
 Slug: run-commands-on-remote-machines
 Title: Run Commands on Remote Machines

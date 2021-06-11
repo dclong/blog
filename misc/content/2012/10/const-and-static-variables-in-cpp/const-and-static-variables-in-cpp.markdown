@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-25 00:44:03
+Date: 2012-10-25 00:44:03
 Slug: const-and-static-variables-in-cpp
 Author: Ben Chuanlong Du
 Title: Const and Static Variables in C++

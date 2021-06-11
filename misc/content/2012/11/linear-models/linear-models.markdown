@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:24:54
+Date: 2012-11-22 12:24:54
 Title: Experiment Design
 Slug: linear-models
 Category: AI

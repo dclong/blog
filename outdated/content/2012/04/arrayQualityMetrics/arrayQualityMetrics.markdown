@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-06-11 19:11:28
+Date: 2012-04-11 19:11:28
 Slug: arrayQualityMetrics
 Author: Ben Chuanlong Du
 Title: Install the R Package "arrayQualityMetrics"

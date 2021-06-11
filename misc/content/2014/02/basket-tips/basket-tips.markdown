@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:34:42
+Date: 2014-02-22 12:34:42
 Title: Tips on Basket in KDE 
 Slug: basket-tips
 Category: Software

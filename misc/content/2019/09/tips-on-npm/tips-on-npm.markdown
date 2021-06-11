@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-03 21:44:47
+Date: 2019-09-03 21:44:47
 Author: Benjamin Du
 Slug: tips-on-npm
 Title: Tips on npm

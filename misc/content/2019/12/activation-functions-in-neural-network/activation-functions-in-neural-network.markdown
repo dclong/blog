@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-17 14:20:03
+Date: 2019-12-17 14:20:03
 Author: Benjamin Du
 Slug: activation-functions-in-neural-network
 Title: Activation Functions in Neural Network

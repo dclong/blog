@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Automated Phone Bill Using Ruby Program
-Date: 2014-06-18 08:17:18
+Date: 2012-06-18 08:17:18
 Tags: Python, programming, Verizon, Ruby, email, phone
 Category: Computer Science
 Slug: automated-verizon-bill-using-ruby

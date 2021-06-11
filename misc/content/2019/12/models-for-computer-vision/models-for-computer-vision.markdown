@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-07 09:50:39
+Date: 2019-12-07 09:50:39
 Author: Benjamin Du
 Slug: models-for-computer-vision
 Title: Models for Computer Vision

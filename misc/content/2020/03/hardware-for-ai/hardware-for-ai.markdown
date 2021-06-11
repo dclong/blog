@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-11 11:56:25
+Date: 2020-03-11 11:56:25
 Author: Benjamin Du
 Slug: hardware-for-ai
 Title: Hardware for AI

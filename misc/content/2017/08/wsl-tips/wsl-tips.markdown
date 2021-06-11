@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-26 23:23:44
+Date: 2017-08-26 23:23:44
 Author: Ben Chuanlong Du
 Slug: wsl-tips
 Title: Tips on WSL

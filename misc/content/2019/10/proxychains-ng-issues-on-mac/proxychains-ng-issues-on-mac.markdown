@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-21 22:30:14
+Date: 2019-10-21 22:30:14
 Author: Benjamin Du
 Slug: proxychains-ng-issues-on-mac
 Title: Proxychains-Ng Issues on Mac

@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: A Secure Way to Use Vino in Debian
-Date: 2015-02-03 19:41:59
+Date: 2013-09-03 19:41:59
 Slug: a-secure-way-to-use-vino-in-debian
 Author: Ben Chuanlong Du
 Category: OS

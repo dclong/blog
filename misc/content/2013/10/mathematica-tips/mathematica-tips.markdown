@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips for Mathematica
-Date: 2019-03-29 09:27:31
+Date: 2013-10-29 09:27:31
 Slug: mathematica-tips
 Category: Computer Science
 Tags: tips, programming, Mathematica, Wolfram

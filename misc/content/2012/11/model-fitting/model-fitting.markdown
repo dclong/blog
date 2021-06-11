@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:21:02
+Date: 2012-11-22 12:21:02
 Title: Model Fitting in ANOVA Analysis
 Slug: model-fitting
 Category: AI

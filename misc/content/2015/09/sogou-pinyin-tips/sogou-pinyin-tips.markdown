@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:18:02
+Date: 2015-09-22 13:18:02
 Author: Ben Chuanlong Du
 Slug: sogou-pinyin-tips
 Title: Use Sogou Pinyin to Type Chinese

@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-19 13:41:31
+Date: 2012-09-19 13:41:31
 Slug: install-gsl-library
 Author: Ben Chuanlong Du
 Title: Install the GSL Library

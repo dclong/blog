@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 16:49:09
+Date: 2019-08-24 16:49:09
 Author: Benjamin Du
 Slug: spark-issue-mac-spark-shell-error-initializing-sparkcontext
 Title: Spark Issue: Mac spark-shell Error Initializing SparkContext

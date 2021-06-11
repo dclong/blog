@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-06 12:45:31
+Date: 2020-03-06 12:45:31
 Author: Benjamin Du
 Slug: data-for-computer-vision-research
 Title: Data for Computer Vision Research

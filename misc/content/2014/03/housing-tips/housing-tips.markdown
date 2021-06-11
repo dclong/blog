@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:23:43
+Date: 2014-03-22 14:23:43
 Title: Tips on Housing
 Slug: housing-tips
 Category: Life

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-23 22:14:55
+Date: 2015-10-23 22:14:55
 Author: Ben Chuanlong Du
 Slug: mac-tips
 Title: Tips on macOS

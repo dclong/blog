@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-05-10 19:13:40
+Date: 2014-03-10 19:13:40
 Slug: compare-two-directories-on-linux
 Title: Compare Two Directories on Linux
 Category: OS

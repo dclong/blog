@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: An IO Bug in R
-Date: 2016-08-15 21:22:47
+Date: 2012-08-15 21:22:47
 Slug: input-bug-r
 Author: Ben Chuanlong Du
 Category: Computer Science

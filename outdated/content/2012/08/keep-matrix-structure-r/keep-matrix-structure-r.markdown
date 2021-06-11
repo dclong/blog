@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-05-14 22:04:52
+Date: 2012-08-14 22:04:52
 Slug: keep-matrix-structure-r
 Author: Ben Chuanlong Du
 Title: Keep Matrix Structure when Extract a Row/Column from a Matrix

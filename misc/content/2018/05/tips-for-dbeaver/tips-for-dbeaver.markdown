@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-28 21:36:04
+Date: 2018-05-28 21:36:04
 Author: Ben Chuanlong Du
 Slug: tips-for-dbeaver
 Title: Tips on dbeaver

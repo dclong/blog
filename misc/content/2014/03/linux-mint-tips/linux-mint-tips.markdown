@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-02-29 17:08:42
+Date: 2014-03-29 17:08:42
 Slug: linux-mint-tips
 Title: Tips on Linux Mint
 Category: OS

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-21 11:51:30
+Date: 2020-01-21 11:51:30
 Author: Benjamin Du
 Slug: use-pytorch-on-gpu
 Title: Use PyTorch on GPU

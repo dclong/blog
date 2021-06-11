@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-10-23 22:27:25
+Date: 2015-01-23 22:27:25
 Author: Ben Chuanlong Du
 Slug: install-essential-and-useful-r-packages
 Title: Install Essential and Useful R Packages

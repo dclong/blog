@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-28 11:37:35
+Date: 2019-12-28 11:37:35
 Author: Benjamin Du
 Slug: calling-rust-from-python
 Title: Calling Rust from Python

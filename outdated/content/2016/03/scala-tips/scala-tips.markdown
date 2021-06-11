@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-24 19:09:23
+Date: 2016-03-24 19:09:23
 Author: Ben Chuanlong Du
 Slug: scala-tips
 Title: Tips on Scala

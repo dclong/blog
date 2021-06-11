@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-21 13:44:37
+Date: 2020-01-21 13:44:37
 Author: Benjamin Du
 Slug: training-deep-neural-networks
 Title: Training Deep Neural Networks

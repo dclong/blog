@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-17 18:52:19
+Date: 2009-11-17 18:52:19
 Slug: format-data-in-sas
 Author: Ben Chuanlong Du
 Title: Formatting Data in SAS

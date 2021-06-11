@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-29 09:29:01
+Date: 2012-07-29 09:29:01
 Slug: list-files-without-tilde-linux
 Author: Ben Chuanlong Du
 Title: Advanced Use of "ls" in Linux

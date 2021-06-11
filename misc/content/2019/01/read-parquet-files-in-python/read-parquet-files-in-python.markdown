@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-30 20:47:36
+Date: 2019-01-30 20:47:36
 Author: Ben Chuanlong Du
 Slug: read-and-write-parquet-files-in-python
 Title: Read and Write Parquet Files in Python

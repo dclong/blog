@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:35:14
+Date: 2014-03-22 12:35:14
 Title: Tips on Autostart
 Slug: autostart-tips
 Category: OS

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:53:28
+Date: 2013-10-22 14:53:28
 Title: Search for Files in Command-line Using grep
 Slug: grep-tips
 Category: OS

@@ -1,6 +1,6 @@
 Status: published
 Title: Tips on the Ruby Programming Language
-Date: 2020-04-06 11:28:52
+Date: 2012-08-06 11:28:52
 Tags: array, IO, Ruby, programming, string
 Category: Computer Science
 Slug: tips-ruby

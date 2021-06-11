@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:22:37
+Date: 2019-01-22 15:22:37
 Author: Ben Chuanlong Du
 Slug: qt5-tips
 Title: Developing GUI Applications Using Qt5

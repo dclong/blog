@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Ways to Make a Bootable Flash Drive in Linux
-Date: 2017-03-19 10:33:38
+Date: 2013-07-19 10:33:38
 Slug: ways-to-make-a-bootable-flash-drive
 Author: Ben Chuanlong Du
 Category: OS

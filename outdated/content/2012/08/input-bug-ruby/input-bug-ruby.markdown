@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 11:28:52
+Date: 2012-08-06 11:28:52
 Slug: input-bug-ruby
 Author: Ben Chuanlong Du
 Title: An Input Bug in Ruby

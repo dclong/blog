@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-12 10:45:08
+Date: 2012-10-12 10:45:08
 Slug: collections-and-iterators-in-cpp
 Author: Ben Chuanlong Du
 Title: Collections and Iterators in C++

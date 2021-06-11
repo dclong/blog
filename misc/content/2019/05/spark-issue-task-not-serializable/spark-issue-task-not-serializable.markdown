@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-22 10:11:48
+Date: 2019-05-22 10:11:48
 Author: Benjamin Du
 Slug: spark-issue-task-not-serializable
 Title: Spark Issue: Task Not Serializable

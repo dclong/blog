@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: General Tips for MATLAB
-Date: 2014-09-08 10:35:47
+Date: 2012-12-08 10:35:47
 Tags: tips, skills, programming, MATLAB
 Category: Computer Science
 Slug: general-tips-for-MATLAB

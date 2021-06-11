@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-05-11 01:05:59
+Date: 2013-10-11 01:05:59
 Slug: firefox-tips
 Title: Tips on Firefox
 Category: Software

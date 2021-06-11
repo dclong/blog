@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-05-15 19:07:49
+Date: 2012-06-15 19:07:49
 Slug: good-ways-scientific-computing
 Title: Good Ways to Do Scientific Computing
 Category: Research

@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Missing Grub Menu of Windows Operating System
-Date: 2015-02-03 19:10:47
+Date: 2012-05-03 19:10:47
 Slug: missing-grub-windows
 Author: Ben Chuanlong Du
 Category: OS

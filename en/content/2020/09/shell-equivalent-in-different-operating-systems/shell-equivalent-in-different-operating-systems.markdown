@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-02 09:22:34
+Date: 2020-09-02 09:22:34
 Author: Benjamin Du
 Slug: shell-equivalent-in-different-operating-systems
 Title: Shell Equivalent in Different Operating Systems

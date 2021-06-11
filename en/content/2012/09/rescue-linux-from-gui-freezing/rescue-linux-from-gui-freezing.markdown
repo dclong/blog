@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:30:22
+Date: 2012-09-20 10:30:22
 Slug: rescue-linux-from-gui-freezing
 Author: Ben Chuanlong Du
 Title: Rescue Linux from GUI Freezing

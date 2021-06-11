@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:12:54
+Date: 2013-11-22 13:12:54
 Title: The Tiny antiX Linux Distribution
 Slug: antix-tips
 Category: OS

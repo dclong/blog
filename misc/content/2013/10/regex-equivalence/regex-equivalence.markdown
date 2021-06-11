@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-03-30 12:29:42
+Date: 2013-10-30 12:29:42
 Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:45:17
+Date: 2015-02-22 13:45:17
 Title: Record Computer Screen using RecordMyDesktop
 Slug: recordmydesktop-tips
 Category: Software

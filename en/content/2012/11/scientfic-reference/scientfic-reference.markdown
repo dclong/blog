@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Scientific References
-Date: 2016-07-13 00:05:06
+Date: 2012-11-13 00:05:06
 Tags: LaTeX, reference, research, Bibtex, software
 Category: Software
 Slug: scientfic-reference

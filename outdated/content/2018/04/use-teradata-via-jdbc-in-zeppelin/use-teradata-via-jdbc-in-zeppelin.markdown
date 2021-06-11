@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-10 10:00:59
+Date: 2018-04-10 10:00:59
 Author: Ben Chuanlong Du
 Slug: use-teradata-via-jdbc-in-zeppelin
 Title: Use Teradata via JDBC in Zeppelin

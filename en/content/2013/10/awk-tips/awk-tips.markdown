@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips for AWK
-Date: 2017-03-19 10:22:17
+Date: 2013-10-19 10:22:17
 Slug: awk-tips
 Category: Software
 Tags: tips, awk, text manipulation

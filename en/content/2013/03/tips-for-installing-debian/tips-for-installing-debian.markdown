@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-11 01:05:59
+Date: 2013-03-11 01:05:59
 Author: Ben Chuanlong Du
 Slug: tips-for-installing-debian
 Title: Tips on Installing Debian Series Linux Distributions

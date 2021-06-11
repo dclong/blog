@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-03 10:08:36
+Date: 2012-12-03 10:08:36
 Slug: graphics-in-MATLAB
 Author: Ben Chuanlong Du
 Title: MATLAB for Visualization

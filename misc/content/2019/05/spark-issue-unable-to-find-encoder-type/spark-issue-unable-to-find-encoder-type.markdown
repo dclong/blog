@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-21 12:14:37
+Date: 2019-05-21 12:14:37
 Author: Benjamin Du
 Slug: spark-unable-to-find-encoder-type-issue
 Title: Spark Issue: Unable to Find Encoder Type

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-03 16:17:10
+Date: 2019-01-03 16:17:10
 Author: Ben Chuanlong Du
 Slug: shell-alternatives
 Title: Python Alternatives to Shell

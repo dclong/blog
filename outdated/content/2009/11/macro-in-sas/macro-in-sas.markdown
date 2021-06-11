@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Macro in SAS
-Date: 2015-08-28 16:43:05
+Date: 2009-11-28 16:43:05
 Tags: dot, SAS, macro, branch, programming
 Category: Computer Science
 Slug: macro-in-sas

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:06:10
+Date: 2017-05-22 15:06:10
 Author: Ben Chuanlong Du
 Title: Connect to MySQL Using PyMySQL
 Slug: pymysql-tips

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:49:26
+Date: 2015-05-22 14:49:26
 Author: Ben Chuanlong Du
 Slug: spyder-tips
 Title: Tips on Spyder

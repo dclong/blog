@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:59:57
+Date: 2017-04-22 14:59:57
 Author: Ben Chuanlong Du
 Title: The CentOS Linux Distribution
 Slug: centos-tips

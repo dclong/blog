@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-26 13:10:46
+Date: 2020-10-26 13:10:46
 Author: Benjamin Du
 Slug: tips-on-frontend-development
 Title: Tips on Frontend Development

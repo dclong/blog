@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Cool Shell/Terminal Commands
-Date: 2014-06-18 21:38:38
+Date: 2012-09-18 21:38:38
 Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-17 11:28:45
+Date: 2012-06-17 11:28:45
 Slug: softwares-windows
 Author: Ben Chuanlong Du
 Title: Software I Use in Windows System

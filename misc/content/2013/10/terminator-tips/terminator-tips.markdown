@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2015-10-18 14:03:09
+Date: 2013-10-18 14:03:09
 Slug: terminator-tips
 Title: Terminator is an Awesome Terminal Emulator
 Category: Software

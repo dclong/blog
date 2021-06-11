@@ -1,6 +1,6 @@
 UUID: 8a87bfc2-2b57-419d-8773-6f44c6f21eda
 Status: published
-Date: 2016-06-11 17:13:18
+Date: 2016-01-11 17:13:18
 Author: Ben Chuanlong Du
 Slug: data-manipulation-tools-in-r
 Title: Data Manipulation Tools in R

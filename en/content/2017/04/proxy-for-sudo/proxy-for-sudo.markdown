@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-07 23:42:48
+Date: 2017-04-07 23:42:48
 Author: Ben Chuanlong Du
 Slug: proxy-for-sudo
 Title: Proxy for `sudo`

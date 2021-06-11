@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 20:02:57
+Date: 2019-03-03 20:02:57
 Author: Benjamin Du
 Slug: spacevim-tips
 Title: SpaceVim - A Modern Vim Distribution

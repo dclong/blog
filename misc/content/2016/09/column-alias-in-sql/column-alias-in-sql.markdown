@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-14 20:37:13
+Date: 2016-09-14 20:37:13
 Author: Ben Chuanlong Du
 Slug: use-column-alias-in-sql
 Title: Use Column Alias in SQL

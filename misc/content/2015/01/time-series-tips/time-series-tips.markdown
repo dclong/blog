@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:26:10
+Date: 2015-01-22 13:26:10
 Author: Ben Chuanlong Du
 Title: Time Series Analysis
 Slug: time-series-tips

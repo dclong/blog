@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 16:57:03
+Date: 2018-12-08 16:57:03
 Author: Ben Chuanlong Du
 Slug: gradle-tips
 Title: General Tips for Gradle

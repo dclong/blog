@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-08-26 22:09:17
+Date: 2015-02-26 22:09:17
 Author: Ben Chuanlong Du
 Slug: transpose-data-in-sas
 Title: Transpose Data in SAS

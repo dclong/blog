@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2021-03-14 16:08:55
+Date: 2012-06-14 16:08:55
 Slug: operators-popular-language
 Author: Ben Chuanlong Du
 Title: Operators in Different Programming Languages

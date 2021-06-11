@@ -1,6 +1,6 @@
 UUID: 7777a516-ccea-454d-847a-b26589d53623
 Status: published
-Date: 2017-10-22 12:37:19
+Date: 2017-08-22 12:37:19
 Author: Ben Chuanlong Du
 Slug: get-group-names-on-linux-unix
 Title: Get Group Names on Linux/Unix

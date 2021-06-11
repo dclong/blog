@@ -2,7 +2,7 @@ UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Author: Ben Chuanlong Du
 Slug: interact-between-different-vim-sessions
-Date: 2014-12-26 10:35:12
+Date: 2012-11-26 10:35:12
 Title: Interact with System Clipboard in Vim
 Category: Software
 Tags: Vim, software, Linux, clipboard, copy, paste

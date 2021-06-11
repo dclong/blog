@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:55:48
+Date: 2013-10-22 14:55:48
 Title: Tips on Vimperator
 Slug: vimperator-tips
 Category: Software

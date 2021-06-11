@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-08-22 12:34:03
+Date: 2014-01-22 12:34:03
 Slug: smart-phone-tips
 Title: Tips on Smart Phone
 Category: Life

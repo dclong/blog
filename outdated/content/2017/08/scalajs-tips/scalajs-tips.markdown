@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:05:15
+Date: 2017-08-22 15:05:15
 Author: Ben Chuanlong Du
 Slug: scalajs-tips
 Title: Tips on ScalaJS

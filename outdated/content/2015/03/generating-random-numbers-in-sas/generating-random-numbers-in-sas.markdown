@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-10 22:05:12
+Date: 2015-03-10 22:05:12
 Author: Ben Chuanlong Du
 Slug: generating-random-numbers-in-sas
 Title: Generating Random Numbers in SAS

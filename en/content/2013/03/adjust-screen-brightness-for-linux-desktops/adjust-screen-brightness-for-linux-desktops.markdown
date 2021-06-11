@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Adjust Screen Brightness for Linux Desktops
-Date: 2015-02-03 19:57:46
+Date: 2013-03-03 19:57:46
 Slug: adjust-screen-brightness-for-linux-desktops
 Author: Ben Chuanlong Du
 Category: OS

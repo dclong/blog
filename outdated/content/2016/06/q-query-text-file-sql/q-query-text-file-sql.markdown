@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-05 16:19:58
+Date: 2016-06-05 16:19:58
 Author: Ben Chuanlong Du
 Slug: q-query-text-file-sql
 Title: Use q to Query Text File Using SQL Syntax

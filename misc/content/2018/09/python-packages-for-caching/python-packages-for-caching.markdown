@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-06 00:59:06
+Date: 2018-09-06 00:59:06
 Author: Ben Chuanlong Du
 Slug: python-packages-for-caching
 Title: Serialization and Caching in Python

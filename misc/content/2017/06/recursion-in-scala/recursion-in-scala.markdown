@@ -1,6 +1,6 @@
 UUID: 761ece83-262f-47cb-ac9b-1fcf7b1ec663
 Status: published
-Date: 2017-10-22 13:34:25
+Date: 2017-06-22 13:34:25
 Author: Ben Chuanlong Du
 Slug: recursion-in-scala
 Title: Recursion in Scala

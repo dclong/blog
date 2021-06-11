@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:35:46
+Date: 2012-10-20 10:35:46
 Slug: lambda-function-in-cpp11
 Author: Ben Chuanlong Du
 Title: Lambda Function in C++11

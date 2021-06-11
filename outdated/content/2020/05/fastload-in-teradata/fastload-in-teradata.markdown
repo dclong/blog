@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-22 09:06:28
+Date: 2020-05-22 09:06:28
 Author: Benjamin Du
 Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata

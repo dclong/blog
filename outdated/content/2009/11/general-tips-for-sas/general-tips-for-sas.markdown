@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-08-02 12:05:07
+Date: 2009-11-02 12:05:07
 Author: Ben Chuanlong Du
 Slug: general-tips-for-sas
 Title: General Tips for SAS

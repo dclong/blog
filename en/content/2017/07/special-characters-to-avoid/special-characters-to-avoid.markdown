@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-03 21:56:32
+Date: 2017-07-03 21:56:32
 Author: Ben Chuanlong Du
 Slug: special-characters-to-avoid
 Title: Special Characters to Avoid in Strings

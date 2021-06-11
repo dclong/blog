@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2014-12-16 19:47:59
+Date: 2014-07-16 19:47:59
 Author: Ben Chuanlong Du
 Slug: stick-breaking-problems
 Title: Stick Breaking Problems

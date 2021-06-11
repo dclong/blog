@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:02:05
+Date: 2014-09-22 13:02:05
 Author: Ben Chuanlong Du
 Title: Algorithms and Tools for Encryption
 Slug: encryption-tips

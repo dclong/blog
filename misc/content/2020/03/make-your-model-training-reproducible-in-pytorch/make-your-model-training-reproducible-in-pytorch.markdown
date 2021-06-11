@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-16 14:34:57
+Date: 2020-03-16 14:34:57
 Author: Benjamin Du
 Slug: make-your-model-training-reproducible-in-pytorch
 Title: Make Your Model Training Reproducible in PyTorch

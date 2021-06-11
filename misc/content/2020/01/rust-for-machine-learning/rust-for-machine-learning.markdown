@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 22:43:48
+Date: 2020-01-27 22:43:48
 Author: Benjamin Du
 Slug: rust-for-machine-learning
 Title: Rust for Machine Learning

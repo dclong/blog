@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 11:28:52
+Date: 2012-06-06 11:28:52
 Author: Ben Chuanlong Du
 Title: Send Email in Ruby
 Slug: send-email-ruby

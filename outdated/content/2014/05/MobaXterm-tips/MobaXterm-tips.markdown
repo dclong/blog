@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:40:46
+Date: 2014-05-22 15:40:46
 Title: Tips on MobaXterm
 Slug: MobaXterm-tips
 Category: Software

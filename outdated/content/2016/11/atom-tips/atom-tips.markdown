@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 14:20:40
+Date: 2016-11-06 14:20:40
 Author: Ben Chuanlong Du
 Slug: atom-tips
 Title: Tips on Atom

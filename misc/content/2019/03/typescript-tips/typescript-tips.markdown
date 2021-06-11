@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-26 11:47:33
+Date: 2019-03-26 11:47:33
 Author: Benjamin Du
 Slug: typescript-tips
 Title: Tips on TypeScript

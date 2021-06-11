@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-13 00:02:34
+Date: 2012-11-13 00:02:34
 Slug: graphics-in-latex
 Author: Ben Chuanlong Du
 Title: Graphics in LaTeX

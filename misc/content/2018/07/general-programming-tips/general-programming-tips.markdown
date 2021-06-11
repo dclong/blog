@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-20 00:25:59
+Date: 2018-07-20 00:25:59
 Author: Ben Chuanlong Du
 Slug: general-programming-tips
 Title: General Tips on Programming

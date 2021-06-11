@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-11 18:17:52
+Date: 2020-03-11 18:17:52
 Author: Benjamin Du
 Slug: device-managment-in-pytorch
 Title: Device Managment in PyTorch

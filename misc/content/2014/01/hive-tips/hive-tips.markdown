@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:35:31
+Date: 2014-01-22 15:35:31
 Title: Hive SQL
 Slug: hive-tips
 Category: Computer Science

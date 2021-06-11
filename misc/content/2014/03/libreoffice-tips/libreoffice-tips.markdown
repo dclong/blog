@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:38:17
+Date: 2014-03-22 12:38:17
 Title: Tips on Libreoffice
 Slug: libreoffice-tips
 Category: Software

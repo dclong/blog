@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Working Remotely in Linux
-Date: 2017-03-01 23:20:51
+Date: 2012-05-01 23:20:51
 Slug: work-remotely-linux
 Author: Ben Chuanlong Du
 Category: OS

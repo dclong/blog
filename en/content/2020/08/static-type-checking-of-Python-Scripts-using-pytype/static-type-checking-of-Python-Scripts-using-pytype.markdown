@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 09:16:10
+Date: 2020-08-30 09:16:10
 Author: Benjamin Du
 Slug: static-type-checking-of-Python-Scripts-using-pytype
 Title: Static Type Checking of Python Scripts Using pytype

@@ -1,6 +1,6 @@
 UUID: d43839ed-ef6d-4e1b-8360-2145528057b9
 Status: published
-Date: 2017-10-22 12:59:02
+Date: 2017-08-22 12:59:02
 Author: Ben Chuanlong Du
 Slug: unit-test-for-scala
 Title: Unit Test for Scala

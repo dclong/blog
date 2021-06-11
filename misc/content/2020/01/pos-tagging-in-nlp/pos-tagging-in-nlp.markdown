@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-11 15:58:10
+Date: 2020-01-11 15:58:10
 Author: Benjamin Du
 Slug: pos-tagging-in-nlp
 Title: POS Tagging in NLP

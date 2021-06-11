@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-15 12:10:03
+Date: 2014-05-15 12:10:03
 Author: Ben Chuanlong Du
 Title: Tips on Teradata SQL
 Slug: teradata-sql-tips

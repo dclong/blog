@@ -1,6 +1,6 @@
 Status: published
 Title: Compress and Decompressing Archives in Linux
-Date: 2020-07-19 23:12:07
+Date: 2012-05-19 23:12:07
 Slug: compress-and-decompress-in-linux
 Author: Ben Chuanlong Du
 Category: OS

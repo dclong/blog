@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:07:56
+Date: 2017-10-22 15:07:56
 Author: Ben Chuanlong Du
 Title: Chinese Pinyin Input Method
 Slug: tips-for-chinese-pinyin-input

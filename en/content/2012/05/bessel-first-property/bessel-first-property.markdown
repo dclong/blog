@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2014-07-28 21:55:16
+Date: 2012-05-28 21:55:16
 Author: Ben Chuanlong Du
 Slug: bessel-first-property
 Title: Some Useful Properties of Modified Bessel Functions of the First Kind

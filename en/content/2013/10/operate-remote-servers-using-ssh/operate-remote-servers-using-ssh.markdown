@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Operate Remote Servers Using SSH
-Date: 2020-10-22 11:03:15
+Date: 2013-10-22 11:03:15
 Slug: ssh-tips
 Category: Software
 Tags: tips, SSH, software, remote, Linux, ControlMaster, ControlPersist, ProxyCommand, ControlPath

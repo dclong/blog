@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-18 17:09:47
+Date: 2019-05-18 17:09:47
 Author: Benjamin Du
 Slug: tips-on-etrade
 Title: Tips on eTrade

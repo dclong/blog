@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-05 08:26:34
+Date: 2017-06-05 08:26:34
 Author: Ben Chuanlong Du
 Slug: install-python-packages
 Title: Install Python Packages Using pip

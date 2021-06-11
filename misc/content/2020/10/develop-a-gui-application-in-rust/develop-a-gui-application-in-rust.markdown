@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-03 21:36:53
+Date: 2020-10-03 21:36:53
 Author: Benjamin Du
 Slug: develop-a-gui-application-in-rust
 Title: Develop a GUI Application in Rust

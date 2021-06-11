@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Tips for the IML Procedure in SAS
-Date: 2015-02-19 15:30:52
+Date: 2012-07-19 15:30:52
 Tags: SAS, matrix, programming, IML
 Category: Computer Science
 Slug: sas-iml-procedure

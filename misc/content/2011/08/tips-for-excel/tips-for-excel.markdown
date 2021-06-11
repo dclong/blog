@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:10:13
+Date: 2011-08-22 13:10:13
 Slug: tips-for-excel
 Author: Ben Chuanlong Du
 Title: Tips on Excel

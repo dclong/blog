@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:02:47
+Date: 2015-01-22 14:02:47
 Author: Ben Chuanlong Du
 Title: Tips on KDevelop
 Slug: kdevelop-tips

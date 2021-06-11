@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:22:28
+Date: 2015-09-22 14:22:28
 Author: Ben Chuanlong Du
 Title: Living in Shanghai
 Slug: shanghai-tips

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-14 14:14:35
+Date: 2016-12-14 14:14:35
 Author: Ben Chuanlong Du
 Slug: auto-typing-tools
 Title: Auto Typing Tools

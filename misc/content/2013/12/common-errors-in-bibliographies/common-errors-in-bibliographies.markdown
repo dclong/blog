@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2016-07-13 00:09:02
+Date: 2013-12-13 00:09:02
 Slug: common-errors-in-bibliographies
 Title: Common Errors in Bibliographies
 Category: Research

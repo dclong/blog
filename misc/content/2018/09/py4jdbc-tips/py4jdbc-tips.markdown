@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 16:09:08
+Date: 2018-09-22 16:09:08
 Author: Ben Chuanlong Du
 Slug: py4jdbc-tips
 Title: Connecting to Databases Using py4jdbc in Python

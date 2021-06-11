@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-16 15:00:28
+Date: 2014-09-16 15:00:28
 Author: Ben Chuanlong Du
 Slug: sikuli-tips
 Title: Use SikuliX to Automate Anything 

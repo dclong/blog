@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-10-11 01:11:28
+Date: 2018-09-11 01:11:28
 Author: Ben Chuanlong Du
 Slug: resolve-the-dns-contamination-issue-in-firefox
 Title: Resolve the DNS Contamination Issue in Firefox

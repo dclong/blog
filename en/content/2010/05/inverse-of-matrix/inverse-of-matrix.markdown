@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Inverse of a Special Class of Matrices with High Dimensions
-Date: 2013-10-30 22:12:02
+Date: 2010-05-30 22:12:02
 Tags: inverse, fun problems, matrix, math, statistics, R, high dimension
 Category: Fun Problems
 Slug: inverse-of-matrix

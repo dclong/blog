@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Use LaTeX in Linux
-Date: 2017-02-10 07:49:45
+Date: 2012-11-10 07:49:45
 Tags: LaTeX, TeX Live, Linux, software
 Category: Software
 Slug: use-latex-in-linux

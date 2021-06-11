@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:41:22
+Date: 2012-12-20 10:41:22
 Slug: tricky-problems-in-MATLAB
 Author: Ben Chuanlong Du
 Title: Tricky Problems in MATLAB

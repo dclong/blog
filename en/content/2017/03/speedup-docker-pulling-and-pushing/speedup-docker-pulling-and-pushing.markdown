@@ -1,6 +1,6 @@
 UUID: 709db98e-f0f6-456c-8fbd-248f28157e98
 Status: published
-Date: 2020-01-29 01:23:50
+Date: 2017-03-29 01:23:50
 Author: Ben Chuanlong Du
 Slug: speedup-docker-pulling-and-pushing
 Title: Speedup Docker Pulling and Pushing

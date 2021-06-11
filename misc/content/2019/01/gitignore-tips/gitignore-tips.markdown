@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-11 11:35:36
+Date: 2019-01-11 11:35:36
 Author: Ben Chuanlong Du
 Slug: gitignore-tips
 Title: Gitignore Examples

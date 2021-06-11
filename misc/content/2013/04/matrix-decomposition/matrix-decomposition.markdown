@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Matrix Decomposition
-Date: 2013-10-24 23:14:16
+Date: 2013-04-24 23:14:16
 Tags: statistics, math, algebra, decomposition, matrix
 Category: AI
 Slug: matrix-decomposition

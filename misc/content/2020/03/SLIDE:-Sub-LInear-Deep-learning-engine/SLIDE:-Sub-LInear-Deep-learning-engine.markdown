@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-11 12:01:22
+Date: 2020-03-11 12:01:22
 Author: Benjamin Du
 Slug: slide-Sub-LInear-Deep-learning-engine
 Title: SLIDE: Sub-Linear Deep Learning Engine

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-02 14:46:43
+Date: 2018-04-02 14:46:43
 Author: Ben Chuanlong Du
 Slug: change-shell-in-mac
 Title: Change Shell in Mac

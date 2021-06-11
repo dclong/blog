@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-24 08:45:48
+Date: 2020-08-24 08:45:48
 Author: Benjamin Du
 Slug: tips-on-gatsby
 Title: Tips on Gatsby

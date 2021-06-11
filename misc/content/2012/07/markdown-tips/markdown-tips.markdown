@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-06-22 09:25:23
+Date: 2012-07-22 09:25:23
 Title: Writing Docs Using Markdown
 Slug: markdown-tips
 Category: Computer Science

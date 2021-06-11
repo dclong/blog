@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-08-05 10:56:31
+Date: 2012-10-05 10:56:31
 Slug: working-with-class-in-cpp
 Author: Ben Chuanlong Du
 Title: Working with Class in C++

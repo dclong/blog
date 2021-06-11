@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-18 09:05:13
+Date: 2019-02-18 09:05:13
 Author: Benjamin Du
 Title: Static Type Checking of Python Scripts Using Mypy
 Slug: static-type-checking-python-mypy

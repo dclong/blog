@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 11:48:36
+Date: 2015-05-20 11:48:36
 Author: Ben Chuanlong Du
 Slug: sql-equivalent
 Title: SQL Equivalent

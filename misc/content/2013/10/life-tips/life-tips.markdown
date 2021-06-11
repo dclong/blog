@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Misc Tips in Daily Life
-Date: 2020-05-22 13:31:43
+Date: 2013-10-22 13:31:43
 Slug: life-tips
 Category: Life
 Tags: tips, life, printing, insurance, internet

@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-10-23 17:13:18
+Date: 2012-11-23 17:13:18
 Slug: writing-r-extensions
 Author: Ben Chuanlong Du
 Title: Writing R Extensions

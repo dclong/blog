@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:41:55
+Date: 2017-04-22 15:41:55
 Author: Ben Chuanlong Du
 Title: Maning Packages Using Yum in CentOS
 Slug: yum-tips

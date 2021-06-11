@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-09 18:20:45
+Date: 2012-11-09 18:20:45
 Slug: io-in-r
 Author: Ben Chuanlong Du
 Title: Input and Output in R

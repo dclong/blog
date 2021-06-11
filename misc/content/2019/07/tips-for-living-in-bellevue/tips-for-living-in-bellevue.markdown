@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:45:42
+Date: 2019-07-22 15:45:42
 Author: Benjamin Du
 Slug: tips-for-living-in-bellevue
 Title: Living in Bellevue

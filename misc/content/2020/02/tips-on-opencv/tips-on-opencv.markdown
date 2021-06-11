@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-26 12:35:53
+Date: 2020-02-26 12:35:53
 Author: Benjamin Du
 Slug: tips-on-opencv
 Title: Tips on OpenCV

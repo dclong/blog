@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-24 10:43:54
+Date: 2014-08-24 10:43:54
 Author: Ben Chuanlong Du
 Slug: matlab-tips
 Title: MATLAB Tips

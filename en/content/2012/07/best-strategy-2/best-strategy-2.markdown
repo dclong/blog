@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Which One Is the Best Strategy? (continued)
-Date: 2013-10-30 15:13:01
+Date: 2012-07-30 15:13:01
 Tags: Mathematica, pattern, Markov chain, statistics, probability, sequence, coin, fun problems
 Category: Fun Problems
 Slug: best-strategy-2

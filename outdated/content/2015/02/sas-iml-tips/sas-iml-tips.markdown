@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-05-17 18:24:11
+Date: 2015-02-17 18:24:11
 Author: Ben Chuanlong Du
 Slug: sas-IML-tips
 Title: SAS IML Tips

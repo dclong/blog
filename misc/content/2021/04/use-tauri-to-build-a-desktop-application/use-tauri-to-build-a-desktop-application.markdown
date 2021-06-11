@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-03 21:42:15
+Date: 2021-04-03 21:42:15
 Author: Benjamin Du
 Slug: use-tauri-to-build-a-desktop-application
 Title: Use Tauri to Build a Desktop Application

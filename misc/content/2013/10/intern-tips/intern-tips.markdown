@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Some Tips for Intern Projects
-Date: 2019-03-30 17:25:44
+Date: 2013-10-30 17:25:44
 Slug: intern-tips
 Category: Software
 Tags: tips

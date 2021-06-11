@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-13 00:02:08
+Date: 2012-11-13 00:02:08
 Slug: convert-latex-to-word
 Author: Ben Chuanlong Du
 Title: Convert LaTeX to Word

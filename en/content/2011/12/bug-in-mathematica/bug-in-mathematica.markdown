@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: A Bug in Mathematica
-Date: 2016-08-15 21:22:23
+Date: 2011-12-15 21:22:23
 Slug: bug-in-mathematica
 Author: Ben Chuanlong Du
 Category: Computer Science

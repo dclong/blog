@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-24 22:22:41
+Date: 2012-10-24 22:22:41
 Slug: input-and-output-in-cpp
 Author: Ben Chuanlong Du
 Title: Input and Output in C++

@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2017-03-04 14:29:35
+Date: 2013-10-04 14:29:35
 Slug: thunderbird-tips
 Title: Random Tips About Thunderbird
 Category: Software

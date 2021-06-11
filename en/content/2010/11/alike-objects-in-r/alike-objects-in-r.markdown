@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Alike Objects/Functions in R
-Date: 2013-12-05 00:19:25
+Date: 2010-11-05 00:19:25
 Tags: programming, regex, data frame, matrix, R, warning
 Category: Computer Science
 Slug: alike-objects-in-r

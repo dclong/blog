@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-08-02 12:40:28
+Date: 2012-07-02 12:40:28
 Slug: sas-data-manipulation
 Author: Ben Chuanlong Du
 Title: Manipulate Data in SAS

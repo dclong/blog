@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-26 12:45:00
+Date: 2012-05-26 12:45:00
 Author: Ben Chuanlong Du
 Slug: rstudio-not-start
 Title: RStudio Does Not Start

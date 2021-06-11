@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:59:38
+Date: 2013-03-20 10:59:38
 Slug: dual-monitor-for-linux-desktop
 Author: Ben Chuanlong Du
 Title: Dual Monitor for Linux Desktop

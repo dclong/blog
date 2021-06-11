@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-08 13:46:55
+Date: 2019-01-08 13:46:55
 Author: Ben Chuanlong Du
 Slug: tips-for-git-large-file-storage
 Title: Git Large File Storage

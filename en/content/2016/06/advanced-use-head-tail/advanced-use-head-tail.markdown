@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-06 18:22:00
+Date: 2016-06-06 18:22:00
 Author: Ben Chuanlong Du
 Slug: advanced-use-head-tail
 Title: Advanced Use of "head" and "tail" 

@@ -1,6 +1,6 @@
 Status: published
 Title: Parallel Computing Using Multithreading
-Date: 2020-03-26 11:14:47
+Date: 2012-06-26 11:14:47
 Slug: parallel-computing-using-multithreading
 Author: Ben Chuanlong Du
 Category: Computer Science

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-14 09:41:49
+Date: 2017-07-14 09:41:49
 Author: Ben Chuanlong Du
 Slug: docker-images-for-programming-languages
 Title: Docker Images for Programming Languages

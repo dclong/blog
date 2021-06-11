@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:53:23
+Date: 2013-10-22 13:53:23
 Title: Tips on IBus
 Slug: ibus-tips
 Category: Software

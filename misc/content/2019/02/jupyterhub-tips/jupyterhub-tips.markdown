@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-04 23:14:16
+Date: 2019-02-04 23:14:16
 Author: Benjamin Du
 Slug: jupyterhub-tips
 Title: Tips on JupyterHub

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 21:22:04
+Date: 2017-06-29 21:22:04
 Author: Ben Chuanlong Du
 Slug: tips-on-creating-docker-images
 Title: Tips on Creating Docker Images

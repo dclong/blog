@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: LaTeX Commands for Compiling
-Date: 2016-07-13 00:03:31
+Date: 2012-11-13 00:03:31
 Tags: compile, LaTeX, programming
 Category: Computer Science
 Slug: latex-commands

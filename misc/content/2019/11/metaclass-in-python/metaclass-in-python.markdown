@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 10:22:51
+Date: 2019-11-12 10:22:51
 Author: Benjamin Du
 Slug: class-in-python
 Title: Class in Python

@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2017-04-09 23:47:21
+Date: 2012-11-09 23:47:21
 Slug: traps-in-r
 Author: Ben Chuanlong Du
 Title: Traps in R

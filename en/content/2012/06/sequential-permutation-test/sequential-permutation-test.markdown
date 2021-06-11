@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-03 10:17:03
+Date: 2012-06-03 10:17:03
 Slug: sequential-permutation-test
 Author: Ben Chuanlong Du
 Title: Estimation of False Discovery Rate using Sequential Permutation Pvalues

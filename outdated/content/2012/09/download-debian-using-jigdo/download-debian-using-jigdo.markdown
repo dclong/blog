@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Download Debian Using Jigdo
-Date: 2015-02-03 19:59:19
+Date: 2012-09-03 19:59:19
 Slug: download-debian-using-jigdo
 Author: Ben Chuanlong Du
 Category: OS

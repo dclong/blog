@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Slug: effect-of-duplicating-observations-in-linear-models
 Author: Ben Chuanlong Du
-Date: 2016-08-15 21:45:26
+Date: 2013-08-15 21:45:26
 Title: Effect of Duplicating Observations in Linear Models
 Category: AI
 Tags: duplicate, statistics, modeling, linear model, observation

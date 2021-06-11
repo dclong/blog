@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-30 09:27:28
+Date: 2020-02-30 09:27:28
 Author: Benjamin Du
 Slug: Use-tablesample-in-sql
 Title: Use TableSample in SQL

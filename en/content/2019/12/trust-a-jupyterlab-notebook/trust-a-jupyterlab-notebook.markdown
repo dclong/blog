@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-29 20:14:09
+Date: 2019-12-29 20:14:09
 Author: Benjamin Du
 Slug: trust-a-jupyterlab-notebook
 Title: Trust a JupyterLab Notebook

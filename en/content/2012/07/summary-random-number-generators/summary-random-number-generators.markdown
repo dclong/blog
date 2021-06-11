@@ -1,6 +1,6 @@
 Status: published
 Title: Summary on Random Number Generators
-Date: 2019-05-27 21:14:07
+Date: 2012-07-27 21:14:07
 Slug: summary-random-number-generators
 Author: Ben Chuanlong Du
 Category: AI

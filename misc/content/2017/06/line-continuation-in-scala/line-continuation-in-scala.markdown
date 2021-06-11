@@ -1,6 +1,6 @@
 UUID: c2f77786-8408-4db9-854d-99abcec1dc38
 Status: published
-Date: 2017-10-22 13:35:34
+Date: 2017-06-22 13:35:34
 Author: Ben Chuanlong Du
 Slug: line-continuation-in-scala
 Title: Line Continuation in Scala

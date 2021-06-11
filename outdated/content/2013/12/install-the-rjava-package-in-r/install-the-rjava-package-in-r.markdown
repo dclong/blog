@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Install the rJava Package in R
 Author: Ben Chuanlong Du
-Date: 2016-12-10 01:44:32
+Date: 2013-12-10 01:44:32
 Slug: install-the-rjava-package-in-r
 Category: Software
 Tags: R, rJava, Java, Linux

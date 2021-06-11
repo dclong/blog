@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-05 13:11:06
+Date: 2019-06-05 13:11:06
 Author: Benjamin Du
 Slug: tips-on-kerberos
 Title: Tips on Kerberos

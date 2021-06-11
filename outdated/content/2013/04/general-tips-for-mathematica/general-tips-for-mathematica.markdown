@@ -1,5 +1,5 @@
 Author: Ben Chuanlong Du
-Date: 2020-05-25 21:27:34
+Date: 2013-04-25 21:27:34
 Title: General Tips on Mathematica
 Slug: general-tips-for-mathematica
 Category: Computer Science

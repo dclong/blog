@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:31:43
+Date: 2017-01-22 13:31:43
 Author: Ben Chuanlong Du
 Slug: traveling-tips
 Title: Traveling Without Hassle

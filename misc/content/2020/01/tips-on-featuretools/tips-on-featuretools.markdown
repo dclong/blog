@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-18 15:12:37
+Date: 2020-01-18 15:12:37
 Author: Benjamin Du
 Slug: tips-on-featuretools
 Title: Tips on FeatureTools

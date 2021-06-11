@@ -1,6 +1,6 @@
 UUID: 10942641-38f8-4be4-b2cd-35ee50058384
 Status: published
-Date: 2016-12-04 20:59:32
+Date: 2016-05-04 20:59:32
 Author: Ben Chuanlong Du
 Slug: things-to-do-after-installing-linux
 Title: Things to Do After Installing Linux

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:32:49
+Date: 2018-12-22 15:32:49
 Author: Ben Chuanlong Du
 Slug: tridactyl-tips
 Title: Vim Keybindings in Firefox Using Tridactyl

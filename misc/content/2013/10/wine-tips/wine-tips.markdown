@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:21:44
+Date: 2013-10-22 15:21:44
 Title: Windows Emulation Using WINE
 Slug: wine-tips
 Category: Software

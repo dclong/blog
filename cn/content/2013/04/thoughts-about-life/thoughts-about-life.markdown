@@ -1,7 +1,7 @@
 UUID: 62e315ae-df28-4d9c-8f54-4efa5df4123f
 Status: draft
 Slug: thoughts-about-life
-Date: 2014-07-12 20:01:42
+Date: 2013-04-12 20:01:42
 Title: 思绪飘飞
 Author: Ben Chuanlong Du
 Category: Thoughts

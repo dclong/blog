@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Misc Tips on Ubuntu
-Date: 2017-02-19 12:20:43
+Date: 2013-10-19 12:20:43
 Slug: ubuntu-tips
 Category: OS
 Tags: tips, Ubuntu, Linux, OS

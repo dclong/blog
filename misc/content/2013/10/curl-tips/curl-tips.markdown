@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-01-26 13:02:55
+Date: 2013-10-26 13:02:55
 Slug: curl-tips
 Title: Tips on cURL and Wget
 Category: Software

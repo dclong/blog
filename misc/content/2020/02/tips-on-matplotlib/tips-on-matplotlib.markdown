@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-07 23:24:47
+Date: 2020-02-07 23:24:47
 Author: Benjamin Du
 Slug: tips-on-matplotlib
 Title: Tips on Matplotlib

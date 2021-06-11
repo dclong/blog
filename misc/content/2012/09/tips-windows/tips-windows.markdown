@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-30 19:30:05
+Date: 2012-09-30 19:30:05
 Author: Ben Chuanlong Du
 Title: Windows Operating System
 Slug: tips-windows

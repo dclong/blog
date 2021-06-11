@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-09-12 18:40:34
+Date: 2018-09-12 18:40:34
 Author: Ben Chuanlong Du
 Slug: group-by-vs-over-partition-in-sql
 Title: Group by vs Over Partition in SQL

@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-09 02:23:14
+Date: 2014-07-09 02:23:14
 Author: Ben Chuanlong Du
 Slug: install-python-behind-firewall
 Title: Install Python Packages Behind Firewall

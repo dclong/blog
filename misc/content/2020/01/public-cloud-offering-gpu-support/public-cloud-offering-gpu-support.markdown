@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-02 18:01:37
+Date: 2020-01-02 18:01:37
 Author: Benjamin Du
 Slug: public-cloud-offering-gpu-support
 Title: Public Cloud Offering GPU Support

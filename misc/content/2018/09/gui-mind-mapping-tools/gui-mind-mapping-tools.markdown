@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-03 08:18:27
+Date: 2018-09-03 08:18:27
 Author: Ben Chuanlong Du
 Slug: gui-mind-mapping-tools
 Title: GUI-based Mind Mapping Tools

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:04:34
+Date: 2013-10-22 15:04:34
 Title: Tips on tmux
 Slug: tmux-tips
 Category: Software

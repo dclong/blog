@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Firebug Is Awsome
-Date: 2017-04-25 20:16:40
+Date: 2013-07-25 20:16:40
 Slug: firebug-is-awsome
 Author: Ben Chuanlong Du
 Category: Software

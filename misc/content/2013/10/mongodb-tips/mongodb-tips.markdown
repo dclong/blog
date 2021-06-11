@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:52:51
+Date: 2013-10-22 13:52:51
 Title: Tips on MongoDB
 Slug: mongodb-tips
 Category: Software

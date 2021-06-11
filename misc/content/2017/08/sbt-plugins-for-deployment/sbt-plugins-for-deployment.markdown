@@ -1,6 +1,6 @@
 UUID: b41a895b-b2e7-4cf2-911f-48dec9e533d6
 Status: published
-Date: 2017-12-23 09:30:38
+Date: 2017-08-23 09:30:38
 Author: Ben Chuanlong Du
 Slug: sbt-plugins-for-deployment
 Title: sbt Plugins for Deployment

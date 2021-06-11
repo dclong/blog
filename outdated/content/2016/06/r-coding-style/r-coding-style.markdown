@@ -1,6 +1,6 @@
 UUID: 7384a485-a364-4423-96ef-8e31ae546247
 Status: published
-Date: 2016-10-23 16:41:21
+Date: 2016-06-23 16:41:21
 Author: Ben Chuanlong Du
 Slug: r-coding-style
 Title: R Coding Style

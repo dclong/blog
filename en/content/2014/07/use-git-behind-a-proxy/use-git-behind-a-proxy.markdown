@@ -1,7 +1,7 @@
 Status: published
 Title: Use Git Behind a Proxy
 Author: Chuanlong (Ben) Du
-Date: 2019-03-07 23:42:48
+Date: 2014-07-07 23:42:48
 Slug: use-git-behind-a-proxy
 Category: Software
 Tags: software, Git, proxy, protocol

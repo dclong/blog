@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Comparison of (Debian Series) Linux Distributions
-Date: 2014-09-18 19:08:42
+Date: 2013-03-18 19:08:42
 Tags: antiX, Linux Mint, Ubuntu, Linux, Debian
 Category: OS
 Slug: debian-vs-ubuntu

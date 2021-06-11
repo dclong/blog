@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Randomly Select an Integer?!
-Date: 2013-10-29 17:23:24
+Date: 2012-08-29 17:23:24
 Tags: random, statistics, nature number, probability, relatively prime, fun problems
 Category: Fun Problems
 Slug: integer-probability-measure

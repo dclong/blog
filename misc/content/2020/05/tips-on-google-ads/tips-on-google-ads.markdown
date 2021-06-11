@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-25 18:56:25
+Date: 2020-05-25 18:56:25
 Author: Benjamin Du
 Slug: tips-on-google-ads
 Title: Tips on Google Ads

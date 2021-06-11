@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: String in Different Programming Languages
-Date: 2014-09-14 16:34:30
+Date: 2012-06-14 16:34:30
 Tags: Python, programming, Java, string, bash, Ruby, R
 Category: Computer Science
 Slug: summary-string-popular-programming-language

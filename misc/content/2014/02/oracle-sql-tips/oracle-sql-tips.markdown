@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:58:36
+Date: 2014-02-22 14:58:36
 Title: Tips on Oracle SQL
 Slug: oracle-sql-tips
 Category: Computer Science

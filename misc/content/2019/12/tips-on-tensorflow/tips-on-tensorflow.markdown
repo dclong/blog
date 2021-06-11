@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-27 10:57:44
+Date: 2019-12-27 10:57:44
 Author: Benjamin Du
 Slug: tips-on-tensorflow
 Title: Tips on TensorFlow

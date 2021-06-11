@@ -1,6 +1,6 @@
 Status: draft
 Title: Classification
-Date: 2020-05-23 22:22:34
+Date: 2013-03-23 22:22:34
 Tags: CART, machine learning, random forests, statistics, classification, SVM, neuron network, regression
 Category: AI
 Slug: classification

@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-12-28 18:17:40
+Date: 2018-04-28 18:17:40
 Author: Ben Chuanlong Du
 Slug: intellij-idea-shortcuts
 Title: Show Inferred Type in IntelliJ IDEA

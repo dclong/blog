@@ -1,5 +1,5 @@
 Status: published
-Date: 2017-10-22 13:26:28
+Date: 2017-06-22 13:26:28
 Author: Ben Chuanlong Du
 Slug: install-gnu-utils-using-homebrew
 Title: Install GNU Utils Using Homebrew

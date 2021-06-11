@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:06:48
+Date: 2013-12-22 13:06:48
 Title: The Xfce Desktop Environment for Linux
 Slug: tips-for-xfce-desktop-environment
 Category: Software

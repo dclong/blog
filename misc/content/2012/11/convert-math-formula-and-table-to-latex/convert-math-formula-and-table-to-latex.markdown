@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-07-13 00:05:59
+Date: 2012-11-13 00:05:59
 Slug: convert-math-formula-and-table-to-latex
 Author: Ben Chuanlong Du
 Title: Convert Math Formula and Table To LaTeX

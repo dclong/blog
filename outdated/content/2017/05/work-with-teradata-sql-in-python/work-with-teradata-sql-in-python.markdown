@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-17 11:47:48
+Date: 2017-05-17 11:47:48
 Author: Ben Chuanlong Du
 Slug: work-with-teradata-sql-in-python
 Title: Work With Teradata SQL in Python

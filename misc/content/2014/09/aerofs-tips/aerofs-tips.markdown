@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 12:59:40
+Date: 2014-09-22 12:59:40
 Author: Ben Chuanlong Du
 Slug: aerofs-tips
 Title: Synchronize Files Using AeroFS  

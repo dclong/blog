@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Develop R Packages Using "roxygen2" 
-Date: 2017-07-27 12:41:29
+Date: 2012-06-27 12:41:29
 Category: Programming
 Tags: R, package, programming, tags, CRAN, roxygen2, develop
 Slug: develop-r-packages-using-roxygen2

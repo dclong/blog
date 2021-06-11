@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-05-12 11:19:32
+Date: 2013-10-12 11:19:32
 Title: Tips on GPU Computing
 Slug: gpu-tips
 Category: Computer Science

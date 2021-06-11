@@ -1,6 +1,6 @@
 UUID: 714cb0b0-3623-478f-91a5-d67b00f92527
 Status: published
-Date: 2017-04-10 19:05:41
+Date: 2016-06-10 19:05:41
 Author: Ben Chuanlong Du
 Slug: add-a-user-to-the-sudo-group-on-linux
 Title: Add Users to a Group in Linux

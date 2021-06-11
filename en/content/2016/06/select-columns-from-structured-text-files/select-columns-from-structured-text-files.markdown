@@ -1,6 +1,6 @@
 UUID: a57587d8-9b0b-4c74-b5f3-f1bcd2aa7d4f
 Status: published
-Date: 2018-01-01 16:15:21
+Date: 2016-06-01 16:15:21
 Author: Ben Chuanlong Du
 Slug: select-columns-from-structured-text-files
 Title: Select Columns from Structured Text Files

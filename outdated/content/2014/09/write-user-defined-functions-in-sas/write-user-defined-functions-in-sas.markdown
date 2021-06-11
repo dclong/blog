@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-08-28 16:57:06
+Date: 2014-09-28 16:57:06
 Author: Ben Chuanlong Du
 Slug: write user-defined functions in sas
 Title: Write User-defined Functions in SAS

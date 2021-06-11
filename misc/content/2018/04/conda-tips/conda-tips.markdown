@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-22 09:36:27
+Date: 2018-04-22 09:36:27
 Author: Ben Chuanlong Du
 Slug: conda-tips
 Title: Tips on Conda

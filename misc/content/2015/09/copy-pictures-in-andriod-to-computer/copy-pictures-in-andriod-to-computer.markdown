@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-12 23:41:58
+Date: 2015-09-12 23:41:58
 Author: Ben Chuanlong Du
 Slug: copy-pictures-in-android-to-computer
 Title: Copy Pictures from an Android Phone to a Computer

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:10:31
+Date: 2015-07-22 14:10:31
 Author: Ben Chuanlong Du
 Slug: terminology-tips
 Title: Terminology is a Fancy Terminal Emulator

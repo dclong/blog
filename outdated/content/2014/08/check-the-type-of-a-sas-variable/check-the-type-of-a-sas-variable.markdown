@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2014-10-22 16:59:20
+Date: 2014-08-22 16:59:20
 Author: Ben Chuanlong Du
 Slug: check-the-type-of-a-sas-variable
 Title: Check the Type of a SAS Variable

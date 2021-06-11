@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-05-23 07:43:12
+Date: 2017-03-23 07:43:12
 Author: Ben Chuanlong Du
 Slug: reduce-size-of-git-repository
 Title: Reduce Size of Git Repository

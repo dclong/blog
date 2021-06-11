@@ -1,6 +1,6 @@
 UUID: 3d68b22f-f2a3-47e7-a2a8-ce498f5cdd99
 Status: published
-Date: 2019-06-27 18:31:29
+Date: 2018-09-27 18:31:29
 Author: Ben Chuanlong Du
 Slug: sql-logic-visualization
 Title: SQL Logic Visualization

@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: SAS Stored Process and SAS Visual Analytics
-Date: 2016-07-13 22:11:25
+Date: 2013-07-13 22:11:25
 Tags: sas, visualization, stored process, visual analytics, software
 Category: Software
 Slug: sas-stored-process-and-sas-visual-analytics

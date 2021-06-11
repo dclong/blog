@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-09 12:37:45
+Date: 2020-02-09 12:37:45
 Author: Benjamin Du
 Slug: software-for-editing-videos
 Title: Software for Editing Videos

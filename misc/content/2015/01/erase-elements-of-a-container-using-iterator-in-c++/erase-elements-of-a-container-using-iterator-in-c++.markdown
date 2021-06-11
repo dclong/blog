@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-03-29 23:08:20
+Date: 2015-01-29 23:08:20
 Author: Ben Chuanlong Du
 Slug: erase-elements-of-a-container-using-iterator-in-c++
 Title: Erase Elements of a Container Using Iterator in C++

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-13 09:48:04
+Date: 2019-01-13 09:48:04
 Author: Ben Chuanlong Du
 Slug: python-module-tips
 Title: Tips on Python Module 

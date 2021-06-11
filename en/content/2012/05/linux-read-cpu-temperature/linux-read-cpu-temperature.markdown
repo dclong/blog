@@ -1,6 +1,6 @@
 Status: published
 Title: Read CPU Temperature in Linux
-Date: 2020-02-17 11:24:31
+Date: 2012-05-17 11:24:31
 Tags: modprobe, sensors, CPU, Linux, temperature
 Category: OS
 Slug: linux-read-cpu-temperature

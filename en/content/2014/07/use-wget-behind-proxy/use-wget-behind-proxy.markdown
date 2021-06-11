@@ -1,7 +1,7 @@
 Status: published
 Title: Use wget with Proxy
 Author: Chuanlong (Ben) Du
-Date: 2020-04-06 14:31:55
+Date: 2014-07-06 14:31:55
 Slug: use-wget-behind-proxy
 Category: Software
 Tags: software, download, wget, proxy

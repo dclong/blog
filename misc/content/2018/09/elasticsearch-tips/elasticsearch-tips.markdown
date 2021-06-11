@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-06 22:08:19
+Date: 2018-09-06 22:08:19
 Author: Ben Chuanlong Du
 Slug: elasticsearch-tips
 Title: Tips on Elasticsearch

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:08:28
+Date: 2015-06-22 14:08:28
 Author: Ben Chuanlong Du
 Title: Block JavaScript in Browsers Using NoScript
 Slug: noscript-tips

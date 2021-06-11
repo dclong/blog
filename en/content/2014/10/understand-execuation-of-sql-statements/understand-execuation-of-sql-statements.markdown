@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-06-10 11:25:18
+Date: 2014-10-10 11:25:18
 Author: Benjamin Du
 Slug: understand-execuation-of-sql-statements
 Title: Understand Execuation of SQL Statements

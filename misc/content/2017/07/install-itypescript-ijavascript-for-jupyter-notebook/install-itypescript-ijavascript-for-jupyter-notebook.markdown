@@ -1,6 +1,6 @@
 UUID: 403e0a6d-a732-4cdf-a3e5-09f30bdece08
 Status: published
-Date: 2017-10-22 12:33:12
+Date: 2017-07-22 12:33:12
 Author: Ben Chuanlong Du
 Slug: install-itypescript-ijavascript-for-jupyter-notebook
 Title: Install ITypescript/IJavascript for Jupyter Notebook

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-09 13:13:36
+Date: 2017-06-09 13:13:36
 Author: Ben Chuanlong Du
 Slug: docker-installation
 Title: Install Docker

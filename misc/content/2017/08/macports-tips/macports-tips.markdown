@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-20 14:04:56
+Date: 2017-08-20 14:04:56
 Author: Ben Chuanlong Du
 Slug: macports-tips
 Title: Tips on MacPorts

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:10:30
+Date: 2018-01-22 15:10:30
 Author: Ben Chuanlong Du
 Slug: antlr4-tips
 Title: Tips on ANTLR4

@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-08-15 23:45:23
+Date: 2015-02-15 23:45:23
 Author: Ben Chuanlong Du
 Slug: change-file-permission-on-linux
 Title: Change File Permission on Linux

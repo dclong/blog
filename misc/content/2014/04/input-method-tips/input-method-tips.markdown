@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:18:02
+Date: 2014-04-22 13:18:02
 Title: Fcitx Tips
 Slug: fcitx-tips
 Category: OS

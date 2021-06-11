@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on SAS
-Date: 2019-05-10 19:13:40
+Date: 2013-10-10 19:13:40
 Slug: sas-tips
 Category: Computer Science
 Tags: tips, SAS, programming

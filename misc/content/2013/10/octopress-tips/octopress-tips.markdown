@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips About Octopress
-Date: 2016-08-15 21:43:18
+Date: 2013-10-15 21:43:18
 Slug: octopress-tips
 Category: Software
 Tags: tips, software, octopress, tips

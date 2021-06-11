@@ -1,6 +1,6 @@
 UUID: c2334373-2554-4d65-9911-5836efc6bd9d
 Status: published
-Date: 2020-04-06 14:36:40
+Date: 2017-02-06 14:36:40
 Author: Ben Chuanlong Du
 Slug: print-rows-from-a-text-file
 Title: Print Rows from a Text File

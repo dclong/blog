@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:58:39
+Date: 2015-04-22 13:58:39
 Author: Ben Chuanlong Du
 Title: Debug C/C++ Code Using GDB
 Slug: gdb-tips

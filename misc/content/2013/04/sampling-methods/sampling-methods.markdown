@@ -1,6 +1,6 @@
 Author: Ben Chuanlong Du
 Status: published
-Date: 2020-05-22 12:23:20
+Date: 2013-04-22 12:23:20
 Title: Sampling Methods
 Slug: sampling-methods
 Category: AI

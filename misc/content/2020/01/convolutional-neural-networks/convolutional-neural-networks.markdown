@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-24 22:24:05
+Date: 2020-01-24 22:24:05
 Author: Benjamin Du
 Slug: convolutional-neural-networks
 Title: Convolutional Neural Networks

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:20:50
+Date: 2014-10-22 13:20:50
 Author: Ben Chuanlong Du
 Title: Install Firefox and Thunderbird Automatically on Debian
 Slug: install-firefox-and-thunderbird-automatically

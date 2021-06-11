@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Shell Commands
-Date: 2020-10-23 12:19:10
+Date: 2013-10-23 12:19:10
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal

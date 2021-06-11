@@ -1,6 +1,6 @@
 UUID: 1f35c839-fcf9-46f5-9c77-002c630d2a6c
 Status: published
-Date: 2017-10-28 10:52:36
+Date: 2016-06-28 10:52:36
 Author: Ben Chuanlong Du
 Slug: sample-lines-from-a-file-using-command-line
 Title: Sample Lines from a File Using Command Line

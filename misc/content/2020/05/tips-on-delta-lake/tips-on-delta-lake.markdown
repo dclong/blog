@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-06-19 19:49:16
+Date: 2020-05-19 19:49:16
 Author: Benjamin Du
 Slug: tips-on-delta-lake
 Title: Tips on Delta Lake

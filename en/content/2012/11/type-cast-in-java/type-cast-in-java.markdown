@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2014-10-02 10:50:55
+Date: 2012-11-02 10:50:55
 Slug: type-cast-in-java
 Author: Ben Chuanlong Du
 Title: Type Cast in Java

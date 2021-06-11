@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-22 10:12:17
+Date: 2020-11-22 10:12:17
 Author: Benjamin Du
 Slug: spark-issue:-_pickle.PicklingError:-args[0]-from-__newobj__-args-has-the-wrong-class
 Title: Spark Issue: _Pickle.Picklingerror: Args[0] from __Newobj__ Args Has the Wrong Class

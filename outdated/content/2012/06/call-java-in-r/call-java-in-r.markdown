@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-10-23 22:53:22
+Date: 2012-06-23 22:53:22
 Slug: call-java-in-r
 Author: Ben Chuanlong Du
 Title: Call Java in R Using Package rJava

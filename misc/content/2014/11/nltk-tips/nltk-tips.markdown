@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:30:18
+Date: 2014-11-22 14:30:18
 Author: Ben Chuanlong Du
 Title: Nature Language Processing Using NLTK
 Slug: nltk-tips

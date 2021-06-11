@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 13:13:55
+Date: 2014-12-22 13:13:55
 Author: Ben Chuanlong Du
 Title: Tips on Goldendict
 Slug: goldendict-tips

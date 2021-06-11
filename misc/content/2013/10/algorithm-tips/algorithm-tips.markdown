@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:37:34
+Date: 2013-10-22 13:37:34
 Title: Numeric Algorithms
 Slug: algorithm-tips
 Category: Software

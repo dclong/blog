@@ -1,6 +1,6 @@
 UUID: eb376cce-1701-4c29-933b-ef40621a7750
 Status: published
-Date: 2017-10-22 13:37:40
+Date: 2017-06-22 13:37:40
 Author: Ben Chuanlong Du
 Slug: null,-none-and-alike-in-Scala
 Title: Null, None and Alike in Scala

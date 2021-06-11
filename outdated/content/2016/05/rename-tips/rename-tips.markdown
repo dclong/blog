@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-12 11:04:38
+Date: 2016-05-12 11:04:38
 Author: Ben Chuanlong Du
 Title: Batch File Renaming Using "rename" 
 Slug: rename-tips

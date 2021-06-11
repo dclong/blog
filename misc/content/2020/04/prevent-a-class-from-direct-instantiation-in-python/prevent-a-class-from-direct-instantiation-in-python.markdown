@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-20 08:43:33
+Date: 2020-04-20 08:43:33
 Author: Benjamin Du
 Slug: prevent-a-class-from-direct-instantiation-in-python
 Title: Prevent a Class from Direct Instantiation in Python

@@ -1,6 +1,6 @@
 Author: Ben Chuanlong Du
 Status: published
-Date: 2021-04-06 14:47:52
+Date: 2012-06-06 14:47:52
 Title: TeXstudio, Bravo!
 Slug: texstudio-bravo
 Category: Software

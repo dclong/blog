@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-03 10:17:32
+Date: 2012-06-03 10:17:32
 Slug: linux-gnome-power-settings
 Author: Ben Chuanlong Du
 Title: Power Settings in Linux with GNOME Desktop

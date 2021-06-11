@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-29 22:18:53
+Date: 2020-01-29 22:18:53
 Author: Benjamin Du
 Slug: send-emails-in-python
 Title: Send Emails in Python

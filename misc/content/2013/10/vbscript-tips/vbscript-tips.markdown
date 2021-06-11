@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips About VBScript
-Date: 2016-07-13 21:49:35
+Date: 2013-10-13 21:49:35
 Slug: vbscript-tips
 Category: Software
 Tags: tips

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-13 17:41:24
+Date: 2020-07-13 17:41:24
 Author: Benjamin Du
 Slug: tips-on-nox
 Title: Tips on Nox

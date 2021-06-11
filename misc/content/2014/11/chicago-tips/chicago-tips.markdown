@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:31:43
+Date: 2014-11-22 13:31:43
 Title: Living in Chicago
 Slug: chicago-tips
 Category: Life

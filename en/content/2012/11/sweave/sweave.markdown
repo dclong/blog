@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Sweave
-Date: 2016-07-13 00:05:31
+Date: 2012-11-13 00:05:31
 Tags: LaTeX, programming, Sweave
 Category: Computer Science
 Slug: sweave

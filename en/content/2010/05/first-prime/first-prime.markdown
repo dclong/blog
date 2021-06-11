@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-13 00:12:11
+Date: 2010-05-13 00:12:11
 Slug: first-prime
 Author: Ben Chuanlong Du
 Title: First 10-digit Prime in Consecutive Digits of Euler Constant?

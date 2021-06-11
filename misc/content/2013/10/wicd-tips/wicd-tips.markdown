@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 14:40:58
+Date: 2013-10-22 14:40:58
 Title: Managing Wireeless Network Using Wicd
 Slug: wicd-tips
 Category: Software

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 22:25:13
+Date: 2012-06-29 22:25:13
 Slug: ssh-copy-id
 Author: Ben Chuanlong Du
 Title: Copy SSH Public Key Using "ssh-copy-id"

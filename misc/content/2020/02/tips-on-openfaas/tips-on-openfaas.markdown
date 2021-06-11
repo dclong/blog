@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-06-10 09:39:25
+Date: 2020-02-10 09:39:25
 Author: Benjamin Du
 Slug: tips-on-openfaas
 Title: Tips on OpenFaaS

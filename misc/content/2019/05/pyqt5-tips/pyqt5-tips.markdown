@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-21 10:51:36
+Date: 2019-05-21 10:51:36
 Author: Benjamin Du
 Slug: pyqt5-tips
 Title: Tips on PyQt5

@@ -1,5 +1,5 @@
 Status: published
-Date: 2015-10-18 15:05:35
+Date: 2014-12-18 15:05:35
 Author: Ben Chuanlong Du
 Slug: vimium-tips
 Title: Navigate Chrome Browser Like a Pro Using Vimium 

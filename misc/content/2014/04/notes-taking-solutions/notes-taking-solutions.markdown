@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2017-11-15 23:23:18
+Date: 2014-04-15 23:23:18
 Slug: notes-taking-solutions
 Title: Notes Taking Solutions
 Category: Software

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-09-27 22:55:07
+Date: 2019-03-27 22:55:07
 Author: Benjamin Du
 Title: Install Packages Using Homebrew on macOS
 Slug: homebrew-tips

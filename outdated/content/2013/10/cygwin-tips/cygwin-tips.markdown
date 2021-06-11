@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:33:38
+Date: 2013-10-22 15:33:38
 Title: Some Tips on Cygwin
 Slug: cygwin-tips
 Category: Software

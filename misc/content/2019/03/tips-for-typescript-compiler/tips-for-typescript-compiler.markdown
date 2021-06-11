@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-08 11:47:35
+Date: 2019-03-08 11:47:35
 Author: Benjamin Du
 Slug: tips-for-typescript-compiler
 Title: Tips on Typescript Compiler

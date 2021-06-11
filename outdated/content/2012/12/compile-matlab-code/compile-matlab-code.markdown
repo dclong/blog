@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Compile MATLAB Code
-Date: 2015-06-07 23:48:09
+Date: 2012-12-07 23:48:09
 Tags: compile, compiler, programming, MATLAB
 Category: Computer Science
 Slug: compile-matlab-code

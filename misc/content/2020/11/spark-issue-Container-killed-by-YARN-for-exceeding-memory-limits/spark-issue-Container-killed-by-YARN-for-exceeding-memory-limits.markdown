@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-24 14:55:43
+Date: 2020-11-24 14:55:43
 Author: Benjamin Du
 Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits

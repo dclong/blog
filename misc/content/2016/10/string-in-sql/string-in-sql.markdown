@@ -1,6 +1,6 @@
 UUID: 457f14c2-bc29-49c4-939d-4c35e67447ef
 Status: published
-Date: 2016-11-20 18:55:31
+Date: 2016-10-20 18:55:31
 Author: Ben Chuanlong Du
 Slug: string-in-sql
 Title: String in SQL

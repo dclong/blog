@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-12 23:41:58
+Date: 2014-12-12 23:41:58
 Author: Ben Chuanlong Du
 Title: Tips on Android
 Slug: android-tips

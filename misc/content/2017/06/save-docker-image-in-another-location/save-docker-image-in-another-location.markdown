@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-28 19:41:40
+Date: 2017-06-28 19:41:40
 Author: Ben Chuanlong Du
 Slug: save-docker-image-in-another-location
 Title: Save Docker Image in Another Location

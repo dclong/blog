@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-19 13:45:33
+Date: 2012-10-19 13:45:33
 Slug: initializing-varialbes-in-cpp
 Author: Ben Chuanlong Du
 Title: Initializing Variables in C++

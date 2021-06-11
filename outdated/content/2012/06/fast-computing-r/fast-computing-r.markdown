@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-08-26 22:08:17
+Date: 2012-06-26 22:08:17
 Slug: fast-computing-r
 Author: Ben Chuanlong Du
 Title: Write R Code that Runs Faster

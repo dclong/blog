@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-03-04 08:53:41
+Date: 2017-04-04 08:53:41
 Author: Ben Chuanlong Du
 Slug: shortcuts-for-kde
 Title: Shortcuts for KDE

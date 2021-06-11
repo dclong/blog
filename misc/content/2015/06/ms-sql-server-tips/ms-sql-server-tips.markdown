@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:05:53
+Date: 2015-06-22 14:05:53
 Author: Ben Chuanlong Du
 Title: Tips on MS SQL Server
 Slug: ms-sql-server-tips

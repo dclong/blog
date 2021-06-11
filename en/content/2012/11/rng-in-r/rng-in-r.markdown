@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Random Number Generating in R
-Date: 2013-12-05 00:21:35
+Date: 2012-11-05 00:21:35
 Tags: R, programming, RNG
 Category: Computer Science
 Slug: rng-in-r

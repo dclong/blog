@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2021-05-30 11:09:57
+Date: 2013-10-30 11:09:57
 Title: Tips on Git
 Slug: git-tips
 Category: Software

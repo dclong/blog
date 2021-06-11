@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:56:44
+Date: 2017-04-22 14:56:44
 Author: Ben Chuanlong Du
 Title: Snappy Apps
 Slug: snappy-tips

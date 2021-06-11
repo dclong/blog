@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-27 15:28:00
+Date: 2020-01-27 15:28:00
 Author: Benjamin Du
 Slug: tips-on-autogluon
 Title: Tips on AutoGluon

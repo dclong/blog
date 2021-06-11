@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-18 00:39:50
+Date: 2020-01-18 00:39:50
 Author: Benjamin Du
 Slug: tips-on-pytorch
 Title: Tips on PyTorch

@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-09 19:32:27
+Date: 2014-04-09 19:32:27
 Slug: charlotte-tips
 Title: Living in Charlotte
 Category: Life

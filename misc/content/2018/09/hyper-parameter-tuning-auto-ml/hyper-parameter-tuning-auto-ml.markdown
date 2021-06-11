@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-12-04 12:29:38
+Date: 2018-09-04 12:29:38
 Author: Ben Chuanlong Du
 Title: Hyper Parameter Tuning and Automatical Machine Learning
 Slug: ai-hyper-parameter-auto-ml

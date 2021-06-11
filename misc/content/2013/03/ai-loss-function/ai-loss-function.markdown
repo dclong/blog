@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-07 11:12:36
+Date: 2013-03-07 11:12:36
 Author: Ben Chuanlong Du
 Title: Loss Function in Machine Learning Models
 Slug: ai-loss-function

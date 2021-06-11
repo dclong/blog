@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:37:10
+Date: 2014-09-22 14:37:10
 Author: Ben Chuanlong Du
 Title: The Unfair Wager Problem
 Slug: unfair-wager

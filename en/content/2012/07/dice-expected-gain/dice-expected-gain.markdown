@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Expected Gain of Tossing a Dice
-Date: 2013-10-30 09:37:39
+Date: 2012-07-30 09:37:39
 Tags: Mathematica, recursion, statistics, probability, Markov chain, fun problems
 Category: Fun Problems
 Slug: dice-expected-gain

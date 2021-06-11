@@ -1,6 +1,6 @@
 UUID: c2d2b45c-d164-4bc5-9dd8-a8adb4472857
 Status: published
-Date: 2017-09-06 08:03:00
+Date: 2017-06-06 08:03:00
 Author: Ben Chuanlong Du
 Slug: stringi-tips
 Title: stringi Tips

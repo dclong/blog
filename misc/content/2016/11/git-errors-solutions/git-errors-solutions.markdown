@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-07-14 14:02:46
+Date: 2016-11-14 14:02:46
 Author: Ben Chuanlong Du
 Slug: git-errors-solutions
 Title: Git Errors and Solutions

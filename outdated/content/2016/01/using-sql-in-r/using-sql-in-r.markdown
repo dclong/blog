@@ -1,6 +1,6 @@
 UUID: 1ed7fbf4-fbcc-44be-89b3-c4bc2df3970e
 Status: published
-Date: 2017-04-08 15:47:42
+Date: 2016-01-08 15:47:42
 Author: Ben Chuanlong Du
 Slug: using-sql-in-r
 Title: Using SQL in R

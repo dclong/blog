@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Parallel Computing in MATLAB
-Date: 2014-06-19 19:45:42
+Date: 2012-12-19 19:45:42
 Tags: HPC, parallel, concurrency, programming, MATLAB
 Category: Computer Science
 Slug: parallel-computing-in-MATLAB

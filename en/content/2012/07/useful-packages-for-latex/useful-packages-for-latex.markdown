@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Useful Packages and Commands for LaTex
-Date: 2016-05-29 11:37:43
+Date: 2012-07-29 11:37:43
 Tags: color, programming, list, Latex, package, bibliography, enumerate, formula, math, graphics
 Category: Computer Science
 Slug: useful-packages-for-latex

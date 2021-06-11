@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-03-07 22:54:45
+Date: 2014-03-07 22:54:45
 Slug: wajig-tips
 Title: Tips on Wajig
 Category: OS

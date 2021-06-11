@@ -2,7 +2,7 @@ UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Resilio Sync
-Date: 2020-05-06 14:20:40
+Date: 2013-10-06 14:20:40
 Slug: btsync-tips
 Category: Software
 Tags: tips, BitTorrent Sync, BTSync, cloud, synchronization, Resilio Sync

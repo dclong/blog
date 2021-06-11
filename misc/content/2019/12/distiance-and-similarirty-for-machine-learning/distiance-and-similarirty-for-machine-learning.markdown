@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-17 11:46:20
+Date: 2019-12-17 11:46:20
 Author: Benjamin Du
 Slug: distance-and-similarity-for-machine-learning
 Title: Distance and Similarity for Machine Learning

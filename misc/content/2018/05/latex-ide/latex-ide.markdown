@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-04-11 11:32:28
+Date: 2018-05-11 11:32:28
 Author: Ben Chuanlong Du
 Slug: latex-ide
 Title: IDEs for LaTeX

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-01-07 10:00:53
+Date: 2019-05-07 10:00:53
 Author: Benjamin Du
 Title: Extracting PDF pages using the Python Package PyPDF2
 Slug: python-pdf-pypdf2

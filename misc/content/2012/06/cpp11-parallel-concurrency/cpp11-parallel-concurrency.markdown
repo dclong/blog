@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-03-25 17:51:37
+Date: 2012-06-25 17:51:37
 Title: Parallel and Concurrency Programming in C++11
 Slug: cpp11-parallel-concurrency
 Category: Computer Science

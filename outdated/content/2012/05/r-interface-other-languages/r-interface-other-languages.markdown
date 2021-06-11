@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-03-02 13:10:12
+Date: 2012-05-02 13:10:12
 Slug: r-interface-other-languages
 Author: Ben Chuanlong Du
 Title: Passing Arrays Between R and Other Programming Languages

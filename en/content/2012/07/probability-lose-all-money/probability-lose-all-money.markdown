@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Probability to Lose All Money
-Date: 2015-11-22 03:56:28
+Date: 2012-07-22 03:56:28
 Tags: cache, C++, simulation, statistics, map, probability, recursive, condition, fun problems, hash table, money, lose
 Category: Fun Problems
 Slug: probability-lose-all-money

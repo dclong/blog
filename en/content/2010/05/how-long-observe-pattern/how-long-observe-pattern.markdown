@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: How Long Does It Take to Observe a Sequence?
-Date: 2018-01-04 02:30:19
+Date: 2010-05-04 02:30:19
 Tags: Mathematica, pattern, Markov chain, statistics, sequence, coin, stochastic, martingale, fun problems
 Category: Fun Problems
 Slug: how-long-observe-pattern

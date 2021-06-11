@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-21 17:22:39
+Date: 2020-10-21 17:22:39
 Author: Benjamin Du
 Slug: build-a-fat-jar-using-maven-without-a-java-project
 Title: Build a Fat JAR Using Maven Without a Java Project

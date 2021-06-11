@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-19 10:18:07
+Date: 2019-02-19 10:18:07
 Author: Benjamin Du
 Slug: install-python-in-mac
 Title: Install Python in Mac

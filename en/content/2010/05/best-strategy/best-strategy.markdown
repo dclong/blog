@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:54:32
+Date: 2010-05-20 10:54:32
 Slug: best-strategy
 Author: Ben Chuanlong Du
 Title: Which One Is the Best Strategy?

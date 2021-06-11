@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Variables in Java
-Date: 2016-07-13 22:04:15
+Date: 2012-12-13 22:04:15
 Tags: variable, programming, Java
 Category: Computer Science
 Slug: variables-in-java

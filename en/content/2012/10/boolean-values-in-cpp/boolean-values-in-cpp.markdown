@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-07 21:56:02
+Date: 2012-10-07 21:56:02
 Slug: boolean-values-in-cpp
 Author: Ben Chuanlong Du
 Title: Boolean Values in C++

@@ -1,6 +1,6 @@
 UUID: c1376d5c-f08d-4704-b9cd-3a7f69d670e1
 Status: published
-Date: 2017-04-09 17:52:05
+Date: 2016-06-09 17:52:05
 Author: Ben Chuanlong Du
 Slug: rmarkdown-tips
 Title: R Markdown Tips

@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: Distributions in R
-Date: 2013-12-05 00:22:23
+Date: 2012-11-05 00:22:23
 Tags: distribution, R, programming, statistics
 Category: Computer Science
 Slug: distributions-in-r

@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-04-12 22:02:34
+Date: 2018-05-12 22:02:34
 Author: Ben Chuanlong Du
 Slug: tips-for-teradata-sql-assistant
 Title: Tips on Teradata SQL Assistant

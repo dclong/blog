@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:44:22
+Date: 2014-01-22 15:44:22
 Title:  Tips on Insurance
 Slug: insurance-tips
 Category: Life

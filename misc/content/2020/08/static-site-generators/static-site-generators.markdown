@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-05-01 12:19:14
+Date: 2020-08-01 12:19:14
 Author: Benjamin Du
 Slug: static-site-generators
 Title: Static Site Generators

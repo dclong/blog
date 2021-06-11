@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-11-30 12:06:09
+Date: 2017-04-30 12:06:09
 Author: Ben Chuanlong Du
 Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python

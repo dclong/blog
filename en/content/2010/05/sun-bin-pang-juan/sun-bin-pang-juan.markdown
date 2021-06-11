@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Author: Ben Chuanlong Du
-Date: 2014-08-06 10:57:40
+Date: 2010-05-06 10:57:40
 Slug: sun-bin-pang-juan
 Title: Sun Bin PK Pang Juan
 Category: Fun Problems

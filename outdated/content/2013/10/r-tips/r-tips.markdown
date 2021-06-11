@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on R
-Date: 2020-02-29 17:08:42
+Date: 2013-10-29 17:08:42
 Slug: r-tips
 Category: Programming
 Tags: tips, programming, CRAN, R

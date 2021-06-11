@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:01:09
+Date: 2017-05-22 15:01:09
 Author: Ben Chuanlong Du
 Title: Tips on Python Flask
 Slug: python-flask-tips

@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-06-10 12:17:46
+Date: 2019-04-10 12:17:46
 Modified: 2021-06-11 00:00:44
 Author: Benjamin Du
 Slug: rust-tips

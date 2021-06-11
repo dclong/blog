@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 13:11:56
+Date: 2014-05-22 13:11:56
 Title: Taking Notes Using Zim
 Slug: zim-tips
 Category: Software

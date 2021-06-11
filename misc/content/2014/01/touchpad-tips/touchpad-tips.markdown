@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:33:51
+Date: 2014-01-22 12:33:51
 Title: Tips on Touchpad
 Slug: touchpad-tips
 Category: Software

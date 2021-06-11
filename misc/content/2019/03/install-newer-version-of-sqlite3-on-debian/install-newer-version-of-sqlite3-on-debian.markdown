@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-01-10 10:27:02
+Date: 2019-03-10 10:27:02
 Author: Benjamin Du
 Slug: install-newer-version-of-sqlite3-on-debian
 Title: Install Newer Version of SQLite3 on Debian Jessie

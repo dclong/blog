@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:27:24
+Date: 2019-02-22 15:27:24
 Author: Benjamin Du
 Slug: osquery-tips
 Title: Query and Monitor OS Information using osquery

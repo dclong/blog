@@ -1,5 +1,5 @@
 Status: published
-Date: 2019-04-18 18:02:38
+Date: 2010-11-18 18:02:38
 Slug: general-tips-for-latex
 Author: Ben Chuanlong Du
 Title: General Tips for LaTeX

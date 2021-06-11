@@ -1,6 +1,6 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2016-06-14 02:09:22
+Date: 2014-08-14 02:09:22
 Author: Ben Chuanlong Du
 Slug: string-functions-in-vba
 Title: String Functions in VBA

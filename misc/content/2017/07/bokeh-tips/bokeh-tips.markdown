@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:07:28
+Date: 2017-07-22 15:07:28
 Author: Ben Chuanlong Du
 Title: Visualization Using Bokeh in Python
 Slug: bokeh-tips

@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2019-04-18 17:57:21
+Date: 2012-06-18 17:57:21
 Title: Read PDF in Ruby
 Slug: ruby-read-pdf
 Category: Computer Science

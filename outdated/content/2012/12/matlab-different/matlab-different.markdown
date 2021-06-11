@@ -1,7 +1,7 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
 Title: How MATLAB Is Different from Other Programming Languages
-Date: 2016-07-13 00:09:40
+Date: 2012-12-13 00:09:40
 Tags: C++, programming, Java, SAS, R, MATLAB
 Category: Computer Science
 Slug: MATLAB-different

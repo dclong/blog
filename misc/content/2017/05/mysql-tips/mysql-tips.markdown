@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:45:18
+Date: 2017-05-22 14:45:18
 Author: Ben Chuanlong Du
 Title: Tips on MySQL
 Slug: mysql-tips

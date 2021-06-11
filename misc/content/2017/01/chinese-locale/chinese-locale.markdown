@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-02-15 12:06:13
+Date: 2017-01-15 12:06:13
 Author: Ben Chuanlong Du
 Slug: chinese-locale
 Title: Chinese Locale in Linux

@@ -1,7 +1,7 @@
 Status: published
 Author: Ben Chuanlong Du
 Title: Tips on Linux
-Date: 2020-02-29 17:13:18
+Date: 2013-10-29 17:13:18
 Slug: linux-tips
 Category: OS
 Tags: tips, Linux

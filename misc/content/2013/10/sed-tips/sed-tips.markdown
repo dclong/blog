@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 15:47:51
+Date: 2013-10-22 15:47:51
 Title: Tips on "sed"
 Slug: sed-tips
 Category: Software

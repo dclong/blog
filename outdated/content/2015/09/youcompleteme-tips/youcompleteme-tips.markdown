@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:00:13
+Date: 2015-09-22 14:00:13
 Author: Ben Chuanlong Du
 Title: Auto Completion Using YouCompleteMe in Vim
 Slug: YouCompleteMe-tips

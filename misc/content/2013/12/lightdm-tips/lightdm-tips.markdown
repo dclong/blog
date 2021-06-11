@@ -1,6 +1,6 @@
 Status: published
 Author: Ben Chuanlong Du
-Date: 2020-05-22 12:32:08
+Date: 2013-12-22 12:32:08
 Title: Lightdm Tips
 Slug: lightdm-tips
 Category: OS

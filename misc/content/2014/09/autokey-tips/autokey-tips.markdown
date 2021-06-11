@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:03:34
+Date: 2014-09-22 14:03:34
 Author: Ben Chuanlong Du
 Title: Auto Typing Using AutoKey
 Slug: autokey-tips

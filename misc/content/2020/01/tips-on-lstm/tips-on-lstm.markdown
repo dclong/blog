@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-11 15:58:32
+Date: 2020-01-11 15:58:32
 Author: Benjamin Du
 Slug: tips-on-lstm
 Title: Tips on LSTM

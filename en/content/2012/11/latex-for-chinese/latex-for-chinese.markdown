@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-07-13 00:04:39
+Date: 2012-11-13 00:04:39
 Slug: latex-for-chinese
 Author: Ben Chuanlong Du
 Title: LaTeX for Chinese

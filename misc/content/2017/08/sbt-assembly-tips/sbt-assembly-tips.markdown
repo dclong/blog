@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 15:03:24
+Date: 2017-08-22 15:03:24
 Author: Ben Chuanlong Du
 Title: Tips on sbt Assembly
 Slug: sbt-assembly-tips

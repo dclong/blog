@@ -1,6 +1,6 @@
 Status: published
 Title: Optimization Algorithms
-Date: 2019-12-30 12:17:07
+Date: 2013-03-30 12:17:07
 Tags: numerical analysis, optimization, Research
 Category: Research
 Slug: science-optimization

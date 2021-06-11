@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-05-22 14:11:28
+Date: 2015-09-22 14:11:28
 Author: Ben Chuanlong Du
 Title: The Cinnamon Desktop Environment for Linux
 Slug: tips-for-the-cinnamon-desktop-environment

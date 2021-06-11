@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-08-18 18:27:32
+Date: 2019-10-18 18:27:32
 Author: Benjamin Du
 Slug: tips-on-pyenv
 Title: Tips on pyenv

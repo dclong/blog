@@ -1,7 +1,7 @@
 UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Title: Fonts for Linux
-Date: 2016-07-13 00:07:00
+Date: 2013-04-13 00:07:00
 Slug: fonts-for-linux
 Author: Ben Chuanlong Du
 Category: OS

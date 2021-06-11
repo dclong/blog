@@ -1,6 +1,6 @@
 UUID: ffbfdf36-86b4-48fa-a542-ed3afdc4c472
 Status: published
-Date: 2017-10-22 12:38:10
+Date: 2017-05-22 12:38:10
 Author: Ben Chuanlong Du
 Slug: sbt-dependencies
 Title: Scala Dependencies for SBT

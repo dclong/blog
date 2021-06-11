@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-03-25 18:28:38
+Date: 2013-10-25 18:28:38
 Author: Ben Chuanlong Du
 Slug: vim-tips
 Title: Tips on Vim

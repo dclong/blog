@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-02-29 17:09:02
+Date: 2016-05-29 17:09:02
 Author: Ben Chuanlong Du
 Slug: arch-linux-tips
 Title: Tips on Arch Linux

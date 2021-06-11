@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2016-11-20 19:36:57
+Date: 2012-11-20 19:36:57
 Author: Ben Chuanlong Du
 Slug: string-in-r
 Title: String in R

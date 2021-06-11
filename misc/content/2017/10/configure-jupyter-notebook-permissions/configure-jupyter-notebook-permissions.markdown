@@ -1,5 +1,5 @@
 Status: published
-Date: 2017-11-12 15:07:59
+Date: 2017-10-12 15:07:59
 Author: Ben Chuanlong Du
 Slug: configure-jupyter-notebook-permissions
 Title: Configure Jupyte Notebook Permissions

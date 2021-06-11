@@ -1,5 +1,5 @@
 Status: published
-Date: 2020-10-27 22:40:54
+Date: 2020-07-27 22:40:54
 Author: Benjamin Du
 Slug: tips-on-rustpython
 Title: Tips on RustPython

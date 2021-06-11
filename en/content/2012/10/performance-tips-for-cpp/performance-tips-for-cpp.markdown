@@ -1,6 +1,6 @@
 UUID: 21443057-903b-44ae-b806-756ae32eeafc
 Status: published
-Date: 2015-02-20 10:36:42
+Date: 2012-10-20 10:36:42
 Slug: performance-tips-for-cpp
 Author: Ben Chuanlong Du
 Title: Performance Tips for C++

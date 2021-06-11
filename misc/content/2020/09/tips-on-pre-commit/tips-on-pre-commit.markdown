@@ -1,5 +1,5 @@
 Status: published
-Date: 2021-03-09 12:03:21
+Date: 2020-09-09 12:03:21
 Author: Benjamin Du
 Slug: tips-on-pre-commit
 Title: Tips on pre-commit
