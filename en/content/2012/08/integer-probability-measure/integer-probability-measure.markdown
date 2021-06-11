@@ -6,6 +6,7 @@ Tags: random, statistics, nature number, probability, relatively prime, fun prob
 Category: Fun Problems
 Slug: integer-probability-measure
 Author: Ben Chuanlong Du
+Modified: 2013-10-29 17:23:24
 
 
 [COS]: http://www.legendu.net/en/tag/fun-problems.html

@@ -6,6 +6,7 @@ Slug: firebug-is-awsome
 Author: Ben Chuanlong Du
 Category: Software
 Tags: JavaScript, Web, software, Firebug, bug
+Modified: 2017-04-25 20:16:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

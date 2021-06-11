@@ -5,6 +5,7 @@ Slug: git-errors-solutions
 Title: Git Errors and Solutions
 Category: Software
 Tags: programming, Git, version control, error, solutions, issues
+Modified: 2020-07-14 14:02:46
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

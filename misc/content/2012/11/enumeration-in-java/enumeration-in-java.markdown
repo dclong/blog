@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Enumeration in Java
 Category: Computer Science
 Tags: enumeration, programming, Java
+Modified: 2016-07-13 22:19:38
 
 **
 Things on this page are

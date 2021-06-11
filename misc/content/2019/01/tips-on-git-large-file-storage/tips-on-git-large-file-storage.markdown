@@ -5,6 +5,7 @@ Slug: tips-for-git-large-file-storage
 Title: Git Large File Storage
 Category: Software
 Tags: Software, Git, version control, large file storage, LFS
+Modified: 2021-01-08 13:46:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: tips-on-feature-engineering-for-machine-learning
 Title: Tips on Feature Engineering for Machine Learning
 Category: AI
 Tags: AI, machine learning, data science, feature engineering, feature hashing
+Modified: 2020-12-30 12:43:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

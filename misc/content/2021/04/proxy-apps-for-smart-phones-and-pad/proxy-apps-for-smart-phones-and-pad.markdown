@@ -5,6 +5,7 @@ Slug: proxy-apps-for-smart-phones-and-pad
 Title: Proxy Apps for Smart Phones and Pad
 Category: Computer Science
 Tags: Computer Science, proxy, TranSocks, smart phone, pad, KanCN
+Modified: 2021-04-09 09:33:01
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

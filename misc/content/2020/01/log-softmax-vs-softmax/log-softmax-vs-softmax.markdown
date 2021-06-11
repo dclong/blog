@@ -5,6 +5,7 @@ Slug: log-softmax-vs-softmax
 Title: Log Softmax vs Softmax
 Category: AI
 Tags: AI, data science, machine learning, Softmax, Log Softmax
+Modified: 2020-01-07 10:19:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

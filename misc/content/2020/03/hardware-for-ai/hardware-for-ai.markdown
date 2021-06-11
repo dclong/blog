@@ -5,6 +5,7 @@ Slug: hardware-for-ai
 Title: Hardware for AI
 Category: AI
 Tags: AI, deep learning, machine learning, data science, hardware, GPU, TPU, Jetson Nano, Google Coral
+Modified: 2021-04-11 11:56:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: vimium-tips
 Title: Navigate Chrome Browser Like a Pro Using Vimium 
 Category: Software
 Tags: software, Chrome, Vimium, Vim, plugin, add-on, addon
+Modified: 2015-10-18 15:05:35
 
 **
 Things on this page are

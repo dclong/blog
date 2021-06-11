@@ -6,6 +6,7 @@ Tags: style, Java, programming
 Category: Computer Science
 Slug: java-programming-style
 Author: Ben Chuanlong Du
+Modified: 2012-12-03 00:00:00
 
 ## Good Writing Style
 

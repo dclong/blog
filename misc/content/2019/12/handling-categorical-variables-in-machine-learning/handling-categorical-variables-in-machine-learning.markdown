@@ -5,6 +5,7 @@ Slug: handling-categorical-variables-in-machine-learning
 Title: Handling Categorical Variables in Machine Learning
 Category: AI
 Tags: AI, machine learning, categorical variables
+Modified: 2019-12-24 10:44:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Snappy Apps
 Slug: snappy-tips
 Category: OS
 Tags: Linux, snappy, snap, tips
+Modified: 2020-05-22 14:56:44
 
 **
 Things on this page are

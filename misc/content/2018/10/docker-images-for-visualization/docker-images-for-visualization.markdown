@@ -6,6 +6,7 @@ Slug: docker-images-for-visualization
 Title: Docker Images for Visualization
 Category: Software
 Tags: software, visualization, Docker, Docker image, brunelvis, Kibana
+Modified: 2018-10-18 23:42:00
 
 **
 Things on this page are

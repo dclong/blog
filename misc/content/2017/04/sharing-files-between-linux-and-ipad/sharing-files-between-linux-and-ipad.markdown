@@ -6,6 +6,7 @@ Slug: sharing-files-between-linux-and-ipad
 Title: Sharing Files Between Linux and iPad
 Category: Software
 Tags: Software, Linux, iPad, Apple, Mac
+Modified: 2017-04-22 22:09:13
 
 **
 Things on this page are

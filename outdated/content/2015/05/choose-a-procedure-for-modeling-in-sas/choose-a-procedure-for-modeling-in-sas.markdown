@@ -6,6 +6,7 @@ Slug: choose-a-procedure-for-modeling-in-sas
 Title: Choose a Procedure for Modeling in SAS
 Category: Computer Science
 Tags: programming, SAS, procedure, proc
+Modified: 2015-05-10 21:12:54
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -5,6 +5,7 @@ Slug: diff-tools
 Title: Tools for Differencing Text Files
 Category: Software
 Tags: diff, tools, Linux, cli, command line, colordiff, vimdiff
+Modified: 2020-05-27 15:04:30
 
 
 ## General Tips

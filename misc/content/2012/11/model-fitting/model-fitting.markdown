@@ -5,6 +5,7 @@ Title: Model Fitting in ANOVA Analysis
 Slug: model-fitting
 Category: AI
 Tags: model, R, SAS, formula, statistics
+Modified: 2020-05-22 12:21:02
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

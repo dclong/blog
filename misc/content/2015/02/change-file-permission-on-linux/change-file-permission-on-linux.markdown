@@ -6,6 +6,7 @@ Slug: change-file-permission-on-linux
 Title: Change File Permission on Linux
 Category: OS
 Tags: Linux, file permission, file system, filesystem
+Modified: 2016-08-15 23:45:23
 
 R: 4
 W: 2

@@ -5,6 +5,7 @@ Slug: parse-toml-file-in-python
 Title: Parse TOML File in Python
 Category: Computer Science
 Tags: Computer Science, programming, Python, TOML, parse, load, dump, tomlkit
+Modified: 2021-03-26 09:37:58
 There are 2 popular Python libraries 
 [tomlkit](https://github.com/sdispater/tomlkit)
 and

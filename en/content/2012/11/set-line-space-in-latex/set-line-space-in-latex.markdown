@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Set Line Space in LaTeX
 Category: Computer Science
 Tags: LaTeX, programming, line, spacing, space
+Modified: 2016-07-13 00:05:22
 
 
 1. The `parskip` command makes a skip between paragraphs. 

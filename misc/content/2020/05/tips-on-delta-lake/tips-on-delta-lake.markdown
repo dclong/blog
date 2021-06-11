@@ -5,6 +5,7 @@ Slug: tips-on-delta-lake
 Title: Tips on Delta Lake
 Category: Computer Science
 Tags: Computer Science, big data, Spark, delta lake, Databricks
+Modified: 2020-06-19 19:49:16
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

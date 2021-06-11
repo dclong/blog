@@ -5,6 +5,7 @@ Slug: debug-python-project-in-visual-studio-code
 Title: Debug Python Project in Visual Studio Code
 Category: Computer Science
 Tags: Computer Science
+Modified: 2021-02-23 10:26:29
 ## Ways to Open a Command Palette
 
 1. Use Menu `Menu -> View -> Command Palette...`.

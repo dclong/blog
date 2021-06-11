@@ -6,6 +6,7 @@ Date: 2016-12-04 22:11:05
 Slug: synchronization-and-backup-solutions
 Category: Software
 Tags: software, synchronization, backup, Baidu Yun, Dropbox, BitTorrent Sync, TeamDrive
+Modified: 2016-12-04 22:11:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

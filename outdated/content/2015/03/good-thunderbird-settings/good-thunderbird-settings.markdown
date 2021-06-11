@@ -6,6 +6,7 @@ Slug: good-thunderbird-settings
 Title: Good Thunderbird Settings
 Category: software
 Tags: software, Thunderbird, settings
+Modified: 2015-03-10 20:02:21
 
 **
 Things under legendu.net/outdated are outdated technologies 

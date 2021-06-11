@@ -5,6 +5,7 @@ Slug: good-ways-scientific-computing
 Title: Good Ways to Do Scientific Computing
 Category: Research
 Tags: Research, scientific computing
+Modified: 2019-05-15 19:07:49
 
 1. Break down the work into smaller modules and develop pipelines (consists of module) for the work.
   Be sure to save (important) intermediate results so that you can resume failed modules withouting reruning succeeded ones.

@@ -5,6 +5,7 @@ Slug: general-tips-on-kotlin
 Title: Install Kotlin
 Category: Computer Science
 Tags: programming, Kotlin, install, installation
+Modified: 2019-12-23 09:57:56
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

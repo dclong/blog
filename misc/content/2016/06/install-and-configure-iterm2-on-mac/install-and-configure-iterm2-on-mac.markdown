@@ -6,6 +6,7 @@ Slug: install-and-configure-iterm2-on-mac
 Title: Install and Configure Iterm2 on Mac
 Category: OS
 Tags: macOS, Apple, iTerm2, color schemes
+Modified: 2016-07-05 07:51:37
 
 **
 Things on this page are

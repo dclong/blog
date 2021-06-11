@@ -6,6 +6,7 @@ Tags: distribution, R, programming, statistics
 Category: Computer Science
 Slug: distributions-in-r
 Author: Ben Chuanlong Du
+Modified: 2013-12-05 00:22:23
 
 
 4. The definition of geometric distribution in R is not the same as the common definition. 

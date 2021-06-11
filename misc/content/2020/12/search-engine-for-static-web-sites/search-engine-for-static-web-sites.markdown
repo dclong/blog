@@ -5,6 +5,7 @@ Slug: search-engine-for-static-web-sites
 Title: Search Engine for Static Web Sites
 Category: Computer Science
 Tags: Computer Science, search engine, search, static, web, client, frontend
+Modified: 2021-05-03 10:23:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

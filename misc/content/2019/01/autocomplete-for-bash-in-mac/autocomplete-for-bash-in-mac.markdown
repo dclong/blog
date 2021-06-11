@@ -6,6 +6,7 @@ Slug: autocomplete-for-bash-in-mac
 Title: Autocomplete for Bash in Mac
 Category: Software
 Tags: software, bash autocomplete, Homebrew, bash-completion 
+Modified: 2019-01-08 06:15:48
 
 **
 Things on this page are

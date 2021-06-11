@@ -5,6 +5,7 @@ Slug: smart-phone-tips
 Title: Tips on Smart Phone
 Category: Life
 Tags: life, smart phone, tips, Android, iOS, SmartPhone
+Modified: 2020-08-22 12:34:03
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

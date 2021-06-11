@@ -5,6 +5,7 @@ Slug: tips-on-pillow
 Title: Tips on Pillow
 Category: Computer Science
 Tags: programming, Pillow, image, mask
+Modified: 2020-04-26 12:07:50
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

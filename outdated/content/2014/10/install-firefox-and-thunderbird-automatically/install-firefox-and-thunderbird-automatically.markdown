@@ -5,6 +5,7 @@ Title: Install Firefox and Thunderbird Automatically on Debian
 Slug: install-firefox-and-thunderbird-automatically
 Category: Software
 Tags: software, installation, Thunderbird, Firefox, todo, Debian
+Modified: 2020-05-22 13:20:50
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -5,6 +5,7 @@ Slug: popular-and-useful-modules-and-functions-in-pytorch
 Title: Popular and Useful Modules and Functions in PyTorch
 Category: AI
 Tags: AI, data science, machine learning, deep learning, PyTorch
+Modified: 2020-03-03 10:08:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

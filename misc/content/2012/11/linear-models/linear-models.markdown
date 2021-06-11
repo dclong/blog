@@ -5,6 +5,7 @@ Title: Experiment Design
 Slug: linear-models
 Category: AI
 Tags: model, statistics, regression, AI, experiement design
+Modified: 2020-05-22 12:24:54
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

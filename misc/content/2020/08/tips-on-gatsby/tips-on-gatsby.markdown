@@ -5,6 +5,7 @@ Slug: tips-on-gatsby
 Title: Tips on Gatsby
 Category: Computer Science
 Tags: Computer Science, static site generator, Gatsby, JavaScript
+Modified: 2020-10-24 08:45:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: print-rows-from-a-text-file
 Title: Print Rows from a Text File
 Category: OS
 Tags: Linux, shell, command line, head, tail, sed, awk, rows, lines, text manipulation
+Modified: 2020-04-06 14:36:40
 
 It is suggested that you **use Python instead of Shell** to manipulate text files!
 

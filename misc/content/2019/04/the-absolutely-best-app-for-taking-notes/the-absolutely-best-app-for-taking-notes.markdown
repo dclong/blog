@@ -5,6 +5,7 @@ Slug: the-absolutely-best-app-for-taking-notes
 Title: The Absolutely Best App for Taking Notes
 Category: Software
 Tags: Software, application, notes taking
+Modified: 2020-05-22 15:34:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

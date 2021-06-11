@@ -6,6 +6,7 @@ Tags: work, office, team culture
 Category: Career
 Slug: team-culture-of-Credit-portfolio-risk-analysis
 Author: Ben Chuanlong Du
+Modified: 2013-08-01 00:00:00
 
 I work as a student intern in the Credit Portfolio Risk Analysis group 
 in a bank this summer.

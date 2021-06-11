@@ -5,6 +5,7 @@ Title: Fcitx Tips
 Slug: fcitx-tips
 Category: OS
 Tags: Linux, software, fcitx, input method, IBus
+Modified: 2020-05-22 13:18:02
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**

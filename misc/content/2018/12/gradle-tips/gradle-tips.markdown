@@ -5,6 +5,7 @@ Slug: gradle-tips
 Title: General Tips for Gradle
 Category: Computer Science
 Tags: programming, JVM, Java, gradle, Groovy, compile, compiler, package management
+Modified: 2020-04-08 16:57:03
 
 **
 Things on this page are

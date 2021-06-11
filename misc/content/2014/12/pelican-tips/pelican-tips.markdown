@@ -5,6 +5,7 @@ Slug: pelican-tips
 Title: Generate Static Site Using Pelican
 Category: Computer Science
 Tags: programming, Pelican, blog, formula, dollar sign, themes
+Modified: 2020-11-22 12:31:45
 
 **
 Things on this page are

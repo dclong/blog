@@ -5,6 +5,7 @@ Slug: wsl-tips
 Title: Tips on WSL
 Category: OS
 Tags: Linux, WSL, Windows, BashOnWindows, Bash on Windows, tips
+Modified: 2020-06-26 23:23:44
 
 **
 Things on this page are

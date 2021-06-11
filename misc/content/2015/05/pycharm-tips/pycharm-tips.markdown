@@ -5,6 +5,7 @@ Slug: pycharm-tip
 Title: Python Developing in PyCharm
 Category: Software
 Tags: software, PyCharm, Python, IDE
+Modified: 2020-05-22 15:30:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

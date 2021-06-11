@@ -5,6 +5,7 @@ Slug: qt-in-python
 Title: Use Qt in Python
 Category: Computer Science
 Tags: programming, GUI, Python, QT, PyQT5, PySide2
+Modified: 2019-05-12 11:12:42
 
 **
 Things on this page are

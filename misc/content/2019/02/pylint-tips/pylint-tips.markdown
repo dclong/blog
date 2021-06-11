@@ -5,6 +5,7 @@ Slug: pylint-tips
 Title: Tips on pylint
 Category: Computer Science
 Tags: programming, Python, pylint, tips
+Modified: 2021-03-09 12:02:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

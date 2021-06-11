@@ -6,6 +6,7 @@ Slug: ways-to-make-a-bootable-flash-drive
 Author: Ben Chuanlong Du
 Category: OS
 Tags: bootable, flash drive, hybird, USB, Hardware, Linux
+Modified: 2017-03-19 10:33:38
 
 1. Use command
 

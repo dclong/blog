@@ -5,6 +5,7 @@ Slug: garbage-collection-in-python
 Title: Garbage Collection in Python
 Category: Computer Science
 Tags: Computer Science, programming, Python, garbage collection, reference, del
+Modified: 2020-11-23 15:10:01
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

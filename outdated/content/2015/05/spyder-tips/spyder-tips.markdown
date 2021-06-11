@@ -5,6 +5,7 @@ Slug: spyder-tips
 Title: Tips on Spyder
 Category: Software
 Tags: software, SpyDer, Python, IDE
+Modified: 2020-05-22 14:49:26
 
 **
 Things under legendu.net/outdated are outdated technologies 

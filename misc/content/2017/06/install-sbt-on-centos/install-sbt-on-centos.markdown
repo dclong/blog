@@ -6,6 +6,7 @@ Slug: install-sbt-on-centos
 Title: Install sbt on CentOS
 Category: OS
 Tags: Linux, CentOS, RedHat, sbt, install
+Modified: 2017-06-25 10:37:51
 
 **
 Things on this page are

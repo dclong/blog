@@ -6,6 +6,7 @@ Tags: C/C++, reference, programming
 Category: Computer Science
 Slug: lvalue-rvalue-reference
 Author: Ben Chuanlong Du
+Modified: 2015-01-15 02:17:12
 
 <img src="http://dclong.github.io/media/cpp/left-right.jpg" height="180" width="200" align="right"/>
 

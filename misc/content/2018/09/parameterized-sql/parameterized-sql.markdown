@@ -6,6 +6,7 @@ Slug: parameterized-sql
 Title: Parameterized SQL
 Category: Computer Science
 Tags: programming, SQL, DDL, parameterized SQL
+Modified: 2018-09-15 13:24:42
 
 **
 Things on this page are

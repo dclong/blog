@@ -5,6 +5,7 @@ Slug: beakerx-tips
 Title: The BeakerX JupyterLab Kernel
 Category: Software
 Tags: software, BeakerX, JupyterLab, Maven
+Modified: 2020-04-12 22:02:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

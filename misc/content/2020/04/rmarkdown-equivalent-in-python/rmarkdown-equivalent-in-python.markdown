@@ -5,6 +5,7 @@ Slug: rmarkdown-equivalent-in-python
 Title: RMarkdown Equivalent in Python
 Category: Computer Science
 Tags: Computer Science, markdown, RMarkdown, Python, equivalent
+Modified: 2020-06-14 10:10:39
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

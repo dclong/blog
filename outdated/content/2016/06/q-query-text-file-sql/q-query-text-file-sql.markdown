@@ -5,6 +5,7 @@ Slug: q-query-text-file-sql
 Title: Use q to Query Text File Using SQL Syntax
 Category: Programming
 Tags: programming, SQL, structured text, CSV, TSV
+Modified: 2020-03-05 16:19:58
 
 
 It is suggested that you use Python 

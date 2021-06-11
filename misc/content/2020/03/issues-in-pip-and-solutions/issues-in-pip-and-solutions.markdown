@@ -5,6 +5,7 @@ Slug: issues-in-pip-and-solutions
 Title: Issues in pip and Solutions
 Category: Computer Science
 Tags: Computer Science, Python, pip, issue, solution
+Modified: 2020-03-09 16:37:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

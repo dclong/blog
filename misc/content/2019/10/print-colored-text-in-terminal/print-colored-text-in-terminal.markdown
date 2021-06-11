@@ -5,6 +5,7 @@ Slug: print-colored-text-in-terminal
 Title: Print Colored Text in Terminal
 Category: Computer Science
 Tags: programming, terminal, color
+Modified: 2019-10-19 11:37:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

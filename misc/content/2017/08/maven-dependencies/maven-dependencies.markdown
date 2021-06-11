@@ -5,6 +5,7 @@ Slug: maven-dependencies
 Title: Maven Dependencies
 Category: Computer Science
 Tags: programming, Scala, Maven, dependencies, dependency management
+Modified: 2020-05-10 10:00:59
 
 **
 Things on this page are

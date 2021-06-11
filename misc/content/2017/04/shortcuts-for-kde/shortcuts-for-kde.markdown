@@ -5,6 +5,7 @@ Slug: shortcuts-for-kde
 Title: Shortcuts for KDE
 Category: OS
 Tags: Linux, KDE, desktop environment, shortcuts
+Modified: 2019-03-04 08:53:41
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: tips-on-tensorflow
 Title: Tips on TensorFlow
 Category: AI
 Tags: AI, data science, machine learning, TensorFlow, GPU
+Modified: 2020-02-27 10:57:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

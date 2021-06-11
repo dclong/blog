@@ -5,6 +5,7 @@ Slug: spark-issue-Container-killed-by-YARN-for-exceeding-memory-limits
 Title: Spark Issue: Container Killed by Yarn for Exceeding Memory Limits
 Category: Computer Science
 Tags: Computer Science, Spark, big data, YARN, memory, vmem, pmem, virtual memory, Spark issue
+Modified: 2021-03-24 14:55:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

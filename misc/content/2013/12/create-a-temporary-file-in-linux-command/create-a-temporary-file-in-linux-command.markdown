@@ -6,6 +6,7 @@ Slug: create-a-temporary-file-in-linux-command
 Title: Create a Temporary File in Linux Command
 Category: OS
 Tags: OS, operating system, Linux, temporary file    
+Modified: 2013-12-23 01:00:32
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

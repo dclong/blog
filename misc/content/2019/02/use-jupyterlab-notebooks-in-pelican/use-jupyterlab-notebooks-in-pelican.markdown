@@ -5,6 +5,7 @@ Slug: use-jupyterlab-notebooks-in-pelican
 Title: Use JupyterLab Notebooks in Pelican
 Category: Computer Science
 Tags: programming, Computer Science, plugins, Pelican, Static Site Generator, Python, markdown
+Modified: 2020-11-22 12:31:45
 
 **
 Things on this page are

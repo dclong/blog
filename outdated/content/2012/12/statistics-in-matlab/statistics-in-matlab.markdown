@@ -6,6 +6,7 @@ Tags: statistics, programming, MATLAB
 Category: Computer Science
 Slug: statistics-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 1. There are generally two ways to generate uniform and normal random numbers in MATLAB. 

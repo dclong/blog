@@ -5,6 +5,7 @@ Title: Tips on Teradata SQL
 Slug: teradata-sql-tips
 Category: Computer Science
 Tags: programming, tips, Teradata SQL, database
+Modified: 2021-02-15 12:10:03
 
 **
 Things under legendu.net/outdated are outdated technologies 

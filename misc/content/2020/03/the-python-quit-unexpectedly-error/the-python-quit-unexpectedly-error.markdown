@@ -5,6 +5,7 @@ Slug: the-python-quit-unexpectedly-error
 Title: The Python Quit Unexpectedly Error
 Category: Computer Science
 Tags: programming, Python, error, quit
+Modified: 2020-03-05 11:11:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

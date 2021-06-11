@@ -5,6 +5,7 @@ Slug: nfs-tips
 Title: Tips on NFS
 Category: Internet
 Tags: Linux, internet, web, NFS, file system, tips
+Modified: 2021-01-10 16:03:04
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

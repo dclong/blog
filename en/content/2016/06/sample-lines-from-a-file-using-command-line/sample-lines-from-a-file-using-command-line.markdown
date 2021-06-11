@@ -6,6 +6,7 @@ Slug: sample-lines-from-a-file-using-command-line
 Title: Sample Lines from a File Using Command Line
 Category: OS
 Tags: Linux, shell, command line, sample, shuffle, shuf, q, text, SQL
+Modified: 2017-10-28 10:52:36
 
 
 NOTE: the article talks about sampling "lines" rather than "records". 

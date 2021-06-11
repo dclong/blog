@@ -5,6 +5,7 @@ Slug: spark-issue-a-master-url-must-be-set-in-your-configuration
 Title: Spark Issue: a Master URL Must Be Set in Your Configuration
 Category: Computer Science
 Tags: programming, Spark, issue, error, master, yarn, master URL, Spark issue
+Modified: 2021-03-21 12:14:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: write user-defined functions in sas
 Title: Write User-defined Functions in SAS
 Category: Computer Science
 Tags: programming, SAS, user-defined function, `FCMP`
+Modified: 2015-08-28 16:57:06
 
 **
 Things under legendu.net/outdated are outdated technologies 

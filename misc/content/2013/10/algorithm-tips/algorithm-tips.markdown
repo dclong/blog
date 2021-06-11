@@ -5,6 +5,7 @@ Title: Numeric Algorithms
 Slug: algorithm-tips
 Category: Software
 Tags: tips, algorithm, error tolerance, numerical issue, overflow
+Modified: 2020-05-22 13:37:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

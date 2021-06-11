@@ -5,6 +5,7 @@ Slug: optimization-method-in-machine-learning
 Title: Optimization Method in Machine Learning
 Category: AI
 Tags: AI, machine learning, data science, optimization algorithms, ADAM, SGD, momentum
+Modified: 2019-12-30 12:17:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

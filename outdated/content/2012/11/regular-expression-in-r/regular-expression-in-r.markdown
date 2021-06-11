@@ -5,6 +5,7 @@ Author: Ben Chuanlong Du
 Title: Regular Expression in R
 Category: Programming
 Tags: R, regex, programming, CRAN, regular expression
+Modified: 2019-12-14 11:56:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

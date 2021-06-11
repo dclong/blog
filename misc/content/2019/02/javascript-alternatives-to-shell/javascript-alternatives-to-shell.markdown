@@ -6,6 +6,7 @@ Slug: javascript-alternatives-to-shell
 Title: Javascript Alternatives to Shell
 Category: Computer Science
 Tags: programming, JavaScript, shell
+Modified: 2019-02-01 19:45:52
 
 **
 Things on this page are

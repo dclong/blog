@@ -6,6 +6,7 @@ Tags: Python, programming, Verizon, Ruby, email, phone
 Category: Computer Science
 Slug: automated-verizon-bill-using-ruby
 Author: Ben Chuanlong Du
+Modified: 2014-06-18 08:17:18
 
 [code]: https://github.com/dclong/Ruby-Verizon
 

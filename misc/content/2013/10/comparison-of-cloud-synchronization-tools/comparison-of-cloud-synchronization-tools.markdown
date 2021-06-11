@@ -6,6 +6,7 @@ Tags: software
 Category: Software
 Slug: comparison-of-cloud-synchronization-tools
 Author: Ben Chuanlong Du
+Modified: 2013-10-06 00:00:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

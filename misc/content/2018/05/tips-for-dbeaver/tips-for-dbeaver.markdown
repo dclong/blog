@@ -5,6 +5,7 @@ Slug: tips-for-dbeaver
 Title: Tips on dbeaver
 Category: Software
 Tags: software, dbeaver, IDE, SQL
+Modified: 2020-04-28 21:36:04
 
 **
 Things on this page are

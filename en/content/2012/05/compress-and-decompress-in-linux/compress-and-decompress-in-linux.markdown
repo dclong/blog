@@ -5,6 +5,7 @@ Slug: compress-and-decompress-in-linux
 Author: Ben Chuanlong Du
 Category: OS
 Tags: Linux, decompress, compress, archive, split, multiple, zip, tar, gz, bz2, dtrx, rar, 7zip
+Modified: 2020-07-19 23:12:07
 
 
 ## Tips and Traps

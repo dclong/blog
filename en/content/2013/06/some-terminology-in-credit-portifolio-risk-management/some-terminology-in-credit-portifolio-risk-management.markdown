@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Some Terminologies in Business Investment
 Category: Career
 Tags: terminology, business, Work, investment, credit risk, finance, bank
+Modified: 2016-07-13 22:26:26
 
 ## Stock Ticker
 

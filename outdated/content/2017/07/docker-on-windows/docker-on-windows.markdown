@@ -5,6 +5,7 @@ Slug: docker-on-windows
 Title: Docker on Windows
 Category: Software
 Tags: Software, Docker, Widnows, Windows 10, Hyper-V, Virtualization
+Modified: 2021-02-08 14:45:17
 It is suggested that you use Docker in WSL 
 rather than using Docker for Windows.
 

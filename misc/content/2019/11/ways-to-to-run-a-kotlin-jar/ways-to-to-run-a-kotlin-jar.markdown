@@ -5,6 +5,7 @@ Slug: ways-to-to-run-a-kotlin-jar
 Title: Ways to To Run a Kotlin JAR
 Category: Computer Science
 Tags: programming, Kotlin, JAR, Java
+Modified: 2019-11-21 19:07:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Taking Notes Using Zim
 Slug: zim-tips
 Category: Software
 Tags: software, tips, notes, Zim
+Modified: 2020-05-22 13:11:56
 
 **
 Things under legendu.net/outdated are outdated technologies 

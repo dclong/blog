@@ -5,6 +5,7 @@ Slug: debugging-tools-for-java
 Title: Debugging Tools for Java
 Category: Computer Science
 Tags: Computer Science, Java, JVM, debug, debugging
+Modified: 2020-12-20 11:43:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

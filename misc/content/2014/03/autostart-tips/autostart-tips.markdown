@@ -5,6 +5,7 @@ Title: Tips on Autostart
 Slug: autostart-tips
 Category: OS
 Tags: Linux, autostart, desktop environment, KDE, Xfce
+Modified: 2020-05-22 12:35:14
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

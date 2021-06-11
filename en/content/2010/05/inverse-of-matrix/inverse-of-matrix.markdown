@@ -6,6 +6,7 @@ Tags: inverse, fun problems, matrix, math, statistics, R, high dimension
 Category: Fun Problems
 Slug: inverse-of-matrix
 Author: Ben Chuanlong Du
+Modified: 2013-10-30 22:12:02
 
 
 <img src="http://www.legendu.net/media/math/matrix-inverse.png"

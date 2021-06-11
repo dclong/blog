@@ -5,6 +5,7 @@ Slug: the-right-way-to-export-PATH-in-shell
 Title: The Right Way to Export Path in Shell
 Category: Computer Science
 Tags: Computer Science, Shell, Bash, PATH, bashrc, bash_profile
+Modified: 2020-11-09 11:10:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

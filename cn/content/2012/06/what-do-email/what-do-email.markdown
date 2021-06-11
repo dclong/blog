@@ -6,6 +6,7 @@ Tags: 数据库，短信，编程
 Category: 编程
 Slug: what-do-email
 Author: Chuanlong (Ben) Du
+Modified: 2012-06-13 00:00:00
 
 邮件的重要性，不言而喻。但是如果你知道怎么使用程序自动收发邮件后，你可以用它来干点什么呢？
 下面是一些可行的事情。

@@ -6,6 +6,7 @@ Slug: eclim-tips
 Title: Tips on Eclim
 Category: Software
 Tags: software, Eclim, tips, Vim, Eclipse
+Modified: 2020-03-21 10:54:21
 
 **
 Things under legendu.net/outdated are outdated technologies 

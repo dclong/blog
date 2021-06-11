@@ -6,6 +6,7 @@ Tags: programming, regex, data frame, matrix, R, warning
 Category: Computer Science
 Slug: alike-objects-in-r
 Author: Ben Chuanlong Du
+Modified: 2013-12-05 00:19:25
 
 
 ## Matrix VS Data Frame: 

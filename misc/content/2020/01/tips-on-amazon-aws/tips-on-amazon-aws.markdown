@@ -5,6 +5,7 @@ Slug: tips-on-amazon-aws
 Title: Tips on Amazon AWS
 Category: Cloud
 Tags: Cloud, Amazon AWS
+Modified: 2020-03-11 20:47:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

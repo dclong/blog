@@ -5,6 +5,7 @@ Slug: dataframe-for-jvm
 Title: Dataframe for JVM
 Category: Computer Science
 Tags: programming, DataFrame, Spark, Tablesaw, krangl, JVM
+Modified: 2019-12-13 10:55:31
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

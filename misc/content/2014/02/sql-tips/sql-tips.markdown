@@ -5,6 +5,7 @@ Title: General Tips on SQL
 Slug: sql-tips
 Category: Computer Science
 Tags: programming, SQL, tips, IDE, sqldep, queryscope, queryViz, SQLAlchemy, database
+Modified: 2021-02-15 12:10:03
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

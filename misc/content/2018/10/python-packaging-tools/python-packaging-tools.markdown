@@ -5,6 +5,7 @@ Slug: python-packaging-tools
 Title: Python Packaging Tools
 Category: Computer Science
 Tags: programming, Python, packaging, PyBuilder, pip, pyinstaller, pip, project management
+Modified: 2018-10-18 01:47:58
 
 **
 Things on this page are

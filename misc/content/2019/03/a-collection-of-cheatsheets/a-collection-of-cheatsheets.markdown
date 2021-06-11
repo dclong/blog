@@ -5,6 +5,7 @@ Slug: a-collection-of-cheatsheets
 Title: A Collection of Cheatsheets
 Category: Computer Science
 Tags: programming, AI, machine learing, data science, cheatsheet
+Modified: 2020-11-15 12:02:41
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

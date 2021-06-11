@@ -6,6 +6,7 @@ Tags: abstract class, Java, interface, programming
 Category: Computer Science
 Slug: java-difference-abstract-interface
 Author: Ben Chuanlong Du
+Modified: 2014-09-23 11:15:19
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

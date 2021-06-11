@@ -5,6 +5,7 @@ Slug: tips-on-ln
 Title: Tips on the Linux Command ln
 Category: Computer Science
 Tags: Computer Science, ln, symbolic, link, rsync
+Modified: 2020-12-20 20:32:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

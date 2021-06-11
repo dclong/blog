@@ -6,6 +6,7 @@ Slug: things-to-do-after-installing-linux
 Title: Things to Do After Installing Linux
 Category: OS
 Tags: Linux, OS, installation
+Modified: 2016-12-04 20:59:32
 
 **
 Things on this page are

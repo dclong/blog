@@ -5,6 +5,7 @@ Slug: tips-minikube
 Title: Tips on Minikube
 Category: Software
 Tags: Software, Minikube, k8s, Kubernetes
+Modified: 2021-06-10 09:39:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

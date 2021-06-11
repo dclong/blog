@@ -5,6 +5,7 @@ Slug: spark-sql-tips
 Title: Spark SQL
 Category: Computer Science
 Tags: programming, big data, Spark, Spark SQL, Hive
+Modified: 2021-02-20 09:03:19
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

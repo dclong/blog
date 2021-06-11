@@ -5,6 +5,7 @@ Slug: spark-issue-AnalysisException-cannot-resolve
 Title: Spark Issue: AnalysisException: Cannot Resolve
 Category: Computer Science
 Tags: Computer Science, programming, Spark, issue, AnalysisException, cannot resolve, Spark issue, big data
+Modified: 2021-03-24 15:03:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

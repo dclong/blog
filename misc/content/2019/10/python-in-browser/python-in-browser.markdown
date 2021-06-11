@@ -5,6 +5,7 @@ Slug: python-in-browser
 Title: Python in Browser
 Category: Computer Science
 Tags: programming, anvil.works, Python, JavaScript, web, web client, BRython
+Modified: 2020-10-26 08:58:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

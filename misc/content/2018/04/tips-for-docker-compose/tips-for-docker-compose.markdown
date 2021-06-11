@@ -5,6 +5,7 @@ Slug: tips-on-docker-compose
 Title: Tips on Docker Compose
 Category: Software
 Tags: software, Docker Compose, tips
+Modified: 2021-02-16 09:18:10
 
 **
 Things on this page are

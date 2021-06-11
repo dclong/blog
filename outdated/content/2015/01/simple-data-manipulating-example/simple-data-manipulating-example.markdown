@@ -5,6 +5,7 @@ Title: Simple Data Manipulating Example in SAS
 Slug: simple-data-manipulating-example
 Category: Computer Science
 Tags: programming, SAS, IML, R, CRAN, example
+Modified: 2020-05-22 13:33:00
 
 **
 Things under legendu.net/outdated are outdated technologies 

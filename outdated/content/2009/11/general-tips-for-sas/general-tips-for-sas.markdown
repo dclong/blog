@@ -6,6 +6,7 @@ Slug: general-tips-for-sas
 Title: General Tips for SAS
 Category: Computer Science
 Tags: character, programming, SAS, procedure, data step, tip
+Modified: 2015-08-02 12:05:07
 
 
 **

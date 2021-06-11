@@ -5,6 +5,7 @@ Slug: tips-on-pypy
 Title: Tips on PyPy
 Category: Computer Science
 Tags: Computer Science, programming, PyPy, Python, pip, ensurepip
+Modified: 2021-04-19 09:53:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

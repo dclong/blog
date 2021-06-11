@@ -6,6 +6,7 @@ Tags: search path, require, programming, load, package, Ruby
 Category: Computer Science
 Slug: load-script-ruby
 Author: Ben Chuanlong Du
+Modified: 2012-08-25 00:00:00
 
 <img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/>
 

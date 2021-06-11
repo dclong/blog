@@ -6,6 +6,7 @@ Slug: skills-for-r
 Title: Skills for R
 Category: Programming
 Tags: R, skills, programming, CRAN
+Modified: 2015-05-14 21:59:32
 
 
 1. Unlike C/C++, Java and SAS, 

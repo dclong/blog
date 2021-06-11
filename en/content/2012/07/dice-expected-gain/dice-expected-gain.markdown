@@ -6,6 +6,7 @@ Tags: Mathematica, recursion, statistics, probability, Markov chain, fun problem
 Category: Fun Problems
 Slug: dice-expected-gain
 Author: Ben Chuanlong Du
+Modified: 2013-10-30 09:37:39
 
 [table 1]: http://dclong.github.io/media/dice/tables.pdf
 [table 2]: http://dclong.github.io/media/dice/tables.pdf

@@ -6,6 +6,7 @@ Slug: add-sequential-id-for-observations-in-sas
 Title: Add Sequential ID for Observations in SAS
 Category: Computer Science
 Tags: programming, SAS, SQL, sequential, ID, observation
+Modified: 2015-06-20 23:25:05
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Traps in R
 Category: Programming
 Tags: R, global variable, programming, traps, CRAN
+Modified: 2017-04-09 23:47:21
 
 1. [Zero-Length Vector Issue in R](http://www.legendu.net/en/blog/zero-length-vector-issue-in-R/)
 

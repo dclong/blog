@@ -5,6 +5,7 @@ Slug: tips-on-qemu
 Title: Tips on Qemu
 Category: Computer Science
 Tags: Computer Science, programming, QEMU, virtual machine, mouse control
+Modified: 2021-05-03 10:23:53
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## Control Mouse

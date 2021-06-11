@@ -5,6 +5,7 @@ Title: Living in Chicago
 Slug: chicago-tips
 Category: Life
 Tags: life, Chicago, tips
+Modified: 2020-05-22 13:31:43
 
 **
 Things on this page are

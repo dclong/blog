@@ -5,6 +5,7 @@ Slug: symbolic-computation-in-python
 Title: Symbolic Computation in Python
 Category: Computer Science
 Tags: Computer Science, symbolic computation, symbolic, Mathematica, Python, SymPy, SageMath
+Modified: 2020-06-12 10:23:32
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

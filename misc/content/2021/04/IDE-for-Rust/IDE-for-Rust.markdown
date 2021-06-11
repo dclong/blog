@@ -5,6 +5,7 @@ Slug: IDE-for-Rust
 Title: IDE for Rust
 Category: Computer Science
 Tags: Computer Science, programming, Rust, IDE
+Modified: 2021-04-20 08:43:39
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 

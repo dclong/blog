@@ -5,6 +5,7 @@ Slug: curl-tips
 Title: Tips on cURL and Wget
 Category: Software
 Tags: tips, cURL, downloading, web, wget
+Modified: 2020-01-26 13:02:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

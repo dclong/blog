@@ -5,6 +5,7 @@ Slug: git-implementations-and-bindings-in-python
 Title: Git Implementations and Bindings in Python
 Category: Computer Science
 Tags: Computer Science, programming, Git, Python, Dulwich, pygit2, GitPython 
+Modified: 2021-06-02 12:31:26
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 There are multiple Git implementations/bindings in Python:

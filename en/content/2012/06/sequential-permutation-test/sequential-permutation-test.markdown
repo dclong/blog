@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Estimation of False Discovery Rate using Sequential Permutation Pvalues
 Category: Research
 Tags: research, sequential permutation test, biostatistics, Acute Lymphocyctic Leukemia, package, marker, dclong.spt, R, barley, false discovery rate, FDR
+Modified: 2015-03-03 10:17:03
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>
 I wrote a paper on sequential permutation test with Tim Bancroft and Dan Nettleton. 

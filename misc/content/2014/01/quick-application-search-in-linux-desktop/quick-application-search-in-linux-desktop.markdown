@@ -6,6 +6,7 @@ Slug: quick-application-search-in-linux-desktop
 Title: Quick Application Search in Linux Desktop
 Category: OS
 Tags: os, operating system, Linux, desktop, tips    
+Modified: 2014-06-20 17:16:05
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

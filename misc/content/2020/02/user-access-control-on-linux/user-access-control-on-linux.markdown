@@ -5,6 +5,7 @@ Slug: user-access-control-on-linux
 Title: User Access Control on Linux
 Category: OS
 Tags: OS, Linux, sudoer, sudo, access, user, group, login, control
+Modified: 2020-02-29 17:47:12
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

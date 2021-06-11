@@ -5,6 +5,7 @@ Slug: java-interfaces-for-python
 Title: Java Interfaces for Python
 Category: Computer Science
 Tags: programming, Python, Java, interface, PyJNIus, jpype, py4j
+Modified: 2020-10-25 20:15:13
 
 
 JPype, py4j and PyJNIus are all good options for Java interface for Python.

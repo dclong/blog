@@ -5,6 +5,7 @@ Slug: split-string-into-rows-in-SQL
 Title: Split String into Rows in SQL
 Category: Computer Science
 Tags: programming, SQL, SQLite3, split, string, rows
+Modified: 2019-02-09 09:04:52
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

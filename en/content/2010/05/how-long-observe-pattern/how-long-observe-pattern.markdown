@@ -6,6 +6,7 @@ Tags: Mathematica, pattern, Markov chain, statistics, sequence, coin, stochastic
 Category: Fun Problems
 Slug: how-long-observe-pattern
 Author: Ben Chuanlong Du
+Modified: 2018-01-04 02:30:19
 
 [more examples and results]: http://dclong.github.io/media/pattern/pattern-time-examples.pdf 
 [code]: http://dclong.github.io/media/pattern/pattern.cdf

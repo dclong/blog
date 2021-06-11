@@ -5,6 +5,7 @@ Slug: data-sources
 Title: Data Sources
 Category: AI
 Tags: AI, machine learning, data, resource, financial data
+Modified: 2020-10-27 12:25:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

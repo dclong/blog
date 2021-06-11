@@ -6,6 +6,7 @@ Slug: sbt-dependencies
 Title: Scala Dependencies for SBT
 Category: Computer Science
 Tags: programming, SBT, Scala, dependencies
+Modified: 2017-10-22 12:38:10
 
 **
 Things on this page are

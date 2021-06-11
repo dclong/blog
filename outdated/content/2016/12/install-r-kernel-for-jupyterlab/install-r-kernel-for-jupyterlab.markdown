@@ -5,6 +5,7 @@ Slug: install-r-kernel-for-jupyterlab
 Title: Install R Kernel for JupyterLab
 Category: Programming
 Tags: programming, R, CRAN, IRKernel, Jupyter, JupyterLab
+Modified: 2019-04-25 20:22:24
 
 **
 Things under legendu.net/outdated are outdated technologies 

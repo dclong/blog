@@ -6,6 +6,7 @@ Slug: sbt-plugins-for-deployment
 Title: sbt Plugins for Deployment
 Category: Computer Science
 Tags: programming, sbt, plugin, Scala
+Modified: 2017-12-23 09:30:38
 
 **
 Things on this page are

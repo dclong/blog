@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Power Settings in Linux with GNOME Desktop
 Category: OS
 Tags: configuration, battery, power, Linux, GNOME
+Modified: 2015-03-03 10:17:32
 
 Full control of the power settings in Linux with Gnome Desktop can be done through 
 **dconf-editor** at org->gnome->settings-daemon->plugins->power.

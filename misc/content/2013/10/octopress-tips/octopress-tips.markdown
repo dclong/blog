@@ -6,6 +6,7 @@ Date: 2016-08-15 21:43:18
 Slug: octopress-tips
 Category: Software
 Tags: tips, software, octopress, tips
+Modified: 2016-08-15 21:43:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

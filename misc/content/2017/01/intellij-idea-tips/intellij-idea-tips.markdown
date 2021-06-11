@@ -5,6 +5,7 @@ Slug: intellij-idea-tips
 Title: IntelliJ IDEA Tips
 Category: Software
 Tags: software, IDE, IntelliJ IDEA, tips
+Modified: 2019-12-28 18:11:59
 
 **
 Things on this page are

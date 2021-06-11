@@ -5,6 +5,7 @@ Slug: scala-errors
 Title: Common Errors Encountered in Scala and Solutions
 Category: Computer Science
 Tags: programming, Scala, error, issue, version
+Modified: 2020-05-22 12:58:10
 
 **
 Things on this page are

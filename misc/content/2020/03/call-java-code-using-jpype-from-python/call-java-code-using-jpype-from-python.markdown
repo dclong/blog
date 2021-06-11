@@ -5,6 +5,7 @@ Slug: call-java-code-using-jpype-from-python
 Title: Call Java Code Using JPype from Python
 Category: Computer Science
 Tags: Computer Science, JPype1, JPype, Java, JVM, Python
+Modified: 2020-10-31 12:16:58
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

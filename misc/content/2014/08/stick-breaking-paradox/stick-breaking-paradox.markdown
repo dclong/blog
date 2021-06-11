@@ -6,6 +6,7 @@ Slug: stick-breaking-paradox
 Title: Stick Breaking Paradox
 Category: Fun Problems
 Tags: fun problems, stick breaking, probability, statistics, paradox, todo
+Modified: 2014-10-23 17:11:45
 
 **
 Things on this page arefragmentary and immature notes/thoughts of the author.

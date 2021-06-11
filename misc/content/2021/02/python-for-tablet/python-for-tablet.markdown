@@ -5,6 +5,7 @@ Slug: python-for-tablet
 Title: Python for Tablet
 Category: Computer Science
 Tags: Computer Science, programming, Python, tablet
+Modified: 2021-02-20 08:56:49
 
 https://stackoverflow.com/questions/54003194/how-can-i-access-tablet-pen-data-via-python
 

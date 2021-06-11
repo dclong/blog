@@ -5,6 +5,7 @@ Slug: replace-single-quotes-with-double-quotes-in-python-code
 Title: Replace Single Quotes With Double Quotes in Python Code
 Category: Computer Science
 Tags: Computer Science, programming, Python, code, format, single, double, quotes, string
+Modified: 2021-03-15 11:56:53
 
 There are 2 ways.
 

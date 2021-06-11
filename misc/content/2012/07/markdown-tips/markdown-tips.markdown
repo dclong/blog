@@ -5,6 +5,7 @@ Title: Writing Docs Using Markdown
 Slug: markdown-tips
 Category: Computer Science
 Tags: Markdown, Jekyll, programming
+Modified: 2020-06-22 09:25:23
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

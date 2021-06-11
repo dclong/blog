@@ -5,6 +5,7 @@ Slug: foreign-language-interfaces-for-rust
 Title: Foreign Language Interfaces for Rust
 Category: Computer Science
 Tags: Computer Science, inline-python, interface, foreign, language, interface, Rust
+Modified: 2020-11-28 11:37:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

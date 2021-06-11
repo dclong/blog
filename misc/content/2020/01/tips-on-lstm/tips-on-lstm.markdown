@@ -5,6 +5,7 @@ Slug: tips-on-lstm
 Title: Tips on LSTM
 Category: AI
 Tags: AI, data science, machine learning, LSTM, RNN
+Modified: 2020-02-11 15:58:32
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Tags: C/C++, software, eclipse
 Category: Software
 Slug: eclipse-cpp11
 Author: Ben Chuanlong Du
+Modified: 2012-08-20 00:00:00
 
 <img src="http://dclong.github.io/media/eclipse/cdt.png" height="200" width="240" align="right"/>
 

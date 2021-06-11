@@ -5,6 +5,7 @@ Title: Cross Validation in Machine Learning
 Slug: cross-validation-machine-learning
 Category: AI
 Tags: AI, data science, machine learning, cross validation
+Modified: 2013-04-03 00:00:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

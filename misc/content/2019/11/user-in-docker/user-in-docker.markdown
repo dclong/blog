@@ -5,6 +5,7 @@ Slug: user-in-docker
 Title: User in Docker
 Category: Software
 Tags: Software, Docker, user, container
+Modified: 2019-11-20 21:21:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

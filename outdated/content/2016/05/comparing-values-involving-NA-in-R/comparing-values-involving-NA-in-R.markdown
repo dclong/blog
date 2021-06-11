@@ -6,6 +6,7 @@ Slug: comparing-values-involving-NA-in-R
 Title: Comparison of Values Involving NA in R
 Category: Programming
 Tags: programming, R, comparison, NA, missing, CRAN
+Modified: 2016-07-10 20:33:23
 
 The best way to compare values containing `NA` in R is to define customized comparison functions.
 Here is an example.

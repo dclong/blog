@@ -5,6 +5,7 @@ Slug: kubernetes-tips
 Title: Tips on Kubernetes
 Category: Software
 Tags: Software, Kubernetes, k8s, minikube, kubectl, Microk8s
+Modified: 2021-06-10 09:39:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

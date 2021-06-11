@@ -5,6 +5,7 @@ Title: Tips on Git
 Slug: git-tips
 Category: Software
 Tags: tips, Git, software, version control, distributed
+Modified: 2021-05-30 11:09:57
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

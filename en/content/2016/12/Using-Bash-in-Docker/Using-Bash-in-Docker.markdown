@@ -6,6 +6,7 @@ Slug: Using-Bash-in-Docker
 Title: Using Bash in Docker
 Category: Software
 Tags: software, docker, bash, shell
+Modified: 2017-01-14 13:54:14
 
 
 If the docker container was started using `/bin/bash` 

@@ -5,6 +5,7 @@ Title: Tips on Outlook
 Slug: outlook-tips
 Category: Software
 Tags: software, outlook, tips, email client
+Modified: 2020-06-06 20:28:42
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**

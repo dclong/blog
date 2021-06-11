@@ -5,6 +5,7 @@ Slug: class-in-python
 Title: Class in Python
 Category: Computer Science
 Tags: programming, Python, metaclass, class, OOP, object
+Modified: 2020-04-12 10:22:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: stringi-tips
 Title: stringi Tips
 Category: Programming
 Tags: programming, stringi, CRAN
+Modified: 2017-09-06 08:03:00
 
 **
 Things under legendu.net/outdated are outdated technologies 

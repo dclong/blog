@@ -5,6 +5,7 @@ Slug: Improve Performance of Inserting in Teradata SQL
 Title: Fastload in Teradata
 Category: Computer Science
 Tags: Computer Science, SQL, Teradata, fastload, BTEQ, prepared statement
+Modified: 2020-06-22 09:06:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

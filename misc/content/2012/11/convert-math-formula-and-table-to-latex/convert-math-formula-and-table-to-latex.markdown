@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Convert Math Formula and Table To LaTeX
 Category: Computer Science
 Tags: Mathematica, table, programming, Excel, LaTeX, math formula, R, MATLAB
+Modified: 2016-07-13 00:05:59
 
 
 ## R

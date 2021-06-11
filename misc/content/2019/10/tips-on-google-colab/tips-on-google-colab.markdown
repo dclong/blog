@@ -5,6 +5,7 @@ Slug: tips-on-google-colab
 Title: Tips on Google Colab
 Category: Software
 Tags: Software, Google Colab, Jupyter, JupyterLab, GPU, TPU
+Modified: 2020-01-30 01:27:49
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

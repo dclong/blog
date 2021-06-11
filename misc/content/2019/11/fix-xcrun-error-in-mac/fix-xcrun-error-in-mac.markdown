@@ -5,6 +5,7 @@ Slug: fix-xcrun-error-in-mac
 Title: Fix Xcrun Error in Mac
 Category: OS
 Tags: OS, macOS, xcode, xcrun
+Modified: 2019-11-20 09:32:23
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

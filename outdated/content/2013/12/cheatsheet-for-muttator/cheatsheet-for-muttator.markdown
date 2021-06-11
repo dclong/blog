@@ -6,6 +6,7 @@ Title: Cheatsheet for Muttator
 Slug: cheatsheet-for-muttator
 Category: Software
 Tags: software, Muttator, Vim, tips, Mozilla
+Modified: 2013-12-19 21:19:59
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

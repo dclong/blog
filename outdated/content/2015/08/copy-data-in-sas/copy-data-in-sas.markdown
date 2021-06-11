@@ -6,6 +6,7 @@ Slug: copy-data-in-sas
 Title: Copy Data in SAS
 Category: Computer Science
 Tags: programming, SAS, copy, dataset, datasets, data step
+Modified: 2015-08-28 12:50:40
 
 **
 Things under legendu.net/outdated are outdated technologies 

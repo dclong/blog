@@ -6,6 +6,7 @@ Tags: expectation, ball, box, probability, fun problems, statistic
 Category: Fun Problems
 Slug: how-many-empty-boxes
 Author: Ben Chuanlong Du
+Modified: 2012-07-08 00:00:00
 
 <img src="http://dclong.github.io/media/ball-box/empty-box.png" height="200" width="240" align="right"/>
 

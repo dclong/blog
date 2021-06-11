@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Install the GSL Library
 Category: Computer Science
 Tags: Debian, C/C++, Linux, programming, GSL
+Modified: 2015-02-19 13:41:31
 
 GSL is an advance C/C++ library that is widely used. 
 To install GSL, 

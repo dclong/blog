@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Install the R Package "arrayQualityMetrics"
 Category: Programming
 Tags: research, programming, biostatistics, package, arrayQualityMetrics, R, CRAN
+Modified: 2016-06-11 19:11:28
 
 I had to use the R package "arrayQualityMetrics" to check the quality of some gene chips. 
 Installing this package in Linux takes a few steps. 

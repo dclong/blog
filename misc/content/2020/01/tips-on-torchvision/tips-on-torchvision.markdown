@@ -5,6 +5,7 @@ Slug: tips-on-torchvision
 Title: Tips on Torchvision
 Category: AI
 Tags: AI, data science, machine learning, torchvision, pytorch
+Modified: 2020-01-07 09:50:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

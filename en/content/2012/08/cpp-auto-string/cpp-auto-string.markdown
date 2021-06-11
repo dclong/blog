@@ -6,6 +6,7 @@ Tags: auto, iteration, programming, C/C++, string, loop, char
 Category: Computer Science
 Slug: cpp-auto-string
 Author: Ben Chuanlong Du
+Modified: 2012-08-20 00:00:00
 
 1. `auto s = "abcd"` creats `const char *` not string, so use `auto` with caution. 
 

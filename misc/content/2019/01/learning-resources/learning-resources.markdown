@@ -6,6 +6,7 @@ Slug: learning-resources
 Title: Learning Resources
 Category: Career
 Tags: career, study, learning, resource, Coursera, Education Ecosystem
+Modified: 2020-05-09 17:38:45
 
 **
 Things on this page are

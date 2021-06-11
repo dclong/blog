@@ -6,6 +6,7 @@ Slug: run-jar-applications
 Title: Run JAR Applications
 Category: Computer Science
 Tags: programming, Java, JAR, main
+Modified: 2017-10-22 12:17:00
 
 If there is only 1 class with a main method
 or if there is a Main-Class defined for the JAR,

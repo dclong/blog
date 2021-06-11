@@ -6,6 +6,7 @@ Tags: LaTeX, reference, research, Bibtex, software
 Category: Software
 Slug: scientfic-reference
 Author: Ben Chuanlong Du
+Modified: 2016-07-13 00:05:06
 
 
 0. `JabRef` is an open-source cross-plotform software for managing scientific references.

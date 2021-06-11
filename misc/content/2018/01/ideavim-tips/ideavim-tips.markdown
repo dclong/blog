@@ -5,6 +5,7 @@ Slug: ideavim-tips
 Title: Vim Keybindings Using IdeaVim in IntelliJ IDEA
 Category: Computer Science
 Tags: Computer Science, IntelliJ IDEA, IdeaVim, Vim
+Modified: 2020-05-31 11:53:55
 
 **
 Things on this page are

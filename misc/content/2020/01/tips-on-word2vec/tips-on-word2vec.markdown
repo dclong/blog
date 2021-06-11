@@ -5,6 +5,7 @@ Slug: tips-on-word2vec
 Title: Tips on Word2Vec
 Category: AI
 Tags: AI, data science, machine learning, Word2Vec, word embedding, distributed representation
+Modified: 2020-01-08 12:06:32
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

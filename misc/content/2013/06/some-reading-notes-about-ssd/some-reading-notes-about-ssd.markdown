@@ -6,6 +6,7 @@ Tags: Hardware, SSD, SATA
 Category: Hardware
 Slug: some-reading-notes-about-ssd
 Author: Ben Chuanlong Du
+Modified: 2013-06-23 00:00:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

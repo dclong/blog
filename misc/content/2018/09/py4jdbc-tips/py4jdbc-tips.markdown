@@ -5,6 +5,7 @@ Slug: py4jdbc-tips
 Title: Connecting to Databases Using py4jdbc in Python
 Category: Computer Science
 Tags: programming, Python, py4jdbc, JDBC
+Modified: 2020-05-22 16:09:08
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Graphics in R
 Category: Programming
 Tags: par, R, plot, graphics, programming, CRAN, visualization
+Modified: 2016-06-11 18:28:16
 
 **
 Things under legendu.net/outdated are outdated technologies 

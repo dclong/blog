@@ -5,6 +5,7 @@ Slug: generating-a-self-signed-SSL
 Title: Generating a Self-Signed SSL
 Category: Software
 Tags: software, SSL
+Modified: 2019-10-27 22:20:14
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: recruiting-management
 Title: Recruiting Management
 Category: Software
 Tags: software, recruiting management, recruiter, resume, candidate
+Modified: 2018-04-30 13:47:25
 
 **
 Things on this page are

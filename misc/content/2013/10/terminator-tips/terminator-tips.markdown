@@ -5,6 +5,7 @@ Slug: terminator-tips
 Title: Terminator is an Awesome Terminal Emulator
 Category: Software
 Tags: software, terminal, tips, Linux, terminator
+Modified: 2015-10-18 14:03:09
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

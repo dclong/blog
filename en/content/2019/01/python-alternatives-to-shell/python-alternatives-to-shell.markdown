@@ -5,6 +5,7 @@ Slug: shell-alternatives
 Title: Python Alternatives to Shell
 Category: Computer Science
 Tags: programming, IPython, shell, bash, xonsh, plumbum, Python, shell alternatives
+Modified: 2020-03-03 16:17:10
 
 ## Python Equivalent of Shell Commands
 

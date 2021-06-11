@@ -5,6 +5,7 @@ Slug: avoid-database-lock-in-sqlite3
 Title: Avoid Database Lock in SQLite3
 Category: Computer Science
 Tags: Computer Science, SQLite3, database, lock, connection
+Modified: 2020-10-24 09:49:04
 1. According to https://www.sqlite.org/lockingv3.html,
     POSIX advisory locking is known to be buggy or even unimplemented on many NFS implementations 
     (including recent versions of Mac OS X) 

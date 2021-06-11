@@ -6,6 +6,7 @@ Tags: 开心一刻, 过犹不及，望，语文，古汉语，古诗词
 Category: 开心一刻
 Slug: guo-you-bi-ji-he-wang
 Author: Chuanlong (Ben) Du
+Modified: 2013-08-08 00:00:00
 
 我高三的语文老师特别喜欢将古诗词以及成语之类的。
 有一次，课上她讲“过犹不及”这个成语并让同学们举例子。

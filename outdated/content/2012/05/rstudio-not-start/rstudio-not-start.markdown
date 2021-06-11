@@ -6,6 +6,7 @@ Slug: rstudio-not-start
 Title: RStudio Does Not Start
 Category: Software
 Tags: IDE, R, statistics, software, configuration, RStudio, CRAN
+Modified: 2015-02-26 12:45:00
 
 Rstudio is the best cross-platform IDE for R so far. 
 It is a lot like the IDE of MATLAB.

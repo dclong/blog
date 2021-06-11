@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Working with Class in C++
 Category: Computer Science
 Tags: C++, destructor, programming, inheritance, override, class, hidding, constructor
+Modified: 2015-08-05 10:56:31
 
 
 Illustrative examples for the following discussions can be found 

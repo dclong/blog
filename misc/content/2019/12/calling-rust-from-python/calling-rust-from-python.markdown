@@ -5,6 +5,7 @@ Slug: calling-rust-from-python
 Title: Calling Rust from Python
 Category: Computer Science
 Tags: programming, Python, Rust, PyO3
+Modified: 2020-11-28 11:37:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

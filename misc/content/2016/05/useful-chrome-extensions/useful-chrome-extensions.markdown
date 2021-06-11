@@ -5,6 +5,7 @@ Slug: useful-chrome-extensions
 Title: Useful Chrome Extensions
 Category: Software
 Tags: software, Google Chrome, extension, add-on, plug-in, addon, plugin, web browser
+Modified: 2020-05-30 20:26:25
 
 **
 Things on this page are

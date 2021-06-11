@@ -6,6 +6,7 @@ Tags: C++, programming, pointer
 Category: Computer Science
 Slug: pointers-in-cpp
 Author: Ben Chuanlong Du
+Modified: 2012-10-21 00:00:00
 
 
 ## Pointers

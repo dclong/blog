@@ -5,6 +5,7 @@ Slug: python-hdfs
 Title: HDFS in Python
 Category: Computer Science
 Tags: programming, Python, Hadoop, HDFS
+Modified: 2019-05-09 23:40:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

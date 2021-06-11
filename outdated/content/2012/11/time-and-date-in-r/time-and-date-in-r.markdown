@@ -6,6 +6,7 @@ Slug: time-and-date-in-r
 Title: Time and Date in R
 Category: Programming
 Tags: R, date, time, programming, CRAN
+Modified: 2015-01-14 16:46:40
 
 
 1. The function `as.Date` and `strptime` convert string to dates. 

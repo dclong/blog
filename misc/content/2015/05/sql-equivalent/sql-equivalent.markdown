@@ -5,6 +5,7 @@ Slug: sql-equivalent
 Title: SQL Equivalent
 Category: Computer Science
 Tags: programming, SQL, database, equivalent, querying
+Modified: 2021-02-20 11:48:36
 
 **
 Things on this page are

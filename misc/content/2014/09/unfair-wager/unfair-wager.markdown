@@ -5,6 +5,7 @@ Title: The Unfair Wager Problem
 Slug: unfair-wager
 Category: Fun Problems
 Tags: fun problems, uniform distribution, probability, statistics, puzzle, todo
+Modified: 2020-05-22 14:37:10
 
 **
 Things on this page are

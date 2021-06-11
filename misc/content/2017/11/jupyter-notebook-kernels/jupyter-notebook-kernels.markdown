@@ -5,6 +5,7 @@ Slug: jupyter-notebook-kernels
 Title: Jupyter Notebook Kernels
 Category: Software
 Tags: software, Jupyter Notebook, JupyterLab, kernel
+Modified: 2020-09-11 10:39:11
 
 **
 Things on this page are

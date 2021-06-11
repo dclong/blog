@@ -6,6 +6,7 @@ Slug: download-debian-using-jigdo
 Author: Ben Chuanlong Du
 Category: OS
 Tags: jigdo-lite, wget, debian image, jigdo, Linux
+Modified: 2015-02-03 19:59:19
 
 [Weekly Builds of Debian Testing Image]: http://cdimage.debian.org/cdimage/weekly-builds/amd64/jigdo-dvd/
 

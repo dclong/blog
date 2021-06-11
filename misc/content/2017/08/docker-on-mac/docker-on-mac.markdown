@@ -5,6 +5,7 @@ Slug: docker-on-mac
 Title: Docker on Mac
 Category: Software
 Tags: Software, Docker, Mac
+Modified: 2019-12-20 10:19:20
 
 **
 Things on this page are

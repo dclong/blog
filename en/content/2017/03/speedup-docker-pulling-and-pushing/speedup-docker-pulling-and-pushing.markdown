@@ -6,6 +6,7 @@ Slug: speedup-docker-pulling-and-pushing
 Title: Speedup Docker Pulling and Pushing
 Category: Software
 Tags: software, Docker, speedup, performance, DaoCloud
+Modified: 2020-01-29 01:23:50
 
 Pulling/pushing Docker images is extremely slow in China. 
 There are a few ways to speed up docker pulling/pushing in China.

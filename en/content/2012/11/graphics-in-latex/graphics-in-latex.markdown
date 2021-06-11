@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Graphics in LaTeX
 Category: Computer Science
 Tags: image, vector, LaTeX, graphics, programming
+Modified: 2016-07-13 00:02:34
 
 
 1. Generally PDF figures are preferred for LaTeX code.

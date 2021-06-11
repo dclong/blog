@@ -5,6 +5,7 @@ Slug: work-with-teradata-sql-in-python
 Title: Work With Teradata SQL in Python
 Category: Computer Science
 Tags: programming, Python, Teradata SQL, Teradata
+Modified: 2020-05-17 11:47:48
 
 **
 Things under legendu.net/outdated are outdated technologies 

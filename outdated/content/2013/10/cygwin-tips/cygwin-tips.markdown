@@ -5,6 +5,7 @@ Title: Some Tips on Cygwin
 Slug: cygwin-tips
 Category: Software
 Tags: tips, software, Cygwin
+Modified: 2020-05-22 15:33:38
 
 **
 Things under legendu.net/outdated are outdated technologies 

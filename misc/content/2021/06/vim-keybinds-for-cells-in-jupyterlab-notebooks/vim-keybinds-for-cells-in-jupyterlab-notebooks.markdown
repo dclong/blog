@@ -5,6 +5,7 @@ Slug: vim-keybinds-for-cells-in-jupyterlab-notebooks
 Title: Vim Keybinds for Cells of JupyterLab Notebooks
 Category: Computer Science
 Tags: Computer Science, software, tools, Jupyter, JupyterLab, notebook, cell, Vim, keybindings
+Modified: 2021-06-08 08:42:41
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 [jupyterlab-vim](https://github.com/jwkvam/jupyterlab-vim)

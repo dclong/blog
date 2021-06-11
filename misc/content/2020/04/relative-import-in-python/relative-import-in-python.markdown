@@ -5,6 +5,7 @@ Slug: relative-import-in-python
 Title: Relative Import in Python
 Category: Computer Science
 Tags: Computer Science, Python, class
+Modified: 2020-04-12 10:08:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

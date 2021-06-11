@@ -5,6 +5,7 @@ Slug: vscode-tips
 Title: Tips on Visual Studio Code
 Category: Software
 Tags: software, vscode, Visual Studio Code, tips, IDE
+Modified: 2021-04-24 11:28:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

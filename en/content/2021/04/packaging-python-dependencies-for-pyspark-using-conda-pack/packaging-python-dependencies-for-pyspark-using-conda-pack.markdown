@@ -5,6 +5,7 @@ Slug: packaging-python-dependencies-for-pyspark-using-conda-pack
 Title: Packaging Python Dependencies for PySpark Using Conda-Pack
 Category: Computer Science
 Tags: programming, PySpark, Python, conda, conda-pack, dependency, Spark, big data, portable
+Modified: 2021-03-30 12:13:17
 ## Build Portable Python Environments Using conda-pack
 
 Please refer to the GitHub repo

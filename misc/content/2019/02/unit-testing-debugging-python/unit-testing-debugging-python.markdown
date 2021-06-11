@@ -5,6 +5,7 @@ Slug: debugging-unit-testing-cicd-python
 Title: Debugging, Unit Testing and CICD in Python
 Category: Computer Science
 Tags: programming, Python, unit testing, debugging, command-line tools, development, dev
+Modified: 2020-10-07 22:02:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

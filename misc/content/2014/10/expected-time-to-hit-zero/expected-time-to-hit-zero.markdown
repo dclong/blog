@@ -6,6 +6,7 @@ Slug: expected time to hit zero
 Title: Expected Time to Hit Zero
 Category: Fun Problems
 Tags: fun problems, expected time, hitting time, discrete uniform distribution
+Modified: 2014-10-23 17:03:01
 
 **
 Things on this page are

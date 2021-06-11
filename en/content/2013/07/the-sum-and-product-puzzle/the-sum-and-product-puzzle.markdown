@@ -6,6 +6,7 @@ Slug: the-sum-and-product-puzzle
 Author: Ben Chuanlong Du
 Category: Fun Problems
 Tags: puzzle, Mathematica, math, Work, fun problems, sum, product
+Modified: 2015-02-04 23:47:19
 
 [sun vs pang]: http://www.legendu.net/en/blog/sun-bin-pang-juan/
 

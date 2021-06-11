@@ -1,6 +1,7 @@
 Title: 
 Date: 2013-9-9 00:00:00
 Slug: index
+Modified: 2013-9-9 00:00:00
 
 <img src="http://dclong.github.io/media/me/badminton.jpg" title="Chuanlong Du" align="right" width="250" height="300">
 

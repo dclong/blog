@@ -6,6 +6,7 @@ Tags: Mathematica, pattern, Markov chain, statistics, probability, sequence, coi
 Category: Fun Problems
 Slug: best-strategy-2
 Author: Ben Chuanlong Du
+Modified: 2013-10-30 15:13:01
 
 [Table 1]: http://dclong.github.io/media/pattern/pattern-first-out-probability.pdf
 [How Long Does It Take to Observe a Sequence?]: http://dclong.github.io/en/blog/how-long-observe-pattern/

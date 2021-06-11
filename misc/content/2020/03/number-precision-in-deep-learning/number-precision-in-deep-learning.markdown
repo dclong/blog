@@ -5,6 +5,7 @@ Slug: number-precision-in-deep-learning
 Title: Number Precision in Deep Learning
 Category: AI
 Tags: AI, data science, machine learning, deep learning, number precision, float, int8
+Modified: 2020-03-02 21:35:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

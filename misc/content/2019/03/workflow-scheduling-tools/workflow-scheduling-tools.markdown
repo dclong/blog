@@ -5,6 +5,7 @@ Slug: workflow-managing-tools
 Title: Workflow Managing Tools
 Category: Computer Science
 Tags: programming, workflow manager, scheduling, scheduler, Apache Airflow, mara, Azkaban, StackStorm
+Modified: 2021-06-10 09:32:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

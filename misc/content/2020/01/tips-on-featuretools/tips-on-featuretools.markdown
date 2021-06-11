@@ -5,6 +5,7 @@ Slug: tips-on-featuretools
 Title: Tips on FeatureTools
 Category: AI
 Tags: AI, data science, machine learning, feature, FeatureTools
+Modified: 2020-02-18 15:12:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

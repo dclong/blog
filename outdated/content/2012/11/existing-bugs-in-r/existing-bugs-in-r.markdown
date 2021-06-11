@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Existing Bugs in R
 Category: Programming
 Tags: R, sums of squares, programming, bug, CRAN
+Modified: 2016-08-15 21:23:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

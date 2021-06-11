@@ -5,6 +5,7 @@ Slug: tips-on-systemd
 Title: Tips on Systemd
 Category: OS
 Tags: OS, Linux, systemd, service
+Modified: 2020-05-24 10:37:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

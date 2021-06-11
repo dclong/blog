@@ -5,6 +5,7 @@ Slug: structure-of-python-packages
 Title: Structure of Python Packages
 Category: Computer Science
 Tags: Computer Science, Python, library, package, structure, layer
+Modified: 2020-08-17 22:31:41
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

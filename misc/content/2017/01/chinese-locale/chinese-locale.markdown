@@ -5,6 +5,7 @@ Slug: chinese-locale
 Title: Chinese Locale in Linux
 Category: OS
 Tags: Linux, Chinese, Locale, locale-gen, locales, Ubuntu, Debian
+Modified: 2021-02-15 12:06:13
 
 **
 Things on this page are

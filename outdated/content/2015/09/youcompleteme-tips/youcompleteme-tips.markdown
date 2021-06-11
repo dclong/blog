@@ -5,6 +5,7 @@ Title: Auto Completion Using YouCompleteMe in Vim
 Slug: YouCompleteMe-tips
 Category: Software
 Tags: software, YouCompleteMe, YCM, Vim, plugin, addon, editor, tips  
+Modified: 2020-05-22 14:00:13
 
 **
 Things under legendu.net/outdated are outdated technologies 

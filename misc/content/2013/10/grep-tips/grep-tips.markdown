@@ -5,6 +5,7 @@ Title: Search for Files in Command-line Using grep
 Slug: grep-tips
 Category: OS
 Tags: tips, grep, egrep
+Modified: 2020-05-22 14:53:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

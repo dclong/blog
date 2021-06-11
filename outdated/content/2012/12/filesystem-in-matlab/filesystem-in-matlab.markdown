@@ -6,6 +6,7 @@ Tags: filesystem, programming, MATLAB, file system
 Category: Computer Science
 Slug: filesystem-in-matlab
 Author: Ben Chuanlong Du
+Modified: 2015-05-14 22:02:00
 
 
 1. Function `path` can be used to either display or modify the search path of MATLAB. 

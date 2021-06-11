@@ -5,6 +5,7 @@ Slug: gui-mind-mapping-tools
 Title: GUI-based Mind Mapping Tools
 Category: Computer Science
 Tags: Computer Science, mind map, GUI, XMind, flowchart
+Modified: 2020-05-03 08:18:27
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Slug: install-terminator-on-cygwin
 Title: Install Terminator on Cygwin
 Category: Software
 Tags: software, Cygwin, Terminator, backports, cygwinports
+Modified: 2016-07-09 22:24:39
 
 **
 Things under legendu.net/outdated are outdated technologies 

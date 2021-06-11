@@ -5,6 +5,7 @@ Slug: fix-version-confliction-of-the-six-package
 Title: Fix Version Confliction of the Six Package
 Category: Computer Science
 Tags: programming, Python, six, version confliction
+Modified: 2019-10-15 08:31:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: online-practices-for-sql
 Title: Online Practices for SQL
 Category: Computer Science
 Tags: Computer Science, SQL, practice, online, LeetCode, W3School, SQLBolt
+Modified: 2020-06-06 20:32:23
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

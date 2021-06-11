@@ -5,6 +5,7 @@ Slug: memory-in-jvm
 Title: Memory in JVM
 Category: Computer Science
 Tags: programming, JVM, memory, stack, heap, off-heap
+Modified: 2021-03-23 17:25:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

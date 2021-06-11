@@ -6,6 +6,7 @@ Slug: Typing-Chinese-in-Vim
 Title: Typing Chinese in Vim
 Category: Software
 Tags: software, IDE, Vim, NeoVim, Chinese
+Modified: 2016-12-04 21:19:05
 
 **
 Things on this page are

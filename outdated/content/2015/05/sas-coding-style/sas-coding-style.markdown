@@ -6,6 +6,7 @@ Slug: sas-coding-style
 Title: SAS Coding Style
 Category: Computer Science
 Tags: programming, SAS, coding style
+Modified: 2015-05-17 16:21:10
 
 **
 Things under legendu.net/outdated are outdated technologies 

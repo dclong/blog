@@ -5,6 +5,7 @@ Slug: tips-on-caddy
 Title: Tips on Caddy
 Category: Computer Science
 Tags: Computer Science, reverse proxy, caddy, nginx
+Modified: 2020-10-16 18:03:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

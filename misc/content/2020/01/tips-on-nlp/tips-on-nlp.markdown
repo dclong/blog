@@ -5,6 +5,7 @@ Slug: tips-on-nlp
 Title: Tips on NLP
 Category: AI
 Tags: AI, machine learning, data science, NLP, nature language processing
+Modified: 2020-11-28 10:59:14
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

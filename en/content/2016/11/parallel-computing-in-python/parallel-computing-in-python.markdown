@@ -5,6 +5,7 @@ Slug: python-concurrency-parallel-computing
 Title: Concurrency and Parallel Computing in Python
 Category: Computer Science
 Tags: programming, Python, parallel computing, multithreading, multiprocess, HPC, high performance computing
+Modified: 2020-04-16 12:09:38
 
 
 The GIL is controversial because it prevents multithreaded CPython programs 

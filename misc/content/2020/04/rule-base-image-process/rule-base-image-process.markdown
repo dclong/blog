@@ -5,6 +5,7 @@ Slug: rule-base-image-process
 Title: Rule-Base Image Process
 Category: Computer Science
 Tags: Computer Science, image processing, computer vision, CV, machine learning, data science
+Modified: 2020-04-07 16:29:17
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: exception-error-and-critical
 Title: Exception Error and Critical
 Category: Computer Science
 Tags: programming, exception, error, fatal, critical
+Modified: 2019-07-25 00:48:52
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

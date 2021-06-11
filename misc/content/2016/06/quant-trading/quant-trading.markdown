@@ -5,6 +5,7 @@ Slug: quant-trading
 Title: Quant Trading
 Category: Finance
 Tags: quantitative trading, investment, money, stock, ETF
+Modified: 2020-05-09 19:32:27
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: software-for-editing-videos
 Title: Software for Editing Videos
 Category: software
 Tags: software, video, edit, Blender, Shortcut, OpenShot, KDEnlive
+Modified: 2020-08-09 12:37:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

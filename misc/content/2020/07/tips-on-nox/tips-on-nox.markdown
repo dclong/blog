@@ -5,6 +5,7 @@ Slug: tips-on-nox
 Title: Tips on Nox
 Category: Computer Science
 Tags: Computer Science, Python, nox, test, CICD, unit testing, unit test
+Modified: 2020-09-13 17:41:24
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

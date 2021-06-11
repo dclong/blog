@@ -5,6 +5,7 @@ Slug: fail-to-install-packages-into-python-virtual-environment-in-pycharm-on-win
 Title: Fail to Install Packages into Python Virtual Environment in PyCharm on Windows
 Category: Software
 Tags: software, PyCharm, Python virtual environment, fail to install package
+Modified: 2019-03-05 02:13:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

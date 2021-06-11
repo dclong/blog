@@ -5,6 +5,7 @@ Slug: tips-on-rustup
 Title: Tips on rustup
 Category: Computer Science
 Tags: Computer Science, programming, Rust, rustup, rustfmt, toochain, stable, beta, nightly
+Modified: 2021-04-24 08:36:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

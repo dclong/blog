@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Tricky Problems in MATLAB
 Category: Computer Science
 Tags: trick, trap, programming, MATLAB
+Modified: 2015-02-20 10:41:22
 
 
 1. Sometimes you might find that you can use some built-in function in

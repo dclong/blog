@@ -6,6 +6,7 @@ Slug: cool-mobile-apps
 Title: Cool Mobile Apps
 Category: Software
 Tags: software, mobile, apps
+Modified: 2019-01-21 21:54:58
 
 **
 Things on this page are

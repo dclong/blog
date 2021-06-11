@@ -6,6 +6,7 @@ Tags: statistics, records, probability, permutation, fun problems
 Category: Fun Problems
 Slug: number-of-records
 Author: Ben Chuanlong Du
+Modified: 2012-07-10 00:00:00
 
 <img src="http://dclong.github.io/media/records/break-record.jpg" height="200" width="240" align="right"/>
 

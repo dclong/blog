@@ -6,6 +6,7 @@ Date: 2017-03-19 10:22:17
 Slug: awk-tips
 Category: Software
 Tags: tips, awk, text manipulation
+Modified: 2017-03-19 10:22:17
 
 
 [AWK Tutorial](http://www.grymoire.com/Unix/Awk.html)

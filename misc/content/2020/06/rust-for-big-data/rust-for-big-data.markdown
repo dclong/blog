@@ -5,6 +5,7 @@ Slug: rust-for-big-data
 Title: Rust for Big Data
 Category: Computer Science
 Tags: Computer Science, Rust, big data, Ballista, DataFusion
+Modified: 2020-06-13 22:57:16
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

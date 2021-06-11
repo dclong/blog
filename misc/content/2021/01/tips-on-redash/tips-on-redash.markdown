@@ -5,6 +5,7 @@ Slug: tips-on-redash
 Title: Tips on Redash
 Category: Computer Science
 Tags: Computer Science, Redash, dashboard
+Modified: 2021-01-08 14:02:03
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

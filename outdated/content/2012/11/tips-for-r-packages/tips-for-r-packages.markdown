@@ -6,6 +6,7 @@ Slug: tips-for-r-packages
 Title: Tips for R Packages
 Category: Programming
 Tags: programming, repository, package, OmegaHat, CRAN, R, Bioconductor, biocLite
+Modified: 2016-10-23 22:30:01
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

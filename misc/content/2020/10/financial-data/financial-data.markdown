@@ -5,6 +5,7 @@ Slug: financial-data
 Title: Financial Data
 Category: Computer Science
 Tags: Computer Science, data, finance, financial, IMF, Federal Reserve, FRB
+Modified: 2021-05-06 12:47:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

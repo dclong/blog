@@ -6,6 +6,7 @@ Slug: quickly-build-a-restful-service
 Title: Quickly Build a Restful Service
 Category: Computer Science
 Tags: programming, web, RESTful API, network, Flask, json-server, OpenFasS
+Modified: 2018-05-27 15:25:58
 
 **
 Things on this page are

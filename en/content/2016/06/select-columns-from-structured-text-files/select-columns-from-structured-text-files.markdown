@@ -6,6 +6,7 @@ Slug: select-columns-from-structured-text-files
 Title: Select Columns from Structured Text Files
 Category: Computer Science
 Tags: programming, Python, pandas, SQL, awk, cut, text file, data manipulation, column, field
+Modified: 2018-01-01 16:15:21
 
 ## Python pandas
 

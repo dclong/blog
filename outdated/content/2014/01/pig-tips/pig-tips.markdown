@@ -5,6 +5,7 @@ Title: Tips on Pig
 Slug: pig-tips
 Category: Computer Science
 Tags: programming, big data, Pig, Hadoop, tips
+Modified: 2019-05-09 23:40:44
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

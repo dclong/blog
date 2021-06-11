@@ -6,6 +6,7 @@ Slug: collection-of-jupyter-notebooks
 Title: Collection of Jupyter Notebooks
 Category: Computer Science
 Tags: programming
+Modified: 2017-06-17 10:22:57
 
 **
 Things on this page are

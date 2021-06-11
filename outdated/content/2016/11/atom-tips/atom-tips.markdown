@@ -5,6 +5,7 @@ Slug: atom-tips
 Title: Tips on Atom
 Category: Software
 Tags: software, Atom, IDE, editor, plugin, addon, add-on
+Modified: 2020-05-06 14:20:40
 
 **
 Things under legendu.net/outdated are outdated technologies 

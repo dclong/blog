@@ -6,6 +6,7 @@ Tags: Linux, softwares, permission
 Category: OS
 Slug: install-software-linux
 Author: Ben Chuanlong Du
+Modified: 2012-04-30 00:00:00
 
 Sometime when you install softwares in Linux, 
 you get an error message saying that you do not have permission while you used sudo or the root account. 

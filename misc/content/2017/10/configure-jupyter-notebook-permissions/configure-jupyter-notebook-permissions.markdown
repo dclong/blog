@@ -5,6 +5,7 @@ Slug: configure-jupyter-notebook-permissions
 Title: Configure Jupyte Notebook Permissions
 Category: Software
 Tags: software, Jupyter Notebook, JupyterLab, permission, umask
+Modified: 2017-11-12 15:07:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

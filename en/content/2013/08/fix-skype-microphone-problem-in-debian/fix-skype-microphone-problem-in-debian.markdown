@@ -6,6 +6,7 @@ Tags: audio, Software, Linux
 Category: Software
 Slug: fix-skype-microphone-problem-in-debian
 Author: Ben Chuanlong Du
+Modified: 2013-08-21 00:00:00
 
 Install Pulseaudio if you only have ALSA. 
 ALSA alone does NOT work with skype whatever people 

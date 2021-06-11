@@ -6,6 +6,7 @@ Tags: puzzle, fun problems, number
 Category: Fun Problems
 Slug: find-the-two-indivisible-numbers
 Author: Ben Chuanlong Du
+Modified: 2014-09-08 11:41:48
 
 
 I met a friend majored in math on a bus home today. 

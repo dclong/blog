@@ -5,6 +5,7 @@ Title: Maning Packages Using Yum in CentOS
 Slug: yum-tips
 Category: OS
 Tags: Linux, yum, rpm, RedHat, CentOS, package management
+Modified: 2020-05-22 15:41:55
 
 **
 Things on this page are

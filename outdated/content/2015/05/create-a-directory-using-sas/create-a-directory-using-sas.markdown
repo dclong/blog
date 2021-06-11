@@ -6,6 +6,7 @@ Slug: create-a-directory-using-sas
 Title: Create a Directory Using SAS
 Category: Computer Science
 Tags: programming, SAS, directory, file system, filesystem, create, dcreate
+Modified: 2015-05-17 18:54:39
 
 **
 Things under legendu.net/outdated are outdated technologies 

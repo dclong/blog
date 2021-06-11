@@ -6,6 +6,7 @@ Slug: speed-up-sbt-in-China
 Title: Speed Up sbt in China
 Category: Computer Science
 Tags: programming, sbt, Scala, proxy, HTTP, socks, repository, proxy repository, China
+Modified: 2017-10-22 12:39:58
 
 **
 Things on this page are

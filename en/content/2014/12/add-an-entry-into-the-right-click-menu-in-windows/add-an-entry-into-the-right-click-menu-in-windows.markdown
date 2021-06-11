@@ -6,6 +6,7 @@ Slug: add-an-entry-into-the-right-click-menu-in-windows
 Title: Add an Entry into the Right-click Menu in Windows
 Category: OS
 Tags: Windows, right-click menu, registry, regedit
+Modified: 2015-02-03 19:30:50
 
 To add an entry into the right-click menu in Windows, 
 edit the registry following the steps below.

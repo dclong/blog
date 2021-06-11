@@ -5,6 +5,7 @@ Slug: comparison-of-collections-in-cpp-and-java
 Title: Comparison of Collections in C++ and Java
 Category: Computer Science
 Tags: programming, cpp, C++, Java, tips, collection
+Modified: 2021-01-10 11:48:21
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

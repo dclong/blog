@@ -6,6 +6,7 @@ Slug: rstudio-tips
 Title: RStudio Tips
 Category: Software
 Tags: software, RStudio, IDE, CRAN, R, tips
+Modified: 2016-12-04 20:30:49
 
 **
 Things under legendu.net/outdated are outdated technologies 

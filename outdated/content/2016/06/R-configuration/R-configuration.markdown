@@ -6,6 +6,7 @@ Slug: R-configuration
 Title: R Configuration
 Category: Programming
 Tags: programming, R, CRAN, configuration, settings
+Modified: 2016-06-11 17:53:43
 
 **
 Things under legendu.net/outdated are outdated technologies 

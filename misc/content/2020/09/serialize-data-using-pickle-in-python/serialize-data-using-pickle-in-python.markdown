@@ -5,6 +5,7 @@ Slug: serialization-and-deserialization-in-python
 Title: Serialization and deserialization in Python
 Category: Computer Science
 Tags: Computer Science, pickle, serialization, deserialization, JSON, cloudpickle, dill
+Modified: 2021-06-03 09:42:01
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

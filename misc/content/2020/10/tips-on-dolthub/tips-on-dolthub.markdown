@@ -5,6 +5,7 @@ Slug: tips-on-dolthub
 Title: Tips on Dolthub
 Category: Computer Science
 Tags: Computer Science, data version control, dolthub
+Modified: 2020-10-07 08:53:33
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: account-management-in-linux
 Title: Account Management in Linux
 Category: OS
 Tags: Linux, account management, group managment, adduser, useradd, gpasswd, getent
+Modified: 2017-10-22 13:30:05
 
 **
 Things on this page are

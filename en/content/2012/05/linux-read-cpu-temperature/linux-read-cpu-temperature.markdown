@@ -5,6 +5,7 @@ Tags: modprobe, sensors, CPU, Linux, temperature
 Category: OS
 Slug: linux-read-cpu-temperature
 Author: Ben Chuanlong Du
+Modified: 2020-02-17 11:24:31
 
 <img src="http://dclong.github.io/media/computer/hot.jpg" height="200" width="240" align="right"/>
 

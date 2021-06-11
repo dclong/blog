@@ -6,6 +6,7 @@ Slug: test-internet-speed
 Title: Test Internet Speed
 Category: Internet
 Tags: internet, speed, web, app, test
+Modified: 2016-07-09 22:55:29
 
 [SpeedTest - OOKLA](http://www.speedtest.net/) can help you test the speed of your internet connection. 
 Mobile apps and a command-line tool are also available. 

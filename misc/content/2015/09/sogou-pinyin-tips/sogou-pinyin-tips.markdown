@@ -5,6 +5,7 @@ Slug: sogou-pinyin-tips
 Title: Use Sogou Pinyin to Type Chinese
 Category: Software
 Tags: software, tips, sogou, pinyin, tips
+Modified: 2020-05-22 13:18:02
 
 **
 Things on this page are

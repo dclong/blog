@@ -5,6 +5,7 @@ Slug: disable-jedi-in-ipython
 Title: Disable Jedi in IPython
 Category: Computer Science
 Tags: programming, Python, jedi, ipython, autocomplete
+Modified: 2019-10-19 21:06:24
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

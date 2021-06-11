@@ -5,6 +5,7 @@ Author: Ben Chuanlong Du
 Title: General Tips for LaTeX
 Category: Computer Science
 Tags: tips, LaTeX, programming, list
+Modified: 2019-04-18 18:02:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

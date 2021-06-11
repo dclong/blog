@@ -6,6 +6,7 @@ Slug: start-rstudio-server-after-upgrading
 Title: Start RStudio Server After Upgrading
 Category: Software
 Tags: software, IDE, RStudio
+Modified: 2016-12-10 02:09:11
 
 It is quite often that the RStudio server cannot be start after upgrading. 
 This is due to running R session in the background. 

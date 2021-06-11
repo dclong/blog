@@ -6,6 +6,7 @@ Date: 2016-07-13 21:49:35
 Slug: vbscript-tips
 Category: Software
 Tags: tips
+Modified: 2016-07-13 21:49:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

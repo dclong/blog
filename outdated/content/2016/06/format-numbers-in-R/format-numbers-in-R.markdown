@@ -6,6 +6,7 @@ Slug: format-numbers-in-R
 Title: Format Numbers in R
 Category: Programming
 Tags: programming, R, CRAN, formatting, numbers
+Modified: 2016-06-11 16:55:27
 
 **
 Things under legendu.net/outdated are outdated technologies 

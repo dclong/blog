@@ -6,6 +6,7 @@ Tags: R, operator, overloading, override, programming
 Category: Computer Science
 Slug: overload-operator-r
 Author: Ben Chuanlong Du
+Modified: 2012-06-08 00:00:00
 
 One thing I do not like R is that operations on String in R 
 are not as convenient as in other programming langauges such as Java, Python and Ruby. 

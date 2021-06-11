@@ -3,6 +3,7 @@ Date: 2015-03-04 23:16:35
 Slug: stat
 Category: Links
 Tags: links, statistics, machine learning, resoruce
+Modified: 2015-03-04 23:16:35
 
 1. [Kaggle](https://www.kaggle.com/)
 

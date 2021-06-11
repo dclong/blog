@@ -5,6 +5,7 @@ Author: Ben Chuanlong Du
 Title: Use Eclipse as Your IDE
 Category: Software
 Tags: IDE, programming, Eclipse, software, editor, 
+Modified: 2020-05-22 13:41:22
 
 
 1. There are at least 3 ways to jump to errors quickly in Eclipse

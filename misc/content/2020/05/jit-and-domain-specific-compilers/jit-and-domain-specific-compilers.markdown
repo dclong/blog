@@ -5,6 +5,7 @@ Slug: jit-and-domain-specific-compilers
 Title: JIT and Domain Specific Compilers
 Category: Computer Science
 Tags: Computer Science, compiler, JIT, domain specific, AI, data science, machine learning, deep learning
+Modified: 2021-01-08 18:02:49
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

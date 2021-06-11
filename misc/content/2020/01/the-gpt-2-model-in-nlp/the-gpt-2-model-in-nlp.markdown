@@ -5,6 +5,7 @@ Slug: the-gpt-2-model-in-nlp
 Title: The GPT-2 Model in NLP
 Category: AI
 Tags: AI, data science, machine learning, GPT-2, NLP, transformer
+Modified: 2020-02-06 09:57:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

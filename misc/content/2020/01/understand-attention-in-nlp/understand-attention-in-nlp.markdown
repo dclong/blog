@@ -5,6 +5,7 @@ Slug: understand-attention-in-nlp
 Title: Understand Attention in NLP
 Category: AI
 Tags: AI, data science, machine learning, NLP, attention
+Modified: 2020-01-08 15:27:58
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

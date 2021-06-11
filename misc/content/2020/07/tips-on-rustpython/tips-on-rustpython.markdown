@@ -5,6 +5,7 @@ Slug: tips-on-rustpython
 Title: Tips on RustPython
 Category: Computer Science
 Tags: Computer Science, RustPython, Python, Rust
+Modified: 2020-10-27 22:40:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

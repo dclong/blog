@@ -5,6 +5,7 @@ Title: Batch File Renaming Using "rename"
 Slug: rename-tips
 Category: OS
 Tags: Linux, rename, shell, tip
+Modified: 2020-07-12 11:04:38
 
 **
 Things under legendu.net/outdated are outdated technologies 

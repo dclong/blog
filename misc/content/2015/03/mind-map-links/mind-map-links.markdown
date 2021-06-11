@@ -5,6 +5,7 @@ Slug: mind-map-links
 Title: Mind Map Links
 Category: Software
 Tags: software, mind map, links
+Modified: 2020-05-03 08:06:28
 
 **
 Things on this page are

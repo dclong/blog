@@ -6,6 +6,7 @@ Slug: rcpp-questions
 Title: Some Questions About R
 Category: Computer Science
 Tags: questions, Rcpp, programming, C++
+Modified: 2016-06-11 17:37:32
 
 **
 Things under legendu.net/outdated are outdated technologies 

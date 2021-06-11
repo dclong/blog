@@ -5,6 +5,7 @@ Slug: summary-random-number-generators
 Author: Ben Chuanlong Du
 Category: AI
 Tags: WELL, RNG, statistics, SFMT, dimension, MT, PCG, Java, Python
+Modified: 2019-05-27 21:14:07
 
 <img src="http://www.legendu.net/media/rng/random-number-generator.png" height="200" width="240" align="right"/>
 

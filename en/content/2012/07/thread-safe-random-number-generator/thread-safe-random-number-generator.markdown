@@ -6,6 +6,7 @@ Slug: thread-safe-random-number-generator
 Author: Ben Chuanlong Du
 Category: Computer Science
 Tags: C++, RNG, programming, thread, distribution, HPC, fun problems, MT, Concurrency
+Modified: 2012-07-08 00:00:00
 
 [SFMT]: http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/#dSFMT
 [Thread Safe Random Number Generator]: http://www.legendu.net/media/rng/smt.h

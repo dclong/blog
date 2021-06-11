@@ -5,6 +5,7 @@ Slug: python-for-game-development
 Title: Python for Game Development
 Category: Computer Science
 Tags: Computer Science, programming, Python, game, pygame
+Modified: 2021-04-09 09:34:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

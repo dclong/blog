@@ -5,6 +5,7 @@ Slug: intellij-idea-shortcuts
 Title: Show Inferred Type in IntelliJ IDEA
 Category: Software
 Tags: software, IntelliJ IDEA, shortcuts, IDE
+Modified: 2019-12-28 18:17:40
 
 **
 Things on this page are

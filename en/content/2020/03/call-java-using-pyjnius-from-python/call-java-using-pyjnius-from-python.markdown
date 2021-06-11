@@ -5,6 +5,7 @@ Slug: call-java-using-pyjnius-from-python
 Title: Call Java Using PyJNIus from Python
 Category: Computer Science
 Tags: Computer Science, Python, PyJNIus, Java, JVM
+Modified: 2020-10-25 20:15:13
 
 PyJNIus is a simple-to-use Java interface for Python.
 However,

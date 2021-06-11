@@ -6,6 +6,7 @@ Slug: issues-in-scala
 Title: Issues in Scala
 Category: Computer Science
 Tags: programming, Scala, issue
+Modified: 2017-10-22 13:32:43
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Slug: rjava-failed-to-load-rjava.so
 Title: rJava Failed to Load rJava.So
 Category: Computer Science
 Tags: programming
+Modified: 2017-09-06 08:01:26
 
 **
 Things under legendu.net/outdated are outdated technologies 

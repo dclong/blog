@@ -6,6 +6,7 @@ Slug: data-table-in-R
 Title: Data Table in R
 Category: Programming
 Tags: programming, CRAN, R, data.table, data table, data.frame, data frame
+Modified: 2016-06-11 17:59:49
 
 **
 Things under legendu.net/outdated are outdated technologies 

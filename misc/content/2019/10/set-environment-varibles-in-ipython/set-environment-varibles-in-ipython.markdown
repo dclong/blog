@@ -5,6 +5,7 @@ Slug: set-environment-varibles-in-ipython
 Title: Set Environment Varibles in IPython
 Category: Computer Science
 Tags: programming, ipython, environment variables, %env, %set_env
+Modified: 2019-10-19 21:08:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

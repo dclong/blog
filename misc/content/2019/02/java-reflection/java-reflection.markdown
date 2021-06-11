@@ -5,6 +5,7 @@ Slug: java-reflection
 Title: Java Reflection
 Category: Computer Science
 Tags: programming, Java, reflection
+Modified: 2019-02-18 20:15:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

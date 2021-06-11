@@ -6,6 +6,7 @@ Tags: color, programming, list, Latex, package, bibliography, enumerate, formula
 Category: Computer Science
 Slug: useful-packages-for-latex
 Author: Ben Chuanlong Du
+Modified: 2016-05-29 11:37:43
 
 <img src="http://dclong.github.io/media/latex/latex.gif" height="200" width="240" align="right"/>
 

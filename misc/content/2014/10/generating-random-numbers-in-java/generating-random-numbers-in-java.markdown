@@ -6,6 +6,7 @@ Slug: generating-random-numbers-in-java
 Title: Generating Random Numbers in Java
 Category: Computer Science
 Tags: programming, random number generating, Java
+Modified: 2014-10-19 19:40:40
 
 **
 Things on this page are

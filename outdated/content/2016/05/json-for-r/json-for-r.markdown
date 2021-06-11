@@ -6,6 +6,7 @@ Slug: json-for-r
 Title: JSON for R
 Category: Computer Science
 Tags: programming, R, JSON, NoSQL, database, jsonlite, rjson
+Modified: 2016-08-15 20:56:58
 
 **
 Things under legendu.net/outdated are outdated technologies 

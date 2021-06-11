@@ -5,6 +5,7 @@ Slug: logging-in-pyspark
 Title: Logging in PySpark
 Category: Computer Science
 Tags: Computer Science, big data, PySpark, Spark, loguru, logging
+Modified: 2020-06-15 11:38:22
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: git-shell-on-windows
 Title: Git Shell on Windows
 Category: Software
 Tags: Software, Git, shell, Windows, WSL, Windows Subsystem Linux
+Modified: 2019-10-14 01:01:31
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: shortcuts-for-mac
 Title: Shortcuts in macOS
 Category: OS
 Tags: macOS, Apple, shortcuts, GUI
+Modified: 2020-05-22 16:10:02
 
 **
 Things on this page are

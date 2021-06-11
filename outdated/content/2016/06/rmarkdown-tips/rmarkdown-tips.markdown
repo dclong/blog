@@ -6,6 +6,7 @@ Slug: rmarkdown-tips
 Title: R Markdown Tips
 Category: Programming
 Tags: programming, CRAN, R Markdown, Markdown, R
+Modified: 2017-04-09 17:52:05
 
 **
 Things under legendu.net/outdated are outdated technologies 

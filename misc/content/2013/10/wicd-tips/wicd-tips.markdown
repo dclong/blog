@@ -5,6 +5,7 @@ Title: Managing Wireeless Network Using Wicd
 Slug: wicd-tips
 Category: Software
 Tags: tips, wicd, network, Linux
+Modified: 2020-05-22 14:40:58
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

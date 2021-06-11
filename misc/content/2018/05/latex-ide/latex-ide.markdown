@@ -5,6 +5,7 @@ Slug: latex-ide
 Title: IDEs for LaTeX
 Category: Software
 Tags: software, Tex, LaTex, IDE, OverLeaf, TexStudio
+Modified: 2021-04-11 11:32:28
 
 **
 Things on this page are

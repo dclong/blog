@@ -5,6 +5,7 @@ Slug: tips-on-yapf
 Title: Tips on yapf
 Category: Computer Science
 Tags: programming, Python, yapf, code formatting
+Modified: 2020-09-08 19:37:50
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

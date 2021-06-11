@@ -6,6 +6,7 @@ Slug: dataframe-in-javascript
 Title: Dataframe in Javascript
 Category: Computer Science
 Tags: programming, JavaScript, DataFrame, apache arrow
+Modified: 2019-02-01 19:42:16
 
 **
 Things on this page are

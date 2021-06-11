@@ -5,6 +5,7 @@ Slug: spark-issue-high-disk-and-memory-spill-when-doing-shuffle
 Title: Spark Issue: High Disk and Memory Spill When Doing Shuffle
 Category: Computer Science
 Tags: programming, Spark, issue, big data, error, memory, disk, spill, Spark issue
+Modified: 2021-03-24 15:08:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

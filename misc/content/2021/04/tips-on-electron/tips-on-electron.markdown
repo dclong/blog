@@ -5,6 +5,7 @@ Slug: tips-on-electron
 Title: Tips on Electron
 Category: Computer Science
 Tags: Computer Science, programming, Electron, web, GUI, JS, JavaScript, NodeJS
+Modified: 2021-04-13 23:37:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

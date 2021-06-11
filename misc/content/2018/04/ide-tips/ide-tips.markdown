@@ -5,6 +5,7 @@ Slug: ide-tips
 Title: Tips on IDE
 Category: Software
 Tags: Software, IDE, Cloud IDE, Java, C++, Python, Latex
+Modified: 2019-02-18 19:35:55
 
 **
 Things on this page are

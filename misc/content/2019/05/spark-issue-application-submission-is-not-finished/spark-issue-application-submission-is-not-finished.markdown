@@ -5,6 +5,7 @@ Slug: spark-issue-application-submission-is-not-finished
 Title: Spark Issue: Spark Application Submission Is Not Finished
 Category: Computer Science
 Tags: programming, Spark, big data, issue, error, application submission, Spark issue
+Modified: 2021-03-21 12:14:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

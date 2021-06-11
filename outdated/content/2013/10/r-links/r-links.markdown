@@ -5,6 +5,7 @@ Date: 2013-10-20 00:00:00
 Slug: r-links
 Category: Programming
 Tags: links, programming, R, CRAN 
+Modified: 2013-10-20 00:00:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

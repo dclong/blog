@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Initializing Variables in C++
 Category: Computer Science
 Tags: initialization, C++, programming
+Modified: 2015-02-19 13:45:33
 
 
 1. `{}` is more powerful than `()` and thus is preferred over `()`. 

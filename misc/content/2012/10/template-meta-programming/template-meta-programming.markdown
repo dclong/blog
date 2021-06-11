@@ -6,6 +6,7 @@ Tags: overload, programming, TMP, specialization, C++, template
 Category: Computer Science
 Slug: template-meta-programming
 Author: Ben Chuanlong Du
+Modified: 2012-10-21 00:00:00
 
 **
 Things on this page are

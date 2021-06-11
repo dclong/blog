@@ -5,6 +5,7 @@ Slug: comparing-similarity-of-two-different-clusterings
 Title: Comparing Similarity of Two Different Clusterings
 Category: Computer Science
 Tags: Computer Science, clustering, similarity, cluster, metric, sklearn, paper
+Modified: 2020-10-30 10:41:11
 The paper
 [Comparing Clusterings - An Overview](http://staff.ustc.edu.cn/~zwp/teach/MVA/cluster_validation.pdf)
 has a good view of different metrics for comparing the similarity of 2 clusterings.

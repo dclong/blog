@@ -5,6 +5,7 @@ Slug: tips-on-pex
 Title: Tips on pex
 Category: Computer Science
 Tags: programming, Python, pex, dependency, virtual environment
+Modified: 2021-03-26 10:25:39
 
 ## Steps to Build a pex Environment File
 

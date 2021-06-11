@@ -5,6 +5,7 @@ Slug: ffmpeg-tips
 Category: Computer Science
 Tags: programming, multimedia, Linux, video, audio, image, FFmpeg
 Author: Ben Chuanlong Du
+Modified: 2020-04-06 15:19:20
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

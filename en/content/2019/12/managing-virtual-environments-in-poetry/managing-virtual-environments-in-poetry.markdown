@@ -5,6 +5,7 @@ Slug: managing-virtual-environments-in-poetry
 Title: Managing Virtual Environments in Poetry
 Category: Computer Science
 Tags: programming, Python, Poetry, virtual environment, shell
+Modified: 2021-02-25 23:14:43
 
 ## Where to Create Virtual Environments
 

@@ -6,6 +6,7 @@ Slug: install firefox in debian
 Title: Install Firefox in Debian
 Category: OS
 Tags: Linux, Firefox, Debian, web browser
+Modified: 2016-07-13 22:21:27
 
 **
 Things on this page are

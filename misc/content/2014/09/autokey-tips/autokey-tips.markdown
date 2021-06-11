@@ -5,6 +5,7 @@ Title: Auto Typing Using AutoKey
 Slug: autokey-tips
 Category: Software
 Tags: AutoKey, tips
+Modified: 2020-05-22 14:03:34
 
 **
 Things on this page are

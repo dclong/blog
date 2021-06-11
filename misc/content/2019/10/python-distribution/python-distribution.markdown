@@ -5,6 +5,7 @@ Slug: python-distribution
 Title: Python Distribution
 Category: Computer Science
 Tags: programming, Python distribution
+Modified: 2020-06-22 09:36:27
 nohtyP 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

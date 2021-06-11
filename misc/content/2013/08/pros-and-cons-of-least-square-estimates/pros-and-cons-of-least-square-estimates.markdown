@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Least Square Estimates
 Category: AI
 Tags: linear regression, least square, modeling, statisitcs
+Modified: 2015-02-24 13:58:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -6,6 +6,7 @@ Tags: FDR, biostatistics, statistics, estimation
 Category: AI
 Slug: estimate-fdr
 Author: Ben Chuanlong Du
+Modified: 2013-03-22 00:00:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

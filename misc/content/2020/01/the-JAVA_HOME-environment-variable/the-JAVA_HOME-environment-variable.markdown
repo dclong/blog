@@ -5,6 +5,7 @@ Slug: the-JAVA_HOME-environment-variable
 Title: The JAVA_HOME Environment Variable
 Category: Computer Science
 Tags: programming, Java, JDK, JAVA_HOME
+Modified: 2020-01-28 11:41:11
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

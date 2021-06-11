@@ -5,6 +5,7 @@ Slug: CI-CD-for-machine-learning
 Title: CI/CD for Machine Learning
 Category: Computer Science
 Tags: Computer Science, ML, AI, data science, CICD, CI/CD, pipeline, test, unit testing, GitHub Actions
+Modified: 2021-04-05 08:07:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

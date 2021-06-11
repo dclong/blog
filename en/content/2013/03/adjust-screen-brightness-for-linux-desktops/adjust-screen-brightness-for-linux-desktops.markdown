@@ -6,6 +6,7 @@ Slug: adjust-screen-brightness-for-linux-desktops
 Author: Ben Chuanlong Du
 Category: OS
 Tags: screen, Linux, brightness
+Modified: 2015-02-03 19:57:46
 
 For many computers and laptops installed with Linux desktops, 
 you can use shortcuts (usually Fn + Brightness_keys) to adjust screen brightness.

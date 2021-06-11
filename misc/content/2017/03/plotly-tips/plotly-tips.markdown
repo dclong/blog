@@ -5,6 +5,7 @@ Title: Visualization Using Plotly
 Slug: plotly-tips
 Category: Computer Science
 Tags: programming, visualization, plotly, graph
+Modified: 2020-05-22 14:54:50
 
 **
 Things on this page are

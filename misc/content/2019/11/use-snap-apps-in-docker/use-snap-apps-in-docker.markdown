@@ -5,6 +5,7 @@ Slug: use-snap-apps-in-docker
 Title: Use Snap Apps in Docker
 Category: Software
 Tags: Software, Docker, Kata Container, snap apps
+Modified: 2019-11-17 12:24:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

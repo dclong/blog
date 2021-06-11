@@ -6,6 +6,7 @@ Slug: r-questions
 Title: Some Questions About R
 Category: Software
 Tags: questions, CRAN, Rcpp
+Modified: 2016-11-20 20:30:22
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

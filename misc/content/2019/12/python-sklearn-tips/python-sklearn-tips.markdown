@@ -5,6 +5,7 @@ Slug: python-sklearn-tips
 Title: Tips on Scikit-Learn
 Category: AI
 Tags: AI, data science, machine learning, Scikit-learn, sklearn, pipeline
+Modified: 2020-12-01 10:06:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

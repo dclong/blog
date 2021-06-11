@@ -6,6 +6,7 @@ Slug: sql-logic-visualization
 Title: SQL Logic Visualization
 Category: Computer Science
 Tags: programming, SQL, SQL Logic Visualization, sqldep, queryScope, queryViz, eralchemy
+Modified: 2019-06-27 18:31:29
 
 **
 Things on this page are

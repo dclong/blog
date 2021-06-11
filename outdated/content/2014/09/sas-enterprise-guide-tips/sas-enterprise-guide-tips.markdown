@@ -6,6 +6,7 @@ Slug: sas enterprise guide tips
 Title: SAS Enterprise Guide Tips
 Category: Computer Science
 Tags: programming, SAS, SAS Enterprise Guide, GUI, SEG
+Modified: 2015-06-14 18:44:56
 
 **
 Things under legendu.net/outdated are outdated technologies 

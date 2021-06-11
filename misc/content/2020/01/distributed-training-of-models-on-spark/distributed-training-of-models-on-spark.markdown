@@ -5,6 +5,7 @@ Slug: distributed-training-of-models-on-spark
 Title: Distributed Training of Models on Spark
 Category: AI
 Tags: AI, data science, machine learning, Spark, distributed computing
+Modified: 2020-01-05 10:26:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

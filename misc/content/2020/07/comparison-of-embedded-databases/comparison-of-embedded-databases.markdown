@@ -5,6 +5,7 @@ Slug: comparison-of-embedded-databases
 Title: Comparison of Embedded Databases
 Category: Computer Science
 Tags: Computer Science, database, embedded, in-memory, H2, SQLite, Apache Derby, HSQLDB
+Modified: 2020-08-22 18:40:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

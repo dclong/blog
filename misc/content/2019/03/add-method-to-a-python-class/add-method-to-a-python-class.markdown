@@ -5,6 +5,7 @@ Slug: add-method-to-a-python-class
 Title: Add Method to a Python Class
 Category: Computer Science
 Tags: programming, Python, reflection, method, class
+Modified: 2019-03-10 02:23:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Date: 2013-10-24 23:10:35
 Slug: php-tips
 Category: Software
 Tags: tips
+Modified: 2013-10-24 23:10:35
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

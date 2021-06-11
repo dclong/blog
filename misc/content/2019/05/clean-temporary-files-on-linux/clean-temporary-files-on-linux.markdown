@@ -5,6 +5,7 @@ Slug: clean-temporary-files-on-linux
 Title: Clean Temporary Files on Linux
 Category: Computer Science
 Tags: programming
+Modified: 2019-05-14 01:44:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

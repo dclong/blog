@@ -5,6 +5,7 @@ Slug: save-and-load-pytorch-models
 Title: Save and Load PyTorch Models
 Category: Computer Science
 Tags: Computer Science, deep learning, data science, machine learning, PyTorch, save, load, serialization, deserialization
+Modified: 2020-04-09 13:30:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

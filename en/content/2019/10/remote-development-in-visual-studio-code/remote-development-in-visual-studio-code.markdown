@@ -5,6 +5,7 @@ Slug: remote-development-in-visual-studio-code
 Title: Remote Development in Visual Studio Code
 Category: Software
 Tags: Software, Visual Studio Code, vscode, VS Code, remote development, Visual Studio Code server, vscode server
+Modified: 2021-03-10 13:07:08
 
 There are 2 approaches to develop remotely in Visual Studio Code.
 The first way is to leverage the extension pack

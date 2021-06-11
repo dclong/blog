@@ -5,6 +5,7 @@ Slug: understand-the-design-of-python
 Title: Understand the Design of Python
 Category: Computer Science
 Tags: programming, Python, design
+Modified: 2019-10-04 20:19:41
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

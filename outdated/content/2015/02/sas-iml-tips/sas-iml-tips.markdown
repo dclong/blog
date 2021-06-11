@@ -6,6 +6,7 @@ Slug: sas-IML-tips
 Title: SAS IML Tips
 Category: Computer Science
 Tags: programming, SAS, IML, matrix
+Modified: 2015-05-17 18:24:11
 
 **
 Things under legendu.net/outdated are outdated technologies 

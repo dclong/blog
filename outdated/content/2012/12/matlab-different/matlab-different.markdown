@@ -6,6 +6,7 @@ Tags: C++, programming, Java, SAS, R, MATLAB
 Category: Computer Science
 Slug: MATLAB-different
 Author: Ben Chuanlong Du
+Modified: 2016-07-13 00:09:40
 
 
 1. MATLAB support command style (like Linux terminal commands).

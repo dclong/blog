@@ -5,6 +5,7 @@ Slug: init-for-docker-containers
 Title: Init for Docker Containers
 Category: Software
 Tags: software, Docker, container, init, s6, s6-overlay, tini, Supervisord, dumb-init
+Modified: 2020-03-05 11:08:32
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

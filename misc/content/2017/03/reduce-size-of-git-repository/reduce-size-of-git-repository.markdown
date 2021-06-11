@@ -5,6 +5,7 @@ Slug: reduce-size-of-git-repository
 Title: Reduce Size of Git Repository
 Category: Software
 Tags: software, Git, repository, size
+Modified: 2019-05-23 07:43:12
 
 **
 Things on this page are

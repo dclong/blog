@@ -5,6 +5,7 @@ Slug: tridactyl-tips
 Title: Vim Keybindings in Firefox Using Tridactyl
 Category: Software
 Tags: software, Tridactyl, add-on, plugin, Firefox, tips
+Modified: 2020-05-22 15:32:49
 
 **
 Things on this page are

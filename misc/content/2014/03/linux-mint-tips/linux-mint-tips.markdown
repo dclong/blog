@@ -5,6 +5,7 @@ Slug: linux-mint-tips
 Title: Tips on Linux Mint
 Category: OS
 Tags: OS, operating system, Linux Mint, tips
+Modified: 2020-02-29 17:08:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

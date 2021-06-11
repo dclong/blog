@@ -5,6 +5,7 @@ Slug: use-tkinter-to-build-gui-applications-in-python
 Title: Use Tkinter to Build GUI Applications in Python
 Category: Computer Science
 Tags: Computer Science, Python, Tkinter, GUI
+Modified: 2021-04-09 09:41:03
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

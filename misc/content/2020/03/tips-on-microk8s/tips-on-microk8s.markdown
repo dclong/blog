@@ -5,6 +5,7 @@ Slug: tips-on-microk8s
 Title: Tips on Microk8S
 Category: Software 
 Tags: Software, Kubernetes, k8s, Microk8s, container
+Modified: 2021-06-10 09:39:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

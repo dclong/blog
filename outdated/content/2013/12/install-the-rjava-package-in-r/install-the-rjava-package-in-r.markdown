@@ -6,6 +6,7 @@ Date: 2016-12-10 01:44:32
 Slug: install-the-rjava-package-in-r
 Category: Software
 Tags: R, rJava, Java, Linux
+Modified: 2016-12-10 01:44:32
 
  
 The most convenient way is to install the corresponding Linux package if exists.

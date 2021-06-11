@@ -6,6 +6,7 @@ Tags: series, statistics, sequence, math, fun problems, generating function
 Category: Fun Problems
 Slug: generating-functions
 Author: Ben Chuanlong Du
+Modified: 2015-11-22 02:20:55
 
 Generating functions is a very powerful way to find closed 
 formula for sequences defined iteratively.

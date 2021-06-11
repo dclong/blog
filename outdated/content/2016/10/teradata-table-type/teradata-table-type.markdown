@@ -6,6 +6,7 @@ Slug: teradata-table-type
 Title: Teradata Table Type
 Category: Computer Science
 Tags: programming, SQL, table, type
+Modified: 2016-10-16 11:22:18
 
 **
 Things under legendu.net/outdated are outdated technologies 

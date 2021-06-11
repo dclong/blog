@@ -5,6 +5,7 @@ Slug: configure-terminal-for-pycharm
 Title: Configure Terminal for PyCharm on Windows
 Category: Computer Science
 Tags: programming
+Modified: 2019-03-05 01:48:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

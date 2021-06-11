@@ -5,6 +5,7 @@ Slug: tips-on-pyspark
 Title: General Tips on PySpark
 Category: Computer Science
 Tags: programming, PySpark, Python, Spark, tips, HPC, high performance computing
+Modified: 2021-03-30 11:49:58
 1. PySpark 2.4 and older does not support Python 3.8.
     You have to use Python 3.7 with PySpark 2.4 or older.
 

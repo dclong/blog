@@ -6,6 +6,7 @@ Date: 2016-07-09 18:53:10
 Slug: rcpp-tips
 Category: Programming
 Tags: tips, programming, Rcpp, C++, CRAN
+Modified: 2016-07-09 18:53:10
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

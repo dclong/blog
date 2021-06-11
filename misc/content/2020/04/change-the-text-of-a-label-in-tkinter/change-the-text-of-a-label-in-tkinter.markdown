@@ -5,6 +5,7 @@ Slug: tkinter-label-tips
 Title: The Label Widget in Tkinter
 Category: Computer Science
 Tags: Computer Science, Python, programming, Tkinter, GUI, Label, text, config
+Modified: 2020-04-12 09:53:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

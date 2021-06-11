@@ -5,6 +5,7 @@ Slug: tips-for-teradata-sql-assistant
 Title: Tips on Teradata SQL Assistant
 Category: Software
 Tags: software, Teradata SQL Assistant, Teradata SQL, IDE
+Modified: 2020-04-12 22:02:34
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -5,6 +5,7 @@ Slug: tips-on-tvm
 Title: Tips on TVM
 Category: AI
 Tags: AI, data science, machine learning, deep learning, TVM, tips
+Modified: 2020-03-02 18:30:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

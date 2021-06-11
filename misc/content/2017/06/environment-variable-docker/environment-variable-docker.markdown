@@ -5,6 +5,7 @@ Slug: environment-variables-docker
 Title: Environment Variables in Docker
 Category: Software
 Tags: software, docker, shell form, exec form, environment variable
+Modified: 2020-03-07 21:47:47
 
 **
 Things on this page are

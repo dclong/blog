@@ -5,6 +5,7 @@ Title: Backup Files Using "rsnapshot"
 Slug: rsnapshot-tips
 Category: Software
 Tags: software, rsnapshot, backup, synchronization, rsync
+Modified: 2020-05-22 14:25:22
 
 **
 Things on this page are

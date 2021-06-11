@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: MATLAB for Visualization
 Category: Computer Science
 Tags: image, visualization, programming, plot, graphics, MATLAB
+Modified: 2015-03-03 10:08:36
 
 
 1. To display a new graph on on top of an old one, 

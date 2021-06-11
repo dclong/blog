@@ -5,6 +5,7 @@ Slug: mac-tips
 Title: Tips on macOS
 Category: OS
 Tags: macOS, tips, Apple
+Modified: 2020-05-23 22:14:55
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: working-with-spreadsheet-with-python
 Title: Working With Spreadsheet with Python
 Category: Computer Science
 Tags: programming, Python, Spreadsheet, Excel, pandas, xlsxwriter
+Modified: 2020-12-09 08:43:45
 
 **
 Things on this page are

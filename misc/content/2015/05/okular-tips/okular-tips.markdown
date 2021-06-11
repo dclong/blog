@@ -5,6 +5,7 @@ Title: View and Edit PDF Documents Using Okular
 Slug: okular-tips
 Category: Software
 Tags: software, PDF, document, viewer, Okular
+Modified: 2020-05-22 14:01:57
 
 **
 Things on this page are

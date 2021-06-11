@@ -5,6 +5,7 @@ Date: 2021-04-26 12:48:21
 Slug: javascript-tips
 Category: Computer Science
 Tags: tips, programming, JavaScript, JS, web
+Modified: 2021-04-26 12:48:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -5,6 +5,7 @@ Title: Work More Efficiently with Email
 Slug: email-tips
 Category: Software
 Tags: email, software, tips
+Modified: 2020-05-22 14:21:50
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

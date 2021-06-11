@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: How to Submit R Packages to CRAN
 Category: Programming
 Tags: R, ftp, sftp, programming, submit, package, CRAN
+Modified: 2015-03-03 10:16:02
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>
 Submit using [web form](http://xmpalantir.wu.ac.at/cransubmit/) or using ftp following the steps below.

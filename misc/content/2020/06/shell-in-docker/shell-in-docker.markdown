@@ -5,6 +5,7 @@ Slug: shell-in-docker
 Title: Shell in Docker
 Category: Computer Science
 Tags: Computer Science, Docker, shell, container, bash, RUN, ENV, environment variable
+Modified: 2020-06-21 10:46:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

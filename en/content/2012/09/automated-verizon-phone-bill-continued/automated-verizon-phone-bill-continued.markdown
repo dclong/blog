@@ -6,6 +6,7 @@ Tags: phone, verizon, Ruby, programming
 Category: Computer Science
 Slug: automated-verizon-phone-bill-continued
 Author: Ben Chuanlong Du
+Modified: 2012-09-05 00:00:00
 
 I have switched to the "Share Everything" plan of Verizon two weeks ago,
 and I got a little complex bill this month due to people leaving and joining my family plan. 

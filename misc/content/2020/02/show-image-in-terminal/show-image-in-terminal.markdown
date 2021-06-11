@@ -5,6 +5,7 @@ Slug: show-image-in-terminal
 Title: Show Image in Terminal
 Category: Computer Science
 Tags: programming, terminal, image, command-line, viu, kitty
+Modified: 2021-05-11 08:45:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: config-cymail-in-thunderbird
 Title: Config Cymail in Thunderbird
 Category: Software
 Tags: thunderbird, email client, CyMail, ISU, Gmail
+Modified: 2013-12-19 10:16:17
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

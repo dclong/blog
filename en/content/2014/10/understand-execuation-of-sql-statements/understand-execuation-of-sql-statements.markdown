@@ -6,6 +6,7 @@ Slug: understand-execuation-of-sql-statements
 Title: Understand Execuation of SQL Statements
 Category: Computer Science
 Tags: programming, SQL, join on, having, where, group by, null value
+Modified: 2016-06-10 11:25:18
 
 
 A SQL statement selects rows and columns from a big (rectangular) table. 

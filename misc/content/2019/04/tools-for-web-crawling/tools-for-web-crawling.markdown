@@ -5,6 +5,7 @@ Slug: tools-for-web-crawling
 Title: Tools for Web Crawling
 Category: Computer Science
 Tags: programming, web crawling, web scraping
+Modified: 2019-06-27 18:34:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

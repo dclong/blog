@@ -5,6 +5,7 @@ Slug: tips-on-etrade
 Title: Tips on eTrade
 Category: Finance
 Tags: finance, money, eTrade, stock
+Modified: 2021-03-18 17:09:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

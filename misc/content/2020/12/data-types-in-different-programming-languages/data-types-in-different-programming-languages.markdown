@@ -5,6 +5,7 @@ Slug: data-types-in-different-programming-languages
 Title: Data Types in Different Programming Languages
 Category: Computer Science
 Tags: Computer Science, programming, type, data type, primitive, pandas, pyarrow, arrow, SQL, equivalent
+Modified: 2021-02-21 01:53:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

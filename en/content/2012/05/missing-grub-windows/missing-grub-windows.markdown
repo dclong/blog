@@ -6,6 +6,7 @@ Slug: missing-grub-windows
 Author: Ben Chuanlong Du
 Category: OS
 Tags: Windows, Linux, OS, Debian
+Modified: 2015-02-03 19:10:47
 
 I came across this problem after I installed both Debian and Windows 7 system on my laptop.
 After searching online, I found a solution to this problem. 

@@ -5,6 +5,7 @@ Slug: write-documentation-for-python-packages-using-sphinx
 Title: Write Documentation for Python Packages Using Sphinx
 Category: Computer Science
 Tags: Computer Science, Python, Sphinx, documentation, mkdocs
+Modified: 2021-06-01 21:51:41
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

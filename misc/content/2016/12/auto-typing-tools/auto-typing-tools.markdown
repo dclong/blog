@@ -5,6 +5,7 @@ Slug: auto-typing-tools
 Title: Auto Typing Tools
 Category: Software
 Tags: software, AutoIt, AutoHotkey, AutoKey
+Modified: 2020-02-14 14:14:35
 
 **
 Things on this page are

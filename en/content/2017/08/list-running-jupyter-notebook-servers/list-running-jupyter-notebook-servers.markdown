@@ -6,6 +6,7 @@ Slug: list-running-jupyter-notebook-servers
 Title: List Running Jupyter Notebook Servers
 Category: Software
 Tags: software, notebook, Jupyter Notebook, JupyterLab, Python, root, running servers, list
+Modified: 2017-10-22 12:21:29
 
 You can list running Jupyter Notebook servers using the following command.
 

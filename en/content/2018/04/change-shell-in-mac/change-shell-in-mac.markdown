@@ -5,6 +5,7 @@ Slug: change-shell-in-mac
 Title: Change Shell in Mac
 Category: OS
 Tags: macOS, shell, Hyper, Bash, zsh
+Modified: 2020-03-02 14:46:43
 
 
 You can check the current shell in use by running the following command.

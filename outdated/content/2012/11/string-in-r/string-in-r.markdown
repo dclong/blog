@@ -6,6 +6,7 @@ Slug: string-in-r
 Title: String in R
 Category: Programming
 Tags: R, programming, characters, string, CRAN
+Modified: 2016-11-20 19:36:57
 
 **
 Things under legendu.net/outdated are outdated technologies 

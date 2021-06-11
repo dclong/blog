@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Which One Is the Best Strategy?
 Category: Fun Problems
 Tags: pattern, Markov chain, statistics, sequence, coin, stochastic, martingale, fun problems, MATLAB, best strategy
+Modified: 2015-02-20 10:54:32
 
 <img src="http://dclong.github.io/media/pattern/coin.jpg" height="200" width="240" align="right"/>
 

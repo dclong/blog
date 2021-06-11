@@ -5,6 +5,7 @@ Title: Collections in Java
 Slug: collections-in-java
 Category: Computer Science
 Tags: ArrayList, programming, Java, array, collections, vector
+Modified: 2020-05-22 14:34:53
 
 **
 Things on this page are

@@ -174,24 +174,29 @@ class Post:
             return self._parse_markdown()
         return self._parse_notebook()
     
-    def _read_lines_markdown(self) -> tuple[list[str], int]:
+    def _read_lines_markdown(self) -> tuple[list[str], list[str]]:
         """Read lines of a markdown post.
         
-        return: A tuple of the format (lines, index),
-            where lines is a list containing lines of the file
-            and index is the 0-based starting index of non-metadata.
+        return: A tuple of the format (meta, content),
+            where meta is a list containing lines of meta fields
+            and content is a list containing lines of content. 
         """
+        meta = []
+        content = []
         with self.path.open() as fin:
-            lines = fin.readlines()
-        index = 0
-        for index, line in enumerate(lines):
-            if not re.match("[A-Za-z]+: ", line):
-                break
-        return lines, index
+            for line in fin:
+                if re.match("[A-Za-z]+: ", line):
+                    meta.append(line)
+                else:
+                    content.append(line)
+                    break
+            for line in fin:
+                content.append(line)
+        return meta, content
 
     def _parse_markdown(self) -> Record:
-        lines, index = self._read_lines_markdown()
-        # parse metadata 0 - index (exclusive)
+        meta, content = self._read_lines_markdown()
+        # parse metadata
         status = ""
         date = ""
         modified = NOW_DASH
@@ -200,7 +205,7 @@ class Post:
         title = ""
         category = ""
         tags = ""
-        for line in lines[:index]:
+        for line in meta:
             if line.startswith("Status: "):
                 status = line[8:].strip()
             elif line.startswith("Date: "):
@@ -219,9 +224,9 @@ class Post:
                 tags = line[6:].strip()
                 if not tags.endswith(","):
                     tags = tags + ","
-        # parse content index to end
-        content = title + "\n" + category + "\n" + tags + "\n" + "".join(lines[index:])
-        empty = self._is_ess_empty(lines[index:])
+        # content
+        empty = self._is_ess_empty(content)
+        content = title + "\n" + category + "\n" + tags + "\n" + "".join(content)
         name_title_mismatch = self.is_name_title_mismatch(title)
         # TODO: add modified into the database ...
         return Record(
@@ -297,28 +302,31 @@ class Post:
     
     def update_meta_field(self, mapping: dict[str, str]) -> None:
         if self.is_markdown():
-            lines, index = self._read_lines_markdown()
-            self._update_meta_field_lines(lines, mapping, index=index)
+            meta, content = self._read_lines_markdown()
+            self._update_meta_field_lines(meta, mapping)
             with self.path.open("w") as fout:
-                fout.writelines(lines)
+                fout.writelines(meta)
+                fout.writelines(content)
             return
         mapping = {f"- {field}": value for field, value in mapping.items()}
         notebook = self._read_notebook()
-        self._update_meta_field_lines(notebook["cells"][0]["source"], mapping)
+        meta = notebook["cells"][0]["source"]
+        if not meta[-1].endswith("\n"):
+            meta[-1] += "\n"
+        self._update_meta_field_lines(meta, mapping)
         self._write_notebook(notebook)
 
     @staticmethod
-    def _update_meta_field_lines(lines: List[str], mapping: dict[str, str], index=None) -> None:
-        if index is None:
-            index = len(lines)
+    def _update_meta_field_lines(lines: List[str], mapping: dict[str, str]) -> None:
+        nrow = len(lines)
         for field, value in mapping.items():
-            for idx in range(index):
+            for idx in range(nrow):
                 line = lines[idx]
                 if line.startswith(f"{field}:"):
                     lines[idx] = f"{field}: {value}\n"
                     break
             else:
-                lines.insert(0, f"{field}: {value}\n")
+                lines.append(f"{field}: {value}\n")
 
     def match_name(self):
         title = Post.format_title(self.stem_name().replace("-", " "))

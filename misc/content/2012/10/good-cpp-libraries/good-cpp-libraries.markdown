@@ -5,6 +5,7 @@ Tags: library, programming, gsl, package, GMP, boost, it++, C++, armadillo, NTL
 Category: Computer Science
 Slug: good-cpp-libraries
 Author: Ben Chuanlong Du
+Modified: 2015-10-18 11:46:12
 
 **
 Things on this page are

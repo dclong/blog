@@ -6,6 +6,7 @@ Slug: primary-key-vs-index-in-sql
 Title: Primary Key vs Index in SQL
 Category: Computer Science
 Tags: programming, SQL, index, primary key
+Modified: 2016-10-23 12:46:53
 
 **
 Things on this page are

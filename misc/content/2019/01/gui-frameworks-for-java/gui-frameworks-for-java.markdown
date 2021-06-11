@@ -6,6 +6,7 @@ Slug: gui-frameworks-for-java
 Title: GUI Frameworks for Java
 Category: Computer Science
 Tags: programming, Java, GUI, Swing, SwingX, JavaFX
+Modified: 2019-01-22 22:54:03
 
 **
 Things on this page are

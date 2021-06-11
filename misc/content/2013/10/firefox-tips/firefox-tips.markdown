@@ -5,6 +5,7 @@ Slug: firefox-tips
 Title: Tips on Firefox
 Category: Software
 Tags: software, tips, Firefox, web browser
+Modified: 2019-05-11 01:05:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

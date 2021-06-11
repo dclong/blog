@@ -5,6 +5,7 @@ Slug: terminology-tips
 Title: Terminology is a Fancy Terminal Emulator
 Category: Software
 Tags: software, Linux, terminal, console, command-line, emulator, terminology
+Modified: 2020-05-22 14:10:31
 
 **
 Things on this page are

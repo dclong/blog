@@ -5,6 +5,7 @@ Slug: tips-on-conda-pack
 Title: Tips on conda-pack
 Category: Computer Science
 Tags: programming, conda-pack, conda, dependency, virtual environment
+Modified: 2021-03-30 12:13:17
 It is suggested that you use python-build-standlone instead of conda-pack to build portable Python environments.
 Please refer to
 [Packaging Python Dependencies for PySpark Using Python-Build-Standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone/)

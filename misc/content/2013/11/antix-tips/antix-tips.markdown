@@ -5,6 +5,7 @@ Title: The Tiny antiX Linux Distribution
 Slug: antix-tips
 Category: OS
 Tags: antiX, tips, Linux, distribution
+Modified: 2020-05-22 13:12:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

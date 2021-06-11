@@ -5,6 +5,7 @@ Title: The Xfce Desktop Environment for Linux
 Slug: tips-for-xfce-desktop-environment
 Category: Software
 Tags: Linux, Xfce, desktop environment, tips
+Modified: 2020-05-22 13:06:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -6,6 +6,7 @@ Slug: bessel-first-property
 Title: Some Useful Properties of Modified Bessel Functions of the First Kind
 Category: Research
 Tags: derivative, monotone, Research, Mathematica, positive, Bessel functions
+Modified: 2014-07-28 21:55:16
 
 I have to deal with Modified Bessel functions of the first kind frequently in my research. 
 Here I list some useful properties of them for future reference. 

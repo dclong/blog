@@ -5,6 +5,7 @@ Slug: qt5-tips
 Title: Developing GUI Applications Using Qt5
 Category: Computer Science
 Tags: programming, Qt5, Ubuntu
+Modified: 2020-05-22 15:22:37
 
 **
 Things on this page are

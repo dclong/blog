@@ -5,6 +5,7 @@ Slug: tips-on-monkey-patching-in-python
 Title: Tips on Monkey Patching in Python
 Category: Computer Science
 Tags: programming, Python, monkey patching
+Modified: 2019-08-13 21:29:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

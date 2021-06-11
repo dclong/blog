@@ -5,6 +5,7 @@ Slug: fix-the-issue-of-github-pages-does-not-pick-up-the-latest-changes
 Title: Fix the Issue of GitHub Pages Does Not Pick Up the Latest Changes
 Category: Tools
 Tags: tools, GitHub pages, web site, Pelican
+Modified: 2019-10-17 21:59:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

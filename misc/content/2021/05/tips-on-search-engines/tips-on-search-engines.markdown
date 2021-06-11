@@ -5,6 +5,7 @@ Slug: tips-on-search-engines
 Title: Tips on Search Engines
 Category: Computer Science
 Tags: Computer Science, programming, search engine, Apache Solr, Apache Lucene, Elasticsearch, tantivy
+Modified: 2021-05-03 10:23:35
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 

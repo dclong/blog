@@ -5,6 +5,7 @@ Slug: rsync-tips
 Title: Tips on rsync
 Category: OS
 Tags: Linux, copy, synchronization, file system, filesystem, rsync
+Modified: 2021-04-18 18:54:19
 
 **
 Things on this page are

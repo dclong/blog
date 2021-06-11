@@ -6,6 +6,7 @@ Slug: docker-images-for-notebooks
 Title: Docker Images for Notebooks
 Category: Software
 Tags: software, docker, notebook, Jupyter Notebook, Zeppelin
+Modified: 2017-07-27 12:21:05
 
 **
 Things on this page are

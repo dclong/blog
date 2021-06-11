@@ -5,6 +5,7 @@ Slug: advanced-use-head-tail
 Title: Advanced Use of "head" and "tail" 
 Category: OS
 Tags: Linux, shell, command line, head, tail, sed, awk, rows, lines, text manipulation
+Modified: 2020-04-06 18:22:00
 
 It is suggested that you **use Python instead of Shell** to manipulate text files!!
 

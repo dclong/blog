@@ -5,6 +5,7 @@ Slug: tips-on-nbconvert
 Title: Tips on nbconvert
 Category: Computer Science
 Tags: Computer Science, Jupyter, JupyterLab, notebook, nbconvert, template
+Modified: 2021-01-08 13:59:41
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: develop-a-gui-application-in-rust
 Title: Develop a GUI Application in Rust
 Category: Computer Science
 Tags: Computer Science, Rust, GUI
+Modified: 2021-05-03 21:36:53
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

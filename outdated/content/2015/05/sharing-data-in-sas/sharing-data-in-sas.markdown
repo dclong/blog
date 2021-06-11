@@ -6,6 +6,7 @@ Slug: sharing-data-in-sas
 Title: Sharing Data in SAS
 Category: Computer Science
 Tags: programming, SAS, data, dataset, macro
+Modified: 2015-05-17 17:09:52
 
 **
 Things under legendu.net/outdated are outdated technologies 

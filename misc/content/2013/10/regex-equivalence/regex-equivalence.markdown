@@ -5,6 +5,7 @@ Slug: regex-equivalence
 Title: Regular Expression Equivalent
 Category: Computer Science
 Tags: tips, regex, equivalent, regular expression, regexp, Python, R, CRAN, Perl, SAS, grep, egrep
+Modified: 2021-03-30 12:29:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

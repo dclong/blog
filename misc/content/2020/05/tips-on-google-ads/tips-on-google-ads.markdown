@@ -5,6 +5,7 @@ Slug: tips-on-google-ads
 Title: Tips on Google Ads
 Category: Computer Science
 Tags: Computer Science, Google, Ads, AdWords
+Modified: 2020-10-25 18:56:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

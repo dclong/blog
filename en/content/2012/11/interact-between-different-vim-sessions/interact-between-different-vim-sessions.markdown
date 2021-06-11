@@ -6,6 +6,7 @@ Date: 2014-12-26 10:35:12
 Title: Interact with System Clipboard in Vim
 Category: Software
 Tags: Vim, software, Linux, clipboard, copy, paste
+Modified: 2014-12-26 10:35:12
 
 The following are ways for a Vim session 
 to interact (copy/cut, paste) with other Vim sessions or other applications.

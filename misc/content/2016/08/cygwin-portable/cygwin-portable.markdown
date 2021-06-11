@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Cygwin Portable
 Category: Software
 Tags: Linux, Windows, virtualization, software, Cygwin, portable
+Modified: 2016-08-16 00:06:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

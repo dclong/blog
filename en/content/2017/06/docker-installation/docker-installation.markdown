@@ -5,6 +5,7 @@ Slug: docker-installation
 Title: Install Docker
 Category: Software
 Tags: software, Docker, installation, Ubuntu, latest, docker-ce, install Docker
+Modified: 2020-05-09 13:13:36
 
 ## Install Docker on Debian Series of Linux Distributions
 

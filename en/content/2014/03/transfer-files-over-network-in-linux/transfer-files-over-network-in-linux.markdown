@@ -5,6 +5,7 @@ Slug: transfer-files-over-network-in-linux
 Title: Transfer Files over Network in Linux
 Category: Internet
 Tags: internet, Linux, network, web, transfer, file system, nfs, SSH
+Modified: 2020-05-02 17:16:03
 
 
 ## Comparison of Network Drives (Remote File System)

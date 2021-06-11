@@ -5,6 +5,7 @@ Slug: tips-on-soft-skills
 Title: Tips on Soft Skills
 Category: soft skills
 Tags: soft skills, communication, TED
+Modified: 2020-10-11 11:01:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

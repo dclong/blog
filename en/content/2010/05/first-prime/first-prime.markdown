@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: First 10-digit Prime in Consecutive Digits of Euler Constant?
 Category: Fun Problems
 Tags: Mathematica, Google, Euler constant, interview, math, fun problems
+Modified: 2016-07-13 00:12:11
 
 
 One day my friend Ru He asked me a question.

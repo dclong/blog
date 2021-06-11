@@ -5,6 +5,7 @@ Title: Chinese Pinyin Input Method
 Slug: tips-for-chinese-pinyin-input
 Category: Software
 Tags: software, Chinese, Pinyin, input method, sogou
+Modified: 2020-05-22 15:07:56
 
 
 `fcitx-sogoupinyin` is currently the best choice,

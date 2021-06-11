@@ -5,6 +5,7 @@ Slug: use-spark-with-the-beakerx-scala-kernel
 Title: Use Spark With the BeakerX Scala Kernel
 Category: Computer Science
 Tags: Computer Science, Spark, Scala, BeakerX, JupyterLab
+Modified: 2020-03-23 17:23:46
 
 1. Open a JupyterLab notebook with the BeakerX Scala kernel from the launcher.
 

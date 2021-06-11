@@ -5,6 +5,7 @@ Slug: spark-issue-file-not-found-exception
 Title: Spark Issue: java.io.FileNotFoundException
 Category: Computer Science
 Tags: programming, Spark, issue, big data, error, file not found, Spark issue, FileNotFoundException
+Modified: 2021-03-24 14:43:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

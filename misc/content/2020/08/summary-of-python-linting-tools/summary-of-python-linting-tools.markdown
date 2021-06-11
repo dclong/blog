@@ -5,6 +5,7 @@ Slug: summary-of-python-linting-tools
 Title: Summary of Python Linting Tools
 Category: Computer Science
 Tags: Computer Science, Python, lint, linter, linting, pylint, flake8
+Modified: 2020-08-09 23:41:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

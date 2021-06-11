@@ -5,6 +5,7 @@ Slug: ipython-is-the-best-shell
 Title: IPython Is the Best Shell
 Category: Computer Science
 Tags: programming, Python, tips, IPython, Shell
+Modified: 2020-10-24 13:00:31
 
 ## Tips & Traps 
 

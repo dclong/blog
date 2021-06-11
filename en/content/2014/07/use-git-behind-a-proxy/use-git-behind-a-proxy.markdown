@@ -5,6 +5,7 @@ Date: 2019-03-07 23:42:48
 Slug: use-git-behind-a-proxy
 Category: Software
 Tags: software, Git, proxy, protocol
+Modified: 2019-03-07 23:42:48
 
 Here is a good article on [Git Behind a Proxy or Firewall](http://www.librebyte.net/en/git/git-behind-a-proxy-or-firewall/).
 

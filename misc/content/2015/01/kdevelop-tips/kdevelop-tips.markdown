@@ -5,6 +5,7 @@ Title: Tips on KDevelop
 Slug: kdevelop-tips
 Category: Software
 Tags: software, KDevelop, IDE, CMake, tips
+Modified: 2020-05-22 14:02:47
 
 **
 Things on this page are

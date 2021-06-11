@@ -5,6 +5,7 @@ Title: Tips on MySQL
 Slug: mysql-tips
 Category: Computer Science
 Tags: Database, programming, tips, MySQL, Python
+Modified: 2020-05-22 14:45:18
 
 **
 Things on this page are

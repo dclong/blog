@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Data Structure in R
 Category: Programming
 Tags: programming, list, data structure, container, matrix, vector, R, CRAN
+Modified: 2016-07-09 18:57:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

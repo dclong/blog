@@ -5,6 +5,7 @@ Slug: python-for-desktop-applications
 Title: Python for Desktop Applications
 Category: Computer Science
 Tags: programming, GUI, desktop applications, Python, Qt, PyQt5, PySide2, PLYNTH, Electron
+Modified: 2021-04-13 23:40:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

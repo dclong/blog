@@ -5,6 +5,7 @@ Slug: parallel-computing-using-multithreading
 Author: Ben Chuanlong Du
 Category: Computer Science
 Tags: Mathematica, lock, programming, C/C++, cpp, thread, Java, HPC, parallel, R, concurrency, mutex, high performance computing
+Modified: 2020-03-26 11:14:47
 
 
 1. Not all jobs are suitable for parallel computing. 

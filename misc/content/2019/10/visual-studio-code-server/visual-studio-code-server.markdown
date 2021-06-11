@@ -5,6 +5,7 @@ Slug: visual-studio-code-server
 Title: Visual Studio Code Server
 Category: Software
 Tags: Software, Visual Studio Code, server, VS Code, IDE, web, vscode
+Modified: 2021-04-24 11:28:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

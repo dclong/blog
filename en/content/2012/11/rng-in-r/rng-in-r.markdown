@@ -6,6 +6,7 @@ Tags: R, programming, RNG
 Category: Computer Science
 Slug: rng-in-r
 Author: Ben Chuanlong Du
+Modified: 2013-12-05 00:21:35
 
 1. Functions for sampling random numbers from distributions 
     share a same "basic" random number generator (RNG). 

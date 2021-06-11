@@ -5,6 +5,7 @@ Slug: tips-on-xgboost
 Title: Tips on XGBoost
 Category: AI
 Tags: AI, data science, machine learning, XGBoost
+Modified: 2019-12-28 23:22:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

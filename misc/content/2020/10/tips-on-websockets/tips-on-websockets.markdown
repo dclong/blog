@@ -5,6 +5,7 @@ Slug: tips-on-websockets
 Title: Tips on Websockets
 Category: Computer Science
 Tags: Computer Science, web, internet, network, WebSockets
+Modified: 2020-10-16 23:04:12
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

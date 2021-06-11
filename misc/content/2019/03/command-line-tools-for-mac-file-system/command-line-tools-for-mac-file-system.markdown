@@ -5,6 +5,7 @@ Slug: command-line-tools-for-mac-file-system
 Title: Command Line Tools for Mac File System
 Category: OS
 Tags: macOS, file system, filesystem, shell, terminal, command line
+Modified: 2021-01-10 08:56:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Tips on IBus
 Slug: ibus-tips
 Category: Software
 Tags: tips, IBus
+Modified: 2020-05-22 13:53:23
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

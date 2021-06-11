@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Input and Output in R
 Category: Programming
 Tags: R, IO, programming, CRAN
+Modified: 2016-07-09 18:20:45
 
 ## read.table, read.csv, read.delim, etc.
 1. It is suggested that you use `read.csv`/`read.delim` and avoid using `read.table`.

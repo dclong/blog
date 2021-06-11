@@ -5,6 +5,7 @@ Slug: interpretation-of-neural-networks
 Title: Interpretation of Neural Networks
 Category: AI
 Tags: AI, machine learning, data science, interpretation
+Modified: 2020-01-05 10:44:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

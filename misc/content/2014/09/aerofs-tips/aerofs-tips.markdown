@@ -5,6 +5,7 @@ Slug: aerofs-tips
 Title: Synchronize Files Using AeroFS  
 Category: Software
 Tags: software, tips, AeroFS
+Modified: 2020-05-22 12:59:40
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: gitignore-tips
 Title: Gitignore Examples
 Category: Computer Science
 Tags: programming, Git, .gitignore, ignore, directory, root
+Modified: 2021-03-11 11:35:36
 
 **
 Things on this page are

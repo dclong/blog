@@ -5,6 +5,7 @@ Title: Synchronize Files Using Unison
 Slug: unison-tips
 Category: Software
 Tags: software, unison, sync, two-way, synchronization, backup, 2-way, tips
+Modified: 2020-05-22 14:18:56
 
 **
 Things under legendu.net/outdated are outdated technologies 

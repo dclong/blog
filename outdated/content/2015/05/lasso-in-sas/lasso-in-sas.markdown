@@ -6,6 +6,7 @@ Slug: lasso-in-sas
 Title: Lasso in SAS
 Category: Computer Science
 Tags: programming, SAS, LASSO, feature selection, variable selection, regularization
+Modified: 2015-05-17 17:21:02
 
 **
 Things under legendu.net/outdated are outdated technologies 

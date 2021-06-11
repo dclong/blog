@@ -6,6 +6,7 @@ Slug: statistics-traps
 Title: Don't Do Statistics If You Don't Really Undestand It
 Category: AI
 Tags: statistics, independence, linear model, linear regression, hypothesis test, Ljung-Box test
+Modified: 2015-04-10 07:50:16
 
 <img src="http://dclong.github.io/media/statistics/lie.jpg" height="200" width="240" align="right"/>
 

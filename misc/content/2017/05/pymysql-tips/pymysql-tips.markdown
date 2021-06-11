@@ -5,6 +5,7 @@ Title: Connect to MySQL Using PyMySQL
 Slug: pymysql-tips
 Category: Computer Science
 Tags: programming, PyMySQL, tips, Python
+Modified: 2020-05-22 15:06:10
 
 **
 Things on this page are

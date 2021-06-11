@@ -6,6 +6,7 @@ Slug: import-export-data-sas
 Title: Import/Export Data to/from SAS
 Category: Computer Science
 Tags: programming, SAS, import, procedure, Excel
+Modified: 2015-05-30 14:20:50
 
 
 ## Import Data to SAS

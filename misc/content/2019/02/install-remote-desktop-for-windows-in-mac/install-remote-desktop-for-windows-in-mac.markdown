@@ -5,6 +5,7 @@ Slug: install-remote-desktop-for-windows-in-mac
 Title: Install Remote Desktop for Windows in Mac
 Category: Software
 Tags: software, macOS, remote desktop, windows
+Modified: 2019-02-09 11:55:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

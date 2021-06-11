@@ -5,6 +5,7 @@ Slug: build-a-fat-jar-using-maven-without-a-java-project
 Title: Build a Fat JAR Using Maven Without a Java Project
 Category: Computer Science
 Tags: Computer Science, Java, Maven, POM, JAR, fat jar, assembly
+Modified: 2020-11-21 17:22:39
 
 
 You can use Maven to download dependencies of Java packages without creating a Java project.

@@ -5,6 +5,7 @@ Slug: tips-on-tampermoney-and-greasy-fork
 Title: Tips on Tampermoney and Greasy Fork
 Category: Computer Science
 Tags: Computer Science, Web, Tampermonkey, greasy fork
+Modified: 2020-03-29 12:44:38
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

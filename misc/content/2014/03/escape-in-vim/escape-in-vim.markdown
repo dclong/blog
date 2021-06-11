@@ -5,6 +5,7 @@ Slug: escape-key-in-vim
 Title: The Escape Key in Vim
 Category: Software
 Tags: Vim, software, tips, escape, Caps Lock, keyboard
+Modified: 2019-06-20 18:59:03
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

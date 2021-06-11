@@ -6,6 +6,7 @@ Slug: statistics-tips
 Title: Statistics
 Category: AI
 Tags: tips, statistics, modele, modeling
+Modified: 2016-07-13 22:40:14
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

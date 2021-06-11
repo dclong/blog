@@ -5,6 +5,7 @@ Slug: calling-shell-from-python
 Title: Calling Shell from Python
 Category: Computer Science
 Tags: programming, Python, shell, os.system, subprocess
+Modified: 2019-08-24 06:48:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

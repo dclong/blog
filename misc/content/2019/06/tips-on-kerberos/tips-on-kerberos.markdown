@@ -5,6 +5,7 @@ Slug: tips-on-kerberos
 Title: Tips on Kerberos
 Category: OS
 Tags: OS, Linux, CentOS, Ubuntu, kerberos, authentication
+Modified: 2020-02-05 13:11:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

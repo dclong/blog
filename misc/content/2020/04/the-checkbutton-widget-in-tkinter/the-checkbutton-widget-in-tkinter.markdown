@@ -5,6 +5,7 @@ Slug: the-checkbutton-widget-in-tkinter
 Title: The Checkbutton Widget in Tkinter
 Category: Computer Science
 Tags: Computer Science, Python, programming, Tkinter, GUI, Checkbutton
+Modified: 2020-04-12 21:57:28
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

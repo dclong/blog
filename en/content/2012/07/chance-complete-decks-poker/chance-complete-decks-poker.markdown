@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Probability to Get a Complete Deck of Cards?
 Category: Fun Problems
 Tags: statistics, recursion, probability, Mathematica, fun problems, poker
+Modified: 2014-08-17 17:54:37
 
 [Probability]: http://www.legendu.net/media/poker/probability.png
 

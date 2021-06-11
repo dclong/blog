@@ -5,6 +5,7 @@ Slug: regular-expression-in-bash
 Title: Regular Expression in Bash
 Category: Computer Science
 Tags: programming, Bash, regular expression, regex
+Modified: 2019-04-28 11:53:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

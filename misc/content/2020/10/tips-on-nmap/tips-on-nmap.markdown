@@ -5,6 +5,7 @@ Slug: tips-on-nmap
 Title: Tips on Nmap
 Category: Computer Science
 Tags: Computer Science, internet, network, web, nmap
+Modified: 2020-10-16 10:54:33
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

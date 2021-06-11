@@ -5,6 +5,7 @@ Date: 2020-10-22 11:03:15
 Slug: ssh-tips
 Category: Software
 Tags: tips, SSH, software, remote, Linux, ControlMaster, ControlPersist, ProxyCommand, ControlPath
+Modified: 2020-10-22 11:03:15
 
 
 ## General Tips and Traps

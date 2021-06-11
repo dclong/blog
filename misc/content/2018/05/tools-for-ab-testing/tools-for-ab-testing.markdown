@@ -6,6 +6,7 @@ Slug: tools-for-ab-testing
 Title: Tools for A/B Testing
 Category: AI
 Tags: statistics, A/B testing, AB testing
+Modified: 2018-05-27 16:39:55
 
 **
 Things on this page are

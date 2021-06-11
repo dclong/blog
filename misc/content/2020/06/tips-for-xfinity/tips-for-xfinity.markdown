@@ -5,6 +5,7 @@ Slug: tips-for-xfinity
 Title: Tips for XFinity
 Category: Computer Science
 Tags: Computer Science, network, internet, XFinity, WiFi
+Modified: 2020-06-14 22:45:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

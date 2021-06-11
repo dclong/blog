@@ -6,6 +6,7 @@ Slug: common-errors-in-bibliographies
 Title: Common Errors in Bibliographies
 Category: Research
 Tags: research, LaTeX, bibliography, error
+Modified: 2016-07-13 00:09:02
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

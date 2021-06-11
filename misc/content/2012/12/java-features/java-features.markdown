@@ -6,6 +6,7 @@ Tags: switch, string, Java, programming, features
 Category: Computer Science
 Slug: java-features
 Author: Ben Chuanlong Du
+Modified: 2012-12-03 00:00:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

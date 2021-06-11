@@ -6,6 +6,7 @@ Tags: compile, LaTeX, programming
 Category: Computer Science
 Slug: latex-commands
 Author: Ben Chuanlong Du
+Modified: 2016-07-13 00:03:31
 
 
 1. LaTeX

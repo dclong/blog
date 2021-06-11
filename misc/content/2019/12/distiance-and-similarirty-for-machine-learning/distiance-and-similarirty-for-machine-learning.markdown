@@ -5,6 +5,7 @@ Slug: distance-and-similarity-for-machine-learning
 Title: Distance and Similarity for Machine Learning
 Category: AI
 Tags: AI, data science, machine learning, similarity, distance
+Modified: 2020-03-17 11:46:20
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

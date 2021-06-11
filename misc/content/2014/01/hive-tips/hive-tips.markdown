@@ -5,6 +5,7 @@ Title: Hive SQL
 Slug: hive-tips
 Category: Computer Science
 Tags: big data, hadoop, Hive
+Modified: 2020-05-22 15:35:31
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

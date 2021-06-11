@@ -5,6 +5,7 @@ Slug: tips-on-virtualvm
 Title: Tips on VirtualVM
 Category: Computer Science
 Tags: programming, VirtualVM, Java, performace, profiling
+Modified: 2020-02-10 09:59:52
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

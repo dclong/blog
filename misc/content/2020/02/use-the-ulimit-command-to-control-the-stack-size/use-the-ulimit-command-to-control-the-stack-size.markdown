@@ -5,6 +5,7 @@ Slug: use-the-ulimit-command-to-control-the-stack-size
 Title: Use the ulimit Command to Control the Stack Size
 Category: Computer Science
 Tags: programming, ulimit, stack, size, unlimited
+Modified: 2020-02-28 10:27:20
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

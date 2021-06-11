@@ -6,6 +6,7 @@ Tags: LaTeX, TeX Live, Linux, software
 Category: Software
 Slug: use-latex-in-linux
 Author: Ben Chuanlong Du
+Modified: 2017-02-10 07:49:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

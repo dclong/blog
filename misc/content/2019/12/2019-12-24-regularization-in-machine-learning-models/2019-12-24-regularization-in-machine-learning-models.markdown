@@ -5,6 +5,7 @@ Slug: regularization-in-machine-learning-models
 Title: Regularization in Machine Learning Models
 Category: AI
 Tags: AI, machine learning, data science, regularization
+Modified: 2019-12-30 12:21:11
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

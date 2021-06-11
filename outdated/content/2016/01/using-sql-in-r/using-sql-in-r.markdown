@@ -6,6 +6,7 @@ Slug: using-sql-in-r
 Title: Using SQL in R
 Category: Programming
 Tags: programming, CRAN, SQL, database, RJDBC, teradataR, RODBC
+Modified: 2017-04-08 15:47:42
 
 **
 Things under legendu.net/outdated are outdated technologies 

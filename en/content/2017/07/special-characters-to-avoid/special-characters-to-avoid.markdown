@@ -5,6 +5,7 @@ Slug: special-characters-to-avoid
 Title: Special Characters to Avoid in Strings
 Category: Computer Science
 Tags: programming, special characters, avoid, password, file name, Shell, char, special, character
+Modified: 2020-12-03 21:56:32
 
 
 This articles talks about special characters to avoid in various places. 

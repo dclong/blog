@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: LaTeX for Chinese
 Category: Computer Science
 Tags: LaTeX, Chinese, programming, Tex Live, XeTex, Linux, fonts, markup
+Modified: 2016-07-13 00:04:39
 
 
 1. `xetex` is the state-of-art way for dealing with Chinese type setting.

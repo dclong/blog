@@ -5,6 +5,7 @@ Title: TeXstudio, Bravo!
 Slug: texstudio-bravo
 Category: Software
 Tags: LyX, Tex, LaTeX, IDE, software, WYSIWYG, TeXstudio
+Modified: 2021-04-06 14:47:52
 
 <img src="http://dclong.github.io/media/bravo/bravo.jpg" height="200" width="240" align="right"/>
 

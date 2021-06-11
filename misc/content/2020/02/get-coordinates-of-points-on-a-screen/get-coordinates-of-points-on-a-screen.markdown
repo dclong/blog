@@ -5,6 +5,7 @@ Slug: get-coordinates-of-points-on-a-screen-or-image
 Title: Get Coordinates of Points on a Screen or Image
 Category: Software
 Tags: Software, coordinate, point, macOS, GIMP, image, screen
+Modified: 2020-03-09 12:03:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

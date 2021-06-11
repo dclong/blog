@@ -6,6 +6,7 @@ Date: 2020-05-06 14:20:40
 Slug: btsync-tips
 Category: Software
 Tags: tips, BitTorrent Sync, BTSync, cloud, synchronization, Resilio Sync
+Modified: 2020-05-06 14:20:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

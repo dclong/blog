@@ -5,6 +5,7 @@ Title: Make Your Life Easier with Portable Applications
 Slug: portable-apps
 Category: Software
 Tags: application, Chinese, software, portable, apps, CygwinPortable, Portable Python
+Modified: 2020-05-23 00:04:26
 
 Using portable applications is a good way to make your digital life easier. 
 They do not eat up your disk quickly nor do they mess up the registry of your Windows OS.

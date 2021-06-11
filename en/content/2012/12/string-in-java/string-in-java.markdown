@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: String in Java
 Category: Computer Science
 Tags: Java, programming, string, character
+Modified: 2015-02-20 10:58:20
 
 ## String
 

@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Category: OS
 Title: Desktop Environments for Linux
 Tags: DE, Linux, desktop environment, Xfce, GNOME, KDE, Unity, lightdm, gdm3, kdm, mdm
+Modified: 2016-07-13 22:09:04
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

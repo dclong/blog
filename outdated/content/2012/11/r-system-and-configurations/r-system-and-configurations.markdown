@@ -6,6 +6,7 @@ Tags: R, configuration, programming, system
 Category: Computer Science
 Slug: r-system-and-configurations
 Author: Ben Chuanlong Du
+Modified: 2012-11-21 00:00:00
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>
 

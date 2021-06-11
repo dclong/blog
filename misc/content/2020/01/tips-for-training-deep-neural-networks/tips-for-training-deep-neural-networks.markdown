@@ -5,6 +5,7 @@ Slug: training-deep-neural-networks
 Title: Training Deep Neural Networks
 Category: AI
 Tags: AI, machine learning, data science, deep learning, deep neural network, DNN
+Modified: 2020-04-21 13:44:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: tips-on-the-almond-scala-kernel
 Title: Tips on the Almond Scala Kernel
 Category: Computer Science
 Tags: Computer Science, Scala, Almond, JupyterLab
+Modified: 2020-03-24 18:33:39
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

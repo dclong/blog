@@ -5,6 +5,7 @@ Slug: scala-tips
 Title: Tips on Scala
 Category: Computer Science
 Tags: programming, Scala, functional programming, big data, Spark
+Modified: 2020-03-24 19:09:23
 
 **
 Things on this page are

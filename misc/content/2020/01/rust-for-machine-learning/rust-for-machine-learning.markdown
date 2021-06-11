@@ -5,6 +5,7 @@ Slug: rust-for-machine-learning
 Title: Rust for Machine Learning
 Category: AI
 Tags: AI, data science, machine learning, Rust, AI, deep learning
+Modified: 2020-10-27 22:43:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

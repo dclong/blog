@@ -5,6 +5,7 @@ Slug: models-for-computer-vision
 Title: Models for Computer Vision
 Category: AI
 Tags: AI, data science, machine learning, computer vision, neural network, image classification, image processing
+Modified: 2020-01-07 09:50:39
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

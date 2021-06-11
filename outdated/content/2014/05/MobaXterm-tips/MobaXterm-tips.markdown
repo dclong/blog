@@ -5,6 +5,7 @@ Title: Tips on MobaXterm
 Slug: MobaXterm-tips
 Category: Software
 Tags: software, MobaXterm, tips, Linux, virtualization
+Modified: 2020-05-22 15:40:46
 
 **
 Things under legendu.net/outdated are outdated technologies 

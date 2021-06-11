@@ -5,6 +5,7 @@ Slug: the-installation-location-of-python-packages-using-pip
 Title: The Installation Location of Python Packages Using Pip
 Category: Computer Science
 Tags: Computer Science, Python, pip, package, installation, location
+Modified: 2020-03-23 10:35:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

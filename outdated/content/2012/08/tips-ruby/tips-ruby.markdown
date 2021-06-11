@@ -5,6 +5,7 @@ Tags: array, IO, Ruby, programming, string
 Category: Computer Science
 Slug: tips-ruby
 Author: Ben Chuanlong Du
+Modified: 2020-04-06 11:28:52
 
 <img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="200" align="right"/>
 

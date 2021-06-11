@@ -6,6 +6,7 @@ Tags: programming, matrix, data sturcture, data, vector, R
 Category: Computer Science
 Slug: abuse-vector-r
 Author: Ben Chuanlong Du
+Modified: 2012-05-16 00:00:00
 
 R is a language that is friendly to vector operation, 
 so vector is an important data structure in R. 

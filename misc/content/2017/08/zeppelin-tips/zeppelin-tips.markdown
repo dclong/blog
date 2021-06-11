@@ -5,6 +5,7 @@ Slug: zeppelin-tips
 Title: Tips on Zeppelin
 Category: Software
 Tags: software, zeppelin, notebook
+Modified: 2020-05-22 16:07:50
 
 **
 Things on this page are

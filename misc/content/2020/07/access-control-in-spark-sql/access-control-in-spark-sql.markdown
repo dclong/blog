@@ -5,6 +5,7 @@ Slug: access-control-in-spark-sql
 Title: Access Control in Spark SQL
 Category: Computer Science
 Tags: Computer Science, Spark SQL, SQL, big data, Spark, access control, permission, user
+Modified: 2020-12-22 10:11:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

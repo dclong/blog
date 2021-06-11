@@ -6,6 +6,7 @@ Date: 2013-10-20 00:00:00
 Slug: general-links
 Category: Software
 Tags: links
+Modified: 2013-10-20 00:00:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**

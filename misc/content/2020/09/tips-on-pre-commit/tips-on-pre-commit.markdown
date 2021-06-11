@@ -5,6 +5,7 @@ Slug: tips-on-pre-commit
 Title: Tips on pre-commit
 Category: Computer Science
 Tags: Computer Science, Git hooks, pre-commit, CICD, GitHub Actions
+Modified: 2021-03-09 12:03:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

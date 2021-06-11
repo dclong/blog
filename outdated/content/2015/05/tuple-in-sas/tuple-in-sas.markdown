@@ -6,6 +6,7 @@ Slug: tuple-in-sas
 Title: Tuple in SAS
 Category: Computer Science
 Tags: programming, SAS, tuple, comma, space
+Modified: 2015-05-26 02:34:45
 
 **
 Things under legendu.net/outdated are outdated technologies 

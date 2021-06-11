@@ -6,6 +6,7 @@ Slug: general-tips-for-groovy
 Title: General Tips for Groovy
 Category: Computer Science
 Tags: programming, Groovy, tips
+Modified: 2019-01-22 22:58:11
 
 **
 Things on this page are

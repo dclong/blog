@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Write R Code that Runs Faster
 Category: Programming
 Tags: DLL, programming, HPC, high performance computing, parallel, R, memory, GC, speedup, fast, CRAN
+Modified: 2015-08-26 22:08:17
 
 <img src="http://dclong.github.io/media/r/run-fast.jpg" height="200" width="240" align="right"/>
 

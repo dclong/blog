@@ -6,6 +6,7 @@ Tags: tips, skills, programming, MATLAB
 Category: Computer Science
 Slug: general-tips-for-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2014-09-08 10:35:47
 
 
 ## Skills

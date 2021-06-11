@@ -5,6 +5,7 @@ Slug: return-a-new-object-or-mutate-the-existing-one
 Title: Return a New Object Or Mutate the Existing Object
 Category: Computer Science
 Tags: programming, Python, design pattern, copy, mutate
+Modified: 2019-10-31 17:09:56
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

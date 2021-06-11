@@ -5,6 +5,7 @@ Slug: map-function-in-python
 Title: Function Programming in Python
 Category: Computer Science
 Tags: programming, Python, map, functional programming, reduce, apply
+Modified: 2015-02-05 22:58:56
 
 **
 Things on this page are

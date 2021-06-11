@@ -6,6 +6,7 @@ Slug: make-inference-using-bootstrap
 Title: Make Inference Using Bootstrap
 Category: AI
 Tags: statistics, bootstrap, inference, resample
+Modified: 2016-03-05 20:04:20
 
 **
 Things on this page are

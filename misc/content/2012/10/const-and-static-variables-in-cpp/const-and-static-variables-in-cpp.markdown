@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Const and Static Variables in C++
 Category: Computer Science
 Tags: programming, C++, static, const
+Modified: 2015-03-25 00:44:03
 
 **
 Things on this page are

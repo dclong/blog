@@ -5,6 +5,7 @@ Slug: run-unix-linux-commands-in-sas
 Title: Run Unix/Linux Commands in SAS
 Category: Computer Science
 Tags: programming, SAS, Unix, Linux, command
+Modified: 2015-05-17 16:36:48
 
 **
 Things under legendu.net/outdated are outdated technologies 

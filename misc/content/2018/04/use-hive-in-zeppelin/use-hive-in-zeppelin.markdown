@@ -6,6 +6,7 @@ Slug: use-hive-in-zeppelin
 Title: Use Hive in Zeppelin
 Category: Computer Science
 Tags: programming
+Modified: 2018-04-30 16:29:11
 
 **
 Things on this page are

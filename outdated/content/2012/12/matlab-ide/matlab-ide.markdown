@@ -6,6 +6,7 @@ Tags: IDE, software, MATLAB
 Category: Software
 Slug: MATLAB-ide
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 1. Command `help` offers help on functions, classes, packages and so on, 

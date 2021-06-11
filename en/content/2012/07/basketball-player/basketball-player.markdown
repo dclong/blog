@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Basketball Player
 Category: Fun Problems
 Tags: statistics, condition, probability, fun problems, basket ball player
+Modified: 2014-07-28 21:56:16
 
 [Table 1]: http://dclong.github.io/media/basketball-player/table.pdf
 

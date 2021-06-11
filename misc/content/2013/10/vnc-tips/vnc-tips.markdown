@@ -5,6 +5,7 @@ Title: Tips on VNC
 Slug: vnc-tips
 Category: Software
 Tags: tips, VNC, remote desktop, Linux
+Modified: 2020-05-22 14:41:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

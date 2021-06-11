@@ -5,6 +5,7 @@ Slug: python-build-tools
 Title: Python Build Tools
 Category: Computer Science
 Tags: programming, Python, building tools, dependency managment, packaging
+Modified: 2020-02-17 13:12:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

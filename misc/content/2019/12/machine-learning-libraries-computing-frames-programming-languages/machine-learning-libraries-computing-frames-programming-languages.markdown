@@ -5,6 +5,7 @@ Slug: machine-learning-libraries-computing-frames-programming-languages
 Title: Machine Learning Libraries, Computing Frames and Programming Languages
 Category: AI
 Tags: AI, machine learning, data science, computing frameworks, programming languages, GPU, Python, Rust
+Modified: 2021-06-10 09:32:40
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Tips on sbt Assembly
 Slug: sbt-assembly-tips
 Category: Computer Science
 Tags: programming, Scala, sbt, sbt-assembly
+Modified: 2020-05-22 15:03:24
 
 **
 Things on this page are

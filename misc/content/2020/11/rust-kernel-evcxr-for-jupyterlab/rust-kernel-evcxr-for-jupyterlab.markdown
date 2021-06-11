@@ -5,6 +5,7 @@ Slug: tips-on-rust-kernel-via-evcxr-for-jupyterlab
 Title: Tips on Rust Kernel Via Evcxr for JupyterLab
 Category: Computer Science
 Tags: Computer Science, Rust, kernel, Jupyter, JupyterLab, evcxr, dep, dependency
+Modified: 2021-03-21 11:32:16
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: program-termination-in-sas
 Title: Program Termination in SAS
 Category: Computer Science
 Tags: programming, SAS, termination, exit, quit, stop, error
+Modified: 2015-01-05 09:14:13
 
 **
 Things under legendu.net/outdated are outdated technologies 

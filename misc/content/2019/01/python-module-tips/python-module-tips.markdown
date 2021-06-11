@@ -5,6 +5,7 @@ Slug: python-module-tips
 Title: Tips on Python Module 
 Category: Computer Science
 Tags: programming, Python, module, tips, module access
+Modified: 2021-04-13 09:48:04
 
 **
 Things on this page are

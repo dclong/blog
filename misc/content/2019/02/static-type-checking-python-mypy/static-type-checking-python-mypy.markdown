@@ -5,6 +5,7 @@ Title: Static Type Checking of Python Scripts Using Mypy
 Slug: static-type-checking-python-mypy
 Category: Computer Science
 Tags: programming, Python, mypy, tips
+Modified: 2020-08-18 09:05:13
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

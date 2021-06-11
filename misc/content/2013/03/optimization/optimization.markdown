@@ -5,6 +5,7 @@ Tags: numerical analysis, optimization, Research
 Category: Research
 Slug: science-optimization
 Author: Ben Chuanlong Du
+Modified: 2019-12-30 12:17:07
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. 
 Please read with your own judgement!**

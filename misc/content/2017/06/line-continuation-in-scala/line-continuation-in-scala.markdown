@@ -6,6 +6,7 @@ Slug: line-continuation-in-scala
 Title: Line Continuation in Scala
 Category: Computer Science
 Tags: programming, Scala, line continuation
+Modified: 2017-10-22 13:35:34
 
 **
 Things on this page are

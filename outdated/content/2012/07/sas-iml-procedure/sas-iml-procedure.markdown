@@ -6,6 +6,7 @@ Tags: SAS, matrix, programming, IML
 Category: Computer Science
 Slug: sas-iml-procedure
 Author: Ben Chuanlong Du
+Modified: 2015-02-19 15:30:52
 
 <img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/>
 

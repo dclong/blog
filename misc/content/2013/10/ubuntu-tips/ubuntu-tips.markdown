@@ -5,6 +5,7 @@ Date: 2017-02-19 12:20:43
 Slug: ubuntu-tips
 Category: OS
 Tags: tips, Ubuntu, Linux, OS
+Modified: 2017-02-19 12:20:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

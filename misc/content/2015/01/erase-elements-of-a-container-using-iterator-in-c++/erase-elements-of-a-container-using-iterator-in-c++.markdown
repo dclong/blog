@@ -6,6 +6,7 @@ Slug: erase-elements-of-a-container-using-iterator-in-c++
 Title: Erase Elements of a Container Using Iterator in C++
 Category: Computer Science
 Tags: programming, C++, iterator, erase, container
+Modified: 2015-03-29 23:08:20
 
 **
 Things on this page are

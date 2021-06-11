@@ -6,6 +6,7 @@ Slug: ratio-of-boy-to-girl
 Title: Ratio of Boy to Girl
 Category: Fun Problems
 Tags: fun problems, family, boy, girl, ratio, todo
+Modified: 2014-10-23 17:09:37
 
 **
 Things on this page are

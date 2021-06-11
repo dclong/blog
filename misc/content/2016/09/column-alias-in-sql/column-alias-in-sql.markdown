@@ -5,6 +5,7 @@ Slug: use-column-alias-in-sql
 Title: Use Column Alias in SQL
 Category: Computer Science
 Tags: programming, SQL, column alias, Teradata, Oracle
+Modified: 2020-11-14 20:37:13
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Slug: string-in-sql
 Title: String in SQL
 Category: Computer Science
 Tags: programming, SQL, string
+Modified: 2016-11-20 18:55:31
 
 **
 Things on this page are

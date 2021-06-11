@@ -6,6 +6,7 @@ Tags: MATLAB, programming, email
 Category: Computer Science
 Slug: send-email-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 It is very easy to send emails in MATLAB. 

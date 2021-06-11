@@ -5,6 +5,7 @@ Slug: prevent-a-class-from-direct-instantiation-in-python
 Title: Prevent a Class from Direct Instantiation in Python
 Category: Computer Science
 Tags: Computer Science, Python, class, instantiation, __new__, ABC, abstract base class
+Modified: 2021-02-20 08:43:33
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

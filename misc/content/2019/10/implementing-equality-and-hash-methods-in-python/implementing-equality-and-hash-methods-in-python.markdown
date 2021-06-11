@@ -5,6 +5,7 @@ Slug: implementing-equality-and-hash-methods-in-python
 Title: Implementing Equality and Hash Methods in Python
 Category: Computer Science
 Tags: programming, Python, class, hash, equality
+Modified: 2019-10-31 23:51:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

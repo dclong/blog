@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Type Cast in Java
 Category: Computer Science
 Tags: type cast, programming, Java
+Modified: 2014-10-02 10:50:55
 
 
 1. You cannot cast between integer and boolean values. 

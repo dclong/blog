@@ -5,6 +5,7 @@ Slug: python-logging
 Title: Python Logging
 Category: Computer Science
 Tags: programming, Python, logging, loguru, rich
+Modified: 2021-01-12 10:43:38
 ## General Tips
 
 1. [logging](http://www.legendu.net/misc/blog/python-logging-module/)

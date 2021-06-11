@@ -6,6 +6,7 @@ Slug: install-the-latest-version-of-R-in-ubuntu
 Title: Install the Latest Version of R in Ubuntu
 Category: Programming
 Tags: programming, R, CRAN, Ubuntu, install, latest
+Modified: 2017-02-20 23:46:45
 
 **
 Things under legendu.net/outdated are outdated technologies 

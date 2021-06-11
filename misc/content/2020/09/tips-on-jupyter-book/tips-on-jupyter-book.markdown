@@ -5,6 +5,7 @@ Slug: tips-on-jupyter-book
 Title: Tips on Jupyter-Book
 Category: Computer Science
 Tags: Computer Science, jupyter-book, Markdown, notebook, Jupyter, JupyterLab
+Modified: 2020-10-20 14:47:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: ModuleNotFoundError:-No-module-named-_ctypes-in-Python-3.7
 Title: ModuleNotFoundError: No Module Named _Ctypes in Python 3.7
 Category: Computer Science
 Tags: Computer Science, Python, 3.7, ctypes, _ctypes, ModuleNotFoundError
+Modified: 2020-08-14 10:47:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

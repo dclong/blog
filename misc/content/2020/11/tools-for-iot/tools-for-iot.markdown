@@ -5,6 +5,7 @@ Slug: tools-for-iot
 Title: Tools for IOT
 Category: Computer Science
 Tags: Computer Science, programming, hardware, camera, FliCamera, IOT
+Modified: 2020-11-09 11:25:24
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

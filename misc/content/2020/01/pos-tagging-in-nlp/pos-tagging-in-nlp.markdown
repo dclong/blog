@@ -5,6 +5,7 @@ Slug: pos-tagging-in-nlp
 Title: POS Tagging in NLP
 Category: AI
 Tags: AI, data science, machine lerning, POS tagging, NLP
+Modified: 2020-02-11 15:58:10
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

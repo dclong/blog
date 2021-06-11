@@ -5,6 +5,7 @@ Slug: arch-linux-tips
 Title: Tips on Arch Linux
 Category: OS
 Tags: Linux, tips, Arch Linux, pacman
+Modified: 2020-02-29 17:09:02
 
 **
 Things on this page are

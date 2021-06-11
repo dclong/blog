@@ -6,6 +6,7 @@ Tags: Python, programming, Java, string, bash, Ruby, R
 Category: Computer Science
 Slug: summary-string-popular-programming-language
 Author: Ben Chuanlong Du
+Modified: 2014-09-14 16:34:30
 
 A string is essentially a sequence of characters. 
 This is how string is implemented in many programming languages (string in Java is different).

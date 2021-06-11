@@ -5,6 +5,7 @@ Slug: preferred-python-version-in-shebang
 Title: Preferred Python Version in Shebang
 Category: Computer Science
 Tags: programming, shell, Python, shebang, version
+Modified: 2019-02-17 19:15:35
 
 **
 Things on this page are

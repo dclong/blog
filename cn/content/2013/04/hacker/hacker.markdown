@@ -6,6 +6,7 @@ Tags: 电脑技术，黑客，社交网络，手机
 Category: 编程
 Slug: hacker
 Author: Chuanlong (Ben) Du
+Modified: 2013-04-08 00:00:00
 
 我没有干过黑客的勾当，目前也暂时没有兴趣做这个事儿。
 只是不久前思维在黑客这个勾当上晃动了一下，

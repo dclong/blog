@@ -5,6 +5,7 @@ Slug: sql-translation-tools
 Title: SQL Translation Tools
 Category: Computer Science
 Tags: Computer Science, programming, SQL, translation, translate, JOOQ, SQLAlchemy
+Modified: 2020-12-13 13:10:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

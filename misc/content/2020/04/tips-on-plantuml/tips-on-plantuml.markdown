@@ -5,6 +5,7 @@ Slug: tips-on-plantuml
 Title: Tips on PlantUML
 Category: Computer Science
 Tags: Computer Science, PlantUML, UML
+Modified: 2020-04-30 09:09:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

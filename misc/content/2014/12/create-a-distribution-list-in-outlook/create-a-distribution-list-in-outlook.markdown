@@ -6,6 +6,7 @@ Slug: create-a-distribution-list-in-outlook
 Title: Create a Distribution List in Outlook
 Category: Software
 Tags: software, Outlook, distribution list, contact, email client
+Modified: 2014-12-30 17:16:42
 
 **
 Things on this page are

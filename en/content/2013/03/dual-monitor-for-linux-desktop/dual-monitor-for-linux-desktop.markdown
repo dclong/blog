@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Dual Monitor for Linux Desktop
 Category: OS
 Tags: DE, Linux, monitor, dual
+Modified: 2015-02-20 10:59:38
 
 
 1. Type `xrandr` or `xrandr -q` in terminal to dispaly information of all available output device.

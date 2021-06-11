@@ -5,6 +5,7 @@ Slug: tips-on-pytorch
 Title: Tips on PyTorch
 Category: Computer Science
 Tags: programming, Python, PyTorch, GPU, tips
+Modified: 2020-11-18 00:39:50
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

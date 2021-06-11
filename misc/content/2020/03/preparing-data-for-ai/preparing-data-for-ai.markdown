@@ -5,6 +5,7 @@ Slug: preparing-data-for-ai
 Title: Preparing Data for AI
 Category: Computer Science
 Tags: Computer Science, data science, AI, machine learning, deep learning, data labeling, crowdsourcing
+Modified: 2020-03-17 11:27:12
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

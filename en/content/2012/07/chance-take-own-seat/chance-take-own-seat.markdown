@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Chance to Take One's Own Seat?
 Category: Fun Problems
 Tags: statistics, recursion, probability, fun problems, seat
+Modified: 2014-08-10 13:13:46
 
 <img src="http://dclong.github.io/media/seat/seat.jpg" height="200" width="240" align="right"/>
 

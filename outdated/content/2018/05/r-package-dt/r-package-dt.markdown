@@ -6,6 +6,7 @@ Slug: r-package-dt
 Title: R Package DT
 Category: Programming
 Tags: programming, cran, DT, datatables.js
+Modified: 2018-05-27 16:16:48
 
 **
 Things under legendu.net/outdated are outdated technologies 

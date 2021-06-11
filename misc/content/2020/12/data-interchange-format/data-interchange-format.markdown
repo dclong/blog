@@ -5,6 +5,7 @@ Slug: data-interchange-format
 Title: Data Interchange Format
 Category: Computer Science
 Tags: Computer Science, data, interchange, Apache Arrow, protobuf
+Modified: 2020-12-06 23:38:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Install Packages Using Homebrew on macOS
 Slug: homebrew-tips
 Category: Software
 Tags: software, Homebrew, macOS, Linuxbrew
+Modified: 2020-09-27 22:55:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

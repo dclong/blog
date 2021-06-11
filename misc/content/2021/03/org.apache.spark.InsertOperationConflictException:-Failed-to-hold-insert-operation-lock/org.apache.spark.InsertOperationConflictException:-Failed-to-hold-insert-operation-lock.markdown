@@ -5,6 +5,7 @@ Slug: spark-issue-InsertOperationConflictException-failed-to-hold-insert-operati
 Title: Spark Issue: InsertOperationConflictException: Failed to Hold Insert Operation Lock
 Category: Computer Science
 Tags: Computer Science, programming, Spark, issue, Spark issue, InsertOperationConflictException, fail, hold, insert operation lock, big data
+Modified: 2021-03-24 14:57:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: spcify-java-version-to-use-in-a-scala-project
 Title: Spcify Java Version to Use in a Scala Project
 Category: Computer Science
 Tags: programming
+Modified: 2017-08-26 19:35:28
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: Visual-Studio-Code-for-kotlin-development
 Title: Visual Studio Code for Kotlin Development
 Category: Computer Science
 Tags: Computer Science, Kotlin, VSCode, Visual Studio Code, JVM, IDE, plugin, extension
+Modified: 2021-03-10 13:07:08
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!

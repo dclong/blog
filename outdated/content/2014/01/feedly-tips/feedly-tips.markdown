@@ -6,6 +6,7 @@ Title: Feedly Tips
 Slug: feedly-tips
 Category: Software
 Tags: software, feedly, RSS, reading
+Modified: 2014-01-04 23:35:23
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

@@ -5,6 +5,7 @@ Slug: handons-the-python-library-notifiers
 Title: Hands on the Python Library notifiers
 Category: Computer Science
 Tags: Computer Science, python, notifiers, notification, email, web, internet
+Modified: 2020-11-03 15:46:20
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

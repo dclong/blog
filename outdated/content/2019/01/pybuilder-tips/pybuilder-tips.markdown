@@ -5,6 +5,7 @@ Slug: pybuilder-tips
 Title: Tips on PyBuilder
 Category: Computer Science
 Tags: programming, PyBuilder, Python, project management
+Modified: 2020-04-12 11:54:46
 
 **
 Things under legendu.net/outdated are outdated technologies 

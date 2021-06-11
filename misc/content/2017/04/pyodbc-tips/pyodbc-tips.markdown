@@ -5,6 +5,7 @@ Title: Connect to Databases Using pyodbc in Python
 Slug: pyodbc-tips
 Category: Computer Science
 Tags: programming, pyodbc, Python, tips, ODBC, database, SQL, Vertica, Teradata
+Modified: 2020-05-22 15:02:59
 
 **
 Things on this page are

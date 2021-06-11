@@ -5,6 +5,7 @@ Date: 2020-05-22 14:42:49
 Slug: julia-tips
 Category: Computer Science
 Tags: tips, programming, Julia
+Modified: 2020-05-22 14:42:49
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -4,6 +4,7 @@ Title: General Tips on Mathematica
 Slug: general-tips-for-mathematica
 Category: Computer Science
 Tags: tips, Mathematica, programming
+Modified: 2020-05-25 21:27:34
 
 **
 Things on this page are 

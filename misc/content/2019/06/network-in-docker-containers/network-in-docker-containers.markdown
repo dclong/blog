@@ -5,6 +5,7 @@ Slug: network-in-docker-containers
 Title: Network in Docker Containers
 Category: Software
 Tags: Software, Docker container, network, DNS, proxy
+Modified: 2020-10-20 23:52:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

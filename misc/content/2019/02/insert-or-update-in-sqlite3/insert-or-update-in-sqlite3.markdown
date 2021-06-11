@@ -5,6 +5,7 @@ Slug: insert-or-update-in-sqlite3
 Title: Insert Or Update in SQLite3
 Category: Computer Science
 Tags: programming, SQLite3, upsert, insert or replace, insert or update
+Modified: 2020-05-07 12:20:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

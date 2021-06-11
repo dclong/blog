@@ -5,6 +5,7 @@ Title: Loss Function in Machine Learning Models
 Slug: ai-loss-function
 Category: AI
 Tags: AI, loss function, statistics, machine learning
+Modified: 2020-01-07 11:12:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

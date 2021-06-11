@@ -5,6 +5,7 @@ Slug: named-parameters-in-typescript
 Title: Named Parameters in Typescript
 Category: Computer Science
 Tags: programming, TypeScript, named parameters
+Modified: 2019-03-12 17:31:44
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

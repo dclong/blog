@@ -6,6 +6,7 @@ Slug: trap-duplicated-columns-sql-procedure-sas
 Title: The Trap of Duplicated Columns in the SQL Procedure of SAS
 Category: Computer Science
 Tags: programming, SAS, SQL
+Modified: 2015-08-28 13:02:17
 
 **
 Things under legendu.net/outdated are outdated technologies 

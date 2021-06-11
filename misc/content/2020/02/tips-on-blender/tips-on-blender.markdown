@@ -5,6 +5,7 @@ Slug: tips-on-blender
 Title: Tips on Blender
 Category: Software
 Tags: Software, Blender, tips, Python
+Modified: 2020-02-14 12:39:10
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

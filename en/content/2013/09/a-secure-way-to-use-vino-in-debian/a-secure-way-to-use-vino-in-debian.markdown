@@ -6,6 +6,7 @@ Slug: a-secure-way-to-use-vino-in-debian
 Author: Ben Chuanlong Du
 Category: OS
 Tags: vino, Linux, vnc, network
+Modified: 2015-02-03 19:41:59
 
 VNC on Linux is not secure. 
 Most implementations of VNC servers for Linux allows password only up to 8 characters. 

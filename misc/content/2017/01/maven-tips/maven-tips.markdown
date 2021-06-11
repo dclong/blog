@@ -5,6 +5,7 @@ Title: Tips on Maven
 Slug: maven-tips
 Category: Computer Science
 Tags: programming, Maven, tips, Java, Scala
+Modified: 2020-05-22 15:06:34
 
 **
 Things on this page are

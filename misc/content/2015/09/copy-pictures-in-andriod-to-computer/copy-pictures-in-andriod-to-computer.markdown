@@ -5,6 +5,7 @@ Slug: copy-pictures-in-android-to-computer
 Title: Copy Pictures from an Android Phone to a Computer
 Category: OS
 Tags: Linux, scp, rsync, pictures, image, photo, media, Android
+Modified: 2021-04-12 23:41:58
 
 **
 Things on this page are

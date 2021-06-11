@@ -5,6 +5,7 @@ Title: Send Email in Ruby
 Slug: send-email-ruby
 Category: Computer Science
 Tags: smtp, programming, Verizon, PDF, Ruby, email
+Modified: 2020-04-06 11:28:52
 
 <img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/>
 

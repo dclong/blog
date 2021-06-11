@@ -5,6 +5,7 @@ Title: Typing Automatically Using AutoHotkey
 Slug: AutoHotkey-tips
 Category: Software
 Tags: tips, software, AutoHotkey, automation
+Modified: 2020-05-22 13:34:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

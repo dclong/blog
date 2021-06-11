@@ -6,6 +6,7 @@ Slug: map-keys-in-windows
 Title: Map Keys in Windows
 Category: OS
 Tags: Windows, keys, mapping, swap, Caps Lock, Escape
+Modified: 2016-06-01 22:17:13
 
 **
 Things on this page are

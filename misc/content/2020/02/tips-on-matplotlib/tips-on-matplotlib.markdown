@@ -5,6 +5,7 @@ Slug: tips-on-matplotlib
 Title: Tips on Matplotlib
 Category: Computer Science
 Tags: programming, Python, matplotlib, plot, image, pyplot, pandas.plot
+Modified: 2020-06-07 23:24:47
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

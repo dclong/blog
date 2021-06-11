@@ -5,6 +5,7 @@ Slug: spark-issue:-max-number-of-executor-failures-reached
 Title: Spark Issue: Max Number of Executor Failures Reached
 Category: Computer Science
 Tags: Computer Science, programming, Spark, big data, Spark issue, executor, failures
+Modified: 2021-06-09 14:44:30
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## Symptom

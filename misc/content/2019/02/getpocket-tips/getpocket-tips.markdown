@@ -5,6 +5,7 @@ Title: Tips on GetPocket
 Slug: getpocket-tips
 Category: Software
 Tags: software, getpocket, pocket, tips
+Modified: 2020-05-22 15:25:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

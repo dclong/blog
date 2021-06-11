@@ -5,6 +5,7 @@ Slug: reload-file-in-visual-studio-code
 Title: Reload File in Visual Studio Code
 Category: Computer Science
 Tags: Computer Science, programming, IDE, software, Visual Studio Code, VSCode, reload, refresh, file
+Modified: 2021-03-26 10:20:50
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

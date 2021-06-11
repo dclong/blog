@@ -6,6 +6,7 @@ Date: 2019-03-30 17:25:44
 Slug: intern-tips
 Category: Software
 Tags: tips
+Modified: 2019-03-30 17:25:44
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

@@ -5,6 +5,7 @@ Title: Tips on Touchpad
 Slug: touchpad-tips
 Category: Software
 Tags: Linux, software, touchpad, hardware
+Modified: 2020-05-22 12:33:51
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

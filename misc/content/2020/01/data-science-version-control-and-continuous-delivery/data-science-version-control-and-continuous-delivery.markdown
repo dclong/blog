@@ -5,6 +5,7 @@ Slug: data-science-version-control-and-continuous-delivery
 Title: Data Science Version Control and Continuous Delivery
 Category: AI
 Tags: AI, machine learning, data science, continuous delivery, data science version control
+Modified: 2020-10-07 08:52:52
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

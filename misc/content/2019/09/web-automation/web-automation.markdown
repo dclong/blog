@@ -5,6 +5,7 @@ Slug: web-automation
 Title: Web Automation
 Category: Computer Science
 Tags: programming, web, automation, Selenium, playwright, Puppeteer
+Modified: 2021-04-07 09:02:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

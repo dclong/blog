@@ -5,6 +5,7 @@ Slug: sikuli-tips
 Title: Use SikuliX to Automate Anything 
 Category: Software
 Tags: software, tips, Sikuli, automation, web
+Modified: 2021-02-16 15:00:28
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Writing R Extensions
 Category: Programming
 Tags: R, Rcpp, programming, CRAN
+Modified: 2016-10-23 17:13:18
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>
 

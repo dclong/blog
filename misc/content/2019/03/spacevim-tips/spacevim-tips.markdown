@@ -5,6 +5,7 @@ Slug: spacevim-tips
 Title: SpaceVim - A Modern Vim Distribution
 Category: Software
 Tags: software, SpaceVim, Vim, tips
+Modified: 2020-05-03 20:02:57
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: tips-on-yaml
 Title: Tips on YAML
 Category: Computer Science
 Tags: programming, YAML, tips
+Modified: 2020-05-27 21:35:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

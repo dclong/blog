@@ -6,6 +6,7 @@ Slug: pros-and-cons-of-r
 Author: Ben Chuanlong Du
 Category: Programming
 Tags: pros, programming, cons, advantage, disadvantage, R, CRAN
+Modified: 2016-07-13 22:02:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -5,6 +5,7 @@ Slug: static-type-checking-of-Python-Scripts-using-pytype
 Title: Static Type Checking of Python Scripts Using pytype
 Category: Computer Science
 Tags: Computer Science, Python, type annotation, static, type checking, pytype
+Modified: 2020-10-30 09:16:10
 ## Configuration 
 
 There are 3 ways to control the behavior of `pytype.

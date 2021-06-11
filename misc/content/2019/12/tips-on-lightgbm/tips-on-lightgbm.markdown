@@ -5,6 +5,7 @@ Slug: tips-on-lightgbm
 Title: Tips on LightGBM
 Category: AI
 Tags: AI, data science, machine learning, LightGBM
+Modified: 2020-12-03 01:26:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

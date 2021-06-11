@@ -5,6 +5,7 @@ Slug: hadoop-fs-tips
 Title: Hadoop Filesystem Tips
 Category: Software
 Tags: big data, Hadoop, filesystem, file system, tips
+Modified: 2021-02-21 23:37:52
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

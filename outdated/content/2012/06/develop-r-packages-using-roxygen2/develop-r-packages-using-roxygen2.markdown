@@ -6,6 +6,7 @@ Category: Programming
 Tags: R, package, programming, tags, CRAN, roxygen2, develop
 Slug: develop-r-packages-using-roxygen2
 Author: Ben Chuanlong Du
+Modified: 2017-07-27 12:41:29
 
 
 You have to install the R package `roxygen2` first.

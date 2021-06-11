@@ -6,6 +6,7 @@ Slug: conversation-mode-in-thunderbird
 Title: Conversation Mode in Thunderbird
 Category: software
 Tags: software, Thunderbird, conversation mode
+Modified: 2015-03-10 20:19:01
 
 
 There is a Thunderbird add-on `Conversation` 

@@ -6,6 +6,7 @@ Tags: Linux, programming, MATLAB
 Category: Computer Science
 Slug: problem-when-launching-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 See [here](http://www.mathworks.com/support/solutions/en/data/1-F68FSA/index.html?solution=1-F68FSA)

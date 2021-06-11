@@ -5,6 +5,7 @@ Slug: vscode-for-scala-development
 Title: Visual Studio Code for Scala Development
 Category: Computer Science
 Tags: programming, Scala, vscode, Visual Studio Code
+Modified: 2020-05-03 08:47:25
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

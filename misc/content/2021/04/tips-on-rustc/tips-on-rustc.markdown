@@ -5,6 +5,7 @@ Slug: tips-on-rustc
 Title: Tips on rustc
 Category: Computer Science
 Tags: Computer Science, programming, Rust, rustc, optimization, cargo
+Modified: 2021-04-22 21:11:46
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

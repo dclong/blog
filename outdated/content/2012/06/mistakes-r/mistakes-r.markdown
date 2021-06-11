@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Easy Made Mistakes when Writing R code
 Category: Programming
 Tags: vector, operator, mistake, programming, R, CRAN
+Modified: 2015-05-14 22:04:09
 
 <img src="http://dclong.github.io/media/r/mistake.jpg" height="200" width="240" align="right"/>
 

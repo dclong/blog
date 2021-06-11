@@ -5,6 +5,7 @@ Slug: async-framework-for-jvm-based-languages
 Title: Async Framework for JVM-based Languages
 Category: Computer Science
 Tags: Computer Science, programming, Java, JVM, async, asynchronous, event, RxJava, reactive
+Modified: 2021-04-08 09:40:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Tags: tips, R, generic, programming, argument
 Category: Computer Science
 Slug: general-tips-for-r
 Author: Ben Chuanlong Du
+Modified: 2013-12-05 00:29:52
 
 
 1. Many R functions have lots of arguments which allows you get a full

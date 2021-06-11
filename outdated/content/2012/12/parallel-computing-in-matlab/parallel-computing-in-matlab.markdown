@@ -6,6 +6,7 @@ Tags: HPC, parallel, concurrency, programming, MATLAB
 Category: Computer Science
 Slug: parallel-computing-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2014-06-19 19:45:42
 
 
 1. It is very easy to do parallel computing in MATLAB. 

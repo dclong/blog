@@ -5,6 +5,7 @@ Slug: compiler-and-build-tools
 Title: Compiler and Build Tools
 Category: Computer Science
 Tags: Computer Science, programming, coding, compiler, compile, build, tool
+Modified: 2020-08-24 10:19:10
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

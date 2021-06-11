@@ -6,6 +6,7 @@ Slug: use-autojump-to-help-quick-navigation-in-terminal-in-linux
 Title: Use Autojump to Help Quick Navigation in Terminal in Linux
 Category: OS
 Tags: Linux, autojump, cd, terminal, shell, navigation
+Modified: 2018-10-29 08:28:14
 
 **
 Things on this page are

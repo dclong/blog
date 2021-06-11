@@ -5,6 +5,7 @@ Slug: ide-for-sql
 Title: IDE for SQL
 Category: Software
 Tags: software, Teradata SQL Assistant, IDE, SQL, dbeaver, Teradata Studio
+Modified: 2021-02-15 12:10:03
 
 **
 Things on this page are

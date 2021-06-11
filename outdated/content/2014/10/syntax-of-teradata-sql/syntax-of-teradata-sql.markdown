@@ -5,6 +5,7 @@ Slug: syntax-of-teradata-sql
 Title: Syntax of Teradata SQL
 Category: Computer Science
 Tags: programming, Teradata SQL, syntax, style, error
+Modified: 2021-02-15 12:10:03
 
 **
 Things under legendu.net/outdated are outdated technologies 

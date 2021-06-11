@@ -5,6 +5,7 @@ Slug: useful-visual-studio-code-extensions
 Title: Useful Visual Studio Code Extensions
 Category: Computer Science
 Tags: Computer Science, programming, IDE, VSCode, Visual Studio Code, extension
+Modified: 2021-03-30 12:19:38
 
 ## Places to Find Extensoins 
 

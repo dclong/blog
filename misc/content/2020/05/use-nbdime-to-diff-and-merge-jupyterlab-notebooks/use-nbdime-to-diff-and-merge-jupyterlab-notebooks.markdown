@@ -5,6 +5,7 @@ Slug: use-nbdime-to-diff-and-merge-jupyterlab-notebooks
 Title: Use nbdime to Diff and Merge JupyterLab Notebooks
 Category: Computer Science
 Tags: Computer Science, JupyterLab, notebook, diff, merge, version control, nbdime, Git
+Modified: 2021-04-26 23:50:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

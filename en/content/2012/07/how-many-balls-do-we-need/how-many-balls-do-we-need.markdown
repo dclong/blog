@@ -6,6 +6,7 @@ Tags: statistics, probability, fun problems
 Category: Fun Problems
 Slug: how-many-balls-do-we-need
 Author: Ben Chuanlong Du
+Modified: 2012-07-10 00:00:00
 
 <img src="http://dclong.github.io/media/ball-box/ball-in-box.jpg" height="200" width="240" align="right"/>
 

@@ -6,6 +6,7 @@ Tags: programming, MATLAB
 Category: Computer Science
 Slug: numerical-analysis-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 1. `fmincon` finds minimum of constrained nonlinear multivariate function.

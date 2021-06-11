@@ -6,6 +6,7 @@ Slug: zero-length-vector-issue-in-R
 Title: Zero-length Vector Issue in R
 Category: Programming
 Tags: programming, CRAN, R, issue, trick, trap, vector, zero-length, 0-length
+Modified: 2017-04-10 19:21:27
 
 The corner case of 0-length vectors is not well considered in R. 
 It causes issues in several situations. 

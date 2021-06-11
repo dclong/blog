@@ -5,6 +5,7 @@ Title: Block JavaScript in Browsers Using NoScript
 Slug: noscript-tips
 Category: Software
 Tags: software, tips, Firefox, synchronization, NoScript
+Modified: 2020-05-22 14:08:28
 
 **
 Things on this page are

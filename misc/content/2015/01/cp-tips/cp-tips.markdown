@@ -5,6 +5,7 @@ Slug: cp-tips
 Title: Copying Files in Linux
 Category: OS
 Tags: linux, cp, command-line, rsync, scp
+Modified: 2020-05-02 14:57:03
 
 **
 Things on this page are

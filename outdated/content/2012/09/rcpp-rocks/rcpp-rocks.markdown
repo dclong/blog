@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Rcpp Rocks
 Category: Computer Science
 Tags: C++, list, programming, HPC, Rcpp, R, RcppArmadillo, Armadillo, rock
+Modified: 2014-08-16 19:26:30
 
 
 Please see [here](https://bitbucket.org/dclong/r-learn/src/) 

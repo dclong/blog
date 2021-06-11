@@ -5,6 +5,7 @@ Slug: add-new-document-to-right-click-menu-in-mac
 Title: Add New Document to Right-Click Menu in Mac
 Category: Computer Science
 Tags: Computer Science, macOS, right-click menu, new document, OpenInTerminal
+Modified: 2020-03-11 16:04:18
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

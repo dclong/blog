@@ -5,6 +5,7 @@ Slug: buidling-tool-for-Scala
 Title: Building Tool for Scala
 Category: Computer Science
 Tags: programming, Scala, sbt, Maven, building tool
+Modified: 2017-08-26 20:26:44
 
 **
 Things on this page are

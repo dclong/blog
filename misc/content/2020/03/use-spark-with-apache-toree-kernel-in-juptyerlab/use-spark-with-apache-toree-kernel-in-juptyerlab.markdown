@@ -5,6 +5,7 @@ Slug: use-spark-with-apache-toree-kernel-in-juptyerlab
 Title: Use Spark With Apache Toree Kernel in Juptyerlab
 Category: Computer Science
 Tags: Computer Science, Spark, Scala, Apache Toree, JupyterLab
+Modified: 2020-03-23 17:47:21
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

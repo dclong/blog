@@ -6,6 +6,7 @@ Slug: data-manipulation-tools-in-r
 Title: Data Manipulation Tools in R
 Category: Programming
 Tags: programming, CRAN, data manipulation, data.table, plyr, sets, SQL
+Modified: 2016-06-11 17:13:18
 
 **
 Things under legendu.net/outdated are outdated technologies 

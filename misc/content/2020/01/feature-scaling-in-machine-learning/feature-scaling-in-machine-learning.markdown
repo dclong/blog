@@ -5,6 +5,7 @@ Slug: feature-scaling-in-machine-learning
 Title: Feature Scaling in Machine Learning
 Category: AI
 Tags: AI, data science, machine learning, feature, normalize, scale
+Modified: 2020-01-13 14:12:39
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

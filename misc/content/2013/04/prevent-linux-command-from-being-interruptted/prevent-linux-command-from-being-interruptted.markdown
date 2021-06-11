@@ -6,6 +6,7 @@ Slug: prevent-linux-command-from-being-interruptted
 Author: Ben Chuanlong Du
 Category: OS
 Tags: Shell, Terminal, Linux, remote
+Modified: 2016-07-13 22:48:16
 
 **
 Things on this page are

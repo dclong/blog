@@ -5,6 +5,7 @@ Title: Tips on MongoDB
 Slug: mongodb-tips
 Category: Software
 Tags: tips, software, MongoDB, database, NoSQL
+Modified: 2020-05-22 13:52:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

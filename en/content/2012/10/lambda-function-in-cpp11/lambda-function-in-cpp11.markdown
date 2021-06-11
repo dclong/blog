@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Lambda Function in C++11
 Category: Computer Science
 Tags: C++, lambda, programming
+Modified: 2015-02-20 10:35:46
 
 ## Lambda Function
 

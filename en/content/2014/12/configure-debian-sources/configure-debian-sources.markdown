@@ -5,6 +5,7 @@ Slug: configure-debian-sources
 Title: Configure Debian Apt Source List
 Category: OS
 Tags: operating system, OS, Linux, Debian, apt-get, apt, source list
+Modified: 2020-04-06 14:39:03
 
 
 [Debian Apt Sources List Generator](http://debgen.simplylinux.ch/)

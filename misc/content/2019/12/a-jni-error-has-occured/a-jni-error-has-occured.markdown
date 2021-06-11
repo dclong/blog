@@ -5,6 +5,7 @@ Slug: a-jni-error-has-occured
 Title: A JNI Error Has Occured
 Category: Computer Science
 Tags: programming, Java, JNI error, dependency management
+Modified: 2019-12-03 10:14:14
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Useful Plugins for Eclipse
 Slug: useful-plugins-for-eclipse
 Category: Software
 Tags: Vim, Eclipse, shell, C/C++, IDE, software, plugins, addons
+Modified: 2020-05-22 13:41:22
 
 <img src="http://dclong.github.io/media/eclipse/cdt.png" height="200" width="240" align="right"/>
 

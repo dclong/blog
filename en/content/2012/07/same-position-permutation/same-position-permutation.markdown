@@ -6,6 +6,7 @@ Tags: same position, statistics, probability, linear recursion, fun problems, co
 Category: Fun Problems
 Slug: same-position-permutation
 Author: Ben Chuanlong Du
+Modified: 2013-11-17 15:16:03
 
 
 <img src="http://www.legendu.net/media/people/same.jpg" width="240" height="200" align="right">

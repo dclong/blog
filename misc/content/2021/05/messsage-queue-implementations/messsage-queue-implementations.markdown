@@ -5,6 +5,7 @@ Slug: messsage-queue-implementations
 Title: Messsage Queue Implementations
 Category: Computer Science
 Tags: Computer Science, programming, message, queue, Kafka, AMQP, Redis, ZooKeeper, celery, memcached
+Modified: 2021-05-26 10:32:39
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 Kafka seems to be the most popular message queue currently. 

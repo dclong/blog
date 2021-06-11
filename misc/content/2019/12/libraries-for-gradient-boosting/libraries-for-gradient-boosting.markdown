@@ -5,6 +5,7 @@ Slug: libraries-for-gradient-boosting
 Title: Libraries for Gradient Boosting
 Category: AI
 Tags: AI, machine learning, data science, gradient boosting, XGBoost, LightGMB, CatBoost
+Modified: 2019-12-24 15:19:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

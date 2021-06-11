@@ -6,6 +6,7 @@ Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands
 Author: Ben Chuanlong Du
+Modified: 2014-06-18 21:38:38
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 

@@ -6,6 +6,7 @@ Slug: user-defined-modules-in-iml
 Title: User-defined Modules in IML
 Category: Computer Science
 Tags: programming, SAS, IML, function, module, user-defined
+Modified: 2015-03-13 14:49:32
 
 **
 Things under legendu.net/outdated are outdated technologies 

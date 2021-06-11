@@ -6,6 +6,7 @@ Slug: ibm-aix-questions
 Title: IBM AIX Questions
 Category: OS
 Tags: Unix, IBM, AIX, questions
+Modified: 2015-05-06 23:55:58
 
 **
 Things under legendu.net/outdated are outdated technologies 

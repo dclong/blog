@@ -5,6 +5,7 @@ Slug: update-a-line-in-standard-output
 Title: Update a Line in Standard Output
 Category: Computer Science
 Tags: programming, Python, sys.stdout, standard output, return, return and new line
+Modified: 2019-10-10 21:00:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

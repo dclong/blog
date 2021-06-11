@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Convert LaTeX to Word
 Category: Software
 Tags: html, LaTeX, Office, software, Word
+Modified: 2016-07-13 00:02:08
 
 `pandoc` is a general purpose tool for converting between different type of documents, 
 however, 

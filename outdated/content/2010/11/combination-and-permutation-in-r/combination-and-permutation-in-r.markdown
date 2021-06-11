@@ -6,6 +6,7 @@ Tags: R, statisitcs, combination, permutation, programming
 Category: Computer Science
 Slug: combination-and-permutation-in-r
 Author: Ben Chuanlong Du
+Modified: 2010-11-20 00:00:00
 
 
 1. `expand.grid` creates a data frame from all possible combinations of supplied vectors or factors. 

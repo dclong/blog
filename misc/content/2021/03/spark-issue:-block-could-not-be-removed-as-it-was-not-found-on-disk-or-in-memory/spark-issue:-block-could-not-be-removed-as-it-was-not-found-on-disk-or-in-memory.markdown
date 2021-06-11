@@ -5,6 +5,7 @@ Slug: spark-issue:-block-could-not-be-removed-as-it-was-not-found-on-disk-or-in-
 Title: Spark Issue: Block Could Not Be Removed as It Was Not Found on Disk or in Memory
 Category: Computer Science
 Tags: Computer Science, programming, Spark, issue, Spark issue, block, remove, not found, disk, memory, big data
+Modified: 2021-03-24 09:23:07
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

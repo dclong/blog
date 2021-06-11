@@ -5,6 +5,7 @@ Slug: useful-rust-crates
 Title: Useful Rust Crates
 Category: Computer Science
 Tags: Computer Science, programming, Rust, crate, useful
+Modified: 2021-06-09 23:34:03
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 https://crates.io/crates?sort=downloads

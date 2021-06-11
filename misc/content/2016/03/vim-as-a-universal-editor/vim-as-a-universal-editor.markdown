@@ -6,6 +6,7 @@ Slug: vim-as-a-universal-editor
 Title: Vim as a Universal Editor
 Category: Software
 Tags: software, Vim, editor, Outlook, gvim
+Modified: 2016-03-05 21:06:14
 
 **
 Things on this page are

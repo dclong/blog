@@ -5,6 +5,7 @@ Slug: install-python-in-mac
 Title: Install Python in Mac
 Category: Software
 Tags: software, install, Python, macOS
+Modified: 2020-02-19 10:18:07
 
 
 

@@ -6,6 +6,7 @@ Slug: cartesian product in sas
 Title: Cartesian Product in SAS
 Category: Computer Science
 Tags: programming, SAS, Cartesian product
+Modified: 2014-10-23 15:52:51
 
 Suppose we have 2 variables `x = ("a", "b", "c")` and `y = (1, 2, 3)`,
 and we want to create a dataset containing the Cartesian product of `x` and `y` in SAS.

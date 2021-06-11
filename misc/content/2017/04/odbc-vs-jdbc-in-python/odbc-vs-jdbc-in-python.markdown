@@ -5,6 +5,7 @@ Slug: odbc-vs-jdbc-in-python
 Title: ODBC vs JDBC in Python
 Category: Computer Science
 Tags: programming, Python, ODBC, JDBC, database, SQL, TurbODBC, pyarrow, pyarrow.jvm, Java, Arrow Flight
+Modified: 2020-11-30 12:06:09
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Author: Ben Chuanlong Du
 Title: An Input Bug in Ruby
 Category: Computer Science
 Tags: programming, Bash, Ruby, bug, terminal, IO
+Modified: 2020-04-06 11:28:52
 
 <img src="http://dclong.github.io/media/computer/bug.jpg" height="200" width="240" align="right"/>
 

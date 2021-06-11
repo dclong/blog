@@ -5,6 +5,7 @@ Slug: tips-on-yarn
 Title: Tips on yarn
 Category: Computer Science
 Tags: Computer Science, programming, yarn, JS, JavaScript
+Modified: 2021-05-03 21:42:50
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 https://yarnpkg.com/

@@ -5,6 +5,7 @@ Slug: slide-Sub-LInear-Deep-learning-engine
 Title: SLIDE: Sub-Linear Deep Learning Engine
 Category: AI
 Tags: AI, deep learning, machine learning, data science, CPU, GPU
+Modified: 2021-04-11 12:01:22
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

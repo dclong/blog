@@ -6,6 +6,7 @@ Slug: control-sas-outputs
 Title: Control SAS Outputs
 Category: Software
 Tags: software, SAS, output, print
+Modified: 2015-06-14 17:27:03
 
 **
 Things under legendu.net/outdated are outdated technologies 

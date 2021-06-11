@@ -5,6 +5,7 @@ Slug: good-terminal-apps
 Title: Good Terminal Apps
 Category: Computer Science
 Tags: Computer Science, terminal, software, hyper, kitty
+Modified: 2021-05-11 08:45:30
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## [hyper](https://github.com/vercel/hyper)

@@ -5,6 +5,7 @@ Slug: copy-object-in-python
 Title: Copy Object in Python
 Category: Computer Science
 Tags: programming, Python, copy object
+Modified: 2019-10-31 17:22:26
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

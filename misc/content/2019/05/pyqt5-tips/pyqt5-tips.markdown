@@ -5,6 +5,7 @@ Slug: pyqt5-tips
 Title: Tips on PyQt5
 Category: Computer Science
 Tags: programming, PyQt5, GUI, Python, Qt5
+Modified: 2020-03-21 10:51:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

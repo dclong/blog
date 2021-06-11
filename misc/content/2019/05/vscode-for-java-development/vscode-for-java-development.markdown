@@ -5,6 +5,7 @@ Slug: vscode-for-jvm-languages
 Title: Visual Studio Code for Java Development
 Category: Computer Science
 Tags: programming, Java, vscode, Visual Studio Code
+Modified: 2021-03-10 23:23:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

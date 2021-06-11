@@ -5,6 +5,7 @@ Slug: conda-tips
 Title: Tips on Conda
 Category: Computer Science
 Tags: programming, Python, conda, tips, Anaconda Python
+Modified: 2020-06-22 09:36:27
 
 **
 Things on this page are

@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Variance and Dispersion Estimate in Genetics
 Category: AI
 Tags: statistics, genetics, biostatistics, variance, dispersion, estimate, estimation
+Modified: 2015-02-24 14:05:04
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

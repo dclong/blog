@@ -5,6 +5,7 @@ Slug: resizing-and-padding-for-image-recognition
 Title: Resizing and Padding for Image Recognition
 Category: AI
 Tags: AI, machine learning, data science, deep learning
+Modified: 2020-02-25 14:11:09
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

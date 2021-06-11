@@ -5,6 +5,7 @@ Title: Environments in R
 Slug: environments-in-r
 Category: Computer Science
 Tags: R, programming, environment
+Modified: 2020-05-22 13:02:41
 
 **
 Things under legendu.net/outdated are outdated technologies 

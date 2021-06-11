@@ -5,6 +5,7 @@ Slug: best-filesystem-format-for-cross-platform-data-exchanging
 Title: Best Filesystem Format for Cross-Platform Data Exchanging
 Category: OS
 Tags: OS, macOS, Linux, Windows, external drive, filesystem, exFAT, ext4
+Modified: 2020-09-11 10:24:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

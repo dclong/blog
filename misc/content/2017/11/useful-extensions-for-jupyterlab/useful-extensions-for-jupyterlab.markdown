@@ -5,6 +5,7 @@ Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
 Category: Software
 Tags: software, JupyterLab, extension, plugin, JupyterHub, nbdime
+Modified: 2021-05-24 10:55:57
 
 **
 Things on this page are

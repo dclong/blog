@@ -5,6 +5,7 @@ Slug: tips-on-speechlogger
 Title: Tips on Speechlogger
 Category: Computer Science
 Tags: Computer Science, SpeechLogger, voice, recognition, speech, text
+Modified: 2020-03-29 17:49:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

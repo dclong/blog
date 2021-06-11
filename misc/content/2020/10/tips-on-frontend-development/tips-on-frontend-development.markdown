@@ -5,6 +5,7 @@ Slug: tips-on-frontend-development
 Title: Tips on Frontend Development
 Category: Computer Science
 Tags: Computer Science, web, programming, frontend, RESTful, RESTful API, API
+Modified: 2021-04-26 13:10:46
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

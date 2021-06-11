@@ -6,6 +6,7 @@ Tags: variable, programming, Java
 Category: Computer Science
 Slug: variables-in-java
 Author: Ben Chuanlong Du
+Modified: 2016-07-13 22:04:15
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

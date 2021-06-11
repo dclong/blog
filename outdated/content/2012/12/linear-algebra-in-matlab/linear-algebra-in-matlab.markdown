@@ -6,6 +6,7 @@ Tags: algebra, programming, MATLAB
 Category: Computer Science
 Slug: linear-algebra-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 1. Unlike most other programming languages, 

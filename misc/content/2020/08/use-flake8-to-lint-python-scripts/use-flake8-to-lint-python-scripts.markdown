@@ -5,6 +5,7 @@ Slug: use-flake8-to-lint-python-scripts
 Title: Use Flake8 to Lint Python Scripts
 Category: Computer Science
 Tags: Computer Science, Python, flake8, linter
+Modified: 2021-02-25 14:52:31
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: gitpod-tips
 Title: Tips on Gitpod
 Category: Software
 Tags: Software, programming, GitPod, GitHub, Theia IDE
+Modified: 2020-05-20 09:49:30
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Date: 2016-08-15 21:45:26
 Title: Effect of Duplicating Observations in Linear Models
 Category: AI
 Tags: duplicate, statistics, modeling, linear model, observation
+Modified: 2016-08-15 21:45:26
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

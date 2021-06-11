@@ -5,6 +5,7 @@ Title: The Cinnamon Desktop Environment for Linux
 Slug: tips-for-the-cinnamon-desktop-environment
 Category: Software
 Tags: software, tips, Cinnamon, desktop environment
+Modified: 2020-05-22 14:11:28
 
 **
 Things on this page are

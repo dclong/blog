@@ -6,6 +6,7 @@ Tags: statistics, math, algebra, decomposition, matrix
 Category: AI
 Slug: matrix-decomposition
 Author: Ben Chuanlong Du
+Modified: 2013-10-24 23:14:16
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  

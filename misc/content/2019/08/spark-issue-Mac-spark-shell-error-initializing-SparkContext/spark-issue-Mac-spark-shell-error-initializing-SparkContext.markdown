@@ -5,6 +5,7 @@ Slug: spark-issue-mac-spark-shell-error-initializing-sparkcontext
 Title: Spark Issue: Mac spark-shell Error Initializing SparkContext
 Category: Computer Science
 Tags: programming, Spark, issue, Spark Shell, SparkContext, big data, Spark issue
+Modified: 2021-03-24 16:49:09
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

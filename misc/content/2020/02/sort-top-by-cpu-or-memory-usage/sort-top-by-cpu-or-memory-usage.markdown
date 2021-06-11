@@ -5,6 +5,7 @@ Slug: sort-top-by-cpu-or-memory-usage
 Title: Sort top by CPU or Memory Usage
 Category: OS
 Tags: OS, Linux, top, macOS, top, CPU, memory
+Modified: 2020-02-18 11:56:57
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Tags: C++, programming, portable
 Category: Computer Science
 Slug: write-portable-cpp-code
 Author: Ben Chuanlong Du
+Modified: 2012-10-21 00:00:00
 
 
 1. Addresses on 64 and 32 OS are different, 

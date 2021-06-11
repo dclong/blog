@@ -5,6 +5,7 @@ Slug: hyper-js-tips
 Title: Tips on Hyper
 Category: Software
 Tags: software, Hyper, terminal
+Modified: 2020-03-02 12:20:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

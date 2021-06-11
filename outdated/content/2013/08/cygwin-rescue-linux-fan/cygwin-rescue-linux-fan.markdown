@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Cygwin Come to Rescue Linux Fans on Windows
 Category: Software
 Tags: Linux, Windows, virtualization, software, Cygwin 
+Modified: 2017-03-19 10:37:20
 
 1. It is suggested that you use 32 bit Cygwin as it has a better package support.
 

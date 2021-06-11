@@ -5,6 +5,7 @@ Title: Tips on Oracle SQL
 Slug: oracle-sql-tips
 Category: Computer Science
 Tags: programming, Oracle SQL, tips
+Modified: 2020-05-22 14:58:36
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

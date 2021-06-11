@@ -5,6 +5,7 @@ Title: Tips on Vimperator
 Slug: vimperator-tips
 Category: Software
 Tags: tips, software, Vimperator, Firefox, Vim
+Modified: 2020-05-22 14:55:48
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -5,6 +5,7 @@ Slug: use-tauri-to-build-a-desktop-application
 Title: Use Tauri to Build a Desktop Application
 Category: Computer Science
 Tags: Computer Science, programming, Tauri, Rust, JavaScript, JS, GUI, desktop, webview, web
+Modified: 2021-05-03 21:42:15
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

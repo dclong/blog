@@ -5,6 +5,7 @@ Slug: trust-a-jupyterlab-notebook
 Title: Trust a JupyterLab Notebook
 Category: Software
 Tags: Software, tools, JupyterLab, trust notebook
+Modified: 2020-01-29 20:14:09
 
 By default, 
 IPython (kernel of Jupyter/Lab notebook) disables executation of untrusted code without explicit user input.

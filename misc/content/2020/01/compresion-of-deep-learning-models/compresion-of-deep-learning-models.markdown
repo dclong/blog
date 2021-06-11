@@ -5,6 +5,7 @@ Slug: compresion-of-deep-learning-models
 Title: Compresion of Deep Learning Models
 Category: AI
 Tags: AI, data science, machine learning, deep compression, compression
+Modified: 2020-01-08 11:26:35
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

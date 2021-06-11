@@ -5,6 +5,7 @@ Slug: missing-values-in-sas
 Title: Missing Values in SAS
 Category: Computer Science
 Tags: programming, SAS, missing values, null, white space
+Modified: 2015-08-28 17:02:54
 
 1. SAS uses a dot (`.`) to stand for a numeric missing value 
     and any number (can be 0 which correspond to the blank string `""`) 

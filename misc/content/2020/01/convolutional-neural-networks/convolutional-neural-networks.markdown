@@ -5,6 +5,7 @@ Slug: convolutional-neural-networks
 Title: Convolutional Neural Networks
 Category: AI
 Tags: AI, data science, machine learning, CNN, convolutional neural network
+Modified: 2020-02-24 22:24:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Tags: image, SAS, graphics, programming
 Category: Computer Science
 Slug: sas-plot
 Author: Ben Chuanlong Du
+Modified: 2012-07-11 00:00:00
 
 <img src="http://dclong.github.io/media/sas/sas.jpg" height="200" width="240" align="right"/>
 

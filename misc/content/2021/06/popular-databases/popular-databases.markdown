@@ -5,6 +5,7 @@ Slug: popular-databases
 Title: Popular Databases
 Category: Computer Science
 Tags: Computer Science, programming, database
+Modified: 2021-06-10 10:33:02
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## [ClickHouse](https://github.com/ClickHouse/ClickHouse)

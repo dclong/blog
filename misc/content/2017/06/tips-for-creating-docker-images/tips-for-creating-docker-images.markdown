@@ -5,6 +5,7 @@ Slug: tips-on-creating-docker-images
 Title: Tips on Creating Docker Images
 Category: Software
 Tags: software, Docker, image, build, create
+Modified: 2020-02-29 21:22:04
 
 **
 Things on this page are

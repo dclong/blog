@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Formatting Data in SAS
 Category: Computer Science
 Tags: SAS, formatting data, programming, label
+Modified: 2015-05-17 18:52:19
 
 **
 Things under legendu.net/outdated are outdated technologies 

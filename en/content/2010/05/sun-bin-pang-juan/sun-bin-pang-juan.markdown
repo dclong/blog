@@ -6,6 +6,7 @@ Slug: sun-bin-pang-juan
 Title: Sun Bin PK Pang Juan
 Category: Fun Problems
 Tags: puzzle, Mathematica, fun problems, math, number, sum, product
+Modified: 2014-08-06 10:57:40
 
 <img src="http://dclong.github.io/media/pk/pk.jpg" height="200" width="240" align="right"/>
 

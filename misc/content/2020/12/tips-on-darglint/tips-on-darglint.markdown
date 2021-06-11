@@ -5,6 +5,7 @@ Slug: tips-on-darglint
 Title: Tips on Darglint
 Category: Computer Science
 Tags: Computer Science, darglint, docstring, documentation, Python, doc, lint, linter
+Modified: 2021-01-04 10:02:09
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

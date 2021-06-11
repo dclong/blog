@@ -5,6 +5,7 @@ Slug: osquery-tips
 Title: Query and Monitor OS Information using osquery
 Category: Software
 Tags: software, osquery, tips
+Modified: 2020-05-22 15:27:24
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

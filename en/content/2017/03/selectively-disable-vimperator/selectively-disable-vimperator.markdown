@@ -6,6 +6,7 @@ Slug: selectively-disable-vimperator
 Title: Selectively Disable Vimperator on Webpages
 Category: Software
 Tags: software, Vimperator, Vim, Firefox, browser
+Modified: 2017-03-04 13:28:47
 
 
 

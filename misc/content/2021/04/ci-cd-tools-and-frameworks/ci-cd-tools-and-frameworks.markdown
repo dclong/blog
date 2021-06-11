@@ -5,6 +5,7 @@ Slug: ci-cd-tools-and-frameworks
 Title: CI/CD Tools and Frameworks
 Category: Computer Science
 Tags: Computer Science, programming, CI, CD, CI/CD, CICD, buildbot, framework, act, GitHub Actions
+Modified: 2021-04-07 10:03:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: wajig-tips
 Title: Tips on Wajig
 Category: OS
 Tags: Wajig, Linux, package management, tips
+Modified: 2020-03-07 22:54:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

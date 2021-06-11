@@ -5,6 +5,7 @@ Slug: quickly-open-a-directory-in-terminal
 Title: Quickly Open a Directory in Terminal in Mac
 Category: Computer Science
 Tags: Computer Science, macOS, OpenInTerminal, terminal, Hyper, iTerm
+Modified: 2020-03-11 16:25:01
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

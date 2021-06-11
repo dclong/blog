@@ -5,6 +5,7 @@ Slug: the-elegant-theme-for-pelican
 Title: The Elegant Theme for Pelican
 Category: Computer Science
 Tags: Computer Science, Pelican, elegant, theme, search, static site generator, static site
+Modified: 2020-10-22 09:23:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

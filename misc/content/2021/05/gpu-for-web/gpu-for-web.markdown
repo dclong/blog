@@ -5,6 +5,7 @@ Slug: gpu-for-web
 Title: GPU for Web
 Category: Computer Science
 Tags: Computer Science, programming, GPU, Web, gpuweb, wgpu
+Modified: 2021-05-12 09:26:51
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 

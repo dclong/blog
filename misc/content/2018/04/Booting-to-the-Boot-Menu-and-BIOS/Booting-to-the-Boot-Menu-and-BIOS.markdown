@@ -6,6 +6,7 @@ Slug: booting-to-the-boot-menu-and-bios
 Title: Booting to the Boot Menu and Bios
 Category: Hardware
 Tags: Hardware, boot, boot menu, BIOS, F12, F8, F2
+Modified: 2018-04-29 16:35:14
 
 **
 Things on this page are

@@ -5,6 +5,7 @@ Slug: security-tools-in-python
 Title: Security Tools in Python
 Category: Computer Science
 Tags: Computer Science, security, Python, PyArmor, bandit
+Modified: 2021-04-16 11:04:45
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

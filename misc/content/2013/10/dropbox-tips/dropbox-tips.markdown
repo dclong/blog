@@ -5,6 +5,7 @@ Title: Synchronize Files Using Dropbox
 Slug: dropbox-tips
 Category: Software
 Tags: tips, Dropbox, Synchronizaion, backup, cloud
+Modified: 2020-05-22 13:36:17
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

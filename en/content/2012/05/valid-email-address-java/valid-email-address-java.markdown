@@ -6,6 +6,7 @@ Slug: valid-email-address-java
 Author: Ben Chuanlong Du
 Category: Computer Science
 Tags: pattern, match, Java, programming, email address
+Modified: 2016-07-12 23:58:54
 
 See the following code.
 

@@ -6,6 +6,7 @@ Slug: auto-increment-in-sql
 Title: Auto Increment in SQL
 Category: Computer Science
 Tags: programming, SQL, auto increment
+Modified: 2016-10-23 12:33:22
 
 **
 Things on this page are

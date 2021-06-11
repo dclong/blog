@@ -6,6 +6,7 @@ Slug: software-for-charts
 Title: Software for Charts
 Category: Software
 Tags: software, charts, draw.io, diagram
+Modified: 2018-05-14 08:40:48
 
 **
 Things on this page are

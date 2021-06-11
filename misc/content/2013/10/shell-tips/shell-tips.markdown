@@ -5,6 +5,7 @@ Date: 2020-10-23 12:19:10
 Slug: shell-tips
 Category: OS
 Tags: tips, Linux, shell, terminal
+Modified: 2020-10-23 12:19:10
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Title: Read PDF in Ruby
 Slug: ruby-read-pdf
 Category: Computer Science
 Tags: library, programming, package, PDF, Ruby
+Modified: 2019-04-18 17:57:21
 
 <img src="http://dclong.github.io/media/ruby/ruby.png" height="200" width="240" align="right"/>
 

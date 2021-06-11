@@ -6,6 +6,7 @@ Slug: docker-images-for-remote-desktop
 Title: Docker Images for Remote Desktop
 Category: Software
 Tags: software, docker, remote desktop, KDE, Ubuntu
+Modified: 2017-07-27 12:16:56
 
 **
 Things on this page are

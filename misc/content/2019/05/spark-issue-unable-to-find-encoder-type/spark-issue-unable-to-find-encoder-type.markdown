@@ -5,6 +5,7 @@ Slug: spark-unable-to-find-encoder-type-issue
 Title: Spark Issue: Unable to Find Encoder Type
 Category: Computer Science
 Tags: programming, Spark, issue, encoder, error, big data, Spark issue
+Modified: 2021-03-21 12:14:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

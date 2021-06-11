@@ -5,6 +5,7 @@ Slug: tips-on-jupyter-binder
 Title: Tips on Jupyter Binder
 Category: Software
 Tags: Software, binder, Jupyter, JupyterLab
+Modified: 2019-10-21 10:06:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

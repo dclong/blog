@@ -5,6 +5,7 @@ Slug: tips-on-dockerswarm
 Title: Tips on Dockerswarm
 Category: Software
 Tags: Software, Docker, Docker Swarm
+Modified: 2021-06-10 09:32:40
 https://zonca.github.io/2016/05/jupyterhub-docker-swarm.html
 
 https://ender74.github.io/Sharing-Volumes-With-Docker-Swarm/

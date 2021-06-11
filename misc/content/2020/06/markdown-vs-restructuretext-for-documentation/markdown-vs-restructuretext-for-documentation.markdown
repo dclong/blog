@@ -5,6 +5,7 @@ Slug: markdown-vs-restructuretext-vs-myst-for-documentation
 Title: Markdown vs RestructureText vs MyST for Documentation
 Category: Computer Science
 Tags: Computer Science, Markdown, RestructureText, documentation, markup, rst, MyST
+Modified: 2020-06-14 18:56:54
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

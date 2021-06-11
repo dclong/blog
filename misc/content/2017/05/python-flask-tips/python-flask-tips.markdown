@@ -5,6 +5,7 @@ Title: Tips on Python Flask
 Slug: python-flask-tips
 Category: Computer Science
 Tags: programming, Python, Flask
+Modified: 2020-05-22 15:01:09
 
 **
 Things on this page are

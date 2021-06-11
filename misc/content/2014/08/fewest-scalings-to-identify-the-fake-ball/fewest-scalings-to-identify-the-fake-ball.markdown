@@ -6,6 +6,7 @@ Slug: fewest-scalings-to-identify-the-fake-ball
 Title: Fewest Scalings to Identify the Fake Ball
 Category: Fun Problems
 Tags: fun problems, scale, fake, ball 
+Modified: 2014-10-23 17:12:23
 
 **
 Things on this page are

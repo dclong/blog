@@ -6,6 +6,7 @@ Slug: string-functions-in-vba
 Title: String Functions in VBA
 Category: Computer Science
 Tags: programming, VBA, string, character
+Modified: 2016-06-14 02:09:22
 
 Things on this page are 
 fragmentary and immature notes/thoughts of the author.

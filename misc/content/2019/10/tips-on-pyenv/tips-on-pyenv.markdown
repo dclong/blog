@@ -5,6 +5,7 @@ Slug: tips-on-pyenv
 Title: Tips on pyenv
 Category: Computer Science
 Tags: programming, Python, pyenv, versions
+Modified: 2020-08-18 18:27:32
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: ibm-aix-tips
 Title: IBM AIX Tips
 Category: OS
 Tags: Unix, IBM, AIX, tips
+Modified: 2015-05-06 23:55:20
 
 **
 Things under legendu.net/outdated are outdated technologies 

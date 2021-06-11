@@ -3,6 +3,7 @@ Date: 2013-10-20 00:00:00
 Slug: news
 Category: Links
 Tags: links, news
+Modified: 2013-10-20 00:00:00
 
 - [Economist](http://www.economist.com/)
 - [US News](http://www.usnews.com/)

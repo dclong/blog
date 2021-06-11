@@ -5,6 +5,7 @@ Slug: install-gnu-utils-using-homebrew
 Title: Install GNU Utils Using Homebrew
 Category: OS
 Tags: macOS, Homebrew, GNU
+Modified: 2017-10-22 13:26:28
 
 
 # Configuration

@@ -5,6 +5,7 @@ Slug: useful-java-libraries
 Title: Useful Java Libraries
 Category: Computer Science
 Tags: Computer Science, Java, JVM, library, package
+Modified: 2021-04-08 09:37:12
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

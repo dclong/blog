@@ -6,6 +6,7 @@ Slug: stick-breaking-problems
 Title: Stick Breaking Problems
 Category: Fun Problems
 Tags: fun problems, stick breaking, probability, statistics, triangle, Dirichlet distribution, graph, plot, visualization, R
+Modified: 2014-12-16 19:47:59
 
 The following is a popular brain teaser problem about probability.
 

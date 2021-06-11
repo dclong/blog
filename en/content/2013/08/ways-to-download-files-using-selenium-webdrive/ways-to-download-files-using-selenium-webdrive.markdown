@@ -5,6 +5,7 @@ Author: Ben Chuanlong Du
 Title: Ways to Download Files Using Selenium Webdrive
 Category: Software
 Tags: Web, WebDrive, automation, Selenium, software
+Modified: 2021-02-16 14:25:17
 
 Selenium WebDrive cannot have no control of system Dialog, 
 so you have to avoid the Dialog when downloading files using WebDrive.

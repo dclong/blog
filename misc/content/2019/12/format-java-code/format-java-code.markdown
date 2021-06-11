@@ -5,6 +5,7 @@ Slug: format-java-code
 Title: Format Java Code
 Category: Computer Science
 Tags: programming, Java, formatting, code style, EditorConfig, IntelliJ IDEA
+Modified: 2019-12-28 18:29:29
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

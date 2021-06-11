@@ -5,6 +5,7 @@ Slug: Spark-issue:-Pure-Python-code-errors
 Title: Spark Issue: Pure Python Code Errors
 Category: Computer Science
 Tags: Computer Science, programming, Spark, issue, big data, Spark issue, Python, error, exception
+Modified: 2021-03-22 10:18:22
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

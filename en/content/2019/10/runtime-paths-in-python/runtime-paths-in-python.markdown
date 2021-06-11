@@ -5,6 +5,7 @@ Slug: runtime-paths-in-python
 Title: Runtime Paths in Python
 Category: Computer Science
 Tags: programming, Python, runtime paths
+Modified: 2019-10-18 10:20:43
 
 
 `__file__` is the path of the Python script.

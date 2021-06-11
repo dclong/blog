@@ -5,6 +5,7 @@ Slug: static-site-generators
 Title: Static Site Generators
 Category: Computer Science
 Tags: Computer Science, static site genertor, blog, blogging, gatsby, docusaurus, Pelican, ABlog, docusaurus, docsify, Sphinx, mkdocs, pandoc
+Modified: 2021-05-01 12:19:14
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

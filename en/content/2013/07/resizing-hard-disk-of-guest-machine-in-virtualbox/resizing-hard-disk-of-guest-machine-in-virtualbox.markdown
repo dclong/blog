@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Title: Resizing Hard Disk of Guest Machine in Virtualbox
 Category: Software
 Tags: partition, gparted, virtualbox, software, vmdk, resize, resizing
+Modified: 2015-02-20 10:57:11
 
 Suppose you have virtual hard disk in VirtualBox called `xp.vdi`, 
 you can resize it (megabytes) using the following command.

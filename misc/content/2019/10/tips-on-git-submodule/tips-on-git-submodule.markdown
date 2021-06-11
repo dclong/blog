@@ -5,6 +5,7 @@ Slug: tips-on-git-submodule
 Title: Tips on Git Submodule
 Category: Software
 Tags: Software, Git, submodule
+Modified: 2020-11-28 21:59:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: tips-on-network-protocols
 Title: Tips on Network Protocols
 Category: Computer Science
 Tags: Computer Science, network, internet, web, protocol, transfer, HTTP, FTP, TCP, IP, UDP, SMTP
+Modified: 2020-10-17 01:00:06
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Slug: data-types-in-teradata-sql
 Title: Data Types in Teradata SQL
 Category: Computer Science
 Tags: programming, Teradata SQL, data type, cast, date
+Modified: 2016-10-23 13:01:10
 
 **
 Things under legendu.net/outdated are outdated technologies 

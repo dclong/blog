@@ -5,6 +5,7 @@ Slug: jupyter-notebook-support-in-bitbucket
 Title: Jupyter Notebook Support in Bitbucket
 Category: Software
 Tags: programming, Bitbucket, Jupyter Notebook, JupyterLab, software, GitHub
+Modified: 2020-04-08 12:00:14
 
 GitHub has built-in support for Jupyter Notebooks. 
 Bitbucket supports Jupyter Notebooks via a fileview addon. 

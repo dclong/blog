@@ -6,6 +6,7 @@ Slug: calculating-quantiles-in-sas
 Title: Calculating Quantiles in SAS
 Category: Computer Science
 Tags: programming, SAS, quantile
+Modified: 2015-03-13 16:49:45
 
 **
 Things under legendu.net/outdated are outdated technologies 

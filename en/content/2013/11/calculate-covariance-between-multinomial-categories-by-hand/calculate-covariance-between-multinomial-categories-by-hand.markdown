@@ -5,6 +5,7 @@ Date: 2013-11-17 15:14:27
 Slug: calculate-covariance-between-multinomial-categories-by-hand
 Category: Fun Problems
 Tags: fun problem, statistics, probability, multinomial, covariance
+Modified: 2013-11-17 15:14:27
 
 Let $(X_1, \ldots, X_k)\sim\text{Multinomial}(n, p_1, \ldots, p_k)$. 
 I'll show how to calculate $Cov(X_i, X_j), i\ne j$. 

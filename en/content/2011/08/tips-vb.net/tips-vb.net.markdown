@@ -6,6 +6,7 @@ Tags: tips, VB/VB.net, programming, string
 Category: Computer Science
 Slug: tips-vb.net
 Author: Ben Chuanlong Du
+Modified: 2011-08-31 00:00:00
 
 ## About String Functions
 

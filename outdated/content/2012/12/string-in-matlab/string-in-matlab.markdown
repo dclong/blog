@@ -6,6 +6,7 @@ Author: Ben Chuanlong Du
 Category: Computer Science
 Title: String in MATLAB
 Tags: string, programming, MATLAB
+Modified: 2015-02-20 10:40:42
 
 
 1. To display special characters (e.g. `\n`, `\t` and so on),

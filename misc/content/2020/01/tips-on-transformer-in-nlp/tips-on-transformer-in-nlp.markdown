@@ -5,6 +5,7 @@ Slug: tips-on-transformer-in-nlp
 Title: Tips on Transformer in NLP
 Category: AI
 Tags: AI, data science, machine learning, NLP
+Modified: 2020-01-13 14:17:48
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

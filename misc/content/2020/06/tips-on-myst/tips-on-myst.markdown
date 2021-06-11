@@ -5,6 +5,7 @@ Slug: tips-on-myst
 Title: Markedly Structured Text
 Category: Computer Science
 Tags: Computer Science, MyST, Markedly Structured Text, markup
+Modified: 2020-06-14 18:47:56
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

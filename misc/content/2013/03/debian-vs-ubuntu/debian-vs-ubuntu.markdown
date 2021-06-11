@@ -6,6 +6,7 @@ Tags: antiX, Linux Mint, Ubuntu, Linux, Debian
 Category: OS
 Slug: debian-vs-ubuntu
 Author: Ben Chuanlong Du
+Modified: 2014-09-18 19:08:42
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

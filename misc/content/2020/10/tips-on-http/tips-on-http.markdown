@@ -5,6 +5,7 @@ Slug: tips-on-http
 Title: Tips on HTTP
 Category: Computer Science
 Tags: Computer Science, HTTP, web, internet, network, HTTPS
+Modified: 2020-10-17 11:58:34
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -6,6 +6,7 @@ Tags: function, programming, MATLAB
 Category: Computer Science
 Slug: special-functions-in-MATLAB
 Author: Ben Chuanlong Du
+Modified: 2012-12-04 00:00:00
 
 
 1. `sin` calculates sine of arguments in radian 

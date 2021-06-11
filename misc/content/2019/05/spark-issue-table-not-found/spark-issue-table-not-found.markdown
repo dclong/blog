@@ -5,6 +5,7 @@ Slug: spark-issue-table-not-found
 Title: Spark Issue: Table Not Found
 Category: Computer Science
 Tags: programming, Spark, issue, big data, error, Spark issue, hive-site.xml
+Modified: 2021-03-24 15:06:53
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

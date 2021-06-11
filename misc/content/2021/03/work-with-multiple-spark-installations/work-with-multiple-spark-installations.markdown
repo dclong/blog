@@ -5,6 +5,7 @@ Slug: work-with-multiple-spark-installations
 Title: Work With Multiple Spark Installations
 Category: Computer Science
 Tags: Computer Science, programming, Spark, big data, multiple, installation
+Modified: 2021-03-30 16:28:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

@@ -5,6 +5,7 @@ Slug: physical-world-modeling-and-computer-vision
 Title: Physical World Modeling and Computer Vision
 Category: Computer Science
 Tags: Computer Science, computer vision, CV, physics, modeling
+Modified: 2020-04-29 23:11:37
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

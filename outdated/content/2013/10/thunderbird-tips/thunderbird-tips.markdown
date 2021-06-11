@@ -6,6 +6,7 @@ Slug: thunderbird-tips
 Title: Random Tips About Thunderbird
 Category: Software
 Tags: tips, software, thunderbird, email client
+Modified: 2017-03-04 14:29:35
 
 **
 Things under legendu.net/outdated are outdated technologies 

@@ -6,6 +6,7 @@ Slug: pass-array-r-other-language
 Title: Compare R with Other Languages on Data Manipulation
 Category: Computer Science
 Tags: Python, C++, programming, statistics, Java, string, data frame, R, OOP, MATLAB, CRAN
+Modified: 2015-01-13 13:14:35
 
 <img src="http://dclong.github.io/media/r/r.png" height="200" width="240" align="right"/>
 Here I compare R with other languages such as C/C++, Java, MATLAB, Python and so

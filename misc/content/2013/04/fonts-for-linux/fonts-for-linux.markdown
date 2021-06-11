@@ -6,6 +6,7 @@ Slug: fonts-for-linux
 Author: Ben Chuanlong Du
 Category: OS
 Tags: fonts, LaTeX, Chinese, Linux, Tex Live, TexLive
+Modified: 2016-07-13 00:07:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 

@@ -5,6 +5,7 @@ Slug: mirroring-screen-from-iphone-or-ipad-to-macbook
 Title: Mirroring Screen from iPhone or iPad to Macbook
 Category: OS
 Tags: OS, macOS, Apple, MacBook, iPhone, iPad, screen, mirror
+Modified: 2020-02-10 10:10:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.

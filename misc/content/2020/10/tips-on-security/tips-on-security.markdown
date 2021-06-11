@@ -5,6 +5,7 @@ Slug: tips-on-security
 Title: Tips on Security
 Category: Computer Science
 Tags: Computer Science, security, NVD
+Modified: 2020-10-15 18:30:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
