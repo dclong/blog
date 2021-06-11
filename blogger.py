@@ -298,7 +298,7 @@ class Post:
     def update_meta_field(self, mapping: dict[str, str]) -> None:
         if self.is_markdown():
             lines, index = self._read_lines_markdown()
-            self._update_meta_field_lines(lines[:index], mapping)
+            self._update_meta_field_lines(lines, mapping, index=index)
             with self.path.open("w") as fout:
                 fout.writelines(lines)
             return
@@ -308,9 +308,12 @@ class Post:
         self._write_notebook(notebook)
 
     @staticmethod
-    def _update_meta_field_lines(lines: List[str], mapping: dict[str, str]) -> None:
+    def _update_meta_field_lines(lines: List[str], mapping: dict[str, str], index=None) -> None:
+        if index is None:
+            index = len(lines)
         for field, value in mapping.items():
-            for idx, line in enumerate(lines):
+            for idx in range(index):
+                line = lines[idx]
                 if line.startswith(f"{field}:"):
                     lines[idx] = f"{field}: {value}\n"
                     break
