@@ -1,12 +1,11 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
-Date: 2015-02-29 14:57:59
+Date: 2015-02-28 14:57:59
 Author: Ben Chuanlong Du
 Slug: password-management
 Title: Password Management
 Category: Software
 Tags: software, password management, KeePassXC, MiniKeePass, KeePassDroid
-Modified: 2018-04-29 14:57:59
+Modified: 2021-06-14 08:55:19
 
 **
 Things on this page are
