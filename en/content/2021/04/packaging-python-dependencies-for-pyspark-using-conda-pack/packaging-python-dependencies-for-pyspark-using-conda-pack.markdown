@@ -5,7 +5,7 @@ Slug: packaging-python-dependencies-for-pyspark-using-conda-pack
 Title: Packaging Python Dependencies for PySpark Using Conda-Pack
 Category: Computer Science
 Tags: programming, PySpark, Python, conda, conda-pack, dependency, Spark, big data, portable
-Modified: 2021-03-30 12:13:17
+Modified: 2021-06-15 09:16:05
 ## Build Portable Python Environments Using conda-pack
 
 Please refer to the GitHub repo
@@ -17,8 +17,8 @@ to build portable conda environments.
 
 ## Submit a PySpark Application Using conda Environment
 
-Below is my shell script for sumitting a PySpark job 
-using a conda-pack Python environment named `env.tar.gz`.
+Below is an example shell script for sumitting a PySpark job 
+using a pre-built conda-pack Python environment named `env.tar.gz`.
 
     :::bash
     /apache/spark2.3/bin/spark-submit \
