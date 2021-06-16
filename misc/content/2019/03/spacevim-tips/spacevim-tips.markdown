@@ -5,7 +5,7 @@ Slug: spacevim-tips
 Title: SpaceVim - A Modern Vim Distribution
 Category: Software
 Tags: software, SpaceVim, Vim, tips
-Modified: 2020-05-03 20:02:57
+Modified: 2021-06-16 14:41:59
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -149,6 +149,18 @@ https://spacevim.org/layers/language-server-protocol/
 I'm not sure whether this layer is really helpful 
 given that you always uses the LSP layer.
 
+## Additional Useful Plugins
+
+```
+[[custom_plugins]]
+name = "vim-scripts/dbext.vim"
+merged = 0
+
+[[custom_plugins]]
+repo = "machakann/vim-swap"
+merged = false
+```
+
 ## References
 
-https://spacevim.org/documentation/
+- [SpaceVim Documentation](https://spacevim.org/documentation/)
