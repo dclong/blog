@@ -5,7 +5,7 @@ Slug: tips-on-rust-kernel-via-evcxr-for-jupyterlab
 Title: Tips on Rust Kernel Via Evcxr for JupyterLab
 Category: Computer Science
 Tags: Computer Science, Rust, kernel, Jupyter, JupyterLab, evcxr, dep, dependency
-Modified: 2021-06-15 17:19:27
+Modified: 2021-06-16 09:11:55
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -25,6 +25,7 @@ contains a valid Rust kernel for Jupyter/Lab notebooks.
 
     :dep serde = { version = "1.0", features = ["derive"] }
 Or
+
     :dep serde_json = "1.0"
 
 
