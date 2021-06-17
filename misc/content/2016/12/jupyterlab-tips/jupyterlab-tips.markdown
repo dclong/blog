@@ -5,7 +5,7 @@ Slug: jupyterlab-tips
 Title: Tips on JupyterLab
 Category: Software
 Tags: software, JupyterLab, Jupyter, tips
-Modified: 2021-05-10 10:12:31
+Modified: 2021-06-17 08:57:55
 
 **
 Things on this page are
@@ -112,7 +112,6 @@ http://arogozhnikov.github.io/2016/09/10/jupyter-features.html
 [Jupyter Notebook Enhancements, Tips And Tricks](https://forums.fast.ai/t/jupyter-notebook-enhancements-tips-and-tricks/17064)
 
 
-- https://toree.incubator.apache.org/documentation/user/quick-start
 - https://datascience.berkeley.edu/10-data-science-newsletters-subscribe/ 
 - https://github.com/jupyter-incubator/declarativewidgets
 - https://github.com/jupyter-incubator/dashboards

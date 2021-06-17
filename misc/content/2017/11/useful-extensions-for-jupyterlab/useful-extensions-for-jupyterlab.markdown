@@ -5,7 +5,7 @@ Slug: useful-tools-extensions-for-jupyterlab
 Title: Useful Tools and Extensions for JupyterLab
 Category: Software
 Tags: software, JupyterLab, extension, plugin, JupyterHub, nbdime
-Modified: 2021-05-24 10:55:57
+Modified: 2021-06-17 08:57:55
 
 **
 Things on this page are
@@ -43,15 +43,13 @@ Disable an installed Jupyter/Lab extension.
 1. makes notebook run slow
 2. why do you want such a tool if you can check any vairable in notebook already?
 
-### jupyterlab-lsp 
-
-1. slow and might crash on pandas DataFrame
-
 ### [jupyterLab/debugger](https://github.com/jupyterlab/debugger)
 
 Need the [xeus-python](https://github.com/jupyter-xeus/xeus-python) kernel to work.
 
 ## Useful Tools
+
+### jupyterlab-lsp 
 
 ### [nbdime](http://www.legendu.net/misc/blog/use-nbdime-to-diff-and-merge-jupyterlab-notebooks/)
 
