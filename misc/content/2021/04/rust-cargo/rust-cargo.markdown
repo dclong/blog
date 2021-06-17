@@ -5,7 +5,7 @@ Slug: tips-on-cargo
 Title: Tips on Cargo
 Category: Computer Science
 Tags: Computer Science, programming, Rust, cargo, format, fmt, rustfmt
-Modified: 2021-04-28 16:21:14
+Modified: 2021-06-16 18:07:04
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -36,6 +36,12 @@ either src/lib.rs, src/main.rs, a [lib] section, or [[bin]] section must be pres
 
 ## Run 
     cargo run
+
+## Run Test
+
+    cargo test
+    cargo test name_of_test_fun
+    cargo test test_mod::inner_mod::name_of_test_fun
 
 ## Extensions to Cargo
 
