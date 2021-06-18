@@ -5,7 +5,7 @@ Slug: spacevim-tips
 Title: SpaceVim - A Modern Vim Distribution
 Category: Software
 Tags: software, SpaceVim, Vim, tips
-Modified: 2021-06-16 14:41:59
+Modified: 2021-06-18 10:28:17
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -154,7 +154,7 @@ given that you always uses the LSP layer.
 ```
 [[custom_plugins]]
 name = "vim-scripts/dbext.vim"
-merged = 0
+merged = false
 
 [[custom_plugins]]
 repo = "machakann/vim-swap"
