@@ -5,7 +5,7 @@ Slug: tips-on-etrade
 Title: Tips on eTrade
 Category: Finance
 Tags: finance, money, eTrade, stock
-Modified: 2021-03-18 17:09:47
+Modified: 2021-06-18 11:15:49
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -30,6 +30,19 @@ Please read with your own judgement!
   You can submit a Registration Change form to update your account to a Complete Investment Account. 
 
 ## Tax
+
+### ESPP
+
+Please refer to the section "US tax considerations" on the page 
+[Understanding employee stock purchase plans](https://us.etrade.com/knowledge/library/stock-plans/employee-stock-purchase-plan)
+for details.
+In short, 
+you want to have qualifying dispositions which requires:
+
+- The disposition occurs more than two years after the grant date, and
+- The disposition occurs more than one year after the purchase date
+
+### RSU
 
 1. The way to cover tax for RSU can be updated at https://us.etrade.com/etx/sp/stockplan/#/myAccount/planElections/stockElections.
     You might not be able to update it for 2 reasons.
