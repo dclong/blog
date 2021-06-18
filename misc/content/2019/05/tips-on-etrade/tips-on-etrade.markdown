@@ -5,7 +5,7 @@ Slug: tips-on-etrade
 Title: Tips on eTrade
 Category: Finance
 Tags: finance, money, eTrade, stock
-Modified: 2021-06-18 11:15:49
+Modified: 2021-06-18 11:17:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -80,3 +80,7 @@ https://content.etrade.com/etrade/optionslink/sartax.pdf
 ## Questions
 
 1. Can I withhold tax when I sell RSU shares and pay in the next tax season?
+
+## References 
+
+- [Stock Plans](https://us.etrade.com/knowledge/library/stock-plans)
