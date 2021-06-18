@@ -1,0 +1,11 @@
+/workdir/archives/blog/misc/content/2021/06/rust-crate-log/test_log/target/debug/deps/libthiserror_impl-601002f85a780fbf.so: /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/lib.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/ast.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/attr.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/expand.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/fmt.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/prop.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/valid.rs
+
+/workdir/archives/blog/misc/content/2021/06/rust-crate-log/test_log/target/debug/deps/thiserror_impl-601002f85a780fbf.d: /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/lib.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/ast.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/attr.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/expand.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/fmt.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/prop.rs /home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/valid.rs
+
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/lib.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/ast.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/attr.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/expand.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/fmt.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/prop.rs:
+/home/dclong/.cargo/registry/src/github.com-1ecc6299db9ec823/thiserror-impl-1.0.25/src/valid.rs:

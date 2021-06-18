@@ -5,7 +5,7 @@ Title: Tips on GPU Computing
 Slug: gpu-tips
 Category: Computer Science
 Tags: tips, GPU, programming, Nvidia
-Modified: 2021-05-12 11:19:32
+Modified: 2021-06-18 00:21:51
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -49,24 +49,12 @@ You can list GPU devices using the following command on linux.
 
 ## Low-level Libraries for General Purpose GPU Computing
 
-1. CUDA and OpenCL are the 2 frameworks for GPU computing.
+1. CUDA and Vulkan (successor to OpenCL) are the 2 most popular frameworks for GPU computing.
     CUDA is commerical and for Nvidia GPUs only 
-    while OpenCL is opensource and support more GPUs.
+    while Vulkan is opensource and support more brand of GPUs.
     Generally speaking, 
-    CUDA has slight better performance than OpenCL on Nvidia GPUs.
+    CUDA has slight better performance than Vulkan on Nvidia GPUs.
     It is suggested that you go with CUDA if you want to squeeze the most out of performance.
-
-### C++ 
-
-- [Thrust](https://developer.nvidia.com/thrust)
-
-    Thrust is a parallel algorithms library which resembles the C++ Standard Template Library (STL). 
-    Thrust is high-level interface greatly enhances programmer productivity 
-    while enabling performance portability between GPUs and multicore CPUs. 
-    Interoperability with established technologies (such as CUDA, TBB, and OpenMP) facilitates integration with existing software. 
-
-- [ArrayFire](https://github.com/arrayfire/arrayfire)
-
 
 ### Rust
 
@@ -76,21 +64,34 @@ You can list GPU devices using the following command on linux.
 
     Rusty wrapper for the CUDA Driver API.
 
+- [ash](https://github.com/MaikKlein/ash/)
+[ash](https://github.com/MaikKlein/ash/)
+is a very lightweight wrapper around Vulkan.
+
+- [wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
+[wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
+
+- [vulkano](https://github.com/vulkano-rs/vulkano)
+[Vulkano](https://github.com/vulkano-rs/vulkano)
+is a Rust wrapper around the Vulkan graphics API. 
+It follows the Rust philosophy, 
+which is that as long as you don't use unsafe code you shouldn't be able to trigger any undefined behavior. 
+In the case of Vulkan, this means that non-unsafe code should always conform to valid API usage.
+[Vulkano](https://github.com/vulkano-rs/vulkano)
+is not as mature as
+[ash](https://github.com/MaikKlein/ash/)
+.
+
 - [accel](https://github.com/rust-accel/accel)
 
 - [emu](https://github.com/calebwin/emu)
 
     Emu is a framework for developing safe, robust GPU-accelerated applications in Rust. 
 
-- [ocl](https://github.com/cogciprocate/ocl)
-
-    OpenCL for Rust.
-
 https://github.com/zakarumych/gpu-alloc
 
 https://github.com/zakarumych/gpu-descriptor
 Backend agnostic descriptor allocator for Vulkan-like APIs
-
 
 - [gfx-rs](https://github.com/gfx-rs/gfx)
 [gfx-rs](https://github.com/gfx-rs/gfx)
@@ -99,9 +100,6 @@ is a low-level, cross-platform graphics and compute abstraction library in Rust.
 is hard to use. 
 It's recommended for performance-sensitive libraries and engines. 
 wgpu-rs is a safe and simple alternative.
-
-- [wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
-[wgpu-rs](https://github.com/gfx-rs/wgpu-rs)
 
 ### GPU Computing in Python
 
@@ -134,6 +132,18 @@ Blazing fast, mobile-enabled, asynchronous and optimized for advanced GPU data p
 https://gabdube.github.io/python/vulkan/2019/01/10/python-and-vulkan-01.html
 
 [Beyond CUDA: GPU Accelerated Python for Machine Learning on Cross-Vendor Graphics Cards Made Simple](https://towardsdatascience.com/beyond-cuda-gpu-accelerated-python-for-machine-learning-in-cross-vendor-graphics-cards-made-simple-6cc828a45cc3)
+
+
+### C++ 
+
+- [Thrust](https://developer.nvidia.com/thrust)
+
+    Thrust is a parallel algorithms library which resembles the C++ Standard Template Library (STL). 
+    Thrust is high-level interface greatly enhances programmer productivity 
+    while enabling performance portability between GPUs and multicore CPUs. 
+    Interoperability with established technologies (such as CUDA, TBB, and OpenMP) facilitates integration with existing software. 
+
+- [ArrayFire](https://github.com/arrayfire/arrayfire)
 
 
 
@@ -173,26 +183,31 @@ https://www.laptopmag.com/articles/best-egpus
 
 ## References
 
-[Nvidia CUDA Linux Repositories](https://developer.download.nvidia.com/compute/cuda/repos/)
+- [Comparative performance analysis ofVulkan and CUDA programming modelimplementations for GPUs](https://core.ac.uk/reader/323473500)
 
-https://bheisler.github.io/post/state-of-gpgpu-in-rust/
+- [Nvidia CUDA Linux Repositories](https://developer.download.nvidia.com/compute/cuda/repos/)
 
-https://towardsdatascience.com/python-performance-and-gpus-1be860ffd58d
+- [A Comparison of Modern Graphics APIs](https://alain.xyz/blog/comparison-of-modern-graphics-apis) 
 
-https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051
+- https://bheisler.github.io/post/state-of-gpgpu-in-rust/
 
-https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1
+- https://towardsdatascience.com/python-performance-and-gpus-1be860ffd58d
 
-https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748
+- https://towardsdatascience.com/speed-up-your-algorithms-part-1-pytorch-56d8a4ae7051
 
-https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef
+- https://towardsdatascience.com/speed-up-your-algorithms-part-2-numba-293e554c5cc1
 
-https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/1)%20PyTorch.ipynb
+- https://towardsdatascience.com/speed-up-your-algorithms-part-3-parallelization-4d95c0888748
 
-https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/2)%20Numba.ipynb
+- https://towardsdatascience.com/speeding-up-your-algorithms-part-4-dask-7c6ed79994ef
 
-https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/3)%20Prallelization.ipynb
+- https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/1)%20PyTorch.ipynb
 
-https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/4)%20Dask.ipynb
+- https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/2)%20Numba.ipynb
 
-https://github.com/harrism/numba_examples/blob/master/mandelbrot_numba.ipynb
+- https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/3)%20Prallelization.ipynb
+
+- https://github.com/PuneetGrov3r/MediumPosts/blob/master/SpeedUpYourAlgorithms/4)%20Dask.ipynb
+
+- https://github.com/harrism/numba_examples/blob/master/mandelbrot_numba.ipynb
+

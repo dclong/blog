@@ -1,6 +1,6 @@
 Status: published
 Date: 2019-04-10 12:17:46
-Modified: 2021-06-11 10:09:21
+Modified: 2021-06-18 00:25:19
 Author: Benjamin Du
 Slug: rust-tips
 Title: Tips on Rust
@@ -127,13 +127,21 @@ https://github.com/valeriansaliou/sonic
 
 [Rust on YouTube](https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA)
 
-[The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
-
 [Rust Crash Course | Rustlang](https://www.youtube.com/watch?v=zF34dRivLOw)
 
 https://github.com/rust-unofficial/awesome-rust
 
 ## References
+
+- [Rust Reference](https://doc.rust-lang.org/stable/reference/)
+
+- [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)
+
+- [The Rustonomicon : The Dark Arts of Unsafe Rust](https://doc.rust-lang.org/nomicon/)
+
+- [Are we async yet?](https://areweasyncyet.rs/)
+
+- [The Rust Standard Library](https://doc.rust-lang.org/stable/std/)
 
 - [Rust Blog](https://blog.rust-lang.org/)
 
@@ -144,10 +152,6 @@ https://github.com/rust-unofficial/awesome-rust
 - https://internals.rust-lang.org/
 
 - https://play.rust-lang.org/
-
-- https://docs.rs/
-
-- [The Rust Standard Library](https://doc.rust-lang.org/stable/std/)
 
 - [Are We Web Yet](http://www.arewewebyet.org/)
 
