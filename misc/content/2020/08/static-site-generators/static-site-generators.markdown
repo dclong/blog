@@ -5,7 +5,7 @@ Slug: static-site-generators
 Title: Static Site Generators
 Category: Computer Science
 Tags: Computer Science, static site genertor, blog, blogging, gatsby, docusaurus, Pelican, ABlog, docusaurus, docsify, Sphinx, mkdocs, pandoc
-Modified: 2021-05-01 12:19:14
+Modified: 2021-06-21 10:26:46
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -38,6 +38,8 @@ Hugo is designed to work well for any kind of website including blogs, tumbles, 
 ### [ABlog](https://github.com/sunpy/ablog)
 [ABlog](https://github.com/sunpy/ablog)
 is for blogging with Sphinx.
+[A new blog with Sphinx](https://predictablynoisy.com/posts/2020/sphinx-blogging/)
+is a good example of using ABlog + Sphinx.
 
 ## Documentation Generator 
 
@@ -82,3 +84,6 @@ as the underlying markdown/notebook parser.
 ## Copy the Content of Code Block 
 
 https://tiborsimon.io/articles/tools/code-copy/
+
+## References
+- [A new blog with Sphinx](https://predictablynoisy.com/posts/2020/sphinx-blogging/)
