@@ -5,7 +5,7 @@ Slug: use-tauri-to-build-a-desktop-application
 Title: Use Tauri to Build a Desktop Application
 Category: Computer Science
 Tags: Computer Science, programming, Tauri, Rust, JavaScript, JS, GUI, desktop, webview, web
-Modified: 2021-05-03 21:42:15
+Modified: 2021-06-21 23:25:27
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -23,6 +23,8 @@ with an API that the front-end can interact with.
 Please refer to 
 [Rust GUI: Introduction, a.k.a. the state of Rust GUI libraries (As of January 2021)](https://dev.to/davidedelpapa/rust-gui-introduction-a-k-a-the-state-of-rust-gui-libraries-as-of-january-2021-40gl#tauri)
 for an example.
+
+[Creating Tiny Desktop Apps With Tauri And Vue.js](https://www.smashingmagazine.com/2020/07/tiny-desktop-apps-tauri-vuejs/)
 
 [Examples Projects Using Tauri](https://github.com/tauri-apps/tauri/tree/dev/examples)
 
