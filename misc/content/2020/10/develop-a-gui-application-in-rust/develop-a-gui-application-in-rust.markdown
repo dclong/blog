@@ -5,7 +5,7 @@ Slug: develop-a-gui-application-in-rust
 Title: Develop a GUI Application in Rust
 Category: Computer Science
 Tags: Computer Science, Rust, GUI
-Modified: 2021-05-03 21:36:53
+Modified: 2021-06-23 08:50:23
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -23,10 +23,20 @@ Please refer to
 [tauri](http://www.legendu.net/misc/blog/use-tauri-to-build-a-desktop-application)
 for more discussions.
 
-## [gtk-rs](https://github.com/gtk-rs/gtk-rs)
+## [fltk-rs](https://github.com/fltk-rs/fltk-rs)
+[fltk-rs](https://github.com/fltk-rs/fltk-rs)
+is a rust binding for the FLTK Graphical User Interface library.
+The 
+[fltk-rs](https://github.com/fltk-rs/fltk-rs)
+crate is a crossplatform lightweight gui library 
+which can be statically linked to produce small, 
+self-contained and fast gui applications.
 
 ## [iced](https://github.com/hecrj/iced)
 A cross-platform GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.
+
+## [gtk-rs](https://github.com/gtk-rs/gtk-rs)
+Works well on Linux but not as well on macOS and Windows.
 
 ## [druid](https://github.com/linebender/druid)
 Druid is an experimental Rust-native UI toolkit. 
@@ -68,3 +78,9 @@ is a Rust bindings for Dear ImGui.
 - https://github.com/webview/webview_rust
 
 - https://github.com/webview/webview
+
+- [Best way to create a front end (in any language) that calls a Rust library?](https://users.rust-lang.org/t/best-way-to-create-a-front-end-in-any-language-that-calls-a-rust-library/38008)
+
+- [Tauri + Svelte = cross-platform native GUI apps compiled to WASM](https://forum.safedev.org/t/tauri-svelte-cross-platform-native-gui-apps-compiled-to-wasm/2870)
+
+- [Is There a Demand for UI Framework?](https://users.rust-lang.org/t/is-there-a-demand-for-ui-framework/47689)

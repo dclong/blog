@@ -5,7 +5,7 @@ Slug: tools-for-packaging-python-executables
 Title: Tools for Packaging Python Executables
 Category: Computer Science
 Tags: Computer Science, Python, executable, PEX, conda-pack, PyInstaller, XAR, python-build-standalone, Nuitka, briefcase, standalone
-Modified: 2021-03-26 09:45:02
+Modified: 2021-06-23 09:04:05
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
@@ -14,6 +14,8 @@ Please read with your own judgement!
 
 
 ## With a Python Interpreter
+
+### [zipapp — Manage executable Python zip archives¶](https://docs.python.org/3/library/zipapp.html)
 
 ### [python-build-standalone](https://github.com/indygreg/python-build-standalone)
 

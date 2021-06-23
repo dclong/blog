@@ -5,7 +5,7 @@ Title: Typing Automatically Using AutoHotkey
 Slug: AutoHotkey-tips
 Category: Software
 Tags: tips, software, AutoHotkey, automation
-Modified: 2020-05-22 13:34:48
+Modified: 2021-06-23 09:05:17
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -118,7 +118,7 @@ Please read with your own judgement!
 2. `IfWinActive`/`IfWinNotActive`
 
 
-## References
+## Questions
 
 1. How to reuse path? 
     and is it possible to use windows environment variables in AutoHotkey scripts?
@@ -130,3 +130,7 @@ Please read with your own judgement!
 
 3. is it possible to let AutoHotkey popup a list of values to choose from like AutoKey does?
     This makes things more convenient many times ...
+
+## References
+
+- [AutoHotkey @ GitHub](https://github.com/Lexikos/AutoHotkey_L)

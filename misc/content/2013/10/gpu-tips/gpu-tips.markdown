@@ -5,7 +5,7 @@ Title: Tips on GPU Computing
 Slug: gpu-tips
 Category: Computer Science
 Tags: tips, GPU, programming, Nvidia
-Modified: 2021-06-18 00:21:51
+Modified: 2021-06-22 23:41:00
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -100,6 +100,11 @@ is a low-level, cross-platform graphics and compute abstraction library in Rust.
 is hard to use. 
 It's recommended for performance-sensitive libraries and engines. 
 wgpu-rs is a safe and simple alternative.
+
+## [pathfinder](https://github.com/servo/pathfinder)
+[pathfinder](https://github.com/servo/pathfinder)
+is a fast, practical, GPU-based rasterizer for fonts and vector graphics 
+using OpenGL 3.0+, OpenGL ES 3.0+, WebGL 2, and Metal.
 
 ### GPU Computing in Python
 
