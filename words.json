@@ -20,7 +20,7 @@
     ["Lxd", "LXD"], 
     ["Nlp", "NLP"], ["Npm", "npm"], ["Nfs", "NFS"], 
     ["Kde", "KDE"], ["Pdf", "PDF"], ["Pex", "pex"],
-    ["Ppt", "PPT"], ["Rdd", "RDD"], 
+    ["Ppt", "PPT"], ["Rdd", "RDD"], ["Rpc", "RPC"], 
     ["Sas", "SAS"], ["Sbt", "sbt"], ["Sed", "sed"], ["Sql", "SQL"], ["Ssd", "SSD"], ["Ssh", "SSH"], ["Ssl", "SSL"],
     ["Tpu", "TPU"], ["Tvm", "TVM"],
     ["Url", "URL"],

@@ -1,9 +1,9 @@
 Status: published
 Date: 2021-06-20 12:01:24
-Modified: 2021-06-22 09:04:21
+Modified: 2021-06-23 11:14:17
 Author: Benjamin Du
 Slug: rpc-implementation-in-rust
-Title: Rpc Implementation in Rust
+Title: RPC Implementation in Rust
 Category: Computer Science
 Tags: Computer Science, programming, Rust, RPC, gRPC, tonic
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
