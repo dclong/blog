@@ -5,7 +5,7 @@ Title: Extracting PDF pages using the Python Package PyPDF2
 Slug: python-pdf-pypdf2
 Category: Computer Science
 Tags: programming, Python, PyPDF2, PyPDF, example, PDF, extract pages
-Modified: 2020-01-07 10:00:53
+Modified: 2021-07-15 14:50:31
 
 
 The Python package PyPDF2 can be used to extract pages from a PDF file.
@@ -57,4 +57,6 @@ The above functions are included in
 
 ## References
 
-https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
+- [Editing PDF Files](http://www.legendu.net/misc/blog/editing-PDF-files)
+
+- https://stackoverflow.com/questions/490195/split-a-multi-page-pdf-file-into-multiple-pdf-files-with-python
