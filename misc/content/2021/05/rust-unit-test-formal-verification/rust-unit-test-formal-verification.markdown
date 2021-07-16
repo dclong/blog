@@ -5,8 +5,19 @@ Slug: unit-testing-formal-verification-rust
 Title: Unit Testing and Formal Verification in Rust
 Category: Computer Science
 Tags: Computer Science, programming, Rust, testing, unit test, verification, analysis, formal verification
-Modified: 2021-05-13 09:33:19
+Modified: 2021-07-15 23:29:02
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+
+assert!
+assert_eq!
+[matches!](https://doc.rust-lang.org/core/macro.matches.html)
+
+assert_eq!(Rank::from_char('2').unwrap(), Rank::_2);
+let err = Rank::from_char('z').unwrap_err().downcast().unwrap();
+assert_eq!(err, RankError::NotARank('z')));
+assert!(matches!(Rank::from_char('Z'), Err(_))
+
 
 [Rust Design-for-Testability: a survey](https://alastairreid.github.io/rust-testability/)
 
@@ -26,9 +37,10 @@ Modified: 2021-05-13 09:33:19
 
 ## References 
 
-https://www.youtube.com/watch?v=C9TTioH5JUg
-Prusti – Deductive Verification for Rust
+- [Issues in asserting Result](https://users.rust-lang.org/t/issues-in-asserting-result/61198/6)
 
-[A static verifier for Rust, based on the Viper verification infrastructure.](https://github.com/viperproject/prusti-dev)
+- [Prusti – Deductive Verification for Rust](https://www.youtube.com/watch?v=C9TTioH5JUg)
 
-[Verification Competitions](https://alastairreid.github.io/verification-competitions/)
+- [A static verifier for Rust, based on the Viper verification infrastructure.](https://github.com/viperproject/prusti-dev)
+
+- [Verification Competitions](https://alastairreid.github.io/verification-competitions/)
