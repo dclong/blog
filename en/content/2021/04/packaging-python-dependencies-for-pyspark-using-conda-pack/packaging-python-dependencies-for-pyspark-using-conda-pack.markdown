@@ -5,7 +5,17 @@ Slug: packaging-python-dependencies-for-pyspark-using-conda-pack
 Title: Packaging Python Dependencies for PySpark Using Conda-Pack
 Category: Computer Science
 Tags: programming, PySpark, Python, conda, conda-pack, dependency, Spark, big data, portable
-Modified: 2021-06-15 09:16:05
+Modified: 2021-07-18 22:12:43
+
+
+[python-build-standalone](https://github.com/indygreg/python-build-standalone)
+is a better alternative to conda-pack on managing Python dependencies for PySpark.
+Please refer to 
+[Packaging Python Dependencies for PySpark Using python-build-standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
+for tutorials on how to use
+[python-build-standalone](https://github.com/indygreg/python-build-standalone)
+to manage Python dependencies for PySpark.
+
 ## Build Portable Python Environments Using conda-pack
 
 Please refer to the GitHub repo
@@ -55,8 +65,10 @@ And below is a simple example of `_pyspark.py`.
 
 ## References
 
-[Usage with Apache Spark on YARN](https://conda.github.io/conda-pack/spark.html)
+- [Packaging Python Dependencies for PySpark Using Python-Build-Standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
 
-https://jcrist.github.io/skein/
+- [Packaging Python Dependencies for PySpark Using Pex](http://www.legendu.net/misc/blog/packaging-python-dependencies-for-pyspark-using-pex)
 
-https://github.com/jcrist/skein/
+- [Usage with Apache Spark on YARN](https://conda.github.io/conda-pack/spark.html)
+
+- https://github.com/jcrist/skein/

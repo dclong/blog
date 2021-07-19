@@ -5,13 +5,20 @@ Slug: packaging-python-dependencies-for-pyspark-using-pex
 Title: Packaging Python Dependencies for PySpark Using Pex
 Category: Computer Science
 Tags: programming, PySpark, Python, dependency, packaging, pex
-Modified: 2020-06-07 14:44:03
+Modified: 2021-07-18 22:12:43
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author.
 Please read with your own judgement!
 **
 
+[python-build-standalone](https://github.com/indygreg/python-build-standalone)
+is a better alternative to conda-pack on managing Python dependencies for PySpark.
+Please refer to 
+[Packaging Python Dependencies for PySpark Using python-build-standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
+for tutorials on how to use
+[python-build-standalone](https://github.com/indygreg/python-build-standalone)
+to manage Python dependencies for PySpark.
 
 ## General Tips on Using pex with PySpark
 
@@ -141,10 +148,16 @@ please refer to
 
 ## References
 
-https://github.com/pantsbuild/pex
+- [Packaging Python Dependencies for PySpark Using Python-Build-Standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone)
 
-https://medium.com/criteo-labs/packaging-code-with-pex-a-pyspark-example-9057f9f144f3
+- [Packaging Python Dependencies for PySpark Using Conda-Pack](http://www.legendu.net/en/blog/packaging-python-dependencies-for-pyspark-using-conda-pack)
 
-[Run pyspark scripts with python3 instead of pyspark](https://hang-hu.github.io/spark/2018/10/31/Run-pyspark-scripts-with-python3-instead-of-pyspark.html)
+- https://github.com/jcrist/skein/
 
-https://github.com/pantsbuild/pex/issues/746
+- https://github.com/pantsbuild/pex
+
+- https://medium.com/criteo-labs/packaging-code-with-pex-a-pyspark-example-9057f9f144f3
+
+- [Run pyspark scripts with python3 instead of pyspark](https://hang-hu.github.io/spark/2018/10/31/Run-pyspark-scripts-with-python3-instead-of-pyspark.html)
+
+- https://github.com/pantsbuild/pex/issues/746
