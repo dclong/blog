@@ -2,10 +2,10 @@ Status: published
 Date: 2021-04-26 09:48:16
 Author: Benjamin Du
 Slug: packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone
-Title: Packaging Python Dependencies for PySpark Using Python-Build-Standalone
+Title: Packaging Python Dependencies for PySpark Using python-build-standalone
 Category: Computer Science
 Tags: Computer Science, programming, Python, portable, standalone, python-build-standalone, Docker, environment
-Modified: 2021-07-18 22:12:43
+Modified: 2021-07-19 11:19:28
 
 You can build a portable Python environment 
 following steps below.
@@ -56,9 +56,9 @@ And below is a simple example of `_pyspark.py`.
 
     spark = SparkSession.builder.appName('Test PySpark').enableHiveSupport().getOrCreate()
     sql = """
-            SELECT * 
-            FROM some_table 
-            TableSample (100000 Rows)
+        SELECT * 
+        FROM some_table 
+        TableSample (100000 Rows)
         """
     spark.sql(sql).write.mode("overwrite").parquet("output")
 

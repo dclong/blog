@@ -3,10 +3,10 @@ Status: published
 Date: 2018-04-29 16:35:14
 Author: Ben Chuanlong Du
 Slug: booting-to-the-boot-menu-and-bios
-Title: Booting to the Boot Menu and Bios
+Title: Booting to the Boot Menu and BIOS
 Category: Hardware
 Tags: Hardware, boot, boot menu, BIOS, F12, F8, F2
-Modified: 2018-04-29 16:35:14
+Modified: 2021-07-19 11:16:38
 
 **
 Things on this page are

@@ -5,7 +5,7 @@ Slug: network-tips
 Title: Tips on Network
 Category: Internet
 Tags: internet, web, network, tips
-Modified: 2021-05-03 11:41:59
+Modified: 2021-07-19 11:16:08
 
 **
 Things on this page are fragmentary and immature notes/thoughts of the author. 
@@ -22,6 +22,11 @@ https://zhuanlan.zhihu.com/p/129139369
 https://www.zhihu.com/question/332524152
 
 [一个U盘优盘就翻墙 免费拥有VPN翻墙路由器的两种方法 Openwrt/LEDE软路由U盘优盘的制作 ButterflyVPN评测](https://www.youtube.com/watch?v=FeRgNwa0eOA)
+
+## QR Code for WiFi
+
+[WiFi Card](https://github.com/bndw/wifi-card)
+print a QR code for connecting to your WiFi (wificard.io)
 
 ## VPN/Proxy
 
@@ -136,6 +141,7 @@ Or you can use
 
 ## References
 
+- [Linux Network Tips](http://www.legendu.net/misc/blog/linux-network-tools)
 - [Arch Linux Doc - NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
 - [List Network Cards on Linux](https://www.cyberciti.biz/faq/linux-list-network-cards-command/)
 

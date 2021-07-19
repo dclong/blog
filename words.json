@@ -26,7 +26,7 @@
     ["Url", "URL"],
     ["Uml", "UML"],
     ["Vba", "VBA"], ["Vpn", "VPN"], ["Wsl", "WSL"],
-    ["Ar1X", "AR1X"], ["Curl", "cURL"], 
+    ["Ar1X", "AR1X"], ["Bios", "BIOS"], ["Curl", "cURL"], 
     ["Html", "HTML"],
     ["Pypy", "PyPy"],
     ["Rdds", "RDDs"],
