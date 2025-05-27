@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-05-15 14:43:38
-Modified: 2025-05-15 14:43:38
+Modified: 2025-05-27 11:58:07
 Author: Benjamin Du
 Slug: iul-insurance
 Title: IUL Insurance
@@ -14,6 +14,14 @@ Tags: life, insurance, IUL, whole life insurance
 - whole life insurance
 - overfunded life insurance
 - private money lending
+
+## Tips and Traps
+
+1. Generally speaking,
+    I do not recommend IUL insurance
+    as it is risky.
+    If you do want a life insurance with cash value,
+    consider a whole life insurance (with cash value).
 
 ## References
 
