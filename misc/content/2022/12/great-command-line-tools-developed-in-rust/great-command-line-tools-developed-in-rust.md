@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-12-21 10:14:53
-Modified: 2025-05-08 23:50:39
+Modified: 2025-05-27 23:47:28
 Author: Benjamin Du
 Slug: great-command-line-tools-developed-in-rust
 Title: Great Command Line Tools Developed in Rust
@@ -58,6 +58,10 @@ is a modern replacement for ps written in Rust.
 ## [sd](https://github.com/chmln/sd)
 [sd](https://github.com/chmln/sd)
 is an intuitive find & replace CLI (sed alternative).
+
+## [skim](https://github.com/skim-rs/skim)
+[skim](https://github.com/skim-rs/skim)
+is a fuzzy finder implemented in rust!
 
 ## Summarize a Project
 
