@@ -5,7 +5,7 @@ Slug: useful-firefox-add-ons
 Title: Useful Firefox Add-ons
 Category: Software
 Tags: software, Firefox, add-ons, plugins, extensions, Mozilla
-Modified: 2022-05-21 21:32:37
+Modified: 2025-05-28 16:01:14
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -14,7 +14,7 @@ Modified: 2022-05-21 21:32:37
 
 1. tridactyl
 
-2. vimium-FF
+2. [Vimium]( https://www.legendu.net/misc/blog/vimium-tips ) 
 
 1. Vimperator 
 
