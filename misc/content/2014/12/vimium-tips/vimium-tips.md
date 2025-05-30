@@ -5,7 +5,7 @@ Slug: vimium-tips
 Title: Navigate Chrome Browser Like a Pro Using Vimium 
 Category: Software
 Tags: software, Chrome, Vimium, Vim, plugin, add-on, addon
-Modified: 2021-09-25 19:38:42
+Modified: 2025-05-28 16:01:14
 
 **
 Things on this page are
@@ -32,3 +32,12 @@ Please read with your own judgement!
         map <c-b> scrollFullPageUp
 
 3. Click the "Save changes" button at the bottom-left corn.
+
+## Alternatives
+
+- [Anything better than SurfingKeys?](https://www.reddit.com/r/vim/comments/qbo35r/anything_better_than_surfingkeys/)
+
+- [Surfingkeys @ GitHub](https://github.com/brookhong/Surfingkeys)
+
+- [Tridactyl and Surfingkeys are Vimium on Steroids](https://devctrl.blog/posts/tridactyl-surfingkeys-vimium-on-steroids/)
+

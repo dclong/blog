@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-05-07 15:37:12
+Modified: 2025-05-28 19:00:18
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -30,6 +30,7 @@ uv lock
 uv lock --upgrade
 uv sync
 uv run python ...
+uv run /path/to/uv_init_pyscript
 uv build
 uv publish
 ```
