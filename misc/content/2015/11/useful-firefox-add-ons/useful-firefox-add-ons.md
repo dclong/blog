@@ -5,22 +5,16 @@ Slug: useful-firefox-add-ons
 Title: Useful Firefox Add-ons
 Category: Software
 Tags: software, Firefox, add-ons, plugins, extensions, Mozilla
-Modified: 2025-05-28 16:01:14
+Modified: 2025-05-30 08:21:53
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 
 ## Navigation & Shortcut
 
-1. tridactyl
+1. [Tridactyl]( https://www.legendu.net/misc/blog/tridactyl-tips )
 
 2. [Vimium]( https://www.legendu.net/misc/blog/vimium-tips ) 
-
-1. Vimperator 
-
-    - Vim-like key bindings, the ultimate plug-in for Firefox
-
-    - outdated in Firefox 57+
 
 2. Pentadactyl
 

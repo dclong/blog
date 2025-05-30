@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-05-06 13:28:33
-Modified: 2025-05-28 18:49:04
+Modified: 2025-05-30 08:25:43
 Author: Benjamin Du
 Slug: tips-on-large-language-models
 Title: Tips on Large Language Models
@@ -19,8 +19,15 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 
 - [LLama - Local](https://github.com/jmorganca/ollama)
 
-https://github.com/OpenBMB/ToolBench
-🔨This project (ToolLLM) aims to construct open-source, large-scale, high-quality instruction tuning SFT data to facilitate the construction of powerful LLMs with general tool-use capability. We aim to empower open-source LLMs to master thousands of diverse real-world APIs. We achieve this by collecting a high-quality instruction-tuning dataset. It is constructed automatically using the latest ChatGPT (gpt-3.5-turbo-16k), which is upgraded with enhanced function call capabilities. We provide the dataset, the corresponding training and evaluation scripts, and a capable model ToolLLaMA fine-tuned on ToolBench.
+- [ToolBench](https://github.com/OpenBMB/ToolBench)
+    [ToolBench](https://github.com/OpenBMB/ToolBench)
+    aims to construct open-source, large-scale, high-quality instruction 
+    tuning SFT data to facilitate the construction of powerful LLMs with general tool-use capability. 
+    We aim to empower open-source LLMs to master thousands of diverse real-world APIs. 
+    We achieve this by collecting a high-quality instruction-tuning dataset. 
+    It is constructed automatically using the latest ChatGPT (gpt-3.5-turbo-16k), 
+    which is upgraded with enhanced function call capabilities. 
+    We provide the dataset, the corresponding training and evaluation scripts, and a capable model ToolLLaMA fine-tuned on ToolBench.
 
 ## Tutorials
 

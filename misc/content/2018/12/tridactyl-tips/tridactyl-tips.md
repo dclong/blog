@@ -5,7 +5,7 @@ Slug: tridactyl-tips
 Title: Vim Keybindings in Firefox Using Tridactyl
 Category: Software
 Tags: software, Tridactyl, add-on, plugin, Firefox, tips
-Modified: 2021-07-26 18:11:31
+Modified: 2025-05-30 08:23:35
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -20,3 +20,10 @@ Modified: 2021-07-26 18:11:31
     If you are using Tridactyl and JupyterLab together,
     `shift + insert` is passed to Tridactyl rather than acts as paste in JupyterLab terminals.
     
+## Configure An External Editor
+
+https://tridactyl.xyz/build/static/docs/modules/_src_excmds_.html#editor
+
+## References
+
+- [tridactyl @ GitHub](https://github.com/tridactyl/tridactyl)

@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-05-28 19:00:18
+Modified: 2025-05-30 14:59:32
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -29,7 +29,7 @@ uv init --script example.py --python 3.12
 uv lock
 uv lock --upgrade
 uv sync
-uv run python ...
+uv run --python 3.13 --with dockeree aiutil python
 uv run /path/to/uv_init_pyscript
 uv build
 uv publish
@@ -43,3 +43,5 @@ uv publish
 
 - [Adding a Trusted Publisher to an existing PyPI project](https://docs.pypi.org/trusted-publishers/adding-a-publisher/)
 
+https://pydevtools.com/handbook/how-to/how-to-run-a-python-repl-with-uv/
+How to Run a Python REPL with uv
