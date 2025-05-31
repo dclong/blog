@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-05-06 13:28:33
-Modified: 2025-05-30 08:25:43
+Modified: 2025-05-31 13:20:36
 Author: Benjamin Du
 Slug: tips-on-large-language-models
 Title: Tips on Large Language Models
@@ -13,7 +13,13 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 
 - [Google AI Studio](https://aistudio.google.com/)
 
+- [Google NotebookLM](https://notebooklm.google/)
+
 - [ChatGPT](https://chat.openai.com/)
+
+- Tencent's Yuanbao 
+
+    - It can be added as a chat friend in WeChat now!
 
 - [Midjourney](https://www.midjourney.com/explore?tab=top_month)
 
