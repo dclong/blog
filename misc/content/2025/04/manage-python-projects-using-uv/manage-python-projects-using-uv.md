@@ -51,12 +51,8 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
     uv run /path/to/uv_init_pyscript
     ```
 
-    This can be simplified by add the following shebang into the Python script,
+    This can be simplified by add the shebang `#!/usr/bin/env -S uv run --script` into the Python script,
     so that you can invoke the script as an executable directly.
-
-    ```
-    #!/usr/bin/env -S uv run --script
-    ```
     
 ### Manage Projects
 
