@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-05-30 14:59:32
+Modified: 2025-05-31 17:13:52
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -19,12 +19,32 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 
 ## Usage
 
-### Ad-hoc Scripts
+### Ad-hoc Python Shell & Scripts
 
-1. Initialize a uv managed Python script.
+1. You can start an ad-hoc Python shell (
+   e.g., Python 3.13 with 3rd-party packages dockeree and aituil
+   ) using the following command.
     ```bash
-    uv init --script example.py --python 3.13
+    uv run --python 3.13 --with dockeree aiutil python
     ```
+
+2. Initialize a uv managed Python script.
+    ```bash
+    uv init --python 3.13 --script example.py 
+    ```
+    Notice that if the script `example.py` already exists,
+    uv will just append metadata lines into it.
+
+2. You can run a uv managed Python script using the following command.
+    ```bash
+    uv run /path/to/uv_init_pyscript
+    ```
+    This can be simplified by add the following shebang into the Python script,
+    so that you can invoke the script as an executable directly.
+    ```
+    #!/usr/bin/env -S uv run --script
+    ```
+    
 
 ### Manage Projects
 
@@ -42,15 +62,39 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
     ```bash
     uv init --package
     ```
+
+4. Update the lock file (changing as little as possible).
+    ```bash
+    uv lock
+    ```
+
+5. Update the lock file ensuring that dependencies are the newest version allowed by the spec.
+    ```bash
+    uv lock --upgrade
+    ```
+
+6. Create a virtual environment if one doesn't already exist
+    and install all dependencies.
+    ```bash
+    uv sync
+    ```
+    Install all dependencies including optional ones.
+    ```bash
+    uv sync --all-extras
+    ```
+    ```
+    uv sync --no-install-project
+    ```
     
-uv lock
-uv lock --upgrade
-uv sync
-uv run --python 3.13 --with dockeree aiutil python
-uv run /path/to/uv_init_pyscript
-uv build
-uv publish
-```
+7. Build the project.
+    ```bash
+    uv build
+    ```
+    
+8. Publish the project.
+    ```bash
+    uv publish
+    ```
 
 ## References
 
@@ -60,5 +104,4 @@ uv publish
 
 - [Adding a Trusted Publisher to an existing PyPI project](https://docs.pypi.org/trusted-publishers/adding-a-publisher/)
 
-https://pydevtools.com/handbook/how-to/how-to-run-a-python-repl-with-uv/
-How to Run a Python REPL with uv
+- [How to Run a Python REPL with uv](https://pydevtools.com/handbook/how-to/how-to-run-a-python-repl-with-uv/)
