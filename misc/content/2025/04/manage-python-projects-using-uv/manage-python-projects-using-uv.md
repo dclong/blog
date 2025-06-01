@@ -105,3 +105,5 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 - [Adding a Trusted Publisher to an existing PyPI project](https://docs.pypi.org/trusted-publishers/adding-a-publisher/)
 
 - [How to Run a Python REPL with uv](https://pydevtools.com/handbook/how-to/how-to-run-a-python-repl-with-uv/)
+
+- [Using uv as your shebang line](https://akrabat.com/using-uv-as-your-shebang-line/)
