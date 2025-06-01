@@ -37,6 +37,13 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 
     Notice that if the script `example.py` already exists,
     uv will just append metadata lines into it.
+    
+3. You can add dependencies to a uv managed Python scripts 
+    using the following command.
+
+    ```bash
+    uv add --script example.py 'requests<3' 'rich'
+    ```
 
 2. You can run a uv managed Python script using the following command.
 
