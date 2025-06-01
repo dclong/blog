@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-05-31 13:26:49
-Modified: 2025-05-31 13:26:49
+Modified: 2025-05-31 17:41:17
 Author: Benjamin Du
 Slug: tips-on-notebooklm
-Title: Tips on Notebooklm
+Title: Tips on NotebookLM
 Category: Computer Science
 Tags: Computer Science, programming, AI, LLM, NotebookLM, Google
 
