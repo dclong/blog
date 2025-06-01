@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-16 19:54:05
-Modified: 2025-05-15 00:26:51
+Modified: 2025-05-31 20:28:01
 Author: Benjamin Du
 Slug: tips-on-neovim
 Title: Tips on NeoVim
@@ -32,3 +32,8 @@ You can install the latest stable version of neovim using the command below.
         :::bash
         nvim --noplugin /path/to/large/text/file
 
+## Repeat
+
+- [Adding dot-repeat to your Neovim plugin](https://gist.github.com/kylechui/a5c1258cd2d86755f97b10fc921315c3)
+
+- [Better repeat #1025](https://github.com/neovim/neovim/issues/1025)
