@@ -237,6 +237,12 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 
 - [Stanford CS25: V2 I Introduction to Transformers w/ Andrej Karpathy](https://www.youtube.com/watch?v=XfpMkf4rD6E)
 
+## Papers
+
+- [Ai2 Scholar QA: Organized Literature Synthesis with Attribution](https://arxiv.org/abs/2504.10861)
+
 ## References
 
 - [LLM in Rust]( https://www.legendu.net/misc/blog/llm-in-rust ) 
+
+- [deepwiki-open](https://github.com/AsyncFuncAI/deepwiki-open)
