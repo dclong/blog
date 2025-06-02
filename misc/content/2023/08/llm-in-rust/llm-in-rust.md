@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-03 16:03:13
-Modified: 2025-06-01 19:52:02
+Modified: 2025-06-02 11:35:15
 Author: Benjamin Du
 Slug: llm-in-rust
 Title: LLM in Rust
@@ -34,3 +34,6 @@ Tags: Computer Science, programming, Rust, LLM, large language model
     It provides flexible building blocks for creating various agents, 
     allowing rapid development from concept to production with minimal code.
 
+- [async-openai](https://github.com/64bit/async-openai)
+    [async-openai](https://github.com/64bit/async-openai)
+    is an unofficial Rust library for OpenAI.

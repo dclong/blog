@@ -23,6 +23,35 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 
 - [Midjourney](https://www.midjourney.com/explore?tab=top_month)
 
+- [otter.ai](https://otter.ai)
+
+    [otter.ai](https://otter.ai)
+    is an artificial intelligence (AI) meeting assistant that uses voice-to-text transcription to generate meeting notes, summaries, and transcripts. 
+    It can record and transcribe audio from various sources, including live conversations, recordings, and uploaded files, 
+    and offers features like speaker identification, inline image capture, and integration with popular platforms like Zoom and Google Meet. 
+    
+- [happenstance.ai](https://happenstance.ai/)
+
+    [happenstance.ai](https://happenstance.ai/)
+    is an AI-powered platform that helps users find people within their social networks. 
+    It uses AI to analyze your connected accounts (like LinkedIn, Gmail, and Twitter) 
+    and helps you discover hidden connections and individuals who match specific criteria. 
+    Essentially, 
+    it acts as a "ChatGPT for people," allowing you to search for individuals based on your network and desired qualifications. 
+
+- [therundown.ai](https://therundown.ai)
+
+    [therundown.ai](https://therundown.ai)
+    is a company that provides AI education and resources, 
+    including a popular daily newsletter and an AI University. 
+    They aim to help individuals and businesses understand and utilize AI in their work and daily lives. 
+
+- [consensus.app/](https://consensus.app/)
+
+    [consensus.app/](https://consensus.app/)
+    is a AI Search Engine for Research
+    .
+
 - [LLama - Local](https://github.com/jmorganca/ollama)
 
 - [ToolBench](https://github.com/OpenBMB/ToolBench)
