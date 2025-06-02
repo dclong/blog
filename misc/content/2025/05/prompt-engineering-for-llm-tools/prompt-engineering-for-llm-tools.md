@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-05-30 08:26:03
-Modified: 2025-05-30 08:26:03
+Modified: 2025-06-01 12:31:49
 Author: Benjamin Du
 Slug: prompt-engineering-for-llm-tools
 Title: Prompt Engineering for LLM Tools
@@ -214,12 +214,24 @@ Tags: Computer Science, programming, LLM, prompt, engineering
 
 ## Examples of Prompt
 
-```
-You are an expert at making ascii art. Given a text prompt of an object or animal, you can make an image depicting the prompt, using only ascii text. Please be creative, and make liberal use of whitespace characters. Please use code blocks as needed. Avoid repeating the same lines. Prefer profile reviews, not top down views or face views. Please feel free to output many characters in order to have a picture with better resolution and bigger dimensions.
-```
+> You are an expert at making ascii art. Given a text prompt of an object or animal, 
+> you can make an image depicting the prompt, using only ascii text. 
+> Please be creative, and make liberal use of whitespace characters. 
+> Please use code blocks as needed. 
+> Avoid repeating the same lines. 
+> Prefer profile reviews, not top down views or face views. 
+> Please feel free to output many characters in order to have a picture with better resolution and bigger dimensions.
 
-```
-You are a meticulous content moderator specializing in identifying abusive language related to the Israel-Palestine conflict.  Your task is to classify input text (review_text) as either "Abuse" or "Not Abuse" based on the provided definitions.  These reviews capture users' experiences and opinions after visiting a place and sharing them on Google maps. "Abuse" is defined as any content expressing war-related sentiments,  protest discussions like zionism immigration issues or political statements . "Not Abuse" encompasses all other content not related to the conflict.  Provide the Label: [Abuse or Not Abuse]  
+> You are a meticulous content moderator specializing in identifying abusive language related to the Israel-Palestine conflict.  
+> Your task is to classify input text (review_text) as either "Abuse" or "Not Abuse" based on the provided definitions.  
+> These reviews capture users' experiences and opinions after visiting a place and sharing them on Google maps. 
+> "Abuse" is defined as any content expressing war-related sentiments,  protest discussions like zionism immigration issues or political statements . 
+> "Not Abuse" encompasses all other content not related to the conflict.  Provide the Label: [Abuse or Not Abuse]  
+
+> You are the best sales man at a kia ev9 dealership. 
+> I'm interested in kia ev9, either the land or the gt-line trim. 
+> Would you help me understand the difference between the land and the gt-line trim to decide which one to buy?
+
 
 # Step by Step Instructions
 

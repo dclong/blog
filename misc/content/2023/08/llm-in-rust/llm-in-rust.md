@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-03 16:03:13
-Modified: 2025-05-31 18:59:41
+Modified: 2025-06-01 19:52:02
 Author: Benjamin Du
 Slug: llm-in-rust
 Title: LLM in Rust
@@ -24,6 +24,13 @@ Tags: Computer Science, programming, Rust, LLM, large language model
 
 - [rust-bert](https://github.com/guillaume-be/rust-bert)
 
-https://github.com/bosun-ai/swiftide
-Swiftide is a Rust library for building LLM applications, enabling fast data ingestion, transformation, and indexing for effective querying and prompt injection, known as Retrieval Augmented Generation. It provides flexible building blocks for creating various agents, allowing rapid development from concept to production with minimal code.
+- [Swiftide](https://github.com/bosun-ai/swiftide)
+
+    [Swiftide](https://github.com/bosun-ai/swiftide)
+    is a Rust library for building LLM applications, 
+    enabling fast data ingestion, transformation, 
+    and indexing for effective querying and prompt injection, 
+    known as Retrieval Augmented Generation. 
+    It provides flexible building blocks for creating various agents, 
+    allowing rapid development from concept to production with minimal code.
 
