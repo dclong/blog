@@ -27,7 +27,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 <tbody>
   <tr>
     <td class="tg-0pky">
-        <a href="https://play.vercel.ai"> AI Playground - Collection of LLMs </a>
+        <a href="https://play.vercel.ai">AI Playground - Collection of LLMs</a>
     </td>
     <td class="tg-0pky"> 
     </td>
@@ -39,9 +39,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://therundown.ai"> 
-            therundown.ai
-        </a>
+        <a href="https://therundown.ai">therundown.ai</a>
     </td>
     <td class="tg-0pky"> 
     Education & Resource
@@ -56,9 +54,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   <tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://consensus.app/"> 
-            consensus.app/
-        </a>
+        <a href="https://consensus.app/">consensus.app</a>
     </td>
     <td class="tg-0pky"> 
     Research
@@ -71,9 +67,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   <tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://scholarqa.allen.ai/chat"> 
-            AI2 ScholarQA
-        </a>
+        <a href="https://scholarqa.allen.ai/chat">AI2 ScholarQA</a>
     </td>
     <td class="tg-0pky"> 
     Research
@@ -85,9 +79,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   <tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://www.emergentmind.com/"> 
-            Emergent Mind
-        </a>
+        <a href="https://www.emergentmind.com/">Emergent Mind</a>
     </td>
     <td class="tg-0pky"> 
     Research
@@ -100,9 +92,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   <tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://deepwiki.org/"> 
-        DeepWiki
-        </a>
+        <a href="https://deepwiki.org/">DeepWiki</a>
     </td>
     <td class="tg-0pky"> 
     Coding
@@ -115,9 +105,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://notebooklm.google/"> 
-            Google NotebookLM
-        </a>
+        <a href="https://notebooklm.google/">Google NotebookLM</a>
     </td>
     <td class="tg-0pky"> 
     Knowledge Base
@@ -144,9 +132,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://otter.ai"> 
-            otter.ai
-        </a>
+        <a href="https://otter.ai">otter.ai</a>
     </td>
     <td class="tg-0pky"> 
     Meeting
@@ -161,9 +147,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://www.midjourney.com/explore?tab=top_month"> 
-            Midjourney
-        </a>
+        <a href="https://www.midjourney.com/explore?tab=top_month">Midjourney</a>
     </td>
     <td class="tg-0pky"> 
     Photo
@@ -175,9 +159,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://aistudio.google.com/"> 
-            Google AI Studio
-        </a>
+        <a href="https://aistudio.google.com/">Google AI Studio</a>
     </td>
     <td class="tg-0pky"> 
     General
@@ -190,9 +172,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://chat.openai.com/"> 
-            ChatGPT
-        </a>
+        <a href="https://chat.openai.com/">ChatGPT</a>
     </td>
     <td class="tg-0pky"> 
     General
@@ -205,9 +185,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
   </tr>
   <tr>
     <td class="tg-0pky">
-        <a href="https://happenstance.ai/"> 
-            happenstance.ai
-        </a>
+        <a href="https://happenstance.ai/">happenstance.ai</a>
     </td>
     <td class="tg-0pky"> 
     Social
@@ -229,9 +207,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
 
   <tr>
     <td class="tg-0pky">
-        <a href="https://www.emergentmind.com/"> 
-            Emergent Mind
-        </a>
+        <a href="https://www.emergentmind.com/">Emergent Mind</a>
     </td>
     <td class="tg-0pky"> 
     Research
