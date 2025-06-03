@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-17 11:55:34
-Modified: 2025-06-01 19:53:38
+Modified: 2025-06-02 23:03:12
 Author: Benjamin Du
 Slug: tips-on-purchasing-a-car
 Title: Tips on Purchasing or Leasing a Car
@@ -32,5 +32,7 @@ Tags: Life, vehicle, car, SUV, EV, feature, camera
 1. Ask what free services come with the lease.
     Generally speaking, 
     there are pre-paid maintenance services come with a lease.
+    
+2. Ask about disposal fee at the end of the lease.
 
 

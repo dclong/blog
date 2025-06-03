@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-05-06 13:28:33
-Modified: 2025-06-02 12:16:52
+Modified: 2025-06-02 23:12:26
 Author: Benjamin Du
 Slug: tips-on-large-language-models
 Title: Tips on Large Language Models
@@ -200,38 +200,40 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
     it acts as a "ChatGPT for people," allowing you to search for individuals based on your network and desired qualifications. 
     </td>
   </tr>
+  <tr>
+    <td class="tg-0pky">
+        <a href="https://github.com/jmorganca/ollama">ollama</a>
+    </td>
+    <td class="tg-0pky"> 
+    Deploy
+    </td>
+    <td class="tg-0pky"> 
+    </td>
+    <td class="tg-0pky">
+    Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 
+    and other large language models.
+    </td>
+  <tr>
+  <tr>
+    <td class="tg-0pky">
+        <a href="https://github.com/OpenBMB/ToolBench">ToolBench</a>
+    </td>
+    <td class="tg-0pky"> 
+    Benchmark
+    </td>
+    <td class="tg-0pky"> 
+    </td>
+    <td class="tg-0pky">
+    An open platform for training, serving, and evaluating large language model for tool learning.
+    </td>
+  <tr>
 </tbody>
 </table>
 
 
 
-  <tr>
-    <td class="tg-0pky">
-        <a href="https://www.emergentmind.com/">Emergent Mind</a>
-    </td>
-    <td class="tg-0pky"> 
-    Research
-    </td>
-    <td class="tg-0pky"> 
-    </td>
-    <td class="tg-0pky">
-    AI Research Assistant for Computer Scientists
-    </td>
-  <tr>
 
 
-- [LLama - Local](https://github.com/jmorganca/ollama)
-
-- [ToolBench](https://github.com/OpenBMB/ToolBench)
-
-    [ToolBench](https://github.com/OpenBMB/ToolBench)
-    aims to construct open-source, large-scale, high-quality instruction 
-    tuning SFT data to facilitate the construction of powerful LLMs with general tool-use capability. 
-    We aim to empower open-source LLMs to master thousands of diverse real-world APIs. 
-    We achieve this by collecting a high-quality instruction-tuning dataset. 
-    It is constructed automatically using the latest ChatGPT (gpt-3.5-turbo-16k), 
-    which is upgraded with enhanced function call capabilities. 
-    We provide the dataset, the corresponding training and evaluation scripts, and a capable model ToolLLaMA fine-tuned on ToolBench.
 
 ## Tutorials
 
