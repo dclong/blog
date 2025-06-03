@@ -5,7 +5,7 @@ Slug: useful-tools-for-python-developing
 Title: Useful Tools for Python Developing
 Category: Computer Science
 Tags: programming, Python, development, command-line, pylint, yapf, pdb, linter, formatting, debugging, dev, lint, format, dead code, type, annotation
-Modified: 2025-06-03 01:05:56
+Modified: 2025-06-03 15:39:13
 
 
 [vulture](https://github.com/jendrikseipp/vulture)
@@ -20,11 +20,9 @@ It is useful for cleaning up and finding errors in large code bases.
 
 ## Typing Checker
 
-https://github.com/astral-sh/ty
-An extremely fast Python type checker and language server, written in Rust.
+- [An extremely fast Python type checker and language server, written in Rust.](https://github.com/astral-sh/ty)
 
-https://github.com/facebook/pyrefly
-A fast type checker and IDE for Python
+- [A fast type checker and IDE for Python](https://github.com/facebook/pyrefly)
 
 - [pytype](https://github.com/google/pytype)
 
@@ -49,20 +47,8 @@ is an extremely fast Python linter, written in Rust.
 
 ## Formatting
 
-The Python package 
-[black](https://github.com/ambv/black)
-is the best formatting tool for Python currently.
-
-1. [yapf](https://github.com/google/yapf)
-
-        :::bash
-        yapf -d yourscript.py
-
-2. [black](https://github.com/ambv/black)
-
-Please refer to 
-[Auto formatters for Python](https://medium.com/3yourmind/auto-formatters-for-python-8925065f9505)
-for detailed comparison between yapf and black.
+`ruff` is prerred for formating Python script (and notebooks).
+Just run `ruff format` to format code.
 
 ## [Debugging, Unit Testing and CICD](http://www.legendu.net/misc/blog/unit-testing-debugging-python/)
 
