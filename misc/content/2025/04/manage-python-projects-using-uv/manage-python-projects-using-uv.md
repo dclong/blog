@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-06-02 23:15:40
+Modified: 2025-06-03 00:38:24
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -29,9 +29,7 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 
 2. Initialize a uv managed Python script.
 
-    ```
-    uv init --python 3.13 --script example.py 
-    ```
+        uv init --python 3.13 --script example.py 
 
     Notice that if the script `example.py` already exists,
     uv will just append metadata lines into it.
@@ -39,15 +37,11 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 3. You can add dependencies to a uv managed Python scripts 
     using the following command.
 
-    ```bash
-    uv add --script example.py 'requests<3' 'rich'
-    ```
+        uv add --script example.py 'requests<3' 'rich'
 
 2. You can run a uv managed Python script using the following command.
 
-    ```bash
-    uv run /path/to/uv_init_pyscript
-    ```
+        uv run /path/to/uv_init_pyscript
 
     This can be simplified by add the shebang 
     `#!/usr/bin/env -S uv run --script` 
@@ -60,64 +54,44 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 
 1. Migrate from other Python projects to uv.
 
-    ```bash
-    uvx migrate-to-uv
-    ```
+        uvx migrate-to-uv
 
 2. Initialize a new uv project with the given name. 
 
-    ```bash
-    uv init --package new_project_name
-    ```
+        uv init --package new_project_name
     
 3. Initialize the current project as a uv project.    
 
-    ```bash
-    uv init --package
-    ```
+        uv init --package
 
 4. Update the lock file (changing as little as possible).
 
-    ```bash
-    uv lock
-    ```
+        uv lock
 
 5. Update the lock file ensuring that dependencies are the newest version allowed by the spec.
 
-    ```bash
-    uv lock --upgrade
-    ```
+        uv lock --upgrade
 
 6. Create a virtual environment if one doesn't already exist
     and install all dependencies.
 
-    ```bash
-    uv sync
-    ```
+        uv sync
 
     Install all dependencies including optional ones.
 
-    ```bash
-    uv sync --all-extras
-    ```
+        uv sync --all-extras
 
     Install all dependencies but not the current project.
 
-    ```
-    uv sync --no-install-project
-    ```
+        uv sync --no-install-project
     
 7. Build the project.
 
-    ```bash
-    uv build
-    ```
+        uv build
     
 8. Publish the project.
 
-    ```bash
-    uv publish
-    ```
+        uv publish
 
 ## References
 

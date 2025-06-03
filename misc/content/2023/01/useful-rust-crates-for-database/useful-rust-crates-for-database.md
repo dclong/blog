@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-01-13 15:46:22
-Modified: 2023-08-29 11:18:01
+Modified: 2025-06-03 00:37:18
 Author: Benjamin Du
 Slug: useful-rust-crates-for-database
 Title: Useful Rust Crates for Database
@@ -44,14 +44,6 @@ https://github.com/cberner/redb
 
 https://github.com/quickwit-oss/tantivy
 
-## [rusqlite](https://crates.io/crates/rusqlite)
-[rusqlite](https://crates.io/crates/rusqlite)
-is an ergonomic wrapper for SQLite.
-
-## [sled](https://github.com/spacejam/sled)
-[sled](https://github.com/spacejam/sled)
-is an embedded key-value pair databases written in Rust.
-
 ## [indradb](https://github.com/indradb/indradb)
 [indradb](https://github.com/indradb/indradb)
 is a graph database written in rust.
@@ -92,6 +84,33 @@ It provides a production-ready service with a convenient API
 to store, search, and manage points - vectors with an additional payload. 
 Qdrant is tailored to extended filtering support. 
 It makes it useful for all sorts of neural-network or semantic-based matching, faceted search, and other applications.
+
+## Embedded Databases
+
+https://github.com/tursodatabase/limbo
+Limbo is a project to build the modern evolution of SQLite.
+
+### [rusqlite](https://crates.io/crates/rusqlite)
+[rusqlite](https://crates.io/crates/rusqlite)
+is an ergonomic wrapper for SQLite.
+
+SurrealDB
+https://surrealdb.com/docs/surrealdb/embedding
+can be embedded.
+
+https://github.com/PoloDB/PoloDB
+PoloDB is an embedded document database.
+
+## [sled](https://github.com/spacejam/sled)
+[sled](https://github.com/spacejam/sled)
+is an embedded key-value pair databases written in Rust.
+
+https://github.com/vincent-herlemont/native_db
+Drop-in embedded database in Rust
+
+https://github.com/tonbo-io/tonbo
+A portable embedded database using Arrow.
+
 
 ## OLAP Specific Databases
 
@@ -216,7 +235,11 @@ A simply CLI to quickly view your data. Powered by DataFusion.
 
 ## Big Data
 
-[Rust for Big Data and Parallel Processing Applications](https://www.xenonstack.com/blog/rust-big-data-applications)
+- [rewrite-bigdata-in-rust/RBIR](https://github.com/rewrite-bigdata-in-rust/RBIR)
+
+    A collection of RBIR projects and posts for anyone interested in joining this journey.
+
+- [Rust for Big Data and Parallel Processing Applications](https://www.xenonstack.com/blog/rust-big-data-applications)
 
 ### [datafuse](https://github.com/datafuselabs/datafuse)
 

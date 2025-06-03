@@ -5,7 +5,7 @@ Slug: popular-databases
 Title: Popular Databases
 Category: Computer Science
 Tags: Computer Science, programming, database, MySQL, ClickHouse, TiDB, neo4j, Elasticsearch, TiDB, TDengine, Redis
-Modified: 2022-10-09 17:16:54
+Modified: 2025-06-03 00:35:19
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -55,7 +55,43 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/mysql"> MySQL </a>
+    <a href="https://github.com/mysql">SQLite</a>
+    </td>
+    <th> SQL </th>
+    <td> Opensource </td>
+    <th> -/ELC </th>
+    <td> </td>
+    <td> </td>
+    <td> the most popular embedded database </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="https://github.com/mysql">DuckDB</a>
+    </td>
+    <th> SQL </th>
+    <td> Opensource </td>
+    <th> -/ELC </th>
+    <td> </td>
+    <td> </td>
+    <td> 
+    - embedded OLAP
+    - a good raising alternative to SQLite 
+    </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="https://github.com/mysql">PostgreSQL</a>
+    </td>
+    <th> SQL </th>
+    <td> Opensource </td>
+    <th> PC/EC </th>
+    <td> </td>
+    <td> </td>
+    <td> a better alternative to MySQL </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="https://github.com/mysql">MySQL</a>
     <a href="#footnote7">[1]</a>
     </td>
     <th> SQL </th>
@@ -67,31 +103,7 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href=""> Cassandra </a>
-    <a href="#footnote7">[1]</a>
-    </td>
-    <th> CQL (Cassandra <br> Query Language) </th>
-    <td> Opensource </td>
-    <th> PA/EL </th>
-    <td> real-time </td>
-    <td> no join </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 
-    <a href=""> HBase </a>
-    <a href="#footnote7">[1]</a>
-    </td>
-    <th> </th>
-    <td> Opensource </td>
-    <th> PC/EC </th>
-    <td> real-time </td>
-    <td> no join </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <td> 
-    <a href="https://github.com/ClickHouse/ClickHouse"> ClickHouse </a>
+    <a href="https://github.com/ClickHouse/ClickHouse">ClickHouse</a>
     <a href="#footnote7">[2]</a>
     </td>
     <th> SQL </th>
@@ -103,7 +115,7 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/pingcap/tidb"> TiDB </a>
+    <a href="https://github.com/pingcap/tidb">TiDB</a>
     <a href="#footnote7">[3]</a>
     </td>
     <th> SQL </th>
@@ -115,7 +127,31 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/redis"> Redis </a>
+    <a href="">Cassandra</a>
+    <a href="#footnote7">[1]</a>
+    </td>
+    <th> CQL (Cassandra <br> Query Language) </th>
+    <td> Opensource </td>
+    <th> PA/EL </th>
+    <td> real-time </td>
+    <td> no join </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="">HBase</a>
+    <a href="#footnote7">[1]</a>
+    </td>
+    <th> </th>
+    <td> Opensource </td>
+    <th> PC/EC </th>
+    <td> real-time </td>
+    <td> no join </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td> 
+    <a href="https://github.com/redis">Redis</a>
     <a href="#footnote7">[4]</a>
     </td>
     <th> DSL (hashmap <br> API-like) </th>
@@ -127,7 +163,7 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/neo4j"> neo4j </a>
+    <a href="https://github.com/neo4j">neo4j</a>
     <a href="#footnote7">[5]</a>
     </td>
     <th> Cypher (Graph <br> Query Language) </th>
@@ -139,7 +175,7 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/elastic"> Elasticsearch </a>
+    <a href="https://github.com/elastic">Elasticsearch</a>
     <a href="#footnote7">[6]</a>
     </td>
     <td> DSL, SQL </td>
@@ -151,7 +187,7 @@ columnar storage is good for analytical operations
   </tr>
   <tr>
     <td> 
-    <a href="https://github.com/taosdata/TDengine"> TDengine </a>
+    <a href="https://github.com/taosdata/TDengine">TDengine</a>
     <a href="#footnote7">[7]</a>
     </td>
     <td> SQL </td>

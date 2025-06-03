@@ -5,11 +5,15 @@ Slug: comparison-of-embedded-databases
 Title: Comparison of Embedded Databases
 Category: Computer Science
 Tags: Computer Science, database, embedded, in-memory, H2, SQLite, Apache Derby, HSQLDB
-Modified: 2020-08-22 18:40:36
+Modified: 2025-06-03 00:58:59
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## [SQLite](https://www.sqlite.org/index.html)
+
+## DuckDB
+
+## [PoloDB](https://github.com/PoloDB/PoloDB)
 
 ## [Apache Derby](https://db.apache.org/derby/)
 
