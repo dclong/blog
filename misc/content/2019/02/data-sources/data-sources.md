@@ -5,11 +5,13 @@ Slug: data-sources
 Title: Data Sources
 Category: AI
 Tags: AI, machine learning, data, resource, financial data
-Modified: 2022-07-05 22:03:13
+Modified: 2025-06-04 14:28:06
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## Data Platforms
+
+https://www.oxen.ai/
 
 https://github.com/quiltdata/quilt
 

@@ -5,7 +5,7 @@ Slug: comparison-of-embedded-databases
 Title: Comparison of Embedded Databases
 Category: Computer Science
 Tags: Computer Science, database, embedded, in-memory, H2, SQLite, Apache Derby, HSQLDB
-Modified: 2025-06-03 00:58:59
+Modified: 2025-06-04 14:34:07
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -23,17 +23,10 @@ Modified: 2025-06-03 00:58:59
 
 ## References
 
-https://www.baeldung.com/java-in-memory-databases
+- [List of In-Memory Databases](https://www.baeldung.com/java-in-memory-databases)
 
-https://www.quora.com/Would-you-use-Apache-Derby-or-SQLite-for-a-single-file-embedded-database-for-your-Java-application
+- [Would you use Apache Derby or SQLite for a single file embedded database for your Java application?](https://www.quora.com/Would-you-use-Apache-Derby-or-SQLite-for-a-single-file-embedded-database-for-your-Java-application)
 
-https://www2.sqlite.org/cvstrac/wiki?p=SqliteVersusDerby
+- [sqlite - Sqlite Versus Derby](https://www2.sqlite.org/cvstrac/wiki?p=SqliteVersusDerby)
 
-https://db-engines.com/en/system/Derby%3BH2%3BSQLite
-
-https://dzone.com/articles/3-java-embedded-databases
-
-https://www.baeldung.com/java-in-memory-databases
-
-https://db-engines.com/en/system/Derby%3BSQLite
-
+- [An Overview of 3 Java Embedded Databases](https://dzone.com/articles/3-java-embedded-databases)

@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-01-13 15:46:22
-Modified: 2025-06-03 00:37:18
+Modified: 2025-06-04 14:31:23
 Author: Benjamin Du
 Slug: useful-rust-crates-for-database
 Title: Useful Rust Crates for Database
@@ -10,10 +10,11 @@ Tags: Computer Science, programming, Rust, database, crate, SQL, big data, strea
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 
-https://github.com/neondatabase/neon
-Neon is a serverless open-source alternative to AWS Aurora Postgres. It separates storage and compute and substitutes the PostgreSQL storage layer by redistributing data across a cluster of nodes.
-
-
+## [Neon](https://github.com/neondatabase/neon)
+[Neon](https://github.com/neondatabase/neon)
+is a serverless open-source alternative to AWS Aurora Postgres. 
+It separates storage and compute and substitutes the PostgreSQL storage layer 
+by redistributing data across a cluster of nodes.
 
 ## [sqlx](https://github.com/launchbadge/sqlx)
 [SQLx](HTTPS://GITHUB.COM/LAUNCHBADGE/SQLX)

@@ -5,12 +5,14 @@ Slug: useful-tools-for-python-developing
 Title: Useful Tools for Python Developing
 Category: Computer Science
 Tags: programming, Python, development, command-line, pylint, yapf, pdb, linter, formatting, debugging, dev, lint, format, dead code, type, annotation
-Modified: 2025-06-03 15:39:13
+Modified: 2025-06-04 14:39:10
 
 
-[vulture](https://github.com/jendrikseipp/vulture)
-finds unused code in Python programs. 
-It is useful for cleaning up and finding errors in large code bases. 
+- [vulture](https://github.com/jendrikseipp/vulture)
+
+    [vulture](https://github.com/jendrikseipp/vulture)
+    finds unused code in Python programs. 
+    It is useful for cleaning up and finding errors in large code bases. 
 
 - [pandas-stubs](https://pypi.org/project/pandas-stubs/)
 
@@ -31,19 +33,7 @@ It is useful for cleaning up and finding errors in large code bases.
 ### [ruff](https://github.com/charliermarsh/ruff/)
 [ruff](https://github.com/charliermarsh/ruff/)
 is an extremely fast Python linter, written in Rust.
-
-
-### [pylint](http://www.legendu.net/misc/blog/pylint-tips/)
-[pylint](http://www.legendu.net/misc/blog/pylint-tips/)
-
-### [flake8](http://www.legendu.net/misc/blog/use-flake8-to-lint-python-scripts/)
-[flake8](http://www.legendu.net/misc/blog/use-flake8-to-lint-python-scripts/)
-
-1. `Flake8` focus on logical errors rather than stylistic errors.
-    It strives to reduce false positives.
-
-2. `pylint` performs deeper analysis and thus is slower.
-
+It is preferred to other Python linters such as pylint and flake8.
 
 ## Formatting
 
@@ -57,23 +47,10 @@ Just run `ruff format` to format code.
 
 - [Type Annotation in Python](http://www.legendu.net/misc/blog/type-annotation-in-python/)
 
-- [isort](http://www.legendu.net/misc/blog/sort-python-imports-using-isort/)
-
-- [pylint](http://www.legendu.net/misc/blog/pylint-tips/)
-
-- [darglint](https://github.com/terrencepreilly/darglint) checks that the docstring description matches the definition.
-
-- [coala](https://github.com/coala/coala/) provides a unified command-line interface 
-    for linting and fixing all your code, regardless of the programming languages you use.
-
 - [Type Annotation](http://www.legendu.net/misc/blog/type-annotation-in-python/)
 
+- [Hypermodern Python Chapter 1: Setup](https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
 
-https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+- [Hypermodern Python Chapter 2: Testing](https://cjolowicz.github.io/posts/hypermodern-python-02-testing/)
 
-https://cjolowicz.github.io/posts/hypermodern-python-02-testing/
-
-https://cjolowicz.github.io/posts/hypermodern-python-03-linting/#managing-dependencies-in-nox-sessions-with-poetry
-
-https://cjolowicz.github.io/posts/hypermodern-python-02-testing/#code-coverage-with-coveragepy
-
+- [Hypermodern Python Chapter 2: Linting](https://cjolowicz.github.io/posts/hypermodern-python-03-linting/#managing-dependencies-in-nox-sessions-with-poetry)

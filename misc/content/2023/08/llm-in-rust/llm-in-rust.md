@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-03 16:03:13
-Modified: 2025-06-02 11:35:15
+Modified: 2025-06-04 14:23:53
 Author: Benjamin Du
 Slug: llm-in-rust
 Title: LLM in Rust
@@ -17,6 +17,10 @@ Tags: Computer Science, programming, Rust, LLM, large language model
     it's built on top of the fast, efficient GGML library for machine learning.
 
 - [llama2.rs](https://github.com/srush/llama2.rs)
+
+- [ollama-rs](https://github.com/pepperoni21/ollama-rs)
+
+    A simple and easy-to-use library for interacting with the Ollama API.
 
 - [llama-node](https://github.com/Atome-FE/llama-node)
 
