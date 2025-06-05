@@ -5,7 +5,7 @@ Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands
 Author: Ben Chuanlong Du
-Modified: 2021-08-22 00:12:26
+Modified: 2025-06-05 16:01:19
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -56,6 +56,18 @@ However, there are serveral terminal command that can help you quickly.
 3. `!-n` stands for the last but $n-1$ command in the command history,
 
 4. `!foo` stands for the most recent command starting with `foo`.
+
+5. `history` prints out all historical commands (with numbers).
+
+6. `history -s command` saves the specified command to the in-memory history.
+
+6. `fc` edit the last shell command (
+        using `$EDITOR`
+    ) and then send it for execution.
+    
+7. `fc -ln 1` list all historical commands without numbers.
+
+7. `fc -ln -5` list the last 4 historical commands without numbers.
 
 ### Manipulating Commands
 
