@@ -1,6 +1,6 @@
 Status: published
 Date: 2024-07-22 13:39:40
-Modified: 2025-06-05 16:01:19
+Modified: 2025-06-09 02:49:30
 Author: Benjamin Du
 Slug: editing-shell-commands-using-vim
 Title: Editing Shell Commands Using Vim
@@ -53,6 +53,8 @@ Tags: Computer Science, programming
     and then send the edited command for execution.
 
 ## References
+
+- [VISUAL vs. EDITOR – what’s the difference?](https://unix.stackexchange.com/questions/4859/visual-vs-editor-what-s-the-difference)
 
 - [How do I edit current shell command in VI](https://apple.stackexchange.com/questions/88515/how-do-i-edit-current-shell-command-in-vi)
 

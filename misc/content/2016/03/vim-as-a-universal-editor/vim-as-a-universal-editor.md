@@ -6,7 +6,7 @@ Slug: vim-as-a-universal-editor
 Title: Vim as a Universal Editor
 Category: Software
 Tags: software, Vim, editor, FireNVim, NeoVim, VSCode, Visual Studio Code
-Modified: 2025-05-05 07:49:17
+Modified: 2025-06-09 02:48:02
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 

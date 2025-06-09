@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-07 09:45:35
-Modified: 2025-06-09 01:26:04
+Modified: 2025-06-09 02:49:30
 Author: Benjamin Du
 Slug: configuring-terminal-in-visual-studio-code
 Title: Configuring Terminal in Visual Studio Code
@@ -45,3 +45,5 @@ make sure to set both environment variables
 - [Getting started with the terminal](https://code.visualstudio.com/docs/terminal/getting-started)
 
 - [Mastering VS Code's Terminal](https://www.growingwiththeweb.com/2017/03/mastering-vscodes-terminal.html)
+
+- [VISUAL vs. EDITOR – what’s the difference?](https://unix.stackexchange.com/questions/4859/visual-vs-editor-what-s-the-difference)
