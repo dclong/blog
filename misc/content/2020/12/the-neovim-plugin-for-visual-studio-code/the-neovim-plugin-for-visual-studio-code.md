@@ -25,6 +25,9 @@ https://github.com/asvetliakov/vscode-neovim
 
         :::json
         {
+            "terminal.integrated.commandsToSkipShell": [
+                "-workbench.action.quickOpen"
+            ],
             "editor.fontSize": 12,
             "editor.detectIndentation": false,
             "editor.suggestSelection": "first",

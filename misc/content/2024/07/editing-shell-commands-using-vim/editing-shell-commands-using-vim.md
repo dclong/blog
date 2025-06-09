@@ -14,13 +14,16 @@ Tags: Computer Science, programming
     You can turn on the Vi mode by `set -o vi` in `.bashrc`.
     This will make all bash prompts be edited in a limited single-line Vi mode.
 
-2. The `fc` command edits the last shell command and then send it for execution.
+2. The `fc` command edits the last shell command (using `$EDITOR`) and then send it for execution.
 
-3. The shortcut `ctrl+x` followed by `ctrl+e`
-    edits the current shell prompt in an external editor
-    specified by the environment variable `EDITOR`.
+3. The shortcut `ctrl+x` `ctrl+e`
+    edits the current shell prompt using `$VISUAL` or `$EDITOR`.
     If you want to use neovim as the editor,
-    just have `export EDITOR=nvim` somewhere in your shell configuration.
+    add the following configuration into your shell configuration.
+
+        export VISUAL=nvim
+        export EDITOR=nvim
+
     This is the recommended way to edit shell prompts
     as it allows your the full power and flexibility of the Vim editor.
     For example,
@@ -35,6 +38,14 @@ Tags: Computer Science, programming
         you can bring historical commands in using the following command in Vim.
 
             :r ! fc -ln -10
+            
+    Notice that the shortcut `ctrl+x` `ctrl+e`
+    doesn't work out-of-the-box in the terminal in Visual Studio Code.
+    For more discussions,
+    please refer to
+    [Configuraing Terminal in Visual Studio Code]( https://www.legendu.net/misc/blog/configuraing-terminal-in-visual-studio-code )  
+    .
+
 
 4. [fzf.history](https://github.com/legendu-net/icon/blob/dev/utils/data/bash-it/plugins/custom.plugins.bash#L124)
     allows you to search through shell command history,

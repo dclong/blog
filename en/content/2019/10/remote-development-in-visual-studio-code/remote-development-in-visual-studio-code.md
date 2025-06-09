@@ -28,9 +28,8 @@ A browser is all your need to use Visual Studio Code Server once it is setup.
 
 ## References 
 
-[Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
+- [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
 
-[Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced)
+- [Advanced Container Configuration](https://code.visualstudio.com/docs/remote/containers-advanced)
 
-
-https://code.visualstudio.com/docs/remote/containers-advanced#_developing-inside-a-container-on-a-remote-docker-host
+- [Advanced container configuration](https://code.visualstudio.com/docs/remote/containers-advanced#_developing-inside-a-container-on-a-remote-docker-host)

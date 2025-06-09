@@ -15,3 +15,5 @@ Modified: 2025-05-05 07:49:17
 
 - [vscode-neovim](https://github.com/vscode-neovim/vscode-neovim)
     - Use NeoVim as the editor in Visual Studio Code.
+
+- [Editing Shell Commands Using Vim]( https://www.legendu.net/misc/blog/editing-shell-commands-using-vim ) 

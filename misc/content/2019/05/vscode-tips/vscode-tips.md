@@ -90,10 +90,12 @@ https://stackoverflow.com/questions/36333117/refresh-visual-studio-code-list-of-
 
 ## References
 
+- [Configuraing Terminal in Visual Studio Code]( https://www.legendu.net/misc/blog/configuraing-terminal-in-visual-studio-code ) 
+
 - [Visual Studio Code Blog](https://code.visualstudio.com/blogs/2019/05/02/remote-development)
 
 - [Visual Studio Code Updates](https://code.visualstudio.com/updates/)
 
 - [Download Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 
-- https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode
+- [How do you format code in Visual Studio Code (VSCode)?](https://stackoverflow.com/questions/29973357/how-do-you-format-code-in-visual-studio-code-vscode)

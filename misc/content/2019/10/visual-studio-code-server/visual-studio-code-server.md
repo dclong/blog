@@ -13,21 +13,23 @@ Modified: 2022-03-12 17:54:05
 
 ## Advanced Tips
 
---link                 (beta) Securely bind code-server via Coder Cloud with the passed name. You'll get a URL like
-                             https://myname.coder-cloud.com at which you can easily access your code-server instance.
-                             Authorization is done via GitHub.
+1. The option `--link`                 
+    allows you to securely bind code-server via Coder Cloud with the passed name. 
+    You'll get a URL like https://myname.coder-cloud.com 
+    at which you can easily access your code-server instance.
+    Authorization is done via GitHub.
 
-[Hashed Password](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed)
+2. [Hashed Password](https://github.com/cdr/code-server/blob/v3.8.0/doc/FAQ.md#can-i-store-my-password-hashed)
 
-[dclong/docker-vscode-server](https://github.com/dclong/docker-vscode-server)
+3. [dclong/docker-vscode-server](https://github.com/dclong/docker-vscode-server)
 
 ## Format Source Code
 
 Format manually: Shift + Alt + F (Windows/Linux) or Shift + Option + F (macOS)
 Please refer to
-https://code.visualstudio.com/docs/editor/codebasics#_formatting
+[Visual Studio Code - Formatting](https://code.visualstudio.com/docs/editor/codebasics#_formatting)
 and
-https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code
+[How do you format code on save in VS Code](https://stackoverflow.com/questions/39494277/how-do-you-format-code-on-save-in-vs-code)
 for more discussions.
 
 ## Auto Activate Python Virtual Environment 
@@ -69,14 +71,14 @@ https://github.com/cdr/sshcode
 
 ## References
 
-[Visual Studio Code Server Documentation](https://github.com/cdr/code-server/tree/master/doc)
+- [Visual Studio Code Server Documentation](https://github.com/cdr/code-server/tree/master/doc)
 
-[Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+- [Snippets in Visual Studio Code](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 
-[VSCode Shortcuts](http://www.legendu.net/misc/blog/vscode-tips/#shortcuts)
+- [VSCode Shortcuts](http://www.legendu.net/misc/blog/vscode-tips/#shortcuts)
 
-[VSCode Server Guidance](https://github.com/cdr/code-server/blob/master/doc/guide.md)
+- [VSCode Server Guidance](https://github.com/cdr/code-server/blob/master/doc/guide.md)
 
-https://dev.to/babak/how-to-run-vs-code-on-the-server-3c7h
+- [How to run VS Code on the server!](https://dev.to/babak/how-to-run-vs-code-on-the-server-3c7h)
 
-[Securing Visual Studio Code Server](https://www.pomerium.io/recipes/vs-code-server.html#background)
+- [Securing Visual Studio Code Server](https://www.pomerium.io/recipes/vs-code-server.html#background)
