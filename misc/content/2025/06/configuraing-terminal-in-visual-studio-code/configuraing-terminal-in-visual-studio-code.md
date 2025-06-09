@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-06-07 09:45:35
-Modified: 2025-06-07 09:45:35
+Modified: 2025-06-09 01:26:04
 Author: Benjamin Du
-Slug: configuraing-terminal-in-visual-studio-code
-Title: Configuraing Terminal in Visual Studio Code
+Slug: configuring-terminal-in-visual-studio-code
+Title: Configuring Terminal in Visual Studio Code
 Category: Computer Science
 Tags: Computer Science, programming, IDE, editor, Visual Studio Code, VSCode, terminal, configuration
 

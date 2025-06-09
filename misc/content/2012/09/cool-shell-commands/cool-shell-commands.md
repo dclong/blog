@@ -5,7 +5,7 @@ Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands
 Author: Ben Chuanlong Du
-Modified: 2025-06-05 16:01:19
+Modified: 2025-06-09 01:32:01
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -48,6 +48,12 @@ However, there are serveral terminal command that can help you quickly.
 
 ### Retrieving History Commands
 
+It is suggested that you search shell command history using `fzf`.
+For more discussions,
+please refer to
+[Editing Shell Commands Using Vim]( https://www.legendu.net/misc/blog/editing-shell-commands-using-vim )
+.
+
 1. `!!` or `!:-1` stands for the last command.
     `!!` runs last command and `sudo !!` runs the last command with `sudo` permission.
 
@@ -70,6 +76,13 @@ However, there are serveral terminal command that can help you quickly.
 7. `fc -ln -5` list the last 4 historical commands without numbers.
 
 ### Manipulating Commands
+
+It is suggested that you use `ctrl+x` `ctrl+e` or `fzf.history` 
+to edit shell commands.
+For more discussions,
+please refer to
+[Editing Shell Commands Using Vim]( https://www.legendu.net/misc/blog/editing-shell-commands-using-vim )
+.
 
 1. You can use the suffix `:-` to get rid of
     the last parameter of the retrieved command.
@@ -122,6 +135,13 @@ so you can press "Arrow Up" key to retrieve it.
 
 ## Retrieve Parameter of Commands
 
+It is suggested that you use `ctrl+x` `ctrl+e` or `fzf.history` 
+to edit shell commands.
+For more discussions,
+please refer to
+[Editing Shell Commands Using Vim]( https://www.legendu.net/misc/blog/editing-shell-commands-using-vim )
+.
+
 1. `!$` stands for the last parameter of last command.
 
 2. `$_` stands for the last parameter of last command.
@@ -159,9 +179,6 @@ there are several indirect ways to do this.
     Similarly,
     one can use `$(!-2)` to retrieve the result of the 2nd last command.
 
-## Terminal
+## References
 
-1. CTRL+X E editor command in an editor
-
-See useful shortcuts at
-[Arch Wiki](https://wiki.archlinux.org/index.php/Keyboard_Shortcuts)
+- [Arch Wiki](https://wiki.archlinux.org/index.php/Keyboard_Shortcuts)
