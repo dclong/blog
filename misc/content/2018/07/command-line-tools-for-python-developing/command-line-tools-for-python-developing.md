@@ -5,7 +5,7 @@ Slug: useful-tools-for-python-developing
 Title: Useful Tools for Python Developing
 Category: Computer Science
 Tags: programming, Python, development, command-line, pylint, yapf, pdb, linter, formatting, debugging, dev, lint, format, dead code, type, annotation
-Modified: 2025-06-04 14:39:10
+Modified: 2025-06-12 02:36:06
 
 
 - [vulture](https://github.com/jendrikseipp/vulture)
@@ -22,11 +22,15 @@ Modified: 2025-06-04 14:39:10
 
 ## Typing Checker
 
-- [An extremely fast Python type checker and language server, written in Rust.](https://github.com/astral-sh/ty)
+- [ty]( https://www.legendu.net/misc/blog/ty-is-a-new-modern-static-type-checking-and-language-server-for-python )  
 
-- [A fast type checker and IDE for Python](https://github.com/facebook/pyrefly)
+- [pyrefly]( https://www.legendu.net/misc/blog/tips-on-pyrefly ) 
 
 - [pytype](https://github.com/google/pytype)
+
+- pyright 
+
+- [mypy]( https://www.legendu.net/misc/blog/static-type-checking-python-mypy ) 
 
 ## Lint Python Scripts
 
