@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-06-15 20:40:23
-Modified: 2025-06-15 20:40:23
+Modified: 2025-06-16 16:43:41
 Author: Benjamin Du
 Slug: tips-on-fd
-Title: Tips on Fd
+Title: Tips on fd
 Category: Computer Science
 Tags: Computer Science, fd, fdfind, Linux, shell, find
 
