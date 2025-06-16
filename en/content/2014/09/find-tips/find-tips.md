@@ -5,19 +5,17 @@ Slug: find-tips
 Title: Tips on the find command in Linux
 Category: OS
 Tags: Linux, find, tips, search, locate
-Modified: 2024-06-12 19:14:15
+Modified: 2025-06-15 20:51:35
 
 
-It is suggested that you 
-use
-Python (the `pathlib` module),
-[ripgrep](https://github.com/BurntSushi/ripgrep),
-[fselect](https://github.com/jhspetersson/fselect)
-or
-[osquery](http://www.legendu.net/misc/blog/osquery-tips) 
-(currently have some bugs)
-instead of `find`
-to locate files.
+## Better Alternatives to `find`
+
+There are some better alternatives to find.
+1. `pathlib` module in Python
+2. fdfind
+2. [ripgrep](https://github.com/BurntSushi/ripgrep)
+3. [fselect](https://github.com/jhspetersson/fselect)
+4. [osquery](http://www.legendu.net/misc/blog/osquery-tips) 
 
 - The Python module `pathlib` is the most suitable one for relatively complex jobs.
 - `ripgrep` is a more user-friendly alternative to find.
