@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-29 23:37:05
-Modified: 2025-06-11 10:52:21
+Modified: 2025-06-15 23:10:59
 Author: Benjamin Du
 Slug: the-fzf-command-is-a-great-alternative-to-find
 Title: The fzf Command Is a Great Alternative to find
@@ -17,17 +17,19 @@ Tags: Computer Science, programming, fzf, find, fuzzy, bat, preview
 
 ## Speed up `fzf`
 
-- [FZF very slow on mounted NTFS drives #2330](https://github.com/junegunn/fzf/issues/2330)
-
-- [fzf is slow in large directory #1419](https://github.com/junegunn/fzf/issues/1419)
-
-FZF_DEFAULT_COMMAND, rg or fd might help 
-
-or you can write a cached version command line tool by yourself ...
+1. By default, 
+    `fzf` uses `find` to find files.
+    A different command can be configured via the environment varialbe `FZF_DEFAULT_COMMAND`.
+    It is suggested that you use `fd`
+    which is both more intuitive and way much faster.
 
 ## References
 
 - [fzf @ GitHub](https://github.com/junegunn/fzf)
+
+- [FZF very slow on mounted NTFS drives #2330](https://github.com/junegunn/fzf/issues/2330)
+
+- [fzf is slow in large directory #1419](https://github.com/junegunn/fzf/issues/1419)
 
 - [FZF Vim integration](https://github.com/junegunn/fzf/blob/master/README-VIM.md)
 
