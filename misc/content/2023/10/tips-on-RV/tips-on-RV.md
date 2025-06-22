@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-19 11:31:45
-Modified: 2025-05-05 07:22:21
+Modified: 2025-06-22 12:05:11
 Author: Benjamin Du
 Slug: tips-on-RV
 Title: Tips on RV
@@ -82,6 +82,8 @@ https://www.quora.com/What-is-the-safest-place-to-park-an-RV-overnight-while-tra
 https://rvlifestyle.com/what-do-camp-hosts-do/
 
 ## Camping in WA
+
+[如何在美国露营？当我踩过坑后才知道的那些门道～新手实操](https://www.youtube.com/watch?v=ZSqiLLHjb48)
 
 https://washington.goingtocamp.com/
 
