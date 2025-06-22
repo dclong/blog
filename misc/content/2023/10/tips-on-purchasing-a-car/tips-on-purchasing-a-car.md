@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-17 11:55:34
-Modified: 2025-06-09 10:50:55
+Modified: 2025-06-22 01:14:25
 Author: Benjamin Du
 Slug: tips-on-purchasing-a-car
 Title: Tips on Purchasing or Leasing a Car
@@ -48,3 +48,26 @@ Tags: Life, vehicle, car, SUV, EV, feature, camera
 - [Rivian @ Reddit](https://www.reddit.com/r/Rivian/)
 - [Switching to Rivian? Use these Community Referral Codes for $500 to use in the Gear Shop!](https://www.reddit.com/r/Rivian/comments/1k4ikus/switching_to_rivian_use_these_community_referral/)
 
+### Return a Leased Car
+
+1. schedule your pre-return vehicle inspection
+2. decide if you want to make repairs
+3. make a vehicle-return appointment with the dealer
+4. complete a federal odometer/lease termination statement at the dealer
+5. satisy any lease liability fees/charges
+
+### End-of-lease Checklist
+- vehicle inspection report
+- replace original equipment that many have been removed from the vehicle after lease inception
+- all sets of keys present
+- owner's manual in glove box
+- spare tire (if any) in vehicle
+- SD navigation card in place
+
+### Vehicle Return Checklist
+- remove toll/EZ tags
+- remove all personal items, e.g., auxilary cords, glasses, etc
+- license plates
+- delete information from the vehicle
+- cancel all electronic payments
+- 
