@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-17 11:55:34
-Modified: 2025-06-22 01:14:25
+Modified: 2025-06-25 16:25:02
 Author: Benjamin Du
 Slug: tips-on-purchasing-a-car
 Title: Tips on Purchasing or Leasing a Car
@@ -44,9 +44,9 @@ Tags: Life, vehicle, car, SUV, EV, feature, camera
 
 ### Rivian Specific
 
-- [Rivian Roamer](https://rivianroamer.com/)
-- [Rivian @ Reddit](https://www.reddit.com/r/Rivian/)
-- [Switching to Rivian? Use these Community Referral Codes for $500 to use in the Gear Shop!](https://www.reddit.com/r/Rivian/comments/1k4ikus/switching_to_rivian_use_these_community_referral/)
+Please refer to
+[Tips on Rivian Electronic Vehicles]( https://www.legendu.net/misc/blog/tips-on-rivian-electronic-vehicles )
+for discussions.
 
 ### Return a Leased Car
 
