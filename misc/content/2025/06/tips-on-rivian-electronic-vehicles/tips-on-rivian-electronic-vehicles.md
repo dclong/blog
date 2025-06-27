@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-06-25 20:05:34
+Modified: 2025-06-26 18:49:23
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -32,6 +32,11 @@ Tags: life, Rivian, EV
 8. Memorizing AC vent positions. 
 
 9. Disable unlocking at home. 
+    By default, Rivian locks and unlock automatically while you walk away/towards it.
+    This can be annoying at home.
+    Fortunately,
+    Rivian supports customizing the proximity locking behavior at home.
+    It can be configurated via "Settings -> Vehicle -> Access -> Proximity Locking -> At Home".
 
 10. Rivian supports 
     [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
