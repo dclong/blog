@@ -11,10 +11,10 @@ Tags: life, Rivian, EV
 
 ## Tips
 
-1. [Adjust volume of different audio sources.](https://www.youtube.com/watch?v=U87t9udE5Xw&t=92s)
+1. [Adjust volume of different audio sources](https://www.youtube.com/watch?v=U87t9udE5Xw&t=92s)
   .
 
-2. [Adjust wiper sensitivity level.](https://www.youtube.com/watch?v=U87t9udE5Xw&t=485s)
+2. [Adjust wiper sensitivity level](https://www.youtube.com/watch?v=U87t9udE5Xw&t=485s)
   .
 
 1. drive camera. Need storage device
