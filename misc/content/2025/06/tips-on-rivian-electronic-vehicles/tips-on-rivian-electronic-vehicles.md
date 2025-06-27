@@ -23,13 +23,20 @@ Tags: life, Rivian, EV
 
 6. air compressor 
 
-7. Share Google Map to the Rivian app.
+7. Rivian has a built-in navigation system. 
+    However,
+    it is often more convenient to explore locations and routes on Google Map.
+    Rivian allows any driver on a Rivian car to directly share Google Map to the Rivian app
+    to open the route using the built-in navigation system.
 
 8. Memorizing AC vent positions. 
 
 9. Disable unlocking at home. 
 
-10. Auto kneeling
+10. Rivian supports 
+    [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
+    which makes it convenient for children and small people 
+    to hop on/off the car.
 
 11. Rivian Connect+. Once subscribed, you can use its WiFi hotspot. 
 
@@ -46,5 +53,5 @@ Tags: life, Rivian, EV
 
 ## References
 
-https://www.youtube.com/watch?v=U87t9udE5Xw
+- [15 Tips & Tricks You Didn't Know About Your Rivian](https://www.youtube.com/watch?v=U87t9udE5Xw)
 
