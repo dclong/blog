@@ -11,6 +11,9 @@ Tags: life, Rivian, EV
 
 ## Tips
 
+1. [Adjust volume of different audio sources.](https://www.youtube.com/watch?v=U87t9udE5Xw&t=92s)
+  .
+
 1. drive camera. Need storage device
 
 2. Enhanced Highway Assist
@@ -36,7 +39,7 @@ Tags: life, Rivian, EV
     This can be annoying at home.
     Fortunately,
     Rivian supports customizing the proximity locking behavior at home.
-    It can be configurated via "Settings -> Vehicle -> Access -> Proximity Locking -> At Home".
+    It can be configurated via "Settings -> Vehicle -> Access -> Proximity locking -> Locking behavior at home".
 
 10. Rivian supports 
     [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
@@ -50,6 +53,9 @@ Tags: life, Rivian, EV
     there are walkaround as discussed in 
     [Rivian R1S Liftgate Height Adjustment Possible?](https://www.youtube.com/watch?v=of3k7Icyzgg)
     .
+
+13. [Capturing vehicle diagnostics](https://www.youtube.com/watch?v=U87t9udE5Xw&t=443s)
+  .
 
 
 - [Rivian Roamer](https://rivianroamer.com/)
