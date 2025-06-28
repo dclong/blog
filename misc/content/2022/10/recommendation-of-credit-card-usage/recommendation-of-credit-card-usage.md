@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-09 16:34:06
-Modified: 2025-05-08 14:36:38
+Modified: 2025-06-28 12:41:19
 Author: Benjamin Du
 Slug: recommendation-of-credit-card-usage
 Title: Recommendation of Credit Card Usage
@@ -38,9 +38,44 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <th>&gt;=2.5%</th>
     <th>&gt;=2%</th>
     <th>&gt;=1.5%</th>
+    <th>1%</th>
   </tr>
 </thead>
 <tbody>
+  <tr>
+    <td>Rent</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td> </td>
+    <td>  </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> 
+      <span style="color:green">
+        Bilt 
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td>Mortgage</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td> </td>
+    <td>  </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> 
+      <span style="color:green">
+        Bilt <sup>[1]</sup>
+      </span>
+    </td>
+  </tr>
   <tr>
     <td>Costco</td>
     <td></td>
@@ -58,8 +93,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green">Citi-C</span><br>
     </td>
-    <td>
-    </td>
+    <td> </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -86,6 +121,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green">BOA-V</span>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -110,6 +146,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green">BOA-V</span>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Restaurant</td>
@@ -131,6 +168,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Supermarket</td>
@@ -149,6 +187,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Other <br> Grocery</td>
@@ -170,6 +209,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Macys</td>
@@ -190,6 +230,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -210,6 +251,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -233,6 +275,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Flight</td>
@@ -247,6 +290,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green">BOA-V</span>
     </td>
+    <td> </td>
     <td> </td>
     <td> </td>
   </tr>
@@ -273,6 +317,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Hotel</td>
@@ -295,6 +340,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -317,6 +363,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -341,6 +388,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>
@@ -359,6 +407,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td> 
       <span style="color:green">RGC</span>
     </td>
+    <td> </td>
     <td> </td>
     <td> </td>
     <td> </td>
@@ -382,6 +431,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>EV Charging</td>
@@ -405,6 +455,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green"></span>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Verizon Purchases</td>
@@ -427,6 +478,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
       <span style="color:green"></span>
     </td>
+    <td> </td>
   </tr>
   <tr>
     <td>Other</td>
@@ -445,10 +497,12 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td>
     </td>
+    <td> </td>
   </tr>
 </tbody>
 </table>
 
+- [1]: Bilt does not officially support it yet even people reporting successful mortgage payment using it.
 - [2]: On eligible travel purchases only
 - [3]: Amazon Prime membership is required to enjoy the discount.
 - [4]: Robinhood Gold Card gives you 5% cash back 
@@ -461,7 +515,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     And points are worth 25% more when redeemed for travel through Chase Travel.
 - [6]: For online grocery purchases excluding Walmart, Target and wholesale clubs.
 - [7]: Earn up to $50 in statement credits each account anniversary year for hotel stays purchased through Chase Travel.
-- [7]: The card comes with trip cancellation and interruption insurance, lost luggage reimbursement, auto rental coverage, etc.
+- [8]: The card comes with trip cancellation and interruption insurance, lost luggage reimbursement, auto rental coverage, etc.
 
 ## Offers
 
