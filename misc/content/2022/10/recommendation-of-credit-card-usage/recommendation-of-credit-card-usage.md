@@ -56,6 +56,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td> 
       <span style="color:green">
         Bilt 
+        <sup>[1]</sup>
       </span>
     </td>
   </tr>
@@ -72,7 +73,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td> </td>
     <td> 
       <span style="color:green">
-        Bilt <sup>[1]</sup>
+        Bilt 
+        <sup>[9]</sup>
       </span>
     </td>
   </tr>
@@ -502,7 +504,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
 </tbody>
 </table>
 
-- [1]: Bilt does not officially support it yet even people reporting successful mortgage payment using it.
+- [1]: Use the Bilt card at least 5 times each statement period to earn points.
 - [2]: On eligible travel purchases only
 - [3]: Amazon Prime membership is required to enjoy the discount.
 - [4]: Robinhood Gold Card gives you 5% cash back 
@@ -516,6 +518,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
 - [6]: For online grocery purchases excluding Walmart, Target and wholesale clubs.
 - [7]: Earn up to $50 in statement credits each account anniversary year for hotel stays purchased through Chase Travel.
 - [8]: The card comes with trip cancellation and interruption insurance, lost luggage reimbursement, auto rental coverage, etc.
+- [9]: Bilt does not officially support it yet even people reporting successful mortgage payment using it.
 
 ## Offers
 
