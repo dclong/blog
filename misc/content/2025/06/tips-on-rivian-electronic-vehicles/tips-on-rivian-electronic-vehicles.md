@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-06-26 21:01:48
+Modified: 2025-07-02 22:33:28
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -16,6 +16,10 @@ Tags: life, Rivian, EV
 
 2. [Adjust wiper sensitivity level](https://www.youtube.com/watch?v=U87t9udE5Xw&t=485s)
   .
+
+3. Adaptive high beam assist.
+    Settings -> Vehicle -> Displays and Lighting -> High Beam Assist.
+    Select on "Adaptive".
 
 1. drive camera. Need storage device
 
