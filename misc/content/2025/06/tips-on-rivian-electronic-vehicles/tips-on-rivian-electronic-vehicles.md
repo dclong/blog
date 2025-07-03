@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-07-02 22:33:28
+Modified: 2025-07-03 12:02:00
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -27,7 +27,8 @@ Tags: life, Rivian, EV
 
 3. Camping model which does self leveling
 
-4. Pet mode
+4. [Pet comfort mode](https://www.youtube.com/watch?v=KIvn9NvddlM&t=139s)
+    .
 
 5. garage door pairing 
 
@@ -47,6 +48,12 @@ Tags: life, Rivian, EV
     Fortunately,
     Rivian supports customizing the proximity locking behavior at home.
     It can be configurated via "Settings -> Vehicle -> Access -> Proximity locking -> Locking behavior at home".
+    Then how do you unlock Rivian at home?
+    You can of course unlock it from the Rivian app.
+    However,
+    gen 2 Rivian has a very 
+    [neat feature which allows you to touch the nub on the handle to unclok](https://www.youtube.com/watch?v=KIvn9NvddlM&t=45s)
+    it at home.
 
 10. Rivian supports 
     [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
@@ -62,7 +69,12 @@ Tags: life, Rivian, EV
     .
 
 13. [Capturing vehicle diagnostics](https://www.youtube.com/watch?v=U87t9udE5Xw&t=443s)
-  .
+    .
+  
+14. [Car wash mode](https://www.youtube.com/watch?v=KIvn9NvddlM&t=226s)
+    .
+    
+15. Roadside lighting
 
 
 - [Rivian Roamer](https://rivianroamer.com/)
@@ -70,6 +82,8 @@ Tags: life, Rivian, EV
 - [Switching to Rivian? Use these Community Referral Codes for $500 to use in the Gear Shop!](https://www.reddit.com/r/Rivian/comments/1k4ikus/switching_to_rivian_use_these_community_referral/)
 
 ## References
+
+- [28 Rivian R1S & R1T Hidden Features, Tips, & Tricks](https://www.youtube.com/watch?v=KIvn9NvddlM)
 
 - [15 Tips & Tricks You Didn't Know About Your Rivian](https://www.youtube.com/watch?v=U87t9udE5Xw)
 
