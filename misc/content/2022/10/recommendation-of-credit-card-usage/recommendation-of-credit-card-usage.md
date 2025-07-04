@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-09 16:34:06
-Modified: 2025-06-28 12:41:19
+Modified: 2025-07-04 10:44:57
 Author: Benjamin Du
 Slug: recommendation-of-credit-card-usage
 Title: Recommendation of Credit Card Usage
@@ -105,7 +105,9 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td></td>
     <td>
+        <span style="color:green">
         ASC <sup>[3]</sup>
+        </span><br>
     </td>
     <td>
       <span style="color:red"></span> <br>
@@ -156,7 +158,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td></td>
     <td>
-        VVC
+        <span style="color:green"> VVC</span>
     </td>
     <td>
     </td>
@@ -197,7 +199,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td></td>
     <td>
-      VVC
+        <span style="color:green"> VVC</span>
     </td>
     <td></td>
     <td> 
@@ -283,7 +285,9 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>Flight</td>
     <td></td>
     <td></td>
-    <td>Sapphire<sup>[5]</sup></td>
+    <td>
+        <span style="color:green"> Sapphire<sup>[5]</sup> </span>
+    </td>
     <td> </td>
     <td> </td>
     <td>
@@ -329,7 +333,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td></td>
     <td>
-        Sapphire<sup>[5]</sup>
+        <span style="color:green"> Sapphire<sup>[5]</sup> </span>
     </td>
     <td></td>
     <td></td>
@@ -350,7 +354,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
       Rental
     </td>
     <td>
-      Sapphire <sup>[8]</sup>
+        <span style="color:green"> Sapphire<sup>[8]</sup> </span>
     </td>
     <td></td>
     <td></td>
@@ -373,7 +377,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
       Depot
     </td>
     <td>
-    HDCC
+        <span style="color:green"> HDCC</span>
     </td>
     <td></td>
     <td></td>
@@ -421,7 +425,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td>
       <span style="color:green">Citi-C</span><br>
-      VVC
+        <span style="color:green"> VVC</span>
     </td>
     <td></td>
     <td> 
@@ -441,8 +445,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td></td>
     <td>
-      <span style="color:green">Citi-C</span><br>
-      VCC
+        <span style="color:green">Citi-C</span><br>
+        <span style="color:green"> VVC</span>
     </td>
     <td></td>
     <td> 
