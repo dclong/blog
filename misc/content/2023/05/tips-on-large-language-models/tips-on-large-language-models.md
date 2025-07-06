@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-05-06 13:28:33
-Modified: 2025-07-06 10:51:57
+Modified: 2025-07-06 13:19:23
 Author: Benjamin Du
 Slug: tips-on-large-language-models
 Title: Tips on Large Language Models
@@ -178,7 +178,7 @@ Tags: Computer Science, programming, AI, machine learning, LLM, large language m
     General
     </td>
     <td class="tg-0pky"> 
-    NA
+    Available
     </td>
     <td class="tg-0pky">
     A command-line interface for Google Gemini.

@@ -20,6 +20,7 @@
 # 2 symbols
 - ["3d", "3D"]
 - ["Ai", "AI"]
+- ["Fc", "fc"]
 - ["Fd", "fd"]
 - ["Gh", "gh"]
 - ["Ip", "IP"]
@@ -40,6 +41,7 @@
 - ["Abi", "ABI"]
 - ["Api", "API"]
 - ["Aws", "AWS"]
+- ["Cli", "CLI"]
 - ["Cpp", "C++"]
 - ["Cpu", "CPU"]
 - ["Cte", "CTE"]
