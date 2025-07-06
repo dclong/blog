@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-05-30 08:26:03
-Modified: 2025-06-01 12:31:49
+Modified: 2025-07-06 13:30:30
 Author: Benjamin Du
 Slug: prompt-engineering-for-llm-tools
 Title: Prompt Engineering for LLM Tools
@@ -20,6 +20,13 @@ Tags: Computer Science, programming, LLM, prompt, engineering
     Google AI Studio provides tools
 
     - grounding with google search, etc.
+
+4. A single comprehensive prompt including all details is better than interactively improving your prompt.
+
+    - Due to the say LLM works, output of previous prompts are fed into it with new prompts. 
+        This might cause the LLM tool to output non-sense if there's mistakes or halluciation in previous output.
+
+    - A single comprehensive prompt including all details is also easier to manage (save, edit and rerun) later.
     
 ## Tools for Generating and Managing Prompts
 
@@ -242,4 +249,3 @@ Tags: Computer Science, programming, LLM, prompt, engineering
 3. **Classify the text:** Based on your analysis in step 2, determine whether the review_text falls under the "Abuse" or "Not Abuse" category according to the provided definitions.
 
 4. **Format the output:**  Label: [Abuse or Not Abuse]
-```
