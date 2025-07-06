@@ -5,7 +5,7 @@ Title: Tips on "sed"
 Slug: sed-tips
 Category: Software
 Tags: tips, software, text manipulation, shell, Linux, sed
-Modified: 2025-04-30 06:31:10
+Modified: 2025-07-06 10:59:01
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -29,6 +29,12 @@ Modified: 2025-04-30 06:31:10
 3. If you do prefer using sed,
     you can ask AI tools (ChatGPT, Gemini, DeepSeek, etc) 
     to generate sed comamnds for you.
+    
+## Tips & Traps
+
+1. `sed` supports multiple actions at the same time.
+    For example,
+    you can use `sed 's/^[[:space:]]*//;s/[[:space:]]*$//'` to get rid of leading and trailing spaces at the same time.
 
 ## Example Usages
  

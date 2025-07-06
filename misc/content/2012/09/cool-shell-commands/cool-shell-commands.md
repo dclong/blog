@@ -5,7 +5,7 @@ Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands
 Author: Ben Chuanlong Du
-Modified: 2025-06-09 01:32:01
+Modified: 2025-07-06 11:06:17
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -67,13 +67,10 @@ please refer to
 
 6. `history -s command` saves the specified command to the in-memory history.
 
-6. `fc` edit the last shell command (
-        using `$EDITOR`
-    ) and then send it for execution.
-    
-7. `fc -ln 1` list all historical commands without numbers.
-
-7. `fc -ln -5` list the last 4 historical commands without numbers.
+7. You can also retrieving history shell commands using the built-in command `fc`.
+    Please refer to 
+    [Fix Shell Command Using Fc]( https://www.legendu.net/misc/blog/fix-shell-command-using-fc )
+    for more discussion.
 
 ### Manipulating Commands
 
