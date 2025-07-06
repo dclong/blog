@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-07-06 11:08:48
-Modified: 2025-07-06 11:08:48
+Modified: 2025-07-06 16:17:25
 Author: Benjamin Du
 Slug: fix-shell-command-using-fc
-Title: Fix Shell Command Using fc
+Title: Fix Shell Commands Using fc
 Category: Computer Science
 Tags: Computer Science, programming, shell, command, bash, zsh, fc
 
@@ -34,15 +34,15 @@ is a better alternative to `fc`'s core functionality (edit and re-execute comman
     <tbody>
         <tr>
             <td><code>fc</code></td>
-            <td>Edit the <strong>last</strong> shell command using `$EDITOR` and send it for execution.
+            <td>Edit the last shell command using <code>$EDITOR</code> and send it for execution.
         </tr>
         <tr>
             <td><code>fc 123</code></td>
-            <td>Edit and execute command number <strong>123</strong> from history.</td>
+            <td>Edit and execute command number 123 from history.</td>
         </tr>
         <tr>
             <td><code>fc git</code></td>
-            <td>Edit and execute the <strong>last command starting with "git"</strong>.</td>
+            <td>Edit and execute the last command starting with "git".</td>
         </tr>
         <tr>
             <td><code>fc -l</code></td>
@@ -70,15 +70,15 @@ is a better alternative to `fc`'s core functionality (edit and re-execute comman
         </tr>
         <tr>
             <td><code>fc -s</code></td>
-            <td><strong>Re-execute</strong> the last command without editing.</td>
+            <td>Re-execute the last command without editing.</td>
         </tr>
         <tr>
             <td><code>fc -s old=new</code></td>
-            <td><strong>Re-execute</strong> the last command, replacing <code>old</code> with <code>new</code>.</td>
+            <td>Re-execute the last command, replacing <code>old</code> with <code>new</code>.</td>
         </tr>
         <tr>
             <td><code>fc -s old=new git</code></td>
-            <td><strong>Re-execute</strong> the last <code>git</code> command, replacing <code>old</code> with <code>new</code>.</td>
+            <td>Re-execute the last <code>git</code> command, replacing <code>old</code> with <code>new</code>.</td>
         </tr>
     </tbody>
 </table>
