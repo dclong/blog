@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-05-30 08:26:03
-Modified: 2025-07-06 13:30:30
+Modified: 2025-07-06 17:46:09
 Author: Benjamin Du
 Slug: prompt-engineering-for-llm-tools
 Title: Prompt Engineering for LLM Tools
@@ -27,6 +27,11 @@ Tags: Computer Science, programming, LLM, prompt, engineering
         This might cause the LLM tool to output non-sense if there's mistakes or halluciation in previous output.
 
     - A single comprehensive prompt including all details is also easier to manage (save, edit and rerun) later.
+    
+5. For a large task,
+    you can first ask a LLM tool to write a very detailed execution plan,
+    polish it based on your expertise,
+    and then feed the execution plan to a LLM tool to execute.
     
 ## Tools for Generating and Managing Prompts
 
