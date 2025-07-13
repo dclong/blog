@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-07-03 12:02:00
+Modified: 2025-07-13 10:56:18
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -21,11 +21,18 @@ Tags: life, Rivian, EV
     Settings -> Vehicle -> Displays and Lighting -> High Beam Assist.
     Select on "Adaptive".
 
-1. drive camera. Need storage device
+1. [Set up storage for Gear Guard](https://www.youtube.com/watch?v=ND5CrNOoJMk)
+    .
+    The maximum support disk is 2T
+    and the required minimum disk is 128G. 
+    I personally recommended using 1T or 2T disks.
 
 2. Enhanced Highway Assist
 
-3. Camping model which does self leveling
+3. [Camping model](https://www.youtube.com/watch?v=BrpBU69ijig)
+    which supports 
+    [auto leveling](https://www.youtube.com/watch?v=BrpBU69ijig&t=170s)
+    .
 
 4. [Pet comfort mode](https://www.youtube.com/watch?v=KIvn9NvddlM&t=139s)
     .
