@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-07-25 00:43:06
-Modified: 2025-07-25 00:43:06
+Modified: 2025-07-26 09:03:40
 Author: Benjamin Du
 Slug: fast-dc-charging-in-wa
-Title: Fast Dc Charging in WA
+Title: Fast DC Charging in WA
 Category: Life
 Tags: life, EV, charging, charger, supercharger, Tesla, Rivian, CCS, NACS
 
