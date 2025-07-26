@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-07-13 10:56:18
+Modified: 2025-07-26 12:17:04
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -27,7 +27,9 @@ Tags: life, Rivian, EV
     and the required minimum disk is 128G. 
     I personally recommended using 1T or 2T disks.
 
-2. Enhanced Highway Assist
+2. [Enhanced Highway Assist](https://www.youtube.com/watch?v=r5iX7ZMiRnY)
+  . 
+  It only works on pre-mapped highways.
 
 3. [Camping model](https://www.youtube.com/watch?v=BrpBU69ijig)
     which supports 
@@ -90,7 +92,8 @@ Tags: life, Rivian, EV
 
 ## References
 
+- [Fast Dc Charging in WA]( https://www.legendu.net/misc/blog/fast-dc-charging-in-wa )
+
 - [28 Rivian R1S & R1T Hidden Features, Tips, & Tricks](https://www.youtube.com/watch?v=KIvn9NvddlM)
 
 - [15 Tips & Tricks You Didn't Know About Your Rivian](https://www.youtube.com/watch?v=U87t9udE5Xw)
-
