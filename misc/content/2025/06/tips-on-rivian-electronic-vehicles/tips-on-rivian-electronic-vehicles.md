@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-07-26 12:17:04
+Modified: 2025-07-26 12:18:03
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -8,6 +8,8 @@ Category: Life
 Tags: life, Rivian, EV
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+My Rivian referral code: LISHA4198234.
 
 ## Tips
 

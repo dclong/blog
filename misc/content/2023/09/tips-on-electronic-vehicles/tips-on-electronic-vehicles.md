@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-09-13 17:49:03
-Modified: 2025-05-11 18:54:51
+Modified: 2025-07-26 12:19:07
 Author: Benjamin Du
 Slug: tips-on-electronic-vehicles
 Title: Tips on Electronic Vehicles
@@ -50,6 +50,8 @@ https://fermataenergy.com/
 
 
 ## References
+
+- [Fast Dc Charging in WA]( https://www.legendu.net/misc/blog/fast-dc-charging-in-wa )
 
 - [r/Ioniq9 @ Reddit](https://www.reddit.com/r/Ioniq9/)
 
