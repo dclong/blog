@@ -1,6 +1,6 @@
 Status: published
 Date: 2024-01-22 17:18:34
-Modified: 2024-09-14 13:10:32
+Modified: 2025-07-27 11:11:37
 Author: Benjamin Du
 Slug: shopping-on-amazon
 Title: Shopping on Amazon
@@ -23,7 +23,7 @@ Tags: shopping, Amazon, e-Commerce
 1. Goto
     <https://www.amazon.com/gp/help/customer/display.html?nodeId=200127470>
     .
-2. Scroll down to the bottom and locate "Start a Chat Now".
+2. Scroll down to the bottom and locate "Need more help?".
 3. Click on the link "Contact Us".
 
 ## Amazon Subscriptions
