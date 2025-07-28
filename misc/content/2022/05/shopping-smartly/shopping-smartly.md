@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-05-21 21:35:27
-Modified: 2023-10-11 10:06:22
+Modified: 2025-07-28 00:04:44
 Author: Benjamin Du
 Slug: shopping-smartly
 Title: Shopping Smartly
@@ -16,10 +16,18 @@ and they are not covered by insurances or you do not have insurances,
 ASK WHETHER THEY PROVIDE ANY DISCOUNT!!!
 
 ## Price Check / Match
-[CamelCamelCamel - Amazon Price Tracker](https://camelcamelcamel.com/)
+
+- [CamelCamelCamel - Amazon Price Tracker](https://camelcamelcamel.com/)
 
 ## Shopping Assistants 
-[CapitalOne Shopping](https://capitaloneshopping.com/)
+
+- [CapitalOne Shopping](https://capitaloneshopping.com/)
+
+## Shopping (Used) Books
+
+- [Thrift Books](https://www.thriftbooks.com/)
+
+- [World of Books](https://www.worldofbooks.com)
 
 ## Deals
 
