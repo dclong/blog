@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-07-25 00:43:06
-Modified: 2025-07-27 11:52:16
+Modified: 2025-07-27 18:27:29
 Author: Benjamin Du
 Slug: fast-dc-charging-in-wa
 Title: Fast DC Charging in WA
@@ -11,11 +11,15 @@ Tags: life, EV, charging, charger, supercharger, Tesla, Rivian, CCS, NACS
 
 ## Tips & Traps
 
-1. It is safe to charge in an open charging station when it is raining. 
+1. PlugShare helps you find plugs regardless of network 
+    and see user ratings/comments on those plugs to see if they are accessible or reliable.
+    PlugShare for charging stations is kind of like Yelp to restaurants.
+
+2. It is safe to charge in an open charging station when it is raining. 
     However, 
     avoid charing in an open charging station hen it rains really heavily. 
 
-2. While an EV with a START button is been charged,
+3. While an EV with a START button is been charged,
     pressing the start button allow you to use radio, climate control and infotainment.
     However,
     you cannot drive the EV until your unplug the charge (which is a good safety feature). 
@@ -24,7 +28,6 @@ Tags: life, EV, charging, charger, supercharger, Tesla, Rivian, CCS, NACS
 ## Good Fast DC Charging in WA
 
 <table>
-    <caption>Comparison of Tesla, Electrify America, and EVgo in Washington</caption>
     <thead>
         <tr>
             <th>Dimension</th>
@@ -89,5 +92,10 @@ you can use
 [EV Route Planner](https://abetterrouteplanner.com/)
 or 
 [A Better Route Planner](https://abetterrouteplanner.com/)
-to help you plan charging during your road trip.
+to help you plan charging during your road trip
+.
+
+## References
+
+- [PlugShare](https://www.plugshare.com/)
 
