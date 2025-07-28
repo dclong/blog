@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-07-18 00:07:18
+Modified: 2025-07-27 21:36:01
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -43,17 +43,29 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 
         uv add --script example.py 'requests<3' 'rich'
 
-2. You can run a uv managed Python script using the following command.
+2. You can run a uv managed Python script using
 
         uv run /path/to/uv_init_pyscript
 
+    or
+
+        uv run --script /path/to/uv_init_pyscript
+
+    Those 2 commands will automatically resolve and install dependencies specified in the script.
     This can be simplified by add the shebang 
-    `#!/usr/bin/env -S uv run --script` 
-    or `#!/usr/bin/env -S uv run python` 
-    (preferred as it's easy to pass options to control the python executable) 
+    `#!/usr/bin/env -S uv run`
+    or `#!/usr/bin/env -S uv run --script`
     into the Python script,
     so that you can invoke the script as an executable directly.
-    
+    Notice that there's currently no way to control the Python interpreter options
+    if you want `uv` to automatically resolve and install dependencies of a Python script.
+    You can pass Python interpreter options, 
+    say `-P`, 
+    using `uv run python -P ...`.
+    However,
+    when used to run a Python script (`uv run python -P /path/to/uv_init_pyscript`),
+    it won't automatically resolve and install dependencies specified in the script.
+
 ### Manage Projects
 
 1. Migrate from other Python projects to uv.
