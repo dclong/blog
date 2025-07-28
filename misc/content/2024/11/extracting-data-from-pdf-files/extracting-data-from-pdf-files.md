@@ -1,6 +1,6 @@
 Status: published
 Date: 2024-11-15 12:41:51
-Modified: 2025-07-27 18:33:28
+Modified: 2025-07-27 19:37:57
 Author: Benjamin Du
 Slug: extracting-data-from-pdf-files
 Title: Extracting Data from PDF Files
@@ -30,9 +30,9 @@ is is a robust, locally hosted web-based PDF manipulation tool using Docker.
 
 ## Python Libraries
 
-- pdftotext
+- pdfplumber (preferred)
 
-- pdfplumber
+- pdftotext
 
 ## References
 
