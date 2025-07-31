@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-07-27 21:36:01
+Modified: 2025-07-31 11:06:03
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -57,7 +57,7 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
     or `#!/usr/bin/env -S uv run --script`
     into the Python script,
     so that you can invoke the script as an executable directly.
-    Notice that there's currently no way to control the Python interpreter options
+    Notice that there's currently no way to pass the Python interpreter options
     if you want `uv` to automatically resolve and install dependencies of a Python script.
     You can pass Python interpreter options, 
     say `-P`, 
@@ -65,6 +65,14 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
     However,
     when used to run a Python script (`uv run python -P /path/to/uv_init_pyscript`),
     it won't automatically resolve and install dependencies specified in the script.
+    There are 2 ways to address this issue.
+    First, 
+    you can configure the corresponding Python environment variable (e.g., `PYTHONSAFEPATH=1`) if available.
+    Second,
+    Wait for the
+    [PR](https://github.com/astral-sh/uv/pull/12763)
+    (which supports `--with-requirements script.py` to include inline dependency metadata from another script)
+    to be merged and released.
 
 ### Manage Projects
 
