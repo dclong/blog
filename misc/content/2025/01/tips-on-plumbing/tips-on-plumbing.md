@@ -13,6 +13,10 @@ Tags: house, plumbing
 2. disconnect outdoor water hose before winter
 3. water pressure: 50-70 psi, aming for 60 psi
 
+## Fix Water Hammer Issues
+
+- [How to Fix Banging Pipes / Water Hammer](https://www.youtube.com/watch?v=gONUBkwfHb8)
+
 ## References
 
 - [Fix Water Hammer Issues]( https://www.legendu.net/misc/blog/fix-water-hammer-issues )

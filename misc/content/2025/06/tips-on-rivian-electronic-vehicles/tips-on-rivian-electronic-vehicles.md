@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-07-26 12:18:03
+Modified: 2025-08-01 11:58:16
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -37,6 +37,10 @@ My Rivian referral code: LISHA4198234.
     which supports 
     [auto leveling](https://www.youtube.com/watch?v=BrpBU69ijig&t=170s)
     .
+    
+4. Rivian comes with a 
+    [torch / flashlight](https://www.youtube.com/watch?app=desktop&v=dciR0cow3ys&t=30s)
+    which is integrated into the driver's side door.
 
 4. [Pet comfort mode](https://www.youtube.com/watch?v=KIvn9NvddlM&t=139s)
     .
@@ -70,6 +74,10 @@ My Rivian referral code: LISHA4198234.
     [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
     which makes it convenient for children and small people 
     to hop on/off the car.
+    However,
+    the behavior of auto kneeling is not consistently
+    especially when it's interruptted by opening door when parked.
+    I'd suggest you disable (default) this feature.
 
 11. Rivian Connect+. Once subscribed, you can use its WiFi hotspot. 
 
@@ -92,7 +100,23 @@ My Rivian referral code: LISHA4198234.
 - [Rivian @ Reddit](https://www.reddit.com/r/Rivian/)
 - [Switching to Rivian? Use these Community Referral Codes for $500 to use in the Gear Shop!](https://www.reddit.com/r/Rivian/comments/1k4ikus/switching_to_rivian_use_these_community_referral/)
 
+## Useful Accessories
+
+- [2023 Rivian R1T & R1S Accessories | Essential Upgrades For The Best EV Truck](https://www.youtube.com/watch?v=Qyt91MytaQU)
+
+- [[‪@Rivian‬](https://www.youtube.com/@Rivian) R1S hitch mount bike rack: [‪@innoracks‬](https://www.youtube.com/@innoracks) INH110] (https://www.youtube.com/watch?v=RsIhahJfbtI)
+
+- [Sun Shades](https://www.youtube.com/watch?v=1A-OrmJNlzg)
+
+- [EVBASE Rivian Running Boards R1T/R1S Running Boards Rivian Exterior Accessories](https://www.evbase.com/products/rivian-running-boards-r1t-r1s-running-boards?currency=USD&variant=44063700910323&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=d6c163adff3e&gad_source=1&gad_campaignid=20771277288&gbraid=0AAAAAqdbsSGAKS0XGjAewnGAR08HWyoQJ&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c-d9Q17vHaHRBeOHk_cgp_1tdHLTMlR5jlRDiPMT9IacmAAFAWEA4RoCNx8QAvD_BwE)
+
+- [Foamy for Sleep](https://hest.com/products/rivian-foamy-r1s)
+
+- [Tent](https://rivian.com/gear-shop/p/r1s-three-person-tent?sku=ACERRTT002)
+
 ## References
+
+- [EV Base](https://www.evbase.com/)
 
 - [Fast Dc Charging in WA]( https://www.legendu.net/misc/blog/fast-dc-charging-in-wa )
 

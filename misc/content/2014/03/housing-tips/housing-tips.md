@@ -5,7 +5,7 @@ Title: Tips on Housing
 Slug: housing-tips
 Category: Life
 Tags: life, housing, tips, rent, apartment, shopping
-Modified: 2025-02-15 18:02:10
+Modified: 2025-08-01 13:52:27
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -13,9 +13,7 @@ Modified: 2025-02-15 18:02:10
 
 https://www.youtube.com/@richard0501
 
-## Buying a House
-
-- [美国房屋装修质量怎么看？良心装修vs坑爹装修！](https://www.youtube.com/watch?v=tqtCoflI5bo)
+## [Buying a House]( https://www.legendu.net/misc/blog/tips-on-buying-a-house )
 
 ## Deck
 
@@ -29,9 +27,13 @@ https://www.youtube.com/@richard0501
 
 - [我在美国装修房子的失误 #美国旧房翻新 #美国房地产投资 #美国装修房子](https://www.youtube.com/watch?v=85VqOb35iJk)
 
-## Water Damage
+## Water 
 
 - [西雅圖家裡淹水的天價維修帳單](https://www.youtube.com/watch?v=ygL6OOOdwqM)
+
+- [Tips on Plumbing]( https://www.legendu.net/misc/blog/tips-on-plumbing )
+
+- [Adjust Water Pressure in the House]( https://www.legendu.net/misc/blog/adjust-water-pressure-in-the-house )
 
 ## Rebuild
 
@@ -88,11 +90,7 @@ https://www.youtube.com/@richard0501
 
 - [暗盒修复器](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220528221640&SearchText=%E6%9A%97%E7%9B%92%E4%BF%AE%E5%A4%8D%E5%99%A8&spm=a2g0o.productlist.1000002.0)
 
-### Pest & Animal Control
-
-- https://www.amazon.com/EcoClear-Products-620101-All-Natural-Non-Toxic/dp/B00RU6YHJW/ref=sr_1_22?dchild=1&keywords=rat+dehydration&qid=1626710097&sr=8-22
-
-- https://www.amazon.com/Eaton-704-AP-Anticoagulant-Flavor-rodenticide/dp/B07GBQKLWZ/ref=sr_1_35?dchild=1&keywords=rat+dehydration&qid=1626710097&sr=8-35
+### [Pest and Rodent Control]( https://www.legendu.net/misc/blog/tips-on-pest-and-rodent-control ) 
 
 ### Kitchen & Bathroom 
 

@@ -8,6 +8,3 @@ Category: Life
 Tags: life, water hammer, banging, pipe, plumbing
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
-
-
-- [How to Fix Banging Pipes / Water Hammer](https://www.youtube.com/watch?v=gONUBkwfHb8)
