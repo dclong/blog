@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-02 23:36:54
-Modified: 2025-08-03 13:30:37
+Modified: 2025-08-03 19:12:17
 Author: Benjamin Du
 Slug: flat-tire-on-rivian
 Title: Flat Tire on Rivian
@@ -11,14 +11,34 @@ Tags: life, Vehicle, Rivian, tire, flat, leakage
 
 ## Schedule a Service Appointment
 
-You'll be able to report vehicle issues and request a service appointment in the Rivian app 
-or by calling the Rivian Service Support Team at (855) RIVIAN5.
+There are 3 choices to get your Rivian vehicle serviced.
+
+- Rivian Service Center
+
+- Rivian Mobile Service
+
+- Rivian-certified Car Shops
+
+You can report vehicle issues and request a service appointment in one of the following ways.
+
+- in the Rivian app 
+
+- by calling the Rivian Service Support Team at (855) RIVIAN5
+
+- by calling the phone number of a local Rivian service center 
+
 
 ## Pump Tire with Rivian Air Compressor
 
 - [Rivian R1S Pump Up Tires With Air Compressor Tutorial](https://www.youtube.com/watch?v=zyn5lRaPefI)
 
 ## Apply Sealant to Leakage Tire
+
+Rivian provides a tire sealant kit when you purchase or lease one.
+You can order additional ones from
+[Rivian Gear Shop](https://gearshop.rivian.com/products/tire-sealant-kit)
+or from Amazon (which might be much cheaper)
+.
 
 - [Installing TireJect tire sealant](https://www.youtube.com/watch?v=kV-EklLFw6o)
 
@@ -64,4 +84,11 @@ to help or to a safer location to change the tire.
 ## Rivian R1S Spare Tire
 
 - [Rivian R1S Compressed SPARE Tire - Will it work??](https://www.youtube.com/watch?v=Lru08rr5WPM)
+
+## References
+
+- [Rivian Owner's Guide](https://assets.rivian.com/2md5qhoeajym/7aH3Lwf2vJJvjhklXorrga/0ef9228665ffa8924122ea93dfa11ce1/r1s-og-my25-en-us-20240624.pdf)
+
+- [R1T + R1S Tire Service Guide](https://assets.rivian.com/2md5qhoeajym/5HOJlFn8au2jEOws2LDCtu/c87fa20deb700e11d0403b1c3dcd9a24/R1-tire-service-guide-en-us-20240304.pdf)
+
 

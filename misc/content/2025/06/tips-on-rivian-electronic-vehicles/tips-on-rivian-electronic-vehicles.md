@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-01 11:58:16
+Modified: 2025-08-03 19:12:17
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -102,6 +102,11 @@ My Rivian referral code: LISHA4198234.
 
 ## Useful Accessories
 
+- [Tire Sealant Kit](https://gearshop.rivian.com/products/tire-sealant-kit)
+    .
+    It's much cheaper to order one from Amazon.
+
+
 - [2023 Rivian R1T & R1S Accessories | Essential Upgrades For The Best EV Truck](https://www.youtube.com/watch?v=Qyt91MytaQU)
 
 - [[‪@Rivian‬](https://www.youtube.com/@Rivian) R1S hitch mount bike rack: [‪@innoracks‬](https://www.youtube.com/@innoracks) INH110] (https://www.youtube.com/watch?v=RsIhahJfbtI)
@@ -115,6 +120,10 @@ My Rivian referral code: LISHA4198234.
 - [Tent](https://rivian.com/gear-shop/p/r1s-three-person-tent?sku=ACERRTT002)
 
 ## References
+
+- [Rivian Owner's Guide](https://assets.rivian.com/2md5qhoeajym/7aH3Lwf2vJJvjhklXorrga/0ef9228665ffa8924122ea93dfa11ce1/r1s-og-my25-en-us-20240624.pdf)
+
+- [R1T + R1S Tire Service Guide](https://assets.rivian.com/2md5qhoeajym/5HOJlFn8au2jEOws2LDCtu/c87fa20deb700e11d0403b1c3dcd9a24/R1-tire-service-guide-en-us-20240304.pdf)
 
 - [EV Base](https://www.evbase.com/)
 
