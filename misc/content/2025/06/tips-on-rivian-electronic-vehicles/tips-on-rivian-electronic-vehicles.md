@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-03 19:12:17
+Modified: 2025-08-03 19:13:22
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -114,6 +114,8 @@ My Rivian referral code: LISHA4198234.
 - [Sun Shades](https://www.youtube.com/watch?v=1A-OrmJNlzg)
 
 - [EVBASE Rivian Running Boards R1T/R1S Running Boards Rivian Exterior Accessories](https://www.evbase.com/products/rivian-running-boards-r1t-r1s-running-boards?currency=USD&variant=44063700910323&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=d6c163adff3e&gad_source=1&gad_campaignid=20771277288&gbraid=0AAAAAqdbsSGAKS0XGjAewnGAR08HWyoQJ&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c-d9Q17vHaHRBeOHk_cgp_1tdHLTMlR5jlRDiPMT9IacmAAFAWEA4RoCNx8QAvD_BwE)
+
+- [R1S Camping Mattress Inflatable Air Bed Backseat Rear Trunk Travel Accessories Gear for Rivian](https://www.evbase.com/products/rivian-r1s-camping-mattress-inflatable-air-bed-backseat-rear-trunk-travel-accessories-gear?_pos=1&_sid=f45af2684&_ss=r)
 
 - [Foamy for Sleep](https://hest.com/products/rivian-foamy-r1s)
 
