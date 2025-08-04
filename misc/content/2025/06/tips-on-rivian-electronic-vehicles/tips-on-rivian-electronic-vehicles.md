@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-03 19:13:22
+Modified: 2025-08-04 01:48:30
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -106,6 +106,7 @@ My Rivian referral code: LISHA4198234.
     .
     It's much cheaper to order one from Amazon.
 
+- [Jack Service Kit](https://gearshop.rivian.com/products/jack-service-kit)
 
 - [2023 Rivian R1T & R1S Accessories | Essential Upgrades For The Best EV Truck](https://www.youtube.com/watch?v=Qyt91MytaQU)
 

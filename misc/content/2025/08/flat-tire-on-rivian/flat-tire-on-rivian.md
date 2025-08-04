@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-02 23:36:54
-Modified: 2025-08-03 19:12:17
+Modified: 2025-08-04 01:48:30
 Author: Benjamin Du
 Slug: flat-tire-on-rivian
 Title: Flat Tire on Rivian
@@ -84,6 +84,16 @@ to help or to a safer location to change the tire.
 ## Rivian R1S Spare Tire
 
 - [Rivian R1S Compressed SPARE Tire - Will it work??](https://www.youtube.com/watch?v=Lru08rr5WPM)
+
+## Tire Installation 
+
+The Rivian R1S lug nut torque specification is 140 foot-pounds (ft-lbs) or 190 Newton-meters (Nm), 
+according to Rivian's tire service guide. 
+It's crucial to use a calibrated torque wrench to ensure proper tightening and prevent damage to the wheel or studs. 
+Always tighten the lug nuts in a star pattern to distribute the clamping force evenly. 
+
+Lug nuts are M14*1.5 which requires a 3/4 inch socket.
+
 
 ## References
 
