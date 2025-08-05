@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-02-08 13:28:34
-Modified: 2025-03-02 14:14:37
+Modified: 2025-08-05 16:56:39
 Author: Benjamin Du
 Slug: tips-on-car-tires
 Title: Tips on Car Tires
@@ -8,6 +8,10 @@ Category: Life
 Tags: life, car, vehicle, tire, run-flat, snow
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+## Tube-type vs Tubeless
+
+1. Modern tires are tubeless.
 
 ## Run-flat Tires 
 
@@ -49,15 +53,64 @@ Tags: life, car, vehicle, tire, run-flat, snow
         (which is also relatively cheap compared to other famous brand tires)
         .
         
-## Install Tires at Costco
+## Cost-efficient Ways to Install Tires 
 
-1. It's relative cheap to install new tires at Costco Tires & Auto.
-    - Order tires at https://tires.costco.com/
-    - Schedule an appointment. 
-        Notice that you do NOT have to wait until your tires are delivered 
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Tire Purchase</th>
+    <th class="tg-0pky">Car Shops</th>
+    <th class="tg-0pky">Pros</th>
+    <th class="tg-0lax">Cons</th>
+    <th class="tg-0lax">Comments</th>
+    <th class="tg-0lax">Recommendation</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">TireRack.com</td>
+    <td class="tg-0lax">Discount Tire</td>
+    <td class="tg-0lax">
+    1. relatively cheap price<br>
+    2. free road hazard protection<br>
+    3. fast free delivery to the selected car shop<br>
+    4. relatively cheap installation fee</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Generally recommended.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Discount Tire</td>
+    <td class="tg-0lax">Discount Tire</td>
+    <td class="tg-0lax">
+    1. price is OK (usually MSPR) <br>
+    2. tire is either in stock or extremely fast free delivery when ordered from their warehouse <br>
+    3. very cheap installation fee <br>
+    4. free repairs in future if a road hazard to the tire is repairable<br>
+    </td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">If you want to get tires repaired or changed ASAP, say, on the same day.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">
+        <a href="https://tires.costco.com/">
+        Costco Tires & Auto
+        </a>
+    </td>
+    <td class="tg-0lax">Costco</td>
+    <td class="tg-0lax">1. relatively cheap price<br>2. free delivery to Costco Auto<br>3. free installation </td>
+    <td class="tg-0lax">1. delivery is slow (up to 10 business days)<br>2. Costco Auto is busy </td>
+    <td class="tg-0lax">
+        1. Notice that you do NOT have to wait until your tires are delivered 
         before scheduling an appointment.
         The estimated delivery date is pretty accurate.
         Just schedule an appointment after the estimated delivery date.
+    </td>
+    <td class="tg-0lax">
+    If you prioritize cheap price and don't mind to wait for 1-2 weeks.
+    </td>
+  </tr>
+</tbody>
+</table>
 
 ## References
 

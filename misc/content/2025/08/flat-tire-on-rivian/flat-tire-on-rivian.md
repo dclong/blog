@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-02 23:36:54
-Modified: 2025-08-04 01:48:30
+Modified: 2025-08-05 16:56:39
 Author: Benjamin Du
 Slug: flat-tire-on-rivian
 Title: Flat Tire on Rivian
@@ -27,6 +27,13 @@ You can report vehicle issues and request a service appointment in one of the fo
 
 - by calling the phone number of a local Rivian service center 
 
+It is suggested that you 
+If your tire has to be replaced,
+it is suggested that you purchase one from TireRack.dom 
+and replace it at DicountTire.com.
+See
+[Tips on Car Tires]( https://www.legendu.net/misc/blog/tips-on-car-tires )
+for more discussions on this.
 
 ## Pump Tire with Rivian Air Compressor
 
@@ -96,6 +103,10 @@ Lug nuts are M14*1.5 which requires a 3/4 inch socket.
 
 
 ## References
+
+- [Hydraulic bottle jack tutorial](https://www.youtube.com/watch?v=OJRxRRhEJ8s)
+
+- [How to Use a Bottle Jack | KINCROME Tool Talk](https://www.youtube.com/watch?v=H9jQYfWT2ds)
 
 - [Rivian Owner's Guide](https://assets.rivian.com/2md5qhoeajym/7aH3Lwf2vJJvjhklXorrga/0ef9228665ffa8924122ea93dfa11ce1/r1s-og-my25-en-us-20240624.pdf)
 
