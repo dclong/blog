@@ -7,7 +7,7 @@ Title: Shopping on Amazon
 Category: Shopping
 Tags: shopping, Amazon, e-Commerce
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
 
 ## Amazon Price Tracking & Alert
 
