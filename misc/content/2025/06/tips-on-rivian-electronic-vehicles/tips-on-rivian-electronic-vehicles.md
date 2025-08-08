@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-04 01:48:30
+Modified: 2025-08-08 00:03:22
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -123,6 +123,8 @@ My Rivian referral code: LISHA4198234.
 - [Tent](https://rivian.com/gear-shop/p/r1s-three-person-tent?sku=ACERRTT002)
 
 ## References
+
+- [😱My RIVIAN R1S 5 BIGGEST ISSUES: And How I Got Them Fixed](https://www.youtube.com/watch?v=4jSKMvuLuNo)
 
 - [Rivian Owner's Guide](https://assets.rivian.com/2md5qhoeajym/7aH3Lwf2vJJvjhklXorrga/0ef9228665ffa8924122ea93dfa11ce1/r1s-og-my25-en-us-20240624.pdf)
 

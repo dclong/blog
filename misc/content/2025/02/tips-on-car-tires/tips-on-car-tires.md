@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-02-08 13:28:34
-Modified: 2025-08-05 16:56:39
+Modified: 2025-08-06 10:29:05
 Author: Benjamin Du
 Slug: tips-on-car-tires
 Title: Tips on Car Tires
@@ -59,48 +59,56 @@ Tags: life, car, vehicle, tire, run-flat, snow
   <tr>
     <th class="tg-0pky">Tire Purchase</th>
     <th class="tg-0pky">Car Shops</th>
-    <th class="tg-0pky">Pros</th>
-    <th class="tg-0lax">Cons</th>
     <th class="tg-0lax">Comments</th>
     <th class="tg-0lax">Recommendation</th>
   </tr></thead>
 <tbody>
   <tr>
-    <td class="tg-0lax">TireRack.com</td>
+    <td class="tg-0lax">TireRack</td>
     <td class="tg-0lax">Discount Tire</td>
     <td class="tg-0lax">
-    1. relatively cheap price<br>
-    2. free road hazard protection<br>
-    3. fast free delivery to the selected car shop<br>
-    4. relatively cheap installation fee</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+      <span style="color:green">
+        - relatively cheap price <br>
+        - free road hazard protection offered by TireRack<br>
+        - fast free delivery to the selected car shop<br>
+        - discounted installation fee</td>
+      </span>
     <td class="tg-0lax">Generally recommended.</td>
   </tr>
   <tr>
     <td class="tg-0lax">Discount Tire</td>
     <td class="tg-0lax">Discount Tire</td>
     <td class="tg-0lax">
-    1. price is OK (usually MSPR) <br>
-    2. tire is either in stock or extremely fast free delivery when ordered from their warehouse <br>
-    3. very cheap installation fee <br>
-    4. free repairs in future if a road hazard to the tire is repairable<br>
+        <span style="color:green">
+            - price is OK (usually MSPR) <br>
+            - tire is either in stock or extremely fast free delivery when ordered from their warehouse <br>
+            - very cheap installation fee <br>
+            - free repairs in future if a road hazard to the tire is repairable<br>
+        </span>
+        <span style="color:red">
+            - You can purchase additional "Certificate" from Discount Tire which covers future tire replacement,
+            however,
+            it's quite expensive. 
+        </span>
     </td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
     <td class="tg-0lax">If you want to get tires repaired or changed ASAP, say, on the same day.</td>
   </tr>
   <tr>
     <td class="tg-0lax">
-        <a href="https://tires.costco.com/">
-        Costco Tires & Auto
-        </a>
+        <a href="https://tires.costco.com/">Costco Tires & Auto</a>
     </td>
     <td class="tg-0lax">Costco</td>
-    <td class="tg-0lax">1. relatively cheap price<br>2. free delivery to Costco Auto<br>3. free installation </td>
-    <td class="tg-0lax">1. delivery is slow (up to 10 business days)<br>2. Costco Auto is busy </td>
     <td class="tg-0lax">
-        1. Notice that you do NOT have to wait until your tires are delivered 
+        <span style="color:green">
+            - relatively cheap price<br>
+            - free delivery to Costco Auto<br>
+            - free installation <br> 
+        </span>
+        <span style="color:red">
+            - delivery is slow (up to 10 business days)<br>
+            - Costco Auto is busy <br> 
+        </span>
+        - Notice that you do NOT have to wait until your tires are delivered 
         before scheduling an appointment.
         The estimated delivery date is pretty accurate.
         Just schedule an appointment after the estimated delivery date.

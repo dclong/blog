@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-02 23:36:54
-Modified: 2025-08-05 16:56:39
+Modified: 2025-08-06 10:19:28
 Author: Benjamin Du
 Slug: flat-tire-on-rivian
 Title: Flat Tire on Rivian
@@ -27,9 +27,8 @@ You can report vehicle issues and request a service appointment in one of the fo
 
 - by calling the phone number of a local Rivian service center 
 
-It is suggested that you 
 If your tire has to be replaced,
-it is suggested that you purchase one from TireRack.dom 
+it is suggested that you purchase one from TireRack.com 
 and replace it at DicountTire.com.
 See
 [Tips on Car Tires]( https://www.legendu.net/misc/blog/tips-on-car-tires )
