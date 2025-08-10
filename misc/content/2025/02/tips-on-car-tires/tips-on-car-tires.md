@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-02-08 13:28:34
-Modified: 2025-08-06 10:29:05
+Modified: 2025-08-10 08:14:02
 Author: Benjamin Du
 Slug: tips-on-car-tires
 Title: Tips on Car Tires
@@ -95,7 +95,7 @@ Tags: life, car, vehicle, tire, run-flat, snow
   </tr>
   <tr>
     <td class="tg-0lax">
-        <a href="https://tires.costco.com/">Costco Tires & Auto</a>
+        <a href="https://tires.costco.com/">Costco Tires</a>
     </td>
     <td class="tg-0lax">Costco</td>
     <td class="tg-0lax">

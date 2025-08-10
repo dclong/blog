@@ -5,7 +5,7 @@ Title: Tips on Housing
 Slug: housing-tips
 Category: Life
 Tags: life, housing, tips, rent, apartment, shopping
-Modified: 2025-08-01 13:52:27
+Modified: 2025-08-10 09:34:18
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -46,15 +46,11 @@ https://www.youtube.com/@richard0501
 1. Use [Washington State Department of Labor & Industries](https://lni.wa.gov/)
     to verify a contractor, tradesperson or business.
  
-## Things to Consider When Purchasing a House
+## Purchasing a House
 
-1. whether it is a new house or not and facilitaties
-
-2. radiation, etc., whether it is close to any high vol electric wires
-
-3. whether it is close to a busy road, better not, if so, any stop signs
-
-4. Safe or not, neighbours, etc.
+See
+[Tips on Buying a House]( https://www.legendu.net/misc/blog/tips-on-buying-a-house )
+for discussion.
 
 ## Misc
 

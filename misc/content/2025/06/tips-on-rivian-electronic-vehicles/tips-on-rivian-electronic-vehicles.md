@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-08 00:03:22
+Modified: 2025-08-10 10:06:50
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -45,30 +45,23 @@ My Rivian referral code: LISHA4198234.
 4. [Pet comfort mode](https://www.youtube.com/watch?v=KIvn9NvddlM&t=139s)
     .
 
-5. garage door pairing 
+5. Garage door pairing. 
 
-6. air compressor 
+6. [Air compressor](https://www.youtube.com/watch?v=zyn5lRaPefI)
+    . 
 
-7. Rivian has a built-in navigation system. 
+7. Rivian has a built-in navigation system (which is based on Google Map). 
     However,
-    it is often more convenient to explore locations and routes on Google Map.
-    Rivian allows any driver on a Rivian car to directly share Google Map to the Rivian app
+    it is often more convenient to explore locations and routes on your phone.
+    Rivian allows any driver on a Rivian car to directly share Google Map from their phone to the Rivian app
     to open the route using the built-in navigation system.
 
 8. Memorizing AC vent positions. 
 
-9. Disable unlocking at home. 
-    By default, Rivian locks and unlock automatically while you walk away/towards it.
-    This can be annoying at home.
-    Fortunately,
-    Rivian supports customizing the proximity locking behavior at home.
-    It can be configurated via "Settings -> Vehicle -> Access -> Proximity locking -> Locking behavior at home".
-    Then how do you unlock Rivian at home?
-    You can of course unlock it from the Rivian app.
-    However,
-    gen 2 Rivian has a very 
-    [neat feature which allows you to touch the nub on the handle to unclok](https://www.youtube.com/watch?v=KIvn9NvddlM&t=45s)
-    it at home.
+9. Disable unlocking at home.
+    See 
+    [Proximity Locking on Rivian]( https://www.legendu.net/misc/blog/proximity-locking-on-Rivian ) 
+    for discussion.
 
 10. Rivian supports 
     [auto kneeling](https://www.youtube.com/watch?v=EaBvLCuAPhg)
