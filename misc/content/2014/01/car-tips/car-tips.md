@@ -5,23 +5,10 @@ Title: Tips on Car and Driving
 Slug: car-tips
 Category: Life
 Tags: car, life, driving, safety, tips, drive, Nissan, Leaf
-Modified: 2025-02-26 15:23:23
+Modified: 2025-08-18 10:45:21
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
-
-## Nissan Leaf
-
-Please refer to
-[Tips on Nissan Leaf]( https://www.legendu.net/misc/blog/tips-on-nissan-leaf )
-for details.
-
-## Mercedes-Benz
-
-Please refer to 
-[Tips on Mercedes-Benz]( https://www.legendu.net/misc/blog/tips-on-mercedes-benz )
-for details.
-
 ## Roof Window
 
 - [汽车天窗的4大作用？很多老司机开到报废都不知道，太浪费了！【车二哥说车】](https://www.youtube.com/watch?v=wqx8zyoIQj4)
@@ -112,3 +99,7 @@ for discussions.
 
 http://www.ezvincheck.com/
 
+
+## References
+
+- [Tips on Mercedes-Benz]( https://www.legendu.net/misc/blog/tips-on-mercedes-benz )

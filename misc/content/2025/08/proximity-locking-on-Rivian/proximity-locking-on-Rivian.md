@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-10 09:45:27
-Modified: 2025-08-10 09:45:27
+Modified: 2025-08-19 09:01:49
 Author: Benjamin Du
 Slug: proximity-locking-on-Rivian
 Title: Proximity Locking on Rivian
@@ -33,4 +33,5 @@ it at home.
 Notice that even with proximity locking disabled at home,
 your Rivian vehicle still might randomly unlocks (due to various reasons).
 If you are annoied by this behavior,
-you can completely disable proximity locking on your Rivian.
+you can completely disable proximity locking on your Rivian at home
+and only turn it on while you are on road trips.
