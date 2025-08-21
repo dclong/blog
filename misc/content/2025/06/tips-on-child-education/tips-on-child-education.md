@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-17 13:58:49
-Modified: 2025-08-14 12:10:52
+Modified: 2025-08-20 17:31:45
 Author: Benjamin Du
 Slug: tips-on-child-education
 Title: Tips on Child Education
@@ -10,7 +10,7 @@ Tags: children, education, life, kid, parenting, baby sitter
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 
-https://apstudents.collegeboard.org/
+- [AP Students](https://apstudents.collegeboard.org/)
 
 ## Toys for Kids
 
