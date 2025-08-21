@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-09 16:34:06
-Modified: 2025-07-04 10:44:57
+Modified: 2025-08-20 23:51:33
 Author: Benjamin Du
 Slug: recommendation-of-credit-card-usage
 Title: Recommendation of Credit Card Usage
@@ -531,5 +531,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
 ## Credit Cards Without Foreign Transaction Fees
 
 - Robinhood Gold Card
-- Sapphire
+- Chase Sapphire Card
+- Verizon Visa Card
+- Costco Anywhere Visa Card
 
