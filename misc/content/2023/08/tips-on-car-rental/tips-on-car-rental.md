@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-29 14:22:20
-Modified: 2023-09-04 21:36:05
+Modified: 2025-08-29 08:20:49
 Author: Benjamin Du
 Slug: tips-on-car-rental
 Title: Tips on Car Rental, Sharing and Leasing
@@ -9,7 +9,13 @@ Tags: Life, travel, car, rental, sharing, leasing
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
+## Car Sharing
+
+1. ZipCar is good for metro area and very short term car rental, e.g., a few hours.
+
 ## Car Rental
+
+1. typicall a few days to a few weeks
 
 1. Choose the right size of car to rent.
 
@@ -28,10 +34,6 @@ Tags: Life, travel, car, rental, sharing, leasing
     - Is a baby seat included (if you reqested one).
 
 3. Some car rental companies provides baby seat.
-
-## Car Sharing
-
-1. ZipCar is good for metro area and very short term car rental, e.g., a few hours.
 
 ## Car Leasing
 

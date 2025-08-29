@@ -8,6 +8,7 @@ import getpass
 from loguru import logger
 from utils import (
     BASE_DIR,
+    VIM,
     push_github,
     pelican_generate,
     option_files,
