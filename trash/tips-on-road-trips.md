@@ -13,4 +13,3 @@ check whether including the starting city and destination cities.
 
 Airbnb is friendly for family with small kids.
 
-[Cabin Rentals & Glamping in the US | Postcard Cabins](https://share.google/uvAjjUBjqhbhu9hvr)

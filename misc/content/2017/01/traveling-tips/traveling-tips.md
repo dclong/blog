@@ -5,11 +5,24 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2024-07-02 10:52:57
+Modified: 2025-08-30 09:50:46
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
-[EVUS Enrollment](https://www.evus.gov/evus/#/)
+## Travel to US with B1/B2 Visa
+
+Make sure to update [EVUS](https://www.evus.gov/evus/#/)
+information within 72 hours before entering the US.
+
+## Weather 
+
+Check weather including the starting city and destination cities.
+
+## Hotel & AirBnB
+
+1. Airbnb is friendly for family with small kids.
+
+2. [Cabin Rentals & Glamping in the US | Postcard Cabins](https://share.google/uvAjjUBjqhbhu9hvr)
 
 ## Luggage for Flight
 
