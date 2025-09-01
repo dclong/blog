@@ -5,9 +5,17 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2025-08-30 09:50:46
+Modified: 2025-08-31 21:24:25
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+## General Tips
+
+1. Have a good rest (especially the night)
+  before long trips (especially road trips)
+  .
+
+2. Check Google map and get familiar about the route for road trips.
 
 ## Travel to US with B1/B2 Visa
 
@@ -41,7 +49,8 @@ Check weather including the starting city and destination cities.
 
 - [car rental](https://www.legendu.net/misc/blog/tips-on-car-rental) or [RV rental](https://misc.legendu.net/blog/tips-on-RV/) (if needed)
 - driver's license
-- download maps
+- download offline maps of places with no / poor cellular signals
+- download songs YouTube Music for the road trip
 - nation/state park passes
 - [clothes](https://misc.legendu.net/blog/traveling-tips#clothes)
 - [misc utils](https://misc.legendu.net/blog/traveling-tips#misc-utils)
