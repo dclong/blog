@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-29 14:22:20
-Modified: 2025-08-30 09:48:42
+Modified: 2025-08-31 21:25:51
 Author: Benjamin Du
 Slug: tips-on-car-rental
 Title: Tips on Car Sharing, Rental and Leasing
@@ -28,7 +28,7 @@ Tags: Life, travel, car, rental, sharing, leasing
     be sure to verify details.
 
     - Is it a sedan, SUV, pickup or other types of vehicle?
-    - Does it have CarPlay?
+    - Does it support CarPlay and/or Android Auto?
     - How many people can it hold?
     - How many luggage can it hold?
     - Is a baby seat included (if you reqested one).
