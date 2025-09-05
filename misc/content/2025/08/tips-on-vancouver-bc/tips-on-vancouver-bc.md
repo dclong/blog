@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-23 23:27:29
-Modified: 2025-09-05 04:25:19
+Modified: 2025-09-05 03:19:27
 Author: Benjamin Du
 Slug: tips-on-vancouver-bc
 Title: Tips on Vancouver BC
@@ -10,6 +10,14 @@ Tags: life, Vancouver, BC, Canada, EV, charger, Tesla, Electronic Vehicle, borde
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 
+## Credit Card
+
+Use Google Wallet Pay and/or Apple Pay if possible.
+  At least, you should use credit cards with good fraud protection
+  (e.g., Chase).
+
+## EV Charging
+
 The Tesla Supercharger
 at "4660 Garden City Rd, Richmond" 
 is a good one.
@@ -18,10 +26,6 @@ is a good one.
 2. V3 superchargers and thus open to third-party EVs
 3. good charging power (250kw)
 4. food & shopping nearby
-5. use Google Wallet Pay and/or Apple Pay if possible.
-  At least, you should use credit cards with good fraud protection
-  (e.g., Chase).
-
 
 ## Vancouver Aquarium
 
