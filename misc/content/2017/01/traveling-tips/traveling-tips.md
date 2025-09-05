@@ -5,7 +5,7 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2025-08-31 21:24:25
+Modified: 2025-09-04 17:26:44
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -16,6 +16,8 @@ Modified: 2025-08-31 21:24:25
   .
 
 2. Check Google map and get familiar about the route for road trips.
+
+3. Download Google offline maps.
 
 ## Travel to US with B1/B2 Visa
 

@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-23 23:27:29
-Modified: 2025-08-25 11:13:35
+Modified: 2025-09-05 04:25:19
 Author: Benjamin Du
 Slug: tips-on-vancouver-bc
 Title: Tips on Vancouver BC
@@ -18,6 +18,10 @@ is a good one.
 2. V3 superchargers and thus open to third-party EVs
 3. good charging power (250kw)
 4. food & shopping nearby
+5. use Google Wallet Pay and/or Apple Pay if possible.
+  At least, you should use credit cards with good fraud protection
+  (e.g., Chase).
+
 
 ## Vancouver Aquarium
 
