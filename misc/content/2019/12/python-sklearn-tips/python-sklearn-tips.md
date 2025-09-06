@@ -21,6 +21,14 @@ Modified: 2021-09-16 21:12:30
 
 3. [Skorch](https://github.com/skorch-dev/skorch)
 
+## Metrics
+
+- [auc](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)
+
+- [precision_recall_curve](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_curve.html#sklearn.metrics.precision_recall_curve)
+
+- [average_precision_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.average_precision_score.html#sklearn.metrics.average_precision_score)
+
 ## References
 
 https://scikit-learn.org/stable/modules/compose.html#transforming-target-in-regression
