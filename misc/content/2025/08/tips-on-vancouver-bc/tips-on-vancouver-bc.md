@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-23 23:27:29
-Modified: 2025-09-05 03:19:27
+Modified: 2025-09-07 22:11:57
 Author: Benjamin Du
 Slug: tips-on-vancouver-bc
 Title: Tips on Vancouver BC
@@ -36,6 +36,13 @@ as parking spots can be hard to find.
 ## Stanley Park
 
 1. Paid parking session is valid at any parking lot in Stanley Park. 
+
+## Restaurants in Vancourver
+
+- [Noodle Arts 满福兰州拉面（粥粉面）- Vancouver, near Stanley Park](https://www.google.com/maps/place/Noodle+Arts/@49.2909289,-123.1345728,15z/data=!4m6!3m5!1s0x548671f8b6b2ff19:0xee97702897eb53a9!8m2!3d49.2910293!4d-123.134417!16s%2Fg%2F11fb0k6b86?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D)
+
+- [花馬春天雲南過橋米線 Flower & Horse in Spring - Vancouver, near Stanley Park](https://www.google.com/maps/place/Flower+%26+Horse+in+Spring/@49.291433,-123.151638,13.47z/data=!4m14!1m7!3m6!1s0x54867188122ec337:0x859fe3724af4f69c!2sFlower+%26+Horse+in+Spring!8m2!3d49.2910538!4d-123.1344659!16s%2Fg%2F11c5rv_84f!3m5!1s0x54867188122ec337:0x859fe3724af4f69c!8m2!3d49.2910538!4d-123.1344659!16s%2Fg%2F11c5rv_84f?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D)
+
 
 ## Road Trip from WA to Vancourver BC
 
