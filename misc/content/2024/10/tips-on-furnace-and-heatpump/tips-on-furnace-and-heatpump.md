@@ -1,6 +1,6 @@
 Status: published
 Date: 2024-10-13 14:54:01
-Modified: 2024-10-17 16:37:48
+Modified: 2025-09-07 19:51:11
 Author: Benjamin Du
 Slug: tips-on-furnace-and-heat-pump
 Title: Tips on Furnace and Heat Pump
@@ -14,4 +14,15 @@ Tags: life, furnace, heat, heat pump, cooling, air condition
 
 - [From To Do... To Done - Cleaning a Blower Motor](https://www.youtube.com/watch?v=5becqHHc7D8)
 
+## Clean Furnace Filters
+
+- [How To Maintain Your Trane CleanEffects® Whole Home Air Cleaner](https://www.youtube.com/watch?v=dHUuuAvcjjI)
+
+- [How to Clean Trane Whole Home Furnace Air Filter](https://www.youtube.com/watch?v=FDMiq9p1hYU)
+
+- [Cleaning Trane CleanEffects™ Whole-House Air Filtration System](https://www.youtube.com/watch?v=Vu4cCY-aPA4)
+
+- [How to Clean the Trane CleanEffects Air Cleaner](https://www.youtube.com/watch?v=gpS7rykK68A)
+
+You should clean the charging cell points with a piece of foam included in the original packing
 
