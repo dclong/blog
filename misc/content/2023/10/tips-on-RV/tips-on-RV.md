@@ -27,6 +27,10 @@ https://weretherussos.com/class-b-rv-manufacturers-list-camper-vans/
 1. diesel heater
 2. AC
 
+## Towing Capability
+
+- [Don't let TRAILER SWAY Happen to Your RV! 😱Trailer Towing & Weight Limits Explained](https://www.youtube.com/watch?v=6rXxBmk9k44)
+
 ## Trailer Dolly
 
 https://www.youtube.com/watch?v=M0r16IfWlsE
