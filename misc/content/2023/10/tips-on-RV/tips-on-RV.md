@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-19 11:31:45
-Modified: 2025-06-22 12:05:11
+Modified: 2025-09-16 05:12:11
 Author: Benjamin Du
 Slug: tips-on-RV
 Title: Tips on RV
@@ -12,6 +12,11 @@ Tags: Life, travel, RV, auto, mobile, home, car, vehilce
 https://www.youtube.com/watch?v=8O-IODLU5pc
 
 https://weretherussos.com/class-b-rv-manufacturers-list-camper-vans/
+
+## General Tips on Camping
+
+1. Watch weather.
+    Avoid flood. Don't be too close to river.
 
 ## Tips and Traps
 
@@ -37,7 +42,11 @@ https://www.youtube.com/watch?v=M0r16IfWlsE
 
 ## RV Rental
 
+- CampStar 
+    - corporate discount available
+
 - [Outdoorsy](https://www.outdoorsy.com/?cam=g772079689&subcam=42156283353_aud-453410158481:kwd-66011529946&gclid=Cj0KCQjw4bipBhCyARIsAFsieCznj37k3oJQP2tjQ9I1rXe4OtNv1mDGT-UmX19oXnkoJd5Eb7C8nokaAuokEALw_wcB)
+
 - [RVShare](https://rvshare.com/?semid=google.b&placement=g&campid=224265135&adgid=16847253135&keyword=e.rvshare&copyid=229380918716&kwd-325811284476&device=c&loc_physical=9033255&loc_interest=&adrank=&camptype=search&gclid=Cj0KCQjw4bipBhCyARIsAFsieCwNBf3yO2f-bCzVfTXXCtOZK_IbzbiJ70tYkoYva9gToNuic6UgkIQaAiWUEALw_wcB)
 
 Below are some tips for renting an RV.
