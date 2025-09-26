@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-10-19 11:31:45
-Modified: 2025-09-16 05:12:11
+Modified: 2025-09-25 21:25:25
 Author: Benjamin Du
 Slug: tips-on-RV
 Title: Tips on RV
@@ -17,6 +17,8 @@ https://weretherussos.com/class-b-rv-manufacturers-list-camper-vans/
 
 1. Watch weather.
     Avoid flood. Don't be too close to river.
+
+2. [10 Camping Safety Tips That Could Save Your Life!](https://www.youtube.com/watch?v=9C8hRt2UEng)
 
 ## Tips and Traps
 
