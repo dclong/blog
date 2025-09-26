@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-08-10 10:06:50
+Modified: 2025-09-25 21:39:22
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -114,6 +114,10 @@ My Rivian referral code: LISHA4198234.
 - [Foamy for Sleep](https://hest.com/products/rivian-foamy-r1s)
 
 - [Tent](https://rivian.com/gear-shop/p/r1s-three-person-tent?sku=ACERRTT002)
+
+## Aftermarket
+
+- [Rivian Owners Forum - All Marketplace Listings](https://www.rivianownersforum.com/marketplace/?currency=USD&mileage_units=KM&sorting=recent)
 
 ## References
 
