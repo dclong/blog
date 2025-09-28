@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-21 20:50:50
-Modified: 2024-05-12 17:02:27
+Modified: 2025-09-28 08:36:06
 Author: Benjamin Du
 Slug: tips-on-airport
 Title: Tips on the Seattle-Tacoma International Airport
@@ -12,9 +12,9 @@ Tags: Life, airport, travel, trip, Seattle, Tacoma, Bellevue
 
 ## SEA-TAC Visitor Pass
 
-You can apply for a visitor pass for the next 7 days.
-
-https://www.clearme.com/reserve
+You can apply for a 
+[visitor pass](https://www.portseattle.org/page/sea-visitor-pass-program)
+for the next 7 days.
 
 ## SEA Spot Saver
 
