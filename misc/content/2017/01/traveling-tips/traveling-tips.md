@@ -5,7 +5,7 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2025-09-04 17:26:44
+Modified: 2025-10-02 08:19:24
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -37,7 +37,10 @@ Check weather including the starting city and destination cities.
 ## Luggage for Flight
 
 - IDs
-    - quick pass if applicable (e.g., [SEA SPOT Saver](https://misc.legendu.net/blog/tips-on-airport/#sea-spot-saver))
+    - quick pass if applicable (e.g., 
+    [SEA-TAC Visitor Pass](https://misc.legendu.net/blog/tips-on-airport/#sea-tac-visitor-pass),
+    [SEA SPOT Saver](https://misc.legendu.net/blog/tips-on-airport/#sea-spot-saver)
+    )
     - driver's license, passport
     - boading passing (via airline's App)
 - [personal electronics](https://misc.legendu.net/blog/traveling-tips#personal-electronics)
