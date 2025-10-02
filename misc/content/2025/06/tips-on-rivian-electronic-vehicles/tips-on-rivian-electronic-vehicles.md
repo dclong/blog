@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-06-25 10:57:40
-Modified: 2025-09-25 21:39:22
+Modified: 2025-09-30 08:19:08
 Author: Benjamin Du
 Slug: tips-on-rivian-electronic-vehicles
 Title: Tips on Rivian Electronic Vehicles
@@ -93,33 +93,21 @@ My Rivian referral code: LISHA4198234.
 - [Rivian @ Reddit](https://www.reddit.com/r/Rivian/)
 - [Switching to Rivian? Use these Community Referral Codes for $500 to use in the Gear Shop!](https://www.reddit.com/r/Rivian/comments/1k4ikus/switching_to_rivian_use_these_community_referral/)
 
-## Useful Accessories
-
-- [Tire Sealant Kit](https://gearshop.rivian.com/products/tire-sealant-kit)
-    .
-    It's much cheaper to order one from Amazon.
-
-- [Jack Service Kit](https://gearshop.rivian.com/products/jack-service-kit)
-
-- [2023 Rivian R1T & R1S Accessories | Essential Upgrades For The Best EV Truck](https://www.youtube.com/watch?v=Qyt91MytaQU)
-
-- [[‪@Rivian‬](https://www.youtube.com/@Rivian) R1S hitch mount bike rack: [‪@innoracks‬](https://www.youtube.com/@innoracks) INH110] (https://www.youtube.com/watch?v=RsIhahJfbtI)
-
-- [Sun Shades](https://www.youtube.com/watch?v=1A-OrmJNlzg)
-
-- [EVBASE Rivian Running Boards R1T/R1S Running Boards Rivian Exterior Accessories](https://www.evbase.com/products/rivian-running-boards-r1t-r1s-running-boards?currency=USD&variant=44063700910323&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=d6c163adff3e&gad_source=1&gad_campaignid=20771277288&gbraid=0AAAAAqdbsSGAKS0XGjAewnGAR08HWyoQJ&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c-d9Q17vHaHRBeOHk_cgp_1tdHLTMlR5jlRDiPMT9IacmAAFAWEA4RoCNx8QAvD_BwE)
-
-- [R1S Camping Mattress Inflatable Air Bed Backseat Rear Trunk Travel Accessories Gear for Rivian](https://www.evbase.com/products/rivian-r1s-camping-mattress-inflatable-air-bed-backseat-rear-trunk-travel-accessories-gear?_pos=1&_sid=f45af2684&_ss=r)
-
-- [Foamy for Sleep](https://hest.com/products/rivian-foamy-r1s)
-
-- [Tent](https://rivian.com/gear-shop/p/r1s-three-person-tent?sku=ACERRTT002)
-
 ## Aftermarket
 
 - [Rivian Owners Forum - All Marketplace Listings](https://www.rivianownersforum.com/marketplace/?currency=USD&mileage_units=KM&sorting=recent)
 
+- [Parts Geek](https://www.partsgeek.com/)
+
 ## References
+
+- [Service Your Rivian Car]( https://www.legendu.net/misc/blog/service-your-rivian-car )
+
+- [Proximity Locking on Rivian]( https://www.legendu.net/misc/blog/proximity-locking-on-Rivian )
+
+- [Flat Tire on Rivian]( https://www.legendu.net/misc/blog/flat-tire-on-rivian )
+
+- [Useful Accessories for Rivian]( https://www.legendu.net/misc/blog/useful-accessories-for-rivian )
 
 - [😱My RIVIAN R1S 5 BIGGEST ISSUES: And How I Got Them Fixed](https://www.youtube.com/watch?v=4jSKMvuLuNo)
 
@@ -129,7 +117,7 @@ My Rivian referral code: LISHA4198234.
 
 - [EV Base](https://www.evbase.com/)
 
-- [Fast Dc Charging in WA]( https://www.legendu.net/misc/blog/fast-dc-charging-in-wa )
+- [Fast DC Charging in WA]( https://www.legendu.net/misc/blog/fast-dc-charging-in-wa )
 
 - [28 Rivian R1S & R1T Hidden Features, Tips, & Tricks](https://www.youtube.com/watch?v=KIvn9NvddlM)
 
