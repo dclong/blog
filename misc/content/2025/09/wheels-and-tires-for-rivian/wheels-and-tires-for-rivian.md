@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-09-30 08:21:16
-Modified: 2025-10-01 20:07:38
+Modified: 2025-10-04 09:39:44
 Author: Benjamin Du
 Slug: wheels-and-tires-for-rivian
 Title: Wheels and Tires for Rivian
@@ -72,13 +72,13 @@ strongly suggest 20-inch wheels against 22-inch wheels.
         </tr>
         <tr>
             <td><strong>Wheel Aftermarket Avail.</strong></td>
-            <td><strong>High</strong> (Wide range, incl. off-road specific)</td>
-            <td><strong>High</strong> (Wide range, incl. performance/luxury)</td>
+            <td><strong>High</strong></td>
+            <td><strong>Low</strong></td>
         </tr>
         <tr>
             <td><strong>Tire Aftermarket Avail.</strong></td>
-            <td><strong>Good to Excellent</strong> (Strong for A/T & general use)</td>
-            <td><strong>Good</strong> (Strong for street/performance/all-season)</td>
+            <td><strong>High</strong></td>
+            <td><strong>Low</strong></td>
         </tr>
     </tbody>
 </table>
@@ -93,32 +93,26 @@ strongly suggest 20-inch wheels against 22-inch wheels.
 ![](https://private-user-images.githubusercontent.com/824507/495785320-8f3530e3-01e6-4326-b8a4-69a1df59e67f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTkyNDgyOTQsIm5iZiI6MTc1OTI0Nzk5NCwicGF0aCI6Ii84MjQ1MDcvNDk1Nzg1MzIwLThmMzUzMGUzLTAxZTYtNDMyNi1iOGE0LTY5YTFkZjU5ZTY3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwOTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDkzMFQxNTU5NTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMzAyNDZjYzQ2MzYxNjQzNmVlMzY2MDRmYzNmNDJlYzdlZmJlM2U1MzM1ZTk5NGFmZTViMjY0OThiOWQwM2RmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.oxvR2u_eQZgPPqKKQCMbW44CubLr8oH1rTAx2cjZXh4)
 
 
-20" All-Season Wheel and Tire Set
-https://gearshop.rivian.com/products/20-in-all-season-wheel-and-tire-set?_pos=11&_sid=413bccd3e&_ss=r
+- [20" All-Season Wheel and Tire Set](https://gearshop.rivian.com/products/20-in-all-season-wheel-and-tire-set?_pos=11&_sid=413bccd3e&_ss=r)
 
-20" Inch Efficient Winter Tires Compilation List - 275/60R20
-https://www.rivianforums.com/forum/threads/efficient-winter-tires-compilation-list-275-60r20.34625/
+- [20" Inch Efficient Winter Tires Compilation List - 275/60R20](https://www.rivianforums.com/forum/threads/efficient-winter-tires-compilation-list-275-60r20.34625/)
 
-Planning for Snow Tires
-https://www.rivianforums.com/forum/threads/planning-for-snow-tires.29150/
+- [Planning for Snow Tires](https://www.rivianforums.com/forum/threads/planning-for-snow-tires.29150/)
 
-What winter tires should be used on Rivian vehicles?
-https://rivian.com/support/article/what-winter-tires-should-be-used-on-rivian-vehicles
+- [What winter tires should be used on Rivian vehicles?](https://rivian.com/support/article/what-winter-tires-should-be-used-on-rivian-vehicles)
 
 
+- [Snow chain compatibility (according to customer service) @ Reddit](https://www.reddit.com/r/Rivian/comments/te99zz/snow_chain_compatibility_according_to_customer/)
 
-https://www.reddit.com/r/Rivian/comments/te99zz/snow_chain_compatibility_according_to_customer/
+- [Tire snow chains or cables for R1T @ Rivian Forums](https://www.rivianforums.com/forum/threads/tire-snow-chains-or-cables-for-r1t.39795/#:~:text=Well%2DKnown%20Member&text=Rivian%20only%20recommends%20using%20snow,forum%20from%20those%20who%20have.)
 
-https://www.rivianforums.com/forum/threads/tire-snow-chains-or-cables-for-r1t.39795/#:~:text=Well%2DKnown%20Member&text=Rivian%20only%20recommends%20using%20snow,forum%20from%20those%20who%20have.
+- [Snow Chains for Rivian 21" rim with Pirelli Scorpion Verde tire 275/55R21](https://www.youtube.com/watch?v=NBz9a-a7HtM&t=3s)
 
+- [etrailer | How to Install: Konig Tire Chains on your 2023 Rivian R1T](https://www.youtube.com/watch?v=raxu47IC_xg&t=1s)
 
-https://www.youtube.com/watch?v=NBz9a-a7HtM&t=3s
+- [AutoSock](https://autosock.us/)
 
-https://www.youtube.com/watch?v=raxu47IC_xg&t=1s
-
-https://autosock.us/
-
-https://www.amazon.com/Peerless-0232805-Auto-Trac-Traction-Chain/dp/B0091RCM5Y/ref=cm_cr_arp_d_product_top?ie=UTF8&th=1
+- [SCC 0232805 Auto-Trac Light Truck/SUV Tire Traction Chain - Set of 2](https://www.amazon.com/Peerless-0232805-Auto-Trac-Traction-Chain/dp/B0091RCM5Y/ref=cm_cr_arp_d_product_top?ie=UTF8&th=1)
 
 ## Aftermarket Wheels & Tires
 
