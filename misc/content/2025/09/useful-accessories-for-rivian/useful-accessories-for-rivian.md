@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-09-30 08:16:05
-Modified: 2025-09-30 08:16:05
+Modified: 2025-10-04 09:33:27
 Author: Benjamin Du
 Slug: useful-accessories-for-rivian
 Title: Useful Accessories for Rivian
@@ -18,7 +18,11 @@ Tags: life, Rivian, EV, accessory
 
 - [2023 Rivian R1T & R1S Accessories | Essential Upgrades For The Best EV Truck](https://www.youtube.com/watch?v=Qyt91MytaQU)
 
-- [[‪@Rivian‬](https://www.youtube.com/@Rivian) R1S hitch mount bike rack: [‪@innoracks‬](https://www.youtube.com/@innoracks) INH110] (https://www.youtube.com/watch?v=RsIhahJfbtI)
+- [‪@Rivian‬](https://www.youtube.com/@Rivian) 
+
+- [R1S hitch mount bike rack: [‪@innoracks‬](https://www.youtube.com/@innoracks) 
+
+- [INH110] (https://www.youtube.com/watch?v=RsIhahJfbtI)
 
 - [Sun Shades](https://www.youtube.com/watch?v=1A-OrmJNlzg)
 
