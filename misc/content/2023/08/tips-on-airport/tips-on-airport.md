@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-08-21 20:50:50
-Modified: 2025-09-28 08:36:06
+Modified: 2025-10-04 09:30:40
 Author: Benjamin Du
 Slug: tips-on-airport
 Title: Tips on the Seattle-Tacoma International Airport
@@ -24,9 +24,11 @@ for the next 7 days.
 
 ## EV Charging
 
-Free EV charging is available at floor 7 (general parking) and floor 4 (reserved parking),
-however, 
-parking fee applies.
+1. Free EV charging is available at floor 7 (general parking) and floor 4 (reserved parking).
+
+2. Parking fee applies.
+
+3. Hard to find a EV charging SPOT generally speaking.
 
 For more inforamtion,
 plese refer to
