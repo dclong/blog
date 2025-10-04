@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-05-21 21:35:27
-Modified: 2025-07-28 00:04:44
+Modified: 2025-10-04 16:28:23
 Author: Benjamin Du
 Slug: shopping-smartly
 Title: Shopping Smartly
@@ -8,6 +8,13 @@ Category: Life
 Tags: Life, shop, shopping, smart, smartly, CamelCamelCamel, DealMoon, Homedepot, Costco, SlickDeals, deal, alert
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+## General Tips
+
+1. ask for referral
+2. use rebate website such as [BeFrugal](https://www.befrugal.com/)
+3. look for discount code or coupons
+4. use credit card with cashback
 
 ## Health Devices/Services Which Are not Covered By Insurance
 
