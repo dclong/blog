@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-09-22 23:31:22
-Modified: 2025-06-27 16:18:53
+Modified: 2025-10-15 20:19:37
 Author: Benjamin Du
 Slug: tips-on-diy
 Title: Tips on DIY
@@ -8,6 +8,8 @@ Category: life
 Tags: life, DIY, home, Home Depot, workshop
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+- [AutoDesk Instructables](https://www.instructables.com/)
 
 - [Home Depot Workshops](https://www.homedepot.com/workshops/#change_store)
 
