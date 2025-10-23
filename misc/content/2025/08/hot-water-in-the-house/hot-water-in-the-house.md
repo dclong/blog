@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-01 13:48:59
-Modified: 2025-08-10 10:10:06
+Modified: 2025-10-23 00:02:49
 Author: Benjamin Du
 Slug: hot-water-in-the-house
 Title: Hot Water in the House
@@ -22,6 +22,8 @@ Tags: life, house, hot, water
 https://www.budgetdumpster.com/blog/how-to-reuse-water/
 
 ## References
+
+- [Electric Water Heater Maintenance: How to Perform a Flush](https://www.youtube.com/watch?v=GkVS6MKu8iE)
 
 https://www.youtube.com/watch?v=lE2QFLlEXNw
 
