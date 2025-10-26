@@ -5,7 +5,7 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2025-10-02 08:19:24
+Modified: 2025-10-26 23:47:11
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -48,7 +48,7 @@ Check weather including the starting city and destination cities.
 - [car rental](https://www.legendu.net/misc/blog/tips-on-car-rental) (if needed)
 - [clothes](https://misc.legendu.net/blog/traveling-tips#clothes)
 - [misc utils](https://misc.legendu.net/blog/traveling-tips#misc-utils)
-- [health related](https://misc.legendu.net/blog/traveling-tips#health)
+- [health related](https://misc.legendu.net/blog/traveling-tips#health-related)
 
 ## Luggage for Road Trip
 
@@ -75,7 +75,7 @@ Check weather including the starting city and destination cities.
 - sleeping T-shirt/pants
 - shirt, pants
 - roll cleaner
-- stocks
+- socks
 - sandal
 
 ## Misc Utils
@@ -84,7 +84,7 @@ Check weather including the starting city and destination cities.
 - shaver (trip > 1 week)
 - nail clipper (trip > 1 week)
 
-## Health Related Luggage
+## Health Related
 
 - CPAP, Mask
 - vitamins
