@@ -5,7 +5,7 @@ Slug: traveling-tips
 Title: Traveling Without Hassle
 Category: Life
 Tags: life, traveling, tips, luggage, trip, travel
-Modified: 2025-10-26 23:47:11
+Modified: 2025-10-27 08:06:49
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -41,7 +41,7 @@ Check weather including the starting city and destination cities.
     [SEA-TAC Visitor Pass](https://misc.legendu.net/blog/tips-on-airport/#sea-tac-visitor-pass),
     [SEA SPOT Saver](https://misc.legendu.net/blog/tips-on-airport/#sea-spot-saver)
     )
-    - driver's license, passport
+    - driver's license, green card, passport
     - boading passing (via airline's App)
 - [personal electronics](https://misc.legendu.net/blog/traveling-tips#personal-electronics)
 - [work related](https://misc.legendu.net/blog/traveling-tips#work-related-luggage) (if needed)
@@ -86,7 +86,10 @@ Check weather including the starting city and destination cities.
 
 ## Health Related
 
-- CPAP, Mask
+- Sleeping pillow
+- CPAP (
+    [Getting Through Airport Security With a CPAP](https://www.verywellhealth.com/airport-travel-with-cpap-3015056)
+  ), Mask
 - vitamins
 - medicine (if any)
 
