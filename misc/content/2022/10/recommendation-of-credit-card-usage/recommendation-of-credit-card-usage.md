@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-09 16:34:06
-Modified: 2025-08-20 23:51:33
+Modified: 2025-11-07 23:08:45
 Author: Benjamin Du
 Slug: recommendation-of-credit-card-usage
 Title: Recommendation of Credit Card Usage
@@ -522,7 +522,7 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
 - [6]: For online grocery purchases excluding Walmart, Target and wholesale clubs.
 - [7]: Earn up to $50 in statement credits each account anniversary year for hotel stays purchased through Chase Travel.
 - [8]: The card comes with trip cancellation and interruption insurance, lost luggage reimbursement, auto rental coverage, etc.
-- [9]: Bilt does not officially support it yet even people reporting successful mortgage payment using it.
+- [9]: Bilt 2.0 supports earning points on mortgage payments.
 
 ## Offers
 
