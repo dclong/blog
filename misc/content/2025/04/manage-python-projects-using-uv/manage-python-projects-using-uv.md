@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-07-31 11:06:03
+Modified: 2025-11-11 00:29:04
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -22,34 +22,35 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
 ### Ad-hoc Python Shell & Scripts
 
 1. You can start an ad-hoc Python shell (
-   e.g., Python 3.13 with 3rd-party packages dockeree and aituil
+   e.g., Python 3.14 with 3rd-party packages dockeree and aituil
    ) using the following command.
 
-        uv run --python 3.13 --with dockeree --with aiutil python
+        uv run --python 3.14 --with dockeree --with aiutil python
         
 2. Similar to the above but start an Ipython shell instead.
 
-        uv run --python 3.13 --with dockeree --with aiutil --with IPython python -m IPython
+        uv run --python 3.14 --with dockeree --with aiutil --with IPython python -m IPython
 
-2. Initialize a uv managed Python script.
+3. Initialize a uv managed Python script.
 
-        uv init --python 3.13 --script example.py 
+        uv init --python 3.14 --script example.py 
 
     Notice that if the script `example.py` already exists,
     uv will just append metadata lines into it.
     
-3. You can add dependencies to a uv managed Python scripts 
+4. You can add dependencies to a uv managed Python scripts 
     using the following command.
 
         uv add --script example.py 'requests<3' 'rich'
 
-2. You can run a uv managed Python script using
+5. You can run a uv managed Python script using
 
-        uv run /path/to/uv_init_pyscript
+        uv run /path/to/uv_managed_script.py
 
     or
 
-        uv run --script /path/to/uv_init_pyscript
+        # preferred
+        uv run --script /path/to/uv_managed_script.py
 
     Those 2 commands will automatically resolve and install dependencies specified in the script.
     This can be simplified by add the shebang 
@@ -57,22 +58,24 @@ curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR="/usr/local/bin"
     or `#!/usr/bin/env -S uv run --script`
     into the Python script,
     so that you can invoke the script as an executable directly.
-    Notice that there's currently no way to pass the Python interpreter options
-    if you want `uv` to automatically resolve and install dependencies of a Python script.
-    You can pass Python interpreter options, 
-    say `-P`, 
-    using `uv run python -P ...`.
+
+6. You might want to pass Python interpretor options (e.g., the `-P` option)
+    while running a script using `uv`.
+    This can be done using the command below.
+
+        uv run python -P /path/to/uv_managed_script.py
+
     However,
-    when used to run a Python script (`uv run python -P /path/to/uv_init_pyscript`),
-    it won't automatically resolve and install dependencies specified in the script.
-    There are 2 ways to address this issue.
-    First, 
-    you can configure the corresponding Python environment variable (e.g., `PYTHONSAFEPATH=1`) if available.
-    Second,
-    Wait for the
-    [PR](https://github.com/astral-sh/uv/pull/12763)
-    (which supports `--with-requirements script.py` to include inline dependency metadata from another script)
-    to be merged and released.
+    it has one drawback.
+    It doesn't automatically resolve and install dependencies specified in the script.
+    Luckily,
+    with [PR](https://github.com/astral-sh/uv/pull/12763) merged,
+    this is possible through the option `--with-requirements script_with_deps.py` 
+    which includes inline dependency metadata from `script_with_deps.py`.
+    So, 
+    you can use the following command (though it's verbose).
+
+        uv run python -P /path/to/uv_managed_script.py --with-requirements uv_managed_script.py
 
 ### Manage Projects
 
