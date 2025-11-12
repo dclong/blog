@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-12-04 10:38:16
-Modified: 2025-02-15 18:14:35
+Modified: 2025-11-11 18:42:02
 Author: Benjamin Du
 Slug: async-in-rust
 Title: Async in Rust
@@ -18,6 +18,10 @@ Tags: Computer Science, programming, Rust, async
     it is recommended to use `tokio::task::spawn_blocking` 
     to execute the code on a dedicated executor that handles blocking operations.
 
+
+## Issues in Async Rust
+
+- [Rain: "Cancelling Async Rust" | RustConf 2025](https://www.youtube.com/watch?v=zrv5Cy1R7r4&list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ&index=32)
 
 ## Tutorials
 
