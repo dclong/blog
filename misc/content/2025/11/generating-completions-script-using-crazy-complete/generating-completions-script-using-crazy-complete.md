@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-11-16 16:02:18
-Modified: 2025-11-16 16:02:18
+Modified: 2025-11-16 23:44:57
 Author: Benjamin Du
 Slug: generating-completions-script-using-crazy-complete
-Title: Generating Completions Script Using Crazy-Complete
+Title: Generating Completions Script Using crazy-complete
 Category: Computer Science
 Tags: Computer Science, programming, shell, bash, zsh, fish, completion, generator, generating
 
