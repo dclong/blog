@@ -26,7 +26,7 @@ Tags: Computer Science, programming, shell, fish
     <td class="tg-0pky">Get parameter of previous commands.</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Alt-e</td>
+    <td class="tg-0pky">Alt-e or Alt-v</td>
     <td class="tg-0pky">Edit the current command line in an external editor.</td>
   </tr>
 </tbody>
