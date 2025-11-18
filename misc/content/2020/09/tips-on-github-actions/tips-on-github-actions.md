@@ -5,7 +5,7 @@ Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
 Category: Computer Science
 Tags: Computer Science, GitHub Actions, CICD
-Modified: 2023-12-14 16:25:19
+Modified: 2025-11-17 19:55:48
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -172,6 +172,19 @@ https://github.com/peter-evans/create-pull-request
         1. Configure the GitHub Action workflow to mount `$HOME/.ssh` to `/ssh`.
         2. Copy `/ssh` to `/root/.ssh` in the Docker container. 
         3. Run `chmod 600 /root/.ssh/*` to ensure right permissions of SSH keys and configuration files.
+
+### Idle Organization Runners Which Don't Pick up Jobs 
+
+![](https://github.com/user-attachments/assets/5b494a23-7ecd-40da-8d1f-47d373d14c3c)
+
+![](https://github.com/user-attachments/assets/5b494a23-7ecd-40da-8d1f-47d373d14c3c)
+
+https://github.com/orgs/community/discussions/26823
+Self-hosted runner registered as idle but not picking up jobs #26823
+
+https://github.com/orgs/community/discussions/120813
+Self-hosted runners is idle but not picking up jobs #120813
+
 
 ## References
 

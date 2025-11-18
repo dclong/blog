@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-11-11 18:13:06
-Modified: 2025-11-17 19:04:31
+Modified: 2025-11-17 19:41:13
 Author: Benjamin Du
 Slug: tips-on-the-fish-shell
 Title: Tips on the Fish Shell
@@ -53,6 +53,10 @@ for a more comprehensive list of key bindings.
 
 2. Instead of writing completion scripts manually,
     lots of tools support exporting completion scripts for bash, zsh, fish, etc.
+
+    - command-line applications developed using cobra (GoLang)
+      - docker completion fish > ~/.config/fish/completions/docker.fish
+      - icon completion fish > ~/.config/fish/completions/icon.fish
 
 3. [crazy-complete](https://github.com/crazy-complete/crazy-complete)
     helps generate completion scripts based on YAML defined completion rules.
