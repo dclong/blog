@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-11-11 18:13:06
-Modified: 2025-11-16 14:45:10
+Modified: 2025-11-17 19:04:31
 Author: Benjamin Du
 Slug: tips-on-the-fish-shell
 Title: Tips on the Fish Shell
@@ -9,9 +9,18 @@ Tags: Computer Science, programming, shell, fish
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
-## Configuration
+## Tips & Traps
 
-~/.config/fish
+1. Configuration files of the fish shell are located at `~/.config/fish`.
+
+## Installation & Configuration
+
+[icon](https://github.com/legendu-net/icon)
+makes it easy to install and configure the fish shell.
+
+```
+icon fish -ic
+```
 
 ## Key Bindings
 
