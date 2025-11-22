@@ -5,7 +5,7 @@ Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
 Category: Computer Science
 Tags: Computer Science, GitHub Actions, CICD
-Modified: 2025-11-17 19:55:48
+Modified: 2025-11-21 09:23:02
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -151,6 +151,20 @@ https://github.com/peter-evans/create-pull-request
 [GitHub Automatic Releases](https://github.com/marketplace/actions/automatic-releases)
 
 [Introducing GitHub Package Registry](https://www.youtube.com/watch?v=N_-Cu9_2YAA)
+
+#### Examples of Using Docker Containers
+
+- [fun-poker-game/poker-rs - profiling.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/profiling.yml)
+
+- [fun-poker-game/poker-rs - pre-release_centos7.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/pre-release_centos7.yml)
+
+- [fun-poker-game/poker-rs - on_merge.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/on_merge.yml)
+
+- [fun-poker-game/poker-rs - lint.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/lint.yml)
+
+- [fun-poker-game/poker-rs - bench_on_pr.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/bench_on_pr.yml)
+
+- [legendu-net/aiutil - lint.yml](https://github.com/legendu-net/aiutil/blob/dev/.github/workflows/lint.yml)
 
 ## Self-hosted Runners
 
