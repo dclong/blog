@@ -5,7 +5,7 @@ Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
 Category: Computer Science
 Tags: Computer Science, GitHub Actions, CICD
-Modified: 2025-11-21 09:23:02
+Modified: 2025-11-23 11:53:18
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -38,26 +38,8 @@ Modified: 2025-11-21 09:23:02
     but this doesn't give you much priviledge
     as the root account in a GitHub Actions VM is restricted too.
 
-4. The `runner` account (even with `sudo`) in GitHub Actions VMs 
-    have restricted priviledges.
-    For example, 
-    the Linux perf (and equivalent) tools cannot be run in GitHub Actions VMs
-    even if `sudo` is used.
-    Docker containers running in GitHub Actions VMs are restricted too.
-    For more details,
-    please refer to
-    [Supported Linux capabilities](https://docs.github.com/en/actions/creating-actions/dockerfile-support-for-github-actions#supported-linux-capabilities)
-    .
-
 3. OS: ubuntu-latest, windows-latest, macOS-latest
 
-4. Docker container is available in Ubuntu and Windows but not macOS in GitHub Actions due to license issues.
-    To use Docker in macOS in GitHub Actions,
-    you have to install it manually.
-    Please refer to 
-    [Is it possible to install and configure Docker on MacOS runner?](https://github.community/t/is-it-possible-to-install-and-configure-docker-on-macos-runner/16981)
-    for more details.
-    
 5. Good practices for GitHub repository with GitHub Actions workflows:
     - Have 2 protected branches `main` and `dev`,
         where `main` is reserved for releasing 
@@ -65,20 +47,6 @@ Modified: 2025-11-21 09:23:02
     - Fork the `dev` branch for development.
     - A PR from `dev` to `main` should be made 
         when it is ready to release a new version.
-
-## Issues and Solutions
-
-### Error: The process '/usr/bin/git' failed with exit code 1
-
-Sympton: A GitHub Actions workflow fail to checkout a branch of a repository 
-and throws the following error message.
-
-> Error: The process '/usr/bin/git' failed with exit code 1
-
-Possible Causes and Solutions: It's possible that you use a branch name 
-(e.g., used `main` while the repo does not have a `main` branch) which does not exist. 
-If so, 
-use the correct branch name might fix the issue.
 
 ## Branch Matching
 
@@ -96,23 +64,6 @@ please refer to
 and
 [Workflow syntax for GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions)
 .
-
-
-## PowerShell on Windows
-
-### Set PATH 
-
-echo "::add-path::./swigwin-4.0.1"
-
-echo %programfiles%
-echo ::set-env name=ProgramFilesPath::%programfiles%
-
-https://stackoverflow.com/questions/60169752/how-to-update-the-path-in-a-github-action-workflow-file-for-a-windows-latest-hos
-
-https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-commands-for-github-actions#adding-a-system-path
-
-Prepends a directory to the system PATH variable for all subsequent actions in the current job. The currently running action cannot access the new path variable.
-
 
 ## Good Github Actions
 
@@ -152,64 +103,24 @@ https://github.com/peter-evans/create-pull-request
 
 [Introducing GitHub Package Registry](https://www.youtube.com/watch?v=N_-Cu9_2YAA)
 
-#### Examples of Using Docker Containers
-
-- [fun-poker-game/poker-rs - profiling.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/profiling.yml)
-
-- [fun-poker-game/poker-rs - pre-release_centos7.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/pre-release_centos7.yml)
-
-- [fun-poker-game/poker-rs - on_merge.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/on_merge.yml)
-
-- [fun-poker-game/poker-rs - lint.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/lint.yml)
-
-- [fun-poker-game/poker-rs - bench_on_pr.yml](https://github.com/fun-poker-game/poker-rs/blob/dev/.github/workflows/bench_on_pr.yml)
-
-- [legendu-net/aiutil - lint.yml](https://github.com/legendu-net/aiutil/blob/dev/.github/workflows/lint.yml)
-
-## Self-hosted Runners
-
-1. straight forward to set up self-hosted runners following instructions
-
-2. No need for the machine to be publicly accessible
-
-3. Currently, 
-    a runner can be configured to accept only 1 repo in a personal account 
-    (which is inconveneint)
-    or multiple repositories in a GitHub organization.
-
-4. A self-hosted runner is able to use SSH keys on the host.
-    However, 
-    if a Docker container is used with a self-hosted runner,
-    you have to properly expose SSH keys on the host to the Docker container.
-    A feasible way is to 
-
-        1. Configure the GitHub Action workflow to mount `$HOME/.ssh` to `/ssh`.
-        2. Copy `/ssh` to `/root/.ssh` in the Docker container. 
-        3. Run `chmod 600 /root/.ssh/*` to ensure right permissions of SSH keys and configuration files.
-
-### Idle Organization Runners Which Don't Pick up Jobs 
-
-![](https://github.com/user-attachments/assets/5b494a23-7ecd-40da-8d1f-47d373d14c3c)
-
-![](https://github.com/user-attachments/assets/5b494a23-7ecd-40da-8d1f-47d373d14c3c)
-
-https://github.com/orgs/community/discussions/26823
-Self-hosted runner registered as idle but not picking up jobs #26823
-
-https://github.com/orgs/community/discussions/120813
-Self-hosted runners is idle but not picking up jobs #120813
-
-
 ## References
 
-https://www.youtube.com/watch?v=Ll50l3fsoYs&feature=emb_logo
+- [Common Issues and Solutions for GitHub Actions]( https://www.legendu.net/misc/blog/common-issues-and-solutions-for-github-actions ) 
 
-https://www.youtube.com/watch?v=0ahRkhrOePo
+- [Self-hosted Runners for GitHub Actions]( https://www.legendu.net/misc/blog/self-hosted-runners-for-github-actions ) 
 
-https://docs.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners#about-virtual-environments
+- [Use Docker Containers for GitHub Actions]( https://www.legendu.net/misc/blog/use-docker-containers-for-github-actions ) 
 
-https://stackoverflow.com/questions/57830375/github-actions-workflow-error-permission-denied
+- [Machine learning operations with GitHub Actions and Kubernetes - GitHub Universe 2019](https://www.youtube.com/watch?v=Ll50l3fsoYs&feature=emb_logo)
 
-[GitHub’s Actions v2 — Tips and Tricks](https://medium.com/inexdigital-fr/githubs-actions-v2-tips-and-tricks-c083ec6cfae0)
+- [Advanced GitHub Actions: workflows for production grade CI/CD - GitHub Universe 2019](https://www.youtube.com/watch?v=0ahRkhrOePo)
 
-[Questions about PR workflows and actions/checkout@v2](https://github.community/t/questions-about-pr-workflows-and-actions-checkout-v2/122347)
+- [Virtual Environments for Github Hosted Runners](https://docs.github.com/en/actions/reference/virtual-environments-for-github-hosted-runners#about-virtual-environments)
+
+- [Github Actions Workflow Error Permission Denied](https://stackoverflow.com/questions/57830375/github-actions-workflow-error-permission-denied)
+
+- [GitHub’s Actions v2 — Tips and Tricks](https://medium.com/inexdigital-fr/githubs-actions-v2-tips-and-tricks-c083ec6cfae0)
+
+- [Questions about PR workflows and actions/checkout@v2](https://github.community/t/questions-about-pr-workflows-and-actions-checkout-v2/122347)
+
+- [Powershell on Windows for GitHub Actions]( https://www.legendu.net/misc/blog/powershell-on-windows-for-github-actions ) 
