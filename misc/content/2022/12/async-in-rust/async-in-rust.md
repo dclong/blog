@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-12-04 10:38:16
-Modified: 2025-11-11 18:42:02
+Modified: 2025-11-23 18:30:54
 Author: Benjamin Du
 Slug: async-in-rust
 Title: Async in Rust
@@ -9,7 +9,14 @@ Tags: Computer Science, programming, Rust, async
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
-1. Combining asynchronous code with synchronous code that can cause blocking is never a wise choice.
+1. Minimizing usage of async Rust.
+  Refactor coded as much as possible to be in sync functions, 
+  and have async just be little "router wrappers" for waiting on stuff and feeding it to sync functions.
+  See good discussion at 
+  [Avoid Async Rust at all costs” - comments from experts?](https://users.rust-lang.org/t/avoid-async-rust-at-all-costs-comments-from-experts/105860)
+  .
+
+2. Combining asynchronous code with synchronous code that can cause blocking is never a wise choice.
     When calling asynchronous code from a synchronous context, 
     use `futures::executor::block_on` and spawn the async code to a dedicated runtime, 
     because the former will block the current thread.
@@ -20,6 +27,7 @@ Tags: Computer Science, programming, Rust, async
 
 
 ## Issues in Async Rust
+
 
 - [Rain: "Cancelling Async Rust" | RustConf 2025](https://www.youtube.com/watch?v=zrv5Cy1R7r4&list=PL2b0df3jKKiRFEuVNk76ufXagOgEJ9sBZ&index=32)
 
