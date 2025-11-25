@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-11-18 18:29:13
+Modified: 2025-11-24 21:29:25
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -27,11 +27,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sudo env UV_INSTALL_DIR="/usr/local
    e.g., Python 3.14 with 3rd-party packages dockeree and aituil
    ) using the following command.
 
-        uv run --python 3.14 --with dockeree --with aiutil python
+        uv run --python 3.13 --with dockeree --with aiutil python
         
-2. Similar to the above but start an Ipython shell instead.
+2. Similar to the above but start an IPython shell instead.
 
-        uv run --python 3.14 --with dockeree --with aiutil --with IPython python -m IPython
+        uv run --python 3.13 --with dockeree --with aiutil --with IPython python -m IPython
 
 3. Initialize a uv managed Python script.
 

@@ -5,7 +5,7 @@ Slug: ssh-tunnel
 Title: SSH Tunnel
 Category: Software
 Tags: software, SSH tunnel, socks proxy, reverse, SSH
-Modified: 2023-08-01 09:13:09
+Modified: 2025-11-25 04:47:23
 
 
 1. The StackOverflow discussion 
@@ -83,7 +83,7 @@ please refer to the
 ## Advanced Usage 3: Access Service in an Indirectly Accessible Remote Server
 
 Suppose you have 2 machines A and B. 
-Machine B cannot visit the public network nor machine A.
+Machine B cannot visit the public network or machine A.
 However, 
 machine B is accssible (directly or via a bastion server) 
 from machine A using SSH and machine A can visit the public network. 
