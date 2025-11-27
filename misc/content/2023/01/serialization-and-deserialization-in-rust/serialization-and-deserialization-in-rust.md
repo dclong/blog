@@ -14,6 +14,12 @@ Tags: Computer Science, programming, Rust, serialization, deserialization, binar
 
 [msgpack-rust](https://github.com/3Hren/msgpack-rust)
 
+## Protobuf
+
+https://crates.io/crates/protobuf
+
+https://crates.io/crates/prost
+
 ## [serde Based Serialization and Deserialization](https://www.legendu.net/en/blog/hands-on-the-Rust-library-serde/)
 
 ### [serde](https://www.legendu.net/en/blog/hands-on-the-Rust-library-serde/)
