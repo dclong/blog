@@ -5,7 +5,7 @@ Slug: mac-tips
 Title: Tips on macOS
 Category: OS
 Tags: macOS, tips, Apple
-Modified: 2024-12-04 23:55:42
+Modified: 2025-11-27 01:19:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -24,22 +24,6 @@ Modified: 2024-12-04 23:55:42
     following instructions in
     [How to configure a MacBook to hibernate when the lid is closed?](https://discussions.apple.com/thread/255421002?sortBy=rank)
     .
-
-## Key Repeating 
-
-1. Run the following command in terminal and then **restart your Mac** to enable key repeating by pressing and holding.
-
-        :::bash
-        defaults write -g ApplePressAndHoldEnabled -bool false
-
-2. Run the following command in terminal and then **restart your Mac** to disable key repeating by presing and holding.
-
-        :::bash
-        defaults write -g ApplePressAndHoldEnabled -bool true
-
-For more details please refer to
-[How to Enable Key Repeating in macOS](https://www.howtogeek.com/267463/how-to-enable-key-repeating-in-macos/)
-.
 
 ## Allow SSH into Mac
 
@@ -105,6 +89,7 @@ https://support.apple.com/en-us/HT202351
 
 ## References
 
+- [Tips on Keyboard in macOS]( https://www.legendu.net/misc/blog/tips-on-keyboard-in-macos )  
 - [How to configure a MacBook to hibernate when the lid is closed?](https://discussions.apple.com/thread/255421002?sortBy=rank)
 - [Map Keys in macOS](https://www.legendu.net/en/blog/map-keys-in-macos)
 - [Install Python in macOS](https://www.legendu.net/en/blog/install-python-in-mac)

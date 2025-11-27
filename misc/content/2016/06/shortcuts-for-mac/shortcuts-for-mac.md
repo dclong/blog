@@ -4,10 +4,32 @@ Author: Ben Chuanlong Du
 Slug: shortcuts-for-mac
 Title: Shortcuts in macOS
 Category: OS
-Tags: macOS, Apple, shortcuts, GUI
-Modified: 2020-05-22 16:10:02
+Tags: macOS, Apple, shortcuts, GUI, keybinding, customize, disable
+Modified: 2025-11-27 01:19:00
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+## Customize Keybindings
+
+You can customize keybindings by editing the file
+`~/Library/KeyBindings/DefaultKeyBinding.dict`
+.
+For example,
+to disable the system keybinding 
+`Alt + e` 
+and
+`Alt + .` 
+(so that they can be used by other applications, e.g., the fish shell)
+,
+you can add the following content into the file.
+```
+{
+"~e" = "noAction:";
+"~." = "noAction:";
+}
+```
+
+## List of Shortcuts
 
 [Table of keyboard shortcuts](https://en.wikipedia.org/wiki/Windows_shortcuts)
 lists comparisons of shortcuts on Windows, macOS and Linux.
