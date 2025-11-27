@@ -5,7 +5,7 @@ Slug: shortcuts-for-mac
 Title: Shortcuts in macOS
 Category: OS
 Tags: macOS, Apple, shortcuts, GUI, keybinding, customize, disable
-Modified: 2025-11-27 01:19:00
+Modified: 2025-11-26 19:18:08
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -24,8 +24,8 @@ and
 you can add the following content into the file.
 ```
 {
-"~e" = "noAction:";
-"~." = "noAction:";
+    "~e" = "noAction:";
+    "~." = "noAction:";
 }
 ```
 
