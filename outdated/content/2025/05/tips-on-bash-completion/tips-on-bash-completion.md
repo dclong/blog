@@ -1,13 +1,19 @@
 Status: published
 Date: 2025-05-06 14:27:02
-Modified: 2025-05-11 16:48:14
+Modified: 2025-11-27 11:34:36
 Author: Benjamin Du
 Slug: tips-on-bash-completion
 Title: Tips on Bash Completion
 Category: Computer Science
 Tags: Computer Science, programming, shell, bash, completion, complete
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
+
+It is suggested that you use the fish shell 
+instead of the bash shell
+(for iteractive use cases)
+.
 
 ## Installation
 
