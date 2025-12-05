@@ -5,9 +5,14 @@ Slug: good-terminal-apps
 Title: Good Terminal Apps
 Category: Computer Science
 Tags: Computer Science, terminal, software, tools, Warp, wezterm, alacritty, hyper, kitty
-Modified: 2022-12-11 10:54:01
+Modified: 2025-12-05 00:01:56
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+## [Wave](https://www.waveterm.dev/)
+[Wave](https://www.waveterm.dev/)
+is an open-source terminal with superpowers, 
+integrating file previews, file editing, AI, web browsing, and workspace organization.
 
 ## [Warp](https://www.warp.dev/)
 [Warp](https://www.warp.dev/)
@@ -23,10 +28,6 @@ implemented in Rust
 ## [alacritty](https://github.com/alacritty/alacritty)
 
 A cross-platform, OpenGL terminal emulator written in Rust.
-
-## [hyper](https://github.com/vercel/hyper)
-
-A terminal built on web technologiesa.
 
 ## [kitty](https://github.com/kovidgoyal/kitty)
 
