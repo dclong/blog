@@ -5,10 +5,13 @@ Tags: shell, terminal, Linux
 Category: OS
 Slug: cool-shell-commands
 Author: Ben Chuanlong Du
-Modified: 2025-07-06 11:06:17
+Modified: 2025-12-07 21:07:53
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
 
+[Fish Shell]( https://www.legendu.net/misc/blog/tips-on-the-fish-shell ) 
+is preferred to Bash/Zsh.
+The following content is for Bash/Zsh only.
 
 [Bash Reference Manual](http://www.gnu.org/software/bash/manual/bashref.html)
 
