@@ -10,6 +10,10 @@ Tags: Computer Science, programming, shell, bash, completion, complete
 **Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
 
 
+[Fish Shell]( https://www.legendu.net/misc/blog/tips-on-the-fish-shell ) 
+is preferred to Bash/Zsh.
+The following content is for Bash/Zsh only.
+
 It is suggested that you use the fish shell 
 instead of the bash shell
 (for iteractive use cases)

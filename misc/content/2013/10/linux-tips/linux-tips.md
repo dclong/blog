@@ -5,7 +5,7 @@ Date: 2013-10-29 17:13:18
 Slug: linux-tips
 Category: OS
 Tags: tips, Linux
-Modified: 2022-08-10 13:44:49
+Modified: 2025-12-07 16:01:07
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -76,54 +76,6 @@ Modified: 2022-08-10 13:44:49
         ^N : move down (or Down arrow key). 
 
 3. Use `Shift+PageUp` and `Shift+PageDown` to scroll up and down in virtual console.
-
-## Shell
-
-1. White spaces matters a lot in bash. To assign a string to a variable,
-    you can use `v=some_content` but not `v = some_content`. 
-    The reason is that space is used to separate bash commands and arguments. 
-    Bash will treat `v` as a command instead of a variable. 
-
-2. To source in a bash file "a-bash-file" so that commands in the file
-    will be executed, you can use `source a-bash-file`, or you can use a
-    period "." in place of "source", i.e., you can also use `.
-    a-bash-file`.
-
-3. `return` returns a bash function and thus can only be used in a bash function. 
-    The argument of `return` must be a numeric number. 
-    `exit` exits the bash enviroment, 
-    i.e., terminate the terminal you are using.
-
-
-5. To add a path to the `$PATH` environment variable, use the following command
-
-        PATH=$PATH:path_to_add
-
-    If you want to add the path permanently, 
-    you can put the command into the `.bashrc` file under your home directory. 
-
-## Path in Bash Script
-
-1. Full path of current directory
-
-        $PWD
-
-2. base name of current directory
-
-        ${PWD##*/}
-
-    or
-
-        basename $PWD
-
-## cd 
-
-1. use - to go back to last directory
-
-2. use $CDPATH
-
-3. use pushd and popd
-
 
 ## File Association
 

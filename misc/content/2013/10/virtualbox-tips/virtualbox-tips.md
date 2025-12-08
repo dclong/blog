@@ -5,14 +5,10 @@ Date: 2013-10-03 10:42:46
 Slug: virtualbox-tips
 Category: Software
 Tags: tips, virtualbox, virtualization
-Modified: 2022-05-04 10:18:09
+Modified: 2025-12-07 19:22:55
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
-```
-sudo mount -t vboxsf -o uid=$(whoami),gid=$(whoami),fmask=177,dmask=077
-```
- 
 1. If the graphics resolution is not correct
     and you cannot see the whole desktop 
     when installing a Linux distribution in VirtualBox,

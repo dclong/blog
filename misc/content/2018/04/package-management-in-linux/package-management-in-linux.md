@@ -6,19 +6,24 @@ Slug: package-management-in-linux
 Title: Package Management in Linux
 Category: OS
 Tags: Linux, package management, wajig, apt-get, dpkg
-Modified: 2020-09-11 10:11:29
+Modified: 2025-12-07 16:26:28
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 There are many different ways to install packages in Linux.
 
-1. Build From Source
+1. Build from source.
 
-2. Pre-built Binary
+2. Pre-built binaries.
 
 3. Use distribution specific tools.
     For example,
-    you can use `apt-get` or `wajig` for Debian-based Linux Distributions.
+    - Debian, Ubuntu Series: apt-get, wajig
+    - Fedora: dnf
+    Notice that Atomic Linux distributions have their own version of package managing tools.
+    For example,
+    - Fedora Atomic: rpm-ostree
+    - AerynOS: moss
 
 4. [Homebrew](https://www.legendu.net/misc/blog/homebrew-tips) and
     [Nix](https://nixos.org/nix/)
