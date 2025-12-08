@@ -1,4 +1,3 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Date: 2013-08-13 22:09:04
 Slug: desktop-environments-for-linux
@@ -6,7 +5,7 @@ Author: Ben Chuanlong Du
 Category: OS
 Title: Desktop Environments for Linux
 Tags: DE, Linux, desktop environment, Xfce, GNOME, KDE, Unity, lightdm, gdm3, kdm, mdm
-Modified: 2025-12-07 16:06:05
+Modified: 2025-12-07 20:48:16
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
@@ -25,7 +24,7 @@ Modified: 2025-12-07 16:06:05
 
 ## Desktop Environments
 
-1. Cosmic
+1. [COSMIC](https://system76.com/cosmic)
 2. LXQt
 3. Xfce
 4. KDE

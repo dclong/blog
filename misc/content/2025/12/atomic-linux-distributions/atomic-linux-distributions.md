@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-07 13:27:17
-Modified: 2025-12-07 17:28:47
+Modified: 2025-12-07 20:46:29
 Author: Benjamin Du
 Slug: atomic-linux-distributions
 Title: Atomic Linux Distributions
@@ -19,10 +19,11 @@ See
 ## Some Good Atomic Linux Distributions
 
 - [Universal Blue]( https://www.legendu.net/misc/blog/universal-blue-images-for-atomic-linux-distributions )
-    (recommended; based on Fedora Atomic distributions).
+  - recommended 
+  - based on Fedora Atomic distributions
 
-- [Fedora Atomic](https://www.fedoraproject.org/atomic-desktops/),
-  e.g., Fedora Kinoite is a good one.
+- [Fedora Atomic](https://www.fedoraproject.org/atomic-desktops/)
+  - personally prefer Fedora Kinoite
 
 - [AerynOS](https://aerynos.dev/users/desktops/cosmic/)
 

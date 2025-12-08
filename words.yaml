@@ -253,6 +253,7 @@
 - ["Notebooklm", "NotebookLM"]
 - ["Pdfplumber", "pdfplumber"]
 - ["Pandas_Udf", "pandas_udf"]
+- ["Rpm-Ostree", "rpm-ostree"]
 - ["Rule-Based", "Rule-based"]
 - ["Rustpython", "RustPython"]
 - ["Serde-Yaml", "serde-yaml"]

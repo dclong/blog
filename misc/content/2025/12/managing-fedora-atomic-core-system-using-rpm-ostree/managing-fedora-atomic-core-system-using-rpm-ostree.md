@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-12-07 18:19:15
-Modified: 2025-12-07 18:19:15
+Modified: 2025-12-07 20:40:15
 Author: Benjamin Du
 Slug: managing-fedora-atomic-core-system-using-rpm-ostree
-Title: Managing Fedora Atomic Core System Using Rpm-Ostree
+Title: Managing Fedora Atomic Core System Using rpm-ostree
 Category: Computer Science
 Tags: Computer Science, programming, Linux, atomic, Fedora, rpm, ostree
 
@@ -15,8 +15,10 @@ Fedora Atomic Linux ditributions use
 
 ## Upgrade
 
+```
 sudo ostree admin pin 0
 rpm-ostree rebase
 rpm-ostree rebase fedora:fedora/43/x86_64/kinoite
+```
 
 
