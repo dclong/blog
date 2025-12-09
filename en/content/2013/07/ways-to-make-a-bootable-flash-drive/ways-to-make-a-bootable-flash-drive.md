@@ -5,12 +5,21 @@ Slug: ways-to-make-a-bootable-flash-drive
 Author: Ben Chuanlong Du
 Category: OS
 Tags: bootable, flash drive, hybird, USB, Hardware, Linux
-Modified: 2022-05-04 10:49:17
+Modified: 2025-12-09 03:45:56
+
+## Fedora Media Writer
+
+[Fedora Media Writer](https://fedoraproject.org/workstation/download)
+is recommended for making bootable flash drives for Fedora Linux images.
 
 ## Use [Ventoy](https://github.com/ventoy/Ventoy)
 
 [Ventoy](https://github.com/ventoy/Ventoy)
 is the best graphical tool for making bootable flash drives currently.
+However,
+Ventoy doesn't always work.
+For example,
+Ventoy is not compatible with [Universal Blue](https://universal-blue.org/) Linux images.
 
 ## Use the Command `dd` or `cat`
 
@@ -74,3 +83,10 @@ Note that you must have an ethernet connection in order to use
 [netboot.me](http://www.netboot.me/).
 netboot.me is a fantastic tool for general purposes,
 but it has problems on some old computers.
+
+## More Such Tools
+
+- [rufus](https://github.com/pbatard/rufus)
+
+- [etcher](https://github.com/balena-io/etcher)
+
