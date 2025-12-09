@@ -1,6 +1,6 @@
 Status: published
 Date: 2023-12-13 20:53:16
-Modified: 2024-10-13 14:30:42
+Modified: 2025-12-09 03:53:40
 Author: Benjamin Du
 Slug: tips-on-wezterm
 Title: Tips on Wezterm
@@ -15,7 +15,23 @@ Follow
 https://wezfurlong.org/wezterm/install/linux.html#__tabbed_1_3
 to install Wezterm on Debian/Ubuntu series of Linux distributions.
 
-## Show Image in Wezterm
+## Wezterm CLI 
+
+https://wezterm.org/cli/general.html
+
+### Split Panels
+
+https://wezterm.org/cli/cli/split-pane.html
+
+    :::bash
+    wezterm cli split-pane
+
+### Connect to Wezterm Multiplexer 
+
+    :::bash
+    wezterm connect
+
+## Show Image
 
     :::bash
     wezterm imgcat /path/to/image

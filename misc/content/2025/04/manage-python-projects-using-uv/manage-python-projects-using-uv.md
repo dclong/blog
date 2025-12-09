@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-11-24 21:29:25
+Modified: 2025-12-09 03:56:33
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -20,6 +20,16 @@ curl -LsSf https://astral.sh/uv/install.sh | sudo env UV_INSTALL_DIR="/usr/local
 ```
 
 ## Usage
+
+### Run Executable Scripts of Python Packages
+
+1. Run the ruff tool.
+
+        uvx ruff -h
+
+2. Run `snb` from the aiutil package.
+
+        uvx --from aiutil snb -h
 
 ### Ad-hoc Python Shell & Scripts
 
