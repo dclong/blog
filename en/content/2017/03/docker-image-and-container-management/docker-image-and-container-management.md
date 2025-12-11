@@ -5,7 +5,7 @@ Slug: docker-image-and-container-management
 Title: Manage Docker Images and Containers 
 Category: Software
 Tags: software, Docker, Docker image, container, management, remove
-Modified: 2025-12-08 17:41:55
+Modified: 2025-12-09 11:17:58
 
 It is suggested that you use [osquery](https://osquery.io/)
 or [dockeree](https://github.com/legendu-net/dockeree)
@@ -31,7 +31,8 @@ but use it with caution and at your own risk.
 
         :::bash
         docker ps -aqf status=exited | xargs docker rm
-        osqueryi "select id from docker_containers where state=exited" --list --header=false | xargs docker rm
+        osqueryi "select id from docker_containers where state=exited" \
+          --list --header=false | xargs docker rm
 
 
 ## Remove Images
@@ -59,17 +60,21 @@ but use it with caution and at your own risk.
 4. Remove images without names or versions (with the help of `osquery`).
 
         :::bash
-        osqueryi "select id from docker_images where tags = ''" --list --header=false | xargs docker rmi
+        osqueryi "select id from docker_images where tags = ''" \
+          --list --header=false | xargs docker rmi
 
 5. Remove all images belong to the eclipse organization with the help of `sed` and `q`. 
 
         :::bash
-        docker images sed 's/ \+/\t/g' q -tH "select [image id] from - where repository like 'eclipse/%'" xargs docker rmi 
+        docker images sed 's/ \+/\t/g' | \
+          q -tH "select [image id] from - where repository like 'eclipse/%'" | \
+          xargs docker rmi 
 
 6. Remove all images belong to the eclipse organization with the help of `osquery`. 
 
         :::bash
-        osqueryi "select id from docker_images where tags like 'eclipse/%'" --list --header=false | xargs docker rmi
+        osqueryi "select id from docker_images where tags like 'eclipse/%'" \
+          --list --header=false | xargs docker rmi
 
 7. You can force removing an image with the `--force` option.
 
@@ -86,7 +91,8 @@ You can get the container ID inside the docker container
 by running the following command.
 
     :::bash
-    cat /proc/self/cgroup | grep -o  -e "docker-.*.scope" | head -n 1 | sed "s/docker-\(.*\).scope/\\1/"
+    cat /proc/self/cgroup | grep -o  -e "docker-.*.scope" | \
+      head -n 1 | sed "s/docker-\(.*\).scope/\\1/"
 
 Or another simpler way is to run
 
@@ -196,16 +202,13 @@ for more detailed discussions.
 
 ## Misc
 
-1. By default log in a Docker container is redirected to the standard output.
+1. By default, 
+    logging in a Docker container is redirected to the standard output.
     However,
     you won't be able to see the log if you start the Docker container as a deamon (using the `-d` option).
     For debugging purposes,
     it is suggested that you use the `-it` options instead the `-d` option.
     A more general and robust way is of course to redirect log of applications to a file.
-
-1. Multiple running instances of the same Docker image
-    do not interact with each other.
-    The are running isolated.
 
 2. Amazon AWS is blocked in China (currently).
     Do NOT run Docker services on Amazon if your users are in the mainland of China.
@@ -214,7 +217,9 @@ for more detailed discussions.
 
 ### Issue/Error 1
 
-> docker: Error response from daemon: Get https://registry-1.docker.io/v2/dclong/jupyterlab-rstudio/manifests/latest: dial tcp 50.17.62.194:443: getsockopt: connection refused
+> docker: Error response from daemon: 
+> Get https://registry-1.docker.io/v2/dclong/jupyterlab-rstudio/manifests/latest: 
+> dial tcp 50.17.62.194:443: getsockopt: connection refused
 
 First retry starting the Docker container.
 If it still does not work
@@ -243,7 +248,8 @@ https://samwize.com/2016/05/19/docker-error-returned-a-non-zero-code-137/
 
 ### Issue/Error 4
 
-> Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock ... dial unix:///var/run/docker.sock: connect: permission denied 
+> Got permission denied while trying to connect to the Docker daemon 
+> socket at unix:///var/run/docker.sock ... dial unix:///var/run/docker.sock: connect: permission denied 
 
 Please refer to
 [How to Fix Docker Permission Denied?](https://phoenixnap.com/kb/docker-permission-denied)

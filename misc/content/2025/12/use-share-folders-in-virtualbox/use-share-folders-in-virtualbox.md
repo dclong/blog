@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-07 18:37:30
-Modified: 2025-12-09 00:21:43
+Modified: 2025-12-09 10:08:56
 Author: Benjamin Du
 Slug: use-share-folders-in-virtualbox
 Title: Use Share Folders in VirtualBox
@@ -16,6 +16,7 @@ Tags: Computer Science, programming, VirtualBox, shared, folder, mount
     - Auto-mount
         - Auto-mount uses the root account by default.
         - Not sure whether it uses the user account if a root account is not created in the VM.
+
   Do check the following option(s).
     - Make Machine-permanent
         - The shared folder will survive VM reboots.

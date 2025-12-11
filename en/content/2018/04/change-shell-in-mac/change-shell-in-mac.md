@@ -5,7 +5,7 @@ Slug: change-shell-in-mac
 Title: Change Shell in Mac
 Category: OS
 Tags: macOS, shell, Hyper, Bash, zsh
-Modified: 2022-06-14 11:02:49
+Modified: 2025-12-09 12:26:13
 
 
 You can check the current shell in use by running the following command.
@@ -17,12 +17,20 @@ However,
 notice that `echo $SHELL` does not report the right shell sometimes.
 A more robust way is to use `echo $0`.
 
-The default shell can be changed using thee comamnd `chsh`.
+The default shell can be changed using the comamnd `chsh`.
 For example, 
-thee following command changes the default shell to Bash.
+the following command changes the default shell to the fish shell.
 
     :::bash
-    chsh -s /bin/bash
+    chsh -s /usr/local/bin/fish
+
+Please consult 
+[chat with Gemini](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221ltmkuaJxYrnN1P_AMQ2hlB6qY1LrzpoE%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+if you run into error saying
+"chsh: /usr/local/bin/fish: non-standard shell on macos"
+.
+
+## Change the Default Shell for the Hyper Terminal
 
 Notice that [Hyper](https://hyper.is/)
 does not honor the the environment variable `SHELL`
