@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-12-07 18:37:30
-Modified: 2025-12-09 10:08:56
+Modified: 2025-12-12 20:39:53
 Author: Benjamin Du
-Slug: use-share-folders-in-virtualbox
-Title: Use Share Folders in VirtualBox
+Slug: use-shared-folders-in-virtualbox
+Title: Use Shared Folders in VirtualBox
 Category: Computer Science
 Tags: Computer Science, programming, VirtualBox, shared, folder, mount
 
@@ -18,8 +18,10 @@ Tags: Computer Science, programming, VirtualBox, shared, folder, mount
         - Not sure whether it uses the user account if a root account is not created in the VM.
 
   Do check the following option(s).
+
     - Make Machine-permanent
         - The shared folder will survive VM reboots.
+
     - Make Global
         - The shared folder will be available to all VMs even after reboots.
 
