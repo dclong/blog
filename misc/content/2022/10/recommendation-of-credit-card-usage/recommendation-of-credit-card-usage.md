@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-10-09 16:34:06
-Modified: 2025-11-07 23:08:45
+Modified: 2025-12-14 14:08:18
 Author: Benjamin Du
 Slug: recommendation-of-credit-card-usage
 Title: Recommendation of Credit Card Usage
@@ -422,9 +422,10 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>Gas</td>
     <td></td>
     <td></td>
-    <td></td>
     <td>
-      <span style="color:green">Citi-C</span><br>
+        <span style="color:green">Citi-C</span><br>
+    </td>
+    <td>
         <span style="color:green"> VVC</span>
     </td>
     <td></td>
