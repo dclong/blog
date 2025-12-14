@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-07 13:27:17
-Modified: 2025-12-14 09:18:03
+Modified: 2025-12-14 10:40:49
 Author: Benjamin Du
 Slug: atomic-linux-distributions
 Title: Atomic Linux Distributions
@@ -19,15 +19,10 @@ See
 ## Some Good Atomic Linux Distributions
 
 - [Universal Blue]( https://www.legendu.net/misc/blog/universal-blue-images-for-atomic-linux-distributions )
-
     - recommended 
-
     - based on Fedora Atomic distributions
-
 - [Fedora Atomic](https://www.fedoraproject.org/atomic-desktops/)
-
     - personally prefer Fedora Kinoite
-
 - [AerynOS](https://aerynos.dev/users/desktops/cosmic/)
 
 ## Package Managements for Atomic Linux Distributions
@@ -37,25 +32,14 @@ See
 .
 
 1. Core OS
-
     - Fedora Atomic: rpm-ostree
-
     - AerynOS: moss
-
 2. GUI applications 
-
     - flatpak 
-
     - snap
-    
 3. CLI utilities
-
     - Homebrew
-
     - [Distrobox / Toolbx](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221G2PCEp2tK5VUzgmEp70m2oHfkTysj1Q6%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
-    
 4. Dev environment
-
     - Podman
-
     - Docker
