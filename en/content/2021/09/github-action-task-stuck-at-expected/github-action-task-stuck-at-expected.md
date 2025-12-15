@@ -1,6 +1,6 @@
 Status: published
 Date: 2021-09-15 01:11:06
-Modified: 2022-08-11 09:01:10
+Modified: 2025-12-14 16:57:11
 Author: Benjamin Du
 Slug: github-action-task-stuck-at-expected
 Title: GitHub Action Task Stuck At Expected
@@ -11,7 +11,7 @@ Tags: Computer Science, programming, GitHub, Actions, task, check, stuck, expect
 
 Github pull request - Waiting for status to be reported
 
-![github-action-wf](https://i.stack.imgur.com/xHqbI.png)
+<img width="812" height="426" alt="Image" src="https://github.com/user-attachments/assets/671e80e7-94b0-4738-a1a1-83c36b9a3abf" />
 
 1. The simplest manually solution is to close the PR and reopen it.
 
