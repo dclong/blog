@@ -4,8 +4,8 @@ Author: Benjamin Du
 Slug: check-whether-a-shell-command-exists
 Title: Check Whether a Shell Command Exists
 Category: Computer Science
-Tags: programming, Shell, command, exist, Python
-Modified: 2021-09-26 12:02:32
+Tags: programming, Shell, command, exist, Python, Fish, Bash
+Modified: 2025-12-17 10:16:12
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -13,7 +13,11 @@ Modified: 2021-09-26 12:02:32
 
 `shutil.which`
 
-## Shell
+## Fish 
+
+[Check for Existence of Commands in the Fish Shell]( https://www.legendu.net/misc/blog/check-for-existence-of-commands-in-the-fish-shell )
+
+## Bash
 
 `which`
 

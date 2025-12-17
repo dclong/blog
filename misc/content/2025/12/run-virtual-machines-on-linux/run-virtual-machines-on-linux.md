@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-16 23:39:50
-Modified: 2025-12-16 23:39:50
+Modified: 2025-12-17 10:15:03
 Author: Benjamin Du
 Slug: run-virtual-machines-on-linux
 Title: Run Virtual Machines on Linux
@@ -28,7 +28,7 @@ standard users never use KVM directly.
 KVM is like an engine (for running VMs)
 and there are GUI tools to make it easy to use KVM (and related tools such as QEMU and libvirt).
 
-## GNOME Boxes vs virt-manager
+## GNOME Boxes vs Virtual Machine Manager
 
 GNOME Boxes and 
 [Virtual Machine Manager (virt-manager)](https://virt-manager.org/)

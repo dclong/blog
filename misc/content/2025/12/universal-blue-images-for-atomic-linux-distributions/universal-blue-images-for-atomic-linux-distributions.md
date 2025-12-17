@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-07 17:20:04
-Modified: 2025-12-16 19:00:33
+Modified: 2025-12-17 10:14:20
 Author: Benjamin Du
 Slug: universal-blue-atomic-linux-distributions
 Title: Universal Blue Atomic Linux Distributions
@@ -14,6 +14,9 @@ Tags: Computer Science, programming, Linux, Universal Blue, Aurora, Origami, Ato
 is a manufacturing process 
 that focuses on community-driven sharing of best practices 
 via automation to make awesome desktop and server operating systems (based on Fedora Atomic distributions).
+
+I've built a [Gemini App - Aurora Linux Assistant](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221X_u1z8lHjUZ3YytBLP4zwmVlmUoH_o9i%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+which makes it easy to learn and use Universal Blue Linux distributions.
 
 ## Good Images
 
@@ -43,6 +46,10 @@ please refer to
 
 ## Switch to the Fish Shell
 
+Please see discussion in
+[Change the Default Shell in Linux](https://misc.legendu.net/blog/change-the-default-shell-in-linux/)
+.
+
 ## Install Docker
 
 It is suggested that you switch to the development mode using the following command.
@@ -54,6 +61,23 @@ The development mode has lots of development tools (including Docker) installed.
 ## Update the Operating System
 
 ujust upgrade
+
+## Configure Grub
+
+1. You can use the command `ujust configure-grub`
+  to configure
+
+Do not edit `/etc/default/grub` to add kernel parameters (like nomodeset or nvidia-drm.modeset=1).
+Changes there for kernel args will be ignored or overwritten.
+Use `rpm-ostree kargs` instead.
+
+1. Show kernel arguments.
+
+        rpm-ostree kargs
+
+2. Append kernel arguments.
+
+      rpm-ostree kargs --append="your-argument-here"
 
 ## rpm-ostree
 
@@ -119,6 +143,8 @@ Or to reset a package to the default version provided by the OS image:
     rpm-ostree deploy <digest_id>
 
 ## References
+
+- [Gemini App - Aurora Linux Assistant](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221X_u1z8lHjUZ3YytBLP4zwmVlmUoH_o9i%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
 
 - [Install Dropbox Using Flatpak]( https://www.legendu.net/misc/blog/install-dropbox-using-flatpak )
 
