@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-16 15:40:51
-Modified: 2025-12-16 16:13:21
+Modified: 2025-12-16 18:23:33
 Author: Benjamin Du
 Slug: install-dropbox-using-flatpak
 Title: Install Dropbox Using Flatpak
@@ -35,4 +35,4 @@ which is widely recognized.
 
 ## References
 
-- [Dropbox support](https://universal-blue.discourse.group/t/dropbox-support/10297)
+- [Universal Blue Forum - Dropbox support](https://universal-blue.discourse.group/t/dropbox-support/10297)
