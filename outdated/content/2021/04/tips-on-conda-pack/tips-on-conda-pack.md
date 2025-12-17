@@ -11,6 +11,8 @@ Please refer to
 [Packaging Python Dependencies for PySpark Using Python-Build-Standalone](http://www.legendu.net/en/blog/packaging-Python-Dependencies-for-PySpark-Using-python-build-standalone/)
 for more details.
 
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
 1. All packages in a virtual environment must be managed by conda (rather than pip)
     so that it can be packe using conda-pack.
 

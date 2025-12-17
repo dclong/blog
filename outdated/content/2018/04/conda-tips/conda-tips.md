@@ -7,7 +7,8 @@ Category: Computer Science
 Tags: programming, Python, conda, tips, Anaconda Python
 Modified: 2022-07-13 17:25:10
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
 
 
 1. conda and executables installed by conda might not be able to run by sudo directly. 

@@ -7,6 +7,8 @@ Category: Computer Science
 Tags: programming, PySpark, Python, conda, conda-pack, dependency, Spark, big data, portable
 Modified: 2021-07-18 22:12:43
 
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
 
 [python-build-standalone](https://github.com/indygreg/python-build-standalone)
 is a better alternative to conda-pack on managing Python dependencies for PySpark.

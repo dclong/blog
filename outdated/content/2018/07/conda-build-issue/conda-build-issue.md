@@ -7,7 +7,8 @@ Category: Computer Science
 Tags: programming, Anaconda, Python, conda build, sqlalchemy-teradata, conda
 Modified: 2020-05-23 09:24:19
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
 
 I encountered an issue building the package
 [sqlalchemy-teradata](https://pypi.org/project/sqlalchemy-teradata/).

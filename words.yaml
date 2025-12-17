@@ -122,6 +122,7 @@
 - ["Onnx", "ONNX"]
 - ["Pypy", "PyPy"]
 - ["Pcie", "PCIe"]
+- ["Qemu", "QEMU"]
 - ["Rdds", "RDDs"]
 - ["Rngs", "RNGs"]
 - ["Pyqt", "PyQt"]

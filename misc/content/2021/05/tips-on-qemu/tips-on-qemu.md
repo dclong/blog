@@ -2,10 +2,11 @@ Status: published
 Date: 2021-05-03 10:23:53
 Author: Benjamin Du
 Slug: tips-on-qemu
-Title: Tips on Qemu
+Title: Tips on QEMU
 Category: Computer Science
-Tags: Computer Science, programming, QEMU, virtual machine, mouse control
-Modified: 2021-05-03 10:23:53
+Tags: Computer Science, programming, QEMU, virtual, machine, mouse control, VM, KVM
+Modified: 2025-12-17 00:04:21
+
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 ## Control Mouse
