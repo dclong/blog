@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-12-07 17:20:04
-Modified: 2025-12-16 16:13:21
+Modified: 2025-12-16 19:00:33
 Author: Benjamin Du
-Slug: universal-blue-images-for-atomic-linux-distributions
-Title: Universal Blue Images for Atomic Linux Distributions
+Slug: universal-blue-atomic-linux-distributions
+Title: Universal Blue Atomic Linux Distributions
 Category: Computer Science
 Tags: Computer Science, programming, Linux, Universal Blue, Aurora, Origami, Atomic, Fedora
 
@@ -50,6 +50,73 @@ It is suggested that you switch to the development mode using the following comm
     ujust devmod
     
 The development mode has lots of development tools (including Docker) installed.
+
+## Update the Operating System
+
+ujust upgrade
+
+## rpm-ostree
+
+1. Homebrew, flatpaks and containers are preferred to rpm-ostree.
+    Use rpm-ostree only when absolutely necessary.
+
+
+### Check System Status
+
+See which deployment you are booted into, which one is pending, and what packages you have layered.
+
+    rpm-ostree status
+
+### Update the System
+
+This downloads the latest base image updates and keeps your layered packages on top.
+
+    rpm-ostree upgrade  # ujust upgrade is preferred for Universal Blue
+
+### Search for a Package
+
+    rpm-ostree search <query>
+
+### Install a Package (Layering)
+
+To install a package directly into the OS (e.g., zsh or neovim):
+
+    rpm-ostree install <package_name>
+
+### Apply Changes Live (Experimental but useful)
+
+If you don't want to reboot immediately, you can try to apply changes to the live filesystem. This works for many packages but not all (e.g., not kernels).
+rpm-ostree rollback
+
+    rpm-ostree install --apply-live <package_name>
+
+### Remove a Package
+
+    rpm-ostree uninstall <package_name>
+
+### Rollback to the Previous Version
+
+    rpm-ostree rollback
+
+### Pinning a Deployment
+
+If you have a perfectly working system state and want to save it so it never gets deleted by future updates,
+
+    rpm-ostree admin pin 0
+
+### Replacing Base Packages
+
+Sometimes you need to replace a package that comes with the base OS (e.g., swapping a driver).
+
+    rpm-ostree override replace <path_to_rpm>
+
+Or to reset a package to the default version provided by the OS image:
+
+    rpm-ostree override reset <package_name>
+
+### Deploy a Commit
+
+    rpm-ostree deploy <digest_id>
 
 ## References
 
