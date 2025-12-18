@@ -1,6 +1,6 @@
 Status: published
 Date: 2022-05-21 21:35:27
-Modified: 2025-10-04 16:28:23
+Modified: 2025-12-17 12:26:40
 Author: Benjamin Du
 Slug: shopping-smartly
 Title: Shopping Smartly
@@ -29,6 +29,11 @@ ASK WHETHER THEY PROVIDE ANY DISCOUNT!!!
 ## Shopping Assistants 
 
 - [CapitalOne Shopping](https://capitaloneshopping.com/)
+
+## Shopping Laptops
+
+[Framework](https://frame.work/)
+provides configurable laptops and desktops.
 
 ## Shopping (Used) Books
 
