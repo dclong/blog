@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-07 17:20:04
-Modified: 2025-12-17 10:14:20
+Modified: 2025-12-19 19:33:48
 Author: Benjamin Du
 Slug: universal-blue-atomic-linux-distributions
 Title: Universal Blue Atomic Linux Distributions
@@ -60,7 +60,7 @@ The development mode has lots of development tools (including Docker) installed.
 
 ## Update the Operating System
 
-ujust upgrade
+    ujust upgrade
 
 ## Configure Grub
 
