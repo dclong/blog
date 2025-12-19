@@ -1,6 +1,6 @@
 Status: published
 Date: 2021-09-06 12:47:10
-Modified: 2025-12-17 09:59:55
+Modified: 2025-12-19 19:48:24
 Author: Benjamin Du
 Slug: pcie-bus-error:-severity=Corrected,-type=Physical-Layer
 Title: PCIe BUS Error: Severity=Corrected, Type=Physical Layer
@@ -14,7 +14,7 @@ Note: You might have to do this every time you upgrade your Linux kernel!!
 ## Explanation of the Error
 
 See 
-[Chat with Geminie: PCIe BUS Error: Severity=Corrected, Type=Physical Layer](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221tX7Al3dazaSG6QV0KavL2Gg21m2yuOkR%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+[Chat with Geminie: PCIe BUS Error: Severity=Corrected, Type=Physical Layer](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221A9Alzo5Bjaf1x0To03yD9Ws15EL5GHMd%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
 .
 
 ## Symptoms
