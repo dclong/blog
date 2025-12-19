@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-09-23 16:10:42
-Modified: 2025-09-23 16:10:42
+Modified: 2025-12-19 19:22:21
 Author: Benjamin Du
 Slug: tips-on-verizon
 Title: Tips on Verizon
@@ -35,4 +35,8 @@ only if they already own a single-line Verizon account.
   and all needed from the owner of the in-bound account is to accept the request. 
   This is easy and less error-prone.
 
+
+## Verizon Rewards
+
+- [My Verizon Visa® Card - Rewards](https://www.verizon.com/digital/nsa/secure/ui/payment/vvc/dashboard#/)
 
