@@ -57,6 +57,10 @@ https://wezterm.org/cli/cli/split-pane.html
     </tr>
 </table>
 
+## Configuration
+
+- [Change WezTerm blurred Window Background & Opacity on Focus](https://romanzipp.com/blog/how-to-toggle-wezterm-blurred-window-background-on-focus)
+
 ## References
 
 - [wezterm imgcat](https://wezfurlong.org/wezterm/cli/imgcat.html)
