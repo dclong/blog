@@ -40,6 +40,10 @@ please refer to
 [Chat with Gemini: GNOME Boxes vs virt-manager](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221hQepi_tkMePT1PJY71TWc8TaCbnTPkc7%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
 .
 
+## Error: "Virtual network default is not active"
+
+[Chat with Gemini: Virtual network default is not active](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2219XmMRzfiPqNZJTGVJlppf9ksTJkbi-xG%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+
 ## References
 
 - [Chat with Gemini: qemu vs kvm vs virt-manager](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221XCnG8dxf0HA3EblgIxjpRJb85dIRaiLn%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)

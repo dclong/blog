@@ -5,7 +5,7 @@ Slug: compress-and-decompress-in-linux
 Author: Ben Chuanlong Du
 Category: OS
 Tags: Linux, decompress, compress, archive, split, multiple, zip, tar, gz, bz2, dtrx, rar, 7zip, zstd
-Modified: 2022-07-21 00:40:33
+Modified: 2025-12-18 23:39:56
 
 
 ## Tips and Traps
@@ -21,7 +21,21 @@ Modified: 2022-07-21 00:40:33
     For a similar compression ratio,
     it is generally much faster than other compression tools.
 
-## tar.zstd
+## zst or zstd
+
+1. Extract archive.
+
+        zstd -d /path/to/archive.ztd
+
+2. Create a zst archive from a single file.
+
+        zstd -19 -T0 /path/to/file/to/compress
+
+    If you want to compress a directory using zstd,
+    you can tar it first.
+    See the next section for more discussions.
+
+## tar.zstd or tar.zst
 
 1. Extract archive.
 
