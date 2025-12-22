@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-16 23:39:50
-Modified: 2025-12-17 10:15:03
+Modified: 2025-12-22 10:15:53
 Author: Benjamin Du
 Slug: run-virtual-machines-on-linux
 Title: Run Virtual Machines on Linux
@@ -43,6 +43,20 @@ please refer to
 ## Error: "Virtual network default is not active"
 
 [Chat with Gemini: Virtual network default is not active](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2219XmMRzfiPqNZJTGVJlppf9ksTJkbi-xG%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+
+## Bidirectional Copy
+
+Install `spice-vdagent` in the VM and reboot.
+
+    wajig install spice-vdagent
+
+## Location for Images
+
+/var/lib/libvirt/images/
+
+~/.var/app/org.gnome.Boxes/data/gnome-boxes/images
+
+[Chat with Gemini - Btrfs/Qcow2 Performance Issues](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221JMQ_g57FrGLqOEfhbJgvS9RViepC0gUI%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
 
 ## References
 

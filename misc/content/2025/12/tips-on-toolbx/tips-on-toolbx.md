@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-14 16:59:01
-Modified: 2025-12-14 16:59:01
+Modified: 2025-12-22 11:43:48
 Author: Benjamin Du
 Slug: tips-on-toolbx
 Title: Tips on Toolbx
@@ -21,6 +21,8 @@ to make installing and configuration of tools easy.
 ## Toolbox
 
 https://github.com/containers/toolbox
+
+toolbox create --distro ubuntu --release 24.04
 
 ## DistroBox
 
