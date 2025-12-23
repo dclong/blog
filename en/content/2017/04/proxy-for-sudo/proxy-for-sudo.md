@@ -2,10 +2,10 @@ Status: published
 Date: 2017-04-07 23:42:48
 Author: Ben Chuanlong Du
 Slug: proxy-for-sudo
-Title: Proxy for `sudo`
+Title: Proxy for sudo
 Category: Internet
 Tags: Network, proxy, environment variable, sudo
-Modified: 2019-03-07 23:42:48
+Modified: 2025-12-22 20:03:14
 
 You can setup proxy in a terminal by export environment variables `http_proxy` and `https_proxy'.
 ```bash
