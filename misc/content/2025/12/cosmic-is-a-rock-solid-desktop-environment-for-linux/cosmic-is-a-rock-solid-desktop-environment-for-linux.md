@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-12-22 10:34:27
-Modified: 2025-12-22 10:34:27
+Modified: 2025-12-22 17:42:56
 Author: Benjamin Du
 Slug: cosmic-is-a-rock-solid-desktop-environment-for-linux
-Title: Cosmic Is a Rock Solid Desktop Environment for Linux
+Title: COSMIC Is a Rock Solid Desktop Environment for Linux
 Category: Computer Science
 Tags: Computer Science, programming, Linux, desktop, COSMIC
 
