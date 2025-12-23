@@ -1,9 +1,9 @@
 Status: published
 Date: 2025-12-22 15:29:11
-Modified: 2025-12-22 20:03:14
+Modified: 2025-12-22 23:59:49
 Author: Benjamin Du
 Slug: environment-variables-and-secure-path-for-sudo
-Title: Environment Variables and Secure Path for Sudo
+Title: Environment Variables and Secure Path for sudo
 Category: Computer Science
 Tags: Computer Science, programming, sudo, environment, variable, PATH, secure path, env
 

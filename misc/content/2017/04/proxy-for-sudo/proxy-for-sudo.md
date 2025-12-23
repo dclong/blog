@@ -5,7 +5,7 @@ Slug: proxy-for-sudo
 Title: Proxy for sudo
 Category: Internet
 Tags: Network, proxy, environment variable, sudo
-Modified: 2025-12-22 20:03:14
+Modified: 2025-12-22 23:58:24
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -21,6 +21,7 @@ This can be resovled by simplying adding the `-E` (preserve environment) option 
 sudo -E command_to_run
 ```
 
-## Question
-
-Can a socks proxy be used as a HTTP/HTTPS proxy directly?
+For more discussions,
+please refer to
+[Environment Variables and Secure Path for sudo]( https://www.legendu.net/misc/blog/environment-variables-and-secure-path-for-sudo )
+.
