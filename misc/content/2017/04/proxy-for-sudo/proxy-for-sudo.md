@@ -7,6 +7,8 @@ Category: Internet
 Tags: Network, proxy, environment variable, sudo
 Modified: 2025-12-22 20:03:14
 
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
 You can setup proxy in a terminal by export environment variables `http_proxy` and `https_proxy'.
 ```bash
 export http_proxy='proxy_server:port'
