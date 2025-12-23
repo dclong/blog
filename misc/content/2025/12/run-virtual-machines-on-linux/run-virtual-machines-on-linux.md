@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-16 23:39:50
-Modified: 2025-12-22 10:15:53
+Modified: 2025-12-22 18:23:14
 Author: Benjamin Du
 Slug: run-virtual-machines-on-linux
 Title: Run Virtual Machines on Linux
@@ -49,6 +49,12 @@ please refer to
 Install `spice-vdagent` in the VM and reboot.
 
     wajig install spice-vdagent
+
+## Shared Folder
+
+See
+[Chat with Gemini - Virt-Manager Shared Folder Guide](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221wTHQb_03tYjkY0P82hwnFcs4G4KPeW-H%22%5D,%22action%22:%22open%22,%22userId%22:%22100282891140280543929%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+.
 
 ## Location for Images
 
