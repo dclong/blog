@@ -5,15 +5,15 @@ Slug: windows-emulation-on-linux
 Title: Windows Emulation on Linux
 Category: Software
 Tags: software, VirtualBox, Wine, CrossOver, Windows Emulation
-Modified: 2021-09-25 13:42:57
+Modified: 2025-12-25 18:23:08
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
 Virtual machine is the recommend way to emulate Windows working environment on Linux.
 
-## Virtual Machine 
+## Windows Virtual Machine 
 
-1. A Windows virtual machine (via Virtualbox, etc.)
+1. A Windows virtual machine (e.g., using Virtual Machine Manager)
     provides a full working Windows environment.
     The only downside is that
     a Windows virtual machine requires lots of resource to run. 
@@ -24,6 +24,21 @@ Virtual machine is the recommend way to emulate Windows working environment on L
     Microsoft provides free registration for WinTPC.
     [Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
     offers free Windows 10 virtual machines for developers.
+
+## ReactOS Virtual Machine
+
+[ReactOS](https://reactos.org/)
+([@GitHub](https://github.com/reactos/reactos))
+is a free Windows-compatible Operating System
+.
+
+## WinApps 
+
+[WinApps](https://github.com/winapps-org/winapps)
+allows you to run Windows applications 
+(including Microsoft 365 and Adobe Creative Cloud) 
+on GNU/Linux with KDE Plasma, GNOME or XFCE, 
+integrated seamlessly as if they were native to the OS.
 
 ## WINE, CrossOver
 
