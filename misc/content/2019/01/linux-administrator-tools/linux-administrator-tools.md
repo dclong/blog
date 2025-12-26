@@ -1,6 +1,6 @@
 Status: published
 Date: 2019-01-17 11:24:31
-Modified: 2022-06-11 15:51:14
+Modified: 2025-12-25 23:04:06
 Author: Ben Chuanlong Du
 Slug: linux-administrator-tools
 Title: Linux Administrator Tools
@@ -18,9 +18,9 @@ Tags: Linux, admin, administrator, tools, bcc
 
 2. id, adduser, gpasswd (recommended for adding/removing groups)
 
-3. uptime, top, netstat, ifconfig, top, iotop (input and output monitoring), atop,
+3. RustNet, uptime, netstat, ifconfig, iotop (input and output monitoring), atop,
 
-4. htop (a better alternative to top)
+4. bottom (a better alternative to top/htop)
 
 ## [osquery](https://github.com/facebook/osquery)
 

@@ -4,8 +4,19 @@ Author: Ben Chuanlong Du
 Slug: proxychains-tips
 Title: Make Traffic Follow Through Proxies Using ProxyChains
 Category: Software
-Tags: Software, ProxyChains, network, web, proxy
-Modified: 2023-08-01 09:14:37
+Tags: Software, ProxyChains, network, web, proxy, nsproxy, sshuttle
+Modified: 2025-12-25 23:01:08
+
+**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+
+ProxyChains is not actively maintained any more.
+[ProxyChains-NG](https://github.com/rofl0r/proxychains-ng)
+is the successor.
+[nsproxy](https://github.com/ple1n/nsproxy)
+and
+[sshuttle](https://github.com/sshuttle/sshuttle)
+are also good alternatives.
+
 
 ## Installation
 
