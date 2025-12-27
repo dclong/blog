@@ -5,7 +5,7 @@ Title: Tips on "sed"
 Slug: sed-tips
 Category: Software
 Tags: tips, software, text manipulation, shell, Linux, sed
-Modified: 2025-12-25 17:28:00
+Modified: 2025-12-27 08:39:45
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -38,6 +38,11 @@ Modified: 2025-12-25 17:28:00
 
 ## Example Usages
  
+1. Append `/home/linuxbrew/.linuxbrew/bin` into the secure path for sudoers.
+
+        :::bash
+        sed '/^Defaults\s\+secure_path\s*=/s/$/:\/home\/linuxbrew\/.linuxbrew\/bin/g' /etc/sudoers
+
 1. Add `#!/bin/bash` to the first line of all `.txt` files.  
 
         :::bash
@@ -60,11 +65,6 @@ Modified: 2025-12-25 17:28:00
         sed -i 's/ //g' *.r
 
 ## Examples of Cleaning CSV Data
-
-1. Append `/home/linuxbrew/.linuxbrew/bin` into the secure path for sudoers.
-
-        :::bash
-        sed '/^Defaults\s\+secure_path\s*=/s/$/:\/home\/linuxbrew\/.linuxbrew\/bin/g' /etc/sudoers
 
 1. Replace all ` + ` with `_` in the first (header) line.
 
