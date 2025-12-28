@@ -6,7 +6,7 @@ Slug: package-management-in-linux
 Title: Package Management in Linux
 Category: OS
 Tags: Linux, package management, wajig, apt-get, dpkg
-Modified: 2025-12-27 19:36:27
+Modified: 2025-12-27 19:37:46
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -20,7 +20,8 @@ There are many different ways to install packages in Linux.
     For example,
     - Debian, Ubuntu Series: 
         - `apt-get` (and `apt-*`): low-level
-        - `apt` and `aptitude`: more user friendly
+        - `apt`: user friendly
+        - `aptitude`: even more user friendly
     - Fedora: dnf
     Notice that Atomic Linux distributions have their own version of package managing tools.
     For example,
