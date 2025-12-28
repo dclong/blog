@@ -5,7 +5,7 @@ Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
 Category: Computer Science
 Tags: Computer Science, GitHub Actions, CICD
-Modified: 2025-11-23 11:53:18
+Modified: 2025-12-28 09:13:01
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -38,8 +38,6 @@ Modified: 2025-11-23 11:53:18
     but this doesn't give you much priviledge
     as the root account in a GitHub Actions VM is restricted too.
 
-3. OS: ubuntu-latest, windows-latest, macOS-latest
-
 5. Good practices for GitHub repository with GitHub Actions workflows:
     - Have 2 protected branches `main` and `dev`,
         where `main` is reserved for releasing 
@@ -47,6 +45,14 @@ Modified: 2025-11-23 11:53:18
     - Fork the `dev` branch for development.
     - A PR from `dev` to `main` should be made 
         when it is ready to release a new version.
+
+## Runner Images
+
+1. OS: ubuntu-latest, windows-latest, macOS-latest
+
+Please refer to
+[runner-images](https://github.com/actions/runner-images)
+for support OS images for VMs.
 
 ## Branch Matching
 
