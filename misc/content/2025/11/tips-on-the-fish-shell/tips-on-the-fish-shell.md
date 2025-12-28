@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-11-11 18:13:06
-Modified: 2025-12-25 12:42:11
+Modified: 2025-12-28 11:33:58
 Author: Benjamin Du
 Slug: tips-on-the-fish-shell
 Title: Tips on the Fish Shell
@@ -47,7 +47,7 @@ for a more comprehensive list of key bindings.
 
 ## Linting Tools for Fish Scripts
 
-The fish shell provides built-in tools for lingting.
+The fish shell provides built-in tools for lingting.  
 - `fish_ident`: format fish scripts.  
 - `fish -n`: check syntax of fish scripts.  
 
