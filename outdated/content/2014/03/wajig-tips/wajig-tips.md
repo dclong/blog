@@ -5,9 +5,12 @@ Slug: wajig-tips
 Title: Tips on Wajig
 Category: OS
 Tags: Wajig, Linux, package management, tips
-Modified: 2020-03-07 22:54:45
+Modified: 2025-12-27 19:36:27
 
-**Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
+**Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
+
+
+`apt` and `aptitude` are preferred to wajig.
 
 [Wajig on Debian Wiki](https://wiki.debian.org/Wajig)
 
