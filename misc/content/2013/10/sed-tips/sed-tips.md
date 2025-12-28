@@ -1,11 +1,11 @@
 Status: published
 Author: Ben Chuanlong Du
 Date: 2013-10-22 15:47:51
-Title: Tips on "sed"
+Title: Transform Text Using sed
 Slug: sed-tips
 Category: Software
 Tags: tips, software, text manipulation, shell, Linux, sed
-Modified: 2025-12-27 08:39:45
+Modified: 2025-12-28 11:41:02
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
