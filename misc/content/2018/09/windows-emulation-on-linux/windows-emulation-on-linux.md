@@ -5,7 +5,7 @@ Slug: windows-emulation-on-linux
 Title: Windows Emulation on Linux
 Category: Software
 Tags: software, VirtualBox, Wine, CrossOver, Windows Emulation
-Modified: 2025-12-25 18:23:08
+Modified: 2025-12-27 22:46:13
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -30,6 +30,15 @@ Virtual machine is the recommend way to emulate Windows working environment on L
 [ReactOS](https://reactos.org/)
 ([@GitHub](https://github.com/reactos/reactos))
 is a free Windows-compatible Operating System
+.
+However,
+ReactOS has been in alpha stage for about 30 years.
+It's not recommended.
+
+## WinBoat (Strongly Recommended)
+
+[WinBoat](https://www.winboat.app/)
+runs Windows apps on Linux with seamless integration
 .
 
 ## WinApps 
