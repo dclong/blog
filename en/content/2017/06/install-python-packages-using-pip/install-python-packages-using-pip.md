@@ -5,7 +5,8 @@ Slug: install-python-packages
 Title: Install Python Packages Using pip
 Category: Computer Science
 Tags: programming, Python, package, module, install, pip, conda
-Modified: 2021-04-05 08:26:34
+Modified: 2025-12-29 13:55:30
+
 ## PyPi Statistics
 
 You can check download statistics of Python Packages on PYPI at https://pypistats.org/.
@@ -13,24 +14,12 @@ This is especially helpful if you want to choose from multiple packages.
 
 ## Prefer [pip](https://pip.pypa.io/en/stable/reference/)
 
-[pip](https://pip.pypa.io/en/stable/reference/)
-is preferred over OS tools
-(e.g., `apt-get`, `yum`, `wajig`, `aptitude`, etc.) for managing Python packages.
-If you are using Anaconda Python,
-use `conda` (instead of `pip`) to manage Python packages
-especially when you encounter dependency issues.
+Virtual environment + [pip](https://pip.pypa.io/en/stable/reference/)
+is the preferred way to install Python packages.
 
 ## [Install pip](https://pip.pypa.io/en/stable/installing/)
 
-### On Ubuntu
-
-```Bash
-apt-get install python3-pip
-```
-
-### On Mac
-
-`pip` should have already been installed when you instal Python using Homebrew or Anaconda.
+`pip` should be already available when you create a Python virtual environment.
 
 ## Bootstrapping the pip Installer
 
@@ -40,25 +29,6 @@ provides support for bootstrapping the pip installer into an existing Python ins
 ```Bash
 sudo python3 -m ensurepip
 ```
-
-## Proper Way of Using pip
-
-1. pip can be upgrade using the following command. 
-
-        :::bash
-        pip3 install --upgrade pip
-
-    However,
-    you should avoid doing this (as it might causes issues) 
-    unless you have to upgrade and you are an experienced user.
-    It is recommended that you upgrade pip via the system package management tools only.
-
-2. Do NOT use `sudo pip install pkg1 pkg2` install packages to system-wide locations. 
-    Instead, use `pip install --user pkg1 pkg2` to install packages to your local directory.
-
-https://github.com/pypa/pip/issues/5599
-
-https://stackoverflow.com/questions/49940813/pip-no-module-named-internal
 
 ## Install a Specific Version of a Python Package
 
