@@ -17,12 +17,8 @@ There are many different ways to install packages in Linux.
 
 3. Use distribution specific tools.
     For example,
-    - Debian, Ubuntu Series: 
-        - dpkg: low-level (without deps manageent)
-        - `apt-get` (and `apt-*`): low-level (with deps management)
-        - `apt`: user friendly
-        - `aptitude`: even more user friendly
-        - ~~wajig~~: use `apt` or `aptitude` instead
+
+    - [Debian, Ubuntu Series]( https://www.legendu.net/misc/blog/package-management-for-debian-and-ubuntu )
     - Fedora: dnf
 
     Notice that Atomic Linux distributions have their own version of package managing tools.
