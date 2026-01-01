@@ -3,7 +3,7 @@ name = "blog"
 version = "0.1.0"
 description = "Ben Du's personal blog."
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "aiutil>=0.83.0",
     "loguru>=0.7.3",
