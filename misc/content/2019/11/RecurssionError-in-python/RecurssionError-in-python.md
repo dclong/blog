@@ -5,7 +5,7 @@ Slug: RecurssionError-in-python
 Title: RecurssionError in Python
 Category: Computer Science
 Tags: programming, Python, tail recursion elemination, RecursionError
-Modified: 2019-11-01 19:28:38
+Modified: 2026-01-01 08:42:26
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -17,10 +17,10 @@ Modified: 2019-11-01 19:28:38
 
 ## References
 
-[Recursion Error While Handling Recursion Error](https://nickdrozd.github.io/2019/06/03/recursion-error.html)
+- [Exception and Error Handling in Python](https://misc.legendu.net/blog/exception-and-error-handling-in-python/)
 
+- [Recursion Error While Handling Recursion Error](https://nickdrozd.github.io/2019/06/03/recursion-error.html)
 
-[Python: maximum recursion depth exceeded while calling a Python object](https://stackoverflow.com/questions/6809402/python-maximum-recursion-depth-exceeded-while-calling-a-python-object)
+- [Python: maximum recursion depth exceeded while calling a Python object](https://stackoverflow.com/questions/6809402/python-maximum-recursion-depth-exceeded-while-calling-a-python-object)
 
-
-[Tail Recursion Elimination](http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html)
+- [Tail Recursion Elimination](http://neopythonic.blogspot.com/2009/04/tail-recursion-elimination.html)
