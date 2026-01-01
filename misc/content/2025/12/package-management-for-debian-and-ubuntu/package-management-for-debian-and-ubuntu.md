@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-12-29 19:31:07
-Modified: 2025-12-29 19:31:07
+Modified: 2026-01-01 09:01:37
 Author: Benjamin Du
 Slug: package-management-for-debian-and-ubuntu
 Title: Package Management for Debian and Ubuntu
@@ -16,7 +16,7 @@ Tags: Computer Science, Linux, Debian, Ubuntu, package, management, apt, get, ap
 - ~~wajig~~: use `apt` or `aptitude` instead
 
 Overall, 
-apt and aptitude are recommended.
+`apt` and `aptitude` are recommended.
 
 ## aptitude
 

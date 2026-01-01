@@ -5,7 +5,7 @@ Slug: package-management-in-linux
 Title: Package Management in Linux
 Category: OS
 Tags: Linux, Ubuntu, Debian, RedHat, package management, wajig, apt-get, dpkg
-Modified: 2025-12-28 11:37:15
+Modified: 2026-01-01 09:01:37
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
