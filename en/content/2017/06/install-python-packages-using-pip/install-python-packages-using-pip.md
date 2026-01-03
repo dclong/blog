@@ -5,14 +5,14 @@ Slug: install-python-packages
 Title: Install Python Packages Using pip
 Category: Computer Science
 Tags: programming, Python, package, module, install, pip, conda
-Modified: 2025-12-29 13:55:30
+Modified: 2026-01-02 19:49:12
 
 ## PyPi Statistics
 
 You can check download statistics of Python Packages on PYPI at https://pypistats.org/.
 This is especially helpful if you want to choose from multiple packages.
 
-## Prefer [pip](https://pip.pypa.io/en/stable/reference/)
+## Prefer Virtual Environment + [pip](https://pip.pypa.io/en/stable/reference/)
 
 Virtual environment + [pip](https://pip.pypa.io/en/stable/reference/)
 is the preferred way to install Python packages.
