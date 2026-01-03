@@ -533,13 +533,12 @@ class Blogger:
         """
         self._db = db if db else str(BASE_DIR / ".blogger.sqlite3")
         self._conn = sqlite3.connect(self._db)
-        options = self._conn.execute("pragma compile_options").fetchall()
-        self._fts = "fts5" if ("ENABLE_FTS5",) in options else "fts4"
+        self._conn.execute("PRAGMA journal_mode=WAL")
         self._create_vtable_posts()
 
     def _create_vtable_posts(self):
         sql = f"""
-            CREATE VIRTUAL TABLE IF NOT EXISTS posts USING {self._fts} (
+            CREATE VIRTUAL TABLE IF NOT EXISTS posts USING fts5 (
                 {", ".join(POSTS_COLS)},
                 tokenize = porter
             )
