@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-11-11 18:13:06
-Modified: 2025-12-28 11:33:58
+Modified: 2026-01-02 22:54:34
 Author: Benjamin Du
 Slug: tips-on-the-fish-shell
 Title: Tips on the Fish Shell
@@ -23,6 +23,8 @@ icon fish -ic
 ```
 
 ## Key Bindings
+
+Use the built-in function `fish_key_reader` to tell you how to bind shortcuts.
 
 <table class="tg"><thead>
   <tr>
