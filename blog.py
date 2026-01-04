@@ -1,7 +1,6 @@
 #!.venv/bin/python3
 from __future__ import annotations
 import re
-from pathlib import Path
 from argparse import ArgumentParser, Namespace
 import subprocess as sp
 import getpass
@@ -299,26 +298,6 @@ def auto_git_push(blogger, args):
     sp.run(cmd, shell=True, check=False)
     cmd = f"""git -C {BASE_DIR} push origin master"""
     sp.run(cmd, shell=True, check=True)
-
-
-def symlink():
-    blog = Path.home() / ".local/bin/blog"
-    try:
-        blog.unlink()
-    except FileNotFoundError:
-        pass
-    try:
-        blog.symlink_to(Path(__file__).resolve())
-    except:
-        pass
-
-
-def _subparse_link(subparsers):
-    desc = "Link main.py to blog in a searchable path."
-    subparser_link = subparsers.add_parser(
-        "symlink", aliases=["link", "ln", "lk"], help=desc, description=desc
-    )
-    subparser_link.set_defaults(func=lambda blogger, args: symlink())
 
 
 def clean_db(blogger, _):
@@ -1011,7 +990,6 @@ def parse_args(args=None, namespace=None) -> Namespace:
     _subparse_exec_notebook(subparsers)
     _subparse_format_notebook(subparsers)
     _subparse_trust_notebooks(subparsers)
-    _subparse_link(subparsers)
     _subparse_convert(subparsers)
     return parser.parse_args(args=args, namespace=namespace)
 

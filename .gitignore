@@ -1,6 +1,8 @@
 core.*
 .blogger.sqlite3
 .blogger.sqlite3-journal
+.blogger.sqlite3-shm
+.blogger.sqlite3-wal
 *.pyc
 *.swp
 *.swo
@@ -26,4 +28,4 @@ metastore_db/
 .jukit/
 dist/
 j
-j.txt
+j*.txt

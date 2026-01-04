@@ -1,5 +1,5 @@
-"""Utils for the blog module.
-"""
+"""Utils for the blog module."""
+
 from typing import List, Sequence
 import os
 from pathlib import Path

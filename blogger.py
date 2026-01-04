@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-"""Main logic of the blogging system.
-"""
+"""Main logic of the blogging system."""
+
 from __future__ import annotations
-from typing import TypeAlias, Sequence
+from typing import TypeAlias, Sequence, Iterable
 from collections import namedtuple
 import os
 import re
@@ -147,7 +147,7 @@ class Post:
                 fout.writelines(
                     line
                     for line in lines[index:index_5]
-                    if not line.strip() in (DISCLAIMER_MISC, DISCLAIMER_OUTDATED)
+                    if line.strip() not in (DISCLAIMER_MISC, DISCLAIMER_OUTDATED)
                 )
                 fout.writelines(lines[index_5:])
             return
@@ -263,7 +263,7 @@ class Post:
         content = title + "\n" + category + "\n" + tags + "\n" + "".join(content)
         name_title_mismatch = self.is_name_title_mismatch(title)
         return Record(
-            self.path.relative_to(BASE_DIR),
+            str(self.path.relative_to(BASE_DIR)),
             self.blog_dir(),
             status,
             date,
@@ -319,7 +319,7 @@ class Post:
                 tags = line[7:].strip()
         name_title_mismatch = self.is_name_title_mismatch(title)
         return Record(
-            self.path.relative_to(BASE_DIR),
+            str(self.path.relative_to(BASE_DIR)),
             self.blog_dir(),
             status,
             date,
@@ -583,9 +583,20 @@ class Blogger:
             if is_post(path) and not path.parent.name.startswith(".")
         )
         logger.info("Reloading posts into SQLite3 ...")
-        for path in tqdm(paths):
-            self.load_post(Post(path))
+        batch = 1000
+        for i in tqdm(range(0, len(paths), batch)):
+            self.load_posts((Post(p) for p in paths[i : i + batch]))
         self.commit()
+
+    def load_posts(self, posts: Iterable[Post]):
+        sql = f"""
+            INSERT INTO posts (
+                {", ".join(POSTS_COLS)}
+            ) VALUES (
+                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+            )
+            """
+        self._conn.executemany(sql, (post.record() for post in posts))
 
     def load_post(self, post: Post):
         sql = f"""

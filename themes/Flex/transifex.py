@@ -4,6 +4,7 @@ transifex.py - Tool to manage Transifex translations
     u, up, update <DIR>  Download all translations from Transifex
     l, list              List all translations available on Transifex
 """
+
 import os
 import sys
 
@@ -17,7 +18,10 @@ RESOURCE_SLUG = "messagespot"
 
 def get_languages():
     url = "{api_url}/project/{project_slug}/languages/".format(
-        **{"api_url": API_URL, "project_slug": PROJECT_SLUG,}
+        **{
+            "api_url": API_URL,
+            "project_slug": PROJECT_SLUG,
+        }
     )
 
     req = requests.get(url, auth=("api", API_KEY))
