@@ -213,7 +213,7 @@ def last(blogger, args):
 
 
 def reload(blogger, _):
-    blogger.reload_records()
+    blogger.reload_posts()
 
 
 def add(blogger, args):
