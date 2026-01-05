@@ -25,7 +25,7 @@ dev = [
 ]
 
 [tool.ruff]
-extend_exclude = [
+extend-exclude = [
     "themes/",
 ]
 

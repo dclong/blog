@@ -2,18 +2,18 @@
 # encoding: utf-8
 """Main logic of the blogging system."""
 
-from __future__ import annotations
-from typing import TypeAlias, Sequence, Iterable
+from concurrent.futures import InterpreterPoolExecutor
 from collections import namedtuple
-import os
-import re
-import sys
-import sqlite3
 import datetime
-import shutil
-from pathlib import Path
-import subprocess as sp
 import json
+import os
+from pathlib import Path
+import re
+import shutil
+import sqlite3
+import subprocess as sp
+import sys
+from typing import TypeAlias, Sequence, Iterable
 import yaml
 from loguru import logger
 from tqdm import tqdm
@@ -62,6 +62,17 @@ def is_post(path: Path | str) -> bool:
     if isinstance(path, str):
         path = Path(path)
     return path.suffix in (MARKDOWN, IPYNB)
+
+
+def parse_records() -> list[Record]:
+    logger.info("Parsing posts into records ...")
+    paths = list(
+        path
+        for path in BASE_DIR.glob("*/content/**/*")
+        if is_post(path) and not path.parent.name.startswith(".")
+    )
+    with InterpreterPoolExecutor() as executor:
+        return executor.map(lambda p: Post(p).record(), paths)
 
 
 class Post:
@@ -577,18 +588,14 @@ class Blogger:
         """Reload posts into the SQLite3 database."""
         self._create_vtable_posts()
         self.execute("DELETE FROM posts")
-        paths = list(
-            path
-            for path in BASE_DIR.glob("*/content/**/*")
-            if is_post(path) and not path.parent.name.startswith(".")
-        )
-        logger.info("Reloading posts into SQLite3 ...")
+        records = parse_records()
+        logger.info("Inserting records into SQLite3 ...")
         batch = 1000
-        for i in tqdm(range(0, len(paths), batch)):
-            self.load_posts((Post(p) for p in paths[i : i + batch]))
+        for i in tqdm(range(0, len(records), batch)):
+            self.load_records(records[i : i + batch])
         self.commit()
 
-    def load_posts(self, posts: Iterable[Post]):
+    def load_records(self, records: Iterable[Record]):
         sql = f"""
             INSERT INTO posts (
                 {", ".join(POSTS_COLS)}
@@ -596,7 +603,7 @@ class Blogger:
                 ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
             )
             """
-        self._conn.executemany(sql, (post.record() for post in posts))
+        self._conn.executemany(sql, records)
 
     def load_post(self, post: Post):
         sql = f"""
