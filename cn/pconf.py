@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from pathlib import Path
-from pelican_jupyter import markup as nb_markup
 import math
 from loguru import logger
 

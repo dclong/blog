@@ -24,3 +24,13 @@ dev = [
     "ty>=0.0.8",
 ]
 
+[tool.ruff.lint]
+exclude = [
+    "themes/",
+    "**/*.ipynb",
+]
+
+[tool.ty.src]
+exclude = [
+    "**/*.ipynb",
+]
