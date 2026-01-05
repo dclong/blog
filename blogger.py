@@ -2,10 +2,10 @@
 # encoding: utf-8
 """Main logic of the blogging system."""
 
-from concurrent.futures import InterpreterPoolExecutor
 from collections import namedtuple
 import datetime
 import json
+import multiprocessing
 import os
 from pathlib import Path
 import re
@@ -64,6 +64,10 @@ def is_post(path: Path | str) -> bool:
     return path.suffix in (MARKDOWN, IPYNB)
 
 
+def _parse_record(path: Path):
+    return Post(path).record()
+
+
 def parse_records() -> list[Record]:
     logger.info("Parsing posts into records ...")
     paths = list(
@@ -71,8 +75,8 @@ def parse_records() -> list[Record]:
         for path in BASE_DIR.glob("*/content/**/*")
         if is_post(path) and not path.parent.name.startswith(".")
     )
-    with InterpreterPoolExecutor() as executor:
-        return executor.map(lambda p: Post(p).record(), paths)
+    with multiprocessing.Pool() as pool:
+        return pool.map(_parse_record, paths)
 
 
 class Post:
