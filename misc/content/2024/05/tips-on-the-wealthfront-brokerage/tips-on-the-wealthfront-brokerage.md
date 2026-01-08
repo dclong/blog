@@ -1,6 +1,6 @@
 Status: published
 Date: 2024-05-06 10:36:44
-Modified: 2025-04-15 12:49:04
+Modified: 2026-01-08 00:32:07
 Author: Benjamin Du
 Slug: tips-on-the-wealthfront-brokerage
 Title: Tips on the WealthFront Brokerage
@@ -19,3 +19,4 @@ it does not allow you to set orders to trade stocks, ETFs, etc.
 
 - [Understanding Wealthfront fees](https://support.wealthfront.com/hc/en-us/articles/13992378758676-Understanding-Wealthfront-fees)
 
+- [How do I import my tax information into TurboTax or similar applications?](https://support.wealthfront.com/hc/en-us/articles/209367786-How-do-I-import-my-tax-information-into-TurboTax-or-similar-applications)
