@@ -5,7 +5,7 @@ Slug: tips-on-github-actions
 Title: Tips on GitHub Actions
 Category: Computer Science
 Tags: Computer Science, GitHub Actions, CICD
-Modified: 2025-12-28 09:13:01
+Modified: 2026-01-08 11:31:40
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -26,7 +26,7 @@ Modified: 2025-12-28 09:13:01
     which might have issues triggering other pipelines listening to PR events.
     A simple solution to this problem is to manually create a repository secret (e.g., `GITHUBACTIONS`)
     and use it to autenticate the GitHub Action 
-    [create-pull-request](https://github.com/peter-evans/create-pull-request) with `GITHUB_TOKEN` 
+    [create-pull-request](https://github.com/peter-evans/create-pull-request)
     .
 
 3. Rust cannot be installed into a global location 
