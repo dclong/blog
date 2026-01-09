@@ -5,7 +5,7 @@ Slug: useful-tools-linux
 Title: Useful Tools in Linux
 Category: OS
 Tags: shell, remote, PDF, software, tools, terminal, application, Linux
-Modified: 2021-12-24 11:08:51
+Modified: 2026-01-09 11:29:58
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
@@ -21,8 +21,6 @@ to find software/tools for all kinds of purposes.
 ### [Linux Desktop Environment](http://www.legendu.net/misc/blog/desktop-environments-for-linux/)
 
 ### [Linux Package Management](http://www.legendu.net/misc/blog/package-management-in-linux/)
-
-### [Terminal Tools](http://www.legendu.net/misc/blog/linux-terminal-tips/)
 
 ### [Administer](http://www.legendu.net/misc/blog/linux-administrator-tools/)
 
@@ -203,11 +201,6 @@ to find software/tools for all kinds of purposes.
 5. LevelDB (embedded, for simple key-value data)
 
 ## Daily Work Tools (Office Tools, etc.)
-
-### Well Supported Printers
-
-1. HP
-2. Brother
 
 ### Pinyin Input Method
 1. Sogou Pinyin
