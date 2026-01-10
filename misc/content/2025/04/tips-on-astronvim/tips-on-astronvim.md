@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-28 10:55:17
-Modified: 2025-12-21 20:44:03
+Modified: 2026-01-10 15:37:50
 Author: Benjamin Du
 Slug: tips-on-astronvim
 Title: Tips on AstroNvim
@@ -14,6 +14,12 @@ Tags: Computer Science, programming, IDE, Vim, AstroNvim, NeoVim, LSP
 
 Use the command `:LspInstall` to open the prompt 
 to select a LSP to install for the current file type.
+
+## Snippets
+
+https://github.com/L3MON4D3/LuaSnip
+
+https://github.com/rafamadriz/friendly-snippets
 
 ## References
 
