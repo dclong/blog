@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-01 13:48:59
-Modified: 2025-10-23 00:02:49
+Modified: 2026-01-14 10:38:48
 Author: Benjamin Du
 Slug: hot-water-in-the-house
 Title: Hot Water in the House
@@ -30,3 +30,6 @@ https://www.youtube.com/watch?v=lE2QFLlEXNw
 https://www.youtube.com/watch?v=hwbHs7KUCzE
 
 https://www.rewci.com/whole-house-instant-hot-water-circulator.html
+
+
+
