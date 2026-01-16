@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-08-01 13:48:59
-Modified: 2026-01-14 10:38:48
+Modified: 2026-01-15 23:14:59
 Author: Benjamin Du
 Slug: hot-water-in-the-house
 Title: Hot Water in the House
@@ -17,9 +17,20 @@ Tags: life, house, hot, water
 2. Keep a bucket to store cold water and use it to flush your toilet.
 
 
+## Adjust The Temperature of Hot Water
+
+1. Turn the temperature to low when you are on vacation.
+
+- [Water heater booster/mixing valve. Does it work?](https://www.youtube.com/watch?v=jswtdftPdy0)
+
+- [Water Heater Temperature Setting - Honeywell Gas Control](https://www.youtube.com/watch?v=XKy2o_tci9Q)
+
+- [How do I adjust my temperature on my gas water heater? - A Master Plumber Explains](https://www.youtube.com/watch?v=1s7n_nwAk1k)
+
 ## Water Saving Tips
 
 https://www.budgetdumpster.com/blog/how-to-reuse-water/
+
 
 ## References
 
