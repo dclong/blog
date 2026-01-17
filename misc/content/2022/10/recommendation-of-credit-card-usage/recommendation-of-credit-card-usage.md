@@ -15,6 +15,12 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
 
 2. Costco is a wholesale. It is not considered as a grocery or supermarket for cashback bonus purposes.
 
+3. When multiple credit cards provide 3% cashback, 
+    prefer other cards to Robinhood Gold card
+    as
+    - 1 point worths only 0.7 cent in Robinhood Gold Card if you do auto redeem
+    - no discount on gift cards when purchased using Robinhood Gold Card points 
+
 ## Glossory
 
 - ASC: Amazon Store Card
@@ -42,42 +48,6 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
   </tr>
 </thead>
 <tbody>
-  <tr>
-    <td>Rent</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td> </td>
-    <td>  </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> 
-      <span style="color:green">
-        Bilt 
-        <sup>[1]</sup>
-      </span>
-    </td>
-  </tr>
-  <tr>
-    <td>Mortgage</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td> </td>
-    <td>  </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> 
-      <span style="color:green">
-        Bilt 
-        <sup>[9]</sup>
-      </span>
-    </td>
-  </tr>
   <tr>
     <td>Costco</td>
     <td></td>
@@ -163,8 +133,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td>
     </td>
     <td>
-      <span style="color:green">RGC</span><br>
       <span style="color:green">Citi-C</span><br>
+      <span style="color:green">RGC</span><br>
     </td>
     <td>
     </td>
@@ -203,8 +173,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     </td>
     <td></td>
     <td> 
-      <span style="color:green">RGC</span>
       <span style="color:green">Sapphire<sup>[6]</sup></span>
+      <span style="color:green">RGC</span>
     </td>
     <td>
       <span style="color:green">BOA-M</span>
@@ -305,8 +275,8 @@ Tags: Life, shopping, discount, credit card, coupon, money, finance
     <td></td>
     <td></td>
     <td>
-      <span style="color:green">RGC</span> <sup>[4]</sup>
       <span style="color:green">Sapphire</span> <sup>[5]</sup>
+      <span style="color:green">RGC</span> <sup>[4]</sup>
     </td>
 
     <td> </td>
