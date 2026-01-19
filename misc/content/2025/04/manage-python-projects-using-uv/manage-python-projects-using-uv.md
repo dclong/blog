@@ -1,6 +1,6 @@
 Status: published
 Date: 2025-04-30 06:16:38
-Modified: 2025-12-09 03:56:33
+Modified: 2026-01-19 08:18:16
 Author: Benjamin Du
 Slug: manage-python-projects-using-uv
 Title: Manage Python Projects Using uv
@@ -22,6 +22,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sudo env UV_INSTALL_DIR="/usr/local
 ## Usage
 
 ### Run Executable Scripts of Python Packages
+
+1. Run `python -m http.server` to start a simple http server.
+
+        uvx python -m http.server
 
 1. Run the ruff tool.
 
