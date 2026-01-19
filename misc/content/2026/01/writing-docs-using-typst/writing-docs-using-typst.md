@@ -1,6 +1,6 @@
 Status: published
 Date: 2026-01-17 17:22:31
-Modified: 2026-01-17 23:37:46
+Modified: 2026-01-18 16:58:38
 Author: Benjamin Du
 Slug: writing-scientific-docs-using-typst
 Title: Writing Scientific Docs Using Typst
@@ -41,25 +41,23 @@ It currently addresses the following use cases:
 
 ## Python Support
 
-```
-#import "@preview/pyrunner:0.3.0" as py
-
-
-#let some_code = ```
-a = 1.3;
-b = 2.5;
-c = a * b;
-
-def values(v):
-  return globals().get(v)
-```
-#let some_compiled = py.compile(some_code);
-
-#let get(v) = {
-  float(py.call(some_compiled , "values", v))
-}
-
-Using $A = get("a")$, $B = get("b")$, $c = get("c")$
-```
-
 https://github.com/messense/typst-py
+
+    #import "@preview/pyrunner:0.3.0" as py
+
+
+    #let some_code = ```
+    a = 1.3;
+    b = 2.5;
+    c = a * b;
+
+    def values(v):
+      return globals().get(v)
+    ```
+    #let some_compiled = py.compile(some_code);
+
+    #let get(v) = {
+      float(py.call(some_compiled , "values", v))
+    }
+
+    Using $A = get("a")$, $B = get("b")$, $c = get("c")$
