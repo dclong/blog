@@ -1,11 +1,11 @@
-Status: draft
+Status: published
 Title: Classification
 Date: 2013-03-23 22:22:34
 Tags: CART, machine learning, random forests, statistics, classification, SVM, neuron network, regression
 Category: AI
 Slug: classification
 Author: Ben Chuanlong Du
-Modified: 2020-05-23 22:22:34
+Modified: 2026-01-20 15:34:31
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
  
@@ -45,7 +45,7 @@ and $N$ is the number of observations.
 - SVM can be generalized to the multi-class problems. 
 
 
-##  Logistic Regression 
+## Logistic Regression 
 Linear separation. 
 Logistic Regression is a specially case of the generalized linear regression,
 where the response is binary. 
