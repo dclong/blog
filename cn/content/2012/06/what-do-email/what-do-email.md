@@ -1,4 +1,3 @@
-UUID: 62e315ae-df28-4d9c-8f54-4efa5df4123f
 Status: published
 Title: 会自动收发邮件后你可以做什么？
 Date: 2012-06-13 00:00:00

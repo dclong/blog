@@ -2,8 +2,8 @@ Status: published
 Date: 2021-07-19 10:54:16
 Modified: 2022-07-18 16:02:21
 Author: Benjamin Du
-Slug: 中文工具
-Title: 中文工具
+Slug: tools-chinese-characters
+Title: Tools for Chinese Characters
 Category: Computer Science
 Tags: Computer Science, Chinese, font, word, 汉字, 中文, type, input, online
 
