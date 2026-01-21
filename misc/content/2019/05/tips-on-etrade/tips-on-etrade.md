@@ -28,7 +28,7 @@ Modified: 2023-12-15 07:06:01
 
 4. [Power eTrade](https://us.etrade.com/platforms/power-etrade)
     is the preferred trading platform for active traders.
-    ![Power eTrade](https://private-user-images.githubusercontent.com/824507/290857023-f0c0830a-6504-4df1-a5c6-37403e37b1f0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI2NTI1ODQsIm5iZiI6MTcwMjY1MjI4NCwicGF0aCI6Ii84MjQ1MDcvMjkwODU3MDIzLWYwYzA4MzBhLTY1MDQtNGRmMS1hNWM2LTM3NDAzZTM3YjFmMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxNVQxNDU4MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00M2MzMjc4YjZkYTU4MDBkMTZlOGRlZjU1MmZjNTgyNjE3NzNhMTE3NDhhM2RkMzRjM2VhMTFiMTA0MzBjODg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.hqhodF9qpSFimDEyqZnUJMCJ-JV-wtgtCzbjDEJ9CGA)
+    ![Power eTrade](https://github.com/legendu-net/blog/assets/824507/f0c0830a-6504-4df1-a5c6-37403e37b1f0)
 
 ## Questions
 

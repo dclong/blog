@@ -90,7 +90,7 @@ strongly suggest 20-inch wheels against 22-inch wheels.
 ## Snow Tires, Snow Chains and Snow Socks
 
 
-![](https://private-user-images.githubusercontent.com/824507/495785320-8f3530e3-01e6-4326-b8a4-69a1df59e67f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTk2MzA4MDgsIm5iZiI6MTc1OTYzMDUwOCwicGF0aCI6Ii84MjQ1MDcvNDk1Nzg1MzIwLThmMzUzMGUzLTAxZTYtNDMyNi1iOGE0LTY5YTFkZjU5ZTY3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAwNVQwMjE1MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iY2ZjYjk4ZDhlODY2MDA4ODczYTUwYjMzYzliN2EzZTc2MTE2ZmExMjdlYTIzODViZTAzNGFlMGJhMDVjOGJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.8fsFypfCBMkES2Wyv_GHL4qKoH48Ch2VccLyYCcb50Q)
+![](https://github.com/user-attachments/assets/8f3530e3-01e6-4326-b8a4-69a1df59e67f)
 
 
 - [20" All-Season Wheel and Tire Set](https://gearshop.rivian.com/products/20-in-all-season-wheel-and-tire-set?_pos=11&_sid=413bccd3e&_ss=r)

@@ -9,7 +9,7 @@ Tags: Computer Science, AI, data science, machine learning, scaling law, model
 
 **Things on this page are fragmentary and immature notes/thoughts of the author. Please read with your own judgement!**
 
-![](https://private-user-images.githubusercontent.com/824507/290104980-7bea7f19-6f44-47ed-978f-7f59b94213d8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDI0NTE3NzAsIm5iZiI6MTcwMjQ1MTQ3MCwicGF0aCI6Ii84MjQ1MDcvMjkwMTA0OTgwLTdiZWE3ZjE5LTZmNDQtNDdlZC05NzhmLTdmNTliOTQyMTNkOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIxM1QwNzExMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZGRlYTY1YTgxODE5MmNlMGU4OTE0YmUxMWViYzQzOTAzNDg2YTI0YWVmODMwZmJlZGQ2YjFiZGMzNTYyNjMyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.4uX7-4axLqR5ZR7b0se6kzKFnZ4tse79Z2kQF4HRf4Q)
+![image](https://github.com/legendu-net/blog/assets/824507/7bea7f19-6f44-47ed-978f-7f59b94213d8)
 
 [Beyond neural scaling laws – Paper Explained](https://www.youtube.com/watch?v=joZaCw5PxYs)
 

@@ -46,7 +46,9 @@ e.g.,
 [Amazon Basics 4 Gallon Trash Bags, Flap Ties, Fresh Scent, 80 Count, Pack of 1](https://www.amazon.com/dp/B09NQGR39K?psc=1&ref=ppx_yo2ov_dt_b_product_details)
 , 
 proceed to checkout (but do not place the order)
-and look for "P&G Promo Credit" in [order summary](https://private-user-images.githubusercontent.com/824507/354942960-12d58f8e-f52f-419d-84fc-f6025d506b8f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI4MjA3NDQsIm5iZiI6MTcyMjgyMDQ0NCwicGF0aCI6Ii84MjQ1MDcvMzU0OTQyOTYwLTEyZDU4ZjhlLWY1MmYtNDE5ZC04NGZjLWY2MDI1ZDUwNmI4Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwODA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDgwNVQwMTE0MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yNzAyM2UyMGY5YzMxMWQ2MDRmYTk2YjIzNGYzYzlkZjAyOWJhZjg1OTEwMmU3OTExYTczMzFhMzVmY2U3ODI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.w0_ju6vIZw3V9XpfPLPjS4fWJxOtWWTzD756VUlV7-g).
+and look for "P&G Promo Credit" in 
+[order summary](https://github.com/user-attachments/assets/12d58f8e-f52f-419d-84fc-f6025d506b8f)
+.
 If "Total before tax" is $0.00, 
 it means that there might be more promotion credit left. 
 You can increase the quantity of the item until "Total before tax" is positive,
