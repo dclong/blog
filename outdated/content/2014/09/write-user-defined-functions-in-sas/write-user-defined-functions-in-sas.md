@@ -1,12 +1,11 @@
-UUID: 03a0e2cd-fce2-48ec-9fdd-4addcaad0021
 Status: published
 Date: 2014-09-28 16:57:06
 Author: Ben Chuanlong Du
 Slug: write user-defined functions in sas
 Title: Write User-defined Functions in SAS
 Category: Computer Science
-Tags: programming, SAS, user-defined function, `FCMP`
-Modified: 2015-08-28 16:57:06
+Tags: programming, SAS, user-defined function, FCMP
+Modified: 2026-01-21 08:37:08
 
 **Things under legendu.net/outdated are outdated technologies that the author does not plan to update any more. Please look for better alternatives.**
 
