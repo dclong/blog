@@ -1,5 +1,7 @@
 # [Easy Blogging Using Python and Pelican](https://github.com/dclong/blog)
 
+# Deprecated in favor of https://github.com/legendu-net/blog.
+
 ## Help Doc 
 
 ./blog.py -h  
